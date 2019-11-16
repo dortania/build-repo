@@ -1,0 +1,39 @@
+{
+    "WhateverGreen": {
+        "type": "kext",
+        "versions": [
+            {
+                "commit": "f5c4211b160f00b6b495112ae59cc23cec6a541b",
+                "commitdescription": "latest release",
+                "version": "1.3.4",
+                "dateadded": "20191030-08:12:00",
+                "developer": "false",
+                "knowngood": "true",
+                "hashes": {
+                    "debug": {
+                        "sha256": "8c1460df36d21ae8bf2779572a7b82bfa683bc55a058b885d9c79f7fa28d8a1a"
+                    },
+                    "release": {
+                        "sha256": "040cca1eb44e314c303e79ae401da0c8078a621002a077a2465394d2058c3db1"
+                    }
+                },
+                "links": {
+                    "debug": "https://github.com/acidanthera/WhateverGreen/releases/download/1.3.4/WhateverGreen-1.3.4-DEBUG.zip",
+                    "release": "https://github.com/acidanthera/WhateverGreen/releases/download/1.3.4/WhateverGreen-1.3.4-RELEASE.zip"
+                }
+            },
+            {
+                "commit": "f5c4211b160f00b6b495112ae59cc23cec6a541b",
+                "commitdescription": "latest release",
+                "version": "1.3.4",
+                "dateadded": "20191030-08:12:00",
+                "developer": "false",
+                "knowngood": "true",
+                "debug": "https://github.com/acidanthera/WhateverGreen/releases/download/1.3.4/WhateverGreen-1.3.4-DEBUG.zip",
+                "debug-sha256": "8c1460df36d21ae8bf2779572a7b82bfa683bc55a058b885d9c79f7fa28d8a1a",
+                "release": "https://github.com/acidanthera/WhateverGreen/releases/download/1.3.4/WhateverGreen-1.3.4-RELEASE.zip",
+                "release-sha256": "040cca1eb44e314c303e79ae401da0c8078a621002a077a2465394d2058c3db1"
+            }
+        ]
+    }
+}
