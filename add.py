@@ -51,7 +51,7 @@ def add_built(plugin):
                 # print("Found at index " + str(ind) + " (" + commit_info["sha"] + ", " + name + ")")
                 break
     release["commit"] = commit_info["sha"]
-    release["commitdescription"] = commit_info["commit"]["message"]
+    release["description"] = commit_info["commit"]["message"]
     release["version"] = files[2]
     release["dateadded"] = datetime.datetime.now(tz=datetime.timezone.utc).isoformat()
     release["source"] = "built"
