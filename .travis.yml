@@ -17,12 +17,12 @@ env:
   - FORCE_INSTALL=1
   - secure: nKPBTwDx3sb0s3Rk/W/1qFY5ZmB/WBeLIKuL3FmLpCn+pQUmY4Xu6cqkEJYBF/iOVHgla50anRA+EzaGGfkga1LZVRry26MCDDFcjOCrWRT0T0NXooMX1Goo5sxT216X2uZUL8s6tkr6zohUIz/ICJoqgpdkaD/LYoMynLBWBKzFqe7hBuRZMX1Ulxo7PjA19YofqE9Kse53uIKLMzk8iGSnHcoqt/+gssrO0MEJLgAAB0pznfv5i1SenkpMmWzGmywgq3wf/VyCgncIQLVnmBYOaLhiA6GwZakN7KLtZVdjNnrDx7iUO4u0OuzndPXYK98DqzRPwgdsQIhLqaK5I3ojYJ5H71o1Z3C5sHR+B5XymStL7BOhLf5s4uZbbVVrTtXzfqjn2+ZXIfvvfxsb2HKlt65uojKLBOO9R3ddMRULgx0OFjHvar08B/21eGUJQtlNZ1Ow/vGHicDe8hV61zz2MODZ7qay4s+TGFo+wgbrVEDzErjHzKCzna8s29lhj3wWUHztxcXzUIFvvKxrCyT7pCdXcG2zjAf+b9efRvr7vIX5mCPKR9Zoy0B17g+fDTaO64WP7ZY+iW9X0Foga/okrLBATXBMQ23FJHg0Rd6eXEttVlkQJ5QJ5UYjCQFojATVnw9xIZ84VqP1NBTT63VV8Gaw145dMDKhaDPhWcU=
 before_install:
+- openssl aes-256-cbc -K $encrypted_20950518413d_key -iv $encrypted_20950518413d_iv
+  -in gh\ token.txt.enc -out gh\ token.txt -d
 - wget -P ~/ https://raw.githubusercontent.com/dhinakg/travis-ci-discord-webhook/master/send.sh
 - chmod +x ~/send.sh
 - "~/send.sh started $WEBHOOK_URL"
 - python3 --version
-- openssl aes-256-cbc -K $encrypted_0a6446eb3ae3_key -iv $encrypted_0a6446eb3ae3_iv
-  -in "gh token.txt.enc" -out "gh token.txt" -d
 install:
 - python3 -m pip install -U pip
 - pip3 install hammock python-dateutil datetime termcolor
