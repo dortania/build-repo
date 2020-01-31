@@ -1,0 +1,87 @@
+{
+  "Version": "0.0.85", 
+  "Changes": "Move to Acidanthera's port of BrcmPatchRAM from Headkaze's and fix some UI quirks.", 
+  "Plugins": [
+    {
+      "Lilu": true,
+      "URL": "https://github.com/acidanthera/AppleALC",
+      "Desc": "dynamic audio patching",
+      "Name": "AppleALC",
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
+      "Lilu": true,
+      "URL": "https://github.com/acidanthera/NVMeFix",
+      "Desc": "patches for the Apple NVMe storage driver, IONVMeFamily",
+      "Name": "NVMeFix",
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
+      "URL": "https://github.com/acidanthera/Lilu",
+      "Name": "Lilu",
+      "Desc": "for arbitrary kext, library, and program patching",
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
+      "Lilu": true,
+      "URL": "https://github.com/acidanthera/VirtualSMC",
+      "Desc": "advanced Apple SMC emulator in the kernel",
+      "Name": "VirtualSMC",
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
+      "Lilu": true,
+      "URL": "https://github.com/acidanthera/WhateverGreen",
+      "Name": "WhateverGreen",
+      "Desc": "provides patches for AMD/Nvidia/Intel GPUs",
+      "Pre-Build": [
+        {
+          "path": "iasl",
+          "args": [
+            "Manual/SSDT-PNLF.dsl"
+          ],
+          "name": "Compile SSDT-PNLF.dsl"
+        }
+      ],
+      "Extras": [
+        "Manual/SSDT-PNLF.aml"
+      ],
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
+      "URL": "https://github.com/acidanthera/OpenCorePkg",
+      "Name": "OpenCorePkg",
+      "Desc": "OpenCore front end",
+      "Type": "Bootloader",
+      "Command": "./macbuild.tool",
+      "Combined": true,
+      "Release File": "Binaries/Release/*.zip",
+      "Debug File": "Binaries/Debug/*.zip",
+      "Version": ["awk", "/^#define OPEN_CORE_VERSION/ { print substr($3,2,5) }", "Include/OpenCore.h"],
+      "Pre-Build": [
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-PMC.dsl"
+          ],
+          "name": "Compile SSDT-PMC.dsl"
+        },
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-PLUG.dsl"
+          ],
+          "name": "Compile SSDT-PLUG.dsl"
+        }
+      ],
+      "Extras": [
+        "Docs/AcpiSamples/*.aml"
+      ]
+    }
+  ]
+}

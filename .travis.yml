@@ -1,0 +1,54 @@
+language: generic
+os: osx
+osx_image: xcode11.2
+python: '3.7'
+git:
+  depth: false
+addons:
+  homebrew:
+    packages:
+    - python3
+    - acpica
+branches:
+  only:
+  - master
+env:
+  global:
+  - FORCE_INSTALL=1
+  - secure: mDtWN25WxMfGM5SI0k45tBxAaJdDGQkCdH56geZA1Ld+AL5cxsEYY6J2k8QKvq6lUtR25cnRhN3Sd/yrXfj6TVmtK8lLIlLEKWOutBHEyTHXgk0cna5OzrN0uqOvahNxP59KF3/ghVy9N3DH+tkkKcxsyXTbUEMyeG4g+5SDFaYsOjkT2nyvLlsGEdkdIf9Z3ThcLzByRIAcb/T1W6JWYqvwBFipE8lkMqCYh8FgppwuUSdR4OYoxl93b6dq+/iFzNeL2e0T554jIgGMc+M/hpqEhfvtmgkS4+JUcS799DHXcvMN1OAmZYUqzsJjvTOADH0k4qW50LRjkig8FQYK85K2YUysNeij+tZi8snZxMMuoOWmWoXQhThHsAyb9Jyo93+wsAmBgND2BkNBtN0OQbdaoATp26NugiUCyNDwpaHtBKZmA9mEHtUt28pLQil3z2NmqNkjZZ2D95d+Uy0DXjpZEf3e3pMjSanFpiswBzG43jY5VGIAsTsIdFSRB8u1o9kaylprGfD8hVexyxxu/7jTzcb0M2O85B5K2FSNz4zcQcgDXnvDIwbHhJj29KIomUIRkhXXMxRLDk3Knoiaiz4XI2AKFWAg/MDLBNFjmrwiropiMxoyVkpSgYh47cSZHmTJtSGrR8144TibluOxj3qele1jVvCu/LVPD84i0KA=
+before_install:
+- wget -P ~/ https://raw.githubusercontent.com/dhinakg/travis-ci-discord-webhook/master/send.sh
+- chmod +x ~/send.sh
+- "~/send.sh started $WEBHOOK_URL"
+- python3 --version
+- openssl aes-256-cbc -K $encrypted_0a6446eb3ae3_key -iv $encrypted_0a6446eb3ae3_iv
+  -in super_secret.txt.enc -out super_secret.txt -d
+install:
+- python3 -m pip install -U pip
+- pip3 install hammock python-dateutil datetime termcolor
+- git fetch origin builds:builds
+script:
+- git worktree add Push builds
+- cp Push/config.json .
+- cp Push/last_updated.txt .
+- python3 -u check_ratelimit.py
+- python3 -u updater.py
+- python3 -u check_ratelimit.py
+- mv config.json Push
+- mv last_updated.txt Push
+- rsync -a Builds/ Push/
+after_success:
+- ls Push
+- "~/send.sh success $WEBHOOK_URL"
+after_failure:
+- "~/send.sh failure $WEBHOOK_URL"
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token:
+    secure: iWhzS68yDDp3tMZ65vpR6h/W6swA9SN5g6aMOfyPhOsd3Be0XpPuPlJ5kiOmRAtQ92sOYIs+zOSqrgjN4B8LXHAaTAvSVgPFx4K5q+jKY//QC0pNYw0gA0Qbtg6Gn0uVISalBcGy7UGpFsp4DMO9/TzrE1UJqpAKzsmsAM6rPq8ledrHO6cHn2ggTbfWgKlxeuhzZkmzw1sE2wO/Jv1WedmR4ei4uD/fsocP+oInp6a3iIBrHitdOTT7kUZYmOUqReazU2dtItXcjuwh2qET7U//YDIdooizlL3Vhm+NU4wUZ91/h2LlEG/uSJUj2kHo1yArgt1NRVO28BcjYHUU1l+PoDk1RtAp9JDWJR3dg6AeVmKO812sel4kwrBOxA1+Jzvb6brCS50D3BjXJmjQtlEwCPQuuq5BV3UPrWrF2Bhpmd7anhRqPBFdKbd4Eg5aSLHu5U8vhzd34OWOHiFlvUnHmpsKJyKe8hD59vZ4ah5HcXoYNz1ZO5N7pzcTxPEfFd1Q+C5rvgoXe4YWW/ma2VCMSWHWMtpKzITnn6DgQpmAYbKX/tyF3FI5HeDqM3eXeHjfA/OnL9r+8VmIulrLVo2uSX2q7n2dSZ7XslJLq7MkIwBHtrO3zJWpmenpCGolxPeM03AYNdgyj3mH81K694K4BRumI1RxLtfCpqOefpU=
+  keep_history: true
+  target_branch: builds
+  local_dir: Push
+  on:
+    branch: master
