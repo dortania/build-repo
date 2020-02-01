@@ -76,7 +76,7 @@ def add_built(plugin):
             release["hashes"][file] = hash_file(path_to_files / Path(file))
     if not release.get("links", None):
         release["links"] = {}
-    base_url = '/'.join(["https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/builds", category_type, name, commit_info["sha"]])
+    base_url = '/'.join(["https://raw.githubusercontent.com/dhinakg/ktextrepo/builds", category_type, name, commit_info["sha"]])
     if combined:
         for i in ["debug", "release"]:
             release["links"][i] = base_url + ("/Debug/" if i == "debug" else "/Release/") + files[0][i]
