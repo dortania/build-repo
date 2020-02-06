@@ -94,6 +94,6 @@
       "Debug File": "Binaries/Debug/*.zip",
       "Version": ["awk", "/^#define APPLE_SUPPORT_VERSION/ { print substr($3,3,5) }", "Include/AppleSupportPkgVersion.h"],
       "Force": true
-    },
+    }
   ]
 }
