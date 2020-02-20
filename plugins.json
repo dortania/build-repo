@@ -1,6 +1,4 @@
 {
-  "Version": "0.0.85", 
-  "Changes": "Move to Acidanthera's port of BrcmPatchRAM from Headkaze's and fix some UI quirks.", 
   "Plugins": [
     {
       "Lilu": true,
