@@ -40,7 +40,7 @@
           "path": "zip",
           "args": [
             "-r",
-            "-x",
+            "-X",
             "release.zip",
             "Build/Products/Release/"
           ],
@@ -50,7 +50,7 @@
           "path": "zip",
           "args": [
             "-r",
-            "-x",
+            "-X",
             "debug.zip",
             "Build/Products/Debug/"
           ],
