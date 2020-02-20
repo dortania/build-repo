@@ -57,9 +57,9 @@
           "name": "Zip Debug Directory"
         }
       ],
-      "Build Opts": [
-        "-scheme All"
-      ],
+      "Combined": true,
+      "Command": "make",
+      "Version": ["awk", "/CFBundleVersion/ { getline; print substr($0,10,5) }", "Build/Products/Debug/VoodooPS2Controller.kext/Contents/Info.plist"],
       "Release File": "release.zip",
       "Debug File": "debug.zip",
       "Force": true
