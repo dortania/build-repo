@@ -32,6 +32,38 @@
       "Debug File": "build/Debug/*.zip"
     },
     {
+      "URL": "https://github.com/1Revenger1/VoodooPS2-Alps/",
+      "Name": "VoodooPS2-Alps",
+      "Desc": "Refined macOS driver for ALPS TouchPads",
+      "Post-Build": [
+        {
+          "path": "zip",
+          "args": [
+            "-r",
+            "-x",
+            "release.zip",
+            "Build/Products/Release/"
+          ],
+          "name": "Zip Release Directory"
+        },
+        {
+          "path": "zip",
+          "args": [
+            "-r",
+            "-x",
+            "debug.zip",
+            "Build/Products/Debug/"
+          ],
+          "name": "Zip Debug Directory"
+        }
+      ],
+      "Build Opts": [
+        "-scheme All"
+      ],
+      "Release File": "release.zip",
+      "Debug File": "debug.zip"
+    },
+    {
       "Lilu": true,
       "URL": "https://github.com/acidanthera/WhateverGreen",
       "Name": "WhateverGreen",
