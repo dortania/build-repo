@@ -32,7 +32,7 @@
       "Debug File": "build/Debug/*.zip"
     },
     {
-      "URL": "https://github.com/1Revenger1/VoodooPS2-Alps/",
+      "URL": "https://github.com/1Revenger1/VoodooPS2-Alps",
       "Name": "VoodooPS2-Alps",
       "Desc": "Refined macOS driver for ALPS TouchPads",
       "Post-Build": [
