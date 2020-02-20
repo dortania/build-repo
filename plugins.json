@@ -61,7 +61,8 @@
         "-scheme All"
       ],
       "Release File": "release.zip",
-      "Debug File": "debug.zip"
+      "Debug File": "debug.zip",
+      "Force": true
     },
     {
       "Lilu": true,
