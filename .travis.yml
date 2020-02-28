@@ -23,7 +23,7 @@ before_install:
 - chmod +x ~/send.sh
 - "~/send.sh started $WEBHOOK_URL"
 install:
-- brew install python3
+#- brew install python3
 - brew install acpica
 - python3 -m pip install -U pip
 - pip3 install hammock python-dateutil datetime termcolor
