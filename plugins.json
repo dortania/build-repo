@@ -42,7 +42,7 @@
             "-r",
             "-X",
             "release.zip",
-            "Build/Products/Release/"
+            "build/Release/"
           ],
           "name": "Zip Release Directory"
         },
@@ -52,7 +52,7 @@
             "-r",
             "-X",
             "debug.zip",
-            "Build/Products/Debug/"
+            "build/Debug/"
           ],
           "name": "Zip Debug Directory"
         }
