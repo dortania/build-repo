@@ -59,7 +59,7 @@
       ],
       "Combined": true,
       "Command": "make",
-      "Version": ["awk", "/CFBundleVersion/ { getline; print substr($0,10,5) }", "Build/Products/Debug/VoodooPS2Controller.kext/Contents/Info.plist"],
+      "Version": ["awk", "/CFBundleVersion/ { getline; print substr($0,10,5) }", "build/Debug/VoodooPS2Controller.kext/Contents/Info.plist"],
       "Release File": "release.zip",
       "Debug File": "debug.zip",
       "Force": true
