@@ -56,7 +56,7 @@ for plugin in plugins:
 
     for commit in commits:
         commit_date = dateutil.parser.parse(commit["commit"]["committer"]["date"])
-        if (commit_date >= date_to_compare or (plugin.get("Force") and commits.index(commit)  == 0)) and not matched_key_in_dict_array(config.get(repo, {}).get("versions", []), "commit", commit["sha"]):
+        if (commit_date >= date_to_compare or (plugin.get("Force") and commits.index(commit)  == 0)) and not matched_key_in_dict_array(config.get(repo, {}).get("versions", []), "commit", commit["sha"]) and index(commit) <= 5:
             if commits.index(commit) == 0:
                 print(repo + " by " + organization + " latest commit (" + commit_date.isoformat() + ") not built")
             else:
