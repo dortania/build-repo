@@ -27,14 +27,11 @@ class Builder():
 
     @staticmethod
     def _expand_globs(path: str):
-        print("Orig path: " + path)
         if "*" in path:
             path = Path(path)
             parts = path.parts[1:] if path.is_absolute() else path.parts
-            print("Final path: " + str(list(Path(path.root).glob(str(Path("").joinpath(*parts))))))
             return list(Path(path.root).glob(str(Path("").joinpath(*parts))))
         else:
-            print("Path not changed")
             return [Path(path)]
 
     def _build_lilu(self):
