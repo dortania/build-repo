@@ -205,12 +205,10 @@ class Builder():
         category_type = {"Kext": "Kexts", "Bootloader": "Bootloaders", "Other": "Others"}.get(b_type)
         print("\tCopying to build directory...")
         extras = []
-        print(extra_files)
         # (extras.extend(self._expand_globs(i)) for i in extra_files) if extra_files is not None else None  # pylint: disable=expression-not-assigned
         if extra_files is not None:
             for i in extra_files:
                 extras.extend(self._expand_globs(i))
-        print(extras)
         if combined:
             debug_file = self._expand_globs(d_file)[0]
             release_file = self._expand_globs(r_file)[0]
