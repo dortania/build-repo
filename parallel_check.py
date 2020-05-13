@@ -13,7 +13,7 @@ workflow_url = this_run.GET().json()["workflow_url"]
 #workflow_output = hammock(workflow_url).GET(auth=("dhinakg", token))
 #workflow_id = json.loads(workflow_output.text or workflow_url.content)["id"]
 
-runs = hammock(workflow_url).runs.GET().json()
+runs = hammock(workflow_url, auth=("dhinakg", token)).runs.GET().json()
 print(runs)
 for run in runs["workflow_runs"]:
     if run["id"] != os.environ["GITHUB_RUN_ID"] and run["status"] != "completed":
