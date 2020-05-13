@@ -14,10 +14,11 @@ workflow_url = this_run.GET().json()["workflow_url"]
 #workflow_id = json.loads(workflow_output.text or workflow_url.content)["id"]
 
 runs = hammock(workflow_url, auth=("dhinakg", token)).runs.GET().json()
-print(runs)
+for run in runs["workflow_runs"]:
+    print("Run id: " + str(run["id"]) + "; Run status: " + run["status"])
 for run in runs["workflow_runs"]:
     if run["id"] != os.environ["GITHUB_RUN_ID"] and run["status"] != "completed":
-        print("Another build is running, cancelling this one...")
+        print(f"Another build ({run['id']} with status {run['status']}) is running, cancelling this one...")
         cancel_request = this_run.cancel.POST()
         if cancel_request.status_code != 202:
             sys.exit("Status code did not match: " + cancel_request.status_code)
