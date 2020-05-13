@@ -1,6 +1,7 @@
 import json
-import sys
 import os
+import sys
+import time
 from hammock import Hammock as hammock
 
 with open("gh token.txt") as f:
@@ -15,13 +16,18 @@ workflow_url = this_run.GET().json()["workflow_url"]
 
 runs = hammock(workflow_url, auth=("dhinakg", token)).runs.GET().json()
 print("Env id: " + str(os.environ["GITHUB_RUN_ID"]))
+run_index = None
 for run in runs["workflow_runs"]:
     print("Run id: " + str(run["id"]) + "; Run status: " + run["status"])
+    if str(run["id"]) == str(os.environ["GITHUB_RUN_ID"]):
+        run_index = runs["workflow_runs"].index(run)
 for run in runs["workflow_runs"]:
-    if str(run["id"]) != str(os.environ["GITHUB_RUN_ID"]) and run["status"] != "completed":
+    if runs["workflow_runs"].index(run) > run_index and str(run["id"]) != str(os.environ["GITHUB_RUN_ID"]) and run["status"] != "completed":
         print(f"Another build ({run['id']} with status {run['status']}) is running, cancelling this one...")
         cancel_request = this_run.cancel.POST()
         if cancel_request.status_code != 202:
             sys.exit("Status code did not match: " + cancel_request.status_code)
         else:
+            print("Cancel request acknowledged, sleeping 10 seconds to account for delay...")
+            time.sleep(10)
             sys.exit(0)
