@@ -39,7 +39,7 @@ jobs:
           cp Push/config.json .
           cp Push/last_updated.txt .
       - name: Copy Token
-        run: echo ${{ secrets.TEST }} > gh\ token.txt
+        run: echo ${{ secrets.GH_TOKEN }} > gh\ token.txt
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py
       - name: Run Builder
