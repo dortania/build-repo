@@ -1,5 +1,4 @@
-name: Greet Everyone
-# This workflow is triggered on pushes to the repository.
+name: Build
 on:
   push:
     branches:
@@ -10,12 +9,9 @@ env:
   FORCE_INSTALL: 1
 jobs:
   build:
-    # Job name is Greeting
-    name: Greeting
-    # This job runs on Linux
+    name: Build
     runs-on: macos-latest
     steps:
-      # This step uses GitHub's hello-world-javascript-action: https://github.com/actions/hello-world-javascript-action
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
@@ -26,6 +22,10 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
+      - name: Install Python Dependencies
+        run: |
+          python3 -m pip install -U pip
+          pip3 install hammock python-dateutil datetime termcolor
       - name: Copy Token
         run: echo ${{ secrets.GH_TOKEN }} > gh\ token.txt
       - name: Check Parallel
@@ -34,12 +34,10 @@ jobs:
         run: |
           wget -P ~/ https://raw.githubusercontent.com/dhinakg/travis-ci-discord-webhook/master/send.sh
           chmod +x ~/send.sh
-      - name: Install Dependencies
+      - name: Install Build Dependencies
         run: |
           HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica
-          python3 -m pip install -U pip
-          pip3 install hammock python-dateutil datetime termcolor
-      - name: Set up Working Tree
+      - name: Set Up Working Tree
         run: |
           git fetch origin builds:builds
           git worktree add Push builds
