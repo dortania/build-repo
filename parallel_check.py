@@ -8,13 +8,12 @@ with open("gh token.txt") as f:
 
 
 this_run = hammock(f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}", auth=("dhinakg", token))
-print(this_run.GET().json())
 workflow_url = this_run.GET().json()["workflow_url"]
 
 #workflow_output = hammock(workflow_url).GET(auth=("dhinakg", token))
 #workflow_id = json.loads(workflow_output.text or workflow_url.content)["id"]
 
-runs = this_run.runs.GET().json()
+runs = workflow_url.runs.GET().json()
 for run in runs["workflow_runs"]:
     if run["id"] != os.environ["GITHUB_RUN_ID"] and run["status"] != "completed":
         print("Another build is running, cancelling this one...")
