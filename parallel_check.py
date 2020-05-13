@@ -14,6 +14,7 @@ workflow_url = this_run.GET().json()["workflow_url"]
 #workflow_id = json.loads(workflow_output.text or workflow_url.content)["id"]
 
 runs = hammock(workflow_url).runs.GET().json()
+print(runs)
 for run in runs["workflow_runs"]:
     if run["id"] != os.environ["GITHUB_RUN_ID"] and run["status"] != "completed":
         print("Another build is running, cancelling this one...")
