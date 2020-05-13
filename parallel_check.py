@@ -15,10 +15,8 @@ workflow_url = this_run.GET().json()["workflow_url"]
 #workflow_id = json.loads(workflow_output.text or workflow_url.content)["id"]
 
 runs = hammock(workflow_url, auth=("dhinakg", token)).runs.GET().json()
-print("Env id: " + str(os.environ["GITHUB_RUN_ID"]))
 run_index = None
 for run in runs["workflow_runs"]:
-    print("Run id: " + str(run["id"]) + "; Run status: " + run["status"])
     if str(run["id"]) == str(os.environ["GITHUB_RUN_ID"]):
         run_index = runs["workflow_runs"].index(run)
 for run in runs["workflow_runs"]:
