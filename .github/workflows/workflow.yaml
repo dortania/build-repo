@@ -30,9 +30,6 @@ jobs:
         run: echo ${{ secrets.GH_TOKEN }} > gh\ token.txt
       - name: Check Parallel
         run: python3 -u parallel_check.py
-      - name: Cancel if Another Build Running
-        uses: andymckay/cancel-action@0.2
-        if: ${{ failure() }}
       - name: Send Notification
         run: |
           wget -P ~/ https://raw.githubusercontent.com/dhinakg/travis-ci-discord-webhook/master/send.sh
