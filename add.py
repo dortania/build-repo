@@ -92,3 +92,6 @@ def add_built(plugin):
     else:
         config[name]["versions"].insert(0, release)
     json.dump(config, config_path.open(mode="w"), indent=2, sort_keys=True)
+
+def add_release(plugin):
+    pass
