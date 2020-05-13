@@ -1,0 +1,62 @@
+name: Greet Everyone
+# This workflow is triggered on pushes to the repository.
+on:
+  push:
+    branches:
+      - github-actions
+env:
+  FORCE_INSTALL: 1
+jobs:
+  build:
+    # Job name is Greeting
+    name: Greeting
+    # This job runs on Linux
+    runs-on: macos-latest
+    steps:
+      # This step uses GitHub's hello-world-javascript-action: https://github.com/actions/hello-world-javascript-action
+      - name: Checkout Repository
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: '0'
+          persist-credentials: false
+      - name: Set up Python 3
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Send Notification
+        run: |
+          wget -P ~/ https://raw.githubusercontent.com/dhinakg/travis-ci-discord-webhook/master/send.sh
+          chmod +x ~/send.sh
+      - name: Install Dependencies
+        run: |
+          HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica
+          python3 -m pip install -U pip
+          pip3 install hammock python-dateutil datetime termcolor
+      - name: Set up Working Tree
+        run: |
+          git fetch origin builds:builds
+          git worktree add Push builds
+          cp Push/config.json .
+          cp Push/last_updated.txt .
+      - name: Copy Token
+        run: echo ${{ secrets.TEST }} > gh\ token.txt
+      - name: Check Ratelimit
+        run: python3 -u check_ratelimit.py
+      - name: Run Builder
+        run: python3 -u updater.py
+      - name: Check Ratelimit
+        run: python3 -u check_ratelimit.py
+      - name: Sync Builds
+        run: |
+          mv config.json Push
+          mv last_updated.txt Push
+          rsync -a Builds/ Push/
+          ls Push
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: builds
+          FOLDER: Push
+
+          
