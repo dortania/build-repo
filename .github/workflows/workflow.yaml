@@ -26,6 +26,10 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
+      - name: Copy Token
+        run: echo ${{ secrets.GH_TOKEN }} > gh\ token.txt
+      - name: Check Parallel
+        run: python3 -u parallel_check.py
       - name: Send Notification
         run: |
           wget -P ~/ https://raw.githubusercontent.com/dhinakg/travis-ci-discord-webhook/master/send.sh
@@ -41,8 +45,6 @@ jobs:
           git worktree add Push builds
           cp Push/config.json .
           cp Push/last_updated.txt .
-      - name: Copy Token
-        run: echo ${{ secrets.GH_TOKEN }} > gh\ token.txt
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py
       - name: Run Builder
