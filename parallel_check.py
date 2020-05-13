@@ -18,7 +18,7 @@ print("Env id: " + str(os.environ["GITHUB_RUN_ID"]))
 for run in runs["workflow_runs"]:
     print("Run id: " + str(run["id"]) + "; Run status: " + run["status"])
 for run in runs["workflow_runs"]:
-    if run["id"] != os.environ["GITHUB_RUN_ID"] and run["status"] != "completed":
+    if str(run["id"]) != str(os.environ["GITHUB_RUN_ID"]) and run["status"] != "completed":
         print(f"Another build ({run['id']} with status {run['status']}) is running, cancelling this one...")
         cancel_request = this_run.cancel.POST()
         if cancel_request.status_code != 202:
