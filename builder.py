@@ -210,6 +210,8 @@ class Builder():
             for i in extra_files:
                 extras.extend(self._expand_globs(i))
         if combined:
+            print(d_file)
+            print(self._expand_globs(d_file))
             debug_file = self._expand_globs(d_file)[0]
             release_file = self._expand_globs(r_file)[0]
             debug_dir = self.build_dir / Path(category_type) / Path(name) / Path(commithash) / Path("Debug")
