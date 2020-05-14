@@ -90,8 +90,8 @@
       "Type": "Bootloader",
       "Command": "./macbuild.tool",
       "Combined": true,
-      "Release File": "Binaries/Release/*.zip",
-      "Debug File": "Binaries/Debug/*.zip",
+      "Release File": "Binaries/*RELEASE*.zip",
+      "Debug File": "Binaries/*DEBUG*.zip",
       "Version": ["awk", "/^#define OPEN_CORE_VERSION/ { print substr($3,2,5) }", "Include/OpenCore.h"],
       "Pre-Build": [
         {
