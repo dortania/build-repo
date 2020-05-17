@@ -88,11 +88,11 @@
       "Name": "OpenCorePkg",
       "Desc": "OpenCore front end",
       "Type": "Bootloader",
-      "Command": "./macbuild.tool",
+      "Command": "./build_oc.tool && ./build_duet.tool",
       "Combined": true,
       "Release File": "Binaries/*RELEASE*.zip",
       "Debug File": "Binaries/*DEBUG*.zip",
-      "Version": ["awk", "/^#define OPEN_CORE_VERSION/ { print substr($3,2,5) }", "Include/OpenCore.h"],
+      "Version": ["awk", "/^#define OPEN_CORE_VERSION/ { print substr($3,2,5) }", "Include/Acidanthera/OpenCore.h"],
       "Pre-Build": [
         {
           "path": "iasl",
