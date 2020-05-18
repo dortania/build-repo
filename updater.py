@@ -7,6 +7,7 @@ import dateutil.parser
 import termcolor
 import builder
 from add import add_built
+import sys
 
 
 def matched_key_in_dict_array(array, key, value):
@@ -132,6 +133,7 @@ if len(failed) > 0:
     termcolor.cprint("\nFailed:", "red")
     for i in failed:
         print(i["plugin"]["Name"])
+    sys.exit(10)
 if len(succeeded) > 0:
     print("\nAdding to config...")
     for i in succeeded:
