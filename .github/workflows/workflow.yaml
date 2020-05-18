@@ -4,7 +4,7 @@ on:
     branches:
       - github-actions
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/5 * * * *'
 env:
   FORCE_INSTALL: 1
 jobs:
@@ -45,8 +45,8 @@ jobs:
           cp Push/last_updated.txt .
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v2
+      #- name: Setup tmate session
+      #  uses: mxschmitt/action-tmate@v2
       - name: Run Builder
         run: python3 -u updater.py
       - name: Check Ratelimit
