@@ -44,7 +44,7 @@ class Builder():
             result = subprocess.run("git clone https://github.com/acidanthera/Lilu.git".split(), capture_output=True)
             if result.returncode != 0:
                 print("\tClone failed!")
-                print(result.stdou.decode()t)
+                print(result.stdout.decode())
                 print(result.stderr.decode())
                 return False
             chdir(self.working_dir / Path("Lilu"))
@@ -52,13 +52,13 @@ class Builder():
             result = subprocess.run("xcodebuild -quiet -configuration Debug".split(), capture_output=True)
             if result.returncode != 0:
                 print("\tBuild failed!")
-                print(result.stdou.decode()t)
+                print(result.stdout.decode())
                 print(result.stderr.decode())
                 return False
             result = subprocess.run("git rev-parse HEAD".split(), capture_output=True)
             if result.returncode != 0:
                 print("\tObtaining commit hash failed!")
-                print(result.stdou.decode()t)
+                print(result.stdout.decode())
                 print(result.stderr.decode())
                 return False
             else:
@@ -107,7 +107,7 @@ class Builder():
         result = subprocess.run(["git", "clone", url + ".git"], capture_output=True)
         if result.returncode != 0:
             print("\tClone failed!")
-            print(result.stdou.decode()t)
+            print(result.stdout.decode())
             print(result.stderr.decode())
             return False
         chdir(self.working_dir / Path(name))
@@ -117,14 +117,14 @@ class Builder():
             result = subprocess.run(["git", "checkout", commithash], capture_output=True)
             if result.returncode != 0:
                 print("\tCheckout failed!")
-                print(result.stdou.decode()t)
+                print(result.stdout.decode())
                 print(result.stderr.decode())
                 return False
         else:
             result = subprocess.run("git rev-parse HEAD".split(), capture_output=True)
             if result.returncode != 0:
                 print("\tObtaining commit hash failed!")
-                print(result.stdou.decode()t)
+                print(result.stdout.decode())
                 print(result.stderr.decode())
                 return False
         chdir(self.working_dir / Path(name))
@@ -140,7 +140,7 @@ class Builder():
                 result = subprocess.run(args, capture_output=True)
                 if result.returncode != 0:
                     print("\t\tTask failed!")
-                    print(result.stdou.decode()t)
+                    print(result.stdout.decode())
                     print(result.stderr.decode())
                     return False
                 else:
@@ -153,7 +153,7 @@ class Builder():
             result = subprocess.run(command, capture_output=True)
             if result.returncode != 0:
                 print("\tBuild failed!")
-                print(result.stdou.decode()t)
+                print(result.stdout.decode())
                 print(result.stderr.decode())
                 return False
         else:
@@ -165,7 +165,7 @@ class Builder():
             result = subprocess.run(args, capture_output=True)
             if result.returncode != 0:
                 print("\tBuild failed!")
-                print(result.stdou.decode()t)
+                print(result.stdout.decode())
                 print(result.stderr.decode())
                 return False
         chdir(self.working_dir / Path(name))
@@ -178,7 +178,7 @@ class Builder():
                 result = subprocess.run(args, capture_output=True)
                 if result.returncode != 0:
                     print("\t\tTask failed!")
-                    print(result.stdou.decode()t)
+                    print(result.stdout.decode())
                     print(result.stderr.decode())
                     return False
                 else:
@@ -190,7 +190,7 @@ class Builder():
             result = subprocess.run(v_cmd, capture_output=True)
             if result.returncode != 0:
                 print("\tRunning version command failed!")
-                print(result.stdou.decode()t)
+                print(result.stdout.decode())
                 print(result.stderr.decode())
                 return False
             else:
