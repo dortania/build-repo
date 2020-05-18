@@ -142,7 +142,7 @@ if len(failed) > 0:
     for i in failed:
         print(i["plugin"]["Name"])
 
-if len(failed) > 0 or len(errored) > 0:
+if len(failed) > 0 or len(succeeded) > 0:
     sys.exit(10)
 
 if len(succeeded) > 0:
