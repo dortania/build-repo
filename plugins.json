@@ -88,10 +88,7 @@
       "Name": "OpenCorePkg",
       "Desc": "OpenCore front end",
       "Type": "Bootloader",
-      "Command": [
-        "./build_oc.tool",
-        "./build_duet.tool"
-      ],
+      "Command": "./build_oc.tool",
       "Combined": true,
       "Release File": "Binaries/*RELEASE*.zip",
       "Debug File": "Binaries/*DEBUG*.zip",
