@@ -102,6 +102,7 @@ for plugin in to_build:
     print("\nBuilding " + termcolor.colored(plugin["plugin"]["Name"], attrs=["bold"]))
     try:
         started = datetime.datetime.now()
+        result = None
         result = builder.build(plugin["plugin"], commithash=plugin["commit"]["sha"])
     except Exception as error:
         duration = datetime.datetime.now() - started
@@ -122,7 +123,8 @@ for plugin in to_build:
         print("Took " + str(duration))
     else:
         duration = datetime.datetime.now() - started
-        print(result)
+        if result:            
+            print("Result was: " + str(result))
         termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "red", attrs=["bold"]) + termcolor.colored(" failed", "red"), "red")
         failed.append(plugin)
         print("Took " + str(duration))
