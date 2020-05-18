@@ -155,6 +155,7 @@ class Builder():
                 print("\tBuild failed!")
                 print(result.stdout.decode())
                 print(result.stderr.decode())
+                print("\tReturn code: " + str(result.returncode))
                 return False
         else:
             print("\tBuilding debug version..." if debug else "\tBuilding release version...")
@@ -167,6 +168,7 @@ class Builder():
                 print("\tBuild failed!")
                 print(result.stdout.decode())
                 print(result.stderr.decode())
+                print("\tReturn code: " + str(result.returncode))
                 return False
         chdir(self.working_dir / Path(name))
         if postbuild:

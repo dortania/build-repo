@@ -87,6 +87,7 @@ builder = builder.Builder()
 
 failed = []
 succeeded = []
+errored = []
 
 for plugin in to_build:
     plugin["plugin"]["Debug"] = False
@@ -104,11 +105,12 @@ for plugin in to_build:
         result = builder.build(plugin["plugin"], commithash=plugin["commit"]["sha"])
     except Exception as error:
         duration = datetime.datetime.now() - started
+        print("An error occurred!")
         print(error)
-        if result:
-            print(result)
-        termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "red", attrs=["bold"]) + termcolor.colored(" failed", "red"), "red")
-        failed.append(plugin)
+        if result:            
+            print("Result was: " + str(result))
+        termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "red", attrs=["bold"]) + termcolor.colored(" errored", "red"), "red")
+        errored.append(plugin)
         print("Took " + str(duration))
         continue
     if result:
@@ -133,7 +135,14 @@ if len(failed) > 0:
     termcolor.cprint("\nFailed:", "red")
     for i in failed:
         print(i["plugin"]["Name"])
+if len(failed) > 0:
+    termcolor.cprint("\nErrored:", "red")
+    for i in failed:
+        print(i["plugin"]["Name"])
+
+if len(failed) > 0 or len(succeeded) > 0:
     sys.exit(10)
+
 if len(succeeded) > 0:
     print("\nAdding to config...")
     for i in succeeded:
