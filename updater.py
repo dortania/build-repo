@@ -7,6 +7,7 @@ import dateutil.parser
 import termcolor
 import builder
 from add import add_built
+import sys
 
 
 def matched_key_in_dict_array(array, key, value):
@@ -86,6 +87,7 @@ builder = builder.Builder()
 
 failed = []
 succeeded = []
+errored = []
 
 for plugin in to_build:
     plugin["plugin"]["Debug"] = False
@@ -100,14 +102,16 @@ for plugin in to_build:
     print("\nBuilding " + termcolor.colored(plugin["plugin"]["Name"], attrs=["bold"]))
     try:
         started = datetime.datetime.now()
+        result = None
         result = builder.build(plugin["plugin"], commithash=plugin["commit"]["sha"])
     except Exception as error:
         duration = datetime.datetime.now() - started
+        print("An error occurred!")
         print(error)
-        if result:
-            print(result)
-        termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "red", attrs=["bold"]) + termcolor.colored(" failed", "red"), "red")
-        failed.append(plugin)
+        if result:            
+            print("Result was: " + str(result))
+        termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "red", attrs=["bold"]) + termcolor.colored(" errored", "red"), "red")
+        errored.append(plugin)
         print("Took " + str(duration))
         continue
     if result:
@@ -119,7 +123,8 @@ for plugin in to_build:
         print("Took " + str(duration))
     else:
         duration = datetime.datetime.now() - started
-        print(result)
+        if result:            
+            print("Result was: " + str(result))
         termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "red", attrs=["bold"]) + termcolor.colored(" failed", "red"), "red")
         failed.append(plugin)
         print("Took " + str(duration))
@@ -132,6 +137,14 @@ if len(failed) > 0:
     termcolor.cprint("\nFailed:", "red")
     for i in failed:
         print(i["plugin"]["Name"])
+if len(failed) > 0:
+    termcolor.cprint("\nErrored:", "red")
+    for i in failed:
+        print(i["plugin"]["Name"])
+
+if len(failed) > 0 or len(succeeded) > 0:
+    sys.exit(10)
+
 if len(succeeded) > 0:
     print("\nAdding to config...")
     for i in succeeded:

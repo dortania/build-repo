@@ -88,11 +88,14 @@
       "Name": "OpenCorePkg",
       "Desc": "OpenCore front end",
       "Type": "Bootloader",
-      "Command": "./macbuild.tool",
+      "Command": [
+        "./build_oc.tool",
+        "./build_duet.tool"
+      ],
       "Combined": true,
-      "Release File": "Binaries/Release/*.zip",
-      "Debug File": "Binaries/Debug/*.zip",
-      "Version": ["awk", "/^#define OPEN_CORE_VERSION/ { print substr($3,2,5) }", "Include/OpenCore.h"],
+      "Release File": "Binaries/*RELEASE*.zip",
+      "Debug File": "Binaries/*DEBUG*.zip",
+      "Version": ["awk", "/^#define OPEN_CORE_VERSION/ { print substr($3,2,5) }", "Include/Acidanthera/OpenCore.h"],
       "Pre-Build": [
         {
           "path": "iasl",
@@ -112,17 +115,6 @@
       "Extras": [
         "Docs/AcpiSamples/*.aml"
       ]
-    },
-    {
-      "URL": "https://github.com/acidanthera/AppleSupportPkg",
-      "Name": "AppleSupportPkg",
-      "Desc": "AppleSupportPkg - contains UEFI drivers for Apple environment support",
-      "Type": "Other",
-      "Command": "./macbuild.tool",
-      "Combined": true,
-      "Release File": "Binaries/Release/*.zip",
-      "Debug File": "Binaries/Debug/*.zip",
-      "Version": ["awk", "/^#define APPLE_SUPPORT_VERSION/ { print substr($3,3,5) }", "Include/AppleSupportPkgVersion.h"]
     }
   ]
 }
