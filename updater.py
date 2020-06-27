@@ -19,6 +19,7 @@ def matched_key_in_dict_array(array, key, value):
     return False
 
 MAX_OUTSTANDING_COMMITS = 3
+DATE_DELTA = 3
 
 theJSON = json.load(Path("plugins.json").open())
 plugins = theJSON.get("Plugins", [])
@@ -58,7 +59,7 @@ for plugin in plugins:
 
     for commit in commits:
         commit_date = dateutil.parser.parse(commit["commit"]["committer"]["date"])
-        newer = commit_date >= date_to_compare
+        newer = commit_date >= date_to_compare - datetime.timedelta(days=DATE_DELTA)
         force_build = plugin.get("Force") and commits.index(commit) == 0
         not_in_repo = not matched_key_in_dict_array(config.get(repo, {}).get("versions", []), "commit", commit["sha"])
         within_max_outstanding = commits.index(commit) <= MAX_OUTSTANDING_COMMITS

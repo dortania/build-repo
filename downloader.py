@@ -13,7 +13,9 @@ while True:
     target = input("Enter product to download (case sensitive): ")
     dbg = input("Debug or release? (\"debug\" or \"release\") ").lower()
     try:
-        dl_link = plugins[target]["versions"][0]["links"][dbg]
+        to_dl = plugins[target]["versions"][0]
+        dl_link = to_dl["links"][dbg]
+        print(f"Downloading {target} version {to_dl['version']} sha {to_dl['commit']} and date added {to_dl['dateadded']}")
     except KeyError as error:
         if error.args[0] == target:
             print("Product " + error.args[0] + " not available\n")
