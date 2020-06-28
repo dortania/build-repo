@@ -19,7 +19,7 @@ def matched_key_in_dict_array(array, key, value):
     return False
 
 MAX_OUTSTANDING_COMMITS = 3
-DATE_DELTA = 4
+DATE_DELTA = 7
 
 theJSON = json.load(Path("plugins.json").open())
 plugins = theJSON.get("Plugins", [])
