@@ -17,6 +17,54 @@
       "Debug File": "build/Debug/*.zip"
     },
     {
+      "Lilu": true,
+      "URL": "https://github.com/acidanthera/CPUFriend",
+      "Desc": "Dynamic macOS CPU power management data injection",
+      "Name": "CPUFriend",
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
+      "Lilu": true,
+      "URL": "https://github.com/acidanthera/AirportBrcmFixup",
+      "Desc": "An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.",
+      "Name": "AirportBrcmFixup",
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
+      "Lilu": true,
+      "URL": "https://github.com/acidanthera/BT4LEContinuityFixup",
+      "Desc": "An open source kernel extension providing patches for IOBluetoothFamily.",
+      "Name": "BT4LEContinuityFixup",
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
+      "Lilu": true,
+      "URL": "https://github.com/acidanthera/HibernationFixup",
+      "Desc": "A Lilu plugin intended to fix hibernation compatibility issues",
+      "Name": "HibernationFixup",
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
+      "Lilu": true,
+      "URL": "https://github.com/acidanthera/VoodooInput",
+      "Desc": "Generic Multitouch Handler kernel extension for macOS",
+      "Name": "VoodooInput",
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
+      "Lilu": true,
+      "URL": "https://github.com/acidanthera/IntelMausi",
+      "Desc": "Intel Ethernet LAN driver for macOS",
+      "Name": "IntelMausi",
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
       "URL": "https://github.com/acidanthera/Lilu",
       "Name": "Lilu",
       "Desc": "for arbitrary kext, library, and program patching",
