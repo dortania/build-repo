@@ -22,7 +22,8 @@
       "Desc": "Dynamic macOS CPU power management data injection",
       "Name": "CPUFriend",
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "Debug File": "build/Debug/*.zip",
+      "Force": true
     },
     {
       "Lilu": true,
@@ -38,7 +39,8 @@
       "Desc": "An open source kernel extension providing patches for IOBluetoothFamily.",
       "Name": "BT4LEContinuityFixup",
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "Debug File": "build/Debug/*.zip",
+      "Force": true
     },
     {
       "Lilu": true,
@@ -46,7 +48,8 @@
       "Desc": "A Lilu plugin intended to fix hibernation compatibility issues",
       "Name": "HibernationFixup",
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "Debug File": "build/Debug/*.zip",
+      "Force": true
     },
     {
       "Lilu": true,
@@ -54,7 +57,8 @@
       "Desc": "Generic Multitouch Handler kernel extension for macOS",
       "Name": "VoodooInput",
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "Debug File": "build/Debug/*.zip",
+      "Force": true
     },
     {
       "Lilu": true,
@@ -62,7 +66,8 @@
       "Desc": "Intel Ethernet LAN driver for macOS",
       "Name": "IntelMausi",
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "Debug File": "build/Debug/*.zip",
+      "Force": true
     },
     {
       "URL": "https://github.com/acidanthera/Lilu",
