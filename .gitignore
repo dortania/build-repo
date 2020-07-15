@@ -2,3 +2,5 @@ gh token.txt
 Lilu-and-Friends/
 __pycache__/
 Temp/
+.vscode/
+.DS_Store
