@@ -27,7 +27,7 @@ jobs:
           python3 -m pip install -U pip
           pip3 install hammock python-dateutil datetime termcolor purl
       - name: Copy Token
-        run: echo ${{ secrets.GH_TOKEN }} > gh\ token.txt
+        run: echo ${{ secrets.GITHUB_TOKEN }} > gh\ token.txt
       - name: Check Parallel
         run: python3 -u test_release.py
       - name: Send Notification
