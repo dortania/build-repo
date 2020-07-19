@@ -133,7 +133,7 @@ def add_built(plugin, token):
         for i in ["debug", "release"]:
             release["links"][i] = upload_release_asset(release["releaseid"], token, debug_dir if i == "debug" else release_dir / Path(files[0][i]))
     else:
-        release["links"]["debug" if debug else "release"] = upload_release_asset(release["releaseid"], token, path_to_files / Path(files[0]["debug" if debug else "release"]))
+        release["links"]["debug" if debug else "release"] = upload_release_asset(release["releaseid"], token, path_to_files / Path(files[0]))
     
     if files[1]:
         if not release.get("extras", None):
