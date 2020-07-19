@@ -19,7 +19,7 @@ def expand_globs(path: str):
     return list(Path(path.root).glob(str(Path("").joinpath(*parts))))
 
 def upload_release_asset(release_id, file_path: Path):
-    upload_url = releases_url("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases" + str(release["releaseid"])).GET().json()["upload_url"]
+    upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases" + str(release["releaseid"])).GET().json()["upload_url"]
     mime_type = mimetypes.guess_type(file_path)
     if not mime_type[0]:
         print("Failed to guess mime type!")
@@ -90,15 +90,7 @@ def add_built(plugin, token):
         create_release = releases_url.POST(json={
             "tag_name": release["commit"],
             "target_commitish": "builds",
-            "name": name + " " + release["commit"],
-            "body": f"""**Hashes**:
-            Debug:
-            {file + ': ' + release['hashes']['debug']}
-            Release:
-            {file + ': ' + release['hashes']['release']}
-            Extras:
-            {nl.join([file + ': ' + release['hashes'][file] for file in files[1] if file != "debug" and file != "release"])}
-            """
+            "name": name + " " + release["commit"]
         })
         print(create_release)
         print(create_release.json()["id"])
@@ -140,6 +132,17 @@ def add_built(plugin, token):
         for file in files[1]:
             release["extras"][file] = upload_release_asset(release["releaseid"], debug_dir if combined else path_to_files / Path(file))
     
+    upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases" + str(release["releaseid"])).POST(json={
+        "body": f"""**Hashes**:
+        Debug:
+        {files[0]["debug"] if combined else files[0] + ': ' + release['hashes']['debug'] if combined or not debug else ''}
+        Release:
+        {files[0]["release"] if combined else files[0] + ': ' + release['hashes']['release'] if combined or not debug else ''}
+        Extras:
+        {nl.join([file + ': ' + release['hashes'][file] for file in files[1]]) if files[1] else ''}
+        """
+    })
+
     if ind is not None:
         config[name]["versions"][ind] = release
     else:
