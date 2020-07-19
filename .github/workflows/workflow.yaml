@@ -29,7 +29,7 @@ jobs:
       - name: Copy Token
         run: echo ${{ secrets.GITHUB_TOKEN }} > gh\ token.txt
       - name: Check Parallel
-        run: python3 -u test_release.py
+        run: python3 -u check_parallel.py
       - name: Send Notification
         run: |
           wget -P ~/ https://raw.githubusercontent.com/dhinakg/travis-ci-discord-webhook/master/send.sh
