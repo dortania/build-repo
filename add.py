@@ -99,6 +99,8 @@ def add_built(plugin, token):
         })
         print(releases_url)
         print(create_release)
+        print(create_release.text)
+        print(create_release.status_code)
         print(create_release.json()["id"])
         release["releaseid"] = create_release.json()["id"]
 
