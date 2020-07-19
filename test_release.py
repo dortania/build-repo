@@ -25,9 +25,9 @@ derp = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/git/refs/tag
 
 
 create_release = url_string.POST(json={
-    "tag_name": "testtag",
+    "tag_name": "ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a",
     "target_commitish": "builds",
-    "name": "test"
+    "name": "AirportBrcmFixup-ab5e7f8"
 })
 
 create_release_json = create_release.json()
