@@ -18,7 +18,7 @@ def expand_globs(path: str):
     parts = path.parts[1:] if path.is_absolute() else path.parts
     return list(Path(path.root).glob(str(Path("").joinpath(*parts))))
 
-def upload_release_asset(release_id, file_path: Path):
+def upload_release_asset(release_id, token, file_path: Path):
     upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases" + str(release["releaseid"])).GET().json()["upload_url"]
     mime_type = mimetypes.guess_type(file_path)
     if not mime_type[0]:
@@ -90,12 +90,12 @@ def add_built(plugin, token):
         print({
             "tag_name": release["commit"],
             "target_commitish": "builds",
-            "name": name + " " + release["commit"]
+            "name": name + "-" + release["commit"]
         })
-        create_release = releases_url.POST(json={
+        create_release = hammock(f"https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", auth=("dhinakg", token)).POST(json={
             "tag_name": release["commit"],
             "target_commitish": "builds",
-            "name": name + " " + release["commit"]
+            "name": name + "-" + release["commit"]
         })
         print(releases_url)
         print(create_release)
@@ -128,15 +128,15 @@ def add_built(plugin, token):
     
     if combined:
         for i in ["debug", "release"]:
-            release["links"][i] = upload_release_asset(release["releaseid"], debug_dir if i == "debug" else release_dir / Path(files[0][i]))
+            release["links"][i] = upload_release_asset(release["releaseid"], token, debug_dir if i == "debug" else release_dir / Path(files[0][i]))
     else:
-        release["links"]["debug" if debug else "release"] = upload_release_asset(release["releaseid"], path_to_files / Path(files[0]["debug" if debug else "release"]))
+        release["links"]["debug" if debug else "release"] = upload_release_asset(release["releaseid"], token, path_to_files / Path(files[0]["debug" if debug else "release"]))
     
     if files[1]:
         if not release.get("extras", None):
             release["extras"] = {}
         for file in files[1]:
-            release["extras"][file] = upload_release_asset(release["releaseid"], debug_dir if combined else path_to_files / Path(file))
+            release["extras"][file] = upload_release_asset(release["releaseid"], token, debug_dir if combined else path_to_files / Path(file))
     
     upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases" + str(release["releaseid"])).POST(json={
         "body": f"""**Hashes**:
