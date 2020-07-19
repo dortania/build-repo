@@ -149,4 +149,4 @@ if len(failed) > 0 or len(errored) > 0:
 if len(succeeded) > 0:
     print("\nAdding to config...")
     for i in succeeded:
-        add_built(i)
+        add_built(i, token)
