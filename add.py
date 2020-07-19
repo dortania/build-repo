@@ -88,7 +88,7 @@ def add_built(plugin, token):
         # Create release
         nl = "\n" # No escapes in f-strings
         print({
-            "tag_name": release["commit"],
+            "tag_name": name + "-" + release["commit"],
             "target_commitish": "builds",
             "name": name + "-" + release["commit"]
         })
