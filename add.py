@@ -2,6 +2,7 @@ from pathlib import Path
 import json
 import hashlib
 import datetime
+import dateutil.parser
 
 
 def hash_file(file_path: Path):
@@ -54,6 +55,7 @@ def add_built(plugin):
     release["description"] = commit_info["commit"]["message"]
     release["version"] = files[2]
     release["dateadded"] = datetime.datetime.now(tz=datetime.timezone.utc).isoformat()
+    release["datecommitted"] = dateutil.parser.parse(commit_info["commit"]["committer"]["date"]).isoformat()
     release["source"] = "built"
     release["knowngood"] = False
     if not release.get("hashes", None):
