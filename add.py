@@ -82,16 +82,22 @@ def add_built(plugin, token):
     release["source"] = "built"
     release["knowngood"] = False
 
-    releases_url = hammock(f"https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", auth=("dhinakg", token))
+    releases_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", auth=("dhinakg", token))
 
     if not release.get("releaseid", None):
         # Create release
         nl = "\n" # No escapes in f-strings
+        print({
+            "tag_name": release["commit"],
+            "target_commitish": "builds",
+            "name": name + " " + release["commit"]
+        })
         create_release = releases_url.POST(json={
             "tag_name": release["commit"],
             "target_commitish": "builds",
             "name": name + " " + release["commit"]
         })
+        print(releases_url)
         print(create_release)
         print(create_release.json()["id"])
         release["releaseid"] = create_release.json()["id"]
