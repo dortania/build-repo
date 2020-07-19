@@ -88,14 +88,14 @@ def add_built(plugin, token):
         # Create release
         nl = "\n" # No escapes in f-strings
         print({
-            "tag_name": name + "-" + release["commit"],
+            "tag_name": name + "-" + release["commit"][:12],
             "target_commitish": "builds",
-            "name": name + "-" + release["commit"]
+            "name": name + "-" + release["commit"][:12]
         })
         create_release = hammock(f"https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", auth=("dhinakg", token)).POST(json={
-            "tag_name": name + "-" + release["commit"],
+            "tag_name": name + "-" + release["commit"][:12],
             "target_commitish": "builds",
-            "name": name + "-" + release["commit"]
+            "name": name + "-" + release["commit"][:12]
         })
         print(releases_url)
         print(create_release)
