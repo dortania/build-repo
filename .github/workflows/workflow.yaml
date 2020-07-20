@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: '0'
-          persist-credentials: false
+          persist-credentials: true
           ref: github-actions
       - name: Set up Python 3
         uses: actions/setup-python@v2
@@ -57,7 +57,5 @@ jobs:
           ls Push
           cd Push
           git add config.json last_updated.txt
-          git config user.name dhinakg
-          git config user.email dhinakg@users.noreply.github.com
           git commit -m "Deploying to builds"
           git push
