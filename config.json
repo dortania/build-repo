@@ -2954,6 +2954,33 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "b7e99c100c442b6b94f9e76eff70f44c25ea3942",
+        "dateadded": "2020-07-20T23:25:04.848860+00:00",
+        "datecommitted": "2020-07-19T19:21:10+00:00",
+        "description": "Includes: Fix MKext header comments",
+        "extras": {
+          "SSDT-PLUG.aml": false,
+          "SSDT-PMC.aml": false
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b",
+          "SSDT-PMC.aml": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "debug": {
+            "sha256": "cf89312bd45e7be62c42eeb8e642beceb988330db7929596f5d50c126b6aee0c"
+          },
+          "release": {
+            "sha256": "43bad419444a13be15efe41970a4a525eb2bcd214cc5ad4112acaf2d84810fb6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-b7e99c1/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-b7e99c1/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "releaseid": 28760532,
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "32828b04c467d890466610cbde677ea9b92e6968",
         "dateadded": "2020-07-19T15:25:53.727081+00:00",
         "description": "OcCompressionLib: Expose Adler32 function",
@@ -13169,6 +13196,31 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "1f7271b48f99e564d221b8099c41408bc6dd4c2b",
+        "dateadded": "2020-07-20T23:25:00.849528+00:00",
+        "datecommitted": "2020-07-20T03:20:01+00:00",
+        "description": "Update FAQ.IntelHD.en.md",
+        "extras": {
+          "SSDT-PNLF.aml": false
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "debug": {
+            "sha256": "65e04dfb2222329c8bb90c89b411ad65ba13d4a3f60f84d60519b79df0e8e354"
+          },
+          "release": {
+            "sha256": "ab2577cd4ef20e6ad6463b133195f60b18dc90e0adf408c63794b7a06d6f2a65"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-1f7271b/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-1f7271b/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "releaseid": 28760531,
+        "source": "built",
+        "version": "1.4.1"
+      },
       {
         "commit": "b97c692aee9672786a181423dd476a05782ba7e9",
         "dateadded": "2020-07-13T14:23:54.784290+00:00",
