@@ -149,6 +149,7 @@ def add_built(plugin, token):
         {nl.join([file + ': ' + release['hashes'][file] for file in files[1]]) if files[1] else ''}
         """
     })
+    print(upload_url)
 
     if ind is not None:
         config[name]["versions"][ind] = release
