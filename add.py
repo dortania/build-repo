@@ -22,7 +22,7 @@ def expand_globs(path: str):
 
 
 def upload_release_asset(release_id, token, file_path: Path):
-    upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases" + str(release_id)).GET().json()["upload_url"]
+    upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release_id)).GET().json()["upload_url"]
     mime_type = mimetypes.guess_type(file_path)
     if not mime_type[0]:
         print("Failed to guess mime type!")
@@ -100,11 +100,6 @@ def add_built(plugin, token):
             "target_commitish": "builds",
             "name": name + "-" + release["commit"]
         })
-        print(releases_url)
-        print(create_release)
-        print(create_release.text)
-        print(create_release.status_code)
-        print(create_release.json())
         print(create_release.json()["id"])
         release["releaseid"] = create_release.json()["id"]
 
