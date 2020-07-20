@@ -57,7 +57,7 @@ jobs:
           ls Push
           cd Push
           git add config.json last_updated.txt
-          git configs user.name dhinakg
+          git config user.name dhinakg
           git config user.email dhinakg@users.noreply.github.com
           git commit -m "Deploying to builds"
           git push
