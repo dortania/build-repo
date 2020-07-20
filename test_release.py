@@ -12,15 +12,13 @@ pp = pprint.PrettyPrinter()
 with open("gh token.txt") as f:
     token = f.read().strip()
 
-url_string = hammock(f"https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", auth=("dhinakg", token))
-
-
+url_string = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", auth=("dhinakg", token))
 
 get_release = url_string.GET()
 for i in [i["id"] for i in get_release.json()]:
     af= url_string(i).DELETE()
 
-delete_tags = hammock(f"https://api.github.com/repos/dhinakg/ktextrepo-beta/git/matching-refs/tags", auth=("dhinakg", token))
+delete_tags = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/git/matching-refs/tags", auth=("dhinakg", token))
 
 delete_tags = delete_tags.GET()
 for i in [i["url"] for i in delete_tags.json()]:
