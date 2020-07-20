@@ -139,10 +139,14 @@ def add_built(plugin, token):
         for file in files[1]:
             release["extras"][file] = upload_release_asset(release["releaseid"], token, debug_dir if combined else path_to_files / Path(file))
     nl = "\n" # No escapes in f-strings
+    print(files[0]["debug"] if combined else files[0])
+    print(release['hashes']['debug'] if combined or debug else '')
+    print(files[0]["release"] if combined else files[0])
+    print(release['hashes']['release'] if combined or not debug else '')
     upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases" + str(release["releaseid"])).POST(json={
         "body": f"""**Hashes**:
         Debug:
-        {files[0]["debug"] if combined else files[0] + ': ' + release['hashes']['debug'] if combined or not debug else ''}
+        {files[0]["debug"] if combined else files[0] + ': ' + release['hashes']['debug'] if combined or debug else ''}
         Release:
         {files[0]["release"] if combined else files[0] + ': ' + release['hashes']['release'] if combined or not debug else ''}
         Extras:
