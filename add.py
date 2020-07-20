@@ -97,7 +97,7 @@ def add_built(plugin, token):
             "target_commitish": "builds",
             "name": name + "-" + release["commit"]
         })
-        create_release = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", auth=("dhinakg", token)).POST(json={
+        create_release = releases_url.POST(json={
             "tag_name": name + "-" + release["commit"],
             "target_commitish": "builds",
             "name": name + "-" + release["commit"]
