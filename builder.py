@@ -1,8 +1,8 @@
-from pathlib import Path
-import shutil
 import plistlib
+import shutil
 import subprocess
 from os import chdir
+from pathlib import Path
 
 
 class Builder():
@@ -83,7 +83,6 @@ class Builder():
         r_file = plugin.get("Release File", "build/Release/*.kext")
         extra_files = plugin.get("Extras", None)
         v_cmd = plugin.get("Version", None)
-        combined = plugin.get("Combined", False)
 
         if debug:
             # we need to prep some stuff for debug builds
@@ -158,9 +157,19 @@ class Builder():
                 print("\tReturn code: " + str(result.returncode))
                 return False
         else:
-            print("\tBuilding debug version..." if debug else "\tBuilding release version...")
-            args = "xcodebuild -quiet -configuration".split()
-            args.append("Debug" if debug else "Release")
+            print("\tBuilding release version...")
+            args = "xcodebuild -quiet -configuration Release".split()
+            args.extend(build_opts)
+            args.append("BUILD_DIR=build/")
+            result = subprocess.run(args, capture_output=True)
+            if result.returncode != 0:
+                print("\tBuild failed!")
+                print(result.stdout.decode())
+                print(result.stderr.decode())
+                print("\tReturn code: " + str(result.returncode))
+                return False
+            print("\tBuilding debug version...")
+            args = "xcodebuild -quiet -configuration Debug".split()
             args.extend(build_opts)
             args.append("BUILD_DIR=build/")
             result = subprocess.run(args, capture_output=True)
@@ -211,59 +220,35 @@ class Builder():
         if extra_files is not None:
             for i in extra_files:
                 extras.extend(self._expand_globs(i))
-        if combined:
-            print(d_file)
-            print(self._expand_globs(d_file))
-            debug_file = self._expand_globs(d_file)[0]
-            release_file = self._expand_globs(r_file)[0]
-            debug_dir = self.build_dir / Path(category_type) / Path(name) / Path(commithash) / Path("Debug")
-            release_dir = self.build_dir / Path(category_type) / Path(name) / Path(commithash) / Path("Release")
-            for directory in [debug_dir, release_dir]:
-                if directory.exists():
-                    shutil.rmtree(directory)
-                directory.mkdir(parents=True)
-        else:
-            build_product = self._expand_globs(d_file)[0] if debug else self._expand_globs(r_file)[0]
-            plugin_dir = self.build_dir / Path(category_type) / Path(name) / Path(commithash) / Path("Debug" if debug else "Release")
-            if plugin_dir.exists():
-                shutil.rmtree(plugin_dir)
-            plugin_dir.mkdir(parents=True)
+        debug_file = self._expand_globs(d_file)[0]
+        release_file = self._expand_globs(r_file)[0]
+        debug_dir = self.build_dir / Path(category_type) / Path(name) / Path(commithash) / Path("Debug")
+        release_dir = self.build_dir / Path(category_type) / Path(name) / Path(commithash) / Path("Release")
+        for directory in [debug_dir, release_dir]:
+            if directory.exists():
+                shutil.rmtree(directory)
+            directory.mkdir(parents=True)
         if extras:
             for i in extras:
                 if i.is_dir():
                     print(i + " is a dir; please fix!")
-                    if combined:
-                        shutil.copytree(i, debug_dir / i.name)
-                        shutil.copytree(i, release_dir / i.name)
-                    else:
-                        shutil.copytree(i, plugin_dir / i.name)
+                    shutil.copytree(i, debug_dir / i.name)
+                    shutil.copytree(i, release_dir / i.name)
                 elif i.is_file():
-                    if combined:
-                        shutil.copy(i, debug_dir)
-                        shutil.copy(i, release_dir)
-                    else:
-                        shutil.copy(i, plugin_dir)
+                    shutil.copy(i, debug_dir)
+                    shutil.copy(i, release_dir)
                 else:
                     print(i + " is not a dir or a file!")
                     continue
-        if combined:
-            if debug_file.is_dir():
-                print(debug_file + " is a dir; please fix!")
-                shutil.copytree(debug_file, debug_dir / debug_file.name)
-            elif debug_file.is_file():
-                shutil.copy(debug_file, debug_dir)
+        if debug_file.is_dir():
+            print(debug_file + " is a dir; please fix!")
+            shutil.copytree(debug_file, debug_dir / debug_file.name)
+        elif debug_file.is_file():
+            shutil.copy(debug_file, debug_dir)
 
-            if release_file.is_dir():
-                print(release_file + " is a dir; please fix!")
-                shutil.copytree(release_file, release_dir / release_file.name)
-            elif release_file.is_file():
-                shutil.copy(release_file, release_dir)
-        else:
-            if build_product.is_dir():
-                print(build_product + " is a dir; please fix!")
-                shutil.copytree(build_product, plugin_dir / build_product.name)
-            elif build_product.is_file():
-                shutil.copy(build_product, plugin_dir)
-        if combined:
-            return [{"debug": debug_file.name, "release": release_file.name}, [i.name for i in extras], version]
-        return [build_product.name, [i.name for i in extras], version]
+        if release_file.is_dir():
+            print(release_file + " is a dir; please fix!")
+            shutil.copytree(release_file, release_dir / release_file.name)
+        elif release_file.is_file():
+            shutil.copy(release_file, release_dir)
+        return {"debug": debug_file.name, "release": release_file.name, "extras": [i.name for i in extras], "version": version}

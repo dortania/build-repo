@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - github-actions
-  schedule:
-    - cron: '*/5 * * * *'
+  #schedule:
+  #  - cron: '*/5 * * * *'
 env:
   FORCE_INSTALL: 1
 jobs:
@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: '0'
-          persist-credentials: false
+          persist-credentials: true
           ref: github-actions
       - name: Set up Python 3
         uses: actions/setup-python@v2
@@ -25,9 +25,9 @@ jobs:
       - name: Install Python Dependencies
         run: |
           python3 -m pip install -U pip
-          pip3 install hammock python-dateutil datetime termcolor
+          pip3 install hammock python-dateutil datetime termcolor purl
       - name: Copy Token
-        run: echo ${{ secrets.GH_TOKEN }} > gh\ token.txt
+        run: echo ${{ secrets.GITHUB_TOKEN }} > gh\ token.txt
       - name: Check Parallel
         run: python3 -u parallel_check.py
       - name: Send Notification
@@ -39,8 +39,7 @@ jobs:
           HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica
       - name: Set Up Working Tree
         run: |
-          git fetch origin builds:builds
-          git worktree add Push builds
+          git clone https://github.com/dhinakg/ktextrepo-beta.git Push --depth 1 --single-branch --branch builds --sparse --filter=blob:none
           cp Push/config.json .
           cp Push/last_updated.txt .
       - name: Check Ratelimit
@@ -55,13 +54,17 @@ jobs:
         run: |
           mv config.json Push
           mv last_updated.txt Push
-          rsync -a Builds/ Push/
           ls Push
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+          cd Push
+      - uses: fregante/setup-git-token@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: builds
-          FOLDER: Push
-
-          
+          token: ${{ secrets.GITHUB_TOKEN }}
+          working-directory: Push
+      - name: Push Builds
+        run: |
+          cd Push
+          git config --global user.name "Dhinak G"
+          git config --global user.email "dhinakg@users.noreply.github.com"
+          git add config.json last_updated.txt
+          git commit -m "Deploying to builds"
+          git push
