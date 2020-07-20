@@ -25,7 +25,7 @@ jobs:
       - name: Install Python Dependencies
         run: |
           python3 -m pip install -U pip
-          pip3 install hammock python-dateutil datetime termcolor purl
+          pip3 install hammock python-dateutil datetime termcolor purl python-magic
       - name: Copy Token
         run: echo ${{ secrets.GITHUB_TOKEN }} > gh\ token.txt
       - name: Check Parallel
@@ -36,7 +36,7 @@ jobs:
           chmod +x ~/send.sh
       - name: Install Build Dependencies
         run: |
-          HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica
+          HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica libmagic
       - name: Set Up Working Tree
         run: |
           git clone https://github.com/dhinakg/ktextrepo-beta.git Push --depth 1 --single-branch --branch builds --sparse --filter=blob:none

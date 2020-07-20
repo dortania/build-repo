@@ -1,14 +1,14 @@
 import datetime
 import hashlib
 import json
-import mimetypes
 from pathlib import Path
 
 import dateutil.parser
+import magic
 import purl
 from hammock import Hammock as hammock
 
-mimetypes.init()
+mime = magic.Magic(mime=True)
 
 
 def hash_file(file_path: Path):
@@ -24,12 +24,10 @@ def expand_globs(path: str):
 def upload_release_asset(release_id, token, file_path: Path):
     upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release_id), auth=("dhinakg", token)).GET().json()
     upload_url = upload_url["upload_url"]
-    mime_type_orig = mimetypes.guess_type(file_path)
-    if not mime_type_orig[0]:
+    mime_type = mime.from_file(file_path)
+    if not mime_type[0]:
         print("Failed to guess mime type!")
         return False
-    mime_type = mime_type_orig[0] + (f"; {mime_type_orig[1]}" if mime_type_orig[1] else "")
-    mime_type = mime_type_orig[0]
 
     asset_upload = hammock(str(purl.Template(upload_url).expand({"name": file_path.name, "label": file_path.name})), auth=("dhinakg", token)).POST(
         data=file_path.read_bytes(),
