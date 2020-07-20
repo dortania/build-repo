@@ -26,6 +26,7 @@ def upload_release_asset(release_id, token, file_path: Path):
     print(upload_url)
     upload_url = upload_url["upload_url"]
     mime_type = mimetypes.guess_type(file_path)
+    print(mime_type)
     if not mime_type[0]:
         print("Failed to guess mime type!")
         return False
@@ -92,11 +93,6 @@ def add_built(plugin, token):
 
     if not release.get("releaseid", None):
         # Create release
-        print({
-            "tag_name": name + "-" + release["commit"],
-            "target_commitish": "builds",
-            "name": name + "-" + release["commit"]
-        })
         create_release = releases_url.POST(json={
             "tag_name": name + "-" + release["commit"],
             "target_commitish": "builds",
@@ -151,8 +147,7 @@ def add_built(plugin, token):
         {nl.join([file + ': ' + release['hashes'][file] for file in files[1]]) if files[1] else ''}
         """
     })
-    print(upload_url)
-
+    
     if ind is not None:
         config[name]["versions"][ind] = release
     else:
