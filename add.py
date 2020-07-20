@@ -108,7 +108,7 @@ def add_built(plugin, token):
     release["hashes"]["release"]["sha256"] = hash_file(release_dir / Path(files["release"]))
 
     if files["extras"]:
-        for file in files[1]:
+        for file in files["extras"]:
             release["hashes"][file] = hash_file(debug_dir / Path(file))
 
     if not release.get("links", None):
@@ -120,7 +120,7 @@ def add_built(plugin, token):
     if files["extras"]:
         if not release.get("extras", None):
             release["extras"] = {}
-        for file in files[1]:
+        for file in files["extras"]:
             release["extras"][file] = upload_release_asset(release["releaseid"], token, debug_dir / Path(file))
     new_line = "\n"  # No escapes in f-strings
 
