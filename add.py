@@ -146,9 +146,9 @@ def add_built(plugin, token):
     upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases" + str(release["releaseid"])).POST(json={
         "body": f"""**Hashes**:
         Debug:
-        {files[0]["debug"] if combined else files[0] + ': ' + release['hashes']['debug'] if combined or debug else ''}
+        {files[0]["debug"] if combined else files[0] + ': ' + release['hashes']['debug']["sha256"] if combined or debug else ''}
         Release:
-        {files[0]["release"] if combined else files[0] + ': ' + release['hashes']['release'] if combined or not debug else ''}
+        {files[0]["release"] if combined else files[0] + ': ' + release['hashes']['release']["sha256"] if combined or not debug else ''}
         Extras:
         {nl.join([file + ': ' + release['hashes'][file] for file in files[1]]) if files[1] else ''}
         """
