@@ -25,12 +25,14 @@ def upload_release_asset(release_id, token, file_path: Path):
     upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release_id), auth=("dhinakg", token)).GET().json()
     print(upload_url)
     upload_url = upload_url["upload_url"]
-    mime_type = mimetypes.guess_type(file_path)
-    print(mime_type)
-    if not mime_type[0]:
+    mime_type_orig = mimetypes.guess_type(file_path)
+    print(mime_type_orig)
+    if not mime_type_orig[0]:
         print("Failed to guess mime type!")
         return False
-    mime_type = mime_type[0] + f"; {mime_type[1]}" if mime_type[1] else ""
+    mime_type = mime_type_orig[0] + f"; {mime_type_orig[1]}" if mime_type_orig[1] else ""
+    print(mime_type)
+    mime_type = mime_type_orig[0]
 
     asset_upload = hammock(str(purl.Template(upload_url).expand({"name": file_path.name, "label": file_path.name})), auth=("dhinakg", token)).POST(
         data=file_path.read_bytes(),
@@ -147,7 +149,7 @@ def add_built(plugin, token):
         {nl.join([file + ': ' + release['hashes'][file] for file in files[1]]) if files[1] else ''}
         """
     })
-    
+
     if ind is not None:
         config[name]["versions"][ind] = release
     else:
