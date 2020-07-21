@@ -100,15 +100,23 @@ def add_built(plugin, token):
     release["releaseid"] = create_release.json()["id"]
 
     if not release.get("hashes", None):
-        release["hashes"] = {"debug": {}, "release": {}}
-
-    release["hashes"]["debug"]["sha256"] = hash_file(debug_dir / Path(files["debug"]))
-    release["hashes"]["release"]["sha256"] = hash_file(release_dir / Path(files["release"]))
-
-    if files["extras"]:
-        for file in files["extras"]:
-            release["hashes"][file] = hash_file(debug_dir / Path(file))
-
+        if combined:
+            release["hashes"] = {"debug": {}, "release": {}}
+        else:
+            release["hashes"] = {"debug" if debug else "release": {}}
+    if not release["hashes"].get("debug" if debug else "release"):
+        release["hashes"]["debug" if debug else "release"] = {}
+    if combined:
+        release["hashes"]["debug"]["sha256"] = hash_file(debug_dir / Path(files[0]["debug"]))
+        release["hashes"]["release"]["sha256"] = hash_file(release_dir / Path(files[0]["release"]))
+    else:
+        release["hashes"]["debug" if debug else "release"]["sha256"] = hash_file(path_to_files / Path(files[0]))
+    if files[1] and combined:
+        for file in files[1]:
+            release["hashes"][file]["sha256"] = hash_file(debug_dir / Path(file))
+    elif files[1] and not combined:
+        for file in files[1]:
+            release["hashes"][file]["sha256"] = hash_file(path_to_files / Path(file))
     if not release.get("links", None):
         release["links"] = {}
 
