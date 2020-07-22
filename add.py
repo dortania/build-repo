@@ -24,7 +24,7 @@ def expand_globs(path: str):
 def upload_release_asset(release_id, token, file_path: Path):
     upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release_id), auth=("dhinakg", token)).GET().json()
     upload_url = upload_url["upload_url"]
-    mime_type = mime.from_file(file_path)
+    mime_type = mime.from_file(str(file_path.resolve()))
     if not mime_type[0]:
         print("Failed to guess mime type!")
         return False
