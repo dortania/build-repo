@@ -125,7 +125,7 @@ def add_built(plugin, token):
         Release:
         {files["release"].name + ': ' + release['hashes']['release']["sha256"]}
         {'Extras:' if files["extras"] else ''}
-        {new_line.join([file.name + ': ' + release['hashes'][file.name] for file in files["extras"]]) if files["extras"] else ''}
+        {new_line.join([file.name + ': ' + release['hashes'][file.name]['sha256'] for file in files["extras"]]) if files["extras"] else ''}
         """
     })
 
