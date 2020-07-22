@@ -25,7 +25,7 @@ jobs:
       - name: Install Python Dependencies
         run: |
           python3 -m pip install -U pip
-          pip3 install hammock python-dateutil datetime termcolor purl
+          pip3 install hammock python-dateutil datetime termcolor purl python-magic
       - name: Copy Token
         run: echo ${{ secrets.GITHUB_TOKEN }} > gh\ token.txt
       - name: Check Parallel
@@ -36,7 +36,7 @@ jobs:
           chmod +x ~/send.sh
       - name: Install Build Dependencies
         run: |
-          HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica
+          HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica libmagic
       - name: Set Up Working Tree
         run: |
           git clone https://github.com/dhinakg/ktextrepo-beta.git Push --depth 1 --single-branch --branch builds --sparse --filter=blob:none
@@ -56,6 +56,15 @@ jobs:
           mv last_updated.txt Push
           ls Push
           cd Push
+      - uses: fregante/setup-git-token@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          working-directory: Push
+      - name: Push Builds
+        run: |
+          cd Push
+          git config --global user.name "Dhinak G"
+          git config --global user.email "dhinakg@users.noreply.github.com"
           git add config.json last_updated.txt
           git commit -m "Deploying to builds"
           git push

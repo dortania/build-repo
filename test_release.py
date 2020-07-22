@@ -1,10 +1,6 @@
-import json
-import os
 import pprint
-import purl
-import requests
-import sys
-import time
+
+# import purl
 from hammock import Hammock as hammock
 
 pp = pprint.PrettyPrinter()
@@ -16,13 +12,13 @@ url_string = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releas
 
 get_release = url_string.GET()
 for i in [i["id"] for i in get_release.json()]:
-    af= url_string(i).DELETE()
+    url_string(i).DELETE()
 
 delete_tags = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/git/matching-refs/tags", auth=("dhinakg", token))
 
 delete_tags = delete_tags.GET()
 for i in [i["url"] for i in delete_tags.json()]:
-    derp = hammock(i, auth=("dhinakg", token)).DELETE()
+    hammock(i, auth=("dhinakg", token)).DELETE()
 
 
 # derp = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/git/refs/tags/testtag", auth=("dhinakg", token)).DELETE()

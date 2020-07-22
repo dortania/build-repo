@@ -1,22 +1,24 @@
-import json
 import datetime
-import copy
+import json
+import sys
 from pathlib import Path
-from hammock import Hammock as hammock
+
 import dateutil.parser
 import termcolor
+from hammock import Hammock as hammock
+
 import builder
 from add import add_built
-import sys
 
 
 def matched_key_in_dict_array(array, key, value):
     if not array:
         return False
-    for d in array:
-        if d.get(key, None) == value:
+    for dictionary in array:
+        if dictionary.get(key, None) == value:
             return True
     return False
+
 
 MAX_OUTSTANDING_COMMITS = 3
 DATE_DELTA = 7
@@ -90,13 +92,6 @@ failed = []
 succeeded = []
 errored = []
 
-for plugin in to_build:
-    plugin["plugin"]["Debug"] = False
-debug_builds = copy.deepcopy(to_build)
-for plugin in debug_builds:
-    plugin["plugin"]["Debug"] = True
-to_build.extend([i for i in debug_builds if not i["plugin"].get("Combined", False)])
-
 termcolor.cprint("\nBuilding " + str(len(to_build)) + " things", attrs=["bold"])
 
 for plugin in to_build:
@@ -109,7 +104,7 @@ for plugin in to_build:
         duration = datetime.datetime.now() - started
         print("An error occurred!")
         print(error)
-        if result:            
+        if result:
             print("Result was: " + str(result))
         termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "red", attrs=["bold"]) + termcolor.colored(" errored", "red"), "red")
         errored.append(plugin)
@@ -124,7 +119,7 @@ for plugin in to_build:
         print("Took " + str(duration))
     else:
         duration = datetime.datetime.now() - started
-        if result:            
+        if result:
             print("Result was: " + str(result))
         termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "red", attrs=["bold"]) + termcolor.colored(" failed", "red"), "red")
         failed.append(plugin)
