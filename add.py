@@ -98,12 +98,12 @@ def add_built(plugin, token):
     if not release.get("hashes", None):
         release["hashes"] = {"debug": {"sha256": ""}, "release": {"sha256": ""}}
 
-    release["hashes"]["debug"]["sha256"] = hash_file(files["debug"])
-    release["hashes"]["release"]["sha256"] = hash_file(files["release"])
+    release["hashes"]["debug"] = {"sha256": hash_file(files["debug"])}
+    release["hashes"]["release"] = {"sha256": hash_file(files["release"])}
 
     if files["extras"]:
         for file in files["extras"]:
-            release["hashes"][file.name]["sha256"] = hash_file(file)
+            release["hashes"][file.name] = {"sha256": hash_file(file)}
 
     if not release.get("links", None):
         release["links"] = {}
