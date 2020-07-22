@@ -48,10 +48,6 @@ def add_built(plugin, token):
 
     name = plugin_info["Name"]
     plugin_type = plugin_info.get("Type", "Kext")
-    category_type = {"Kext": "Kexts", "Bootloader": "Bootloaders", "Other": "Others"}.get(plugin_type)
-
-    debug_dir = script_dir / Path("Builds") / Path(category_type) / Path(name) / Path(commit_info["sha"]) / Path("Debug")
-    release_dir = script_dir / Path("Builds") / Path(category_type) / Path(name) / Path(commit_info["sha"]) / Path("Release")
 
     ind = None
 
@@ -102,24 +98,24 @@ def add_built(plugin, token):
     if not release.get("hashes", None):
         release["hashes"] = {"debug": {}, "release": {}}
 
-    release["hashes"]["debug"]["sha256"] = hash_file(debug_dir / Path(files[0]["debug"]))
-    release["hashes"]["release"]["sha256"] = hash_file(release_dir / Path(files[0]["release"]))
+    release["hashes"]["debug"]["sha256"] = hash_file(files["debug"])
+    release["hashes"]["release"]["sha256"] = hash_file(files["release"])
 
     if files["extras"]:
         for file in files["extras"]:
-            release["hashes"][file]["sha256"] = hash_file(debug_dir / Path(file))
+            release["hashes"][file.name]["sha256"] = hash_file(file)
 
     if not release.get("links", None):
         release["links"] = {}
 
     for i in ["debug", "release"]:
-        release["links"][i] = upload_release_asset(release["releaseid"], token, (debug_dir if i == "debug" else release_dir) / Path(files[i]))
+        release["links"][i] = upload_release_asset(release["releaseid"], token, files[i])
 
     if files["extras"]:
         if not release.get("extras", None):
             release["extras"] = {}
         for file in files["extras"]:
-            release["extras"][file] = upload_release_asset(release["releaseid"], token, debug_dir / Path(file))
+            release["extras"][file.name] = upload_release_asset(release["releaseid"], token, file)
     new_line = "\n"  # No escapes in f-strings
 
     hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release["releaseid"]), auth=("dhinakg", token)).POST(json={
