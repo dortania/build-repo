@@ -4,15 +4,15 @@
     "versions": [
       {
         "commit": "ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a",
-        "dateadded": "2020-07-22T03:46:05.449364+00:00",
+        "dateadded": "2020-07-22T03:50:04.226455+00:00",
         "datecommitted": "2020-07-19T13:19:29+00:00",
         "description": "Support brcmfx-aspm for all chipsets",
         "hashes": {
           "debug": {
-            "sha256": "cc0e070bf2b4989f3be3b214ac302448a7c20384f6f6dec3b27b0cbeb8edb2ba"
+            "sha256": "10cca0148d89297938544d1e65646eccb92717677d7594cc08c9158d42d4189f"
           },
           "release": {
-            "sha256": "67c30b5d3e753542b528e15d267a2928746f0de2b89797633ed941808ad07c7d"
+            "sha256": "795576743373748f5bde8d1ccb5f31b7a3c1f3b8d1ca6a12fbff8ed380aedd18"
           }
         },
         "knowngood": false,
@@ -20,7 +20,7 @@
           "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AirportBrcmFixup-ab5e7f8/AirportBrcmFixup-2.0.8-DEBUG.zip",
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AirportBrcmFixup-ab5e7f8/AirportBrcmFixup-2.0.8-RELEASE.zip"
         },
-        "releaseid": 28809975,
+        "releaseid": 28810024,
         "source": "built",
         "version": "2.0.8"
       },
