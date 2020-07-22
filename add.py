@@ -121,11 +121,11 @@ def add_built(plugin, token):
     hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release["releaseid"]), auth=("dhinakg", token)).POST(json={
         "body": f"""**Hashes**:
         Debug:
-        {files["debug"] + ': ' + release['hashes']['debug']["sha256"]}
+        {files["debug"].name + ': ' + release['hashes']['debug']["sha256"]}
         Release:
-        {files["release"] + ': ' + release['hashes']['release']["sha256"]}
+        {files["release"].name + ': ' + release['hashes']['release']["sha256"]}
         {'Extras:' if files["extras"] else ''}
-        {new_line.join([file + ': ' + release['hashes'][file] for file in files["extras"]]) if files["extras"] else ''}
+        {new_line.join([file + ': ' + release['hashes'][file.name] for file in files["extras"]]) if files["extras"] else ''}
         """
     })
 
