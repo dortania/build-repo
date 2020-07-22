@@ -1,4 +1,7 @@
 # ktextrepo
+
+![Build](https://github.com/dhinakg/ktextrepo-beta/workflows/Build/badge.svg)
+
 ktext
 
 in beta
