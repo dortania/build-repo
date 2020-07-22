@@ -65,11 +65,6 @@ for plugin in plugins:
         force_build = plugin.get("Force") and commits.index(commit) == 0
         not_in_repo = not matched_key_in_dict_array(config.get(repo, {}).get("versions", []), "commit", commit["sha"])
         within_max_outstanding = commits.index(commit) <= MAX_OUTSTANDING_COMMITS
-        if repo == "OpenCorePkg" and commit["sha"] == "75b7ead8dcfbcb07e8dc737a4f0664b6f91e0187":
-            print(newer)
-            print(not_in_repo)
-            print(force_build)
-            print(within_max_outstanding)
         if (newer and not_in_repo or force_build) and within_max_outstanding:
             if commits.index(commit) == 0:
                 print(repo + " by " + organization + " latest commit (" + commit_date.isoformat() + ") not built")
