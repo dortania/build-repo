@@ -96,7 +96,7 @@ def add_built(plugin, token):
     release["releaseid"] = create_release.json()["id"]
 
     if not release.get("hashes", None):
-        release["hashes"] = {"debug": {}, "release": {}}
+        release["hashes"] = {"debug": {"sha256": ""}, "release": {"sha256": ""}}
 
     release["hashes"]["debug"]["sha256"] = hash_file(files["debug"])
     release["hashes"]["release"]["sha256"] = hash_file(files["release"])
