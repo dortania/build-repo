@@ -251,4 +251,4 @@ class Builder():
             shutil.copytree(release_file, release_dir / release_file.name)
         elif release_file.is_file():
             shutil.copy(release_file, release_dir)
-        return {"debug": debug_file.resolve(), "release": release_file.resolve(), "extras": [i.resolve() for i in extras], "version": version}
+        return {"debug": debug_dir / Path(debug_file.name), "release": release_dir / Path(release_file.name), "extras": [debug_dir / Path(i.name) for i in extras], "version": version}
