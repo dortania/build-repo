@@ -1866,6 +1866,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "d9c82288a56c643af644ef2196616f822fdcd358",
+        "dateadded": "2020-07-23T13:46:55.694010+00:00",
+        "datecommitted": "2020-07-23T06:53:32+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "4eb12c6347ca6f87ef10cc66997572da1d4ec0fb2255414c17852ef92cc65240"
+          },
+          "release": {
+            "sha256": "b8b89a5dd61abbb05e2698cc4bf01804c5422a2ed280b98b28bd3d31f15d6b84"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-d9c8228/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-d9c8228/Lilu-1.4.6-RELEASE.zip"
+        },
+        "releaseid": 28872870,
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "28122d0084dc5fe1b486bd52945160cf5be64d49",
         "dateadded": "2020-07-13T14:23:54.695475+00:00",
         "description": "Update README.md",
@@ -12550,6 +12571,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "22f32eea53ab8c09ffea815b3978ae038e16b800",
+        "dateadded": "2020-07-23T13:46:59.592397+00:00",
+        "datecommitted": "2020-07-23T06:52:45+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "8b06ccaed7619206b7af1585fbd37f2e5e7cf5d4c647f17611abef82f2667818"
+          },
+          "release": {
+            "sha256": "e82d4346c070e4872103b805b22d4ee05f329211b4b5555d56ecd23fdd82a4c4"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-22f32ee/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-22f32ee/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "releaseid": 28872876,
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
         "commit": "1d83a31e172a1b6ee221f440c1a1d1386855506e",
         "dateadded": "2020-07-16T23:49:45.872284+00:00",
         "description": "Include SMCDellSensors in package (#33)",
@@ -13300,6 +13342,33 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "4a4ac3db04a66fd7338661522387e608f029e734",
+        "dateadded": "2020-07-23T13:47:03.391373+00:00",
+        "datecommitted": "2020-07-23T09:22:13+00:00",
+        "description": "Merge remote-tracking branch 'origin/master'\n\n* origin/master:\n  Update README.md\n  Update FAQ.IntelHD.en.md",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-4a4ac3d/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "8db268b0fa5f34847152c7492cd62c09a4e360cb32a1b96ad6f4bf405380f23a"
+          },
+          "release": {
+            "sha256": "9772fde6af9a113ca5c027ba563dc9fb386579934a15dd6075ef9bdaec0b319a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-4a4ac3d/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-4a4ac3d/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "releaseid": 28872879,
+        "source": "built",
+        "version": "1.4.1"
+      },
       {
         "commit": "3e1f15aad1bc8e39e1ca3d4848bff4bdfd21124f",
         "dateadded": "2020-07-23T06:59:51.958958+00:00",
