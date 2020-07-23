@@ -3,6 +3,27 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "dffce0d5189c2b44c975dc42bdb7e8ffd6e30899",
+        "dateadded": "2020-07-23T06:59:49.361061+00:00",
+        "datecommitted": "2020-07-23T06:50:11+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "23910c48c65d2967daceafda7eae6cd6c127d00f4588ce28b2e534e5d777ab90"
+          },
+          "release": {
+            "sha256": "dd94a750c8edfbaef698b76320f602c2d79616f4d2917dfcbfdbc736f9cfd702"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AirportBrcmFixup-dffce0d/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AirportBrcmFixup-dffce0d/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "releaseid": 28857843,
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
         "commit": "ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a",
         "dateadded": "2020-07-22T03:50:04.226455+00:00",
         "datecommitted": "2020-07-19T13:19:29+00:00",
@@ -309,6 +330,27 @@
   "AppleALC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "25cc96ffed01b965ca18a7be81c488cc9d7f8ed7",
+        "dateadded": "2020-07-23T06:59:46.319971+00:00",
+        "datecommitted": "2020-07-23T06:51:48+00:00",
+        "description": "Update README.md",
+        "hashes": {
+          "debug": {
+            "sha256": "c0ca887123ff10ad0aaa722f7e61c74be3e233a7504d9a43f2f3de83b0e025e5"
+          },
+          "release": {
+            "sha256": "9664c4870f6276ff4f43113a41deab5d69afa5070c62f623c6cb00d1909b94c6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AppleALC-25cc96f/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AppleALC-25cc96f/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "releaseid": 28857841,
+        "source": "built",
+        "version": "1.5.1"
+      },
       {
         "commit": "f07c1f8c65270f58a50f96bac2588710d0ff7683",
         "dateadded": "2020-07-13T14:23:54.643928+00:00",
@@ -13258,6 +13300,33 @@
   "WhateverGreen": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "3e1f15aad1bc8e39e1ca3d4848bff4bdfd21124f",
+        "dateadded": "2020-07-23T06:59:51.958958+00:00",
+        "datecommitted": "2020-07-23T06:44:50+00:00",
+        "description": "Update README.md",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-3e1f15a/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "bf77357eee0feace9b14e3520fd7a659df2a544be4fd63600b1c45f5fbf690e7"
+          },
+          "release": {
+            "sha256": "c8d4e0db4e1356d11a8fcff60d404d2bbea8a279508dd256981371d3832c796e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-3e1f15a/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-3e1f15a/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "releaseid": 28857845,
+        "source": "built",
+        "version": "1.4.1"
+      },
       {
         "commit": "1f7271b48f99e564d221b8099c41408bc6dd4c2b",
         "dateadded": "2020-07-20T23:25:00.849528+00:00",
