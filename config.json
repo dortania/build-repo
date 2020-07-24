@@ -13374,6 +13374,33 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "5d3b31afea0393721dcd00272e21ca065e3b40ad",
+        "dateadded": "2020-07-24T01:29:39.052154+00:00",
+        "datecommitted": "2020-07-24T01:26:53+00:00",
+        "description": "Update FAQ.IntelHD.cn.md (#58)",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-5d3b31a/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "2e6b0f124c717bedd973abd6abee1ae877b32ed34585658fc769866b5b93e213"
+          },
+          "release": {
+            "sha256": "1e576471d3ec521d606ac4fb18c90560a0b078643928fafd013dcbc78d52d125"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-5d3b31a/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-5d3b31a/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "releaseid": 28895803,
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
         "commit": "4a4ac3db04a66fd7338661522387e608f029e734",
         "dateadded": "2020-07-23T13:47:03.391373+00:00",
         "datecommitted": "2020-07-23T09:22:13+00:00",
