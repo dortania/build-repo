@@ -3017,6 +3017,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "bb990c8c5d3c4e6bef819e9909d0e58f7ad1f7af",
+        "dateadded": "2020-07-25T16:35:10.003041+00:00",
+        "datecommitted": "2020-07-25T16:04:56+00:00",
+        "description": "OpenCoreMisc: Perform serial init separately via SerialInit option",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-bb990c8/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-bb990c8/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "944995aad5b7c557c0c0bffe809e38d902875e0a74f10481c307bd681bccaf07"
+          },
+          "release": {
+            "sha256": "d79238d50df353456bebc6f373f20e7b589024ff9b1bf0dea4484aa03dcbf85e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-bb990c8/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-bb990c8/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "releaseid": 28940358,
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "602e540968d095b5ed108e2c08bd4744a92c659f",
         "dateadded": "2020-07-25T16:23:51.086283+00:00",
         "datecommitted": "2020-07-25T15:39:54+00:00",
