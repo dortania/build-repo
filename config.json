@@ -3017,6 +3017,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "ee30d2f5e0a0a6a82e73645ed8029e345cf9bf09",
+        "dateadded": "2020-07-25T15:08:38.570628+00:00",
+        "datecommitted": "2020-07-25T14:55:04+00:00",
+        "description": "OcConsoleLib: Update UGA comments\n\ncloses acidanthera/bugtracker#1061",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-ee30d2f/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-ee30d2f/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "1f557080127858a6d102571a503ef146cbda1fc211d0f19b129db59661557af0"
+          },
+          "release": {
+            "sha256": "7e3dfa59bada981b8827353c819aa255cdea99edb586857dff00c4c722492b5e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-ee30d2f/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-ee30d2f/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "releaseid": 28939441,
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "cb4d43e2f74c41033b48b0459e6eef7858685a74",
         "dateadded": "2020-07-23T23:28:06.838045+00:00",
         "datecommitted": "2020-07-23T23:17:14+00:00",
