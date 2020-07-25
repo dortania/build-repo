@@ -60,6 +60,8 @@ jobs:
         run: python3 -u updater.py
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py
+      - name: Sort Config
+        run: python3 -u sort_date.py
       - name: Sync Builds
         run: |
           mv config.json Push
