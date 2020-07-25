@@ -119,9 +119,9 @@ def add_built(plugin, token):
     new_line = "\n"  # No escapes in f-strings
 
     hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release["releaseid"]), auth=("dhinakg", token)).POST(json={
-        "body": f"""{commit_info['commit']['message']}
+        "body": f"""{commit_info['commit']['message'].strip()}
         [{commit_info['sha']}]({commit_info['html_url']}) ([browse tree]({commit_info['html_url'].replace("/commit/", "/tree/")}))
-        
+
         **Hashes**:
         Debug:
         {files["debug"].name + ': ' + release['hashes']['debug']["sha256"]}
