@@ -3017,6 +3017,68 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "602e540968d095b5ed108e2c08bd4744a92c659f",
+        "dateadded": "2020-07-25T16:23:51.086283+00:00",
+        "datecommitted": "2020-07-25T15:39:54+00:00",
+        "description": "OcAfterBootCompatLib: Fix 32-bit dead loop",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-602e540/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-602e540/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "37cf0f44d366675d2115db7fb521cb1db3f4b2b9825cf742da687eae9bb989a9"
+          },
+          "release": {
+            "sha256": "54d8e177f4da0eb77cd80c70e70d1b232158aa493e83225ff401fbfe1243af73"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-602e540/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-602e540/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "releaseid": 28940254,
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": "62a88ddf8f66ced0cdfb7423faca95855e9687d3",
+        "dateadded": "2020-07-25T16:23:47.523205+00:00",
+        "datecommitted": "2020-07-25T15:45:37+00:00",
+        "description": "Docs: Fix the hint regarding RebuildAppleMemoryMap",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-62a88dd/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-62a88dd/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "f66730f4a1940c23e96c7965cb4569d60aed76ec1c69fbc252a585bd3cb80ad4"
+          },
+          "release": {
+            "sha256": "f34de4c2c0742fec5cd9cef9d9094d77742fc513366bc73fb62faf5ca3a23053"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-62a88dd/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-62a88dd/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "releaseid": 28940253,
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "426a5dbe09365d3fe1d18dbde9868fe12900c30c",
         "dateadded": "2020-07-25T15:54:38.394368+00:00",
         "datecommitted": "2020-07-25T15:23:05+00:00",
