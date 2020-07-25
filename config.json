@@ -3017,6 +3017,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "870017d0e5d53abeaf0347997da912c3e382a04a",
+        "dateadded": "2020-07-25T16:46:40.215472+00:00",
+        "datecommitted": "2020-07-25T16:32:57+00:00",
+        "description": "OcDevicePathLib: Added a workaround for PCI0 with 0x1 _UID\n\nreferences acidanthera/bugtracker#664",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-870017d/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-870017d/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "08c82b9c35372496b6c745470532ae43c780bf4f7df157e25785a53031d073b3"
+          },
+          "release": {
+            "sha256": "e3aa02dbc08cd2fb30a1b020407363ae592f26683c3e5ba8b20d55f46828bac5"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-870017d/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-870017d/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "releaseid": 28940483,
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "bb990c8c5d3c4e6bef819e9909d0e58f7ad1f7af",
         "dateadded": "2020-07-25T16:35:10.003041+00:00",
         "datecommitted": "2020-07-25T16:04:56+00:00",
