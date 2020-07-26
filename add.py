@@ -120,16 +120,16 @@ def add_built(plugin, token):
 
     hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release["releaseid"]), auth=("dhinakg", token)).POST(json={
         "body": f"""{commit_info['commit']['message'].strip()}
-        [{commit_info['sha']}]({commit_info['html_url']}) ([browse tree]({commit_info['html_url'].replace("/commit/", "/tree/")}))
+[{commit_info['sha']}]({commit_info['html_url']}) ([browse tree]({commit_info['html_url'].replace("/commit/", "/tree/")}))
 
-        **Hashes**:
-        Debug:
-        {files["debug"].name + ': ' + release['hashes']['debug']["sha256"]}
-        Release:
-        {files["release"].name + ': ' + release['hashes']['release']["sha256"]}
-        {'Extras:' if files["extras"] else ''}
-        {new_line.join([file.name + ': ' + release['hashes'][file.name]['sha256'] for file in files["extras"]]) if files["extras"] else ''}
-        """
+**Hashes**:
+Debug:
+{files["debug"].name + ': ' + release['hashes']['debug']["sha256"]}
+Release:
+{files["release"].name + ': ' + release['hashes']['release']["sha256"]}
+{'Extras:' if files["extras"] else ''}
+{new_line.join([file.name + ': ' + release['hashes'][file.name]['sha256'] for file in files["extras"]]) if files["extras"] else ''}
+"""
     })
 
     if ind is not None:
