@@ -39,6 +39,6 @@ for i in config:
         config[i]["versions"][j] = add_commit_date(i, item)
 
 for i in config:
-    config[i]["versions"].sort(key=lambda x: x["datecommitted"])
+    config[i]["versions"].sort(key=lambda x: x["datecommitted"], reverse=True)
 
 json.dump(config, Path("config.json").open("w"), indent=2, sort_keys=True)
