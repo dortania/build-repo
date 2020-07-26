@@ -13516,6 +13516,37 @@
         "releaseid": 28952283,
         "source": "built",
         "version": "0.6.0"
+      },
+      {
+        "commit": "d9c341646520504b044dab12ad2060885504ae68",
+        "dateadded": "2020-07-26T15:03:55.448319+00:00",
+        "datecommitted": "2020-07-26T14:50:21+00:00",
+        "description": "Build: Fix warnings",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-d9c3416/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-d9c3416/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "cee9db1e1e12d74c41713a8ef065e29b6bda1a82b6b843d1944f7f9dd632c866"
+          },
+          "release": {
+            "sha256": "b848603fac100c96cf25063229962dd61c02074908196d9c2ed85959b7f1e51e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-d9c3416/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-d9c3416/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "releaseid": 28962629,
+        "source": "built",
+        "version": "0.6.0"
       }
     ]
   },
