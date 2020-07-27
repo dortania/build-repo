@@ -1981,6 +1981,48 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "124de8b27fa79d42f43bce0d93597839c9462cd2",
+        "dateadded": "2020-07-27T17:15:19.794000+00:00",
+        "datecommitted": "2020-07-27T17:08:45+00:00",
+        "description": "Initialise kernel patches in parallel to PCI",
+        "hashes": {
+          "debug": {
+            "sha256": "976e7b6f021c12ef711c033437e5a45a22de38eea4eaa371069485a0a156bdcf"
+          },
+          "release": {
+            "sha256": "497900a49d51015e9fbc962c019a9f9f4fc72150913e2d571109334d458b2c6e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-124de8b/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-124de8b/Lilu-1.4.6-RELEASE.zip"
+        },
+        "releaseid": 28996878,
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "0e56f47fa3ba98337542049a188b892834da3f2d",
+        "dateadded": "2020-07-27T17:15:22.518098+00:00",
+        "datecommitted": "2020-07-27T17:08:25+00:00",
+        "description": "Add RTC register indices",
+        "hashes": {
+          "debug": {
+            "sha256": "d91a1221cef9ff913eb060aaaa0be822ee1f708d729d7350c5236ef75d96719b"
+          },
+          "release": {
+            "sha256": "e79b75381a09c3b5ae00346c042af80d14a00e50dd9b86541d9ea46aad0889e1"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-0e56f47/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-0e56f47/Lilu-1.4.6-RELEASE.zip"
+        },
+        "releaseid": 28996880,
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "7620da2ceca7d933d544a9beb0e077c6fe546979",
         "dateadded": "2020-07-27T12:53:27.553263+00:00",
         "datecommitted": "2020-07-27T12:47:17+00:00",
@@ -13761,6 +13803,27 @@
   "VirtualSMC": {
     "type": "Kext",
     "versions": [
+      {
+        "commit": "2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61",
+        "dateadded": "2020-07-27T17:15:25.060591+00:00",
+        "datecommitted": "2020-07-27T17:11:59+00:00",
+        "description": "Fixed crashes when trying to read CLKT key",
+        "hashes": {
+          "debug": {
+            "sha256": "5d086614477bcb99b861df79869178153a122bd62f34066b0e2d694181cf8f31"
+          },
+          "release": {
+            "sha256": "47cbf8b8798eff8917543a50cea04eaaf9e2e225efa4be8a67f21cb14be05d69"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-2bda494/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-2bda494/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "releaseid": 28996883,
+        "source": "built",
+        "version": "1.1.5"
+      },
       {
         "commit": "22f32eea53ab8c09ffea815b3978ae038e16b800",
         "dateadded": "2020-07-23T13:46:59.592397+00:00",
