@@ -1981,6 +1981,48 @@
     "type": "Kext",
     "versions": [
       {
+        "commit": "496213ab793b20b1996cedaed752bcb7005e80bc",
+        "dateadded": "2020-07-27T09:21:31.464376+00:00",
+        "datecommitted": "2020-07-27T09:18:57+00:00",
+        "description": "Implement Lilu loading at console init in 11.0",
+        "hashes": {
+          "debug": {
+            "sha256": "6d2c75c5b26275c7b9980749df3c4265da1c337654b31848eadab56b71ed4fce"
+          },
+          "release": {
+            "sha256": "e19b5698dd25d66165b22d76475e7c0e4696e6b7bac20fe0d749b082f628b45c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-496213a/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-496213a/Lilu-1.4.6-RELEASE.zip"
+        },
+        "releaseid": 28979017,
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": "633f948147a95eb3dc4339bb096f4c7094ddf8dc",
+        "dateadded": "2020-07-27T09:21:33.963807+00:00",
+        "datecommitted": "2020-07-27T08:00:36+00:00",
+        "description": "Fix typo in debug logging",
+        "hashes": {
+          "debug": {
+            "sha256": "01e7bca03bcd7cb7e51c6b67626e15c03d76d63d9ed0f938007f7d31fc1409eb"
+          },
+          "release": {
+            "sha256": "db824a56073e19af17c1e8ca16ee4096951705a647fbb4953364f2d6f03a518b"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-633f948/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-633f948/Lilu-1.4.6-RELEASE.zip"
+        },
+        "releaseid": 28979022,
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
         "commit": "d9c82288a56c643af644ef2196616f822fdcd358",
         "dateadded": "2020-07-23T13:46:55.694010+00:00",
         "datecommitted": "2020-07-23T06:53:32+00:00",
