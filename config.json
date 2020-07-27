@@ -3293,6 +3293,37 @@
     "type": "Bootloader",
     "versions": [
       {
+        "commit": "2bbf6a466b524e1ce004ed0903c90586f5b48c28",
+        "dateadded": "2020-07-27T21:28:20.480891+00:00",
+        "datecommitted": "2020-07-27T21:05:27+00:00",
+        "description": "OcXmlLib: Correct/clarify XmlDocumentExport",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-2bbf6a4/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-2bbf6a4/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "9bcce4a0694305bfe258be3406cb0d76a5d7258a5b12833100efa175387ca4f0"
+          },
+          "release": {
+            "sha256": "cf100b70cdeaaf0baae8a3181f2ed162875af0645d240ffcc3ed361813961d51"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-2bbf6a4/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-2bbf6a4/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "releaseid": 29005143,
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
         "commit": "1bc2fb3eea1e082fd547cbbf5f9ae870dabbfa97",
         "dateadded": "2020-07-27T04:25:35.587872+00:00",
         "datecommitted": "2020-07-27T04:04:59+00:00",
