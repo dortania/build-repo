@@ -13,7 +13,19 @@ layout: default
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
       $.getJSON("https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/builds/config.json", function (data) {
-          console.log(data);
+          for (var key in data) {
+              $("#product").add(new Option(key, key));
+          }
+          $("#product").change(function() {
+              $("#sha").options.length = 0;
+              $("#sha").add(new Option("Select version...", "initial", true, true));
+              if ($("#product").val() == "initial") {
+                  return;
+              }
+              data[$("#product").val()]["versions"].forEach(element => {
+                  $("#sha").add(new Option(element.commit, element.commit));
+              });
+          })
       })
   </script>
 </article>
