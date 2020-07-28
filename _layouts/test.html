@@ -25,7 +25,7 @@ layout: default
                   return;
               }
               data[$("#product").val()]["versions"].forEach((element, index) => {
-                  $("#sha")[0].add(new Option(element.commit, index));
+                  $("#sha")[0].add(new Option(element.commit.sha, index));
               });
           })
           $("#sha").change(function() {
@@ -33,7 +33,7 @@ layout: default
               if ($("#product").val() == "initial" || $("#sha").val() == "initial") {
                   return;
               }
-              $(".info").text(data[$("#product").val()]["versions"][$("#sha").val()]["description"])
+              $(".info").text(data[$("#product").val()]["versions"][$("#sha").val()]["release"]["description"])
           })
       })
   </script>
