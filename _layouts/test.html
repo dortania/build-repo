@@ -11,8 +11,11 @@ layout: default
     {{ content }}
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+  
   <script>
       $.getJSON("https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/builds/config.json", function (data) {
+          converter = new showdown.Converter()
           console.log(data);
           for (var key in data) {
               console.log(key);
@@ -33,7 +36,8 @@ layout: default
               if ($("#product").val() == "initial" || $("#sha").val() == "initial") {
                   return;
               }
-              $(".info").text(data[$("#product").val()]["versions"][$("#sha").val()]["release"]["description"])
+              $(".info").html(converter.makeHtml(data[$("#product").val()]["versions"][$("#sha").val()]["release"]["description"]))
+              //$(".info").text()
           })
       })
   </script>
