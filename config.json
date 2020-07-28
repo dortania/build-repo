@@ -4032,8 +4032,8 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-a6b6902/OpenCore-0.6.0-RELEASE.zip"
         },
         "release": {
-          "description": null,
-          "id": 28940982
+          "description": "Utilities: Drop OpenDuetPkg binary and rebuild it with OC\n        [a6b6902fed8637007b175b4bfe90ece48e465633](https://github.com/acidanthera/OpenCorePkg/commit/a6b6902fed8637007b175b4bfe90ece48e465633) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/a6b6902fed8637007b175b4bfe90ece48e465633))\n\n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: d14936d0c8fb2f22b48296ebdb01d3fce8813b76d84793885e8092a83ebd6b3f\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: fd3b614d6e71c6807fcbfaee5528f7f7a16a67a378f65488f33bcbeb478d846e\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
+          "id": 28940986
         },
         "source": "built",
         "version": "0.6.0"
