@@ -13,7 +13,9 @@ layout: default
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
       $.getJSON("https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/builds/config.json", function (data) {
+          console.log(data);
           for (var key in data) {
+              console.log(key);
               $("#product").add(new Option(key, key));
           }
           $("#product").change(function() {
