@@ -136,11 +136,17 @@ def add_built(plugin, token):
 [{commit_info['sha']}]({commit_info['html_url']}) ([browse tree]({commit_info['html_url'].replace("/commit/", "/tree/")}))
 
 **Hashes**:
+
 Debug:
+
 {files["debug"].name + ': ' + release['hashes']['debug']["sha256"]}
+
 Release:
+
 {files["release"].name + ': ' + release['hashes']['release']["sha256"]}
+
 {'Extras:' if files["extras"] else ''}
+
 {new_line.join([file.name + ': ' + release['hashes'][file.name]['sha256'] for file in files["extras"]]) if files["extras"] else ''}
 """
 
