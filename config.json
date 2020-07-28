@@ -7,6 +7,32 @@
           "message": "Fix ordering of build stages (#8)\n\nPlugins were previously added after archive",
           "sha": "81cdbc52092401ab81088170d0739ced6d64a11e"
         },
+        "dateadded": "2020-07-28T17:04:06.530607+00:00",
+        "datecommitted": "2020-07-27T07:50:40+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "b332297ac3bf80b718174b64af3bddd23ae9f19786f1518ac0ecb5c8a211533d"
+          },
+          "release": {
+            "sha256": "93e831e943e367032bf5238fc0358c9516520fd8670fea5e1e7dc641c6ee6f85"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AirportBrcmFixup-81cdbc5/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AirportBrcmFixup-81cdbc5/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "Fix ordering of build stages (#8)\n\nPlugins were previously added after archive\n[81cdbc52092401ab81088170d0739ced6d64a11e](https://github.com/acidanthera/AirportBrcmFixup/commit/81cdbc52092401ab81088170d0739ced6d64a11e) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/81cdbc52092401ab81088170d0739ced6d64a11e))\n\n**Hashes**:\nDebug:\nAirportBrcmFixup-2.0.8-DEBUG.zip: b332297ac3bf80b718174b64af3bddd23ae9f19786f1518ac0ecb5c8a211533d\nRelease:\nAirportBrcmFixup-2.0.8-RELEASE.zip: 93e831e943e367032bf5238fc0358c9516520fd8670fea5e1e7dc641c6ee6f85\n\n\n",
+          "id": 29039050
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
+        "commit": {
+          "message": "Fix ordering of build stages (#8)\n\nPlugins were previously added after archive",
+          "sha": "81cdbc52092401ab81088170d0739ced6d64a11e"
+        },
         "dateadded": "2020-07-27T07:54:57.447238+00:00",
         "datecommitted": "2020-07-27T07:50:40+00:00",
         "hashes": {
@@ -24,6 +50,32 @@
         "release": {
           "description": "Fix ordering of build stages (#8)\n\nPlugins were previously added after archive\n[81cdbc52092401ab81088170d0739ced6d64a11e](https://github.com/acidanthera/AirportBrcmFixup/commit/81cdbc52092401ab81088170d0739ced6d64a11e) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/81cdbc52092401ab81088170d0739ced6d64a11e))\n\n**Hashes**:\nDebug:\nAirportBrcmFixup-2.0.8-DEBUG.zip: c8f25c32e163895b9323b1ee0e5270bcab45756e3d2ce8a48428fef67d5e9bab\nRelease:\nAirportBrcmFixup-2.0.8-RELEASE.zip: eb4e4c83f1934e7109005fe6bb199ec14380538a6863a1b842849257bd55cc91\n\n\n",
           "id": 28976035
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
+        "commit": {
+          "message": "Update README.md",
+          "sha": "dffce0d5189c2b44c975dc42bdb7e8ffd6e30899"
+        },
+        "dateadded": "2020-07-28T17:04:14.453007+00:00",
+        "datecommitted": "2020-07-23T06:50:11+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "6aa13154603c791fd469adc0aa942f2a0043e6fc9e0506fc507826bb08aafe79"
+          },
+          "release": {
+            "sha256": "7ce8983a5572efb0bf10177200b61bbe3badb44795f2ade94fb66b017683cace"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/untagged-52f87e027f242136a93b/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/untagged-52f87e027f242136a93b/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "Update README.md\n[dffce0d5189c2b44c975dc42bdb7e8ffd6e30899](https://github.com/acidanthera/AirportBrcmFixup/commit/dffce0d5189c2b44c975dc42bdb7e8ffd6e30899) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/dffce0d5189c2b44c975dc42bdb7e8ffd6e30899))\n\n**Hashes**:\nDebug:\nAirportBrcmFixup-2.0.8-DEBUG.zip: 6aa13154603c791fd469adc0aa942f2a0043e6fc9e0506fc507826bb08aafe79\nRelease:\nAirportBrcmFixup-2.0.8-RELEASE.zip: 7ce8983a5572efb0bf10177200b61bbe3badb44795f2ade94fb66b017683cace\n\n\n",
+          "id": 29039053
         },
         "source": "built",
         "version": "2.0.8"
@@ -2193,6 +2245,32 @@
           "message": "Initialise kernel patches in parallel to PCI",
           "sha": "124de8b27fa79d42f43bce0d93597839c9462cd2"
         },
+        "dateadded": "2020-07-28T17:04:24.997589+00:00",
+        "datecommitted": "2020-07-27T17:08:45+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "27d23883d59ea4354ed6bb71b666950f037073f0d8bc0aed8988b93d4be28cba"
+          },
+          "release": {
+            "sha256": "03eba4346b9d1bc4af17cd2d8783a73d537b0138c0e4044696b5a236da1702d4"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-124de8b/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-124de8b/Lilu-1.4.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "Initialise kernel patches in parallel to PCI\n[124de8b27fa79d42f43bce0d93597839c9462cd2](https://github.com/acidanthera/Lilu/commit/124de8b27fa79d42f43bce0d93597839c9462cd2) ([browse tree](https://github.com/acidanthera/Lilu/tree/124de8b27fa79d42f43bce0d93597839c9462cd2))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 27d23883d59ea4354ed6bb71b666950f037073f0d8bc0aed8988b93d4be28cba\nRelease:\nLilu-1.4.6-RELEASE.zip: 03eba4346b9d1bc4af17cd2d8783a73d537b0138c0e4044696b5a236da1702d4\n\n\n",
+          "id": 29039061
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": {
+          "message": "Initialise kernel patches in parallel to PCI",
+          "sha": "124de8b27fa79d42f43bce0d93597839c9462cd2"
+        },
         "dateadded": "2020-07-27T17:15:19.794000+00:00",
         "datecommitted": "2020-07-27T17:08:45+00:00",
         "hashes": {
@@ -2210,6 +2288,32 @@
         "release": {
           "description": "Initialise kernel patches in parallel to PCI\n[124de8b27fa79d42f43bce0d93597839c9462cd2](https://github.com/acidanthera/Lilu/commit/124de8b27fa79d42f43bce0d93597839c9462cd2) ([browse tree](https://github.com/acidanthera/Lilu/tree/124de8b27fa79d42f43bce0d93597839c9462cd2))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 976e7b6f021c12ef711c033437e5a45a22de38eea4eaa371069485a0a156bdcf\nRelease:\nLilu-1.4.6-RELEASE.zip: 497900a49d51015e9fbc962c019a9f9f4fc72150913e2d571109334d458b2c6e\n\n\n",
           "id": 28996878
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": {
+          "message": "Add RTC register indices",
+          "sha": "0e56f47fa3ba98337542049a188b892834da3f2d"
+        },
+        "dateadded": "2020-07-28T17:04:35.732298+00:00",
+        "datecommitted": "2020-07-27T17:08:25+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "66026b39c8d0c2b5548313cbe1e0e882c33b657e6cb0764ad3f6d66c0157d5da"
+          },
+          "release": {
+            "sha256": "11ce737cc933b4d832243c75a74c225856b84abbaad4b6b5ce733230690f6973"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-0e56f47/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-0e56f47/Lilu-1.4.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "Add RTC register indices\n[0e56f47fa3ba98337542049a188b892834da3f2d](https://github.com/acidanthera/Lilu/commit/0e56f47fa3ba98337542049a188b892834da3f2d) ([browse tree](https://github.com/acidanthera/Lilu/tree/0e56f47fa3ba98337542049a188b892834da3f2d))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 66026b39c8d0c2b5548313cbe1e0e882c33b657e6cb0764ad3f6d66c0157d5da\nRelease:\nLilu-1.4.6-RELEASE.zip: 11ce737cc933b4d832243c75a74c225856b84abbaad4b6b5ce733230690f6973\n\n\n",
+          "id": 29039070
         },
         "source": "built",
         "version": "1.4.6"
@@ -2245,6 +2349,32 @@
           "message": "Abort on PCI register read failure",
           "sha": "7620da2ceca7d933d544a9beb0e077c6fe546979"
         },
+        "dateadded": "2020-07-28T17:04:45.866144+00:00",
+        "datecommitted": "2020-07-27T12:47:17+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "b6b6e3e6987f38928dca29ad28ece1754dd381789fe6ad29691bbee4c2e58fd6"
+          },
+          "release": {
+            "sha256": "ba48aec48a56c4d3ebcb023889aff9b7f8cd8d3b4555135ce04ec8e74e701ae3"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-7620da2/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-7620da2/Lilu-1.4.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "Abort on PCI register read failure\n[7620da2ceca7d933d544a9beb0e077c6fe546979](https://github.com/acidanthera/Lilu/commit/7620da2ceca7d933d544a9beb0e077c6fe546979) ([browse tree](https://github.com/acidanthera/Lilu/tree/7620da2ceca7d933d544a9beb0e077c6fe546979))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: b6b6e3e6987f38928dca29ad28ece1754dd381789fe6ad29691bbee4c2e58fd6\nRelease:\nLilu-1.4.6-RELEASE.zip: ba48aec48a56c4d3ebcb023889aff9b7f8cd8d3b4555135ce04ec8e74e701ae3\n\n\n",
+          "id": 29039078
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": {
+          "message": "Abort on PCI register read failure",
+          "sha": "7620da2ceca7d933d544a9beb0e077c6fe546979"
+        },
         "dateadded": "2020-07-27T12:53:27.553263+00:00",
         "datecommitted": "2020-07-27T12:47:17+00:00",
         "hashes": {
@@ -2262,6 +2392,32 @@
         "release": {
           "description": "Abort on PCI register read failure\n[7620da2ceca7d933d544a9beb0e077c6fe546979](https://github.com/acidanthera/Lilu/commit/7620da2ceca7d933d544a9beb0e077c6fe546979) ([browse tree](https://github.com/acidanthera/Lilu/tree/7620da2ceca7d933d544a9beb0e077c6fe546979))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: b1f879e1b10502d886d859e9a854755ec9dc58fdcc7a319fc7f2a8bb4ff61399\nRelease:\nLilu-1.4.6-RELEASE.zip: ae260bcfd21d8b38e4b568b5dea29aa7f643fb0fc74d93cf189cfb82cd0b3a17\n\n\n",
           "id": 28986104
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": {
+          "message": "Implement Lilu loading at console init in 11.0",
+          "sha": "496213ab793b20b1996cedaed752bcb7005e80bc"
+        },
+        "dateadded": "2020-07-28T17:04:57.730709+00:00",
+        "datecommitted": "2020-07-27T09:18:57+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "787e0cc264202c2c187ba3b8eb9229aa8aabdf68d66b0b2e08dc5d475114638c"
+          },
+          "release": {
+            "sha256": "18163456f551b5bac9fcb7a50ff88db12f8e20ae67b29e629d4e8c7ba204cf3e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-496213a/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-496213a/Lilu-1.4.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "Implement Lilu loading at console init in 11.0\n[496213ab793b20b1996cedaed752bcb7005e80bc](https://github.com/acidanthera/Lilu/commit/496213ab793b20b1996cedaed752bcb7005e80bc) ([browse tree](https://github.com/acidanthera/Lilu/tree/496213ab793b20b1996cedaed752bcb7005e80bc))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 787e0cc264202c2c187ba3b8eb9229aa8aabdf68d66b0b2e08dc5d475114638c\nRelease:\nLilu-1.4.6-RELEASE.zip: 18163456f551b5bac9fcb7a50ff88db12f8e20ae67b29e629d4e8c7ba204cf3e\n\n\n",
+          "id": 29039086
         },
         "source": "built",
         "version": "1.4.6"
@@ -15226,6 +15382,32 @@
           "message": "Fixed crashes when trying to read CLKT key",
           "sha": "2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61"
         },
+        "dateadded": "2020-07-28T17:05:16.942850+00:00",
+        "datecommitted": "2020-07-27T17:11:59+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "0baab175277e9fccacb7d056282516ebdb6b0209e6381891f88fd82435d0bb17"
+          },
+          "release": {
+            "sha256": "683152dd67bcc5a298dbe33ea481f138acbccbac09dcb1f22b0463ca401138d4"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-2bda494/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-2bda494/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "Fixed crashes when trying to read CLKT key\n[2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61](https://github.com/acidanthera/VirtualSMC/commit/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61))\n\n**Hashes**:\nDebug:\nVirtualSMC-1.1.5-DEBUG.zip: 0baab175277e9fccacb7d056282516ebdb6b0209e6381891f88fd82435d0bb17\nRelease:\nVirtualSMC-1.1.5-RELEASE.zip: 683152dd67bcc5a298dbe33ea481f138acbccbac09dcb1f22b0463ca401138d4\n\n\n",
+          "id": 29039098
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
+        "commit": {
+          "message": "Fixed crashes when trying to read CLKT key",
+          "sha": "2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61"
+        },
         "dateadded": "2020-07-27T17:15:25.060591+00:00",
         "datecommitted": "2020-07-27T17:11:59+00:00",
         "hashes": {
@@ -15243,6 +15425,32 @@
         "release": {
           "description": "Fixed crashes when trying to read CLKT key\n[2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61](https://github.com/acidanthera/VirtualSMC/commit/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61))\n\n**Hashes**:\nDebug:\nVirtualSMC-1.1.5-DEBUG.zip: 5d086614477bcb99b861df79869178153a122bd62f34066b0e2d694181cf8f31\nRelease:\nVirtualSMC-1.1.5-RELEASE.zip: 47cbf8b8798eff8917543a50cea04eaaf9e2e225efa4be8a67f21cb14be05d69\n\n\n",
           "id": 28996883
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
+        "commit": {
+          "message": "Update README.md",
+          "sha": "22f32eea53ab8c09ffea815b3978ae038e16b800"
+        },
+        "dateadded": "2020-07-28T17:05:36.212010+00:00",
+        "datecommitted": "2020-07-23T06:52:45+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "02c30ea88f750aac5de393799c004334805880aabca90d1352508e27298c005e"
+          },
+          "release": {
+            "sha256": "ab6e653578e87e7fc9770e6b92818e56984a4ef560b8cd4021f69a6a31b4119a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/untagged-74beed0728b345229e0e/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/untagged-74beed0728b345229e0e/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "Update README.md\n[22f32eea53ab8c09ffea815b3978ae038e16b800](https://github.com/acidanthera/VirtualSMC/commit/22f32eea53ab8c09ffea815b3978ae038e16b800) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/22f32eea53ab8c09ffea815b3978ae038e16b800))\n\n**Hashes**:\nDebug:\nVirtualSMC-1.1.5-DEBUG.zip: 02c30ea88f750aac5de393799c004334805880aabca90d1352508e27298c005e\nRelease:\nVirtualSMC-1.1.5-RELEASE.zip: ab6e653578e87e7fc9770e6b92818e56984a4ef560b8cd4021f69a6a31b4119a\n\n\n",
+          "id": 29039113
         },
         "source": "built",
         "version": "1.1.5"
