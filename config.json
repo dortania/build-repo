@@ -4140,6 +4140,43 @@
     "versions": [
       {
         "commit": {
+          "message": "Docs: Document the DeviceProperty limitations for some drivers",
+          "sha": "20fa9074e6bf3d6acad24869670626986d84ac97"
+        },
+        "dateadded": "2020-07-28T22:39:54.769780+00:00",
+        "datecommitted": "2020-07-28T22:25:25+00:00",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-20fa907/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-20fa907/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "418789978b21f062e11d6f92b88362f57e0671f2c00b628d4c48fcc3c5e76921"
+          },
+          "release": {
+            "sha256": "45d4784247d2dd40e2e560d9d04dfde491ca072b52d390629cc0f2c648175ad7"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-20fa907/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-20fa907/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "Docs: Document the DeviceProperty limitations for some drivers\n[20fa9074e6bf3d6acad24869670626986d84ac97](https://github.com/acidanthera/OpenCorePkg/commit/20fa9074e6bf3d6acad24869670626986d84ac97) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/20fa9074e6bf3d6acad24869670626986d84ac97))\n\n**Hashes**:\n\nDebug:\n\nOpenCore-0.6.0-DEBUG.zip: 418789978b21f062e11d6f92b88362f57e0671f2c00b628d4c48fcc3c5e76921\n\nRelease:\n\nOpenCore-0.6.0-RELEASE.zip: 45d4784247d2dd40e2e560d9d04dfde491ca072b52d390629cc0f2c648175ad7\n\nExtras:\n\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "id": 29049957,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-20fa907"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": {
           "message": "Update SSDT-EC-USBX.dsl (#92)\n\ncan not nest \\_SB under \\_SB, possible better ways to organize scopes",
           "sha": "fedeba8ceb710985ee8d194e97d650deba3492e0"
         },
