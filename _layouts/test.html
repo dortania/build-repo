@@ -24,7 +24,7 @@ layout: default
               if ($("#product").val() == "initial") {
                   return;
               }
-              data[$("#product").val()]["versions"].forEach(element, index => {
+              data[$("#product").val()]["versions"].forEach((element, index) => {
                   $("#sha")[0].add(new Option(element.commit, index));
               });
           })
