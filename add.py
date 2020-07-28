@@ -36,6 +36,19 @@ def upload_release_asset(release_id, token, file_path: Path):
     return asset_upload.json()["browser_download_url"]
 
 
+def paginate(url, token):
+    count = 0
+    url = hammock(url, auth=("dhinakg", token)).GET()
+    if url.links == {}:
+        return url.json()
+    else:
+        container = url.json()
+        while url.links.get("next"):
+            url = hammock(url.links["next"]["url"], auth=("dhinakg", token)).GET()
+            container += url.json()
+        return container
+
+
 def add_built(plugin, token):
     plugin_info = plugin["plugin"]
     commit_info = plugin["commit"]
@@ -76,13 +89,15 @@ def add_built(plugin, token):
     releases_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", auth=("dhinakg", token))
 
     # Delete previous releases
-    get_all_releases = releases_url.GET()
-    for i in [i["id"] for i in get_all_releases.json() if i["tag_name"] == name + "-" + release["commit"]["sha"][:7]]:
-        releases_url(i).DELETE()
+    for i in paginate("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", token):
+        if i["name"] == (name + " " + release["commit"]["sha"][:7]):
+            print("\tDeleting previous release...")
+            releases_url(i["id"]).DELETE()
 
     # Delete tags
     check_tag = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/git/refs/tags/" + name + "-" + release["commit"]["sha"][:7], auth=("dhinakg", token))
     if check_tag.GET().status_code != 404:
+        print("\tDeleting previous tag...")
         check_tag.DELETE()
 
     # Create release
@@ -92,7 +107,7 @@ def add_built(plugin, token):
         "name": name + " " + release["commit"]["sha"][:7]
     })
     # print(create_release.json()["id"])
-    release["release"] = {"id": create_release.json()["id"]}
+    release["release"] = {"id": create_release.json()["id"], "url": create_release.json()["html_url"]}
 
     if not release.get("hashes", None):
         release["hashes"] = {"debug": {"sha256": ""}, "release": {"sha256": ""}}

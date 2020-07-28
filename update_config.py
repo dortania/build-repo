@@ -9,7 +9,7 @@ with open("gh token.txt") as f:
     token = f.read().strip()
 
 
-config = json.load(Path("config.json").open())
+config: dict = json.load(Path("config.json").open())
 plugins = json.load(Path("plugins.json").open())
 
 
@@ -34,11 +34,11 @@ def add_commit_date(name, version):
         return version
 
 
+config = {i: v for i, v in config.items() if not i.startswith("_")}
+
 for i in config:
     for j, item in enumerate(config[i]["versions"]):
         config[i]["versions"][j] = add_commit_date(i, item)
-
-for i in config:
     config[i]["versions"].sort(key=lambda x: x["datecommitted"], reverse=True)
 
 for i in config:
@@ -51,7 +51,10 @@ for i in config:
         config[i]["versions"][j]["release"] = {"id": relid}
     for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("release", {}).get("id", None) and not item.get("release", {}).get("description", None)]:
         rel = json.loads(hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(config[i]["versions"][j]["release"]["id"]), auth=("dhinakg", token)).GET().text)
-        config[i]["versions"][j]["release"]["description"] = rel["body"]
+        config[i]["versions"][j]["release"]["description"] = rel["body"] if rel.get("body") else None
+    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("release", {}).get("id", None) and not item.get("release", {}).get("url", None)]:
+        rel = json.loads(hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(config[i]["versions"][j]["release"]["id"]), auth=("dhinakg", token)).GET().text)
+        config[i]["versions"][j]["release"]["url"] = rel["html_url"] if rel.get("html_url") else None
 
 
 config["_version"] = 2

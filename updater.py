@@ -63,7 +63,10 @@ for plugin in plugins:
         commit_date = dateutil.parser.parse(commit["commit"]["committer"]["date"])
         newer = commit_date >= date_to_compare - datetime.timedelta(days=DATE_DELTA)
         force_build = plugin.get("Force") and commits.index(commit) == 0
-        not_in_repo = not matched_key_in_dict_array(config.get(repo, {}).get("versions", []), "commit", commit["sha"])
+        not_in_repo = True
+        for i in config.get(repo, {}).get("versions", []):
+            if i["commit"]["sha"] == commit["sha"]:
+                not_in_repo = False
         within_max_outstanding = commits.index(commit) <= MAX_OUTSTANDING_COMMITS
         if (newer and not_in_repo or force_build) and within_max_outstanding:
             if commits.index(commit) == 0:
@@ -115,8 +118,10 @@ for plugin in to_build:
         termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "green", attrs=["bold"]) + termcolor.colored(" succeeded", "green"), "green")
         eee = plugin
         eee["result"] = result
-        succeeded.append(eee)
         print("Took " + str(duration))
+        print("Adding to config...")
+        add_built(eee, token)
+        succeeded.append(eee)
     else:
         duration = datetime.datetime.now() - started
         if result:
@@ -140,8 +145,3 @@ if len(failed) > 0:
 
 if len(failed) > 0 or len(errored) > 0:
     sys.exit(10)
-
-if len(succeeded) > 0:
-    print("\nAdding to config...")
-    for i in succeeded:
-        add_built(i, token)
