@@ -23,7 +23,8 @@
         },
         "release": {
           "description": "Fix ordering of build stages (#8)\n\nPlugins were previously added after archive\n[81cdbc52092401ab81088170d0739ced6d64a11e](https://github.com/acidanthera/AirportBrcmFixup/commit/81cdbc52092401ab81088170d0739ced6d64a11e) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/81cdbc52092401ab81088170d0739ced6d64a11e))\n\n**Hashes**:\nDebug:\nAirportBrcmFixup-2.0.8-DEBUG.zip: c9d5db01342bbd4c65de12379c381092e2f9af2fdffcdce6de0b50b5a489115a\nRelease:\nAirportBrcmFixup-2.0.8-RELEASE.zip: 7c70be25500004a6c9756255e2610b3b65125194430e70ad281e8e8e1e7fac8e\n\n\n",
-          "id": 29048233
+          "id": 29048233,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/AirportBrcmFixup-81cdbc5"
         },
         "source": "built",
         "version": "2.0.8"
@@ -49,7 +50,8 @@
         },
         "release": {
           "description": "Fix ordering of build stages (#8)\n\nPlugins were previously added after archive\n[81cdbc52092401ab81088170d0739ced6d64a11e](https://github.com/acidanthera/AirportBrcmFixup/commit/81cdbc52092401ab81088170d0739ced6d64a11e) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/81cdbc52092401ab81088170d0739ced6d64a11e))\n\n**Hashes**:\nDebug:\nAirportBrcmFixup-2.0.8-DEBUG.zip: 174c1d15bc36c321a6dec819a805f89ccfa9a011ffa2a6baeb2de1be9471728b\nRelease:\nAirportBrcmFixup-2.0.8-RELEASE.zip: 0879a4a108d3be03404483b0c332343820a60a7c471ca3a3d2abe286d97196f9\n\n\n",
-          "id": 29039160
+          "id": 29039160,
+          "url": null
         },
         "source": "built",
         "version": "2.0.8"
@@ -75,7 +77,8 @@
         },
         "release": {
           "description": "Fix ordering of build stages (#8)\n\nPlugins were previously added after archive\n[81cdbc52092401ab81088170d0739ced6d64a11e](https://github.com/acidanthera/AirportBrcmFixup/commit/81cdbc52092401ab81088170d0739ced6d64a11e) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/81cdbc52092401ab81088170d0739ced6d64a11e))\n\n**Hashes**:\nDebug:\nAirportBrcmFixup-2.0.8-DEBUG.zip: b332297ac3bf80b718174b64af3bddd23ae9f19786f1518ac0ecb5c8a211533d\nRelease:\nAirportBrcmFixup-2.0.8-RELEASE.zip: 93e831e943e367032bf5238fc0358c9516520fd8670fea5e1e7dc641c6ee6f85\n\n\n",
-          "id": 29039050
+          "id": 29039050,
+          "url": null
         },
         "source": "built",
         "version": "2.0.8"
@@ -101,7 +104,8 @@
         },
         "release": {
           "description": "Fix ordering of build stages (#8)\n\nPlugins were previously added after archive\n[81cdbc52092401ab81088170d0739ced6d64a11e](https://github.com/acidanthera/AirportBrcmFixup/commit/81cdbc52092401ab81088170d0739ced6d64a11e) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/81cdbc52092401ab81088170d0739ced6d64a11e))\n\n**Hashes**:\nDebug:\nAirportBrcmFixup-2.0.8-DEBUG.zip: c8f25c32e163895b9323b1ee0e5270bcab45756e3d2ce8a48428fef67d5e9bab\nRelease:\nAirportBrcmFixup-2.0.8-RELEASE.zip: eb4e4c83f1934e7109005fe6bb199ec14380538a6863a1b842849257bd55cc91\n\n\n",
-          "id": 28976035
+          "id": 28976035,
+          "url": null
         },
         "source": "built",
         "version": "2.0.8"
@@ -127,7 +131,8 @@
         },
         "release": {
           "description": "Update README.md\n[dffce0d5189c2b44c975dc42bdb7e8ffd6e30899](https://github.com/acidanthera/AirportBrcmFixup/commit/dffce0d5189c2b44c975dc42bdb7e8ffd6e30899) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/dffce0d5189c2b44c975dc42bdb7e8ffd6e30899))\n\n**Hashes**:\nDebug:\nAirportBrcmFixup-2.0.8-DEBUG.zip: 3b0eaec46055b595b41b16e5c4ebe883f4ced3fef62ee899ec07859983187806\nRelease:\nAirportBrcmFixup-2.0.8-RELEASE.zip: 55d2018fec1e2bad930b612098df40e4f2a27ce692edb6d57c2e08448963c42d\n\n\n",
-          "id": 29048242
+          "id": 29048242,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/AirportBrcmFixup-dffce0d"
         },
         "source": "built",
         "version": "2.0.8"
@@ -153,7 +158,8 @@
         },
         "release": {
           "description": "Update README.md\n[dffce0d5189c2b44c975dc42bdb7e8ffd6e30899](https://github.com/acidanthera/AirportBrcmFixup/commit/dffce0d5189c2b44c975dc42bdb7e8ffd6e30899) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/dffce0d5189c2b44c975dc42bdb7e8ffd6e30899))\n\n**Hashes**:\nDebug:\nAirportBrcmFixup-2.0.8-DEBUG.zip: edde626fbb173dfced03625ed7d17db3522613b831d70f0ac38cbcc90bc20edc\nRelease:\nAirportBrcmFixup-2.0.8-RELEASE.zip: 291090dce40be83d7357d6fef7d623c3d8dd455160175d51a623988153d52044\n\n\n",
-          "id": 29039164
+          "id": 29039164,
+          "url": null
         },
         "source": "built",
         "version": "2.0.8"
@@ -179,7 +185,8 @@
         },
         "release": {
           "description": "Update README.md\n[dffce0d5189c2b44c975dc42bdb7e8ffd6e30899](https://github.com/acidanthera/AirportBrcmFixup/commit/dffce0d5189c2b44c975dc42bdb7e8ffd6e30899) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/dffce0d5189c2b44c975dc42bdb7e8ffd6e30899))\n\n**Hashes**:\nDebug:\nAirportBrcmFixup-2.0.8-DEBUG.zip: 6aa13154603c791fd469adc0aa942f2a0043e6fc9e0506fc507826bb08aafe79\nRelease:\nAirportBrcmFixup-2.0.8-RELEASE.zip: 7ce8983a5572efb0bf10177200b61bbe3badb44795f2ade94fb66b017683cace\n\n\n",
-          "id": 29039053
+          "id": 29039053,
+          "url": null
         },
         "source": "built",
         "version": "2.0.8"
@@ -205,7 +212,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        AirportBrcmFixup-2.0.8-DEBUG.zip: 23910c48c65d2967daceafda7eae6cd6c127d00f4588ce28b2e534e5d777ab90\n        Release:\n        AirportBrcmFixup-2.0.8-RELEASE.zip: dd94a750c8edfbaef698b76320f602c2d79616f4d2917dfcbfdbc736f9cfd702\n        \n        \n        ",
-          "id": 28857843
+          "id": 28857843,
+          "url": null
         },
         "source": "built",
         "version": "2.0.8"
@@ -232,7 +240,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        AirportBrcmFixup-2.0.8-DEBUG.zip: 10cca0148d89297938544d1e65646eccb92717677d7594cc08c9158d42d4189f\n        Release:\n        AirportBrcmFixup-2.0.8-RELEASE.zip: 795576743373748f5bde8d1ccb5f31b7a3c1f3b8d1ca6a12fbff8ed380aedd18\n        \n        \n        ",
-          "id": 28810024
+          "id": 28810024,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/AirportBrcmFixup-ab5e7f8"
         },
         "source": "built",
         "version": "2.0.8"
@@ -585,7 +594,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        AppleALC-1.5.1-DEBUG.zip: c0ca887123ff10ad0aaa722f7e61c74be3e233a7504d9a43f2f3de83b0e025e5\n        Release:\n        AppleALC-1.5.1-RELEASE.zip: 9664c4870f6276ff4f43113a41deab5d69afa5070c62f623c6cb00d1909b94c6\n        \n        \n        ",
-          "id": 28857841
+          "id": 28857841,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/untagged-2366d918444d28648f68"
         },
         "source": "built",
         "version": "1.5.1"
@@ -2365,7 +2375,8 @@
         },
         "release": {
           "description": "Initialise kernel patches in parallel to PCI\n[124de8b27fa79d42f43bce0d93597839c9462cd2](https://github.com/acidanthera/Lilu/commit/124de8b27fa79d42f43bce0d93597839c9462cd2) ([browse tree](https://github.com/acidanthera/Lilu/tree/124de8b27fa79d42f43bce0d93597839c9462cd2))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: e5254146738b41d9c2e5f691eab72f65b259f0c04e5747fb854751a881b8e103\nRelease:\nLilu-1.4.6-RELEASE.zip: b9d51ed75f8a8b1129827bcd86cfa0f358c6ee343e826fe7ca835f7e1ac54342\n\n\n",
-          "id": 29048248
+          "id": 29048248,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-124de8b"
         },
         "source": "built",
         "version": "1.4.6"
@@ -2391,7 +2402,8 @@
         },
         "release": {
           "description": "Initialise kernel patches in parallel to PCI\n[124de8b27fa79d42f43bce0d93597839c9462cd2](https://github.com/acidanthera/Lilu/commit/124de8b27fa79d42f43bce0d93597839c9462cd2) ([browse tree](https://github.com/acidanthera/Lilu/tree/124de8b27fa79d42f43bce0d93597839c9462cd2))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: d415f4aff5575cbabe4f1a7f9919bf04bdca6a7accd9dcd3e5133305eb9591d2\nRelease:\nLilu-1.4.6-RELEASE.zip: 35b39869cd938de313dca3594a1fe0ea19ed26a2e2c8cb2774750cd601451207\n\n\n",
-          "id": 29039171
+          "id": 29039171,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2417,7 +2429,8 @@
         },
         "release": {
           "description": "Initialise kernel patches in parallel to PCI\n[124de8b27fa79d42f43bce0d93597839c9462cd2](https://github.com/acidanthera/Lilu/commit/124de8b27fa79d42f43bce0d93597839c9462cd2) ([browse tree](https://github.com/acidanthera/Lilu/tree/124de8b27fa79d42f43bce0d93597839c9462cd2))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 27d23883d59ea4354ed6bb71b666950f037073f0d8bc0aed8988b93d4be28cba\nRelease:\nLilu-1.4.6-RELEASE.zip: 03eba4346b9d1bc4af17cd2d8783a73d537b0138c0e4044696b5a236da1702d4\n\n\n",
-          "id": 29039061
+          "id": 29039061,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2443,7 +2456,8 @@
         },
         "release": {
           "description": "Initialise kernel patches in parallel to PCI\n[124de8b27fa79d42f43bce0d93597839c9462cd2](https://github.com/acidanthera/Lilu/commit/124de8b27fa79d42f43bce0d93597839c9462cd2) ([browse tree](https://github.com/acidanthera/Lilu/tree/124de8b27fa79d42f43bce0d93597839c9462cd2))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 976e7b6f021c12ef711c033437e5a45a22de38eea4eaa371069485a0a156bdcf\nRelease:\nLilu-1.4.6-RELEASE.zip: 497900a49d51015e9fbc962c019a9f9f4fc72150913e2d571109334d458b2c6e\n\n\n",
-          "id": 28996878
+          "id": 28996878,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2469,7 +2483,8 @@
         },
         "release": {
           "description": "Add RTC register indices\n[0e56f47fa3ba98337542049a188b892834da3f2d](https://github.com/acidanthera/Lilu/commit/0e56f47fa3ba98337542049a188b892834da3f2d) ([browse tree](https://github.com/acidanthera/Lilu/tree/0e56f47fa3ba98337542049a188b892834da3f2d))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: b661dfb340414a5f9d707bb611aeeb86e1f6cf9a805cd06988907c4d7699e480\nRelease:\nLilu-1.4.6-RELEASE.zip: 23c2dbd207b19039b8d8dafdecea059262276abe736ec51a7a836dafe8f138a5\n\n\n",
-          "id": 29048253
+          "id": 29048253,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-0e56f47"
         },
         "source": "built",
         "version": "1.4.6"
@@ -2495,7 +2510,8 @@
         },
         "release": {
           "description": "Add RTC register indices\n[0e56f47fa3ba98337542049a188b892834da3f2d](https://github.com/acidanthera/Lilu/commit/0e56f47fa3ba98337542049a188b892834da3f2d) ([browse tree](https://github.com/acidanthera/Lilu/tree/0e56f47fa3ba98337542049a188b892834da3f2d))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 3a167a7ccea70e4dba19f5a1e292340d110fba3ed4c9bef96665670256e609e2\nRelease:\nLilu-1.4.6-RELEASE.zip: 4083f7d19fc54d0f724b09779546a33f1d94526ca9634e7e256a40130498b87b\n\n\n",
-          "id": 29039175
+          "id": 29039175,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2521,7 +2537,8 @@
         },
         "release": {
           "description": "Add RTC register indices\n[0e56f47fa3ba98337542049a188b892834da3f2d](https://github.com/acidanthera/Lilu/commit/0e56f47fa3ba98337542049a188b892834da3f2d) ([browse tree](https://github.com/acidanthera/Lilu/tree/0e56f47fa3ba98337542049a188b892834da3f2d))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 66026b39c8d0c2b5548313cbe1e0e882c33b657e6cb0764ad3f6d66c0157d5da\nRelease:\nLilu-1.4.6-RELEASE.zip: 11ce737cc933b4d832243c75a74c225856b84abbaad4b6b5ce733230690f6973\n\n\n",
-          "id": 29039070
+          "id": 29039070,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2547,7 +2564,8 @@
         },
         "release": {
           "description": "Add RTC register indices\n[0e56f47fa3ba98337542049a188b892834da3f2d](https://github.com/acidanthera/Lilu/commit/0e56f47fa3ba98337542049a188b892834da3f2d) ([browse tree](https://github.com/acidanthera/Lilu/tree/0e56f47fa3ba98337542049a188b892834da3f2d))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: d91a1221cef9ff913eb060aaaa0be822ee1f708d729d7350c5236ef75d96719b\nRelease:\nLilu-1.4.6-RELEASE.zip: e79b75381a09c3b5ae00346c042af80d14a00e50dd9b86541d9ea46aad0889e1\n\n\n",
-          "id": 28996880
+          "id": 28996880,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2573,7 +2591,8 @@
         },
         "release": {
           "description": "Abort on PCI register read failure\n[7620da2ceca7d933d544a9beb0e077c6fe546979](https://github.com/acidanthera/Lilu/commit/7620da2ceca7d933d544a9beb0e077c6fe546979) ([browse tree](https://github.com/acidanthera/Lilu/tree/7620da2ceca7d933d544a9beb0e077c6fe546979))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: c4444cd7df14aed00cda731edf648ef249c951d2c7e892223b38bcdaaea08e36\nRelease:\nLilu-1.4.6-RELEASE.zip: da74c19bf97351d515b6c64035bf4162b12a896b231580ac822ac86e0de23fce\n\n\n",
-          "id": 29048261
+          "id": 29048261,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-7620da2"
         },
         "source": "built",
         "version": "1.4.6"
@@ -2599,7 +2618,8 @@
         },
         "release": {
           "description": "Abort on PCI register read failure\n[7620da2ceca7d933d544a9beb0e077c6fe546979](https://github.com/acidanthera/Lilu/commit/7620da2ceca7d933d544a9beb0e077c6fe546979) ([browse tree](https://github.com/acidanthera/Lilu/tree/7620da2ceca7d933d544a9beb0e077c6fe546979))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 79b2767ba408694182685e6cbc2ae63f603ecaadbe7f70cab1bec14884b4b635\nRelease:\nLilu-1.4.6-RELEASE.zip: 178abb539f407499a905f313ad3a078c560fb066b7fbc2f3717bc30efcfbe3d8\n\n\n",
-          "id": 29039185
+          "id": 29039185,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2625,7 +2645,8 @@
         },
         "release": {
           "description": "Abort on PCI register read failure\n[7620da2ceca7d933d544a9beb0e077c6fe546979](https://github.com/acidanthera/Lilu/commit/7620da2ceca7d933d544a9beb0e077c6fe546979) ([browse tree](https://github.com/acidanthera/Lilu/tree/7620da2ceca7d933d544a9beb0e077c6fe546979))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: b6b6e3e6987f38928dca29ad28ece1754dd381789fe6ad29691bbee4c2e58fd6\nRelease:\nLilu-1.4.6-RELEASE.zip: ba48aec48a56c4d3ebcb023889aff9b7f8cd8d3b4555135ce04ec8e74e701ae3\n\n\n",
-          "id": 29039078
+          "id": 29039078,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2651,7 +2672,8 @@
         },
         "release": {
           "description": "Abort on PCI register read failure\n[7620da2ceca7d933d544a9beb0e077c6fe546979](https://github.com/acidanthera/Lilu/commit/7620da2ceca7d933d544a9beb0e077c6fe546979) ([browse tree](https://github.com/acidanthera/Lilu/tree/7620da2ceca7d933d544a9beb0e077c6fe546979))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: b1f879e1b10502d886d859e9a854755ec9dc58fdcc7a319fc7f2a8bb4ff61399\nRelease:\nLilu-1.4.6-RELEASE.zip: ae260bcfd21d8b38e4b568b5dea29aa7f643fb0fc74d93cf189cfb82cd0b3a17\n\n\n",
-          "id": 28986104
+          "id": 28986104,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2677,7 +2699,8 @@
         },
         "release": {
           "description": "Implement Lilu loading at console init in 11.0\n[496213ab793b20b1996cedaed752bcb7005e80bc](https://github.com/acidanthera/Lilu/commit/496213ab793b20b1996cedaed752bcb7005e80bc) ([browse tree](https://github.com/acidanthera/Lilu/tree/496213ab793b20b1996cedaed752bcb7005e80bc))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 1929d778f9bfc8ea16d8608664a0fb2c16282e1e3882a0062df933f89462ac26\nRelease:\nLilu-1.4.6-RELEASE.zip: eb49bbeec3c4b504b7f637513c470d64e6445eab7f641e5b796de74807424ce9\n\n\n",
-          "id": 29048265
+          "id": 29048265,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-496213a"
         },
         "source": "built",
         "version": "1.4.6"
@@ -2703,7 +2726,8 @@
         },
         "release": {
           "description": "Implement Lilu loading at console init in 11.0\n[496213ab793b20b1996cedaed752bcb7005e80bc](https://github.com/acidanthera/Lilu/commit/496213ab793b20b1996cedaed752bcb7005e80bc) ([browse tree](https://github.com/acidanthera/Lilu/tree/496213ab793b20b1996cedaed752bcb7005e80bc))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 6de8c19332058633bc32b3e7de9eea59b58f5457cda16e217fce0ab968f3b2af\nRelease:\nLilu-1.4.6-RELEASE.zip: 2f7c8b137439ad502958d3c8f0b46a02605405c2e2281a9581bc117501e65680\n\n\n",
-          "id": 29039189
+          "id": 29039189,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2729,7 +2753,8 @@
         },
         "release": {
           "description": "Implement Lilu loading at console init in 11.0\n[496213ab793b20b1996cedaed752bcb7005e80bc](https://github.com/acidanthera/Lilu/commit/496213ab793b20b1996cedaed752bcb7005e80bc) ([browse tree](https://github.com/acidanthera/Lilu/tree/496213ab793b20b1996cedaed752bcb7005e80bc))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 787e0cc264202c2c187ba3b8eb9229aa8aabdf68d66b0b2e08dc5d475114638c\nRelease:\nLilu-1.4.6-RELEASE.zip: 18163456f551b5bac9fcb7a50ff88db12f8e20ae67b29e629d4e8c7ba204cf3e\n\n\n",
-          "id": 29039086
+          "id": 29039086,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2755,7 +2780,8 @@
         },
         "release": {
           "description": "Implement Lilu loading at console init in 11.0\n[496213ab793b20b1996cedaed752bcb7005e80bc](https://github.com/acidanthera/Lilu/commit/496213ab793b20b1996cedaed752bcb7005e80bc) ([browse tree](https://github.com/acidanthera/Lilu/tree/496213ab793b20b1996cedaed752bcb7005e80bc))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 6d2c75c5b26275c7b9980749df3c4265da1c337654b31848eadab56b71ed4fce\nRelease:\nLilu-1.4.6-RELEASE.zip: e19b5698dd25d66165b22d76475e7c0e4696e6b7bac20fe0d749b082f628b45c\n\n\n",
-          "id": 28979017
+          "id": 28979017,
+          "url": null
         },
         "source": "built",
         "version": "1.4.6"
@@ -2781,7 +2807,8 @@
         },
         "release": {
           "description": "Fix typo in debug logging\n[633f948147a95eb3dc4339bb096f4c7094ddf8dc](https://github.com/acidanthera/Lilu/commit/633f948147a95eb3dc4339bb096f4c7094ddf8dc) ([browse tree](https://github.com/acidanthera/Lilu/tree/633f948147a95eb3dc4339bb096f4c7094ddf8dc))\n\n**Hashes**:\nDebug:\nLilu-1.4.6-DEBUG.zip: 01e7bca03bcd7cb7e51c6b67626e15c03d76d63d9ed0f938007f7d31fc1409eb\nRelease:\nLilu-1.4.6-RELEASE.zip: db824a56073e19af17c1e8ca16ee4096951705a647fbb4953364f2d6f03a518b\n\n\n",
-          "id": 28979022
+          "id": 28979022,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-633f948"
         },
         "source": "built",
         "version": "1.4.6"
@@ -2807,7 +2834,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        Lilu-1.4.6-DEBUG.zip: 4eb12c6347ca6f87ef10cc66997572da1d4ec0fb2255414c17852ef92cc65240\n        Release:\n        Lilu-1.4.6-RELEASE.zip: b8b89a5dd61abbb05e2698cc4bf01804c5422a2ed280b98b28bd3d31f15d6b84\n        \n        \n        ",
-          "id": 28872870
+          "id": 28872870,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-d9c8228"
         },
         "source": "built",
         "version": "1.4.6"
@@ -4141,7 +4169,8 @@
         },
         "release": {
           "description": "Update SSDT-EC-USBX.dsl (#92)\n\ncan not nest \\_SB under \\_SB, possible better ways to organize scopes\n[fedeba8ceb710985ee8d194e97d650deba3492e0](https://github.com/acidanthera/OpenCorePkg/commit/fedeba8ceb710985ee8d194e97d650deba3492e0) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/fedeba8ceb710985ee8d194e97d650deba3492e0))\n\n**Hashes**:\nDebug:\nOpenCore-0.6.0-DEBUG.zip: 5daed781527a410413e56987c71e9269f26293bb21a9cc212ee05f35bac30211\nRelease:\nOpenCore-0.6.0-RELEASE.zip: f436dd7c2ac723d7e760479b6624f2e574a130edee8f6de0c8e6497d74436de2\nExtras:\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
-          "id": 29010934
+          "id": 29010934,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-fedeba8"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4177,7 +4206,8 @@
         },
         "release": {
           "description": "OcXmlLib: Free original buffer on failure\n[697a2e5b0f77af61a35fdf77d1b47c50c912ad99](https://github.com/acidanthera/OpenCorePkg/commit/697a2e5b0f77af61a35fdf77d1b47c50c912ad99) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/697a2e5b0f77af61a35fdf77d1b47c50c912ad99))\n\n**Hashes**:\nDebug:\nOpenCore-0.6.0-DEBUG.zip: 8d2649ea3bef5f602bea53e4ee6143417e3175723b573d4b7ba698105b305d46\nRelease:\nOpenCore-0.6.0-RELEASE.zip: c0b94ffb133e0be6227d6f40bd04f8d066d7c662b3e8733ed573c2d7bf321a96\nExtras:\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
-          "id": 29005526
+          "id": 29005526,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-697a2e5"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4213,7 +4243,8 @@
         },
         "release": {
           "description": "OcXmlLib: Correct/clarify XmlDocumentExport\n[2bbf6a466b524e1ce004ed0903c90586f5b48c28](https://github.com/acidanthera/OpenCorePkg/commit/2bbf6a466b524e1ce004ed0903c90586f5b48c28) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/2bbf6a466b524e1ce004ed0903c90586f5b48c28))\n\n**Hashes**:\nDebug:\nOpenCore-0.6.0-DEBUG.zip: 9bcce4a0694305bfe258be3406cb0d76a5d7258a5b12833100efa175387ca4f0\nRelease:\nOpenCore-0.6.0-RELEASE.zip: cf100b70cdeaaf0baae8a3181f2ed162875af0645d240ffcc3ed361813961d51\nExtras:\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
-          "id": 29005143
+          "id": 29005143,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-2bbf6a4"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4249,7 +4280,8 @@
         },
         "release": {
           "description": "OcXmlLib: Fix previous commit\n[1bc2fb3eea1e082fd547cbbf5f9ae870dabbfa97](https://github.com/acidanthera/OpenCorePkg/commit/1bc2fb3eea1e082fd547cbbf5f9ae870dabbfa97) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/1bc2fb3eea1e082fd547cbbf5f9ae870dabbfa97))\n\n**Hashes**:\nDebug:\nOpenCore-0.6.0-DEBUG.zip: 880278224ee988aecebb47d899d58fb7c6d0fe65969af79e6297f142009e29d4\nRelease:\nOpenCore-0.6.0-RELEASE.zip: 1e15245c6e65590e02e98685c10e0612bd40f4853816936aa1dfc73a3dd66766\nExtras:\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
-          "id": 28971709
+          "id": 28971709,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-1bc2fb3"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4285,7 +4317,8 @@
         },
         "release": {
           "description": "OcXmlLib: Add plist doctype export option\n[cbdef704f461f04be12531e6fa0ee9fb59d74796](https://github.com/acidanthera/OpenCorePkg/commit/cbdef704f461f04be12531e6fa0ee9fb59d74796) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/cbdef704f461f04be12531e6fa0ee9fb59d74796))\n\n**Hashes**:\nDebug:\nOpenCore-0.6.0-DEBUG.zip: c106c29ad836c953ac2dc47dcc75b939202e835e4bb59e739a154649388249e0\nRelease:\nOpenCore-0.6.0-RELEASE.zip: 63b853a61a63f5291731fa8d3011c690e87d7b7e91f2e87f3707dae0488aad80\nExtras:\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
-          "id": 28969301
+          "id": 28969301,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-cbdef70"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4321,7 +4354,8 @@
         },
         "release": {
           "description": "DataBase: Fixed BIOSReleaseDates\n[2b534360627a6c9d96d4f2f9e795742bf73cc7a7](https://github.com/acidanthera/OpenCorePkg/commit/2b534360627a6c9d96d4f2f9e795742bf73cc7a7) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/2b534360627a6c9d96d4f2f9e795742bf73cc7a7))\n\n**Hashes**:\nDebug:\nOpenCore-0.6.0-DEBUG.zip: 55838b73494237c379c81d14e21495d5b3f600852bd3d4fc4f94109595d7dedd\nRelease:\nOpenCore-0.6.0-RELEASE.zip: 2143166633ab9c489e74193a84a802778b0637722cd82adf8a7eb11adcf8c0b7\nExtras:\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
-          "id": 28964452
+          "id": 28964452,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-2b53436"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4357,7 +4391,8 @@
         },
         "release": {
           "description": "PlatformInfo Automatic for all models\n[4b92cbbf3d20f0d8398832faf1d2d13158e235cd](https://github.com/acidanthera/OpenCorePkg/commit/4b92cbbf3d20f0d8398832faf1d2d13158e235cd) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/4b92cbbf3d20f0d8398832faf1d2d13158e235cd))\n\n**Hashes**:\nDebug:\nOpenCore-0.6.0-DEBUG.zip: 42b83e53b6529df36a2328372336f4e0aada06bfb466c15e8538115b1e1a93f7\nRelease:\nOpenCore-0.6.0-RELEASE.zip: 0a4b2b93732d80e1d95518e9135200bb2ed12b1b882d940249a130d4eb6ca81c\nExtras:\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
-          "id": 28963961
+          "id": 28963961,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-4b92cbb"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4393,7 +4428,8 @@
         },
         "release": {
           "description": "Build: Fix warnings\n[d9c341646520504b044dab12ad2060885504ae68](https://github.com/acidanthera/OpenCorePkg/commit/d9c341646520504b044dab12ad2060885504ae68) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/d9c341646520504b044dab12ad2060885504ae68))\n\n**Hashes**:\nDebug:\nOpenCore-0.6.0-DEBUG.zip: cee9db1e1e12d74c41713a8ef065e29b6bda1a82b6b843d1944f7f9dd632c866\nRelease:\nOpenCore-0.6.0-RELEASE.zip: b848603fac100c96cf25063229962dd61c02074908196d9c2ed85959b7f1e51e\nExtras:\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
-          "id": 28962629
+          "id": 28962629,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-d9c3416"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4429,7 +4465,8 @@
         },
         "release": {
           "description": "OcFileLib: Implement AllocateCopyFileData\n        [b2e55152ea4ef45fb64d2267b4d4606165692b5c](https://github.com/acidanthera/OpenCorePkg/commit/b2e55152ea4ef45fb64d2267b4d4606165692b5c) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/b2e55152ea4ef45fb64d2267b4d4606165692b5c))\n\n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: 91c3f38cbe78d9e43ba049dfda60759dab9de119422e1e52cb70ffe0e3d471aa\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: 513419fbb3639bd62f0a3a675e5b904cec342c29f2b2d5d1c71e6db1239b63f7\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28952283
+          "id": 28952283,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-b2e5515"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4465,7 +4502,8 @@
         },
         "release": {
           "description": "OcXmlLib: Implement XmlNodeChangeContent\n        [0a16c8a126eb8243943dd36f0979c906fb1f25ea](https://github.com/acidanthera/OpenCorePkg/commit/0a16c8a126eb8243943dd36f0979c906fb1f25ea) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/0a16c8a126eb8243943dd36f0979c906fb1f25ea))\n\n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: 9e48da686d67b6eeb15ae703860bd4c781b9453297529db375030fae49a5dbe7\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: 7516ed14bf1ebeee16e5da8336262e0d7fd9e9f30f9c48bc1b705e735e53b819\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28951006
+          "id": 28951006,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-0a16c8a"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4501,7 +4539,8 @@
         },
         "release": {
           "description": "Utilities: Drop OpenDuetPkg binary and rebuild it with OC\n        [a6b6902fed8637007b175b4bfe90ece48e465633](https://github.com/acidanthera/OpenCorePkg/commit/a6b6902fed8637007b175b4bfe90ece48e465633) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/a6b6902fed8637007b175b4bfe90ece48e465633))\n\n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: d14936d0c8fb2f22b48296ebdb01d3fce8813b76d84793885e8092a83ebd6b3f\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: fd3b614d6e71c6807fcbfaee5528f7f7a16a67a378f65488f33bcbeb478d846e\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28940986
+          "id": 28940986,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-a6b6902"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4537,7 +4576,8 @@
         },
         "release": {
           "description": "OcDevicePathLib: Added a workaround for PCI0 with 0x1 _UID\n\nreferences acidanthera/bugtracker#664\n        [870017d0e5d53abeaf0347997da912c3e382a04a](https://github.com/acidanthera/OpenCorePkg/commit/870017d0e5d53abeaf0347997da912c3e382a04a) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/870017d0e5d53abeaf0347997da912c3e382a04a))\n\n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: 08c82b9c35372496b6c745470532ae43c780bf4f7df157e25785a53031d073b3\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: e3aa02dbc08cd2fb30a1b020407363ae592f26683c3e5ba8b20d55f46828bac5\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28940483
+          "id": 28940483,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-870017d"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4573,7 +4613,8 @@
         },
         "release": {
           "description": "OpenCoreMisc: Perform serial init separately via SerialInit option\n        [bb990c8c5d3c4e6bef819e9909d0e58f7ad1f7af](https://github.com/acidanthera/OpenCorePkg/commit/bb990c8c5d3c4e6bef819e9909d0e58f7ad1f7af) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/bb990c8c5d3c4e6bef819e9909d0e58f7ad1f7af))\n\n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: 944995aad5b7c557c0c0bffe809e38d902875e0a74f10481c307bd681bccaf07\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: d79238d50df353456bebc6f373f20e7b589024ff9b1bf0dea4484aa03dcbf85e\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28940358
+          "id": 28940358,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-bb990c8"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4609,7 +4650,8 @@
         },
         "release": {
           "description": "Docs: Fix the hint regarding RebuildAppleMemoryMap\n        [62a88ddf8f66ced0cdfb7423faca95855e9687d3](https://github.com/acidanthera/OpenCorePkg/commit/62a88ddf8f66ced0cdfb7423faca95855e9687d3) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/62a88ddf8f66ced0cdfb7423faca95855e9687d3))\n        \n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: f66730f4a1940c23e96c7965cb4569d60aed76ec1c69fbc252a585bd3cb80ad4\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: f34de4c2c0742fec5cd9cef9d9094d77742fc513366bc73fb62faf5ca3a23053\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28940253
+          "id": 28940253,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-62a88dd"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4645,7 +4687,8 @@
         },
         "release": {
           "description": "OcAfterBootCompatLib: Fix 32-bit dead loop\n        [602e540968d095b5ed108e2c08bd4744a92c659f](https://github.com/acidanthera/OpenCorePkg/commit/602e540968d095b5ed108e2c08bd4744a92c659f) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/602e540968d095b5ed108e2c08bd4744a92c659f))\n        \n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: 37cf0f44d366675d2115db7fb521cb1db3f4b2b9825cf742da687eae9bb989a9\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: 54d8e177f4da0eb77cd80c70e70d1b232158aa493e83225ff401fbfe1243af73\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28940254
+          "id": 28940254,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-602e540"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4681,7 +4724,8 @@
         },
         "release": {
           "description": "Docs: Provide errata entry on OSXSAVE issue\n\ncloses acidanthera/bugtracker#1035\n        [27e637bb8dd85f3b54633f4808da682987ad4b52](https://github.com/acidanthera/OpenCorePkg/commit/27e637bb8dd85f3b54633f4808da682987ad4b52) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/27e637bb8dd85f3b54633f4808da682987ad4b52))\n        \n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: 66e89852328141cb7e3f1ca1bc869d24b2de600298f4b118efb1df6129410bcd\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: fb8c530245c00d54e4d21110caf5901f956f3cb7b171959aea46184e7ab89d44\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28939914
+          "id": 28939914,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-27e637b"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4717,7 +4761,8 @@
         },
         "release": {
           "description": "OcAppleKernelLib: Fixed OSXSAVE reporting when emulating CPUID on newer CPUs\n        [426a5dbe09365d3fe1d18dbde9868fe12900c30c](https://github.com/acidanthera/OpenCorePkg/commit/426a5dbe09365d3fe1d18dbde9868fe12900c30c) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/426a5dbe09365d3fe1d18dbde9868fe12900c30c))\n        \n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: 995a335eeb55239315511edb2479ef99ebc64bccd5098a62ff6a68a432010e54\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: 78657ad8cdc9107266667381db06b96c76ae4ea0dce71c15a202ec5f1b523dd0\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28939915
+          "id": 28939915,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-426a5db"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4753,7 +4798,8 @@
         },
         "release": {
           "description": "Docs: Improve the documentation\n        [f95c00919caa29b76754ce726c2e243450b785d6](https://github.com/acidanthera/OpenCorePkg/commit/f95c00919caa29b76754ce726c2e243450b785d6) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/f95c00919caa29b76754ce726c2e243450b785d6))\n        \n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: a8a21a5ad8bfca0a8d5efb529a0f13cce4739cfeeb9e4ff84cd2f6fbee8c7a82\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: ffea14a370490155e52cb3251f7fbd61566fd8880111d76542961afef3d69855\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28939743
+          "id": 28939743,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-f95c009"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4789,7 +4835,8 @@
         },
         "release": {
           "description": "OcConsoleLib: Update UGA comments\n\ncloses acidanthera/bugtracker#1061\n        [ee30d2f5e0a0a6a82e73645ed8029e345cf9bf09](https://github.com/acidanthera/OpenCorePkg/commit/ee30d2f5e0a0a6a82e73645ed8029e345cf9bf09) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/ee30d2f5e0a0a6a82e73645ed8029e345cf9bf09))\n        \n        **Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: 1f557080127858a6d102571a503ef146cbda1fc211d0f19b129db59661557af0\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: 7e3dfa59bada981b8827353c819aa255cdea99edb586857dff00c4c722492b5e\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28939441
+          "id": 28939441,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-ee30d2f"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4825,7 +4872,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: f31635e3c646884f9cd85af6c64ef9c20b255036c2140785914a054b4c4096b1\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: 12297ca35679535f8db70e5bba4f7e1636513fa89eae5c6121c3fdf417bff8f7\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28893717
+          "id": 28893717,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-cb4d43e"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4861,7 +4909,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: 30296f9fb718eb097cd54592ec9f05a9033f47a83356fcdaa832e4af78b50478\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: 5e9c03d58409099d233ed24c35c63f8b206e78fc18d264d0a2e8b7edbef11929\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28857300
+          "id": 28857300,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-359454f"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4897,7 +4946,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: cdef32cc8365876fbab7242cb2bd2a67cbbf72bfc4b854efd4a1b1af492d7385\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: 9ba576bff4006888bc04af94c4ae1ab377f7abe4ad0f339d3a7ed2f0cace56ef\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28829855
+          "id": 28829855,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-75b7ead"
         },
         "source": "built",
         "version": "0.6.0"
@@ -4929,7 +4979,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        OpenCore-0.6.0-DEBUG.zip: cf89312bd45e7be62c42eeb8e642beceb988330db7929596f5d50c126b6aee0c\n        Release:\n        OpenCore-0.6.0-RELEASE.zip: 43bad419444a13be15efe41970a4a525eb2bcd214cc5ad4112acaf2d84810fb6\n        Extras:\n        SSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n        ",
-          "id": 28760532
+          "id": 28760532,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-b7e99c1"
         },
         "source": "built",
         "version": "0.6.0"
@@ -15710,7 +15761,8 @@
         },
         "release": {
           "description": "Fixed crashes when trying to read CLKT key\n[2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61](https://github.com/acidanthera/VirtualSMC/commit/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61))\n\n**Hashes**:\nDebug:\nVirtualSMC-1.1.5-DEBUG.zip: abea1e352d5cae969f3e9d41212988f88a2d0d694ad5f06ba100a4326a1573c5\nRelease:\nVirtualSMC-1.1.5-RELEASE.zip: baae1500731a525e69031412b16e62c65e62a23879a545e79ccebe1e3b9e6681\n\n\n",
-          "id": 29048272
+          "id": 29048272,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/VirtualSMC-2bda494"
         },
         "source": "built",
         "version": "1.1.5"
@@ -15736,7 +15788,8 @@
         },
         "release": {
           "description": "Fixed crashes when trying to read CLKT key\n[2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61](https://github.com/acidanthera/VirtualSMC/commit/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61))\n\n**Hashes**:\nDebug:\nVirtualSMC-1.1.5-DEBUG.zip: 82a8b58628a1048818e1f3e0f2e9ffdf4eff1b557b9afdc840995de8aa6179d8\nRelease:\nVirtualSMC-1.1.5-RELEASE.zip: 8540b499d96bc87c190de98b688930c17fc952b54481703ac274f0586f4fe1c9\n\n\n",
-          "id": 29039202
+          "id": 29039202,
+          "url": null
         },
         "source": "built",
         "version": "1.1.5"
@@ -15762,7 +15815,8 @@
         },
         "release": {
           "description": "Fixed crashes when trying to read CLKT key\n[2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61](https://github.com/acidanthera/VirtualSMC/commit/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61))\n\n**Hashes**:\nDebug:\nVirtualSMC-1.1.5-DEBUG.zip: 0baab175277e9fccacb7d056282516ebdb6b0209e6381891f88fd82435d0bb17\nRelease:\nVirtualSMC-1.1.5-RELEASE.zip: 683152dd67bcc5a298dbe33ea481f138acbccbac09dcb1f22b0463ca401138d4\n\n\n",
-          "id": 29039098
+          "id": 29039098,
+          "url": null
         },
         "source": "built",
         "version": "1.1.5"
@@ -15788,7 +15842,8 @@
         },
         "release": {
           "description": "Fixed crashes when trying to read CLKT key\n[2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61](https://github.com/acidanthera/VirtualSMC/commit/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61))\n\n**Hashes**:\nDebug:\nVirtualSMC-1.1.5-DEBUG.zip: 5d086614477bcb99b861df79869178153a122bd62f34066b0e2d694181cf8f31\nRelease:\nVirtualSMC-1.1.5-RELEASE.zip: 47cbf8b8798eff8917543a50cea04eaaf9e2e225efa4be8a67f21cb14be05d69\n\n\n",
-          "id": 28996883
+          "id": 28996883,
+          "url": null
         },
         "source": "built",
         "version": "1.1.5"
@@ -15814,7 +15869,8 @@
         },
         "release": {
           "description": "Update README.md\n[22f32eea53ab8c09ffea815b3978ae038e16b800](https://github.com/acidanthera/VirtualSMC/commit/22f32eea53ab8c09ffea815b3978ae038e16b800) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/22f32eea53ab8c09ffea815b3978ae038e16b800))\n\n**Hashes**:\nDebug:\nVirtualSMC-1.1.5-DEBUG.zip: 4bba412cf5161961a022f72fbfcc9b312797783aa4c0267b19ae80075b8cb3d6\nRelease:\nVirtualSMC-1.1.5-RELEASE.zip: 5e99b1efcb09f82ab5b984ae4f643321ac3043e97144241cbfe6e1dc5a362f8d\n\n\n",
-          "id": 29048282
+          "id": 29048282,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/VirtualSMC-22f32ee"
         },
         "source": "built",
         "version": "1.1.5"
@@ -15840,7 +15896,8 @@
         },
         "release": {
           "description": "Update README.md\n[22f32eea53ab8c09ffea815b3978ae038e16b800](https://github.com/acidanthera/VirtualSMC/commit/22f32eea53ab8c09ffea815b3978ae038e16b800) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/22f32eea53ab8c09ffea815b3978ae038e16b800))\n\n**Hashes**:\nDebug:\nVirtualSMC-1.1.5-DEBUG.zip: c654679e877d9f3953bacf35080cfffb7fa66bb2f90a62bd47e092be1f605485\nRelease:\nVirtualSMC-1.1.5-RELEASE.zip: 72d32d22d1e21059a9325e2a0ca2d3783ad924fb6c81ebf3f0861660bb09bd26\n\n\n",
-          "id": 29039218
+          "id": 29039218,
+          "url": null
         },
         "source": "built",
         "version": "1.1.5"
@@ -15866,7 +15923,8 @@
         },
         "release": {
           "description": "Update README.md\n[22f32eea53ab8c09ffea815b3978ae038e16b800](https://github.com/acidanthera/VirtualSMC/commit/22f32eea53ab8c09ffea815b3978ae038e16b800) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/22f32eea53ab8c09ffea815b3978ae038e16b800))\n\n**Hashes**:\nDebug:\nVirtualSMC-1.1.5-DEBUG.zip: 02c30ea88f750aac5de393799c004334805880aabca90d1352508e27298c005e\nRelease:\nVirtualSMC-1.1.5-RELEASE.zip: ab6e653578e87e7fc9770e6b92818e56984a4ef560b8cd4021f69a6a31b4119a\n\n\n",
-          "id": 29039113
+          "id": 29039113,
+          "url": null
         },
         "source": "built",
         "version": "1.1.5"
@@ -15892,7 +15950,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        VirtualSMC-1.1.5-DEBUG.zip: 8b06ccaed7619206b7af1585fbd37f2e5e7cf5d4c647f17611abef82f2667818\n        Release:\n        VirtualSMC-1.1.5-RELEASE.zip: e82d4346c070e4872103b805b22d4ee05f329211b4b5555d56ecd23fdd82a4c4\n        \n        \n        ",
-          "id": 28872876
+          "id": 28872876,
+          "url": null
         },
         "source": "built",
         "version": "1.1.5"
@@ -16786,7 +16845,8 @@
         },
         "release": {
           "description": "Update FAQ.IntelHD.cn.md (#58)\n[5d3b31afea0393721dcd00272e21ca065e3b40ad](https://github.com/acidanthera/WhateverGreen/commit/5d3b31afea0393721dcd00272e21ca065e3b40ad) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/5d3b31afea0393721dcd00272e21ca065e3b40ad))\n\n**Hashes**:\nDebug:\nWhateverGreen-1.4.1-DEBUG.zip: 23c512999a9ea847afe9f9d6454b48b14c95b52043d787733fc7a5129ec679cc\nRelease:\nWhateverGreen-1.4.1-RELEASE.zip: 83c1deddda25a8b97fce9f3b983820b23a75a7db9585936dec5271c31e3678fe\nExtras:\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
-          "id": 29048289
+          "id": 29048289,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/WhateverGreen-5d3b31a"
         },
         "source": "built",
         "version": "1.4.1"
@@ -16818,7 +16878,8 @@
         },
         "release": {
           "description": "Update FAQ.IntelHD.cn.md (#58)\n[5d3b31afea0393721dcd00272e21ca065e3b40ad](https://github.com/acidanthera/WhateverGreen/commit/5d3b31afea0393721dcd00272e21ca065e3b40ad) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/5d3b31afea0393721dcd00272e21ca065e3b40ad))\n\n**Hashes**:\nDebug:\nWhateverGreen-1.4.1-DEBUG.zip: 0c2b6faa71207ac69a32624fe9a2bf192a740cd89987d4a32ece7ee3518f61d6\nRelease:\nWhateverGreen-1.4.1-RELEASE.zip: da13205920d77403d21ea9a7e07991b4bc34c5bcb025c6ec8a53852c55e8effb\nExtras:\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
-          "id": 29039227
+          "id": 29039227,
+          "url": null
         },
         "source": "built",
         "version": "1.4.1"
@@ -16850,7 +16911,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        WhateverGreen-1.4.1-DEBUG.zip: 2e6b0f124c717bedd973abd6abee1ae877b32ed34585658fc769866b5b93e213\n        Release:\n        WhateverGreen-1.4.1-RELEASE.zip: 1e576471d3ec521d606ac4fb18c90560a0b078643928fafd013dcbc78d52d125\n        Extras:\n        SSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n        ",
-          "id": 28895803
+          "id": 28895803,
+          "url": null
         },
         "source": "built",
         "version": "1.4.1"
@@ -16882,7 +16944,8 @@
         },
         "release": {
           "description": "Merge remote-tracking branch 'origin/master'\n\n* origin/master:\n  Update README.md\n  Update FAQ.IntelHD.en.md\n[4a4ac3db04a66fd7338661522387e608f029e734](https://github.com/acidanthera/WhateverGreen/commit/4a4ac3db04a66fd7338661522387e608f029e734) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/4a4ac3db04a66fd7338661522387e608f029e734))\n\n**Hashes**:\nDebug:\nWhateverGreen-1.4.1-DEBUG.zip: d29a74ea4603b082418142648dbdbc6b3f2a3157ffffc0df24234603a9c61f8f\nRelease:\nWhateverGreen-1.4.1-RELEASE.zip: b4f948555fff25628e921af06eaec4dc91d897a0889d80da882c8d44cefbfefe\nExtras:\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
-          "id": 29048299
+          "id": 29048299,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/untagged-d0ffc1319b1672a5ebc0"
         },
         "source": "built",
         "version": "1.4.1"
@@ -16914,7 +16977,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        WhateverGreen-1.4.1-DEBUG.zip: 8db268b0fa5f34847152c7492cd62c09a4e360cb32a1b96ad6f4bf405380f23a\n        Release:\n        WhateverGreen-1.4.1-RELEASE.zip: 9772fde6af9a113ca5c027ba563dc9fb386579934a15dd6075ef9bdaec0b319a\n        Extras:\n        SSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n        ",
-          "id": 28872879
+          "id": 28872879,
+          "url": null
         },
         "source": "built",
         "version": "1.4.1"
@@ -16946,7 +17010,8 @@
         },
         "release": {
           "description": "Update README.md\n[3e1f15aad1bc8e39e1ca3d4848bff4bdfd21124f](https://github.com/acidanthera/WhateverGreen/commit/3e1f15aad1bc8e39e1ca3d4848bff4bdfd21124f) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/3e1f15aad1bc8e39e1ca3d4848bff4bdfd21124f))\n\n**Hashes**:\nDebug:\nWhateverGreen-1.4.1-DEBUG.zip: f6febe0e317cd0fae167657c84467837c9980a92430c34acbec2afdcd95186d1\nRelease:\nWhateverGreen-1.4.1-RELEASE.zip: f8b164f356326de4dddb53e772b39344b737ad06aeec12e8b50a12df8ecdc8a4\nExtras:\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
-          "id": 29048302
+          "id": 29048302,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/WhateverGreen-3e1f15a"
         },
         "source": "built",
         "version": "1.4.1"
@@ -16978,7 +17043,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        WhateverGreen-1.4.1-DEBUG.zip: bf77357eee0feace9b14e3520fd7a659df2a544be4fd63600b1c45f5fbf690e7\n        Release:\n        WhateverGreen-1.4.1-RELEASE.zip: c8d4e0db4e1356d11a8fcff60d404d2bbea8a279508dd256981371d3832c796e\n        Extras:\n        SSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n        ",
-          "id": 28857845
+          "id": 28857845,
+          "url": null
         },
         "source": "built",
         "version": "1.4.1"
@@ -17008,7 +17074,8 @@
         },
         "release": {
           "description": "**Hashes**:\n        Debug:\n        WhateverGreen-1.4.1-DEBUG.zip: 65e04dfb2222329c8bb90c89b411ad65ba13d4a3f60f84d60519b79df0e8e354\n        Release:\n        WhateverGreen-1.4.1-RELEASE.zip: ab2577cd4ef20e6ad6463b133195f60b18dc90e0adf408c63794b7a06d6f2a65\n        Extras:\n        SSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n        ",
-          "id": 28760531
+          "id": 28760531,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/WhateverGreen-1f7271b"
         },
         "source": "built",
         "version": "1.4.1"
