@@ -16,16 +16,16 @@ layout: default
           console.log(data);
           for (var key in data) {
               console.log(key);
-              $("#product").add(new Option(key, key));
+              $("#product")[0].add(new Option(key, key));
           }
           $("#product").change(function() {
               $("#sha").options.length = 0;
-              $("#sha").add(new Option("Select version...", "initial", true, true));
+              $("#sha")[0].add(new Option("Select version...", "initial", true, true));
               if ($("#product").val() == "initial") {
                   return;
               }
               data[$("#product").val()]["versions"].forEach(element => {
-                  $("#sha").add(new Option(element.commit, element.commit));
+                  $("#sha")[0].add(new Option(element.commit, element.commit));
               });
           })
       })
