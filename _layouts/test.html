@@ -19,7 +19,7 @@ layout: default
               $("#product")[0].add(new Option(key, key));
           }
           $("#product").change(function() {
-              $("#sha").options.length = 0;
+              $("#sha")[0].options.length = 0;
               $("#sha")[0].add(new Option("Select version...", "initial", true, true));
               if ($("#product").val() == "initial") {
                   return;
