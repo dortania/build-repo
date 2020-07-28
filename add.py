@@ -77,19 +77,19 @@ def add_built(plugin, token):
 
     # Delete previous releases
     get_all_releases = releases_url.GET()
-    for i in [i["id"] for i in get_all_releases.json() if i["tag_name"] == name + "-" + release["commit"][:7]]:
+    for i in [i["id"] for i in get_all_releases.json() if i["tag_name"] == name + "-" + release["commit"]["sha"][:7]]:
         releases_url(i).DELETE()
 
     # Delete tags
-    check_tag = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/git/refs/tags/" + name + "-" + release["commit"][:7], auth=("dhinakg", token))
+    check_tag = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/git/refs/tags/" + name + "-" + release["commit"]["sha"][:7], auth=("dhinakg", token))
     if check_tag.GET().status_code != 404:
         check_tag.DELETE()
 
     # Create release
     create_release = releases_url.POST(json={
-        "tag_name": name + "-" + release["commit"][:7],
+        "tag_name": name + "-" + release["commit"]["sha"][:7],
         "target_commitish": "builds",
-        "name": name + " " + release["commit"][:7]
+        "name": name + " " + release["commit"]["sha"][:7]
     })
     # print(create_release.json()["id"])
     release["release"] = {"id": create_release.json()["id"]}
