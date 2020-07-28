@@ -67,8 +67,7 @@ def add_built(plugin, token):
                 # print("Found at index " + str(ind) + " (" + commit_info["sha"] + ", " + name + ")")
                 break
 
-    release["commit"] = commit_info["sha"]
-    release["description"] = commit_info["commit"]["message"]
+    release["commit"] = {"sha": commit_info["sha"], "message": commit_info["commit"]["message"]}
     release["version"] = files["version"]
     release["dateadded"] = datetime.datetime.now(tz=datetime.timezone.utc).isoformat()
     release["datecommitted"] = dateutil.parser.parse(commit_info["commit"]["committer"]["date"]).isoformat()
@@ -93,7 +92,7 @@ def add_built(plugin, token):
         "name": name + " " + release["commit"][:7]
     })
     # print(create_release.json()["id"])
-    release["releaseid"] = create_release.json()["id"]
+    release["release"] = {"id": create_release.json()["id"]}
 
     if not release.get("hashes", None):
         release["hashes"] = {"debug": {"sha256": ""}, "release": {"sha256": ""}}
@@ -109,17 +108,16 @@ def add_built(plugin, token):
         release["links"] = {}
 
     for i in ["debug", "release"]:
-        release["links"][i] = upload_release_asset(release["releaseid"], token, files[i])
+        release["links"][i] = upload_release_asset(release["release"]["id"], token, files[i])
 
     if files["extras"]:
         if not release.get("extras", None):
             release["extras"] = {}
         for file in files["extras"]:
-            release["extras"][file.name] = upload_release_asset(release["releaseid"], token, file)
+            release["extras"][file.name] = upload_release_asset(release["release"]["id"], token, file)
     new_line = "\n"  # No escapes in f-strings
 
-    hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release["releaseid"]), auth=("dhinakg", token)).POST(json={
-        "body": f"""{commit_info['commit']['message'].strip()}
+    release["release"]["description"] = f"""{commit_info['commit']['message'].strip()}
 [{commit_info['sha']}]({commit_info['html_url']}) ([browse tree]({commit_info['html_url'].replace("/commit/", "/tree/")}))
 
 **Hashes**:
@@ -130,6 +128,9 @@ Release:
 {'Extras:' if files["extras"] else ''}
 {new_line.join([file.name + ': ' + release['hashes'][file.name]['sha256'] for file in files["extras"]]) if files["extras"] else ''}
 """
+
+    hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release["release"]["id"]), auth=("dhinakg", token)).POST(json={
+        "body": release["release"]["description"]
     })
 
     if ind is not None:

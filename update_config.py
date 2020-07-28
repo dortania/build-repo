@@ -41,4 +41,20 @@ for i in config:
 for i in config:
     config[i]["versions"].sort(key=lambda x: x["datecommitted"], reverse=True)
 
+for i in config:
+    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if not type(item.get("commit")) == dict]:
+        sha = config[i]["versions"][j].pop("commit")
+        desc = config[i]["versions"][j].pop("description")
+        config[i]["versions"][j]["commit"] = {"sha": sha, "message": desc}
+    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("releaseid", None)]:
+        relid = config[i]["versions"][j].pop("releaseid")
+        config[i]["versions"][j]["release"] = {"id": relid}
+    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("release", {}).get("id", None) and not item.get("release", {}).get("description", None)]:
+        rel = json.loads(hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(config[i]["versions"][j]["release"]["id"]), auth=("dhinakg", token)).GET().text)
+        config[i]["versions"][j]["release"]["description"] = rel["body"]
+
+
+config["_version"] = 2
+
+
 json.dump(config, Path("config.json").open("w"), indent=2, sort_keys=True)

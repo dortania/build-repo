@@ -6,10 +6,10 @@ cp Push/last_updated.txt .
 python3 -u check_ratelimit.py
 python3 -u updater.py
 python3 -u check_ratelimit.py
-python3 -u sort_date.py
+python3 -u update_config.py
 mv config.json Push
 mv last_updated.txt Push
 ls Push
-cd Push
+cd Push && exit 1
 git add config.json last_updated.txt
 git commit -m "Deploying to builds"
