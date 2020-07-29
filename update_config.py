@@ -1,15 +1,16 @@
 import json
+import subprocess
+import sys
 from pathlib import Path
 
 import dateutil.parser
 from hammock import Hammock as hammock
 
-
 with open("gh token.txt") as f:
     token = f.read().strip()
 
 
-config: dict = json.load(Path("config.json").open())
+config: dict = json.load(Path("Config/config.json").open())
 plugins = json.load(Path("plugins.json").open())
 
 
@@ -60,4 +61,7 @@ for i in config:
 config["_version"] = 2
 
 
-json.dump(config, Path("config.json").open("w"), indent=2, sort_keys=True)
+json.dump(config, Path("Config/config.json").open("w"), indent=2, sort_keys=True)
+
+result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=Path("Config"))
+result = subprocess.run("git push".split(), capture_output=True, cwd=Path("Config"))

@@ -39,9 +39,9 @@ jobs:
           HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica libmagic mingw-w64 openssl
       - name: Set Up Working Tree
         run: |
-          git clone https://github.com/dhinakg/ktextrepo-beta.git Push --depth 1 --single-branch --branch builds --sparse --filter=blob:none
-          cp Push/config.json .
-          cp Push/last_updated.txt .
+          git config --global user.name "Dhinak G"
+          git config --global user.email "dhinakg@users.noreply.github.com"
+          git clone https://github.com/dhinakg/ktextrepo-beta.git Config --depth 1 --single-branch --branch builds --sparse --filter=blob:none
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py
       #- name: Setup tmate session
@@ -64,24 +64,10 @@ jobs:
         run: python3 -u check_ratelimit.py
       - name: Sort Config
         run: python3 -u update_config.py
-      - name: Sync Builds
-        run: |
-          mv config.json Push
-          mv last_updated.txt Push
-          ls Push
-          cd Push
       - uses: fregante/setup-git-token@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           working-directory: Push
-      - name: Push Builds
-        run: |
-          cd Push
-          git config --global user.name "Dhinak G"
-          git config --global user.email "dhinakg@users.noreply.github.com"
-          git add config.json last_updated.txt
-          git commit -m "Deploying to builds"
-          git push
       - name: Send Notification
         if: always()
         env:

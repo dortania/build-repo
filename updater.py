@@ -1,5 +1,6 @@
 import datetime
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -25,17 +26,17 @@ DATE_DELTA = 7
 
 theJSON = json.load(Path("plugins.json").open())
 plugins = theJSON.get("Plugins", [])
-config = json.load(Path("config.json").open())
+config = json.load(Path("Config/config.json").open())
 
 info = []
 to_build = []
 to_add = []
 
-if Path("last_updated.txt").is_file() and Path("last_updated.txt").stat().st_size != 0:
-    date_to_compare = dateutil.parser.parse(Path("last_updated.txt").read_text())
-    Path("last_updated.txt").write_text(datetime.datetime.now(tz=datetime.timezone.utc).isoformat())
+if Path("Config/last_updated.txt").is_file() and Path("Config/last_updated.txt").stat().st_size != 0:
+    date_to_compare = dateutil.parser.parse(Path("Config/last_updated.txt").read_text())
+    Path("Config/last_updated.txt").write_text(datetime.datetime.now(tz=datetime.timezone.utc).isoformat())
 else:
-    Path("last_updated.txt").touch()
+    Path("Config/last_updated.txt").touch()
     # date_to_compare = datetime.datetime(1970, 1, 1, tzinfo=datetime.timezone.utc)
     date_to_compare = datetime.datetime(2020, 1, 16, tzinfo=datetime.timezone.utc)
     Path("last_updated.txt").write_text(date_to_compare.isoformat())
@@ -147,4 +148,17 @@ if len(failed) > 0:
         print(i["plugin"]["Name"])
 
 if len(failed) > 0 or len(errored) > 0:
+    sys.exit(10)
+
+result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=Path("Config"))
+if result.returncode != 0:
+    print("Commit failed!")
+    print(result.stdout.decode())
+    print(result.stderr.decode())
+    sys.exit(10)
+result = subprocess.run("git push".split(), capture_output=True, cwd=Path("Config"))
+if result.returncode != 0:
+    print("Push failed!")
+    print(result.stdout.decode())
+    print(result.stderr.decode())
     sys.exit(10)

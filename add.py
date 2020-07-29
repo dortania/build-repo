@@ -1,6 +1,7 @@
 import datetime
 import hashlib
 import json
+import subprocess
 import time
 from pathlib import Path
 
@@ -38,7 +39,6 @@ def upload_release_asset(release_id, token, file_path: Path):
 
 
 def paginate(url, token):
-    count = 0
     url = hammock(url, auth=("dhinakg", token)).GET()
     if url.links == {}:
         return url.json()
@@ -56,7 +56,7 @@ def add_built(plugin, token):
     files = plugin["result"]
 
     script_dir = Path(__file__).parent.absolute()
-    config_path = script_dir / Path("config.json")
+    config_path = script_dir / Path("Config/config.json")
     config_path.touch()
     config = json.load(config_path.open())
 
@@ -162,3 +162,16 @@ Release:
     else:
         config[name]["versions"].insert(0, release)
     json.dump(config, config_path.open(mode="w"), indent=2, sort_keys=True)
+
+    result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=Path("Config"))
+    if result.returncode != 0:
+        print("Commit failed!")
+        print(result.stdout.decode())
+        print(result.stderr.decode())
+        return
+    result = subprocess.run("git push".split(), capture_output=True, cwd=Path("Config"))
+    if result.returncode != 0:
+        print("Push failed!")
+        print(result.stdout.decode())
+        print(result.stderr.decode())
+        return
