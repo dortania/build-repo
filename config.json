@@ -16079,6 +16079,33 @@
     "versions": [
       {
         "commit": {
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "0254817099f712c27094977f863d912884fbe4a2"
+        },
+        "dateadded": "2020-07-29T16:27:39.858122+00:00",
+        "datecommitted": "2020-07-29T15:23:41+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "6ef0c475de81918ecda71cbc45e3b645bd6ce55bd6a2033532ce74b0446556a2"
+          },
+          "release": {
+            "sha256": "f2461b16b669a7a36b1d5b0c8313f795ec6b0afad27ed91491c2446638df60be"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-0254817/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-0254817/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[0254817099f712c27094977f863d912884fbe4a2](https://github.com/acidanthera/VirtualSMC/commit/0254817099f712c27094977f863d912884fbe4a2) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/0254817099f712c27094977f863d912884fbe4a2))\n\n**Hashes**:\n\nDebug:\n\nVirtualSMC-1.1.5-DEBUG.zip: 6ef0c475de81918ecda71cbc45e3b645bd6ce55bd6a2033532ce74b0446556a2\n\nRelease:\n\nVirtualSMC-1.1.5-RELEASE.zip: f2461b16b669a7a36b1d5b0c8313f795ec6b0afad27ed91491c2446638df60be\n\n\n\n\n",
+          "id": 29080873,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/VirtualSMC-0254817"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
+        "commit": {
           "message": "Fixed crashes when trying to read CLKT key",
           "sha": "2bda494c46bbad3444bdb1eb8d6caf4f20c3ee61"
         },
