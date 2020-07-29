@@ -2408,6 +2408,33 @@
     "versions": [
       {
         "commit": {
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "2d3f6dc126b3a5adae3c614bd76dad19b8635427"
+        },
+        "dateadded": "2020-07-29T16:27:05.139474+00:00",
+        "datecommitted": "2020-07-29T15:24:15+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "143c130c9232b9be8000f3e16b697fd81a793c15bbf932148f1569cde3928a38"
+          },
+          "release": {
+            "sha256": "baec1c34ef99e097c835c4ae55ede862762a3767fda46db29cc03c804c0f740f"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/HibernationFixup-2d3f6dc/HibernationFixup-1.3.4-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/HibernationFixup-2d3f6dc/HibernationFixup-1.3.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[2d3f6dc126b3a5adae3c614bd76dad19b8635427](https://github.com/acidanthera/HibernationFixup/commit/2d3f6dc126b3a5adae3c614bd76dad19b8635427) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/2d3f6dc126b3a5adae3c614bd76dad19b8635427))\n\n**Hashes**:\n\nDebug:\n\nHibernationFixup-1.3.4-DEBUG.zip: 143c130c9232b9be8000f3e16b697fd81a793c15bbf932148f1569cde3928a38\n\nRelease:\n\nHibernationFixup-1.3.4-RELEASE.zip: baec1c34ef99e097c835c4ae55ede862762a3767fda46db29cc03c804c0f740f\n\n\n\n\n",
+          "id": 29080847,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/HibernationFixup-2d3f6dc"
+        },
+        "source": "built",
+        "version": "1.3.4"
+      },
+      {
+        "commit": {
           "message": "Added constants for 11.0 support",
           "sha": "bb49d28c7dd5d379f8729121c92bd9ad98509245"
         },
