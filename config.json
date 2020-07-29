@@ -3752,6 +3752,33 @@
     "versions": [
       {
         "commit": {
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "409058b93b8942d012dba39ec758c59e4572357e"
+        },
+        "dateadded": "2020-07-29T16:26:13.195076+00:00",
+        "datecommitted": "2020-07-29T15:23:58+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f74ae8b93a35134d0bb689401966ec54b0208f289903cccdf88e75a43779d99b"
+          },
+          "release": {
+            "sha256": "a40c24b49b72764738d67c3a614499f4faadbbea9cf9076fdbf4ce3e98728129"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/NVMeFix-409058b/NVMeFix-1.0.3-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/NVMeFix-409058b/NVMeFix-1.0.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[409058b93b8942d012dba39ec758c59e4572357e](https://github.com/acidanthera/NVMeFix/commit/409058b93b8942d012dba39ec758c59e4572357e) ([browse tree](https://github.com/acidanthera/NVMeFix/tree/409058b93b8942d012dba39ec758c59e4572357e))\n\n**Hashes**:\n\nDebug:\n\nNVMeFix-1.0.3-DEBUG.zip: f74ae8b93a35134d0bb689401966ec54b0208f289903cccdf88e75a43779d99b\n\nRelease:\n\nNVMeFix-1.0.3-RELEASE.zip: a40c24b49b72764738d67c3a614499f4faadbbea9cf9076fdbf4ce3e98728129\n\n\n\n\n",
+          "id": 29080799,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/NVMeFix-409058b"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      },
+      {
+        "commit": {
           "message": "Added constants for 11.0 support.",
           "sha": "48a0fda97650fd6a7563d65e479421524685bcee"
         },
