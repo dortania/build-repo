@@ -2356,6 +2356,33 @@
     "versions": [
       {
         "commit": {
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "7eb4f25cfc4a5a93318c0620bc78a334d823a52c"
+        },
+        "dateadded": "2020-07-29T05:44:09.404506+00:00",
+        "datecommitted": "2020-07-29T05:43:21+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "d580dff9b8bb2ecc2f1fdd4d3fb762e1b1bd7808ee3976ff7a4e6de419509fc4"
+          },
+          "release": {
+            "sha256": "23bf5dcd708eecc87b4d66dec7b30ad0b521abed47663c66c50230a4d6f36c09"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-7eb4f25/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-7eb4f25/Lilu-1.4.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[7eb4f25cfc4a5a93318c0620bc78a334d823a52c](https://github.com/acidanthera/Lilu/commit/7eb4f25cfc4a5a93318c0620bc78a334d823a52c) ([browse tree](https://github.com/acidanthera/Lilu/tree/7eb4f25cfc4a5a93318c0620bc78a334d823a52c))\n\n**Hashes**:\n\nDebug:\n\nLilu-1.4.6-DEBUG.zip: d580dff9b8bb2ecc2f1fdd4d3fb762e1b1bd7808ee3976ff7a4e6de419509fc4\n\nRelease:\n\nLilu-1.4.6-RELEASE.zip: 23bf5dcd708eecc87b4d66dec7b30ad0b521abed47663c66c50230a4d6f36c09\n\n\n\n\n",
+          "id": 29057225,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-7eb4f25"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": {
           "message": "Initialise kernel patches in parallel to PCI",
           "sha": "124de8b27fa79d42f43bce0d93597839c9462cd2"
         },
