@@ -4140,6 +4140,80 @@
     "versions": [
       {
         "commit": {
+          "message": "BootSector: Drop unused and non-functional GENPAGE mode",
+          "sha": "3e90b65063bc6b72504a4617d5e4805b0d2f0565"
+        },
+        "dateadded": "2020-07-29T02:56:46.955168+00:00",
+        "datecommitted": "2020-07-29T02:43:35+00:00",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-3e90b65/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-3e90b65/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "d283db3fc3a1837980c197bf10644bbb01f83f0a05a9edfc39bbeca111e12965"
+          },
+          "release": {
+            "sha256": "dde0affc32e25b6e8082ba33f4fe4234735d8131d068f89f4c66aa04ec123011"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-3e90b65/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-3e90b65/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "BootSector: Drop unused and non-functional GENPAGE mode\n[3e90b65063bc6b72504a4617d5e4805b0d2f0565](https://github.com/acidanthera/OpenCorePkg/commit/3e90b65063bc6b72504a4617d5e4805b0d2f0565) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/3e90b65063bc6b72504a4617d5e4805b0d2f0565))\n\n**Hashes**:\n\nDebug:\n\nOpenCore-0.6.0-DEBUG.zip: d283db3fc3a1837980c197bf10644bbb01f83f0a05a9edfc39bbeca111e12965\n\nRelease:\n\nOpenCore-0.6.0-RELEASE.zip: dde0affc32e25b6e8082ba33f4fe4234735d8131d068f89f4c66aa04ec123011\n\nExtras:\n\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "id": 29054653,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-3e90b65"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": {
+          "message": "EfiLdr: Fixed 32-bit booting on machines with over 4 GBs of RAM",
+          "sha": "c8904a48dd263c1608ca4f17a5c367c5f312cc34"
+        },
+        "dateadded": "2020-07-29T03:06:52.625782+00:00",
+        "datecommitted": "2020-07-29T02:43:08+00:00",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-c8904a4/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-c8904a4/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "fe1ee08294d93c41cdaf6d6fffa4f9e17e33e4f5a22f11465fd020a004326bdf"
+          },
+          "release": {
+            "sha256": "1ab7fef62656c40a82d0727d4b5efcec30f16daf8f97157cd89152fb17152037"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-c8904a4/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-c8904a4/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "EfiLdr: Fixed 32-bit booting on machines with over 4 GBs of RAM\n[c8904a48dd263c1608ca4f17a5c367c5f312cc34](https://github.com/acidanthera/OpenCorePkg/commit/c8904a48dd263c1608ca4f17a5c367c5f312cc34) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/c8904a48dd263c1608ca4f17a5c367c5f312cc34))\n\n**Hashes**:\n\nDebug:\n\nOpenCore-0.6.0-DEBUG.zip: fe1ee08294d93c41cdaf6d6fffa4f9e17e33e4f5a22f11465fd020a004326bdf\n\nRelease:\n\nOpenCore-0.6.0-RELEASE.zip: 1ab7fef62656c40a82d0727d4b5efcec30f16daf8f97157cd89152fb17152037\n\nExtras:\n\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "id": 29054802,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-c8904a4"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": {
           "message": "Docs: Document the DeviceProperty limitations for some drivers",
           "sha": "20fa9074e6bf3d6acad24869670626986d84ac97"
         },
