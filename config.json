@@ -4167,6 +4167,43 @@
     "versions": [
       {
         "commit": {
+          "message": "Include: Update AppleCsrConfig with 11.0 definitions",
+          "sha": "42c7e8a69f792e8fef2ad5da843d1406eed8d536"
+        },
+        "dateadded": "2020-07-29T12:24:30.067699+00:00",
+        "datecommitted": "2020-07-29T12:10:50+00:00",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-42c7e8a/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-42c7e8a/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "c3096a0f60a9f84a90fc7d3200b372e1b53860152e22aad2c69b61e677416d25"
+          },
+          "release": {
+            "sha256": "74f1e7bb2139940b0c29f5cb40b9b6b38d3fcfd609534e46c35245e82df690f8"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-42c7e8a/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-42c7e8a/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "Include: Update AppleCsrConfig with 11.0 definitions\n[42c7e8a69f792e8fef2ad5da843d1406eed8d536](https://github.com/acidanthera/OpenCorePkg/commit/42c7e8a69f792e8fef2ad5da843d1406eed8d536) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/42c7e8a69f792e8fef2ad5da843d1406eed8d536))\n\n**Hashes**:\n\nDebug:\n\nOpenCore-0.6.0-DEBUG.zip: c3096a0f60a9f84a90fc7d3200b372e1b53860152e22aad2c69b61e677416d25\n\nRelease:\n\nOpenCore-0.6.0-RELEASE.zip: 74f1e7bb2139940b0c29f5cb40b9b6b38d3fcfd609534e46c35245e82df690f8\n\nExtras:\n\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "id": 29069910,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-42c7e8a"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": {
           "message": "BootSector: Drop unused and non-functional GENPAGE mode",
           "sha": "3e90b65063bc6b72504a4617d5e4805b0d2f0565"
         },
