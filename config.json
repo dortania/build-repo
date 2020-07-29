@@ -2299,6 +2299,33 @@
     "versions": [
       {
         "commit": {
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "13f3832eabec09c2a690f2e8eaa99ada76e83750"
+        },
+        "dateadded": "2020-07-29T16:26:25.216810+00:00",
+        "datecommitted": "2020-07-29T15:25:18+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "1e6ad78228c416b2f0b02c0eae4b91f94932fabddf3ae648cf89fc202c2d35a7"
+          },
+          "release": {
+            "sha256": "adab109ce6f9a35793344e0af87ea0b84bd9b87928faa3e37ab36cffa8a61939"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/CPUFriend-13f3832/CPUFriend-1.2.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/CPUFriend-13f3832/CPUFriend-1.2.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[13f3832eabec09c2a690f2e8eaa99ada76e83750](https://github.com/acidanthera/CPUFriend/commit/13f3832eabec09c2a690f2e8eaa99ada76e83750) ([browse tree](https://github.com/acidanthera/CPUFriend/tree/13f3832eabec09c2a690f2e8eaa99ada76e83750))\n\n**Hashes**:\n\nDebug:\n\nCPUFriend-1.2.1-DEBUG.zip: 1e6ad78228c416b2f0b02c0eae4b91f94932fabddf3ae648cf89fc202c2d35a7\n\nRelease:\n\nCPUFriend-1.2.1-RELEASE.zip: adab109ce6f9a35793344e0af87ea0b84bd9b87928faa3e37ab36cffa8a61939\n\n\n\n\n",
+          "id": 29080813,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/CPUFriend-13f3832"
+        },
+        "source": "built",
+        "version": "1.2.1"
+      },
+      {
+        "commit": {
           "message": "Added constants for 11.0 support",
           "sha": "2ca43058c9ade32ebbb46ad5d4012f1d81378c1e"
         },
