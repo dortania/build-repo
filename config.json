@@ -17184,6 +17184,39 @@
     "versions": [
       {
         "commit": {
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "e58aaf629e7826ec36484fd7e904b425b01e19e2"
+        },
+        "dateadded": "2020-07-29T16:28:01.225256+00:00",
+        "datecommitted": "2020-07-29T15:23:23+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-e58aaf6/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "a0bedae443170615bd6f570246bf4161b406ab9e11e62fc2a1930276f5f695af"
+          },
+          "release": {
+            "sha256": "959c2b0c35e069d78bab3589249a05ce619396f0e5b6eec6f85b844c736a7aa5"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-e58aaf6/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-e58aaf6/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[e58aaf629e7826ec36484fd7e904b425b01e19e2](https://github.com/acidanthera/WhateverGreen/commit/e58aaf629e7826ec36484fd7e904b425b01e19e2) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/e58aaf629e7826ec36484fd7e904b425b01e19e2))\n\n**Hashes**:\n\nDebug:\n\nWhateverGreen-1.4.1-DEBUG.zip: a0bedae443170615bd6f570246bf4161b406ab9e11e62fc2a1930276f5f695af\n\nRelease:\n\nWhateverGreen-1.4.1-RELEASE.zip: 959c2b0c35e069d78bab3589249a05ce619396f0e5b6eec6f85b844c736a7aa5\n\nExtras:\n\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
+          "id": 29080885,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/WhateverGreen-e58aaf6"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
+        "commit": {
           "message": "Update FAQ.IntelHD.cn.md (#58)",
           "sha": "5d3b31afea0393721dcd00272e21ca065e3b40ad"
         },
