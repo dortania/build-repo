@@ -27,6 +27,7 @@ DATE_DELTA = 7
 theJSON = json.load(Path("plugins.json").open())
 plugins = theJSON.get("Plugins", [])
 config = json.load(Path("Config/config.json").open())
+config_dir = Path("Config").resolve()
 
 info = []
 to_build = []
@@ -150,13 +151,13 @@ if len(failed) > 0:
 if len(failed) > 0 or len(errored) > 0:
     sys.exit(10)
 
-result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=Path("Config"))
+result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=config_dir)
 if result.returncode != 0:
     print("Commit failed!")
     print(result.stdout.decode())
     print(result.stderr.decode())
     sys.exit(10)
-result = subprocess.run("git push".split(), capture_output=True, cwd=Path("Config"))
+result = subprocess.run("git push".split(), capture_output=True, cwd=config_dir)
 if result.returncode != 0:
     print("Push failed!")
     print(result.stdout.decode())
