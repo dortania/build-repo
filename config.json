@@ -17097,6 +17097,39 @@
           "message": "Merge remote-tracking branch 'origin/master'\n\n* origin/master:\n  Update README.md\n  Update FAQ.IntelHD.en.md",
           "sha": "4a4ac3db04a66fd7338661522387e608f029e734"
         },
+        "dateadded": "2020-07-29T13:51:13.011089+00:00",
+        "datecommitted": "2020-07-23T09:22:13+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-4a4ac3d/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "b53cac31fe68baa46f5879a9e2d03c64bdc0bd927d05f9455ed646d55c3e9166"
+          },
+          "release": {
+            "sha256": "a21d33e25bd9857fc65be90e8901a84339241d2ce457df2251edd9fb489ad3af"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-4a4ac3d/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-4a4ac3d/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "Merge remote-tracking branch 'origin/master'\n\n* origin/master:\n  Update README.md\n  Update FAQ.IntelHD.en.md\n[4a4ac3db04a66fd7338661522387e608f029e734](https://github.com/acidanthera/WhateverGreen/commit/4a4ac3db04a66fd7338661522387e608f029e734) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/4a4ac3db04a66fd7338661522387e608f029e734))\n\n**Hashes**:\n\nDebug:\n\nWhateverGreen-1.4.1-DEBUG.zip: b53cac31fe68baa46f5879a9e2d03c64bdc0bd927d05f9455ed646d55c3e9166\n\nRelease:\n\nWhateverGreen-1.4.1-RELEASE.zip: a21d33e25bd9857fc65be90e8901a84339241d2ce457df2251edd9fb489ad3af\n\nExtras:\n\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
+          "id": 29073600,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/WhateverGreen-4a4ac3d"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
+        "commit": {
+          "message": "Merge remote-tracking branch 'origin/master'\n\n* origin/master:\n  Update README.md\n  Update FAQ.IntelHD.en.md",
+          "sha": "4a4ac3db04a66fd7338661522387e608f029e734"
+        },
         "dateadded": "2020-07-28T21:32:15.149141+00:00",
         "datecommitted": "2020-07-23T09:22:13+00:00",
         "extras": {
