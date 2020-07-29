@@ -2298,6 +2298,33 @@
     "versions": [
       {
         "commit": {
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3"
+        },
+        "dateadded": "2020-07-29T16:26:52.486600+00:00",
+        "datecommitted": "2020-07-29T15:25:03+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "3ac2778b2d566b24fe0a06ce328af717f968e0eb32aa73b4626ba8a4fd2ca091"
+          },
+          "release": {
+            "sha256": "9125fb073e1f7de6f3ee0900793a1464d7423e1d13a5d784b209599e2015eeb2"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/BT4LEContinuityFixup-bc17c6d/BT4LEContinuityFixup-1.1.5-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/BT4LEContinuityFixup-bc17c6d/BT4LEContinuityFixup-1.1.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3](https://github.com/acidanthera/BT4LEContinuityFixup/commit/bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3) ([browse tree](https://github.com/acidanthera/BT4LEContinuityFixup/tree/bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3))\n\n**Hashes**:\n\nDebug:\n\nBT4LEContinuityFixup-1.1.5-DEBUG.zip: 3ac2778b2d566b24fe0a06ce328af717f968e0eb32aa73b4626ba8a4fd2ca091\n\nRelease:\n\nBT4LEContinuityFixup-1.1.5-RELEASE.zip: 9125fb073e1f7de6f3ee0900793a1464d7423e1d13a5d784b209599e2015eeb2\n\n\n\n\n",
+          "id": 29080835,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/BT4LEContinuityFixup-bc17c6d"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
+        "commit": {
           "message": "Added constants for 11.0 support",
           "sha": "74675aa478cd6d46b4807ec3eff7b9305ac3e32e"
         },
