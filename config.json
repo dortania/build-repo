@@ -575,6 +575,33 @@
     "versions": [
       {
         "commit": {
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f"
+        },
+        "dateadded": "2020-07-29T16:25:52.904447+00:00",
+        "datecommitted": "2020-07-29T15:24:46+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "639d46a9001c6b33ef234341db8fad6723abf8313b25e624455d7a64386709e7"
+          },
+          "release": {
+            "sha256": "3a72a8c159691534c9a04d76da8628eebcca119746125cc3aa5a0d1cad060f11"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AppleALC-e8a2a1b/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AppleALC-e8a2a1b/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f](https://github.com/acidanthera/AppleALC/commit/e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f) ([browse tree](https://github.com/acidanthera/AppleALC/tree/e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f))\n\n**Hashes**:\n\nDebug:\n\nAppleALC-1.5.1-DEBUG.zip: 639d46a9001c6b33ef234341db8fad6723abf8313b25e624455d7a64386709e7\n\nRelease:\n\nAppleALC-1.5.1-RELEASE.zip: 3a72a8c159691534c9a04d76da8628eebcca119746125cc3aa5a0d1cad060f11\n\n\n\n\n",
+          "id": 29080787,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/AppleALC-e8a2a1b"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Update README.md",
           "sha": "25cc96ffed01b965ca18a7be81c488cc9d7f8ed7"
         },
