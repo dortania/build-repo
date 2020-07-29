@@ -74,12 +74,7 @@ def add_built(plugin, token):
 
     release = {}
     if config[name]["versions"]:
-        for version in config[name]["versions"]:
-            if version.get("commit") == commit_info["sha"]:
-                release = version
-                ind = config[name]["versions"].index(version)
-                # print("Found at index " + str(ind) + " (" + commit_info["sha"] + ", " + name + ")")
-                break
+        config[name]["versions"] = [i for i in config[name]["versions"] if not config["commit"]["sha"] == commit_info["sha"]]
 
     release["commit"] = {"sha": commit_info["sha"], "message": commit_info["commit"]["message"]}
     release["version"] = files["version"]
@@ -157,19 +152,16 @@ Release:
         "body": release["release"]["description"]
     })
 
-    if ind is not None:
-        config[name]["versions"][ind] = release
-    else:
-        config[name]["versions"].insert(0, release)
+    config[name]["versions"].insert(0, release)
     json.dump(config, config_path.open(mode="w"), indent=2, sort_keys=True)
 
-    result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=Path("Config"))
+    result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=(script_dir / Path("Config")))
     if result.returncode != 0:
         print("Commit failed!")
         print(result.stdout.decode())
         print(result.stderr.decode())
         return
-    result = subprocess.run("git push".split(), capture_output=True, cwd=Path("Config"))
+    result = subprocess.run("git push".split(), capture_output=True, cwd=(script_dir / Path("Config")))
     if result.returncode != 0:
         print("Push failed!")
         print(result.stdout.decode())
