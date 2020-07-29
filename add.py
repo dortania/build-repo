@@ -1,6 +1,7 @@
 import datetime
 import hashlib
 import json
+import time
 from pathlib import Path
 
 import dateutil.parser
@@ -93,12 +94,14 @@ def add_built(plugin, token):
         if i["name"] == (name + " " + release["commit"]["sha"][:7]):
             print("\tDeleting previous release...")
             releases_url(i["id"]).DELETE()
+            time.sleep(3)  # Prevent race conditions
 
     # Delete tags
     check_tag = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/git/refs/tags/" + name + "-" + release["commit"]["sha"][:7], auth=("dhinakg", token))
     if check_tag.GET().status_code != 404:
         print("\tDeleting previous tag...")
         check_tag.DELETE()
+        time.sleep(3)  # Prevent race conditions
 
     # Create release
     create_release = releases_url.POST(json={

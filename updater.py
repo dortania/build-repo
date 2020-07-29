@@ -62,7 +62,10 @@ for plugin in plugins:
     for commit in commits:
         commit_date = dateutil.parser.parse(commit["commit"]["committer"]["date"])
         newer = commit_date >= date_to_compare - datetime.timedelta(days=DATE_DELTA)
-        force_build = plugin.get("Force") and commits.index(commit) == 0
+        if isinstance(plugin.get("Force", None), str):
+            force_build = commit["sha"] == plugin.get("Force")
+        else:
+            force_build = plugin.get("Force") and commits.index(commit) == 0
         not_in_repo = True
         for i in config.get(repo, {}).get("versions", []):
             if i["commit"]["sha"] == commit["sha"]:
