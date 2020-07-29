@@ -4,6 +4,33 @@
     "versions": [
       {
         "commit": {
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "13d7329ec307f5b6e817bf1459622788fbd55465"
+        },
+        "dateadded": "2020-07-29T16:26:38.867405+00:00",
+        "datecommitted": "2020-07-29T15:24:31+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "0cb85f51977a83491b088094cfc8f8e51195b7450b986a1e0e843e9a1cecea6d"
+          },
+          "release": {
+            "sha256": "477e0aad01a2a381a571697699ad0192e552b5c7c0c522fe203586eb698e6a2a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AirportBrcmFixup-13d7329/AirportBrcmFixup-2.0.8-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AirportBrcmFixup-13d7329/AirportBrcmFixup-2.0.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[13d7329ec307f5b6e817bf1459622788fbd55465](https://github.com/acidanthera/AirportBrcmFixup/commit/13d7329ec307f5b6e817bf1459622788fbd55465) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/13d7329ec307f5b6e817bf1459622788fbd55465))\n\n**Hashes**:\n\nDebug:\n\nAirportBrcmFixup-2.0.8-DEBUG.zip: 0cb85f51977a83491b088094cfc8f8e51195b7450b986a1e0e843e9a1cecea6d\n\nRelease:\n\nAirportBrcmFixup-2.0.8-RELEASE.zip: 477e0aad01a2a381a571697699ad0192e552b5c7c0c522fe203586eb698e6a2a\n\n\n\n\n",
+          "id": 29080825,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/AirportBrcmFixup-13d7329"
+        },
+        "source": "built",
+        "version": "2.0.8"
+      },
+      {
+        "commit": {
           "message": "Fix ordering of build stages (#8)\n\nPlugins were previously added after archive",
           "sha": "81cdbc52092401ab81088170d0739ced6d64a11e"
         },
