@@ -74,7 +74,7 @@ def add_built(plugin, token):
 
     release = {}
     if config[name]["versions"]:
-        config[name]["versions"] = [i for i in config[name]["versions"] if not config["commit"]["sha"] == commit_info["sha"]]
+        config[name]["versions"] = [i for i in config[name]["versions"] if not config.get("commit", {}).get("sha", None) == commit_info["sha"]]
 
     release["commit"] = {"sha": commit_info["sha"], "message": commit_info["commit"]["message"]}
     release["version"] = files["version"]
