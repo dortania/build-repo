@@ -4329,6 +4329,43 @@
     "versions": [
       {
         "commit": {
+          "message": "EfiLdr: Revert removal of memmap shifts",
+          "sha": "0209c3434a4e9a297565c13008e78ebb43c5e5ad"
+        },
+        "dateadded": "2020-07-29T23:40:14.439459+00:00",
+        "datecommitted": "2020-07-29T23:24:05+00:00",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-0209c34/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-0209c34/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "c0b87c85a0cf52bf94fe5609adaaa7effcb46a259c6aa9e611bb4172288cb06c"
+          },
+          "release": {
+            "sha256": "49c40a55ffd3e39cc9337f9ef55d585062e0553c20cef37ba231e29afe6856f2"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-0209c34/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-0209c34/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "EfiLdr: Revert removal of memmap shifts\n[0209c3434a4e9a297565c13008e78ebb43c5e5ad](https://github.com/acidanthera/OpenCorePkg/commit/0209c3434a4e9a297565c13008e78ebb43c5e5ad) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/0209c3434a4e9a297565c13008e78ebb43c5e5ad))\n\n**Hashes**:\n\nDebug:\n\nOpenCore-0.6.0-DEBUG.zip: c0b87c85a0cf52bf94fe5609adaaa7effcb46a259c6aa9e611bb4172288cb06c\n\nRelease:\n\nOpenCore-0.6.0-RELEASE.zip: 49c40a55ffd3e39cc9337f9ef55d585062e0553c20cef37ba231e29afe6856f2\n\nExtras:\n\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "id": 29095110,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-0209c34"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": {
           "message": "Include: Update AppleCsrConfig with 11.0 definitions",
           "sha": "42c7e8a69f792e8fef2ad5da843d1406eed8d536"
         },
