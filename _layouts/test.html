@@ -52,7 +52,7 @@ layout: default
                   }
               });
               shas.forEach(element => {
-                $("#sha")[0].add(new Option(element[0], element[1]));
+                $("#sha")[0].add(new Option(element[0].commit.sha, element[1]));
               })
               console.log("shas: ");
               console.log(shas);
