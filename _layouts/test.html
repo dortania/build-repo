@@ -22,8 +22,8 @@ layout: default
               $("#product")[0].add(new Option(key, key));
           }
           $("#product").change(function() {
-              $("#sha")[0].options.length = 0;
-              $("#sha")[0].add(new Option("Select version...", "initial", true, true));
+              $("#version")[0].options.length = 0;
+              $("#version")[0].add(new Option("Select version...", "initial", true, true));
               if ($("#product").val() == "initial") {
                   return;
               }
@@ -33,22 +33,30 @@ layout: default
                   if (index === -1) {
                       versions.push(element.version);
                   }
-                  $("#sha")[0].add(new Option(element.commit, index));
               });
               versions.forEach((element, index) => {
                 $("#version")[0].add(new Option(element, index));
               })
           })
           $("#version").change(function() {
-              $(".info").empty()
-              if ($("#product").val() == "initial" || $("#sha").val() == "initial") {
+              $("#sha")[0].options.length = 0;
+              $("#sha")[0].add(new Option("Select commit...", "initial", true, true));
+              if ($("#product").val() == "initial" || $("#version").val() == "initial") {
                   return;
               }
-              $(".info").text(data[$("#product").val()]["versions"][$("#sha").val()]["description"])
+              shas = []
+              data[$("#product").val()]["versions"].forEach((element, index) => {
+                  if (element.verson == $("#version").val()) {
+                      shas.push([element, index]);
+                  }
+              });
+              shas.forEach(element => {
+                $("#sha")[0].add(new Option(element[0], element[1]));
+              })
           })
           $("#sha").change(function() {
               $(".info").empty()
-              if ($("#product").val() == "initial" || $("#sha").val() == "initial") {
+              if ($("#product").val() == "initial" || $("#version").val() == "initial" || $("#sha").val() == "initial") {
                   return;
               }
               $(".info").html(converter.makeHtml(data[$("#product").val()]["versions"][$("#sha").val()]["release"]["description"]))
