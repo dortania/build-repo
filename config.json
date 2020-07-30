@@ -22,7 +22,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AirportBrcmFixup-13d7329/AirportBrcmFixup-2.0.8-RELEASE.zip"
         },
         "release": {
-          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[13d7329ec307f5b6e817bf1459622788fbd55465](https://github.com/acidanthera/AirportBrcmFixup/commit/13d7329ec307f5b6e817bf1459622788fbd55465) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/13d7329ec307f5b6e817bf1459622788fbd55465))\n\n**Hashes**:\n\nDebug:\n\nAirportBrcmFixup-2.0.8-DEBUG.zip: 0cb85f51977a83491b088094cfc8f8e51195b7450b986a1e0e843e9a1cecea6d\n\nRelease:\n\nAirportBrcmFixup-2.0.8-RELEASE.zip: 477e0aad01a2a381a571697699ad0192e552b5c7c0c522fe203586eb698e6a2a\n\n\n\n\n",
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[13d7329ec307f5b6e817bf1459622788fbd55465](https://github.com/acidanthera/AirportBrcmFixup/commit/13d7329ec307f5b6e817bf1459622788fbd55465) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/13d7329ec307f5b6e817bf1459622788fbd55465))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.0.8-DEBUG.zip: 0cb85f51977a83491b088094cfc8f8e51195b7450b986a1e0e843e9a1cecea6d\n**Release:**\nAirportBrcmFixup-2.0.8-RELEASE.zip: 477e0aad01a2a381a571697699ad0192e552b5c7c0c522fe203586eb698e6a2a\n\n\n\n\n",
           "id": 29080825,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/AirportBrcmFixup-13d7329"
         },
@@ -458,7 +458,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AppleALC-e8a2a1b/AppleALC-1.5.1-RELEASE.zip"
         },
         "release": {
-          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f](https://github.com/acidanthera/AppleALC/commit/e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f) ([browse tree](https://github.com/acidanthera/AppleALC/tree/e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f))\n\n**Hashes**:\n\nDebug:\n\nAppleALC-1.5.1-DEBUG.zip: 639d46a9001c6b33ef234341db8fad6723abf8313b25e624455d7a64386709e7\n\nRelease:\n\nAppleALC-1.5.1-RELEASE.zip: 3a72a8c159691534c9a04d76da8628eebcca119746125cc3aa5a0d1cad060f11\n\n\n\n\n",
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f](https://github.com/acidanthera/AppleALC/commit/e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f) ([browse tree](https://github.com/acidanthera/AppleALC/tree/e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: 639d46a9001c6b33ef234341db8fad6723abf8313b25e624455d7a64386709e7\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 3a72a8c159691534c9a04d76da8628eebcca119746125cc3aa5a0d1cad060f11\n\n\n\n\n",
           "id": 29080787,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/AppleALC-e8a2a1b"
         },
@@ -2154,7 +2154,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/BT4LEContinuityFixup-bc17c6d/BT4LEContinuityFixup-1.1.5-RELEASE.zip"
         },
         "release": {
-          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3](https://github.com/acidanthera/BT4LEContinuityFixup/commit/bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3) ([browse tree](https://github.com/acidanthera/BT4LEContinuityFixup/tree/bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3))\n\n**Hashes**:\n\nDebug:\n\nBT4LEContinuityFixup-1.1.5-DEBUG.zip: 3ac2778b2d566b24fe0a06ce328af717f968e0eb32aa73b4626ba8a4fd2ca091\n\nRelease:\n\nBT4LEContinuityFixup-1.1.5-RELEASE.zip: 9125fb073e1f7de6f3ee0900793a1464d7423e1d13a5d784b209599e2015eeb2\n\n\n\n\n",
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3](https://github.com/acidanthera/BT4LEContinuityFixup/commit/bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3) ([browse tree](https://github.com/acidanthera/BT4LEContinuityFixup/tree/bc17c6d7857cffbedc0be3dfcaa7d2487fe310b3))\n\n**Hashes**:\n**Debug:**\nBT4LEContinuityFixup-1.1.5-DEBUG.zip: 3ac2778b2d566b24fe0a06ce328af717f968e0eb32aa73b4626ba8a4fd2ca091\n**Release:**\nBT4LEContinuityFixup-1.1.5-RELEASE.zip: 9125fb073e1f7de6f3ee0900793a1464d7423e1d13a5d784b209599e2015eeb2\n\n\n\n\n",
           "id": 29080835,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/BT4LEContinuityFixup-bc17c6d"
         },
@@ -2209,7 +2209,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/CPUFriend-13f3832/CPUFriend-1.2.1-RELEASE.zip"
         },
         "release": {
-          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[13f3832eabec09c2a690f2e8eaa99ada76e83750](https://github.com/acidanthera/CPUFriend/commit/13f3832eabec09c2a690f2e8eaa99ada76e83750) ([browse tree](https://github.com/acidanthera/CPUFriend/tree/13f3832eabec09c2a690f2e8eaa99ada76e83750))\n\n**Hashes**:\n\nDebug:\n\nCPUFriend-1.2.1-DEBUG.zip: 1e6ad78228c416b2f0b02c0eae4b91f94932fabddf3ae648cf89fc202c2d35a7\n\nRelease:\n\nCPUFriend-1.2.1-RELEASE.zip: adab109ce6f9a35793344e0af87ea0b84bd9b87928faa3e37ab36cffa8a61939\n\n\n\n\n",
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[13f3832eabec09c2a690f2e8eaa99ada76e83750](https://github.com/acidanthera/CPUFriend/commit/13f3832eabec09c2a690f2e8eaa99ada76e83750) ([browse tree](https://github.com/acidanthera/CPUFriend/tree/13f3832eabec09c2a690f2e8eaa99ada76e83750))\n\n**Hashes**:\n**Debug:**\nCPUFriend-1.2.1-DEBUG.zip: 1e6ad78228c416b2f0b02c0eae4b91f94932fabddf3ae648cf89fc202c2d35a7\n**Release:**\nCPUFriend-1.2.1-RELEASE.zip: adab109ce6f9a35793344e0af87ea0b84bd9b87928faa3e37ab36cffa8a61939\n\n\n\n\n",
           "id": 29080813,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/CPUFriend-13f3832"
         },
@@ -2264,7 +2264,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/HibernationFixup-2d3f6dc/HibernationFixup-1.3.4-RELEASE.zip"
         },
         "release": {
-          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[2d3f6dc126b3a5adae3c614bd76dad19b8635427](https://github.com/acidanthera/HibernationFixup/commit/2d3f6dc126b3a5adae3c614bd76dad19b8635427) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/2d3f6dc126b3a5adae3c614bd76dad19b8635427))\n\n**Hashes**:\n\nDebug:\n\nHibernationFixup-1.3.4-DEBUG.zip: 143c130c9232b9be8000f3e16b697fd81a793c15bbf932148f1569cde3928a38\n\nRelease:\n\nHibernationFixup-1.3.4-RELEASE.zip: baec1c34ef99e097c835c4ae55ede862762a3767fda46db29cc03c804c0f740f\n\n\n\n\n",
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[2d3f6dc126b3a5adae3c614bd76dad19b8635427](https://github.com/acidanthera/HibernationFixup/commit/2d3f6dc126b3a5adae3c614bd76dad19b8635427) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/2d3f6dc126b3a5adae3c614bd76dad19b8635427))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.4-DEBUG.zip: 143c130c9232b9be8000f3e16b697fd81a793c15bbf932148f1569cde3928a38\n**Release:**\nHibernationFixup-1.3.4-RELEASE.zip: baec1c34ef99e097c835c4ae55ede862762a3767fda46db29cc03c804c0f740f\n\n\n\n\n",
           "id": 29080847,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/HibernationFixup-2d3f6dc"
         },
@@ -2347,7 +2347,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-7eb4f25/Lilu-1.4.6-RELEASE.zip"
         },
         "release": {
-          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[7eb4f25cfc4a5a93318c0620bc78a334d823a52c](https://github.com/acidanthera/Lilu/commit/7eb4f25cfc4a5a93318c0620bc78a334d823a52c) ([browse tree](https://github.com/acidanthera/Lilu/tree/7eb4f25cfc4a5a93318c0620bc78a334d823a52c))\n\n**Hashes**:\n\nDebug:\n\nLilu-1.4.6-DEBUG.zip: d580dff9b8bb2ecc2f1fdd4d3fb762e1b1bd7808ee3976ff7a4e6de419509fc4\n\nRelease:\n\nLilu-1.4.6-RELEASE.zip: 23bf5dcd708eecc87b4d66dec7b30ad0b521abed47663c66c50230a4d6f36c09\n\n\n\n\n",
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[7eb4f25cfc4a5a93318c0620bc78a334d823a52c](https://github.com/acidanthera/Lilu/commit/7eb4f25cfc4a5a93318c0620bc78a334d823a52c) ([browse tree](https://github.com/acidanthera/Lilu/tree/7eb4f25cfc4a5a93318c0620bc78a334d823a52c))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.6-DEBUG.zip: d580dff9b8bb2ecc2f1fdd4d3fb762e1b1bd7808ee3976ff7a4e6de419509fc4\n**Release:**\nLilu-1.4.6-RELEASE.zip: 23bf5dcd708eecc87b4d66dec7b30ad0b521abed47663c66c50230a4d6f36c09\n\n\n\n\n",
           "id": 29057225,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-7eb4f25"
         },
@@ -3392,7 +3392,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/NVMeFix-409058b/NVMeFix-1.0.3-RELEASE.zip"
         },
         "release": {
-          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[409058b93b8942d012dba39ec758c59e4572357e](https://github.com/acidanthera/NVMeFix/commit/409058b93b8942d012dba39ec758c59e4572357e) ([browse tree](https://github.com/acidanthera/NVMeFix/tree/409058b93b8942d012dba39ec758c59e4572357e))\n\n**Hashes**:\n\nDebug:\n\nNVMeFix-1.0.3-DEBUG.zip: f74ae8b93a35134d0bb689401966ec54b0208f289903cccdf88e75a43779d99b\n\nRelease:\n\nNVMeFix-1.0.3-RELEASE.zip: a40c24b49b72764738d67c3a614499f4faadbbea9cf9076fdbf4ce3e98728129\n\n\n\n\n",
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[409058b93b8942d012dba39ec758c59e4572357e](https://github.com/acidanthera/NVMeFix/commit/409058b93b8942d012dba39ec758c59e4572357e) ([browse tree](https://github.com/acidanthera/NVMeFix/tree/409058b93b8942d012dba39ec758c59e4572357e))\n\n**Hashes**:\n**Debug:**\nNVMeFix-1.0.3-DEBUG.zip: f74ae8b93a35134d0bb689401966ec54b0208f289903cccdf88e75a43779d99b\n**Release:**\nNVMeFix-1.0.3-RELEASE.zip: a40c24b49b72764738d67c3a614499f4faadbbea9cf9076fdbf4ce3e98728129\n\n\n\n\n",
           "id": 29080799,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/NVMeFix-409058b"
         },
@@ -3871,7 +3871,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-0209c34/OpenCore-0.6.0-RELEASE.zip"
         },
         "release": {
-          "description": "EfiLdr: Revert removal of memmap shifts\n[0209c3434a4e9a297565c13008e78ebb43c5e5ad](https://github.com/acidanthera/OpenCorePkg/commit/0209c3434a4e9a297565c13008e78ebb43c5e5ad) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/0209c3434a4e9a297565c13008e78ebb43c5e5ad))\n\n**Hashes**:\n\nDebug:\n\nOpenCore-0.6.0-DEBUG.zip: c0b87c85a0cf52bf94fe5609adaaa7effcb46a259c6aa9e611bb4172288cb06c\n\nRelease:\n\nOpenCore-0.6.0-RELEASE.zip: 49c40a55ffd3e39cc9337f9ef55d585062e0553c20cef37ba231e29afe6856f2\n\nExtras:\n\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "description": "EfiLdr: Revert removal of memmap shifts\n[0209c3434a4e9a297565c13008e78ebb43c5e5ad](https://github.com/acidanthera/OpenCorePkg/commit/0209c3434a4e9a297565c13008e78ebb43c5e5ad) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/0209c3434a4e9a297565c13008e78ebb43c5e5ad))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: c0b87c85a0cf52bf94fe5609adaaa7effcb46a259c6aa9e611bb4172288cb06c\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 49c40a55ffd3e39cc9337f9ef55d585062e0553c20cef37ba231e29afe6856f2\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
           "id": 29095110,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-0209c34"
         },
@@ -3908,7 +3908,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-42c7e8a/OpenCore-0.6.0-RELEASE.zip"
         },
         "release": {
-          "description": "Include: Update AppleCsrConfig with 11.0 definitions\n[42c7e8a69f792e8fef2ad5da843d1406eed8d536](https://github.com/acidanthera/OpenCorePkg/commit/42c7e8a69f792e8fef2ad5da843d1406eed8d536) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/42c7e8a69f792e8fef2ad5da843d1406eed8d536))\n\n**Hashes**:\n\nDebug:\n\nOpenCore-0.6.0-DEBUG.zip: c3096a0f60a9f84a90fc7d3200b372e1b53860152e22aad2c69b61e677416d25\n\nRelease:\n\nOpenCore-0.6.0-RELEASE.zip: 74f1e7bb2139940b0c29f5cb40b9b6b38d3fcfd609534e46c35245e82df690f8\n\nExtras:\n\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "description": "Include: Update AppleCsrConfig with 11.0 definitions\n[42c7e8a69f792e8fef2ad5da843d1406eed8d536](https://github.com/acidanthera/OpenCorePkg/commit/42c7e8a69f792e8fef2ad5da843d1406eed8d536) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/42c7e8a69f792e8fef2ad5da843d1406eed8d536))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: c3096a0f60a9f84a90fc7d3200b372e1b53860152e22aad2c69b61e677416d25\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 74f1e7bb2139940b0c29f5cb40b9b6b38d3fcfd609534e46c35245e82df690f8\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
           "id": 29069910,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-42c7e8a"
         },
@@ -3945,7 +3945,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-3e90b65/OpenCore-0.6.0-RELEASE.zip"
         },
         "release": {
-          "description": "BootSector: Drop unused and non-functional GENPAGE mode\n[3e90b65063bc6b72504a4617d5e4805b0d2f0565](https://github.com/acidanthera/OpenCorePkg/commit/3e90b65063bc6b72504a4617d5e4805b0d2f0565) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/3e90b65063bc6b72504a4617d5e4805b0d2f0565))\n\n**Hashes**:\n\nDebug:\n\nOpenCore-0.6.0-DEBUG.zip: d283db3fc3a1837980c197bf10644bbb01f83f0a05a9edfc39bbeca111e12965\n\nRelease:\n\nOpenCore-0.6.0-RELEASE.zip: dde0affc32e25b6e8082ba33f4fe4234735d8131d068f89f4c66aa04ec123011\n\nExtras:\n\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "description": "BootSector: Drop unused and non-functional GENPAGE mode\n[3e90b65063bc6b72504a4617d5e4805b0d2f0565](https://github.com/acidanthera/OpenCorePkg/commit/3e90b65063bc6b72504a4617d5e4805b0d2f0565) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/3e90b65063bc6b72504a4617d5e4805b0d2f0565))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: d283db3fc3a1837980c197bf10644bbb01f83f0a05a9edfc39bbeca111e12965\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: dde0affc32e25b6e8082ba33f4fe4234735d8131d068f89f4c66aa04ec123011\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
           "id": 29054653,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-3e90b65"
         },
@@ -3982,7 +3982,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-c8904a4/OpenCore-0.6.0-RELEASE.zip"
         },
         "release": {
-          "description": "EfiLdr: Fixed 32-bit booting on machines with over 4 GBs of RAM\n[c8904a48dd263c1608ca4f17a5c367c5f312cc34](https://github.com/acidanthera/OpenCorePkg/commit/c8904a48dd263c1608ca4f17a5c367c5f312cc34) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/c8904a48dd263c1608ca4f17a5c367c5f312cc34))\n\n**Hashes**:\n\nDebug:\n\nOpenCore-0.6.0-DEBUG.zip: fe1ee08294d93c41cdaf6d6fffa4f9e17e33e4f5a22f11465fd020a004326bdf\n\nRelease:\n\nOpenCore-0.6.0-RELEASE.zip: 1ab7fef62656c40a82d0727d4b5efcec30f16daf8f97157cd89152fb17152037\n\nExtras:\n\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "description": "EfiLdr: Fixed 32-bit booting on machines with over 4 GBs of RAM\n[c8904a48dd263c1608ca4f17a5c367c5f312cc34](https://github.com/acidanthera/OpenCorePkg/commit/c8904a48dd263c1608ca4f17a5c367c5f312cc34) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/c8904a48dd263c1608ca4f17a5c367c5f312cc34))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: fe1ee08294d93c41cdaf6d6fffa4f9e17e33e4f5a22f11465fd020a004326bdf\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 1ab7fef62656c40a82d0727d4b5efcec30f16daf8f97157cd89152fb17152037\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
           "id": 29054802,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-c8904a4"
         },
@@ -4019,7 +4019,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-20fa907/OpenCore-0.6.0-RELEASE.zip"
         },
         "release": {
-          "description": "Docs: Document the DeviceProperty limitations for some drivers\n[20fa9074e6bf3d6acad24869670626986d84ac97](https://github.com/acidanthera/OpenCorePkg/commit/20fa9074e6bf3d6acad24869670626986d84ac97) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/20fa9074e6bf3d6acad24869670626986d84ac97))\n\n**Hashes**:\n\nDebug:\n\nOpenCore-0.6.0-DEBUG.zip: 418789978b21f062e11d6f92b88362f57e0671f2c00b628d4c48fcc3c5e76921\n\nRelease:\n\nOpenCore-0.6.0-RELEASE.zip: 45d4784247d2dd40e2e560d9d04dfde491ca072b52d390629cc0f2c648175ad7\n\nExtras:\n\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "description": "Docs: Document the DeviceProperty limitations for some drivers\n[20fa9074e6bf3d6acad24869670626986d84ac97](https://github.com/acidanthera/OpenCorePkg/commit/20fa9074e6bf3d6acad24869670626986d84ac97) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/20fa9074e6bf3d6acad24869670626986d84ac97))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: 418789978b21f062e11d6f92b88362f57e0671f2c00b628d4c48fcc3c5e76921\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 45d4784247d2dd40e2e560d9d04dfde491ca072b52d390629cc0f2c648175ad7\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
           "id": 29049957,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-20fa907"
         },
@@ -15648,7 +15648,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-0254817/VirtualSMC-1.1.5-RELEASE.zip"
         },
         "release": {
-          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[0254817099f712c27094977f863d912884fbe4a2](https://github.com/acidanthera/VirtualSMC/commit/0254817099f712c27094977f863d912884fbe4a2) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/0254817099f712c27094977f863d912884fbe4a2))\n\n**Hashes**:\n\nDebug:\n\nVirtualSMC-1.1.5-DEBUG.zip: 6ef0c475de81918ecda71cbc45e3b645bd6ce55bd6a2033532ce74b0446556a2\n\nRelease:\n\nVirtualSMC-1.1.5-RELEASE.zip: f2461b16b669a7a36b1d5b0c8313f795ec6b0afad27ed91491c2446638df60be\n\n\n\n\n",
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[0254817099f712c27094977f863d912884fbe4a2](https://github.com/acidanthera/VirtualSMC/commit/0254817099f712c27094977f863d912884fbe4a2) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/0254817099f712c27094977f863d912884fbe4a2))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.5-DEBUG.zip: 6ef0c475de81918ecda71cbc45e3b645bd6ce55bd6a2033532ce74b0446556a2\n**Release:**\nVirtualSMC-1.1.5-RELEASE.zip: f2461b16b669a7a36b1d5b0c8313f795ec6b0afad27ed91491c2446638df60be\n\n\n\n\n",
           "id": 29080873,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/VirtualSMC-0254817"
         },
@@ -16597,7 +16597,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-e58aaf6/WhateverGreen-1.4.1-RELEASE.zip"
         },
         "release": {
-          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[e58aaf629e7826ec36484fd7e904b425b01e19e2](https://github.com/acidanthera/WhateverGreen/commit/e58aaf629e7826ec36484fd7e904b425b01e19e2) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/e58aaf629e7826ec36484fd7e904b425b01e19e2))\n\n**Hashes**:\n\nDebug:\n\nWhateverGreen-1.4.1-DEBUG.zip: a0bedae443170615bd6f570246bf4161b406ab9e11e62fc2a1930276f5f695af\n\nRelease:\n\nWhateverGreen-1.4.1-RELEASE.zip: 959c2b0c35e069d78bab3589249a05ce619396f0e5b6eec6f85b844c736a7aa5\n\nExtras:\n\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
+          "description": "Get things compile in Xcode 12 (is not guaranteed to work)\n[e58aaf629e7826ec36484fd7e904b425b01e19e2](https://github.com/acidanthera/WhateverGreen/commit/e58aaf629e7826ec36484fd7e904b425b01e19e2) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/e58aaf629e7826ec36484fd7e904b425b01e19e2))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.1-DEBUG.zip: a0bedae443170615bd6f570246bf4161b406ab9e11e62fc2a1930276f5f695af\n**Release:**\nWhateverGreen-1.4.1-RELEASE.zip: 959c2b0c35e069d78bab3589249a05ce619396f0e5b6eec6f85b844c736a7aa5\n**Extras:**\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
           "id": 29080885,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/WhateverGreen-e58aaf6"
         },
@@ -16663,7 +16663,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-4a4ac3d/WhateverGreen-1.4.1-RELEASE.zip"
         },
         "release": {
-          "description": "Merge remote-tracking branch 'origin/master'\n\n* origin/master:\n  Update README.md\n  Update FAQ.IntelHD.en.md\n[4a4ac3db04a66fd7338661522387e608f029e734](https://github.com/acidanthera/WhateverGreen/commit/4a4ac3db04a66fd7338661522387e608f029e734) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/4a4ac3db04a66fd7338661522387e608f029e734))\n\n**Hashes**:\n\nDebug:\n\nWhateverGreen-1.4.1-DEBUG.zip: b53cac31fe68baa46f5879a9e2d03c64bdc0bd927d05f9455ed646d55c3e9166\n\nRelease:\n\nWhateverGreen-1.4.1-RELEASE.zip: a21d33e25bd9857fc65be90e8901a84339241d2ce457df2251edd9fb489ad3af\n\nExtras:\n\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
+          "description": "Merge remote-tracking branch 'origin/master'\n\n* origin/master:\n  Update README.md\n  Update FAQ.IntelHD.en.md\n[4a4ac3db04a66fd7338661522387e608f029e734](https://github.com/acidanthera/WhateverGreen/commit/4a4ac3db04a66fd7338661522387e608f029e734) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/4a4ac3db04a66fd7338661522387e608f029e734))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.1-DEBUG.zip: b53cac31fe68baa46f5879a9e2d03c64bdc0bd927d05f9455ed646d55c3e9166\n**Release:**\nWhateverGreen-1.4.1-RELEASE.zip: a21d33e25bd9857fc65be90e8901a84339241d2ce457df2251edd9fb489ad3af\n**Extras:**\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
           "id": 29073600,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/WhateverGreen-4a4ac3d"
         },
