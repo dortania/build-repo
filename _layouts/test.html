@@ -35,7 +35,7 @@ layout: default
                   }
               });
               versions.forEach((element, index) => {
-                $("#version")[0].add(new Option(element, index));
+                $("#version")[0].add(new Option(element, element));
               })
           })
           $("#version").change(function() {
