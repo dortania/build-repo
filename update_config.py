@@ -57,6 +57,8 @@ for i in config:
         rel = json.loads(hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(config[i]["versions"][j]["release"]["id"]), auth=("dhinakg", token)).GET().text)
         if rel.get("html_url"):
             config[i]["versions"][j]["release"]["url"] = rel["html_url"]
+    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("release", {}).get("description", None)]:
+        config[i]["versions"][j]["release"]["description"] = config[i]["versions"][j]["release"]["description"].replace("**Hashes**:\n\nDebug:\n\n", "**Hashes**:\n**Debug:**\n").replace("\nRelease:\n\n", "**Release:**\n").replace("\nExtras:\n\n", "**Extras:**\n")
     config[i]["versions"] = [i for i in config[i]["versions"] if i.get("release", {}).get("url", True)]
 
 
