@@ -47,12 +47,15 @@ layout: default
               shas = []
               data[$("#product").val()]["versions"].forEach((element, index) => {
                   if (element.version == $("#version").val()) {
+                      console.log(element);
                       shas.push([element, index]);
                   }
               });
               shas.forEach(element => {
                 $("#sha")[0].add(new Option(element[0], element[1]));
               })
+              console.log("shas: ");
+              console.log(shas);
           })
           $("#sha").change(function() {
               $(".info").empty()
