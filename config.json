@@ -3026,6 +3026,64 @@
     "versions": [
       {
         "commit": {
+          "message": "Process already loaded kexts early in 11.0",
+          "sha": "405f521afdf2c6825875197b67fdf7eeb74b3c90",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/405f521afdf2c6825875197b67fdf7eeb74b3c90",
+          "url": "https://github.com/acidanthera/Lilu/commit/405f521afdf2c6825875197b67fdf7eeb74b3c90"
+        },
+        "dateadded": "2020-07-31T18:19:51.139643+00:00",
+        "datecommitted": "2020-07-31T18:08:24+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "3de0fb62a9471b57298db7604e23b67d33e63079bb13ce43e6a0232dbfa3d22d"
+          },
+          "release": {
+            "sha256": "b20c1d195ef6f5ba0675b3ebf39d7ac4d49ea5c09ee345d2dd7de72a415f5313"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-405f521/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-405f521/Lilu-1.4.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "Process already loaded kexts early in 11.0\n[405f521afdf2c6825875197b67fdf7eeb74b3c90](https://github.com/acidanthera/Lilu/commit/405f521afdf2c6825875197b67fdf7eeb74b3c90) ([browse tree](https://github.com/acidanthera/Lilu/tree/405f521afdf2c6825875197b67fdf7eeb74b3c90))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.6-DEBUG.zip: 3de0fb62a9471b57298db7604e23b67d33e63079bb13ce43e6a0232dbfa3d22d\n**Release:**\nLilu-1.4.6-RELEASE.zip: b20c1d195ef6f5ba0675b3ebf39d7ac4d49ea5c09ee345d2dd7de72a415f5313\n\n\n",
+          "id": 29176671,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-405f521"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": {
+          "message": "Make function routing atomic in several places\n\nThis resolves some issues with 11.0",
+          "sha": "68830da59fdc94c8d68343f3d7f7f7ee6e78137e",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/68830da59fdc94c8d68343f3d7f7f7ee6e78137e",
+          "url": "https://github.com/acidanthera/Lilu/commit/68830da59fdc94c8d68343f3d7f7f7ee6e78137e"
+        },
+        "dateadded": "2020-07-31T18:20:46.149068+00:00",
+        "datecommitted": "2020-07-31T18:08:05+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "77d514b5b173fd2ebceb1fe48a1862df1c4a8f9ae7fc5f2e62e0844d7fef780e"
+          },
+          "release": {
+            "sha256": "9c4a250223978aaf4748fd263b0b21d95cd2c4692655b3212ccef9a0bc9421b2"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-68830da/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-68830da/Lilu-1.4.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "Make function routing atomic in several places\n\nThis resolves some issues with 11.0\n[68830da59fdc94c8d68343f3d7f7f7ee6e78137e](https://github.com/acidanthera/Lilu/commit/68830da59fdc94c8d68343f3d7f7f7ee6e78137e) ([browse tree](https://github.com/acidanthera/Lilu/tree/68830da59fdc94c8d68343f3d7f7f7ee6e78137e))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.6-DEBUG.zip: 77d514b5b173fd2ebceb1fe48a1862df1c4a8f9ae7fc5f2e62e0844d7fef780e\n**Release:**\nLilu-1.4.6-RELEASE.zip: 9c4a250223978aaf4748fd263b0b21d95cd2c4692655b3212ccef9a0bc9421b2\n\n\n",
+          "id": 29176706,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-68830da"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": {
           "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
           "sha": "7eb4f25cfc4a5a93318c0620bc78a334d823a52c",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/7eb4f25cfc4a5a93318c0620bc78a334d823a52c",
