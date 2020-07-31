@@ -97,7 +97,8 @@ for product in config:
                 time.sleep(3)
             else:
                 file = hammock(version["links"][i]).GET().content
-                version["links"][i] = upload_release_asset(version["release"]["id"], token, file, i)
+                name = Path(urllib.parse.urlparse(version["links"][i]).path).name
+                version["links"][i] = upload_release_asset(version["release"]["id"], token, file, name)
                 time.sleep(3)
 
         for i in version.get("extras", []):
