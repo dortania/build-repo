@@ -30,7 +30,7 @@ def expand_globs(path: str):
     return list(Path(path.root).glob(str(Path("").joinpath(*parts))))
 
 
-def upload_release_asset(release_id, token, file):
+def upload_release_asset(release_id, token, file, name=None):
     upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release_id), auth=("dhinakg", token)).GET().json()
     upload_url = upload_url["upload_url"]
     if isinstance(file, Path):
@@ -41,7 +41,7 @@ def upload_release_asset(release_id, token, file):
         print("Failed to guess mime type!")
         return False
 
-    asset_upload = hammock(str(purl.Template(upload_url).expand({"name": file.name, "label": file.name})), auth=("dhinakg", token)).POST(
+    asset_upload = hammock(str(purl.Template(upload_url).expand({"name": file.name if isinstance(file, Path) else name, "label": file.name if isinstance(file, Path) else name})), auth=("dhinakg", token)).POST(
         data=file.read_bytes() if isinstance(file, Path) else file,
         headers={"content-type": mime_type}
     )
@@ -83,9 +83,9 @@ for product in config:
 
         # Create release
         create_release = releases_url.POST(json={
-            "tag_name": version + "-" + product["commit"]["sha"][:7],
+            "tag_name": product + "-" + version["commit"]["sha"][:7],
             "target_commitish": "builds",
-            "name": version + " " + product["commit"]["sha"][:7]
+            "name": product + " " + version["commit"]["sha"][:7]
         })
 
         version["release"] = {"id": create_release.json()["id"], "url": create_release.json()["html_url"]}
@@ -97,17 +97,17 @@ for product in config:
                 time.sleep(3)
             else:
                 file = hammock(version["links"][i]).GET().content
-                version["links"][i] = upload_release_asset(version["release"]["id"], token, file)
+                version["links"][i] = upload_release_asset(version["release"]["id"], token, file, i)
                 time.sleep(3)
 
-        for i in version["extras"]:
+        for i in version.get("extras", []):
             local_path = Path(version["extras"][i].replace("https://raw.githubusercontent.com/dhinakg/ktextrepo/builds", "Builds"))
             if local_path.exists():
                 version["extras"][i] = upload_release_asset(version["release"]["id"], token, local_path)
                 time.sleep(3)
             else:
                 file = hammock(version["extras"][i]).GET().content
-                version["extras"][i] = upload_release_asset(version["release"]["id"], token, file)
+                version["extras"][i] = upload_release_asset(version["release"]["id"], token, file, i)
                 time.sleep(3)
 
         new_line = "\n"  # No escapes in f-strings
@@ -117,11 +117,11 @@ for product in config:
 
 **Hashes**:
 **Debug:**
-{Path(urllib.parse.urlparse(version["files"]["debug"]).path).name + ': ' + version['hashes']['debug']["sha256"]}
+{Path(urllib.parse.urlparse(version["links"]["debug"]).path).name + ': ' + version['hashes']['debug']["sha256"]}
 **Release:**
-{Path(urllib.parse.urlparse(version["files"]["release"]).path).name + ': ' + version['hashes']['release']["sha256"]}
-{'**Extras:**' if version["extras"] else ''}
-{new_line.join([Path(urllib.parse.urlparse(version["files"][file]).path).name + ': ' + version['hashes'][file]['sha256'] for version in version["extras"]]) if version.get("extras") else ''}
+{Path(urllib.parse.urlparse(version["links"]["release"]).path).name + ': ' + version['hashes']['release']["sha256"]}
+{'**Extras:**' if version.get("extras", None) else ''}
+{new_line.join([Path(urllib.parse.urlparse(version["extras"][file]).path).name + ': ' + version['hashes'][file]['sha256'] for version in version["extras"]]) if version.get("extras", None) else ''}
 """
 
         hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(version["release"]["id"]), auth=("dhinakg", token)).POST(json={
