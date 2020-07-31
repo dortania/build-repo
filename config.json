@@ -2556,6 +2556,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Make function routing atomic in several places\n\nThis resolves some issues with 11.0",
+          "sha": "68830da59fdc94c8d68343f3d7f7f7ee6e78137e",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/68830da59fdc94c8d68343f3d7f7f7ee6e78137e",
+          "url": "https://github.com/acidanthera/Lilu/commit/68830da59fdc94c8d68343f3d7f7f7ee6e78137e"
+        },
+        "dateadded": "2020-07-31T18:20:46.149068+00:00",
+        "datecommitted": "2020-07-31T18:08:05+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "77d514b5b173fd2ebceb1fe48a1862df1c4a8f9ae7fc5f2e62e0844d7fef780e"
+          },
+          "release": {
+            "sha256": "9c4a250223978aaf4748fd263b0b21d95cd2c4692655b3212ccef9a0bc9421b2"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-68830da/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-68830da/Lilu-1.4.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "Make function routing atomic in several places\n\nThis resolves some issues with 11.0\n[68830da59fdc94c8d68343f3d7f7f7ee6e78137e](https://github.com/acidanthera/Lilu/commit/68830da59fdc94c8d68343f3d7f7f7ee6e78137e) ([browse tree](https://github.com/acidanthera/Lilu/tree/68830da59fdc94c8d68343f3d7f7f7ee6e78137e))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.6-DEBUG.zip: 77d514b5b173fd2ebceb1fe48a1862df1c4a8f9ae7fc5f2e62e0844d7fef780e\n**Release:**\nLilu-1.4.6-RELEASE.zip: 9c4a250223978aaf4748fd263b0b21d95cd2c4692655b3212ccef9a0bc9421b2\n\n\n",
+          "id": 29176706,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-68830da"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": {
           "message": "Process already loaded kexts early in 11.0",
           "sha": "405f521afdf2c6825875197b67fdf7eeb74b3c90",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/405f521afdf2c6825875197b67fdf7eeb74b3c90",
