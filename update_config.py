@@ -45,8 +45,8 @@ for i in config:
 for i in config:
     for j, item in enumerate(config[i]["versions"]):
         config[i]["versions"][j].pop("knowngood", False)
-        for k in config[i]["versions"][j]["hashes"]:
-            if type(config[i]["versions"][j]["hashes"][k]) != dict:
+        for k, item2 in enumerate(config[i]["versions"]):
+            if type(item2) != dict:
                 config[i]["versions"][j]["hashes"][k] = {"sha256": config[i]["versions"][j]["hashes"].pop(k)}
     for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if not type(item.get("commit")) == dict]:
         sha = config[i]["versions"][j].pop("commit")
