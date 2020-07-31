@@ -1,6 +1,5 @@
 import json
 import subprocess
-import sys
 from pathlib import Path
 
 import dateutil.parser
@@ -35,6 +34,28 @@ def add_commit_date(name, version):
         return version
 
 
+def add_commit_url(name, version):
+    if version.get("commit", {}).get("url", None) and version.get("commit", {}).get("tree_url", None):
+        return version
+    else:
+        organization = repo = None
+        for plugin in plugins["Plugins"]:
+            if name == "AppleSupportPkg":
+                repo = name
+                organization = "acidanthera"
+                break
+            if plugin["Name"] == name:
+                organization, repo = plugin["URL"].strip().replace("https://github.com/", "").split("/")
+                break
+        if not repo:
+            print("Product " + name + " not found")
+            raise Exception
+        html_url = dateutil.parser.parse(json.loads(hammock("https://api.github.com").repos(organization, repo).commits(version["commit"]).GET(auth=("dhinakg", token)).text)["commit"]["html_url"])
+        version["commit"]["url"] = html_url
+        version["commit"]["tree_url"] = html_url.replace("/commit/", "/tree/")
+        return version
+
+
 config = {i: v for i, v in config.items() if not i.startswith("_")}
 
 for i in config:
@@ -66,6 +87,9 @@ for i in config:
         config[i]["versions"][j]["release"]["description"] = config[i]["versions"][j]["release"]["description"].replace("**Hashes**:\n\nDebug:\n\n", "**Hashes**:\n**Debug:**\n").replace("\nRelease:\n\n", "**Release:**\n").replace("\nExtras:\n\n", "**Extras:**\n")
     config[i]["versions"] = [i for i in config[i]["versions"] if i.get("release", {}).get("url", True)]
 
+for i in config:
+    for j, item in enumerate(config[i]["versions"]):
+        config[i]["versions"][j] = add_commit_url(i, item)
 
 config["_version"] = 2
 

@@ -76,7 +76,7 @@ def add_built(plugin, token):
     if config[name]["versions"]:
         config[name]["versions"] = [i for i in config[name]["versions"] if not config.get("commit", {}).get("sha", None) == commit_info["sha"]]
 
-    release["commit"] = {"sha": commit_info["sha"], "message": commit_info["commit"]["message"]}
+    release["commit"] = {"sha": commit_info["sha"], "message": commit_info["commit"]["message"], "url": commit_info["html_url"], "tree_url": commit_info["html_url"].replace("/commit/", "/tree/")}
     release["version"] = files["version"]
     release["dateadded"] = datetime.datetime.now(tz=datetime.timezone.utc).isoformat()
     release["datecommitted"] = dateutil.parser.parse(commit_info["commit"]["committer"]["date"]).isoformat()
@@ -130,8 +130,8 @@ def add_built(plugin, token):
             release["extras"][file.name] = upload_release_asset(release["release"]["id"], token, file)
     new_line = "\n"  # No escapes in f-strings
 
-    release["release"]["description"] = f"""{commit_info['commit']['message'].strip()}
-[{commit_info['sha']}]({commit_info['html_url']}) ([browse tree]({commit_info['html_url'].replace("/commit/", "/tree/")}))
+    release["release"]["description"] = f"""{release['commit']['message'].strip()}
+[{release['commit']['sha']}]({release['commit']['url']}) ([browse tree]({release['commit']['tree_url']}))
 
 **Hashes**:
 **Debug:**
