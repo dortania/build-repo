@@ -50,7 +50,7 @@ def add_commit_url(name, version):
         if not repo:
             print("Product " + name + " not found")
             raise Exception
-        html_url = dateutil.parser.parse(json.loads(hammock("https://api.github.com").repos(organization, repo).commits(version["commit"]).GET(auth=("dhinakg", token)).text)["commit"]["html_url"])
+        html_url = json.loads(hammock("https://api.github.com").repos(organization, repo).commits(version["commit"]["sha"]).GET(auth=("dhinakg", token)).text)["html_url"]
         version["commit"]["url"] = html_url
         version["commit"]["tree_url"] = html_url.replace("/commit/", "/tree/")
         return version
