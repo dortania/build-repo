@@ -43,6 +43,11 @@ for i in config:
     config[i]["versions"].sort(key=lambda x: x["datecommitted"], reverse=True)
 
 for i in config:
+    for j, item in enumerate(config[i]["versions"]):
+        config[i]["versions"][j].pop("knowngood", False)
+        for k in config[i]["versions"][j]["hashes"]:
+            if type(config[i]["versions"][j]["hashes"][k]) != dict:
+                config[i]["versions"][j]["hashes"][k] = {"sha256": config[i]["versions"][j]["hashes"].pop(k)}
     for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if not type(item.get("commit")) == dict]:
         sha = config[i]["versions"][j].pop("commit")
         desc = config[i]["versions"][j].pop("description")

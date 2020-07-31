@@ -1,3 +1,4 @@
+import json
 import pprint
 
 # import purl
@@ -9,6 +10,18 @@ with open("gh token.txt") as f:
     token = f.read().strip()
 
 url_string = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", auth=("dhinakg", token))
+
+
+def paginate(url, token):
+    url = hammock(url, auth=("dhinakg", token)).GET()
+    if url.links == {}:
+        return url.json()
+    else:
+        container = url.json()
+        while url.links.get("next"):
+            url = hammock(url.links["next"]["url"], auth=("dhinakg", token)).GET()
+            container += url.json()
+        return container
 
 get_release = url_string.GET()
 for i in [i["id"] for i in get_release.json()]:
