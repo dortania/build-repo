@@ -1,5 +1,6 @@
 import json
 import subprocess
+import copy
 from pathlib import Path
 
 import dateutil.parser
@@ -66,9 +67,11 @@ for i in config:
 for i in config:
     for j, item in enumerate(config[i]["versions"]):
         config[i]["versions"][j].pop("knowngood", False)
-        for k, item2 in enumerate(config[i]["versions"]):
-            if type(item2) != dict:
-                config[i]["versions"][j]["hashes"][k] = {"sha256": config[i]["versions"][j]["hashes"].pop(k)}
+        hashes = copy.deepcopy(config[i]["versions"][j]["hashes"])
+        for k in config[i]["versions"][j]["hashes"]:
+            if type(config[i]["versions"][j]["hashes"][k]) != dict:
+                hashes[k] = {"sha256": config[i]["versions"][j]["hashes"][k]}
+        config[i]["versions"][j]["hashes"] = hashes
     for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if not type(item.get("commit")) == dict]:
         sha = config[i]["versions"][j].pop("commit")
         desc = config[i]["versions"][j].pop("description")

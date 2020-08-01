@@ -61,6 +61,8 @@ def paginate(url, token):
 
 
 for product in config:
+    if product == "_version":
+        continue
     for index, version in enumerate(config[product]["versions"]):
         if version.get("release"):  # This has a release
             continue
@@ -117,19 +119,19 @@ for product in config:
 [{version['commit']['sha']}]({version['commit']['url']}) ([browse tree]({version["commit"]["tree_url"]}))
 
 **Hashes**:
-**Debug:**
-{Path(urllib.parse.urlparse(version["links"]["debug"]).path).name + ': ' + version['hashes']['debug']["sha256"]}
-**Release:**
-{Path(urllib.parse.urlparse(version["links"]["release"]).path).name + ': ' + version['hashes']['release']["sha256"]}
+{'**Debug:**' if version["links"].get("debug", None) else ''}
+{(Path(urllib.parse.urlparse(version["links"]["debug"]).path).name + ': ' + version['hashes']['debug']["sha256"]) if version["links"].get("debug", None) else ''}
+{'**Release:**' if version["links"].get("release", None) else ''}
+{(Path(urllib.parse.urlparse(version["links"]["release"]).path).name + ': ' + version['hashes']['release']["sha256"]) if version["links"].get("release", None) else ''}
 {'**Extras:**' if version.get("extras", None) else ''}
-{new_line.join([Path(urllib.parse.urlparse(version["extras"][file]).path).name + ': ' + version['hashes'][file]['sha256'] for version in version["extras"]]) if version.get("extras", None) else ''}
+{new_line.join([Path(urllib.parse.urlparse(version["extras"][file]).path).name + ': ' + version['hashes'][file]['sha256'] for file in version["extras"]]) if version.get("extras", None) else ''}
 """
 
         hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(version["release"]["id"]), auth=("dhinakg", token)).POST(json={
             "body": version["release"]["description"]
         })
 
-json.dump(config, Path("Config/config.json").open(mode="w"), indent=2, sort_keys=True)
+        json.dump(config, Path("Config/config.json").open(mode="w"), indent=2, sort_keys=True)
 
 result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=(Path(__file__).parent.absolute() / Path("Config")))
 if result.returncode != 0:
