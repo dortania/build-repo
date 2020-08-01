@@ -4423,6 +4423,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Force x86_64",
+          "sha": "a4fbe9817a77ef58f9587f9155aee69c532fb128",
+          "tree_url": "https://github.com/acidanthera/NVMeFix/tree/a4fbe9817a77ef58f9587f9155aee69c532fb128",
+          "url": "https://github.com/acidanthera/NVMeFix/commit/a4fbe9817a77ef58f9587f9155aee69c532fb128"
+        },
+        "dateadded": "2020-08-01T19:16:26.912617+00:00",
+        "datecommitted": "2020-08-01T19:06:21+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "1af7235d342e6308191ec5c4ff6220df6f531de15a7a4be45fc3a727ccf55cdc"
+          },
+          "release": {
+            "sha256": "26ecaee6cb286578f1ccc653ffe47e3277d89ca7fd1848a0ea2c12cc6a525975"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/NVMeFix-a4fbe98/NVMeFix-1.0.3-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/NVMeFix-a4fbe98/NVMeFix-1.0.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nForce x86_64\n[View on GitHub](https://github.com/acidanthera/NVMeFix/commit/a4fbe9817a77ef58f9587f9155aee69c532fb128) ([browse tree](https://github.com/acidanthera/NVMeFix/tree/a4fbe9817a77ef58f9587f9155aee69c532fb128))\n\n**Hashes**:\n**Debug:**\nNVMeFix-1.0.3-DEBUG.zip: 1af7235d342e6308191ec5c4ff6220df6f531de15a7a4be45fc3a727ccf55cdc\n**Release:**\nNVMeFix-1.0.3-RELEASE.zip: 26ecaee6cb286578f1ccc653ffe47e3277d89ca7fd1848a0ea2c12cc6a525975\n\n\n",
+          "id": 29195372,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/NVMeFix-a4fbe98"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      },
+      {
+        "commit": {
           "message": "Leave a note regarding 11.0",
           "sha": "8f8bb88c2ccfd7bd45a08c454a3a40c7ac806bf5",
           "tree_url": "https://github.com/acidanthera/NVMeFix/tree/8f8bb88c2ccfd7bd45a08c454a3a40c7ac806bf5",
