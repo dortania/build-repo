@@ -63,6 +63,7 @@ layout: default
                 }
                 let entry = data[$("#product").val()]["versions"][$("#sha").val()]
                 $(".info").html(converter.makeHtml(entry["release"]["description"]))
+                $(".info").append("<p><strong>Download Links:</strong></p>")
                 if (entry.links.debug) {
                     let debug_link = $("<a>");
                     debug_link.attr("href", entry.links.debug);
@@ -86,6 +87,7 @@ layout: default
                 let gh_release_link = $("<a>");
                 gh_release_link.attr("href", entry.release.url);
                 gh_release_link.text("View on GitHub Releases");
+                $(".info").append("<br>");
                 $(".info").append(gh_release_link)
 
                 //$(".info").text()
