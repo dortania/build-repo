@@ -17,6 +17,9 @@ layout: default
         $.getJSON("https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/builds/config.json", function (data) {
             var converter = new showdown.Converter()
             for (let key in data) {
+                if (key.startsWith("_")) {
+                    continue;
+                }
                 $("#product")[0].add(new Option(key, key));
             }
             $("#product").change(function () {
