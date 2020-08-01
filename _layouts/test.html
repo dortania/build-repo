@@ -16,9 +16,7 @@ layout: default
     <script>
         $.getJSON("https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/builds/config.json", function (data) {
             converter = new showdown.Converter()
-            console.log(data);
             for (var key in data) {
-                console.log(key);
                 $("#product")[0].add(new Option(key, key));
             }
             $("#product").change(function () {
@@ -49,15 +47,12 @@ layout: default
                 shas = []
                 data[$("#product").val()]["versions"].forEach((element, index) => {
                     if (element.version == $("#version").val()) {
-                        console.log(element);
                         shas.push([element, index]);
                     }
                 });
-                shas.forEach(element => {
-                    $("#sha")[0].add(new Option(element[0].commit.sha, element[1]));
+                shas.forEach((element, index) => {
+                    $("#sha")[0].add(new Option(element[0].commit.sha + (index == 0 ? " (latest)" : ""), element[1]));
                 })
-                console.log("shas: ");
-                console.log(shas);
             })
             $("#sha").change(function () {
                 $(".info").empty()
