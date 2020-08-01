@@ -70,20 +70,20 @@ layout: default
                     var debug_link = $("<a>");
                     debug_link.attr("href", entry.links.debug);
                     debug_link.text("Download Debug");
-                    $(".info").append(debug_link)
+                    $(".info").append($("<p>").append(debug_link))
                 }
                 if (entry.links.release) {
                     var release_link = $("<a>");
                     release_link.attr("href", entry.links.release);
-                    release_link.text("Download Debug");
-                    $(".info").append(release_link)
+                    release_link.text("Download Release");
+                    $(".info").append($("<p>").append(release_link))
                 }
                 if (entry.extras) {
-                    entry.extras.keys().forEach(key => {
+                    Object.keys(entry.extras).forEach(key => {
                         var extra_link = $("<a>");
                         extra_link.attr("href", entry.extras[key]);
                         extra_link.text("Download " + key);
-                        $(".info").append(extra_link)
+                        $(".info").append($("<p>").append(extra_link))
                     })
                 }
                 var gh_release_link = $("<a>");
