@@ -130,8 +130,9 @@ def add_built(plugin, token):
             release["extras"][file.name] = upload_release_asset(release["release"]["id"], token, file)
     new_line = "\n"  # No escapes in f-strings
 
-    release["release"]["description"] = f"""{release['commit']['message'].strip()}
-[{release['commit']['sha']}]({release['commit']['url']}) ([browse tree]({release['commit']['tree_url']}))
+    release["release"]["description"] = f"""**Changes**
+{release['commit']['message'].strip()}
+[View on GitHub]({release['commit']['url']}) ([browse tree]({release['commit']['tree_url']}))
 
 **Hashes**:
 **Debug:**
