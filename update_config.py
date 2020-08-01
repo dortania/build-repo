@@ -87,8 +87,8 @@ for i in config:
         if rel.get("html_url"):
             config[i]["versions"][j]["release"]["url"] = rel["html_url"]
     for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("release", {}).get("description", None)]:
-        config[i]["versions"][j]["release"]["description"] = config[i]["versions"][j]["release"]["description"].replace("**Hashes**:\n\nDebug:\n\n", "**Hashes**:\n**Debug:**\n").replace("\nRelease:\n\n", "**Release:**\n").replace("\nExtras:\n\n", "**Extras:**\n").replace(config[i]["versions"][j]["commit"]["sha"], "View on GitHub")
-        if config[i]["versions"][j]["release"]["description"][:14] != "**Changes:**\n":
+        config[i]["versions"][j]["release"]["description"] = config[i]["versions"][j]["release"]["description"].replace("**Hashes**:\n\nDebug:\n\n", "**Hashes**:\n**Debug:**\n").replace("\nRelease:\n\n", "**Release:**\n").replace("\nExtras:\n\n", "**Extras:**\n").replace(config[i]["versions"][j]["commit"]["sha"], "View on GitHub").replace("**Changes:**\n**Changes:**\n", "**Changes:**\n")
+        if config[i]["versions"][j]["release"]["description"][:13] != "**Changes:**\n":
             config[i]["versions"][j]["release"]["description"] = "**Changes:**\n" + config[i]["versions"][j]["release"]["description"]
     config[i]["versions"] = [i for i in config[i]["versions"] if i.get("release", {}).get("url", True)]
 
