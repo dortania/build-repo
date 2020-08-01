@@ -4950,6 +4950,45 @@
     "versions": [
       {
         "commit": {
+          "message": "Include: Add BlockIoVendor header",
+          "sha": "a7547f07d472b503137f67005ff2ca0c6ed33246",
+          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/a7547f07d472b503137f67005ff2ca0c6ed33246",
+          "url": "https://github.com/acidanthera/OpenCorePkg/commit/a7547f07d472b503137f67005ff2ca0c6ed33246"
+        },
+        "dateadded": "2020-08-01T13:56:52.752399+00:00",
+        "datecommitted": "2020-08-01T13:34:01+00:00",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-a7547f0/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-a7547f0/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "9367447636ea094c0e71f0cbf39e6709b4408291a14e4aa23452ee994681c4d7"
+          },
+          "release": {
+            "sha256": "02f6fdcefce1312184b6f9173bbba4bd19d3c7041e0e490c2bdb96948bbc9d1c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-a7547f0/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-a7547f0/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nInclude: Add BlockIoVendor header\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/a7547f07d472b503137f67005ff2ca0c6ed33246) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/a7547f07d472b503137f67005ff2ca0c6ed33246))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: 9367447636ea094c0e71f0cbf39e6709b4408291a14e4aa23452ee994681c4d7\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 02f6fdcefce1312184b6f9173bbba4bd19d3c7041e0e490c2bdb96948bbc9d1c\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "id": 29192302,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-a7547f0"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": {
           "message": "EfiLdr: Revert removal of memmap shifts",
           "sha": "0209c3434a4e9a297565c13008e78ebb43c5e5ad",
           "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/0209c3434a4e9a297565c13008e78ebb43c5e5ad",
