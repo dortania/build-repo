@@ -3,68 +3,96 @@ layout: default
 ---
 <article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
-  
-  <script>
-      $.getJSON("https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/builds/config.json", function (data) {
-          converter = new showdown.Converter()
-          console.log(data);
-          for (var key in data) {
-              console.log(key);
-              $("#product")[0].add(new Option(key, key));
-          }
-          $("#product").change(function() {
-              $("#version")[0].options.length = 0;
-              $("#version")[0].add(new Option("Select version...", "initial", true, true));
-              if ($("#product").val() == "initial") {
-                  return;
-              }
-              versions = []
-              data[$("#product").val()]["versions"].forEach((element, index) => {
-                  var index = versions.findIndex(x => x == element.version);
-                  if (index === -1) {
-                      versions.push(element.version);
-                  }
-              });
-              versions.forEach((element, index) => {
-                $("#version")[0].add(new Option(element, element));
-              })
-          })
-          $("#version").change(function() {
-              $("#sha")[0].options.length = 0;
-              $("#sha")[0].add(new Option("Select commit...", "initial", true, true));
-              if ($("#product").val() == "initial" || $("#version").val() == "initial") {
-                  return;
-              }
-              shas = []
-              data[$("#product").val()]["versions"].forEach((element, index) => {
-                  if (element.version == $("#version").val()) {
-                      console.log(element);
-                      shas.push([element, index]);
-                  }
-              });
-              shas.forEach(element => {
-                $("#sha")[0].add(new Option(element[0].commit.sha, element[1]));
-              })
-              console.log("shas: ");
-              console.log(shas);
-          })
-          $("#sha").change(function() {
-              $(".info").empty()
-              if ($("#product").val() == "initial" || $("#version").val() == "initial" || $("#sha").val() == "initial") {
-                  return;
-              }
-              $(".info").html(converter.makeHtml(data[$("#product").val()]["versions"][$("#sha").val()]["release"]["description"]))
-              //$(".info").text()
-          })
-      })
-  </script>
+    <div class="post-content">
+        {{ content }}
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+
+    <script>
+        $.getJSON("https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/builds/config.json", function (data) {
+            converter = new showdown.Converter()
+            console.log(data);
+            for (var key in data) {
+                console.log(key);
+                $("#product")[0].add(new Option(key, key));
+            }
+            $("#product").change(function () {
+                $(".info").empty()
+                $("#version")[0].options.length = 0;
+                $("#version")[0].add(new Option("Select version...", "initial", true, true));
+                if ($("#product").val() == "initial") {
+                    return;
+                }
+                versions = []
+                data[$("#product").val()]["versions"].forEach((element, index) => {
+                    var index = versions.findIndex(x => x == element.version);
+                    if (index === -1) {
+                        versions.push(element.version);
+                    }
+                });
+                versions.forEach((element, index) => {
+                    $("#version")[0].add(new Option(element, element));
+                })
+            })
+            $("#version").change(function () {
+                $(".info").empty()
+                $("#sha")[0].options.length = 0;
+                $("#sha")[0].add(new Option("Select commit...", "initial", true, true));
+                if ($("#product").val() == "initial" || $("#version").val() == "initial") {
+                    return;
+                }
+                shas = []
+                data[$("#product").val()]["versions"].forEach((element, index) => {
+                    if (element.version == $("#version").val()) {
+                        console.log(element);
+                        shas.push([element, index]);
+                    }
+                });
+                shas.forEach(element => {
+                    $("#sha")[0].add(new Option(element[0].commit.sha, element[1]));
+                })
+                console.log("shas: ");
+                console.log(shas);
+            })
+            $("#sha").change(function () {
+                $(".info").empty()
+                if ($("#product").val() == "initial" || $("#version").val() == "initial" || $("#sha").val() == "initial") {
+                    return;
+                }
+                entry = data[$("#product").val()]["versions"][$("#sha").val()]
+                $(".info").html(converter.makeHtml(entry["release"]["description"]))
+                if (entry.links.debug) {
+                    var debug_link = $("<a>");
+                    debug_link.attr("href", entry.links.debug);
+                    debug_link.text("Download Debug");
+                    $(".info").append(debug_link)
+                }
+                if (entry.links.release) {
+                    var release_link = $("<a>");
+                    release_link.attr("href", entry.links.release);
+                    release_link.text("Download Debug");
+                    $(".info").append(release_link)
+                }
+                if (entry.extras) {
+                    entry.extras.keys().forEach(key => {
+                        var extra_link = $("<a>");
+                        extra_link.attr("href", entry.extras[key]);
+                        extra_link.text("Download " + key);
+                        $(".info").append(extra_link)
+                    })
+                }
+                var gh_release_link = $("<a>");
+                gh_release_link.attr("href", entry.release.url);
+                gh_release_link.text("View on GitHub Releases");
+                $(".info").append(gh_release_link)
+
+                //$(".info").text()
+            })
+        })
+    </script>
 </article>
