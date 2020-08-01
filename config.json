@@ -23992,6 +23992,41 @@
     "versions": [
       {
         "commit": {
+          "message": "fix typo and spaces (#59)",
+          "sha": "8a8530405d9e440b605a4eb998acf8f5119dbf2c",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/8a8530405d9e440b605a4eb998acf8f5119dbf2c",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/8a8530405d9e440b605a4eb998acf8f5119dbf2c"
+        },
+        "dateadded": "2020-08-01T06:47:45.297141+00:00",
+        "datecommitted": "2020-08-01T06:43:27+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-8a85304/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "ffd62fe38acb4496c74a6b1403a420f2f8112a1a119960c3efe0fd33ad36dce7"
+          },
+          "release": {
+            "sha256": "312e2850809aedb8540e3c512fb38b380727162e1dd10b709ee5e4faa637abb4"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-8a85304/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-8a85304/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nfix typo and spaces (#59)\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/8a8530405d9e440b605a4eb998acf8f5119dbf2c) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/8a8530405d9e440b605a4eb998acf8f5119dbf2c))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.1-DEBUG.zip: ffd62fe38acb4496c74a6b1403a420f2f8112a1a119960c3efe0fd33ad36dce7\n**Release:**\nWhateverGreen-1.4.1-RELEASE.zip: 312e2850809aedb8540e3c512fb38b380727162e1dd10b709ee5e4faa637abb4\n**Extras:**\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
+          "id": 29188990,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/WhateverGreen-8a85304"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
+        "commit": {
           "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
           "sha": "e58aaf629e7826ec36484fd7e904b425b01e19e2",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/e58aaf629e7826ec36484fd7e904b425b01e19e2",
