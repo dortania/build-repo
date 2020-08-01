@@ -4950,6 +4950,45 @@
     "versions": [
       {
         "commit": {
+          "message": "Patches: Add AtaAtapiPassThru IDE timeout patch",
+          "sha": "748d906c7cbaabebd43204f7dd824ba6f939af1a",
+          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/748d906c7cbaabebd43204f7dd824ba6f939af1a",
+          "url": "https://github.com/acidanthera/OpenCorePkg/commit/748d906c7cbaabebd43204f7dd824ba6f939af1a"
+        },
+        "dateadded": "2020-08-01T14:38:26.441827+00:00",
+        "datecommitted": "2020-08-01T14:24:17+00:00",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-748d906/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-748d906/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "8d614a6195cb1e5a3d9e86f7d7dabdceaffac1d8c1cfe7f1a79f7045328c945d"
+          },
+          "release": {
+            "sha256": "1588a3f9ebeb058420ad9970ca30a18a374a287b8bb1a5c4293fdd79915cd9ba"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-748d906/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-748d906/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nPatches: Add AtaAtapiPassThru IDE timeout patch\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/748d906c7cbaabebd43204f7dd824ba6f939af1a) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/748d906c7cbaabebd43204f7dd824ba6f939af1a))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: 8d614a6195cb1e5a3d9e86f7d7dabdceaffac1d8c1cfe7f1a79f7045328c945d\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 1588a3f9ebeb058420ad9970ca30a18a374a287b8bb1a5c4293fdd79915cd9ba\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "id": 29192728,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-748d906"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": {
           "message": "OcAppleIm4Lib: Fix memcpy undefined reference",
           "sha": "eaac5f04530c23ff8620634fb5bb93cf07894d2e",
           "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/eaac5f04530c23ff8620634fb5bb93cf07894d2e",
