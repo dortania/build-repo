@@ -22993,7 +22993,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-14988e3/VirtualSMC-1.1.5-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes**\nResolve booting issue on macOS 11 due to provider race condition\n\nNow keystore may get probed much later, causing AppleSMC to arrive\nbefore VirtualSMC instance is active\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/14988e34adacd9646efc8e5d9762bce9fc560d73) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/14988e34adacd9646efc8e5d9762bce9fc560d73))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.5-DEBUG.zip: 7e882d97157d53646936fb89f17cc7e9ae475795e422975883edacaed31e1eec\n**Release:**\nVirtualSMC-1.1.5-RELEASE.zip: c6140853ad41ece3fa06820b3bfdf53aab023ce8f3069d96e1d5f375e5984d8e\n\n\n",
+          "description": "**Changes:**\n**Changes**\nResolve booting issue on macOS 11 due to provider race condition\n\nNow keystore may get probed much later, causing AppleSMC to arrive\nbefore VirtualSMC instance is active\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/14988e34adacd9646efc8e5d9762bce9fc560d73) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/14988e34adacd9646efc8e5d9762bce9fc560d73))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.5-DEBUG.zip: 7e882d97157d53646936fb89f17cc7e9ae475795e422975883edacaed31e1eec\n**Release:**\nVirtualSMC-1.1.5-RELEASE.zip: c6140853ad41ece3fa06820b3bfdf53aab023ce8f3069d96e1d5f375e5984d8e\n\n\n",
           "id": 29193269,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/VirtualSMC-14988e3"
         },
