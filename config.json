@@ -2895,6 +2895,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Force x86_64",
+          "sha": "104c6a197c8375d882e3dd2dac3f18c31cd3e801",
+          "tree_url": "https://github.com/acidanthera/CPUFriend/tree/104c6a197c8375d882e3dd2dac3f18c31cd3e801",
+          "url": "https://github.com/acidanthera/CPUFriend/commit/104c6a197c8375d882e3dd2dac3f18c31cd3e801"
+        },
+        "dateadded": "2020-08-01T19:16:42.519822+00:00",
+        "datecommitted": "2020-08-01T19:05:51+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "0406e5fc1372a79559c5db7fd9b4268ac112abf888938fad6c1ec86626414451"
+          },
+          "release": {
+            "sha256": "664e726a2d43297b7528e77335ea1058515902e46a0583b7adea2120369a6251"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/CPUFriend-104c6a1/CPUFriend-1.2.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/CPUFriend-104c6a1/CPUFriend-1.2.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nForce x86_64\n[View on GitHub](https://github.com/acidanthera/CPUFriend/commit/104c6a197c8375d882e3dd2dac3f18c31cd3e801) ([browse tree](https://github.com/acidanthera/CPUFriend/tree/104c6a197c8375d882e3dd2dac3f18c31cd3e801))\n\n**Hashes**:\n**Debug:**\nCPUFriend-1.2.1-DEBUG.zip: 0406e5fc1372a79559c5db7fd9b4268ac112abf888938fad6c1ec86626414451\n**Release:**\nCPUFriend-1.2.1-RELEASE.zip: 664e726a2d43297b7528e77335ea1058515902e46a0583b7adea2120369a6251\n\n\n",
+          "id": 29195375,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/CPUFriend-104c6a1"
+        },
+        "source": "built",
+        "version": "1.2.1"
+      },
+      {
+        "commit": {
           "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
           "sha": "13f3832eabec09c2a690f2e8eaa99ada76e83750",
           "tree_url": "https://github.com/acidanthera/CPUFriend/tree/13f3832eabec09c2a690f2e8eaa99ada76e83750",
