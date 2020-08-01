@@ -4385,7 +4385,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/NVMeFix-8f8bb88/NVMeFix-1.0.3-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes**\nLeave a note regarding 11.0\n[View on GitHub](https://github.com/acidanthera/NVMeFix/commit/8f8bb88c2ccfd7bd45a08c454a3a40c7ac806bf5) ([browse tree](https://github.com/acidanthera/NVMeFix/tree/8f8bb88c2ccfd7bd45a08c454a3a40c7ac806bf5))\n\n**Hashes**:\n**Debug:**\nNVMeFix-1.0.3-DEBUG.zip: 4194b0280fe7125ff8ec5b1be132c0624b3242fa1ffe88b1cfdbf22bff7d7df8\n**Release:**\nNVMeFix-1.0.3-RELEASE.zip: 9ef12afa53b75783dda3b34deba2e46066b7933abcb1f89d5234f88e102bb554\n\n\n",
+          "description": "**Changes:**\n**Changes**\nLeave a note regarding 11.0\n[View on GitHub](https://github.com/acidanthera/NVMeFix/commit/8f8bb88c2ccfd7bd45a08c454a3a40c7ac806bf5) ([browse tree](https://github.com/acidanthera/NVMeFix/tree/8f8bb88c2ccfd7bd45a08c454a3a40c7ac806bf5))\n\n**Hashes**:\n**Debug:**\nNVMeFix-1.0.3-DEBUG.zip: 4194b0280fe7125ff8ec5b1be132c0624b3242fa1ffe88b1cfdbf22bff7d7df8\n**Release:**\nNVMeFix-1.0.3-RELEASE.zip: 9ef12afa53b75783dda3b34deba2e46066b7933abcb1f89d5234f88e102bb554\n\n\n",
           "id": 29193472,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/NVMeFix-8f8bb88"
         },
