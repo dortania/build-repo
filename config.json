@@ -4950,6 +4950,45 @@
     "versions": [
       {
         "commit": {
+          "message": "OcAppleSecureBootLib: Fix invalid assertion",
+          "sha": "6483fb6169a32f1d72b7013467d2d0197e2519ea",
+          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/6483fb6169a32f1d72b7013467d2d0197e2519ea",
+          "url": "https://github.com/acidanthera/OpenCorePkg/commit/6483fb6169a32f1d72b7013467d2d0197e2519ea"
+        },
+        "dateadded": "2020-08-01T14:15:31.308362+00:00",
+        "datecommitted": "2020-08-01T13:38:52+00:00",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-6483fb6/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-6483fb6/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "175b8493458fe2731c9d1f80179975d10f18e543c1202dbf5f474c18242ed63c"
+          },
+          "release": {
+            "sha256": "763823cac4fd43cbc5016d7090e5d8fb737ffab2b8df80a6d7270930b3ed356d"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-6483fb6/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-6483fb6/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nOcAppleSecureBootLib: Fix invalid assertion\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/6483fb6169a32f1d72b7013467d2d0197e2519ea) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/6483fb6169a32f1d72b7013467d2d0197e2519ea))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: 175b8493458fe2731c9d1f80179975d10f18e543c1202dbf5f474c18242ed63c\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 763823cac4fd43cbc5016d7090e5d8fb737ffab2b8df80a6d7270930b3ed356d\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "id": 29192483,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-6483fb6"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": {
           "message": "Include: Add BlockIoVendor header",
           "sha": "a7547f07d472b503137f67005ff2ca0c6ed33246",
           "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/a7547f07d472b503137f67005ff2ca0c6ed33246",
