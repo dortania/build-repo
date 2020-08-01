@@ -1,7 +1,7 @@
 ---
 layout: test
 ---
-testing 123
+Work in progress
 <div class="container">
     <select name="product" id="product">
         <option value="initial">Select a product...</option>
@@ -12,5 +12,6 @@ testing 123
     <select name="sha" id="sha">
         <option value="initial">Select commit...</option>
     </select>
+    <br>
     <div class="info" style="white-space: pre-line"></div>
 </div>
