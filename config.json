@@ -531,6 +531,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Force x86_64",
+          "sha": "3cfcfc1210fc69beaf2ef8ac934825c07cf1508f",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/3cfcfc1210fc69beaf2ef8ac934825c07cf1508f",
+          "url": "https://github.com/acidanthera/AppleALC/commit/3cfcfc1210fc69beaf2ef8ac934825c07cf1508f"
+        },
+        "dateadded": "2020-08-01T19:16:10.205505+00:00",
+        "datecommitted": "2020-08-01T19:05:34+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f8cd818fadc4ab558116b4e53e455ec9c1441bfe270ae963fd5a75772c9fde53"
+          },
+          "release": {
+            "sha256": "1daf240aa89252b1ce747b01628dd8f41b91d7baf47f73bc934fb9782d8f9ae1"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AppleALC-3cfcfc1/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AppleALC-3cfcfc1/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nForce x86_64\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/3cfcfc1210fc69beaf2ef8ac934825c07cf1508f) ([browse tree](https://github.com/acidanthera/AppleALC/tree/3cfcfc1210fc69beaf2ef8ac934825c07cf1508f))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: f8cd818fadc4ab558116b4e53e455ec9c1441bfe270ae963fd5a75772c9fde53\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 1daf240aa89252b1ce747b01628dd8f41b91d7baf47f73bc934fb9782d8f9ae1\n\n\n",
+          "id": 29195368,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/AppleALC-3cfcfc1"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
           "sha": "e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/e8a2a1b8fa0b1a386d96a9be1eee70fd538e0c5f",
