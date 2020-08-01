@@ -23205,6 +23205,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Force x86_64",
+          "sha": "fc858268bd288d02c323d964e290963b8a729b45",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/fc858268bd288d02c323d964e290963b8a729b45",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/fc858268bd288d02c323d964e290963b8a729b45"
+        },
+        "dateadded": "2020-08-01T19:18:06.637330+00:00",
+        "datecommitted": "2020-08-01T19:06:51+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "5c4e3865e0c29b11e384e76dbd9003a33a11ed9ce0832182aee2f103ef5daf74"
+          },
+          "release": {
+            "sha256": "84b8c9b471a0dee5bc56bacff8138514b809d2e1601de8c1eb95b0875ff3b0f3"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-fc85826/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-fc85826/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nForce x86_64\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/fc858268bd288d02c323d964e290963b8a729b45) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/fc858268bd288d02c323d964e290963b8a729b45))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.5-DEBUG.zip: 5c4e3865e0c29b11e384e76dbd9003a33a11ed9ce0832182aee2f103ef5daf74\n**Release:**\nVirtualSMC-1.1.5-RELEASE.zip: 84b8c9b471a0dee5bc56bacff8138514b809d2e1601de8c1eb95b0875ff3b0f3\n\n\n",
+          "id": 29195393,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/VirtualSMC-fc85826"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
+        "commit": {
           "message": "Resolve booting issue on macOS 11 due to provider race condition\n\nNow keystore may get probed much later, causing AppleSMC to arrive\nbefore VirtualSMC instance is active",
           "sha": "14988e34adacd9646efc8e5d9762bce9fc560d73",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/14988e34adacd9646efc8e5d9762bce9fc560d73",
