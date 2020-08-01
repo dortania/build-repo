@@ -3026,6 +3026,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Force x86_64",
+          "sha": "961d066917a53eb552b4148b1a0c4fce10ca1767",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/961d066917a53eb552b4148b1a0c4fce10ca1767",
+          "url": "https://github.com/acidanthera/Lilu/commit/961d066917a53eb552b4148b1a0c4fce10ca1767"
+        },
+        "dateadded": "2020-08-01T17:16:42.746273+00:00",
+        "datecommitted": "2020-08-01T17:11:25+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "df44e260449b9e466bdf78b18f673c32764b721687ddc767dd78d06b60ee5fb9"
+          },
+          "release": {
+            "sha256": "50c5f57c232592409cb7d1e4b26be9212373645081f0e17be334df99f4e6c085"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-961d066/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-961d066/Lilu-1.4.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nForce x86_64\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/961d066917a53eb552b4148b1a0c4fce10ca1767) ([browse tree](https://github.com/acidanthera/Lilu/tree/961d066917a53eb552b4148b1a0c4fce10ca1767))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.6-DEBUG.zip: df44e260449b9e466bdf78b18f673c32764b721687ddc767dd78d06b60ee5fb9\n**Release:**\nLilu-1.4.6-RELEASE.zip: 50c5f57c232592409cb7d1e4b26be9212373645081f0e17be334df99f4e6c085\n\n\n",
+          "id": 29194299,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-961d066"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": {
           "message": "Process already loaded kexts early in 11.0",
           "sha": "405f521afdf2c6825875197b67fdf7eeb74b3c90",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/405f521afdf2c6825875197b67fdf7eeb74b3c90",
