@@ -24438,6 +24438,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Force x86_64",
+          "sha": "515aec25e92964fee3bbfdd772eeab71fa0568e3",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/515aec25e92964fee3bbfdd772eeab71fa0568e3",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/515aec25e92964fee3bbfdd772eeab71fa0568e3"
+        },
+        "dateadded": "2020-08-01T19:18:31.223382+00:00",
+        "datecommitted": "2020-08-01T19:07:05+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-515aec2/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "4057f69e3e79758d24311663c2e7a41c2025a6de7c828739072e085de43bbac6"
+          },
+          "release": {
+            "sha256": "b4040694a06045d410750ff7e31c6472f9fdb161331dd0aa2b655f8ac8e09c46"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-515aec2/WhateverGreen-1.4.1-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-515aec2/WhateverGreen-1.4.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nForce x86_64\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/515aec25e92964fee3bbfdd772eeab71fa0568e3) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/515aec25e92964fee3bbfdd772eeab71fa0568e3))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.1-DEBUG.zip: 4057f69e3e79758d24311663c2e7a41c2025a6de7c828739072e085de43bbac6\n**Release:**\nWhateverGreen-1.4.1-RELEASE.zip: b4040694a06045d410750ff7e31c6472f9fdb161331dd0aa2b655f8ac8e09c46\n**Extras:**\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031\n",
+          "id": 29195395,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/WhateverGreen-515aec2"
+        },
+        "source": "built",
+        "version": "1.4.1"
+      },
+      {
+        "commit": {
           "message": "fix typo and spaces (#59)",
           "sha": "8a8530405d9e440b605a4eb998acf8f5119dbf2c",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/8a8530405d9e440b605a4eb998acf8f5119dbf2c",
