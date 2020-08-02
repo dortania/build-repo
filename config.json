@@ -5240,6 +5240,45 @@
     "versions": [
       {
         "commit": {
+          "message": "Update SSDT-EC-USBX.dsl",
+          "sha": "58bb572f157f7deba665c89d106c2917e9a836fc",
+          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc",
+          "url": "https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc"
+        },
+        "dateadded": "2020-08-02T13:02:57.684880+00:00",
+        "datecommitted": "2020-08-02T12:52:44+00:00",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "60f57e94d8ffc32368c09aa15ee342a9bedcbc6c549c9cdf1ce069940f92dc8b"
+          },
+          "release": {
+            "sha256": "694a52c9adc579d4b919049245669eb6a1daa42af88860db19aad251aacb5370"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nUpdate SSDT-EC-USBX.dsl\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: 60f57e94d8ffc32368c09aa15ee342a9bedcbc6c549c9cdf1ce069940f92dc8b\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 694a52c9adc579d4b919049245669eb6a1daa42af88860db19aad251aacb5370\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "id": 29203205,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-58bb572"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": {
           "message": "OcCpuLib: Fix display name for i9 CPUs like 7920X",
           "sha": "87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09",
           "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09",
