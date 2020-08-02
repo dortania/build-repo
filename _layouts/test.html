@@ -59,6 +59,7 @@ layout: default
                 $("#sha")[0].options.length = 0;
                 $("#sha")[0].add(new Option("Select commit...", "initial", true, true));
                 if ($("#product").val() == "initial" || $("#version").val() == "initial") {
+                    resetInfo();
                     return;
                 }
                 let shas = []
@@ -75,6 +76,7 @@ layout: default
                 $("#version")[0].options.length = 0;
                 $("#version")[0].add(new Option("Select version...", "initial", true, true));
                 if ($("#product").val() == "initial") {
+                    resetSha();
                     return;
                 }
                 let versions = []
