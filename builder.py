@@ -219,7 +219,7 @@ class Builder():
                 version = result.stdout.decode().strip()
         elif b_type == "Kext":
             # plistpath = Path(build_dir).joinpath(p_info)
-            version = plistlib.load(p_info.open(mode="rb"))["CFBundleVersion"]
+            version = plistlib.load(Path(p_info).open(mode="rb"))["CFBundleVersion"]
         else:
             print("\tNo version command!")
             return False
