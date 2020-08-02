@@ -15,5 +15,5 @@ Work in progress
     <input type="checkbox" name="viewall" id="viewall">View all
     <br>
     <div class="info" style="white-space: pre-line"></div>
-    <div class="viewcontainer"></div>
+    <table class="viewcontainer"></table>
 </div>

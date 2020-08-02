@@ -35,7 +35,7 @@ layout: default
                         }
                     });
                     versions.forEach(version => {
-                        $(".viewcontainer").append("<p><strong>" + version + "</strong></p>");
+                        $(".viewcontainer").append("<tr colspan='3'><strong>" + version + "</strong></tr>");
                         let shas = []
                         data[$("#product").val()]["versions"].forEach((v, index) => {
                             if (v.version == version) {
@@ -43,26 +43,26 @@ layout: default
                             }
                         });
                         shas.forEach((element, index) => {
-                            let container_p = $("<p>")
+                            let container_p = $("<tr>")
                             let entry = element[0]
                             let hash_link = $("<a>")
                             hash_link.attr("href", entry.commit.url);
                             hash_link.text(entry.commit.sha);
-                            container_p.append(hash_link)
+                            container_p.append($("<td>").append($("<code>").append(hash_link)))
 
                             if (entry.links.debug) {
                                 container_p.append(" ");
                                 let debug_link = $("<a>");
                                 debug_link.attr("href", entry.links.debug);
                                 debug_link.text("Download Debug");
-                                container_p.append(debug_link);
+                                container_p.append($("<td>").append(debug_link));
                             }
                             if (entry.links.release) {
                                 container_p.append(" ");
                                 let release_link = $("<a>");
                                 release_link.attr("href", entry.links.release);
                                 release_link.text("Download Release");
-                                container_p.append(release_link);
+                                container_p.append($("<td>").append(release_link));
                             }
                             $(".viewcontainer").append(container_p)
                         })
@@ -76,26 +76,26 @@ layout: default
                         }
                     });
                     shas.forEach((element, index) => {
-                        let container_p = $("<p>")
+                        let container_p = $("<tr>")
                         let entry = element[0]
                         let hash_link = $("<a>")
                         hash_link.attr("href", entry.commit.url);
                         hash_link.text(entry.commit.sha);
-                        container_p.append(hash_link)
+                        container_p.append($("<td>").append($("<code>").append(hash_link)))
 
                         if (entry.links.debug) {
                             container_p.append(" ");
                             let debug_link = $("<a>");
                             debug_link.attr("href", entry.links.debug);
                             debug_link.text("Download Debug");
-                            container_p.append(debug_link);
+                            container_p.append($("<td>").append(debug_link));
                         }
                         if (entry.links.release) {
                             container_p.append(" ");
                             let release_link = $("<a>");
                             release_link.attr("href", entry.links.release);
                             release_link.text("Download Release");
-                            container_p.append(release_link);
+                            container_p.append($("<td>").append(release_link));
                         }
                         $(".viewcontainer").append(container_p)
                     })
