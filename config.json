@@ -140,7 +140,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AirportBrcmFixup-ab5e7f8/AirportBrcmFixup-2.0.8-RELEASE.zip"
         },
         "release": {
-          "description": "Support brcmfx-aspm for all chipsets\n[ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a](https://github.com/acidanthera/AirportBrcmFixup/commit/ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.0.8-DEBUG.zip: 10cca0148d89297938544d1e65646eccb92717677d7594cc08c9158d42d4189f\n**Release:**\nAirportBrcmFixup-2.0.8-RELEASE.zip: 795576743373748f5bde8d1ccb5f31b7a3c1f3b8d1ca6a12fbff8ed380aedd18",
+          "description": "**Changes:**\nSupport brcmfx-aspm for all chipsets\n[View on GitHub(https://github.com/acidanthera/AirportBrcmFixup/commit/ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/ab5e7f8322d6c73b1888f2ecb20a5eebef63e90a))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.0.8-DEBUG.zip: 10cca0148d89297938544d1e65646eccb92717677d7594cc08c9158d42d4189f\n**Release:**\nAirportBrcmFixup-2.0.8-RELEASE.zip: 795576743373748f5bde8d1ccb5f31b7a3c1f3b8d1ca6a12fbff8ed380aedd18",
           "id": 28810024,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/AirportBrcmFixup-ab5e7f8"
         },
@@ -638,7 +638,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/AppleALC-25cc96f/AppleALC-1.5.1-RELEASE.zip"
         },
         "release": {
-          "description": "Update README.md\n[25cc96ffed01b965ca18a7be81c488cc9d7f8ed7](https://github.com/acidanthera/AppleALC/commit/25cc96ffed01b965ca18a7be81c488cc9d7f8ed7) ([browse tree](https://github.com/acidanthera/AppleALC/tree/25cc96ffed01b965ca18a7be81c488cc9d7f8ed7))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: c0ca887123ff10ad0aaa722f7e61c74be3e233a7504d9a43f2f3de83b0e025e5\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 9664c4870f6276ff4f43113a41deab5d69afa5070c62f623c6cb00d1909b94c6",
+          "description": "**Changes:**\nUpdate README.md\n[View on GitHub(https://github.com/acidanthera/AppleALC/commit/25cc96ffed01b965ca18a7be81c488cc9d7f8ed7) ([browse tree](https://github.com/acidanthera/AppleALC/tree/25cc96ffed01b965ca18a7be81c488cc9d7f8ed7))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: c0ca887123ff10ad0aaa722f7e61c74be3e233a7504d9a43f2f3de83b0e025e5\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 9664c4870f6276ff4f43113a41deab5d69afa5070c62f623c6cb00d1909b94c6",
           "id": 28857841,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/untagged-2366d918444d28648f68"
         },
@@ -3510,7 +3510,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-d9c8228/Lilu-1.4.6-RELEASE.zip"
         },
         "release": {
-          "description": "Update README.md\n[d9c82288a56c643af644ef2196616f822fdcd358](https://github.com/acidanthera/Lilu/commit/d9c82288a56c643af644ef2196616f822fdcd358) ([browse tree](https://github.com/acidanthera/Lilu/tree/d9c82288a56c643af644ef2196616f822fdcd358))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.6-DEBUG.zip: 4eb12c6347ca6f87ef10cc66997572da1d4ec0fb2255414c17852ef92cc65240\n**Release:**\nLilu-1.4.6-RELEASE.zip: b8b89a5dd61abbb05e2698cc4bf01804c5422a2ed280b98b28bd3d31f15d6b84",
+          "description": "**Changes:**\nUpdate README.md\n[View on GitHub(https://github.com/acidanthera/Lilu/commit/d9c82288a56c643af644ef2196616f822fdcd358) ([browse tree](https://github.com/acidanthera/Lilu/tree/d9c82288a56c643af644ef2196616f822fdcd358))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.6-DEBUG.zip: 4eb12c6347ca6f87ef10cc66997572da1d4ec0fb2255414c17852ef92cc65240\n**Release:**\nLilu-1.4.6-RELEASE.zip: b8b89a5dd61abbb05e2698cc4bf01804c5422a2ed280b98b28bd3d31f15d6b84",
           "id": 28872870,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-d9c8228"
         },
@@ -6440,7 +6440,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-cb4d43e/OpenCore-0.6.0-RELEASE.zip"
         },
         "release": {
-          "description": "OcFileLib: Consolidate to use GetFileInfo\n[cb4d43e2f74c41033b48b0459e6eef7858685a74](https://github.com/acidanthera/OpenCorePkg/commit/cb4d43e2f74c41033b48b0459e6eef7858685a74) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/cb4d43e2f74c41033b48b0459e6eef7858685a74))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: f31635e3c646884f9cd85af6c64ef9c20b255036c2140785914a054b4c4096b1\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 12297ca35679535f8db70e5bba4f7e1636513fa89eae5c6121c3fdf417bff8f7\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "description": "**Changes:**\nOcFileLib: Consolidate to use GetFileInfo\n[View on GitHub(https://github.com/acidanthera/OpenCorePkg/commit/cb4d43e2f74c41033b48b0459e6eef7858685a74) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/cb4d43e2f74c41033b48b0459e6eef7858685a74))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: f31635e3c646884f9cd85af6c64ef9c20b255036c2140785914a054b4c4096b1\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 12297ca35679535f8db70e5bba4f7e1636513fa89eae5c6121c3fdf417bff8f7\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
           "id": 28893717,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-cb4d43e"
         },
@@ -6479,7 +6479,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-359454f/OpenCore-0.6.0-RELEASE.zip"
         },
         "release": {
-          "description": "DataBase: Update builtin firmware versions for 11.0\n[359454f3c4829fe49fb3d49d2a74a6a4ff1bece1](https://github.com/acidanthera/OpenCorePkg/commit/359454f3c4829fe49fb3d49d2a74a6a4ff1bece1) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/359454f3c4829fe49fb3d49d2a74a6a4ff1bece1))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: 30296f9fb718eb097cd54592ec9f05a9033f47a83356fcdaa832e4af78b50478\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 5e9c03d58409099d233ed24c35c63f8b206e78fc18d264d0a2e8b7edbef11929\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "description": "**Changes:**\nDataBase: Update builtin firmware versions for 11.0\n[View on GitHub(https://github.com/acidanthera/OpenCorePkg/commit/359454f3c4829fe49fb3d49d2a74a6a4ff1bece1) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/359454f3c4829fe49fb3d49d2a74a6a4ff1bece1))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: 30296f9fb718eb097cd54592ec9f05a9033f47a83356fcdaa832e4af78b50478\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 5e9c03d58409099d233ed24c35c63f8b206e78fc18d264d0a2e8b7edbef11929\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
           "id": 28857300,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-359454f"
         },
@@ -6518,7 +6518,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-75b7ead/OpenCore-0.6.0-RELEASE.zip"
         },
         "release": {
-          "description": "Update SampleLegacy.plist\n[75b7ead8dcfbcb07e8dc737a4f0664b6f91e0187](https://github.com/acidanthera/OpenCorePkg/commit/75b7ead8dcfbcb07e8dc737a4f0664b6f91e0187) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/75b7ead8dcfbcb07e8dc737a4f0664b6f91e0187))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: cdef32cc8365876fbab7242cb2bd2a67cbbf72bfc4b854efd4a1b1af492d7385\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 9ba576bff4006888bc04af94c4ae1ab377f7abe4ad0f339d3a7ed2f0cace56ef\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
+          "description": "**Changes:**\nUpdate SampleLegacy.plist\n[View on GitHub(https://github.com/acidanthera/OpenCorePkg/commit/75b7ead8dcfbcb07e8dc737a4f0664b6f91e0187) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/75b7ead8dcfbcb07e8dc737a4f0664b6f91e0187))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: cdef32cc8365876fbab7242cb2bd2a67cbbf72bfc4b854efd4a1b1af492d7385\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 9ba576bff4006888bc04af94c4ae1ab377f7abe4ad0f339d3a7ed2f0cace56ef\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
           "id": 28829855,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-75b7ead"
         },
@@ -6553,7 +6553,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-b7e99c1/OpenCore-0.6.0-RELEASE.zip"
         },
         "release": {
-          "description": "Includes: Fix MKext header comments\n[b7e99c100c442b6b94f9e76eff70f44c25ea3942](https://github.com/acidanthera/OpenCorePkg/commit/b7e99c100c442b6b94f9e76eff70f44c25ea3942) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/b7e99c100c442b6b94f9e76eff70f44c25ea3942))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: cf89312bd45e7be62c42eeb8e642beceb988330db7929596f5d50c126b6aee0c\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 43bad419444a13be15efe41970a4a525eb2bcd214cc5ad4112acaf2d84810fb6",
+          "description": "**Changes:**\nIncludes: Fix MKext header comments\n[View on GitHub(https://github.com/acidanthera/OpenCorePkg/commit/b7e99c100c442b6b94f9e76eff70f44c25ea3942) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/b7e99c100c442b6b94f9e76eff70f44c25ea3942))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: cf89312bd45e7be62c42eeb8e642beceb988330db7929596f5d50c126b6aee0c\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 43bad419444a13be15efe41970a4a525eb2bcd214cc5ad4112acaf2d84810fb6",
           "id": 28760532,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-b7e99c1"
         },
@@ -24867,7 +24867,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/WhateverGreen-1f7271b/WhateverGreen-1.4.1-RELEASE.zip"
         },
         "release": {
-          "description": "Update FAQ.IntelHD.en.md\n[1f7271b48f99e564d221b8099c41408bc6dd4c2b](https://github.com/acidanthera/WhateverGreen/commit/1f7271b48f99e564d221b8099c41408bc6dd4c2b) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/1f7271b48f99e564d221b8099c41408bc6dd4c2b))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.1-DEBUG.zip: 65e04dfb2222329c8bb90c89b411ad65ba13d4a3f60f84d60519b79df0e8e354\n**Release:**\nWhateverGreen-1.4.1-RELEASE.zip: ab2577cd4ef20e6ad6463b133195f60b18dc90e0adf408c63794b7a06d6f2a65",
+          "description": "**Changes:**\nUpdate FAQ.IntelHD.en.md\n[View on GitHub(https://github.com/acidanthera/WhateverGreen/commit/1f7271b48f99e564d221b8099c41408bc6dd4c2b) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/1f7271b48f99e564d221b8099c41408bc6dd4c2b))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.1-DEBUG.zip: 65e04dfb2222329c8bb90c89b411ad65ba13d4a3f60f84d60519b79df0e8e354\n**Release:**\nWhateverGreen-1.4.1-RELEASE.zip: ab2577cd4ef20e6ad6463b133195f60b18dc90e0adf408c63794b7a06d6f2a65",
           "id": 28760531,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/WhateverGreen-1f7271b"
         },
