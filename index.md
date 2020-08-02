@@ -12,7 +12,8 @@ Work in progress
     <select name="sha" id="sha">
         <option value="initial">Select commit...</option>
     </select>
-    <input type="checkbox" name="viewall" id="viewall">View all</input>
+    <input type="checkbox" name="viewall" id="viewall">View all
     <br>
     <div class="info" style="white-space: pre-line"></div>
+    <div class="viewcontainer"></div>
 </div>

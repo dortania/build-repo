@@ -17,10 +17,91 @@ layout: default
         $.getJSON("https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/builds/config.json", function (data) {
             const converter = new showdown.Converter()
             Object.keys(data).filter(key => !key.startsWith("_")).forEach(key => $("#product")[0].add(new Option(key, key)))
+            var handleViewContainer = function () {
+                $(".viewcontainer").empty();
+                if (!($("#viewall").is(":checked")) || !($("#sha").val() == "initial")) {
+                    return;
+                }
+                if ($("#product").val() == "initial") {
+                    $(".viewcontainer").text("You must select a product to view all builds.");
+                }
+                if ($("#version").val() == "initial") {
+                    // List versions + shas.
+                    let versions = []
+                    data[$("#product").val()]["versions"].forEach((element, index) => {
+                        if (versions.findIndex(x => x == element.version) === -1) {
+                            versions.push(element.version);
+                        }
+                    });
+                    versions.forEach(version => {
+                        $(".viewcontainer").append("<p><strong>" + version + "</strong></p>");
+                        let shas = []
+                        data[$("#product").val()]["versions"].forEach((v, index) => {
+                            if (v.version == version) {
+                                shas.push([v, index]);
+                            }
+                        });
+                        shas.forEach((element, index) => {
+                            let container_p = $("<p>")
+                            let entry = element[0]
+                            let hash_link = $("<a>")
+                            hash_link.attr("href", entry.commit.url);
+                            hash_link.text(entry.commit.sha);
+                            container_p.append(hash_link)
+
+                            if (entry.links.debug) {
+                                let debug_link = $("<a>");
+                                debug_link.attr("href", entry.links.debug);
+                                debug_link.text("Download Debug");
+                                container_p.append(debug_link);
+                            }
+                            if (entry.links.release) {
+                                let release_link = $("<a>");
+                                release_link.attr("href", entry.links.release);
+                                release_link.text("Download Release");
+                                container_p.append(release_link);
+                            }
+                            $(".viewcontainer").append(container_p)
+                        })
+                    })
+                } else {
+                    // Just shas.
+                    let shas = []
+                    data[$("#product").val()]["versions"].forEach((element, index) => {
+                        if (element.version == $("#version").val()) {
+                            shas.push([element, index]);
+                        }
+                    });
+                    shas.forEach((element, index) => {
+                        let container_p = $("<p>")
+                        let entry = element[0]
+                        let hash_link = $("<a>")
+                        hash_link.attr("href", entry.commit.url);
+                        hash_link.text(entry.commit.sha);
+                        container_p.append(hash_link)
+
+                        if (entry.links.debug) {
+                            let debug_link = $("<a>");
+                            debug_link.attr("href", entry.links.debug);
+                            debug_link.text("Download Debug");
+                            container_p.append(debug_link);
+                        }
+                        if (entry.links.release) {
+                            let release_link = $("<a>");
+                            release_link.attr("href", entry.links.release);
+                            release_link.text("Download Release");
+                            container_p.append(release_link);
+                        }
+                        $(".viewcontainer").append(container_p)
+                    })
+                }
+
+            }
             var resetInfo = function () {
                 console.log("resetInfo");
                 $(".info").empty()
                 if ($("#product").val() == "initial" || $("#version").val() == "initial" || $("#sha").val() == "initial") {
+                    handleViewContainer();
                     return;
                 }
                 let entry = data[$("#product").val()]["versions"][$("#sha").val()]
@@ -51,7 +132,7 @@ layout: default
                 gh_release_link.text("View on GitHub Releases");
                 $(".info").append("<br>");
                 $(".info").append(gh_release_link)
-
+                handleViewContainer();
                 //$(".info").text()
             }
             var resetSha = function () {
@@ -93,6 +174,7 @@ layout: default
             $("#product").change(resetVersion)
             $("#version").change(resetSha)
             $("#sha").change(resetInfo)
+            $("#viewall").change(handleViewContainer)
         })
     </script>
 </article>
