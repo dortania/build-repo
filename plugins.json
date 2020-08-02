@@ -161,8 +161,9 @@
           "name": "Run VoodooInput Bootstrap"
         }
       ],
-      "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "Release File": "build/Products/Release/*.zip",
+      "Debug File": "build/Products/Debug/*.zip",
+      "Info": "build/Products/Debug/VoodooPS2Controller.kext/Contents/Info.plist"
     },
     {
       "URL": "https://github.com/acidanthera/OpenCorePkg",
