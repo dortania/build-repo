@@ -73,7 +73,7 @@ for plugin in plugins:
             if i["commit"]["sha"] == commit["sha"]:
                 not_in_repo = False
         within_max_outstanding = commits.index(commit) <= MAX_OUTSTANDING_COMMITS
-        if (newer and not_in_repo or force_build) and within_max_outstanding:
+        if (newer and not_in_repo or force_build or (not_in_repo and commits.index(commit) == 0)) and within_max_outstanding:
             if commits.index(commit) == 0:
                 print(repo + " by " + organization + " latest commit (" + commit_date.isoformat() + ") not built")
             else:
