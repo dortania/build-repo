@@ -68,6 +68,7 @@ layout: default
                     }
                 });
                 shas.forEach((element, index) => $("#sha")[0].add(new Option(element[0].commit.sha + (index == 0 ? " (latest)" : ""), element[1])))
+                resetInfo();
             }
             var resetVersion = function () {
                 console.log("resetVersion");
