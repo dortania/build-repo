@@ -24,6 +24,7 @@ layout: default
                 }
                 if ($("#product").val() == "initial") {
                     $(".viewcontainer").text("You must select a product to view all builds.");
+                    return;
                 }
                 if ($("#version").val() == "initial") {
                     // List versions + shas.
@@ -50,12 +51,14 @@ layout: default
                             container_p.append(hash_link)
 
                             if (entry.links.debug) {
+                                container_p.append(" ");
                                 let debug_link = $("<a>");
                                 debug_link.attr("href", entry.links.debug);
                                 debug_link.text("Download Debug");
                                 container_p.append(debug_link);
                             }
                             if (entry.links.release) {
+                                container_p.append(" ");
                                 let release_link = $("<a>");
                                 release_link.attr("href", entry.links.release);
                                 release_link.text("Download Release");
@@ -81,12 +84,14 @@ layout: default
                         container_p.append(hash_link)
 
                         if (entry.links.debug) {
+                            container_p.append(" ");
                             let debug_link = $("<a>");
                             debug_link.attr("href", entry.links.debug);
                             debug_link.text("Download Debug");
                             container_p.append(debug_link);
                         }
                         if (entry.links.release) {
+                            container_p.append(" ");
                             let release_link = $("<a>");
                             release_link.attr("href", entry.links.release);
                             release_link.text("Download Release");
