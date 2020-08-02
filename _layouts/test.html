@@ -56,7 +56,6 @@ layout: default
             }
             var resetSha = function () {
                 console.log("resetSha");
-                resetInfo();
                 $("#sha")[0].options.length = 0;
                 $("#sha")[0].add(new Option("Select commit...", "initial", true, true));
                 if ($("#product").val() == "initial" || $("#version").val() == "initial") {
@@ -72,7 +71,6 @@ layout: default
             }
             var resetVersion = function () {
                 console.log("resetVersion");
-                resetSha();
                 $("#version")[0].options.length = 0;
                 $("#version")[0].add(new Option("Select version...", "initial", true, true));
                 if ($("#product").val() == "initial") {
@@ -87,6 +85,7 @@ layout: default
                 versions.forEach((element, index) => {
                     $("#version")[0].add(new Option(element, element));
                 })
+                resetSha();
             }
             $("#product").change(resetVersion)
             $("#version").change(resetSha)
