@@ -35,10 +35,10 @@ layout: default
                         }
                     });
                     versions.forEach(version => {
-                        let trow = $("<tr>");
-                        trow.attr("colspan", 3);
-                        trow.append("<strong>"+version+"</strong>")
-                        $(".viewcontainer").append(trow);
+                        let thead = $("<th>");
+                        thead.attr("colspan", 3);
+                        thead.append("<strong>"+version+"</strong>")
+                        $(".viewcontainer").append(thead);
                         let shas = []
                         data[$("#product").val()]["versions"].forEach((v, index) => {
                             if (v.version == version) {
