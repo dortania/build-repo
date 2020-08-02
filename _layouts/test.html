@@ -16,7 +16,7 @@ layout: default
     <script>
         $.getJSON("https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/builds/config.json", function (data) {
             const converter = new showdown.Converter()
-            Object.keys(data).filter(key => !key.startsWith("_")).forEach(key => $("#product")[0].add(new Option, key, key))
+            Object.keys(data).filter(key => !key.startsWith("_")).forEach(key => $("#product")[0].add(new Option(key, key)))
             var resetInfo = function () {
                 $(".info").empty()
                 if ($("#product").val() == "initial" || $("#version").val() == "initial" || $("#sha").val() == "initial") {
