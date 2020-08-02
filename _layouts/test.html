@@ -65,7 +65,12 @@ layout: default
                             container_p.append($("<td>").append($("<code>").append(hash_link)))
 
                             let message_text = $("<td>")
-                            message_text.text(entry.commit.message.split("\n")[0])
+                            message_text.attr("style", "text-align: left;")
+                            if (entry.commit.message.split("\n")[0].length > 80) {
+                                message_text.text(entry.commit.message.split("\n")[0].slice(0, 80) + "...")
+                            } else {
+                                message_text.text(entry.commit.message.split("\n")[0])
+                            }
                             container_p.append(message_text)
 
                             if (entry.links.debug) {
