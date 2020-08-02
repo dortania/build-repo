@@ -5245,7 +5245,7 @@
           "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc",
           "url": "https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc"
         },
-        "dateadded": "2020-08-02T17:00:17.224948+00:00",
+        "dateadded": "2020-08-02T17:16:14.950550+00:00",
         "datecommitted": "2020-08-02T12:52:44+00:00",
         "extras": {
           "SSDT-ALS0.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/SSDT-ALS0.aml",
@@ -5299,10 +5299,10 @@
             "sha256": "49767af3036a3a15e49c7de9a1c619da092266bc0f3263e3130efa10e2063009"
           },
           "debug": {
-            "sha256": "f9552b028263ab52efd4f3e868913f631072c6cf829dbd3ba51ed895bd6ecefe"
+            "sha256": "c017d3d48a3b25d24036b199caa7185ee0e5ee4b7eb2790ff03f6bf3dcb6e396"
           },
           "release": {
-            "sha256": "c8f4f222bdd6375bb1ae2da7b01ae7387bd6ef09a51ce6146570aa53bccc3a08"
+            "sha256": "4e544236bc9beb88fc11aea828657912347351761359405c39bc8a36077a21e4"
           }
         },
         "links": {
@@ -5310,76 +5310,8 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/OpenCore-0.6.0-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nUpdate SSDT-EC-USBX.dsl\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: f9552b028263ab52efd4f3e868913f631072c6cf829dbd3ba51ed895bd6ecefe\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: c8f4f222bdd6375bb1ae2da7b01ae7387bd6ef09a51ce6146570aa53bccc3a08\n**Extras:**\nSSDT-ALS0.aml: 5b8022211c01bccbe1cb6150e96a098b23834e718bc4423d8fe7c3715237dfbb\nSSDT-EC.aml: 3e7827481836492e112cd235d6e83eef96eae5a27e25b108e8335daae152fe2f\nSSDT-IMEI.aml: 0fcaa544249b0a208d04dded578fb59af8db99c7b33aad12135ee1d45712a8c2\nSSDT-RTC0.aml: 325f3f365c46d04825efbab94db0ba4bf028d3913504a7fc1df517bd9d7fd3d4\nSSDT-AWAC.aml: 889b97fbe3937e57ce69124c8c4c2a91df136595b1c632b99210b2a008ea80f6\nSSDT-RTC0-RANGE.aml: 3935851a1b477998641f552461ca36e99ec12f98d14b6bd42b1b73e52e5d41ba\nSSDT-EHCx_OFF.aml: f7a9a3a6765437f096b1d23d0c27cdffcc4e72d539f21b3ec0e6cba251828154\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-EC-USBX.aml: 2572e90b7cc21cc7f2fdc194115278fd80f57bfb8c4cff8fb2bcb63d08628888\nSSDT-SBUS-MCHC.aml: 49767af3036a3a15e49c7de9a1c619da092266bc0f3263e3130efa10e2063009\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\nSSDT-BRG0.aml: c4fffacaea89c752b4a840633c26a648f6317a04d3432e8b4a2004738988d660",
-          "id": 29205617,
-          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-58bb572"
-        },
-        "source": "built",
-        "version": "0.6.0"
-      },
-      {
-        "commit": {
-          "message": "Update SSDT-EC-USBX.dsl",
-          "sha": "58bb572f157f7deba665c89d106c2917e9a836fc",
-          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc",
-          "url": "https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc"
-        },
-        "dateadded": "2020-08-02T16:32:58.048244+00:00",
-        "datecommitted": "2020-08-02T12:52:44+00:00",
-        "hashes": {
-          "debug": {
-            "sha256": "f23c93ffb8175d967de2729d3aa5fbe1223c0585e29764f8eae541b1845161ac"
-          },
-          "release": {
-            "sha256": "013fd88cb88e425e71eb0ab74183bef8a1b251b93f2eb14183b18bc9b55f5ba1"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/OpenCore-0.6.0-DEBUG.zip",
-          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/OpenCore-0.6.0-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes**\nUpdate SSDT-EC-USBX.dsl\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: f23c93ffb8175d967de2729d3aa5fbe1223c0585e29764f8eae541b1845161ac\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 013fd88cb88e425e71eb0ab74183bef8a1b251b93f2eb14183b18bc9b55f5ba1",
-          "id": 29205361,
-          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-58bb572"
-        },
-        "source": "built",
-        "version": "0.6.0"
-      },
-      {
-        "commit": {
-          "message": "Update SSDT-EC-USBX.dsl",
-          "sha": "58bb572f157f7deba665c89d106c2917e9a836fc",
-          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc",
-          "url": "https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc"
-        },
-        "dateadded": "2020-08-02T13:02:57.684880+00:00",
-        "datecommitted": "2020-08-02T12:52:44+00:00",
-        "extras": {
-          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/SSDT-PLUG.aml",
-          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/SSDT-PMC.aml"
-        },
-        "hashes": {
-          "SSDT-PLUG.aml": {
-            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
-          },
-          "SSDT-PMC.aml": {
-            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
-          },
-          "debug": {
-            "sha256": "60f57e94d8ffc32368c09aa15ee342a9bedcbc6c549c9cdf1ce069940f92dc8b"
-          },
-          "release": {
-            "sha256": "694a52c9adc579d4b919049245669eb6a1daa42af88860db19aad251aacb5370"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/OpenCore-0.6.0-DEBUG.zip",
-          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/OpenCore-0.6.0-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes:**\nUpdate SSDT-EC-USBX.dsl\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: 60f57e94d8ffc32368c09aa15ee342a9bedcbc6c549c9cdf1ce069940f92dc8b\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 694a52c9adc579d4b919049245669eb6a1daa42af88860db19aad251aacb5370\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa",
-          "id": 29203205,
+          "description": "**Changes:**\nUpdate SSDT-EC-USBX.dsl\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: c017d3d48a3b25d24036b199caa7185ee0e5ee4b7eb2790ff03f6bf3dcb6e396\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 4e544236bc9beb88fc11aea828657912347351761359405c39bc8a36077a21e4\n**Extras:**\nSSDT-ALS0.aml: 5b8022211c01bccbe1cb6150e96a098b23834e718bc4423d8fe7c3715237dfbb\nSSDT-EC.aml: 3e7827481836492e112cd235d6e83eef96eae5a27e25b108e8335daae152fe2f\nSSDT-IMEI.aml: 0fcaa544249b0a208d04dded578fb59af8db99c7b33aad12135ee1d45712a8c2\nSSDT-RTC0.aml: 325f3f365c46d04825efbab94db0ba4bf028d3913504a7fc1df517bd9d7fd3d4\nSSDT-AWAC.aml: 889b97fbe3937e57ce69124c8c4c2a91df136595b1c632b99210b2a008ea80f6\nSSDT-RTC0-RANGE.aml: 3935851a1b477998641f552461ca36e99ec12f98d14b6bd42b1b73e52e5d41ba\nSSDT-EHCx_OFF.aml: f7a9a3a6765437f096b1d23d0c27cdffcc4e72d539f21b3ec0e6cba251828154\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-EC-USBX.aml: 2572e90b7cc21cc7f2fdc194115278fd80f57bfb8c4cff8fb2bcb63d08628888\nSSDT-SBUS-MCHC.aml: 49767af3036a3a15e49c7de9a1c619da092266bc0f3263e3130efa10e2063009\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\nSSDT-BRG0.aml: c4fffacaea89c752b4a840633c26a648f6317a04d3432e8b4a2004738988d660",
+          "id": 29205758,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-58bb572"
         },
         "source": "built",
