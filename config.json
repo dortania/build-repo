@@ -23263,6 +23263,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Improve SMC generation debugging",
+          "sha": "3afec50bda58632ab85cf00d70bb490570cc3595",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/3afec50bda58632ab85cf00d70bb490570cc3595",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/3afec50bda58632ab85cf00d70bb490570cc3595"
+        },
+        "dateadded": "2020-08-02T06:08:35.556789+00:00",
+        "datecommitted": "2020-08-02T06:05:27+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "8e36cde3f2540b1fc8c513f0f9376a3717abe86fe4fd16cba7ebe778d76684b7"
+          },
+          "release": {
+            "sha256": "22f954373a73fc59142c7e58e966ed4307411019afd835e7cfc741046926bd0b"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-3afec50/VirtualSMC-1.1.5-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-3afec50/VirtualSMC-1.1.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nImprove SMC generation debugging\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/3afec50bda58632ab85cf00d70bb490570cc3595) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/3afec50bda58632ab85cf00d70bb490570cc3595))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.5-DEBUG.zip: 8e36cde3f2540b1fc8c513f0f9376a3717abe86fe4fd16cba7ebe778d76684b7\n**Release:**\nVirtualSMC-1.1.5-RELEASE.zip: 22f954373a73fc59142c7e58e966ed4307411019afd835e7cfc741046926bd0b\n\n\n",
+          "id": 29199728,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/VirtualSMC-3afec50"
+        },
+        "source": "built",
+        "version": "1.1.5"
+      },
+      {
+        "commit": {
           "message": "Force x86_64",
           "sha": "fc858268bd288d02c323d964e290963b8a729b45",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/fc858268bd288d02c323d964e290963b8a729b45",
