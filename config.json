@@ -23283,7 +23283,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VirtualSMC-3afec50/VirtualSMC-1.1.5-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes**\nImprove SMC generation debugging\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/3afec50bda58632ab85cf00d70bb490570cc3595) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/3afec50bda58632ab85cf00d70bb490570cc3595))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.5-DEBUG.zip: 8e36cde3f2540b1fc8c513f0f9376a3717abe86fe4fd16cba7ebe778d76684b7\n**Release:**\nVirtualSMC-1.1.5-RELEASE.zip: 22f954373a73fc59142c7e58e966ed4307411019afd835e7cfc741046926bd0b\n\n\n",
+          "description": "**Changes:**\n**Changes**\nImprove SMC generation debugging\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/3afec50bda58632ab85cf00d70bb490570cc3595) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/3afec50bda58632ab85cf00d70bb490570cc3595))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.5-DEBUG.zip: 8e36cde3f2540b1fc8c513f0f9376a3717abe86fe4fd16cba7ebe778d76684b7\n**Release:**\nVirtualSMC-1.1.5-RELEASE.zip: 22f954373a73fc59142c7e58e966ed4307411019afd835e7cfc741046926bd0b\n\n\n",
           "id": 29199728,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/VirtualSMC-3afec50"
         },
