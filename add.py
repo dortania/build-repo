@@ -140,8 +140,8 @@ def add_built(plugin, token):
 **Release:**
 {files["release"].name + ': ' + release['hashes']['release']["sha256"]}
 {'**Extras:**' if files["extras"] else ''}
-{new_line.join([file.name + ': ' + release['hashes'][file.name]['sha256'] for file in files["extras"]]) if files["extras"] else ''}
-"""
+{new_line.join([(file.name + ': ' + release['hashes'][file.name]['sha256']) for file in files["extras"]]) if files["extras"] else ''}
+""".strip()
 
     hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release["release"]["id"]), auth=("dhinakg", token)).POST(json={
         "body": release["release"]["description"]

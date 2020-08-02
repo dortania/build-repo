@@ -1,6 +1,7 @@
 import json
 import subprocess
 import copy
+import urllib.parse
 from pathlib import Path
 
 import dateutil.parser
@@ -76,21 +77,30 @@ for i in config:
         sha = config[i]["versions"][j].pop("commit")
         desc = config[i]["versions"][j].pop("description")
         config[i]["versions"][j]["commit"] = {"sha": sha, "message": desc}
-    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("releaseid", None)]:
-        relid = config[i]["versions"][j].pop("releaseid")
-        config[i]["versions"][j]["release"] = {"id": relid}
-    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("release", {}).get("id", None) and not item.get("release", {}).get("description", None)]:
+    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("release", {}).get("id", None) and (not item.get("release", {}).get("description", None) or not item.get("release", {}).get("url", None))]:
         rel = json.loads(hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(config[i]["versions"][j]["release"]["id"]), auth=("dhinakg", token)).GET().text)
         config[i]["versions"][j]["release"]["description"] = rel["body"] if rel.get("body") else None
-    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("release", {}).get("id", None) and not item.get("release", {}).get("url", None)]:
-        rel = json.loads(hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(config[i]["versions"][j]["release"]["id"]), auth=("dhinakg", token)).GET().text)
-        if rel.get("html_url"):
-            config[i]["versions"][j]["release"]["url"] = rel["html_url"]
-    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("release", {}).get("description", None)]:
-        config[i]["versions"][j]["release"]["description"] = config[i]["versions"][j]["release"]["description"].replace("**Hashes**:\n\nDebug:\n\n", "**Hashes**:\n**Debug:**\n").replace("\nRelease:\n\n", "**Release:**\n").replace("\nExtras:\n\n", "**Extras:**\n").replace(config[i]["versions"][j]["commit"]["sha"] + "]", "View on GitHub").replace("**Changes:**\n**Changes:**\n", "**Changes:**\n").replace("View on GitHub)", config[i]["versions"][j]["commit"]["sha"] + ")")
-        if config[i]["versions"][j]["release"]["description"][:13] != "**Changes:**\n":
-            config[i]["versions"][j]["release"]["description"] = "**Changes:**\n" + config[i]["versions"][j]["release"]["description"]
+        config[i]["versions"][j]["release"]["url"] = rel["html_url"] if rel.get("html_url") else None
     config[i]["versions"] = [i for i in config[i]["versions"] if i.get("release", {}).get("url", True)]
+    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("extras", None)]:
+        item["extras"] = {i: v for i, v in item["extras"].items() if v}
+    for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if not item.get("extras", True)]:
+        item.pop("extras", False)
+#     # Temporary
+#     for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("release", {}).get("description", False)]:
+#         new_line = "\n"
+#         item["release"]["description"] = f"""**Changes:**
+# {item['commit']['message'].strip()}
+# [View on GitHub]({item['commit']['url']}) ([browse tree]({item["commit"]["tree_url"]}))
+
+# **Hashes**:
+# {'**Debug:**' if item["links"].get("debug", None) else ''}
+# {(Path(urllib.parse.urlparse(item["links"]["debug"]).path).name + ': ' + item['hashes']['debug']["sha256"]) if item["links"].get("debug", None) else ''}
+# {'**Release:**' if item["links"].get("release", None) else ''}
+# {(Path(urllib.parse.urlparse(item["links"]["release"]).path).name + ': ' + item['hashes']['release']["sha256"]) if item["links"].get("release", None) else ''}
+# {'**Extras:**' if item.get("extras", None) else ''}
+# {new_line.join([(Path(urllib.parse.urlparse(item["extras"][file]).path).name + ': ' + item['hashes'][file]['sha256']) for file in item["extras"]]) if item.get("extras", None) else ''}
+# """.strip()
 
 for i in config:
     for j, item in enumerate(config[i]["versions"]):

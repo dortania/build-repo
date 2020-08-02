@@ -115,8 +115,9 @@ for product in config:
 
         new_line = "\n"  # No escapes in f-strings
 
-        version["release"]["description"] = f"""{version['commit']['message'].strip()}
-[{version['commit']['sha']}]({version['commit']['url']}) ([browse tree]({version["commit"]["tree_url"]}))
+        version["release"]["description"] = f"""**Changes**
+{version['commit']['message'].strip()}
+[View on GitHub]({version['commit']['url']}) ([browse tree]({version["commit"]["tree_url"]}))
 
 **Hashes**:
 {'**Debug:**' if version["links"].get("debug", None) else ''}
@@ -124,8 +125,8 @@ for product in config:
 {'**Release:**' if version["links"].get("release", None) else ''}
 {(Path(urllib.parse.urlparse(version["links"]["release"]).path).name + ': ' + version['hashes']['release']["sha256"]) if version["links"].get("release", None) else ''}
 {'**Extras:**' if version.get("extras", None) else ''}
-{new_line.join([Path(urllib.parse.urlparse(version["extras"][file]).path).name + ': ' + version['hashes'][file]['sha256'] for file in version["extras"]]) if version.get("extras", None) else ''}
-"""
+{new_line.join([(Path(urllib.parse.urlparse(version["extras"][file]).path).name + ': ' + version['hashes'][file]['sha256']) for file in version["extras"]]) if version.get("extras", None) else ''}
+""".strip()
 
         hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(version["release"]["id"]), auth=("dhinakg", token)).POST(json={
             "body": version["release"]["description"]
