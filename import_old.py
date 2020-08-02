@@ -115,7 +115,7 @@ for product in config:
 
         new_line = "\n"  # No escapes in f-strings
 
-        version["release"]["description"] = f"""**Changes**
+        version["release"]["description"] = f"""**Changes:**
 {version['commit']['message'].strip()}
 [View on GitHub]({version['commit']['url']}) ([browse tree]({version["commit"]["tree_url"]}))
 

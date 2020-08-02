@@ -107,7 +107,11 @@
       ],
       "Combined": true,
       "Command": "make",
-      "Version": ["awk", "/CFBundleVersion/ { getline; print substr($0,10,5) }", "build/Debug/VoodooPS2Controller.kext/Contents/Info.plist"],
+      "Version": [
+        "awk",
+        "/CFBundleVersion/ { getline; print substr($0,10,5) }",
+        "build/Debug/VoodooPS2Controller.kext/Contents/Info.plist"
+      ],
       "Release File": "release.zip",
       "Debug File": "debug.zip"
     },
@@ -136,12 +140,83 @@
       "Name": "OpenCorePkg",
       "Desc": "OpenCore front end",
       "Type": "Bootloader",
-      "Command": "./build_oc.tool",
+      "Command": [
+        {
+          "path": "./build_duet.tool",
+          "args": [],
+          "name": "Building DuetPkg"
+        },
+        {
+          "path": "./build_oc.tool",
+          "args": [],
+          "name": "Building OpenCorePkg"
+        }
+      ],
       "Combined": true,
       "Release File": "Binaries/*RELEASE*.zip",
       "Debug File": "Binaries/*DEBUG*.zip",
-      "Version": ["awk", "/^#define OPEN_CORE_VERSION/ { print substr($3,2,5) }", "Include/Acidanthera/OpenCore.h"],
+      "Version": [
+        "awk",
+        "/^#define OPEN_CORE_VERSION/ { print substr($3,2,5) }",
+        "Include/Acidanthera/OpenCore.h"
+      ],
       "Pre-Build": [
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-ALS0.dsl"
+          ],
+          "name": "Compile SSDT-ALS0.dsl"
+        },
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-AWAC.dsl"
+          ],
+          "name": "Compile SSDT-AWAC.dsl"
+        },
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-BRG0.dsl"
+          ],
+          "name": "Compile SSDT-BRG0.dsl"
+        },
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-EC-USBX.dsl"
+          ],
+          "name": "Compile SSDT-EC-USBX.dsl"
+        },
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-EC.dsl"
+          ],
+          "name": "Compile SSDT-EC.dsl"
+        },
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-EHCx_OFF.dsl"
+          ],
+          "name": "Compile SSDT-EHCx_OFF.dsl"
+        },
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-IMEI.dsl"
+          ],
+          "name": "Compile SSDT-IMEI.dsl"
+        },
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-PLUG.dsl"
+          ],
+          "name": "Compile SSDT-PLUG.dsl"
+        },
         {
           "path": "iasl",
           "args": [
@@ -152,9 +227,23 @@
         {
           "path": "iasl",
           "args": [
-            "Docs/AcpiSamples/SSDT-PLUG.dsl"
+            "Docs/AcpiSamples/SSDT-RTC0-RANGE.dsl"
           ],
-          "name": "Compile SSDT-PLUG.dsl"
+          "name": "Compile SSDT-RTC0-RANGE.dsl"
+        },
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-RTC0.dsl"
+          ],
+          "name": "Compile SSDT-RTC0.dsl"
+        },
+        {
+          "path": "iasl",
+          "args": [
+            "Docs/AcpiSamples/SSDT-SBUS-MCHC.dsl"
+          ],
+          "name": "Compile SSDT-SBUS-MCHC.dsl"
         }
       ],
       "Extras": [

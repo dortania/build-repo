@@ -74,7 +74,7 @@ def add_built(plugin, token):
 
     release = {}
     if config[name]["versions"]:
-        config[name]["versions"] = [i for i in config[name]["versions"] if not config.get("commit", {}).get("sha", None) == commit_info["sha"]]
+        config[name]["versions"] = [i for i in config[name]["versions"] if not (i.get("commit", {}).get("sha", None) == commit_info["sha"])]
 
     release["commit"] = {"sha": commit_info["sha"], "message": commit_info["commit"]["message"], "url": commit_info["html_url"], "tree_url": commit_info["html_url"].replace("/commit/", "/tree/")}
     release["version"] = files["version"]
@@ -130,7 +130,7 @@ def add_built(plugin, token):
             release["extras"][file.name] = upload_release_asset(release["release"]["id"], token, file)
     new_line = "\n"  # No escapes in f-strings
 
-    release["release"]["description"] = f"""**Changes**
+    release["release"]["description"] = f"""**Changes:**
 {release['commit']['message'].strip()}
 [View on GitHub]({release['commit']['url']}) ([browse tree]({release['commit']['tree_url']}))
 

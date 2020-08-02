@@ -145,7 +145,7 @@ class Builder():
                 else:
                     print("\t\tTask completed.")
         chdir(self.working_dir / Path(name))
-        if command:
+        if isinstance(command, str) or (isinstance(command, list) and all(isinstance(n, str) for n in command)):
             print("\tBuilding...")
             if isinstance(command, str):
                 command = command.split()
@@ -156,6 +156,17 @@ class Builder():
                 print(result.stderr.decode())
                 print("\tReturn code: " + str(result.returncode))
                 return False
+        elif isinstance(command, list) and all(isinstance(n, dict) for n in command):
+            # Multiple commands
+            for i in command:
+                print("\t" + i["name"] + "...")
+                result = subprocess.run([i["path"]] + i["args"], capture_output=True)
+                if result.returncode != 0:
+                    print("\tCommand failed!")
+                    print(result.stdout.decode())
+                    print(result.stderr.decode())
+                    print("\tReturn code: " + str(result.returncode))
+                    return False
         else:
             print("\tBuilding release version...")
             args = "xcodebuild -quiet -configuration Release".split()
