@@ -12,10 +12,12 @@ layout: default
     </div>
 
     <style>
-        tr > td {
+        tr>td {
             text-align: center;
         }
-        table th, table td {
+
+        table th,
+        table td {
             padding: 3px 10px;
         }
     </style>
@@ -59,8 +61,12 @@ layout: default
                             let entry = element[0]
                             let hash_link = $("<a>")
                             hash_link.attr("href", entry.commit.url);
-                            hash_link.text(entry.commit.sha);
+                            hash_link.text(entry.commit.sha.substring(0, 7));
                             container_p.append($("<td>").append($("<code>").append(hash_link)))
+
+                            let message_text = $("<td>")
+                            message_text.text(entry.commit.message.split("\n")[0])
+                            container_p.append(message_text)
 
                             if (entry.links.debug) {
                                 container_p.append(" ");
@@ -92,8 +98,12 @@ layout: default
                         let entry = element[0]
                         let hash_link = $("<a>")
                         hash_link.attr("href", entry.commit.url);
-                        hash_link.text(entry.commit.sha);
+                        hash_link.text(entry.commit.sha.substring(0, 7));
                         container_p.append($("<td>").append($("<code>").append(hash_link)))
+
+                        let message_text = $("<td>")
+                        message_text.text(entry.commit.message.split("\n")[0])
+                        container_p.append(message_text)
 
                         if (entry.links.debug) {
                             container_p.append(" ");
