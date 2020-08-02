@@ -10,6 +10,15 @@ layout: default
     <div class="post-content">
         {{ content }}
     </div>
+
+    <style>
+        tr > td {
+            text-align: center;
+        }
+        table th, table td {
+            padding: 3px 10px;
+        }
+    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
 
@@ -37,7 +46,7 @@ layout: default
                     versions.forEach(version => {
                         let thead = $("<th>");
                         thead.attr("colspan", 3);
-                        thead.append("<strong>"+version+"</strong>")
+                        thead.append("<strong>" + version + "</strong>")
                         $(".viewcontainer").append(thead);
                         let shas = []
                         data[$("#product").val()]["versions"].forEach((v, index) => {
@@ -57,14 +66,14 @@ layout: default
                                 container_p.append(" ");
                                 let debug_link = $("<a>");
                                 debug_link.attr("href", entry.links.debug);
-                                debug_link.text("Download Debug");
+                                debug_link.text("→ DEBUG");
                                 container_p.append($("<td>").append(debug_link));
                             }
                             if (entry.links.release) {
                                 container_p.append(" ");
                                 let release_link = $("<a>");
                                 release_link.attr("href", entry.links.release);
-                                release_link.text("Download Release");
+                                release_link.text("→ RELEASE");
                                 container_p.append($("<td>").append(release_link));
                             }
                             $(".viewcontainer").append(container_p)
@@ -90,14 +99,14 @@ layout: default
                             container_p.append(" ");
                             let debug_link = $("<a>");
                             debug_link.attr("href", entry.links.debug);
-                            debug_link.text("Download Debug");
+                            debug_link.text("→ DEBUG");
                             container_p.append($("<td>").append(debug_link));
                         }
                         if (entry.links.release) {
                             container_p.append(" ");
                             let release_link = $("<a>");
                             release_link.attr("href", entry.links.release);
-                            release_link.text("Download Release");
+                            release_link.text("→ RELEASE");
                             container_p.append($("<td>").append(release_link));
                         }
                         $(".viewcontainer").append(container_p)
