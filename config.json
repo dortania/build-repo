@@ -3191,7 +3191,7 @@
           "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-993d5b5/Lilu-1.4.6-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes**\nResolve init issues on 11.0 with multiple PCI root devices\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/993d5b54ba8eac2745d88a5c31a7d020ddba6f59) ([browse tree](https://github.com/acidanthera/Lilu/tree/993d5b54ba8eac2745d88a5c31a7d020ddba6f59))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.6-DEBUG.zip: 6211fea81e15db3f5d47527f831284f6523203b14a4a8986171f63cf69330842\n**Release:**\nLilu-1.4.6-RELEASE.zip: 42b353e35e8d83ef8172eaa203796318047bf6213cff6a280ae11ed2c2998bfd\n\n\n",
+          "description": "**Changes:**\n**Changes**\nResolve init issues on 11.0 with multiple PCI root devices\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/993d5b54ba8eac2745d88a5c31a7d020ddba6f59) ([browse tree](https://github.com/acidanthera/Lilu/tree/993d5b54ba8eac2745d88a5c31a7d020ddba6f59))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.6-DEBUG.zip: 6211fea81e15db3f5d47527f831284f6523203b14a4a8986171f63cf69330842\n**Release:**\nLilu-1.4.6-RELEASE.zip: 42b353e35e8d83ef8172eaa203796318047bf6213cff6a280ae11ed2c2998bfd\n\n\n",
           "id": 29199318,
           "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-993d5b5"
         },
