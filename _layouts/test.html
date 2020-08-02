@@ -18,6 +18,7 @@ layout: default
             const converter = new showdown.Converter()
             Object.keys(data).filter(key => !key.startsWith("_")).forEach(key => $("#product")[0].add(new Option(key, key)))
             var resetInfo = function () {
+                console.log("resetInfo");
                 $(".info").empty()
                 if ($("#product").val() == "initial" || $("#version").val() == "initial" || $("#sha").val() == "initial") {
                     return;
@@ -54,6 +55,7 @@ layout: default
                 //$(".info").text()
             }
             var resetSha = function () {
+                console.log("resetSha");
                 resetInfo();
                 $("#sha")[0].options.length = 0;
                 $("#sha")[0].add(new Option("Select commit...", "initial", true, true));
@@ -69,6 +71,7 @@ layout: default
                 shas.forEach((element, index) => $("#sha")[0].add(new Option(element[0].commit.sha + (index == 0 ? " (latest)" : ""), element[1])))
             }
             var resetVersion = function () {
+                console.log("resetVersion");
                 resetSha();
                 $("#version")[0].options.length = 0;
                 $("#version")[0].add(new Option("Select version...", "initial", true, true));
