@@ -5245,6 +5245,35 @@
           "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc",
           "url": "https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc"
         },
+        "dateadded": "2020-08-02T16:32:58.048244+00:00",
+        "datecommitted": "2020-08-02T12:52:44+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f23c93ffb8175d967de2729d3aa5fbe1223c0585e29764f8eae541b1845161ac"
+          },
+          "release": {
+            "sha256": "013fd88cb88e425e71eb0ab74183bef8a1b251b93f2eb14183b18bc9b55f5ba1"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-58bb572/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nUpdate SSDT-EC-USBX.dsl\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: f23c93ffb8175d967de2729d3aa5fbe1223c0585e29764f8eae541b1845161ac\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: 013fd88cb88e425e71eb0ab74183bef8a1b251b93f2eb14183b18bc9b55f5ba1",
+          "id": 29205361,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-58bb572"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": {
+          "message": "Update SSDT-EC-USBX.dsl",
+          "sha": "58bb572f157f7deba665c89d106c2917e9a836fc",
+          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/58bb572f157f7deba665c89d106c2917e9a836fc",
+          "url": "https://github.com/acidanthera/OpenCorePkg/commit/58bb572f157f7deba665c89d106c2917e9a836fc"
+        },
         "dateadded": "2020-08-02T13:02:57.684880+00:00",
         "datecommitted": "2020-08-02T12:52:44+00:00",
         "extras": {
