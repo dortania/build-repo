@@ -3171,6 +3171,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fixed another race condition in kext patcher loading code in 11.0",
+          "sha": "34dd31d860df0d746b7703a0526c3b379bdb54d7",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/34dd31d860df0d746b7703a0526c3b379bdb54d7",
+          "url": "https://github.com/acidanthera/Lilu/commit/34dd31d860df0d746b7703a0526c3b379bdb54d7"
+        },
+        "dateadded": "2020-08-02T05:51:55.431924+00:00",
+        "datecommitted": "2020-08-02T05:47:27+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "b8946fd88a21b2b36965f0b3bc89b85798950893e72416be09ff79292f617a3e"
+          },
+          "release": {
+            "sha256": "7e1b325a147c4a2a0e275fd9854aded8a8a53c9f833304f323c4f39358b252e6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-34dd31d/Lilu-1.4.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/Lilu-34dd31d/Lilu-1.4.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nFixed another race condition in kext patcher loading code in 11.0\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/34dd31d860df0d746b7703a0526c3b379bdb54d7) ([browse tree](https://github.com/acidanthera/Lilu/tree/34dd31d860df0d746b7703a0526c3b379bdb54d7))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.6-DEBUG.zip: b8946fd88a21b2b36965f0b3bc89b85798950893e72416be09ff79292f617a3e\n**Release:**\nLilu-1.4.6-RELEASE.zip: 7e1b325a147c4a2a0e275fd9854aded8a8a53c9f833304f323c4f39358b252e6\n\n\n",
+          "id": 29199619,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/Lilu-34dd31d"
+        },
+        "source": "built",
+        "version": "1.4.6"
+      },
+      {
+        "commit": {
           "message": "Resolve init issues on 11.0 with multiple PCI root devices",
           "sha": "993d5b54ba8eac2745d88a5c31a7d020ddba6f59",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/993d5b54ba8eac2745d88a5c31a7d020ddba6f59",
