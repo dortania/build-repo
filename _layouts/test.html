@@ -72,14 +72,14 @@ layout: default
                                 container_p.append(" ");
                                 let debug_link = $("<a>");
                                 debug_link.attr("href", entry.links.debug);
-                                debug_link.text("→ DEBUG");
+                                debug_link.text("DEBUG");
                                 container_p.append($("<td>").append(debug_link));
                             }
                             if (entry.links.release) {
                                 container_p.append(" ");
                                 let release_link = $("<a>");
                                 release_link.attr("href", entry.links.release);
-                                release_link.text("→ RELEASE");
+                                release_link.text("RELEASE");
                                 container_p.append($("<td>").append(release_link));
                             }
                             $(".viewcontainer").append(container_p)
@@ -109,14 +109,14 @@ layout: default
                             container_p.append(" ");
                             let debug_link = $("<a>");
                             debug_link.attr("href", entry.links.debug);
-                            debug_link.text("→ DEBUG");
+                            debug_link.text("DEBUG");
                             container_p.append($("<td>").append(debug_link));
                         }
                         if (entry.links.release) {
                             container_p.append(" ");
                             let release_link = $("<a>");
                             release_link.attr("href", entry.links.release);
-                            release_link.text("→ RELEASE");
+                            release_link.text("RELEASE");
                             container_p.append($("<td>").append(release_link));
                         }
                         $(".viewcontainer").append(container_p)
