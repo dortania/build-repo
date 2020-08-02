@@ -5240,6 +5240,45 @@
     "versions": [
       {
         "commit": {
+          "message": "OcCpuLib: Fix display name for i9 CPUs like 7920X",
+          "sha": "87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09",
+          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09",
+          "url": "https://github.com/acidanthera/OpenCorePkg/commit/87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09"
+        },
+        "dateadded": "2020-08-02T06:51:59.047582+00:00",
+        "datecommitted": "2020-08-02T06:39:22+00:00",
+        "extras": {
+          "SSDT-PLUG.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-87a287f/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-87a287f/SSDT-PMC.aml"
+        },
+        "hashes": {
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "debug": {
+            "sha256": "e0acca8d3a7c3f98794aa8e8da90642b2a67a610965775868263fa85fb745659"
+          },
+          "release": {
+            "sha256": "ecbb40d39ebaf58afcdd044b942086dc427ad7dd28a6e5e9701619acffcc59b1"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-87a287f/OpenCore-0.6.0-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/OpenCorePkg-87a287f/OpenCore-0.6.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes**\nOcCpuLib: Fix display name for i9 CPUs like 7920X\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/87a287f2bea07ff4e1a1e5ef21b9aef1a738ce09))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.0-DEBUG.zip: e0acca8d3a7c3f98794aa8e8da90642b2a67a610965775868263fa85fb745659\n**Release:**\nOpenCore-0.6.0-RELEASE.zip: ecbb40d39ebaf58afcdd044b942086dc427ad7dd28a6e5e9701619acffcc59b1\n**Extras:**\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\n",
+          "id": 29200061,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/OpenCorePkg-87a287f"
+        },
+        "source": "built",
+        "version": "0.6.0"
+      },
+      {
+        "commit": {
           "message": "Patches: Add AtaAtapiPassThru IDE timeout patch",
           "sha": "748d906c7cbaabebd43204f7dd824ba6f939af1a",
           "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/748d906c7cbaabebd43204f7dd824ba6f939af1a",
