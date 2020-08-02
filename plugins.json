@@ -136,6 +136,35 @@
       "Debug File": "build/Debug/*.zip"
     },
     {
+      "URL": "https://github.com/acidanthera/VoodooPS2",
+      "Name": "VoodooPS2",
+      "Desc": "PS2 controller kext",
+      "Pre-Build": [
+        {
+          "path": "wget",
+          "args": [
+            "https://raw.githubusercontent.com/acidanthera/VoodooInput/master/VoodooInput/Scripts/bootstrap.sh"
+          ],
+          "name": "Download VoodooInput Bootstrap Script"
+        },
+        {
+          "path": "chmod",
+          "args": [
+            "+x",
+            "bootstrap.sh"
+          ],
+          "name": "Make Bootstrap Executable"
+        },
+        {
+          "path": "./bootstrap.sh",
+          "args": [],
+          "name": "Run VoodooInput Bootstrap"
+        }
+      ],
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip"
+    },
+    {
       "URL": "https://github.com/acidanthera/OpenCorePkg",
       "Name": "OpenCorePkg",
       "Desc": "OpenCore front end",
