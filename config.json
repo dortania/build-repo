@@ -560,6 +560,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add ALC290 - LayoutID 15 (0F) for HP m6 n015dx (#575)",
+          "sha": "2138e905beb044f7317ebc2012167b7e0e768c8e",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/2138e905beb044f7317ebc2012167b7e0e768c8e",
+          "url": "https://github.com/acidanthera/AppleALC/commit/2138e905beb044f7317ebc2012167b7e0e768c8e"
+        },
+        "dateadded": "2020-08-03T10:07:10.415796+00:00",
+        "datecommitted": "2020-08-03T09:57:05+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "4582f8782dbc29183ae10418408481dcd31d5a37060e49d03ed5001f9e56c62e"
+          },
+          "release": {
+            "sha256": "7973b3445de5c98af933fb7c7d105e3e204869e84e511ee433cd7de73111445b"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-2138e90/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-2138e90/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd ALC290 - LayoutID 15 (0F) for HP m6 n015dx (#575)\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/2138e905beb044f7317ebc2012167b7e0e768c8e) ([browse tree](https://github.com/acidanthera/AppleALC/tree/2138e905beb044f7317ebc2012167b7e0e768c8e))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: 4582f8782dbc29183ae10418408481dcd31d5a37060e49d03ed5001f9e56c62e\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 7973b3445de5c98af933fb7c7d105e3e204869e84e511ee433cd7de73111445b",
+          "id": 29222270,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-2138e90"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "d54c679f69fb9ecaaf3d755d9ce839705add6e96",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/d54c679f69fb9ecaaf3d755d9ce839705add6e96",
