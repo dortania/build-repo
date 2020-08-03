@@ -3538,32 +3538,32 @@
     "versions": [
       {
         "commit": {
-          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
-          "sha": "8cab0372d83196caa2d2e1405902e7d825a3e36b",
-          "tree_url": "https://github.com/acidanthera/DebugEnhancer/tree/8cab0372d83196caa2d2e1405902e7d825a3e36b",
-          "url": "https://github.com/acidanthera/DebugEnhancer/commit/8cab0372d83196caa2d2e1405902e7d825a3e36b"
+          "message": "Bump version",
+          "sha": "f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d",
+          "tree_url": "https://github.com/acidanthera/DebugEnhancer/tree/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d",
+          "url": "https://github.com/acidanthera/DebugEnhancer/commit/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d"
         },
-        "dateadded": "2020-08-03T19:28:03.024730+00:00",
-        "datecommitted": "2020-07-29T15:25:33+00:00",
+        "dateadded": "2020-08-03T19:27:29.048264+00:00",
+        "datecommitted": "2020-08-03T16:14:15+00:00",
         "hashes": {
           "debug": {
-            "sha256": "1ef304a30fb793827344c0c57129a6cbb45130548a8ac4c79beb50e19ba1b7ad"
+            "sha256": "6e429a495ffd56e4a3870ba54227bf6e85f73681f9771dccfb5634e850a51d31"
           },
           "release": {
-            "sha256": "54fad6d5630f99319462590ffdd8440191c619757eec139a49518febe679a7bf"
+            "sha256": "d4c00c602d17535eac83e7b24d1fcc8ca4b2c16e0e178bdb9496fe4dc41c35a4"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-8cab037/DebugEnhancer-1.0.1-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-8cab037/DebugEnhancer-1.0.1-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-f86e07e/DebugEnhancer-1.0.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-f86e07e/DebugEnhancer-1.0.2-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nGet things compile in Xcode 12 (is not guaranteed to work)\n[View on GitHub](https://github.com/acidanthera/DebugEnhancer/commit/8cab0372d83196caa2d2e1405902e7d825a3e36b) ([browse tree](https://github.com/acidanthera/DebugEnhancer/tree/8cab0372d83196caa2d2e1405902e7d825a3e36b))\n\n**Hashes**:\n**Debug:**\nDebugEnhancer-1.0.1-DEBUG.zip: 1ef304a30fb793827344c0c57129a6cbb45130548a8ac4c79beb50e19ba1b7ad\n**Release:**\nDebugEnhancer-1.0.1-RELEASE.zip: 54fad6d5630f99319462590ffdd8440191c619757eec139a49518febe679a7bf",
-          "id": 29243407,
-          "url": "https://github.com/dortania/build-repo/releases/tag/DebugEnhancer-8cab037"
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/DebugEnhancer/commit/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d) ([browse tree](https://github.com/acidanthera/DebugEnhancer/tree/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d))\n\n**Hashes**:\n**Debug:**\nDebugEnhancer-1.0.2-DEBUG.zip: 6e429a495ffd56e4a3870ba54227bf6e85f73681f9771dccfb5634e850a51d31\n**Release:**\nDebugEnhancer-1.0.2-RELEASE.zip: d4c00c602d17535eac83e7b24d1fcc8ca4b2c16e0e178bdb9496fe4dc41c35a4",
+          "id": 29243391,
+          "url": "https://github.com/dortania/build-repo/releases/tag/DebugEnhancer-f86e07e"
         },
         "source": "built",
-        "version": "1.0.1"
+        "version": "1.0.2"
       },
       {
         "commit": {
@@ -3596,32 +3596,32 @@
       },
       {
         "commit": {
-          "message": "Bump version",
-          "sha": "f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d",
-          "tree_url": "https://github.com/acidanthera/DebugEnhancer/tree/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d",
-          "url": "https://github.com/acidanthera/DebugEnhancer/commit/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d"
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "8cab0372d83196caa2d2e1405902e7d825a3e36b",
+          "tree_url": "https://github.com/acidanthera/DebugEnhancer/tree/8cab0372d83196caa2d2e1405902e7d825a3e36b",
+          "url": "https://github.com/acidanthera/DebugEnhancer/commit/8cab0372d83196caa2d2e1405902e7d825a3e36b"
         },
-        "dateadded": "2020-08-03T19:27:29.048264+00:00",
-        "datecommitted": "2020-08-03T16:14:15+00:00",
+        "dateadded": "2020-08-03T19:28:03.024730+00:00",
+        "datecommitted": "2020-07-29T15:25:33+00:00",
         "hashes": {
           "debug": {
-            "sha256": "6e429a495ffd56e4a3870ba54227bf6e85f73681f9771dccfb5634e850a51d31"
+            "sha256": "1ef304a30fb793827344c0c57129a6cbb45130548a8ac4c79beb50e19ba1b7ad"
           },
           "release": {
-            "sha256": "d4c00c602d17535eac83e7b24d1fcc8ca4b2c16e0e178bdb9496fe4dc41c35a4"
+            "sha256": "54fad6d5630f99319462590ffdd8440191c619757eec139a49518febe679a7bf"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-f86e07e/DebugEnhancer-1.0.2-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-f86e07e/DebugEnhancer-1.0.2-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-8cab037/DebugEnhancer-1.0.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-8cab037/DebugEnhancer-1.0.1-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/DebugEnhancer/commit/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d) ([browse tree](https://github.com/acidanthera/DebugEnhancer/tree/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d))\n\n**Hashes**:\n**Debug:**\nDebugEnhancer-1.0.2-DEBUG.zip: 6e429a495ffd56e4a3870ba54227bf6e85f73681f9771dccfb5634e850a51d31\n**Release:**\nDebugEnhancer-1.0.2-RELEASE.zip: d4c00c602d17535eac83e7b24d1fcc8ca4b2c16e0e178bdb9496fe4dc41c35a4",
-          "id": 29243391,
-          "url": "https://github.com/dortania/build-repo/releases/tag/DebugEnhancer-f86e07e"
+          "description": "**Changes:**\nGet things compile in Xcode 12 (is not guaranteed to work)\n[View on GitHub](https://github.com/acidanthera/DebugEnhancer/commit/8cab0372d83196caa2d2e1405902e7d825a3e36b) ([browse tree](https://github.com/acidanthera/DebugEnhancer/tree/8cab0372d83196caa2d2e1405902e7d825a3e36b))\n\n**Hashes**:\n**Debug:**\nDebugEnhancer-1.0.1-DEBUG.zip: 1ef304a30fb793827344c0c57129a6cbb45130548a8ac4c79beb50e19ba1b7ad\n**Release:**\nDebugEnhancer-1.0.1-RELEASE.zip: 54fad6d5630f99319462590ffdd8440191c619757eec139a49518febe679a7bf",
+          "id": 29243407,
+          "url": "https://github.com/dortania/build-repo/releases/tag/DebugEnhancer-8cab037"
         },
         "source": "built",
-        "version": "1.0.2"
+        "version": "1.0.1"
       }
     ]
   },
@@ -24207,32 +24207,32 @@
     "versions": [
       {
         "commit": {
-          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
-          "sha": "73f0e1f4d0a067af2525e8b3d1ef35f70a356718",
-          "tree_url": "https://github.com/acidanthera/RTCMemoryFixup/tree/73f0e1f4d0a067af2525e8b3d1ef35f70a356718",
-          "url": "https://github.com/acidanthera/RTCMemoryFixup/commit/73f0e1f4d0a067af2525e8b3d1ef35f70a356718"
+          "message": "Bump version",
+          "sha": "7f54dc0f931d53ae9f800fe72ccadff7ee52e89e",
+          "tree_url": "https://github.com/acidanthera/RTCMemoryFixup/tree/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e",
+          "url": "https://github.com/acidanthera/RTCMemoryFixup/commit/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e"
         },
-        "dateadded": "2020-08-03T19:28:54.413151+00:00",
-        "datecommitted": "2020-07-29T15:25:49+00:00",
+        "dateadded": "2020-08-03T19:28:20.375708+00:00",
+        "datecommitted": "2020-08-03T16:48:40+00:00",
         "hashes": {
           "debug": {
-            "sha256": "1b392d3a1cd570fcce939444f14df836d4328d701e3ede4e831f83e15b494558"
+            "sha256": "23f812af57853efbcc30a4cb1d2cdabd2c7367d7b8d557c73073cb872c40e33b"
           },
           "release": {
-            "sha256": "5c6d0987c7a93809d68d4871a3b3cb025e0d76c6f5b46a8a7a78eb1b2e467a69"
+            "sha256": "24b5be431f0903d745d1e19ed15ef421eb7a1e070302e9bd585b61dd034d8b01"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-73f0e1f/RTCMemoryFixup-1.0.6-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-73f0e1f/RTCMemoryFixup-1.0.6-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-7f54dc0/RTCMemoryFixup-1.0.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-7f54dc0/RTCMemoryFixup-1.0.7-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nGet things compile in Xcode 12 (is not guaranteed to work)\n[View on GitHub](https://github.com/acidanthera/RTCMemoryFixup/commit/73f0e1f4d0a067af2525e8b3d1ef35f70a356718) ([browse tree](https://github.com/acidanthera/RTCMemoryFixup/tree/73f0e1f4d0a067af2525e8b3d1ef35f70a356718))\n\n**Hashes**:\n**Debug:**\nRTCMemoryFixup-1.0.6-DEBUG.zip: 1b392d3a1cd570fcce939444f14df836d4328d701e3ede4e831f83e15b494558\n**Release:**\nRTCMemoryFixup-1.0.6-RELEASE.zip: 5c6d0987c7a93809d68d4871a3b3cb025e0d76c6f5b46a8a7a78eb1b2e467a69",
-          "id": 29243436,
-          "url": "https://github.com/dortania/build-repo/releases/tag/RTCMemoryFixup-73f0e1f"
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/RTCMemoryFixup/commit/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e) ([browse tree](https://github.com/acidanthera/RTCMemoryFixup/tree/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e))\n\n**Hashes**:\n**Debug:**\nRTCMemoryFixup-1.0.7-DEBUG.zip: 23f812af57853efbcc30a4cb1d2cdabd2c7367d7b8d557c73073cb872c40e33b\n**Release:**\nRTCMemoryFixup-1.0.7-RELEASE.zip: 24b5be431f0903d745d1e19ed15ef421eb7a1e070302e9bd585b61dd034d8b01",
+          "id": 29243417,
+          "url": "https://github.com/dortania/build-repo/releases/tag/RTCMemoryFixup-7f54dc0"
         },
         "source": "built",
-        "version": "1.0.6"
+        "version": "1.0.7"
       },
       {
         "commit": {
@@ -24265,32 +24265,32 @@
       },
       {
         "commit": {
-          "message": "Bump version",
-          "sha": "7f54dc0f931d53ae9f800fe72ccadff7ee52e89e",
-          "tree_url": "https://github.com/acidanthera/RTCMemoryFixup/tree/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e",
-          "url": "https://github.com/acidanthera/RTCMemoryFixup/commit/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e"
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "73f0e1f4d0a067af2525e8b3d1ef35f70a356718",
+          "tree_url": "https://github.com/acidanthera/RTCMemoryFixup/tree/73f0e1f4d0a067af2525e8b3d1ef35f70a356718",
+          "url": "https://github.com/acidanthera/RTCMemoryFixup/commit/73f0e1f4d0a067af2525e8b3d1ef35f70a356718"
         },
-        "dateadded": "2020-08-03T19:28:20.375708+00:00",
-        "datecommitted": "2020-08-03T16:48:40+00:00",
+        "dateadded": "2020-08-03T19:28:54.413151+00:00",
+        "datecommitted": "2020-07-29T15:25:49+00:00",
         "hashes": {
           "debug": {
-            "sha256": "23f812af57853efbcc30a4cb1d2cdabd2c7367d7b8d557c73073cb872c40e33b"
+            "sha256": "1b392d3a1cd570fcce939444f14df836d4328d701e3ede4e831f83e15b494558"
           },
           "release": {
-            "sha256": "24b5be431f0903d745d1e19ed15ef421eb7a1e070302e9bd585b61dd034d8b01"
+            "sha256": "5c6d0987c7a93809d68d4871a3b3cb025e0d76c6f5b46a8a7a78eb1b2e467a69"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-7f54dc0/RTCMemoryFixup-1.0.7-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-7f54dc0/RTCMemoryFixup-1.0.7-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-73f0e1f/RTCMemoryFixup-1.0.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-73f0e1f/RTCMemoryFixup-1.0.6-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/RTCMemoryFixup/commit/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e) ([browse tree](https://github.com/acidanthera/RTCMemoryFixup/tree/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e))\n\n**Hashes**:\n**Debug:**\nRTCMemoryFixup-1.0.7-DEBUG.zip: 23f812af57853efbcc30a4cb1d2cdabd2c7367d7b8d557c73073cb872c40e33b\n**Release:**\nRTCMemoryFixup-1.0.7-RELEASE.zip: 24b5be431f0903d745d1e19ed15ef421eb7a1e070302e9bd585b61dd034d8b01",
-          "id": 29243417,
-          "url": "https://github.com/dortania/build-repo/releases/tag/RTCMemoryFixup-7f54dc0"
+          "description": "**Changes:**\nGet things compile in Xcode 12 (is not guaranteed to work)\n[View on GitHub](https://github.com/acidanthera/RTCMemoryFixup/commit/73f0e1f4d0a067af2525e8b3d1ef35f70a356718) ([browse tree](https://github.com/acidanthera/RTCMemoryFixup/tree/73f0e1f4d0a067af2525e8b3d1ef35f70a356718))\n\n**Hashes**:\n**Debug:**\nRTCMemoryFixup-1.0.6-DEBUG.zip: 1b392d3a1cd570fcce939444f14df836d4328d701e3ede4e831f83e15b494558\n**Release:**\nRTCMemoryFixup-1.0.6-RELEASE.zip: 5c6d0987c7a93809d68d4871a3b3cb025e0d76c6f5b46a8a7a78eb1b2e467a69",
+          "id": 29243436,
+          "url": "https://github.com/dortania/build-repo/releases/tag/RTCMemoryFixup-73f0e1f"
         },
         "source": "built",
-        "version": "1.0.7"
+        "version": "1.0.6"
       }
     ]
   },
