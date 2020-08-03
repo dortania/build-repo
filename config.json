@@ -560,6 +560,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "b3c2860c7aa6f655c81c30127429b7c5784a0a7f",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/b3c2860c7aa6f655c81c30127429b7c5784a0a7f",
+          "url": "https://github.com/acidanthera/AppleALC/commit/b3c2860c7aa6f655c81c30127429b7c5784a0a7f"
+        },
+        "dateadded": "2020-08-03T09:57:55.033108+00:00",
+        "datecommitted": "2020-08-03T09:51:03+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f3156dbb11fb0fb0c7bad60eb904e62a46dc12a7c55e36c6338186ac06081231"
+          },
+          "release": {
+            "sha256": "a78fd1d1d41cffdcccdd9854d8080b49b8042ea5a8027285e15c922538c1e7d4"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-b3c2860/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-b3c2860/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/b3c2860c7aa6f655c81c30127429b7c5784a0a7f) ([browse tree](https://github.com/acidanthera/AppleALC/tree/b3c2860c7aa6f655c81c30127429b7c5784a0a7f))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: f3156dbb11fb0fb0c7bad60eb904e62a46dc12a7c55e36c6338186ac06081231\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: a78fd1d1d41cffdcccdd9854d8080b49b8042ea5a8027285e15c922538c1e7d4",
+          "id": 29221949,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-b3c2860"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Add Icelake Smart Sound Technology Audio Controller (#572)\n\n* Add Icelake Smart Sound Technology Audio Controller\r\n\r\n* Raise MinKernel to 19 (Catalina) for ICL Controller, thanks to @Andrey1970AppleLife",
           "sha": "793c9a94b82054f391f3e9337e2fa694e34e2e1a",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/793c9a94b82054f391f3e9337e2fa694e34e2e1a",
