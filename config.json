@@ -24202,6 +24202,40 @@
       }
     ]
   },
+  "RTCMemoryFixup": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": {
+          "message": "Bump version",
+          "sha": "7f54dc0f931d53ae9f800fe72ccadff7ee52e89e",
+          "tree_url": "https://github.com/acidanthera/RTCMemoryFixup/tree/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e",
+          "url": "https://github.com/acidanthera/RTCMemoryFixup/commit/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e"
+        },
+        "dateadded": "2020-08-03T19:28:20.375708+00:00",
+        "datecommitted": "2020-08-03T16:48:40+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "23f812af57853efbcc30a4cb1d2cdabd2c7367d7b8d557c73073cb872c40e33b"
+          },
+          "release": {
+            "sha256": "24b5be431f0903d745d1e19ed15ef421eb7a1e070302e9bd585b61dd034d8b01"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-7f54dc0/RTCMemoryFixup-1.0.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-7f54dc0/RTCMemoryFixup-1.0.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/RTCMemoryFixup/commit/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e) ([browse tree](https://github.com/acidanthera/RTCMemoryFixup/tree/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e))\n\n**Hashes**:\n**Debug:**\nRTCMemoryFixup-1.0.7-DEBUG.zip: 23f812af57853efbcc30a4cb1d2cdabd2c7367d7b8d557c73073cb872c40e33b\n**Release:**\nRTCMemoryFixup-1.0.7-RELEASE.zip: 24b5be431f0903d745d1e19ed15ef421eb7a1e070302e9bd585b61dd034d8b01",
+          "id": 29243417,
+          "url": "https://github.com/dortania/build-repo/releases/tag/RTCMemoryFixup-7f54dc0"
+        },
+        "source": "built",
+        "version": "1.0.7"
+      }
+    ]
+  },
   "VirtualSMC": {
     "type": "Kext",
     "versions": [
