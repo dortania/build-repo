@@ -589,6 +589,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "e9920b3d6abc62545f12631b860c4727b4358437",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/e9920b3d6abc62545f12631b860c4727b4358437",
+          "url": "https://github.com/acidanthera/AppleALC/commit/e9920b3d6abc62545f12631b860c4727b4358437"
+        },
+        "dateadded": "2020-08-03T17:04:09.821165+00:00",
+        "datecommitted": "2020-08-03T16:57:29+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "3bfd32e645a3ed0642102617abaca3a37323fb4cee0e87025179da57944dea5c"
+          },
+          "release": {
+            "sha256": "3a4a33cb4bb7bd9c70a857b4c1b5adf63af476ec13a647257202765223d643eb"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-e9920b3/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-e9920b3/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/e9920b3d6abc62545f12631b860c4727b4358437) ([browse tree](https://github.com/acidanthera/AppleALC/tree/e9920b3d6abc62545f12631b860c4727b4358437))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 3bfd32e645a3ed0642102617abaca3a37323fb4cee0e87025179da57944dea5c\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 3a4a33cb4bb7bd9c70a857b4c1b5adf63af476ec13a647257202765223d643eb",
+          "id": 29238093,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-e9920b3"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
           "message": "Sorting of patches.",
           "sha": "e91694e0c468a341045601efb1c25ebf5c255028",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/e91694e0c468a341045601efb1c25ebf5c255028",
