@@ -25061,6 +25061,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix changelog formatting",
+          "sha": "6883c221e68097e585212cfb8125364dc164fcdd",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/6883c221e68097e585212cfb8125364dc164fcdd",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/6883c221e68097e585212cfb8125364dc164fcdd"
+        },
+        "dateadded": "2020-08-03T15:05:40.289347+00:00",
+        "datecommitted": "2020-08-03T15:02:08+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "3cd7aa930712c1050905f23a561d5ea73f12647b406ca89421166cdb1e606f5c"
+          },
+          "release": {
+            "sha256": "cd43432b23ad36dcb220056be46f353e486bc65c31067e697d15b9e9561e29f6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-6883c22/VoodooPS2Controller-2.1.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-6883c22/VoodooPS2Controller-2.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix changelog formatting\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/6883c221e68097e585212cfb8125364dc164fcdd) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/6883c221e68097e585212cfb8125364dc164fcdd))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.6-DEBUG.zip: 3cd7aa930712c1050905f23a561d5ea73f12647b406ca89421166cdb1e606f5c\n**Release:**\nVoodooPS2Controller-2.1.6-RELEASE.zip: cd43432b23ad36dcb220056be46f353e486bc65c31067e697d15b9e9561e29f6",
+          "id": 29233217,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-6883c22"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      },
+      {
+        "commit": {
           "message": "Update Changelog.md",
           "sha": "60a4566c237f9c39bf38122ec8c0910a388dbe9d",
           "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/60a4566c237f9c39bf38122ec8c0910a388dbe9d",
