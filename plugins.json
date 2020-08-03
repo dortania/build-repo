@@ -161,8 +161,8 @@
           "name": "Run VoodooInput Bootstrap"
         }
       ],
-      "Release File": "build/Products/Release/*.zip",
-      "Debug File": "build/Products/Debug/*.zip",
+      "Release File": "build/Release/*.zip",
+      "Debug File": "build/Debug/*.zip",
       "Info": "VoodooPS2Controller.kext/Contents/Info.plist"
     },
     {
