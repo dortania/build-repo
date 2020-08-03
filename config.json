@@ -3330,6 +3330,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "4aebe0b24c478cb78ba2bca46ccc8c2f294b3528",
+          "tree_url": "https://github.com/acidanthera/CPUFriend/tree/4aebe0b24c478cb78ba2bca46ccc8c2f294b3528",
+          "url": "https://github.com/acidanthera/CPUFriend/commit/4aebe0b24c478cb78ba2bca46ccc8c2f294b3528"
+        },
+        "dateadded": "2020-08-03T16:19:58.664140+00:00",
+        "datecommitted": "2020-08-03T16:12:26+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "3e7640713397171c9547aa11501d428f54f327e68e637536d8463099c51c9503"
+          },
+          "release": {
+            "sha256": "318ce08af0071bdb25813486e70585cc1a5a20d2f90af87dc5441455acee2544"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/CPUFriend-4aebe0b/CPUFriend-1.2.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/CPUFriend-4aebe0b/CPUFriend-1.2.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/CPUFriend/commit/4aebe0b24c478cb78ba2bca46ccc8c2f294b3528) ([browse tree](https://github.com/acidanthera/CPUFriend/tree/4aebe0b24c478cb78ba2bca46ccc8c2f294b3528))\n\n**Hashes**:\n**Debug:**\nCPUFriend-1.2.2-DEBUG.zip: 3e7640713397171c9547aa11501d428f54f327e68e637536d8463099c51c9503\n**Release:**\nCPUFriend-1.2.2-RELEASE.zip: 318ce08af0071bdb25813486e70585cc1a5a20d2f90af87dc5441455acee2544",
+          "id": 29236269,
+          "url": "https://github.com/dortania/build-repo/releases/tag/CPUFriend-4aebe0b"
+        },
+        "source": "built",
+        "version": "1.2.2"
+      },
+      {
+        "commit": {
           "message": "Force x86_64",
           "sha": "104c6a197c8375d882e3dd2dac3f18c31cd3e801",
           "tree_url": "https://github.com/acidanthera/CPUFriend/tree/104c6a197c8375d882e3dd2dac3f18c31cd3e801",
