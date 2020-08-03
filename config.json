@@ -560,58 +560,29 @@
     "versions": [
       {
         "commit": {
-          "message": "CA0132: Layout-ID 7, 4, 2, 1 update and added IDT92HD95: Layout-ID 11 (#566)\n\n* CA0132: Layout-ID 4 should work when CodecCommander is loading from the boot loader.\r\n\r\n* CA0132: Layout-ID 2 adapted for Alienware 17, can also be used for desktops if multichannel is not required, but 2x Line-In.\r\n\r\n* CA0132: Layout-ID 1 revised\r\n\r\n* Added resources for Toshiba Satellite Pro C50, layout 11\r\n\r\n* Added layout-id 7 for the ZxRi codec. The PathMapID was adapted to the layout-id.",
-          "sha": "5d645bc366f0bfc519ffb013e089ce7ea1734a28",
-          "tree_url": "https://github.com/acidanthera/AppleALC/tree/5d645bc366f0bfc519ffb013e089ce7ea1734a28",
-          "url": "https://github.com/acidanthera/AppleALC/commit/5d645bc366f0bfc519ffb013e089ce7ea1734a28"
-        },
-        "dateadded": "2020-08-03T09:59:21.982639+00:00",
-        "datecommitted": "2020-08-03T09:49:03+00:00",
-        "hashes": {
-          "debug": {
-            "sha256": "864baa2ecf137fc36af5b2d0c7968579257e7db7faf3c3299a48d2a6c92c4fa2"
-          },
-          "release": {
-            "sha256": "1e32ec65982dbaed2307e748a38d6df052e74ce5722e6a4e154bcfbc7bf1c529"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-5d645bc/AppleALC-1.5.1-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-5d645bc/AppleALC-1.5.1-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes:**\nCA0132: Layout-ID 7, 4, 2, 1 update and added IDT92HD95: Layout-ID 11 (#566)\n\n* CA0132: Layout-ID 4 should work when CodecCommander is loading from the boot loader.\r\n\r\n* CA0132: Layout-ID 2 adapted for Alienware 17, can also be used for desktops if multichannel is not required, but 2x Line-In.\r\n\r\n* CA0132: Layout-ID 1 revised\r\n\r\n* Added resources for Toshiba Satellite Pro C50, layout 11\r\n\r\n* Added layout-id 7 for the ZxRi codec. The PathMapID was adapted to the layout-id.\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/5d645bc366f0bfc519ffb013e089ce7ea1734a28) ([browse tree](https://github.com/acidanthera/AppleALC/tree/5d645bc366f0bfc519ffb013e089ce7ea1734a28))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: 864baa2ecf137fc36af5b2d0c7968579257e7db7faf3c3299a48d2a6c92c4fa2\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 1e32ec65982dbaed2307e748a38d6df052e74ce5722e6a4e154bcfbc7bf1c529",
-          "id": 29222000,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-5d645bc"
-        },
-        "source": "built",
-        "version": "1.5.1"
-      },
-      {
-        "commit": {
           "message": "Sync changelog",
-          "sha": "b3c2860c7aa6f655c81c30127429b7c5784a0a7f",
-          "tree_url": "https://github.com/acidanthera/AppleALC/tree/b3c2860c7aa6f655c81c30127429b7c5784a0a7f",
-          "url": "https://github.com/acidanthera/AppleALC/commit/b3c2860c7aa6f655c81c30127429b7c5784a0a7f"
+          "sha": "6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd",
+          "url": "https://github.com/acidanthera/AppleALC/commit/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd"
         },
-        "dateadded": "2020-08-03T09:57:55.033108+00:00",
-        "datecommitted": "2020-08-03T09:51:03+00:00",
+        "dateadded": "2020-08-03T09:55:01.789036+00:00",
+        "datecommitted": "2020-08-03T09:53:26+00:00",
         "hashes": {
           "debug": {
-            "sha256": "f3156dbb11fb0fb0c7bad60eb904e62a46dc12a7c55e36c6338186ac06081231"
+            "sha256": "a8c95a729bc92a13a78d498ce412983e800ebd86af87e5ca67874f56befe7c2f"
           },
           "release": {
-            "sha256": "a78fd1d1d41cffdcccdd9854d8080b49b8042ea5a8027285e15c922538c1e7d4"
+            "sha256": "5a0b02b0cd3112539e004fb37e6797aea15146fb60a45568aa447670a5b26c91"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-b3c2860/AppleALC-1.5.1-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-b3c2860/AppleALC-1.5.1-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-6a32c46/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-6a32c46/AppleALC-1.5.1-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/b3c2860c7aa6f655c81c30127429b7c5784a0a7f) ([browse tree](https://github.com/acidanthera/AppleALC/tree/b3c2860c7aa6f655c81c30127429b7c5784a0a7f))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: f3156dbb11fb0fb0c7bad60eb904e62a46dc12a7c55e36c6338186ac06081231\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: a78fd1d1d41cffdcccdd9854d8080b49b8042ea5a8027285e15c922538c1e7d4",
-          "id": 29221949,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-b3c2860"
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd) ([browse tree](https://github.com/acidanthera/AppleALC/tree/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: a8c95a729bc92a13a78d498ce412983e800ebd86af87e5ca67874f56befe7c2f\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 5a0b02b0cd3112539e004fb37e6797aea15146fb60a45568aa447670a5b26c91",
+          "id": 29221872,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-6a32c46"
         },
         "source": "built",
         "version": "1.5.1"
@@ -648,28 +619,57 @@
       {
         "commit": {
           "message": "Sync changelog",
-          "sha": "6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd",
-          "tree_url": "https://github.com/acidanthera/AppleALC/tree/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd",
-          "url": "https://github.com/acidanthera/AppleALC/commit/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd"
+          "sha": "b3c2860c7aa6f655c81c30127429b7c5784a0a7f",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/b3c2860c7aa6f655c81c30127429b7c5784a0a7f",
+          "url": "https://github.com/acidanthera/AppleALC/commit/b3c2860c7aa6f655c81c30127429b7c5784a0a7f"
         },
-        "dateadded": "2020-08-03T09:55:01.789036+00:00",
-        "datecommitted": "2020-08-03T09:53:26+00:00",
+        "dateadded": "2020-08-03T09:57:55.033108+00:00",
+        "datecommitted": "2020-08-03T09:51:03+00:00",
         "hashes": {
           "debug": {
-            "sha256": "a8c95a729bc92a13a78d498ce412983e800ebd86af87e5ca67874f56befe7c2f"
+            "sha256": "f3156dbb11fb0fb0c7bad60eb904e62a46dc12a7c55e36c6338186ac06081231"
           },
           "release": {
-            "sha256": "5a0b02b0cd3112539e004fb37e6797aea15146fb60a45568aa447670a5b26c91"
+            "sha256": "a78fd1d1d41cffdcccdd9854d8080b49b8042ea5a8027285e15c922538c1e7d4"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-6a32c46/AppleALC-1.5.1-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-6a32c46/AppleALC-1.5.1-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-b3c2860/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-b3c2860/AppleALC-1.5.1-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd) ([browse tree](https://github.com/acidanthera/AppleALC/tree/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: a8c95a729bc92a13a78d498ce412983e800ebd86af87e5ca67874f56befe7c2f\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 5a0b02b0cd3112539e004fb37e6797aea15146fb60a45568aa447670a5b26c91",
-          "id": 29221872,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-6a32c46"
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/b3c2860c7aa6f655c81c30127429b7c5784a0a7f) ([browse tree](https://github.com/acidanthera/AppleALC/tree/b3c2860c7aa6f655c81c30127429b7c5784a0a7f))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: f3156dbb11fb0fb0c7bad60eb904e62a46dc12a7c55e36c6338186ac06081231\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: a78fd1d1d41cffdcccdd9854d8080b49b8042ea5a8027285e15c922538c1e7d4",
+          "id": 29221949,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-b3c2860"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
+          "message": "CA0132: Layout-ID 7, 4, 2, 1 update and added IDT92HD95: Layout-ID 11 (#566)\n\n* CA0132: Layout-ID 4 should work when CodecCommander is loading from the boot loader.\r\n\r\n* CA0132: Layout-ID 2 adapted for Alienware 17, can also be used for desktops if multichannel is not required, but 2x Line-In.\r\n\r\n* CA0132: Layout-ID 1 revised\r\n\r\n* Added resources for Toshiba Satellite Pro C50, layout 11\r\n\r\n* Added layout-id 7 for the ZxRi codec. The PathMapID was adapted to the layout-id.",
+          "sha": "5d645bc366f0bfc519ffb013e089ce7ea1734a28",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/5d645bc366f0bfc519ffb013e089ce7ea1734a28",
+          "url": "https://github.com/acidanthera/AppleALC/commit/5d645bc366f0bfc519ffb013e089ce7ea1734a28"
+        },
+        "dateadded": "2020-08-03T09:59:21.982639+00:00",
+        "datecommitted": "2020-08-03T09:49:03+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "864baa2ecf137fc36af5b2d0c7968579257e7db7faf3c3299a48d2a6c92c4fa2"
+          },
+          "release": {
+            "sha256": "1e32ec65982dbaed2307e748a38d6df052e74ce5722e6a4e154bcfbc7bf1c529"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-5d645bc/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-5d645bc/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nCA0132: Layout-ID 7, 4, 2, 1 update and added IDT92HD95: Layout-ID 11 (#566)\n\n* CA0132: Layout-ID 4 should work when CodecCommander is loading from the boot loader.\r\n\r\n* CA0132: Layout-ID 2 adapted for Alienware 17, can also be used for desktops if multichannel is not required, but 2x Line-In.\r\n\r\n* CA0132: Layout-ID 1 revised\r\n\r\n* Added resources for Toshiba Satellite Pro C50, layout 11\r\n\r\n* Added layout-id 7 for the ZxRi codec. The PathMapID was adapted to the layout-id.\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/5d645bc366f0bfc519ffb013e089ce7ea1734a28) ([browse tree](https://github.com/acidanthera/AppleALC/tree/5d645bc366f0bfc519ffb013e089ce7ea1734a28))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: 864baa2ecf137fc36af5b2d0c7968579257e7db7faf3c3299a48d2a6c92c4fa2\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 1e32ec65982dbaed2307e748a38d6df052e74ce5722e6a4e154bcfbc7bf1c529",
+          "id": 29222000,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-5d645bc"
         },
         "source": "built",
         "version": "1.5.1"
