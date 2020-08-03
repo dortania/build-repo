@@ -560,6 +560,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add ALC285 layout 61 for Lenovo Yoga C740 (#576)\n\n* Working on 400 series LP controller and layout 61\r\n\r\n* Working out remaining issues with layout 61 on the Yoga C740\r\n\r\n* Correct headphone audio distortion after sleep on battery.\r\n\r\n* Send the SET_PIN_WIDGET_CONTROL signal on wake, corrects the last bit of distortion after sleep",
+          "sha": "da77493f9028d5b61caeb81883621fcef6655156",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/da77493f9028d5b61caeb81883621fcef6655156",
+          "url": "https://github.com/acidanthera/AppleALC/commit/da77493f9028d5b61caeb81883621fcef6655156"
+        },
+        "dateadded": "2020-08-03T10:04:16.648987+00:00",
+        "datecommitted": "2020-08-03T09:59:29+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "3496e07c995eb08697692743a08b3a2fae7836f967c3d612a2652c19c97be0b8"
+          },
+          "release": {
+            "sha256": "069b0463ad92307d0d704f08cfcdf7f59c7d3bfef1525d08d25b8f6042e957f6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-da77493/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-da77493/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd ALC285 layout 61 for Lenovo Yoga C740 (#576)\n\n* Working on 400 series LP controller and layout 61\r\n\r\n* Working out remaining issues with layout 61 on the Yoga C740\r\n\r\n* Correct headphone audio distortion after sleep on battery.\r\n\r\n* Send the SET_PIN_WIDGET_CONTROL signal on wake, corrects the last bit of distortion after sleep\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/da77493f9028d5b61caeb81883621fcef6655156) ([browse tree](https://github.com/acidanthera/AppleALC/tree/da77493f9028d5b61caeb81883621fcef6655156))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: 3496e07c995eb08697692743a08b3a2fae7836f967c3d612a2652c19c97be0b8\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 069b0463ad92307d0d704f08cfcdf7f59c7d3bfef1525d08d25b8f6042e957f6",
+          "id": 29222166,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-da77493"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd",
