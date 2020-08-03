@@ -23978,6 +23978,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "75beb63629a6dcaf5b2ac5819b560895846a58d6",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/75beb63629a6dcaf5b2ac5819b560895846a58d6",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/75beb63629a6dcaf5b2ac5819b560895846a58d6"
+        },
+        "dateadded": "2020-08-03T16:21:48.420325+00:00",
+        "datecommitted": "2020-08-03T16:07:39+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "57fe7fe48bdaa4b675624fa069d79ca4710ec84b7ab5035ecdc33b89ed46038a"
+          },
+          "release": {
+            "sha256": "0d1694d50bfd22766c9d17769ab8e49661a0344aa70e552aa28473a090bd393d"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-75beb63/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-75beb63/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/75beb63629a6dcaf5b2ac5819b560895846a58d6) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/75beb63629a6dcaf5b2ac5819b560895846a58d6))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.6-DEBUG.zip: 57fe7fe48bdaa4b675624fa069d79ca4710ec84b7ab5035ecdc33b89ed46038a\n**Release:**\nVirtualSMC-1.1.6-RELEASE.zip: 0d1694d50bfd22766c9d17769ab8e49661a0344aa70e552aa28473a090bd393d",
+          "id": 29236366,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-75beb63"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
+        "commit": {
           "message": "Improve SMC generation debugging",
           "sha": "3afec50bda58632ab85cf00d70bb490570cc3595",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/3afec50bda58632ab85cf00d70bb490570cc3595",
