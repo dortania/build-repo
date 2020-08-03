@@ -560,6 +560,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sorting of patches.",
+          "sha": "e91694e0c468a341045601efb1c25ebf5c255028",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/e91694e0c468a341045601efb1c25ebf5c255028",
+          "url": "https://github.com/acidanthera/AppleALC/commit/e91694e0c468a341045601efb1c25ebf5c255028"
+        },
+        "dateadded": "2020-08-03T12:25:10.160293+00:00",
+        "datecommitted": "2020-08-03T12:07:36+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "572e1954e3f2d11d09593726f669edfa8107fd631256e6aa73b726ea695f16d1"
+          },
+          "release": {
+            "sha256": "1a9fc4b2a13142a58cf20401cf0a6c80a9edbb0f9d5e7cb86237f6a29d3e1a2f"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-e91694e/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-e91694e/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSorting of patches.\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/e91694e0c468a341045601efb1c25ebf5c255028) ([browse tree](https://github.com/acidanthera/AppleALC/tree/e91694e0c468a341045601efb1c25ebf5c255028))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: 572e1954e3f2d11d09593726f669edfa8107fd631256e6aa73b726ea695f16d1\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 1a9fc4b2a13142a58cf20401cf0a6c80a9edbb0f9d5e7cb86237f6a29d3e1a2f",
+          "id": 29226609,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-e91694e"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Added ALC289 layout-id 11 for alienware m17r2 by leeoem",
           "sha": "4d3c5718c624381f9b4fde0b24aa33f817811b5b",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/4d3c5718c624381f9b4fde0b24aa33f817811b5b",
