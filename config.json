@@ -3538,6 +3538,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Get things compile in Xcode 12 (is not guaranteed to work)",
+          "sha": "8cab0372d83196caa2d2e1405902e7d825a3e36b",
+          "tree_url": "https://github.com/acidanthera/DebugEnhancer/tree/8cab0372d83196caa2d2e1405902e7d825a3e36b",
+          "url": "https://github.com/acidanthera/DebugEnhancer/commit/8cab0372d83196caa2d2e1405902e7d825a3e36b"
+        },
+        "dateadded": "2020-08-03T19:28:03.024730+00:00",
+        "datecommitted": "2020-07-29T15:25:33+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "1ef304a30fb793827344c0c57129a6cbb45130548a8ac4c79beb50e19ba1b7ad"
+          },
+          "release": {
+            "sha256": "54fad6d5630f99319462590ffdd8440191c619757eec139a49518febe679a7bf"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-8cab037/DebugEnhancer-1.0.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-8cab037/DebugEnhancer-1.0.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nGet things compile in Xcode 12 (is not guaranteed to work)\n[View on GitHub](https://github.com/acidanthera/DebugEnhancer/commit/8cab0372d83196caa2d2e1405902e7d825a3e36b) ([browse tree](https://github.com/acidanthera/DebugEnhancer/tree/8cab0372d83196caa2d2e1405902e7d825a3e36b))\n\n**Hashes**:\n**Debug:**\nDebugEnhancer-1.0.1-DEBUG.zip: 1ef304a30fb793827344c0c57129a6cbb45130548a8ac4c79beb50e19ba1b7ad\n**Release:**\nDebugEnhancer-1.0.1-RELEASE.zip: 54fad6d5630f99319462590ffdd8440191c619757eec139a49518febe679a7bf",
+          "id": 29243407,
+          "url": "https://github.com/dortania/build-repo/releases/tag/DebugEnhancer-8cab037"
+        },
+        "source": "built",
+        "version": "1.0.1"
+      },
+      {
+        "commit": {
           "message": "Force x86_64",
           "sha": "b94b58df40c7738c0784ab9cfa49d5e0f2ad8599",
           "tree_url": "https://github.com/acidanthera/DebugEnhancer/tree/b94b58df40c7738c0784ab9cfa49d5e0f2ad8599",
