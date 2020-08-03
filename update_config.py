@@ -31,7 +31,7 @@ def add_commit_date(name, version):
         if not repo:
             print("Product " + name + " not found")
             raise Exception
-        commit_date = dateutil.parser.parse(json.loads(hammock("https://api.github.com").repos(organization, repo).commits(version["commit"]).GET(auth=("dhinakg", token)).text)["commit"]["committer"]["date"])
+        commit_date = dateutil.parser.parse(json.loads(hammock("https://api.github.com").repos(organization, repo).commits(version["commit"]).GET(auth=("github-actions", token)).text)["commit"]["committer"]["date"])
         version["datecommitted"] = commit_date.isoformat()
         return version
 
@@ -52,7 +52,7 @@ def add_commit_url(name, version):
         if not repo:
             print("Product " + name + " not found")
             raise Exception
-        html_url = json.loads(hammock("https://api.github.com").repos(organization, repo).commits(version["commit"]["sha"]).GET(auth=("dhinakg", token)).text)["html_url"]
+        html_url = json.loads(hammock("https://api.github.com").repos(organization, repo).commits(version["commit"]["sha"]).GET(auth=("github-actions", token)).text)["html_url"]
         version["commit"]["url"] = html_url
         version["commit"]["tree_url"] = html_url.replace("/commit/", "/tree/")
         return version
@@ -78,7 +78,7 @@ for i in config:
         desc = config[i]["versions"][j].pop("description")
         config[i]["versions"][j]["commit"] = {"sha": sha, "message": desc}
     for j, item in [(j, item) for (j, item) in enumerate(config[i]["versions"]) if item.get("release", {}).get("id", None) and (not item.get("release", {}).get("description", None) or not item.get("release", {}).get("url", None))]:
-        rel = json.loads(hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(config[i]["versions"][j]["release"]["id"]), auth=("dhinakg", token)).GET().text)
+        rel = json.loads(hammock("https://api.github.com/repos/dortania/build-repo/releases/" + str(config[i]["versions"][j]["release"]["id"]), auth=("github-actions", token)).GET().text)
         config[i]["versions"][j]["release"]["description"] = rel["body"] if rel.get("body") else None
         config[i]["versions"][j]["release"]["url"] = rel["html_url"] if rel.get("html_url") else None
     config[i]["versions"] = [i for i in config[i]["versions"] if i.get("release", {}).get("url", True)]

@@ -39,9 +39,9 @@ jobs:
           HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica libmagic mingw-w64 openssl
       - name: Set Up Working Tree
         run: |
-          git config --global user.name "Dhinak G"
-          git config --global user.email "dhinakg@users.noreply.github.com"
-          git clone https://github.com/dhinakg/ktextrepo-beta.git Config --depth 1 --single-branch --branch builds --sparse --filter=blob:none
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@users.noreply.github.com"
+          git clone https://github.com/dortania/build-repo.git Config --depth 1 --single-branch --branch builds --sparse --filter=blob:none
       - uses: fregante/setup-git-token@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -58,7 +58,7 @@ jobs:
           WORKFLOW_NAME: ${{ github.workflow }}
           JOB_ID: ${{ github.job }}
         run: |
-          git clone https://github.com/dhinakg/github-actions-discord-webhook.git webhook
+          git clone https://github.com/dortania/github-actions-discord-webhook.git webhook
           bash webhook/send.sh $JOB_STATUS $WEBHOOK_URL
         shell: bash
       - name: Run Builder

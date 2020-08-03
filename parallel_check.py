@@ -8,13 +8,13 @@ with open("gh token.txt") as f:
     token = f.read().strip()
 
 
-this_run = hammock(f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}", auth=("dhinakg", token))
+this_run = hammock(f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}", auth=("github-actions", token))
 workflow_url = this_run.GET().json()["workflow_url"]
 
-#workflow_output = hammock(workflow_url).GET(auth=("dhinakg", token))
+#workflow_output = hammock(workflow_url).GET(auth=("github-actions", token))
 #workflow_id = json.loads(workflow_output.text or workflow_url.content)["id"]
 
-runs = hammock(workflow_url, auth=("dhinakg", token)).runs.GET().json()
+runs = hammock(workflow_url, auth=("github-actions", token)).runs.GET().json()
 run_index = None
 for run in runs["workflow_runs"]:
     if str(run["id"]) == str(os.environ["GITHUB_RUN_ID"]):

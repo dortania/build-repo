@@ -51,12 +51,12 @@ for plugin in plugins:
     organization, repo = plugin["URL"].strip().replace("https://github.com/", "").split("/")
     base_url = hammock("https://api.github.com")
 
-    releases_url = base_url.repos(organization, repo).releases.GET(auth=("dhinakg", token), params={"per_page": 100})
+    releases_url = base_url.repos(organization, repo).releases.GET(auth=("github-actions", token), params={"per_page": 100})
     releases = json.loads(releases_url.text or releases_url.content)
     if releases_url.headers.get("Link"):
         print(releases_url.headers["Link"])
 
-    commits_url = base_url.repos(organization, repo).commits.GET(auth=("dhinakg", token), params={"per_page": 100})
+    commits_url = base_url.repos(organization, repo).commits.GET(auth=("github-actions", token), params={"per_page": 100})
     commits = json.loads(commits_url.text or commits_url.content)
     if releases_url.headers.get("Link"):
         print(releases_url.headers["Link"])

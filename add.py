@@ -24,14 +24,14 @@ def expand_globs(path: str):
 
 
 def upload_release_asset(release_id, token, file_path: Path):
-    upload_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release_id), auth=("dhinakg", token)).GET().json()
+    upload_url = hammock("https://api.github.com/repos/dortania/build-repo/releases/" + str(release_id), auth=("github-actions", token)).GET().json()
     upload_url = upload_url["upload_url"]
     mime_type = mime.from_file(str(file_path.resolve()))
     if not mime_type[0]:
         print("Failed to guess mime type!")
         return False
 
-    asset_upload = hammock(str(purl.Template(upload_url).expand({"name": file_path.name, "label": file_path.name})), auth=("dhinakg", token)).POST(
+    asset_upload = hammock(str(purl.Template(upload_url).expand({"name": file_path.name, "label": file_path.name})), auth=("github-actions", token)).POST(
         data=file_path.read_bytes(),
         headers={"content-type": mime_type}
     )
@@ -39,13 +39,13 @@ def upload_release_asset(release_id, token, file_path: Path):
 
 
 def paginate(url, token):
-    url = hammock(url, auth=("dhinakg", token)).GET()
+    url = hammock(url, auth=("github-actions", token)).GET()
     if url.links == {}:
         return url.json()
     else:
         container = url.json()
         while url.links.get("next"):
-            url = hammock(url.links["next"]["url"], auth=("dhinakg", token)).GET()
+            url = hammock(url.links["next"]["url"], auth=("github-actions", token)).GET()
             container += url.json()
         return container
 
@@ -82,17 +82,17 @@ def add_built(plugin, token):
     release["datecommitted"] = dateutil.parser.parse(commit_info["commit"]["committer"]["date"]).isoformat()
     release["source"] = "built"
 
-    releases_url = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", auth=("dhinakg", token))
+    releases_url = hammock("https://api.github.com/repos/dortania/build-repo/releases", auth=("github-actions", token))
 
     # Delete previous releases
-    for i in paginate("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases", token):
+    for i in paginate("https://api.github.com/repos/dortania/build-repo/releases", token):
         if i["name"] == (name + " " + release["commit"]["sha"][:7]):
             print("\tDeleting previous release...")
             releases_url(i["id"]).DELETE()
             time.sleep(3)  # Prevent race conditions
 
     # Delete tags
-    check_tag = hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/git/refs/tags/" + name + "-" + release["commit"]["sha"][:7], auth=("dhinakg", token))
+    check_tag = hammock("https://api.github.com/repos/dortania/build-repo/git/refs/tags/" + name + "-" + release["commit"]["sha"][:7], auth=("github-actions", token))
     if check_tag.GET().status_code != 404:
         print("\tDeleting previous tag...")
         check_tag.DELETE()
@@ -143,7 +143,7 @@ def add_built(plugin, token):
 {new_line.join([(file.name + ': ' + release['hashes'][file.name]['sha256']) for file in files["extras"]]) if files["extras"] else ''}
 """.strip()
 
-    hammock("https://api.github.com/repos/dhinakg/ktextrepo-beta/releases/" + str(release["release"]["id"]), auth=("dhinakg", token)).POST(json={
+    hammock("https://api.github.com/repos/dortania/build-repo/releases/" + str(release["release"]["id"]), auth=("github-actions", token)).POST(json={
         "body": release["release"]["description"]
     })
 

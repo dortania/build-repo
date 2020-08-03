@@ -1,12 +1,3 @@
-# ktextrepo
+# build-repo
 
-![Build](https://github.com/dhinakg/ktextrepo-beta/workflows/Build/badge.svg)
-
-ktext
-
-in beta
-
-to-do:
-* clean up code
-* add addRelease
-* documentation
+![Build](https://github.com/dortania/build-repo/workflows/Build/badge.svg)

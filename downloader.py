@@ -4,10 +4,10 @@ import zipfile
 from pathlib import Path
 from hammock import Hammock as hammock
 
-plugins = hammock("https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/github-actions/plugins.json").GET()
+plugins = hammock("https://raw.githubusercontent.com/dortania/build-repo/github-actions/plugins.json").GET()
 plugins = json.loads(plugins.text)
 
-config = hammock("https://raw.githubusercontent.com/dhinakg/ktextrepo-beta/builds/config.json").GET()
+config = hammock("https://raw.githubusercontent.com/dortania/build-repo/builds/config.json").GET()
 config = json.loads(config.text)
 print("Global Settings: ")
 ensure_latest = bool(distutils.util.strtobool(input("Ensure latest? (\"true\" or \"false\") ").lower()))
