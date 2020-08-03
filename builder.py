@@ -224,7 +224,7 @@ class Builder():
             print("\tNo version command!")
             return False
         print("\tVersion: " + version)
-        category_type = {"Kext": "Kexts", "Bootloader": "Bootloaders", "Other": "Others"}.get(b_type)
+        category_type = {"Kext": "Kexts", "Bootloader": "Bootloaders", "Utility": "Utilities", "Other": "Others"}.get(b_type)
         print("\tCopying to build directory...")
         extras = []
         # (extras.extend(self._expand_globs(i)) for i in extra_files) if extra_files is not None else None  # pylint: disable=expression-not-assigned

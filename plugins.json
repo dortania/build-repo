@@ -316,7 +316,7 @@
         }
       ],
       "Release File": "build/Release/*.zip",
-      "Type": "Utilities",
+      "Type": "Utility",
       "URL": "https://github.com/acidanthera/gfxutil",
       "Version": [
         "awk",
