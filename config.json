@@ -560,6 +560,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "38f15b80ea6aeb722c186494d55b329bb821aa82",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/38f15b80ea6aeb722c186494d55b329bb821aa82",
+          "url": "https://github.com/acidanthera/AppleALC/commit/38f15b80ea6aeb722c186494d55b329bb821aa82"
+        },
+        "dateadded": "2020-08-03T10:26:01.434443+00:00",
+        "datecommitted": "2020-08-03T10:03:23+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "94ee6ffc2eb176bffe68ed3e514f545c1c9a009925461e9fbcd61dee70249a03"
+          },
+          "release": {
+            "sha256": "122c85e83b9e96a59a1cc11be5787eb4490838afc88ea5139dc5f6b0ec2f3990"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-38f15b8/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-38f15b8/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/38f15b80ea6aeb722c186494d55b329bb821aa82) ([browse tree](https://github.com/acidanthera/AppleALC/tree/38f15b80ea6aeb722c186494d55b329bb821aa82))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: 94ee6ffc2eb176bffe68ed3e514f545c1c9a009925461e9fbcd61dee70249a03\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 122c85e83b9e96a59a1cc11be5787eb4490838afc88ea5139dc5f6b0ec2f3990",
+          "id": 29222884,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-38f15b8"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Creative CA0132 5.1 channel for Alienware-M17X-R4 by DalianSky (#578)",
           "sha": "efc223a11b143531a6c6ae987b5408b8a5fc287a",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/efc223a11b143531a6c6ae987b5408b8a5fc287a",
