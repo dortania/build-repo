@@ -2,6 +2,7 @@ import datetime
 import json
 import subprocess
 import sys
+import traceback
 from pathlib import Path
 
 import dateutil.parser
@@ -112,6 +113,7 @@ for plugin in to_build:
         duration = datetime.datetime.now() - started
         print("An error occurred!")
         print(error)
+        traceback.print_tb(error.__traceback__)
         if result:
             print("Result was: " + str(result))
         termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "red", attrs=["bold"]) + termcolor.colored(" errored", "red"), "red")
