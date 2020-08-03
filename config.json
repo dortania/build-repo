@@ -25264,6 +25264,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "179cd7258c32941c2664fe0d907e1c8698bb8e2c",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/179cd7258c32941c2664fe0d907e1c8698bb8e2c",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/179cd7258c32941c2664fe0d907e1c8698bb8e2c"
+        },
+        "dateadded": "2020-08-03T16:22:49.943912+00:00",
+        "datecommitted": "2020-08-03T16:06:27+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "96cd0e912a0e84a6cf7bd8033b32b2fe9e47e8a31f41fcc6ea995202365e4bc1"
+          },
+          "release": {
+            "sha256": "c9b0306e8e04e5b89198b102941902408a12f1e47e3084cbd374a696d1258752"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-179cd72/VoodooPS2Controller-2.1.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-179cd72/VoodooPS2Controller-2.1.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/179cd7258c32941c2664fe0d907e1c8698bb8e2c) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/179cd7258c32941c2664fe0d907e1c8698bb8e2c))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.7-DEBUG.zip: 96cd0e912a0e84a6cf7bd8033b32b2fe9e47e8a31f41fcc6ea995202365e4bc1\n**Release:**\nVoodooPS2Controller-2.1.7-RELEASE.zip: c9b0306e8e04e5b89198b102941902408a12f1e47e3084cbd374a696d1258752",
+          "id": 29236430,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-179cd72"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
+        "commit": {
           "message": "Fix changelog formatting",
           "sha": "6883c221e68097e585212cfb8125364dc164fcdd",
           "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/6883c221e68097e585212cfb8125364dc164fcdd",
