@@ -560,6 +560,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Creative CA0132 5.1 channel for Alienware-M17X-R4 by DalianSky (#578)",
+          "sha": "efc223a11b143531a6c6ae987b5408b8a5fc287a",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/efc223a11b143531a6c6ae987b5408b8a5fc287a",
+          "url": "https://github.com/acidanthera/AppleALC/commit/efc223a11b143531a6c6ae987b5408b8a5fc287a"
+        },
+        "dateadded": "2020-08-03T10:23:59.624296+00:00",
+        "datecommitted": "2020-08-03T10:04:27+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "c02ef027053e1f1bf95d87e6e3e1a96bafd41608dcff6ae73426e576bb90b726"
+          },
+          "release": {
+            "sha256": "da27eebf4f18ce0686c85b746efe30405a759d491f2366f5379b1372bc96ff44"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-efc223a/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-efc223a/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nCreative CA0132 5.1 channel for Alienware-M17X-R4 by DalianSky (#578)\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/efc223a11b143531a6c6ae987b5408b8a5fc287a) ([browse tree](https://github.com/acidanthera/AppleALC/tree/efc223a11b143531a6c6ae987b5408b8a5fc287a))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: c02ef027053e1f1bf95d87e6e3e1a96bafd41608dcff6ae73426e576bb90b726\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: da27eebf4f18ce0686c85b746efe30405a759d491f2366f5379b1372bc96ff44",
+          "id": 29222820,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-efc223a"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "9826d1970ac85ac24254dcf268f4cdc58ac59e3f",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/9826d1970ac85ac24254dcf268f4cdc58ac59e3f",
