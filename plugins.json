@@ -1,283 +1,329 @@
 {
   "Plugins": [
     {
-      "Lilu": true,
-      "URL": "https://github.com/acidanthera/AppleALC",
-      "Desc": "dynamic audio patching",
-      "Name": "AppleALC",
-      "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
-    },
-    {
-      "Lilu": true,
-      "URL": "https://github.com/acidanthera/NVMeFix",
-      "Desc": "patches for the Apple NVMe storage driver, IONVMeFamily",
-      "Name": "NVMeFix",
-      "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
-    },
-    {
-      "Lilu": true,
-      "URL": "https://github.com/acidanthera/CPUFriend",
-      "Desc": "Dynamic macOS CPU power management data injection",
-      "Name": "CPUFriend",
-      "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
-    },
-    {
-      "Lilu": true,
-      "URL": "https://github.com/acidanthera/AirportBrcmFixup",
+      "Debug File": "build/Debug/*.zip",
       "Desc": "An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.",
+      "Lilu": true,
       "Name": "AirportBrcmFixup",
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "URL": "https://github.com/acidanthera/AirportBrcmFixup"
     },
     {
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "dynamic audio patching",
       "Lilu": true,
-      "URL": "https://github.com/acidanthera/BT4LEContinuityFixup",
+      "Name": "AppleALC",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/AppleALC"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
       "Desc": "An open source kernel extension providing patches for IOBluetoothFamily.",
+      "Lilu": true,
       "Name": "BT4LEContinuityFixup",
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "URL": "https://github.com/acidanthera/BT4LEContinuityFixup"
     },
     {
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "Dynamic macOS CPU power management data injection",
       "Lilu": true,
-      "URL": "https://github.com/acidanthera/HibernationFixup",
+      "Name": "CPUFriend",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/CPUFriend"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "A Lilu plugin intended to enable debug output in the macOS kernel",
+      "Lilu": true,
+      "Name": "DebugEnhancer",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/DebugEnhancer"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
       "Desc": "A Lilu plugin intended to fix hibernation compatibility issues",
+      "Lilu": true,
       "Name": "HibernationFixup",
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "URL": "https://github.com/acidanthera/HibernationFixup"
     },
     {
-      "Lilu": true,
-      "URL": "https://github.com/acidanthera/VoodooInput",
-      "Desc": "Generic Multitouch Handler kernel extension for macOS",
-      "Name": "VoodooInput",
-      "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
-    },
-    {
-      "Lilu": true,
-      "URL": "https://github.com/acidanthera/IntelMausi",
+      "Debug File": "build/Debug/*.zip",
       "Desc": "Intel Ethernet LAN driver for macOS",
+      "Lilu": true,
       "Name": "IntelMausi",
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "URL": "https://github.com/acidanthera/IntelMausi"
     },
     {
-      "URL": "https://github.com/acidanthera/Lilu",
-      "Name": "Lilu",
+      "Debug File": "build/Debug/*.zip",
       "Desc": "for arbitrary kext, library, and program patching",
+      "Name": "Lilu",
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "URL": "https://github.com/acidanthera/Lilu"
     },
     {
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "patches for the Apple NVMe storage driver, IONVMeFamily",
       "Lilu": true,
-      "URL": "https://github.com/acidanthera/VirtualSMC",
+      "Name": "NVMeFix",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/NVMeFix"
+    },
+    {
+      "Combined": true,
+      "Command": [
+        {
+          "args": [],
+          "name": "Building DuetPkg",
+          "path": "./build_duet.tool"
+        },
+        {
+          "args": [],
+          "name": "Building OpenCorePkg",
+          "path": "./build_oc.tool"
+        }
+      ],
+      "Debug File": "Binaries/*DEBUG*.zip",
+      "Desc": "OpenCore front end",
+      "Extras": [
+        "Docs/AcpiSamples/*.aml"
+      ],
+      "Name": "OpenCorePkg",
+      "Pre-Build": [
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-ALS0.dsl"
+          ],
+          "name": "Compile SSDT-ALS0.dsl",
+          "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-AWAC.dsl"
+          ],
+          "name": "Compile SSDT-AWAC.dsl",
+          "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-BRG0.dsl"
+          ],
+          "name": "Compile SSDT-BRG0.dsl",
+          "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-EC-USBX.dsl"
+          ],
+          "name": "Compile SSDT-EC-USBX.dsl",
+          "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-EC.dsl"
+          ],
+          "name": "Compile SSDT-EC.dsl",
+          "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-EHCx_OFF.dsl"
+          ],
+          "name": "Compile SSDT-EHCx_OFF.dsl",
+          "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-IMEI.dsl"
+          ],
+          "name": "Compile SSDT-IMEI.dsl",
+          "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-PLUG.dsl"
+          ],
+          "name": "Compile SSDT-PLUG.dsl",
+          "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-PMC.dsl"
+          ],
+          "name": "Compile SSDT-PMC.dsl",
+          "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-RTC0-RANGE.dsl"
+          ],
+          "name": "Compile SSDT-RTC0-RANGE.dsl",
+          "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-RTC0.dsl"
+          ],
+          "name": "Compile SSDT-RTC0.dsl",
+          "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-SBUS-MCHC.dsl"
+          ],
+          "name": "Compile SSDT-SBUS-MCHC.dsl",
+          "path": "iasl"
+        }
+      ],
+      "Release File": "Binaries/*RELEASE*.zip",
+      "Type": "Bootloader",
+      "URL": "https://github.com/acidanthera/OpenCorePkg",
+      "Version": [
+        "awk",
+        "/^#define OPEN_CORE_VERSION/ { print substr($3,2,5) }",
+        "Include/Acidanthera/OpenCore.h"
+      ]
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "open source kernel extension providing a way to emulate some offsets in your CMOS (RTC) memory",
+      "Lilu": true,
+      "Name": "RTCMemoryFixup",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/RTCMemoryFixup"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
       "Desc": "advanced Apple SMC emulator in the kernel",
+      "Lilu": true,
       "Name": "VirtualSMC",
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
+      "URL": "https://github.com/acidanthera/VirtualSMC"
     },
     {
-      "URL": "https://github.com/1Revenger1/VoodooPS2-Alps",
-      "Name": "VoodooPS2-Alps",
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "Generic Multitouch Handler kernel extension for macOS",
+      "Lilu": true,
+      "Name": "VoodooInput",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/VoodooInput"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "PS2 controller kext",
+      "Info": "VoodooPS2Controller.kext/Contents/Info.plist",
+      "Name": "VoodooPS2",
+      "Pre-Build": [
+        {
+          "args": [
+            "https://raw.githubusercontent.com/acidanthera/VoodooInput/master/VoodooInput/Scripts/bootstrap.sh"
+          ],
+          "name": "Download VoodooInput Bootstrap Script",
+          "path": "wget"
+        },
+        {
+          "args": [
+            "+x",
+            "bootstrap.sh"
+          ],
+          "name": "Make Bootstrap Executable",
+          "path": "chmod"
+        },
+        {
+          "args": [],
+          "name": "Run VoodooInput Bootstrap",
+          "path": "./bootstrap.sh"
+        }
+      ],
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/VoodooPS2"
+    },
+    {
+      "Combined": true,
+      "Command": "make",
+      "Debug File": "debug.zip",
       "Desc": "Refined macOS driver for ALPS TouchPads",
+      "Info": "VoodooPS2Controller.kext/Contents/Info.plist",
+      "Name": "VoodooPS2-Alps",
       "Post-Build": [
         {
-          "path": "zip",
           "args": [
             "-r",
             "-X",
             "release.zip",
             "build/Release/"
           ],
-          "name": "Zip Release Directory"
+          "name": "Zip Release Directory",
+          "path": "zip"
         },
         {
-          "path": "zip",
           "args": [
             "-r",
             "-X",
             "debug.zip",
             "build/Debug/"
           ],
-          "name": "Zip Debug Directory"
+          "name": "Zip Debug Directory",
+          "path": "zip"
         }
-      ],
-      "Combined": true,
-      "Command": "make",
-      "Version": [
-        "awk",
-        "/CFBundleVersion/ { getline; print substr($0,10,5) }",
-        "build/Debug/VoodooPS2Controller.kext/Contents/Info.plist"
       ],
       "Release File": "release.zip",
-      "Debug File": "debug.zip"
+      "URL": "https://github.com/1Revenger1/VoodooPS2-Alps"
     },
     {
-      "Lilu": true,
-      "URL": "https://github.com/acidanthera/WhateverGreen",
-      "Name": "WhateverGreen",
+      "Debug File": "build/Debug/*.zip",
       "Desc": "provides patches for AMD/Nvidia/Intel GPUs",
-      "Pre-Build": [
-        {
-          "path": "iasl",
-          "args": [
-            "Manual/SSDT-PNLF.dsl"
-          ],
-          "name": "Compile SSDT-PNLF.dsl"
-        }
-      ],
       "Extras": [
         "Manual/SSDT-PNLF.aml"
       ],
-      "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip"
-    },
-    {
-      "URL": "https://github.com/acidanthera/VoodooPS2",
-      "Name": "VoodooPS2",
-      "Desc": "PS2 controller kext",
+      "Lilu": true,
+      "Name": "WhateverGreen",
       "Pre-Build": [
         {
-          "path": "wget",
           "args": [
-            "https://raw.githubusercontent.com/acidanthera/VoodooInput/master/VoodooInput/Scripts/bootstrap.sh"
+            "Manual/SSDT-PNLF.dsl"
           ],
-          "name": "Download VoodooInput Bootstrap Script"
-        },
-        {
-          "path": "chmod",
-          "args": [
-            "+x",
-            "bootstrap.sh"
-          ],
-          "name": "Make Bootstrap Executable"
-        },
-        {
-          "path": "./bootstrap.sh",
-          "args": [],
-          "name": "Run VoodooInput Bootstrap"
+          "name": "Compile SSDT-PNLF.dsl",
+          "path": "iasl"
         }
       ],
       "Release File": "build/Release/*.zip",
-      "Debug File": "build/Debug/*.zip",
-      "Info": "VoodooPS2Controller.kext/Contents/Info.plist"
+      "URL": "https://github.com/acidanthera/WhateverGreen"
     },
     {
-      "URL": "https://github.com/acidanthera/OpenCorePkg",
-      "Name": "OpenCorePkg",
+      "Build Opts": [
+        "-arch",
+        "x86_64",
+        "-arch",
+        "i386",
+        "ONLY_ACTIVE_ARCH=NO"
+      ],
+      "Debug File": "build/Debug/*.zip",
       "Desc": "OpenCore front end",
-      "Type": "Bootloader",
-      "Command": [
+      "Name": "gfxutil",
+      "Pre-Build": [
         {
-          "path": "./build_duet.tool",
-          "args": [],
-          "name": "Building DuetPkg"
-        },
-        {
-          "path": "./build_oc.tool",
-          "args": [],
-          "name": "Building OpenCorePkg"
+          "args": [
+            "clone",
+            "https://github.com/acidanthera/audk",
+            "-b",
+            "master",
+            "--depth=1",
+            "../edk2"
+          ],
+          "name": "Clone audk",
+          "path": "git"
         }
       ],
-      "Combined": true,
-      "Release File": "Binaries/*RELEASE*.zip",
-      "Debug File": "Binaries/*DEBUG*.zip",
+      "Release File": "build/Release/*.zip",
+      "Type": "Utilities",
+      "URL": "https://github.com/acidanthera/gfxutil",
       "Version": [
         "awk",
-        "/^#define OPEN_CORE_VERSION/ { print substr($3,2,5) }",
-        "Include/Acidanthera/OpenCore.h"
-      ],
-      "Pre-Build": [
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-ALS0.dsl"
-          ],
-          "name": "Compile SSDT-ALS0.dsl"
-        },
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-AWAC.dsl"
-          ],
-          "name": "Compile SSDT-AWAC.dsl"
-        },
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-BRG0.dsl"
-          ],
-          "name": "Compile SSDT-BRG0.dsl"
-        },
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-EC-USBX.dsl"
-          ],
-          "name": "Compile SSDT-EC-USBX.dsl"
-        },
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-EC.dsl"
-          ],
-          "name": "Compile SSDT-EC.dsl"
-        },
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-EHCx_OFF.dsl"
-          ],
-          "name": "Compile SSDT-EHCx_OFF.dsl"
-        },
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-IMEI.dsl"
-          ],
-          "name": "Compile SSDT-IMEI.dsl"
-        },
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-PLUG.dsl"
-          ],
-          "name": "Compile SSDT-PLUG.dsl"
-        },
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-PMC.dsl"
-          ],
-          "name": "Compile SSDT-PMC.dsl"
-        },
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-RTC0-RANGE.dsl"
-          ],
-          "name": "Compile SSDT-RTC0-RANGE.dsl"
-        },
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-RTC0.dsl"
-          ],
-          "name": "Compile SSDT-RTC0.dsl"
-        },
-        {
-          "path": "iasl",
-          "args": [
-            "Docs/AcpiSamples/SSDT-SBUS-MCHC.dsl"
-          ],
-          "name": "Compile SSDT-SBUS-MCHC.dsl"
-        }
-      ],
-      "Extras": [
-        "Docs/AcpiSamples/*.aml"
+        "/^#define VERSION/ { print substr($3,2,5) }",
+        "main.h"
       ]
     }
   ]
