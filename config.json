@@ -560,6 +560,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "36d8322257b07772cb431d4ad522290e95af9b8f",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/36d8322257b07772cb431d4ad522290e95af9b8f",
+          "url": "https://github.com/acidanthera/AppleALC/commit/36d8322257b07772cb431d4ad522290e95af9b8f"
+        },
+        "dateadded": "2020-08-03T10:08:40.269031+00:00",
+        "datecommitted": "2020-08-03T09:56:41+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "94e402646d005124d3b51365d07499484f7f6ac8908667452504140376cd010e"
+          },
+          "release": {
+            "sha256": "788650b3d907615881cfda269ca4e22eb269ce557e41e8e61413703145ffca10"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-36d8322/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-36d8322/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/36d8322257b07772cb431d4ad522290e95af9b8f) ([browse tree](https://github.com/acidanthera/AppleALC/tree/36d8322257b07772cb431d4ad522290e95af9b8f))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: 94e402646d005124d3b51365d07499484f7f6ac8908667452504140376cd010e\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 788650b3d907615881cfda269ca4e22eb269ce557e41e8e61413703145ffca10",
+          "id": 29222312,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-36d8322"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Add ALC290 - LayoutID 15 (0F) for HP m6 n015dx (#575)",
           "sha": "2138e905beb044f7317ebc2012167b7e0e768c8e",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/2138e905beb044f7317ebc2012167b7e0e768c8e",
