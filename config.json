@@ -560,6 +560,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Added ALC289 layout-id 11 for alienware m17r2 by leeoem",
+          "sha": "4d3c5718c624381f9b4fde0b24aa33f817811b5b",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/4d3c5718c624381f9b4fde0b24aa33f817811b5b",
+          "url": "https://github.com/acidanthera/AppleALC/commit/4d3c5718c624381f9b4fde0b24aa33f817811b5b"
+        },
+        "dateadded": "2020-08-03T10:53:29.407492+00:00",
+        "datecommitted": "2020-08-03T10:50:50+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "53d312a071122ffa9f125f29ba8ce45822757293336c7a73a0711e650bbde759"
+          },
+          "release": {
+            "sha256": "fda52c42432b075eb1ce5df8685eefda170b9b45d763858be2a928ed39d74145"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-4d3c571/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-4d3c571/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdded ALC289 layout-id 11 for alienware m17r2 by leeoem\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/4d3c5718c624381f9b4fde0b24aa33f817811b5b) ([browse tree](https://github.com/acidanthera/AppleALC/tree/4d3c5718c624381f9b4fde0b24aa33f817811b5b))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: 53d312a071122ffa9f125f29ba8ce45822757293336c7a73a0711e650bbde759\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: fda52c42432b075eb1ce5df8685eefda170b9b45d763858be2a928ed39d74145",
+          "id": 29223763,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-4d3c571"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "9826d1970ac85ac24254dcf268f4cdc58ac59e3f",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/9826d1970ac85ac24254dcf268f4cdc58ac59e3f",
