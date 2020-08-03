@@ -560,6 +560,35 @@
     "versions": [
       {
         "commit": {
+          "message": "CA0132: Layout-ID 7, 4, 2, 1 update and added IDT92HD95: Layout-ID 11 (#566)\n\n* CA0132: Layout-ID 4 should work when CodecCommander is loading from the boot loader.\r\n\r\n* CA0132: Layout-ID 2 adapted for Alienware 17, can also be used for desktops if multichannel is not required, but 2x Line-In.\r\n\r\n* CA0132: Layout-ID 1 revised\r\n\r\n* Added resources for Toshiba Satellite Pro C50, layout 11\r\n\r\n* Added layout-id 7 for the ZxRi codec. The PathMapID was adapted to the layout-id.",
+          "sha": "5d645bc366f0bfc519ffb013e089ce7ea1734a28",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/5d645bc366f0bfc519ffb013e089ce7ea1734a28",
+          "url": "https://github.com/acidanthera/AppleALC/commit/5d645bc366f0bfc519ffb013e089ce7ea1734a28"
+        },
+        "dateadded": "2020-08-03T09:59:21.982639+00:00",
+        "datecommitted": "2020-08-03T09:49:03+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "864baa2ecf137fc36af5b2d0c7968579257e7db7faf3c3299a48d2a6c92c4fa2"
+          },
+          "release": {
+            "sha256": "1e32ec65982dbaed2307e748a38d6df052e74ce5722e6a4e154bcfbc7bf1c529"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-5d645bc/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-5d645bc/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nCA0132: Layout-ID 7, 4, 2, 1 update and added IDT92HD95: Layout-ID 11 (#566)\n\n* CA0132: Layout-ID 4 should work when CodecCommander is loading from the boot loader.\r\n\r\n* CA0132: Layout-ID 2 adapted for Alienware 17, can also be used for desktops if multichannel is not required, but 2x Line-In.\r\n\r\n* CA0132: Layout-ID 1 revised\r\n\r\n* Added resources for Toshiba Satellite Pro C50, layout 11\r\n\r\n* Added layout-id 7 for the ZxRi codec. The PathMapID was adapted to the layout-id.\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/5d645bc366f0bfc519ffb013e089ce7ea1734a28) ([browse tree](https://github.com/acidanthera/AppleALC/tree/5d645bc366f0bfc519ffb013e089ce7ea1734a28))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: 864baa2ecf137fc36af5b2d0c7968579257e7db7faf3c3299a48d2a6c92c4fa2\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: 1e32ec65982dbaed2307e748a38d6df052e74ce5722e6a4e154bcfbc7bf1c529",
+          "id": 29222000,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-5d645bc"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "b3c2860c7aa6f655c81c30127429b7c5784a0a7f",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/b3c2860c7aa6f655c81c30127429b7c5784a0a7f",
