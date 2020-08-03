@@ -3538,6 +3538,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Force x86_64",
+          "sha": "b94b58df40c7738c0784ab9cfa49d5e0f2ad8599",
+          "tree_url": "https://github.com/acidanthera/DebugEnhancer/tree/b94b58df40c7738c0784ab9cfa49d5e0f2ad8599",
+          "url": "https://github.com/acidanthera/DebugEnhancer/commit/b94b58df40c7738c0784ab9cfa49d5e0f2ad8599"
+        },
+        "dateadded": "2020-08-03T19:27:46.309541+00:00",
+        "datecommitted": "2020-08-01T19:06:06+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "ebb0b3e90e778962ef69c1b2eab3a32c3c141cb5565db0e695662e4bd7f627ba"
+          },
+          "release": {
+            "sha256": "892fc72c5fac3558c1a78b1ecc55af311e1dc3ca2deeca88be67701124f3773c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-b94b58d/DebugEnhancer-1.0.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-b94b58d/DebugEnhancer-1.0.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nForce x86_64\n[View on GitHub](https://github.com/acidanthera/DebugEnhancer/commit/b94b58df40c7738c0784ab9cfa49d5e0f2ad8599) ([browse tree](https://github.com/acidanthera/DebugEnhancer/tree/b94b58df40c7738c0784ab9cfa49d5e0f2ad8599))\n\n**Hashes**:\n**Debug:**\nDebugEnhancer-1.0.1-DEBUG.zip: ebb0b3e90e778962ef69c1b2eab3a32c3c141cb5565db0e695662e4bd7f627ba\n**Release:**\nDebugEnhancer-1.0.1-RELEASE.zip: 892fc72c5fac3558c1a78b1ecc55af311e1dc3ca2deeca88be67701124f3773c",
+          "id": 29243401,
+          "url": "https://github.com/dortania/build-repo/releases/tag/DebugEnhancer-b94b58d"
+        },
+        "source": "built",
+        "version": "1.0.1"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d",
           "tree_url": "https://github.com/acidanthera/DebugEnhancer/tree/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d",
