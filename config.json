@@ -24600,6 +24600,40 @@
       }
     ]
   },
+  "VoodooPS2": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": {
+          "message": "Update Changelog.md",
+          "sha": "60a4566c237f9c39bf38122ec8c0910a388dbe9d",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/60a4566c237f9c39bf38122ec8c0910a388dbe9d",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/60a4566c237f9c39bf38122ec8c0910a388dbe9d"
+        },
+        "dateadded": "2020-08-03T02:56:41.181779+00:00",
+        "datecommitted": "2020-07-12T19:27:52+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "660b9bb0aba595dade9128052b133c2b13c73bd3313e6f7fa1aa006126266e77"
+          },
+          "release": {
+            "sha256": "071a7d01ee47864cc3b3b14e980af1a72f4d39746727dc872b16d63d725e409c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VoodooPS2-60a4566/VoodooPS2Controller-2.1.6-DEBUG.zip",
+          "release": "https://github.com/dhinakg/ktextrepo-beta/releases/download/VoodooPS2-60a4566/VoodooPS2Controller-2.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUpdate Changelog.md\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/60a4566c237f9c39bf38122ec8c0910a388dbe9d) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/60a4566c237f9c39bf38122ec8c0910a388dbe9d))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.6-DEBUG.zip: 660b9bb0aba595dade9128052b133c2b13c73bd3313e6f7fa1aa006126266e77\n**Release:**\nVoodooPS2Controller-2.1.6-RELEASE.zip: 071a7d01ee47864cc3b3b14e980af1a72f4d39746727dc872b16d63d725e409c",
+          "id": 29212725,
+          "url": "https://github.com/dhinakg/ktextrepo-beta/releases/tag/VoodooPS2-60a4566"
+        },
+        "source": "built",
+        "version": "2.1.6"
+      }
+    ]
+  },
   "VoodooPS2-Alps": {
     "type": "Kext",
     "versions": [
