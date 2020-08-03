@@ -153,13 +153,13 @@ if len(failed) > 0 or len(errored) > 0:
 
 result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=config_dir)
 if result.returncode != 0:
-    print("Commit failed!")
+    print("Failed to commit")
     print(result.stdout.decode())
     print(result.stderr.decode())
-    sys.exit(10)
+    sys.exit()
 result = subprocess.run("git push".split(), capture_output=True, cwd=config_dir)
 if result.returncode != 0:
-    print("Push failed!")
+    print("Failed to push!")
     print(result.stdout.decode())
     print(result.stderr.decode())
     sys.exit(10)
