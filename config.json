@@ -24969,6 +24969,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "4bb776c9f417c6c5c54221b9539f21eeeab1625a",
+          "tree_url": "https://github.com/acidanthera/VoodooInput/tree/4bb776c9f417c6c5c54221b9539f21eeeab1625a",
+          "url": "https://github.com/acidanthera/VoodooInput/commit/4bb776c9f417c6c5c54221b9539f21eeeab1625a"
+        },
+        "dateadded": "2020-08-03T15:31:12.052096+00:00",
+        "datecommitted": "2020-08-03T15:24:10+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "263064c6977063c17345c978c17e337c3a91fe5a91135a81cd5ccedb1c8166e6"
+          },
+          "release": {
+            "sha256": "ca48b97fd4f5e4fc47f9c8ffd601e6252801ebda743994d3a3586c3c06fe7804"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooInput-4bb776c/VoodooInput-1.0.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooInput-4bb776c/VoodooInput-1.0.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/VoodooInput/commit/4bb776c9f417c6c5c54221b9539f21eeeab1625a) ([browse tree](https://github.com/acidanthera/VoodooInput/tree/4bb776c9f417c6c5c54221b9539f21eeeab1625a))\n\n**Hashes**:\n**Debug:**\nVoodooInput-1.0.7-DEBUG.zip: 263064c6977063c17345c978c17e337c3a91fe5a91135a81cd5ccedb1c8166e6\n**Release:**\nVoodooInput-1.0.7-RELEASE.zip: ca48b97fd4f5e4fc47f9c8ffd601e6252801ebda743994d3a3586c3c06fe7804",
+          "id": 29234360,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooInput-4bb776c"
+        },
+        "source": "built",
+        "version": "1.0.7"
+      },
+      {
+        "commit": {
           "message": "Update Changelog.md",
           "sha": "c28c0db2cfc034af9b6b9900572b7df49bb00a34",
           "tree_url": "https://github.com/acidanthera/VoodooInput/tree/c28c0db2cfc034af9b6b9900572b7df49bb00a34",
