@@ -3548,6 +3548,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "acee81d49f09c0f656d305409bbcd4a557db9d6d",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/acee81d49f09c0f656d305409bbcd4a557db9d6d",
+          "url": "https://github.com/acidanthera/Lilu/commit/acee81d49f09c0f656d305409bbcd4a557db9d6d"
+        },
+        "dateadded": "2020-08-03T16:07:18.477035+00:00",
+        "datecommitted": "2020-08-03T16:02:28+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "c77b816a6e4520ff98d71e1acdbd43a80e14f2ebf19d8b28a88acd4f53bba438"
+          },
+          "release": {
+            "sha256": "bf5512c5502959e109c28590acdf4ebf9eedfb0cbd12d9c7255009ec412f3599"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-acee81d/Lilu-1.4.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-acee81d/Lilu-1.4.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/acee81d49f09c0f656d305409bbcd4a557db9d6d) ([browse tree](https://github.com/acidanthera/Lilu/tree/acee81d49f09c0f656d305409bbcd4a557db9d6d))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.7-DEBUG.zip: c77b816a6e4520ff98d71e1acdbd43a80e14f2ebf19d8b28a88acd4f53bba438\n**Release:**\nLilu-1.4.7-RELEASE.zip: bf5512c5502959e109c28590acdf4ebf9eedfb0cbd12d9c7255009ec412f3599",
+          "id": 29235782,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-acee81d"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
+        "commit": {
           "message": "Fixed another race condition in kext patcher loading code in 11.0",
           "sha": "34dd31d860df0d746b7703a0526c3b379bdb54d7",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/34dd31d860df0d746b7703a0526c3b379bdb54d7",
