@@ -3533,6 +3533,40 @@
       }
     ]
   },
+  "DebugEnhancer": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": {
+          "message": "Bump version",
+          "sha": "f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d",
+          "tree_url": "https://github.com/acidanthera/DebugEnhancer/tree/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d",
+          "url": "https://github.com/acidanthera/DebugEnhancer/commit/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d"
+        },
+        "dateadded": "2020-08-03T19:27:29.048264+00:00",
+        "datecommitted": "2020-08-03T16:14:15+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "6e429a495ffd56e4a3870ba54227bf6e85f73681f9771dccfb5634e850a51d31"
+          },
+          "release": {
+            "sha256": "d4c00c602d17535eac83e7b24d1fcc8ca4b2c16e0e178bdb9496fe4dc41c35a4"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-f86e07e/DebugEnhancer-1.0.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-f86e07e/DebugEnhancer-1.0.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/DebugEnhancer/commit/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d) ([browse tree](https://github.com/acidanthera/DebugEnhancer/tree/f86e07e79509f1d046b60b6e2b6c2ce6fb33be7d))\n\n**Hashes**:\n**Debug:**\nDebugEnhancer-1.0.2-DEBUG.zip: 6e429a495ffd56e4a3870ba54227bf6e85f73681f9771dccfb5634e850a51d31\n**Release:**\nDebugEnhancer-1.0.2-RELEASE.zip: d4c00c602d17535eac83e7b24d1fcc8ca4b2c16e0e178bdb9496fe4dc41c35a4",
+          "id": 29243391,
+          "url": "https://github.com/dortania/build-repo/releases/tag/DebugEnhancer-f86e07e"
+        },
+        "source": "built",
+        "version": "1.0.2"
+      }
+    ]
+  },
   "HibernationFixup": {
     "type": "Kext",
     "versions": [
