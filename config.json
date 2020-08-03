@@ -560,6 +560,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add Icelake Smart Sound Technology Audio Controller (#572)\n\n* Add Icelake Smart Sound Technology Audio Controller\r\n\r\n* Raise MinKernel to 19 (Catalina) for ICL Controller, thanks to @Andrey1970AppleLife",
+          "sha": "793c9a94b82054f391f3e9337e2fa694e34e2e1a",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/793c9a94b82054f391f3e9337e2fa694e34e2e1a",
+          "url": "https://github.com/acidanthera/AppleALC/commit/793c9a94b82054f391f3e9337e2fa694e34e2e1a"
+        },
+        "dateadded": "2020-08-03T09:56:27.971821+00:00",
+        "datecommitted": "2020-08-03T09:52:35+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "8479d51694e1518aeea2bc3cdeaf5707dc8a02da75b40c14c59e61d792db24e0"
+          },
+          "release": {
+            "sha256": "d4807c03c5f8094f452a42877025d9410d54b717457c8787cddfb8d50fb59208"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-793c9a9/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-793c9a9/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd Icelake Smart Sound Technology Audio Controller (#572)\n\n* Add Icelake Smart Sound Technology Audio Controller\r\n\r\n* Raise MinKernel to 19 (Catalina) for ICL Controller, thanks to @Andrey1970AppleLife\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/793c9a94b82054f391f3e9337e2fa694e34e2e1a) ([browse tree](https://github.com/acidanthera/AppleALC/tree/793c9a94b82054f391f3e9337e2fa694e34e2e1a))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: 8479d51694e1518aeea2bc3cdeaf5707dc8a02da75b40c14c59e61d792db24e0\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: d4807c03c5f8094f452a42877025d9410d54b717457c8787cddfb8d50fb59208",
+          "id": 29221918,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-793c9a9"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/6a32c46a7a79ff6f0b8011a82ac2bbb544433dcd",
