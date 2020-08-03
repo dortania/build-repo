@@ -560,6 +560,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "9826d1970ac85ac24254dcf268f4cdc58ac59e3f",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/9826d1970ac85ac24254dcf268f4cdc58ac59e3f",
+          "url": "https://github.com/acidanthera/AppleALC/commit/9826d1970ac85ac24254dcf268f4cdc58ac59e3f"
+        },
+        "dateadded": "2020-08-03T10:21:57.703018+00:00",
+        "datecommitted": "2020-08-03T10:08:57+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "af91f4eaaeabd495fb9305426c5086c2e6f602418aa23d1d54a1e089f0088bff"
+          },
+          "release": {
+            "sha256": "bfcd8944d7459ae9c5de12a2b6945447561a144b2fa8bcee8c2805628058af2c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-9826d19/AppleALC-1.5.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-9826d19/AppleALC-1.5.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/9826d1970ac85ac24254dcf268f4cdc58ac59e3f) ([browse tree](https://github.com/acidanthera/AppleALC/tree/9826d1970ac85ac24254dcf268f4cdc58ac59e3f))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.1-DEBUG.zip: af91f4eaaeabd495fb9305426c5086c2e6f602418aa23d1d54a1e089f0088bff\n**Release:**\nAppleALC-1.5.1-RELEASE.zip: bfcd8944d7459ae9c5de12a2b6945447561a144b2fa8bcee8c2805628058af2c",
+          "id": 29222748,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-9826d19"
+        },
+        "source": "built",
+        "version": "1.5.1"
+      },
+      {
+        "commit": {
           "message": "Add ALC285 layout 61 for Lenovo Yoga C740 (#576)\n\n* Working on 400 series LP controller and layout 61\r\n\r\n* Working out remaining issues with layout 61 on the Yoga C740\r\n\r\n* Correct headphone audio distortion after sleep on battery.\r\n\r\n* Send the SET_PIN_WIDGET_CONTROL signal on wake, corrects the last bit of distortion after sleep",
           "sha": "da77493f9028d5b61caeb81883621fcef6655156",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/da77493f9028d5b61caeb81883621fcef6655156",
