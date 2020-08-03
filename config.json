@@ -24207,6 +24207,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Force x86_64",
+          "sha": "3ad83c890f1e8ba965141d08ba8f8c762880f24d",
+          "tree_url": "https://github.com/acidanthera/RTCMemoryFixup/tree/3ad83c890f1e8ba965141d08ba8f8c762880f24d",
+          "url": "https://github.com/acidanthera/RTCMemoryFixup/commit/3ad83c890f1e8ba965141d08ba8f8c762880f24d"
+        },
+        "dateadded": "2020-08-03T19:28:37.841928+00:00",
+        "datecommitted": "2020-08-01T19:06:35+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "b49042035cb01b5b7d311963694c6edd0bc2f3b20d509f5b615d564eddf8dbbd"
+          },
+          "release": {
+            "sha256": "78c85cc42b8a9d54eec0ea332eb3677a1533c5c2b2b46f73fa2eb81ee82d11fd"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-3ad83c8/RTCMemoryFixup-1.0.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-3ad83c8/RTCMemoryFixup-1.0.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nForce x86_64\n[View on GitHub](https://github.com/acidanthera/RTCMemoryFixup/commit/3ad83c890f1e8ba965141d08ba8f8c762880f24d) ([browse tree](https://github.com/acidanthera/RTCMemoryFixup/tree/3ad83c890f1e8ba965141d08ba8f8c762880f24d))\n\n**Hashes**:\n**Debug:**\nRTCMemoryFixup-1.0.6-DEBUG.zip: b49042035cb01b5b7d311963694c6edd0bc2f3b20d509f5b615d564eddf8dbbd\n**Release:**\nRTCMemoryFixup-1.0.6-RELEASE.zip: 78c85cc42b8a9d54eec0ea332eb3677a1533c5c2b2b46f73fa2eb81ee82d11fd",
+          "id": 29243428,
+          "url": "https://github.com/dortania/build-repo/releases/tag/RTCMemoryFixup-3ad83c8"
+        },
+        "source": "built",
+        "version": "1.0.6"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "7f54dc0f931d53ae9f800fe72ccadff7ee52e89e",
           "tree_url": "https://github.com/acidanthera/RTCMemoryFixup/tree/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e",
