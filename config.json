@@ -3480,6 +3480,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "5225149bed1660cd23caec5624be9ff37944115a",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/5225149bed1660cd23caec5624be9ff37944115a",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/5225149bed1660cd23caec5624be9ff37944115a"
+        },
+        "dateadded": "2020-08-03T16:20:46.379607+00:00",
+        "datecommitted": "2020-08-03T16:09:27+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "a9a407f5f62283aeb5db37dc735b1823dd47020164d4c5f19043db2073bf683f"
+          },
+          "release": {
+            "sha256": "336056c1ab25f6b997ee9993c450ce41e7f0fb2c3f0f995bec3808cd4a661404"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-5225149/HibernationFixup-1.3.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-5225149/HibernationFixup-1.3.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/5225149bed1660cd23caec5624be9ff37944115a) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/5225149bed1660cd23caec5624be9ff37944115a))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.5-DEBUG.zip: a9a407f5f62283aeb5db37dc735b1823dd47020164d4c5f19043db2073bf683f\n**Release:**\nHibernationFixup-1.3.5-RELEASE.zip: 336056c1ab25f6b997ee9993c450ce41e7f0fb2c3f0f995bec3808cd4a661404",
+          "id": 29236308,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-5225149"
+        },
+        "source": "built",
+        "version": "1.3.5"
+      },
+      {
+        "commit": {
           "message": "Force x86_64",
           "sha": "04f3eaa957288a4e7e4fd1a5addddc675706e828",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/04f3eaa957288a4e7e4fd1a5addddc675706e828",
