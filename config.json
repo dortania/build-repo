@@ -589,6 +589,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Update Changelog.md",
+          "sha": "186c8881c68acef22d9855f3b25e9a489f471916",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/186c8881c68acef22d9855f3b25e9a489f471916",
+          "url": "https://github.com/acidanthera/AppleALC/commit/186c8881c68acef22d9855f3b25e9a489f471916"
+        },
+        "dateadded": "2020-08-04T10:26:20.022969+00:00",
+        "datecommitted": "2020-08-04T10:18:26+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "4e8421a6d960116e74b5c7295c5e95d4a7e335091347fc85e39777f21db51f40"
+          },
+          "release": {
+            "sha256": "1c61f0ce46ab4475df9c8e00f6445499b183c765e36e499022e8f16a97fce555"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-186c888/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-186c888/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUpdate Changelog.md\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/186c8881c68acef22d9855f3b25e9a489f471916) ([browse tree](https://github.com/acidanthera/AppleALC/tree/186c8881c68acef22d9855f3b25e9a489f471916))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 4e8421a6d960116e74b5c7295c5e95d4a7e335091347fc85e39777f21db51f40\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 1c61f0ce46ab4475df9c8e00f6445499b183c765e36e499022e8f16a97fce555",
+          "id": 29265584,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-186c888"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
           "message": "Added missing layout7.xml (#586)",
           "sha": "c11666105e60b5f41c6a91ace56c66cd63f4d7bd",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/c11666105e60b5f41c6a91ace56c66cd63f4d7bd",
