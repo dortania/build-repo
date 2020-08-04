@@ -24299,6 +24299,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "c7660f685eccf95baa74a5374c8b1f4daa3a1686",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/c7660f685eccf95baa74a5374c8b1f4daa3a1686",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/c7660f685eccf95baa74a5374c8b1f4daa3a1686"
+        },
+        "dateadded": "2020-08-04T04:57:59.142575+00:00",
+        "datecommitted": "2020-08-04T04:57:01+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "b08834689149c05304b8ab7f51e25497709649b3b7afea6e1e2e35ed0b282b1f"
+          },
+          "release": {
+            "sha256": "86547f59ed5b72b833f59118df0308c571883d8be91da7287fba829e23a7b550"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-c7660f6/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-c7660f6/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/c7660f685eccf95baa74a5374c8b1f4daa3a1686) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/c7660f685eccf95baa74a5374c8b1f4daa3a1686))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.6-DEBUG.zip: b08834689149c05304b8ab7f51e25497709649b3b7afea6e1e2e35ed0b282b1f\n**Release:**\nVirtualSMC-1.1.6-RELEASE.zip: 86547f59ed5b72b833f59118df0308c571883d8be91da7287fba829e23a7b550",
+          "id": 29256172,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-c7660f6"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
+        "commit": {
           "message": "Add experimental support for supplement information (#34)",
           "sha": "6dced7de3553c675735367092fe881376aa79b3f",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/6dced7de3553c675735367092fe881376aa79b3f",
