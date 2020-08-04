@@ -24299,6 +24299,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add experimental support for supplement information (#34)",
+          "sha": "6dced7de3553c675735367092fe881376aa79b3f",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/6dced7de3553c675735367092fe881376aa79b3f",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/6dced7de3553c675735367092fe881376aa79b3f"
+        },
+        "dateadded": "2020-08-04T04:55:00.885534+00:00",
+        "datecommitted": "2020-08-04T04:52:44+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "c36971f08536a692b811b2cf6a61142e50e745795d084b91f3e45136a7a909a4"
+          },
+          "release": {
+            "sha256": "79344665ebb78993ce04a43f91a3ef2670925aa317250f15dfe83d5bb930d7b1"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-6dced7d/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-6dced7d/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd experimental support for supplement information (#34)\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/6dced7de3553c675735367092fe881376aa79b3f) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/6dced7de3553c675735367092fe881376aa79b3f))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.6-DEBUG.zip: c36971f08536a692b811b2cf6a61142e50e745795d084b91f3e45136a7a909a4\n**Release:**\nVirtualSMC-1.1.6-RELEASE.zip: 79344665ebb78993ce04a43f91a3ef2670925aa317250f15dfe83d5bb930d7b1",
+          "id": 29256123,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-6dced7d"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "75beb63629a6dcaf5b2ac5819b560895846a58d6",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/75beb63629a6dcaf5b2ac5819b560895846a58d6",
