@@ -589,6 +589,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Added missing layout7.xml (#586)",
+          "sha": "c11666105e60b5f41c6a91ace56c66cd63f4d7bd",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/c11666105e60b5f41c6a91ace56c66cd63f4d7bd",
+          "url": "https://github.com/acidanthera/AppleALC/commit/c11666105e60b5f41c6a91ace56c66cd63f4d7bd"
+        },
+        "dateadded": "2020-08-04T09:52:47.418720+00:00",
+        "datecommitted": "2020-08-04T09:50:59+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "8d3b07fcc051ff6ed0d68f412a34ad46142620513ee299a9361f48f1152b22de"
+          },
+          "release": {
+            "sha256": "340836c6369ca94ff10bbcc73c27a144e0922c8156057839d5faf371603cdeee"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-c116661/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-c116661/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdded missing layout7.xml (#586)\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/c11666105e60b5f41c6a91ace56c66cd63f4d7bd) ([browse tree](https://github.com/acidanthera/AppleALC/tree/c11666105e60b5f41c6a91ace56c66cd63f4d7bd))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 8d3b07fcc051ff6ed0d68f412a34ad46142620513ee299a9361f48f1152b22de\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 340836c6369ca94ff10bbcc73c27a144e0922c8156057839d5faf371603cdeee",
+          "id": 29264399,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-c116661"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "e9920b3d6abc62545f12631b860c4727b4358437",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/e9920b3d6abc62545f12631b860c4727b4358437",
