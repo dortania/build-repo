@@ -72,6 +72,14 @@
       "URL": "https://github.com/acidanthera/NVMeFix"
     },
     {
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "Lilu plugin for disabling Touch ID support",
+      "Lilu": true,
+      "Name": "NoTouchID",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/al3xtjames/NoTouchID"
+    },
+    {
       "Combined": true,
       "Command": [
         {
