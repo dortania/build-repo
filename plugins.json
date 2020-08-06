@@ -80,7 +80,6 @@
       "URL": "https://github.com/al3xtjames/NoTouchID"
     },
     {
-      "Combined": true,
       "Command": [
         {
           "args": [],
@@ -203,6 +202,37 @@
       "URL": "https://github.com/acidanthera/RTCMemoryFixup"
     },
     {
+      "Debug File": "debug.zip",
+      "Desc": "OS X open source driver for the Realtek RTL8111/8168 family",
+      "Name": "RealtekRTL8111",
+      "Post-Build": [
+        {
+          "args": [
+            "-r",
+            "-X",
+            "../../release.zip",
+            "RealtekRTL8111.kext"
+          ],
+          "cwd": "build/Release",
+          "name": "Zip Release Directory",
+          "path": "zip"
+        },
+        {
+          "args": [
+            "-r",
+            "-X",
+            "../../debug.zip",
+            "RealtekRTL8111.kext"
+          ],
+          "cwd": "build/Debug",
+          "name": "Zip Debug Directory",
+          "path": "zip"
+        }
+      ],
+      "Release File": "release.zip",
+      "URL": "https://github.com/Mieze/RTL8111_driver_for_OS_X"
+    },
+    {
       "Debug File": "build/Debug/*.zip",
       "Desc": "advanced Apple SMC emulator in the kernel",
       "Lilu": true,
@@ -249,7 +279,6 @@
       "URL": "https://github.com/acidanthera/VoodooPS2"
     },
     {
-      "Combined": true,
       "Command": "make",
       "Debug File": "debug.zip",
       "Desc": "Refined macOS driver for ALPS TouchPads",

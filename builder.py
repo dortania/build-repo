@@ -103,7 +103,7 @@ class Builder():
         if Path(name).exists():
             shutil.rmtree(Path(name))
         print("\tCloning the repo...")
-        result = subprocess.run(["git", "clone", url + ".git"], capture_output=True)
+        result = subprocess.run(["git", "clone", url + ".git", name], capture_output=True)
         if result.returncode != 0:
             print("\tClone failed!")
             print(result.stdout.decode())
@@ -197,7 +197,7 @@ class Builder():
                 print("\t\tRunning task '" + task["name"] + "'")
                 args = [task["path"]]
                 args.extend(task["args"])
-                result = subprocess.run(args, capture_output=True)
+                result = subprocess.run(args, capture_output=True, cwd=task.get("cwd", None))
                 if result.returncode != 0:
                     print("\t\tTask failed!")
                     print(result.stdout.decode())

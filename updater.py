@@ -76,18 +76,18 @@ for plugin in plugins:
         within_max_outstanding = commits.index(commit) <= MAX_OUTSTANDING_COMMITS
         if (newer and not_in_repo or force_build or (not_in_repo and commits.index(commit) == 0)) and within_max_outstanding:
             if commits.index(commit) == 0:
-                print(repo + " by " + organization + " latest commit (" + commit_date.isoformat() + ") not built")
+                print(plugin["Name"] + " by " + organization + " latest commit (" + commit_date.isoformat() + ") not built")
             else:
-                print(repo + " by " + organization + " commit " + commit["sha"] + " (" + commit_date.isoformat() + ") not built")
+                print(plugin["Name"] + " by " + organization + " commit " + commit["sha"] + " (" + commit_date.isoformat() + ") not built")
             to_build.append({"plugin": plugin, "commit": commit})
 
     for release in releases:
         release_date = dateutil.parser.parse(release["created_at"])
         if release_date >= date_to_compare:
             if releases.index(release) == 0:
-                print(repo + " by " + organization + " latest release (" + release_date.isoformat() + ") not added")
+                print(plugin["Name"] + " by " + organization + " latest release (" + release_date.isoformat() + ") not added")
             else:
-                print(repo + " by " + organization + " release " + release["name"] + " (" + release_date.isoformat() + ") not added")
+                print(plugin["Name"] + " by " + organization + " release " + release["name"] + " (" + release_date.isoformat() + ") not added")
             to_add.append({"plugin": plugin, "release": release})
 
 
