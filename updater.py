@@ -70,7 +70,7 @@ for plugin in plugins:
         else:
             force_build = plugin.get("Force") and commits.index(commit) == 0
         not_in_repo = True
-        for i in config.get(repo, {}).get("versions", []):
+        for i in config.get(plugin["Name"], {}).get("versions", []):
             if i["commit"]["sha"] == commit["sha"]:
                 not_in_repo = False
         within_max_outstanding = commits.index(commit) <= MAX_OUTSTANDING_COMMITS
