@@ -24791,14 +24791,14 @@
           "tree_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/792187d5166b0c40557180b5176dd3cb18c1c8f3",
           "url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/792187d5166b0c40557180b5176dd3cb18c1c8f3"
         },
-        "dateadded": "2020-08-06T21:09:22.720695+00:00",
+        "dateadded": "2020-08-06T21:16:15.925239+00:00",
         "datecommitted": "2020-05-06T22:16:59+00:00",
         "hashes": {
           "debug": {
-            "sha256": "72d9a7142bfe6c9ccfaad61fb2c4694296c895e5ff4e5e4685e542cf4ff62c13"
+            "sha256": "720db89c15448b3ff36ecdb68abb7cdc3171987d7e1478a772131bab0734dc09"
           },
           "release": {
-            "sha256": "e253b9c87e920719b81f470e282f60ca12b7fa9ece520ab735c8077456f4b107"
+            "sha256": "db21883b862b6634094676107549c10515f435893561a548117021df04ca1c27"
           }
         },
         "links": {
@@ -24806,8 +24806,8 @@
           "release": "https://github.com/dortania/build-repo/releases/download/RealtekRTL8111-792187d/release.zip"
         },
         "release": {
-          "description": "**Changes:**\nVersion 2.3.0d10 - Reworked medium section and EEE support to resolve problems with connection establishment and stability.\n[View on GitHub](https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/792187d5166b0c40557180b5176dd3cb18c1c8f3) ([browse tree](https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/792187d5166b0c40557180b5176dd3cb18c1c8f3))\n\n**Hashes**:\n**Debug:**\ndebug.zip: 72d9a7142bfe6c9ccfaad61fb2c4694296c895e5ff4e5e4685e542cf4ff62c13\n**Release:**\nrelease.zip: e253b9c87e920719b81f470e282f60ca12b7fa9ece520ab735c8077456f4b107",
-          "id": 29426736,
+          "description": "**Changes:**\nVersion 2.3.0d10 - Reworked medium section and EEE support to resolve problems with connection establishment and stability.\n[View on GitHub](https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/792187d5166b0c40557180b5176dd3cb18c1c8f3) ([browse tree](https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/792187d5166b0c40557180b5176dd3cb18c1c8f3))\n\n**Hashes**:\n**Debug:**\ndebug.zip: 720db89c15448b3ff36ecdb68abb7cdc3171987d7e1478a772131bab0734dc09\n**Release:**\nrelease.zip: db21883b862b6634094676107549c10515f435893561a548117021df04ca1c27",
+          "id": 29426968,
           "url": "https://github.com/dortania/build-repo/releases/tag/RealtekRTL8111-792187d"
         },
         "source": "built",
