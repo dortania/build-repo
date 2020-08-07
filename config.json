@@ -4,6 +4,35 @@
     "versions": [
       {
         "commit": {
+          "message": "boot-arg and property `brcmfx-aspm` supports special value `255` in order to skip logic disabling APSM for 0x14e4:0x43a3 (DW1820A).",
+          "sha": "53d81f3fd38a9594849aa553a3da085f2d22cb12",
+          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/53d81f3fd38a9594849aa553a3da085f2d22cb12",
+          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/53d81f3fd38a9594849aa553a3da085f2d22cb12"
+        },
+        "dateadded": "2020-08-07T15:24:44.431536+00:00",
+        "datecommitted": "2020-08-07T15:22:52+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "09d815b57af004b9597ac88b100c99500dc4e888c14c93b29cb4fef57c39f61b"
+          },
+          "release": {
+            "sha256": "f199ba33e80215bedcc257dd9d8a6def51039b0ce613de495d2f0399a9a47f72"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-53d81f3/AirportBrcmFixup-2.0.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-53d81f3/AirportBrcmFixup-2.0.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nboot-arg and property `brcmfx-aspm` supports special value `255` in order to skip logic disabling APSM for 0x14e4:0x43a3 (DW1820A).\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/53d81f3fd38a9594849aa553a3da085f2d22cb12) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/53d81f3fd38a9594849aa553a3da085f2d22cb12))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.0.9-DEBUG.zip: 09d815b57af004b9597ac88b100c99500dc4e888c14c93b29cb4fef57c39f61b\n**Release:**\nAirportBrcmFixup-2.0.9-RELEASE.zip: f199ba33e80215bedcc257dd9d8a6def51039b0ce613de495d2f0399a9a47f72",
+          "id": 29454708,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-53d81f3"
+        },
+        "source": "built",
+        "version": "2.0.9"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "cca592ed676cedb99bcd66320f951fd49c35acd6",
           "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/cca592ed676cedb99bcd66320f951fd49c35acd6",
