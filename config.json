@@ -4,6 +4,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Update Changelog.md",
+          "sha": "6c02ad955f3ee5832deb5047fbee40e0c2f5cd43",
+          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/6c02ad955f3ee5832deb5047fbee40e0c2f5cd43",
+          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/6c02ad955f3ee5832deb5047fbee40e0c2f5cd43"
+        },
+        "dateadded": "2020-08-09T00:47:24.743503+00:00",
+        "datecommitted": "2020-08-09T00:38:53+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f1ba6af5c03f6b49ea091fdeb6a9f29fcf12e86cba6bae92c79872557fcdebef"
+          },
+          "release": {
+            "sha256": "3ebbac25761dc0fc295b306cb7255260152606356c61aaf1505ceaab4c28c5fe"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-6c02ad9/AirportBrcmFixup-2.0.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-6c02ad9/AirportBrcmFixup-2.0.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUpdate Changelog.md\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/6c02ad955f3ee5832deb5047fbee40e0c2f5cd43) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/6c02ad955f3ee5832deb5047fbee40e0c2f5cd43))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.0.9-DEBUG.zip: f1ba6af5c03f6b49ea091fdeb6a9f29fcf12e86cba6bae92c79872557fcdebef\n**Release:**\nAirportBrcmFixup-2.0.9-RELEASE.zip: 3ebbac25761dc0fc295b306cb7255260152606356c61aaf1505ceaab4c28c5fe",
+          "id": 29481328,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-6c02ad9"
+        },
+        "source": "built",
+        "version": "2.0.9"
+      },
+      {
+        "commit": {
           "message": "boot-arg and property `brcmfx-aspm` supports special value `255` in order to skip logic disabling APSM for 0x14e4:0x43a3 (DW1820A).",
           "sha": "53d81f3fd38a9594849aa553a3da085f2d22cb12",
           "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/53d81f3fd38a9594849aa553a3da085f2d22cb12",
