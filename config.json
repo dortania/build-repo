@@ -647,6 +647,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Update README_CN.md",
+          "sha": "cf0d8434cba879d5f76f41dfaf73b5f808046db9",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/cf0d8434cba879d5f76f41dfaf73b5f808046db9",
+          "url": "https://github.com/acidanthera/AppleALC/commit/cf0d8434cba879d5f76f41dfaf73b5f808046db9"
+        },
+        "dateadded": "2020-08-10T21:40:38.548483+00:00",
+        "datecommitted": "2020-08-10T21:38:55+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "feb9320ba56ef73f0367bf9bea71b5fae98f48aad9f1c6bcf8323b45760efc4c"
+          },
+          "release": {
+            "sha256": "970cefac80c3667d237f1a7c897a9787bb8531920161e850cff53184bd090d69"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-cf0d843/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-cf0d843/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUpdate README_CN.md\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/cf0d8434cba879d5f76f41dfaf73b5f808046db9) ([browse tree](https://github.com/acidanthera/AppleALC/tree/cf0d8434cba879d5f76f41dfaf73b5f808046db9))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: feb9320ba56ef73f0367bf9bea71b5fae98f48aad9f1c6bcf8323b45760efc4c\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 970cefac80c3667d237f1a7c897a9787bb8531920161e850cff53184bd090d69",
+          "id": 29534547,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-cf0d843"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
           "message": "Update Changelog.md",
           "sha": "186c8881c68acef22d9855f3b25e9a489f471916",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/186c8881c68acef22d9855f3b25e9a489f471916",
