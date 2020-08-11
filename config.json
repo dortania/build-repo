@@ -3896,6 +3896,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "c6e7eb00da433e324ce062bdf832275f5cf48ec0",
+          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/c6e7eb00da433e324ce062bdf832275f5cf48ec0",
+          "url": "https://github.com/acidanthera/IntelMausi/commit/c6e7eb00da433e324ce062bdf832275f5cf48ec0"
+        },
+        "dateadded": "2020-08-11T21:19:25.646143+00:00",
+        "datecommitted": "2020-08-11T21:13:20+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "87d0b60c3e3cd2f04cf4474317ccd7aa8af58b082f8300841e0a150f1b1ee2c2"
+          },
+          "release": {
+            "sha256": "356c09ef8ebcdc8e01cdb86ecdc8f3fdbebbff7f29f32f8d5fcd1a7c6f835fb1"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-c6e7eb0/IntelMausi-1.0.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-c6e7eb0/IntelMausi-1.0.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/c6e7eb00da433e324ce062bdf832275f5cf48ec0) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/c6e7eb00da433e324ce062bdf832275f5cf48ec0))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.4-DEBUG.zip: 87d0b60c3e3cd2f04cf4474317ccd7aa8af58b082f8300841e0a150f1b1ee2c2\n**Release:**\nIntelMausi-1.0.4-RELEASE.zip: 356c09ef8ebcdc8e01cdb86ecdc8f3fdbebbff7f29f32f8d5fcd1a7c6f835fb1",
+          "id": 29579728,
+          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-c6e7eb0"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
+        "commit": {
           "message": "Merged changes from 2.5.1d1 for CML support",
           "sha": "179a3b305f4df017db7847d28cbd189d40089980",
           "tree_url": "https://github.com/acidanthera/IntelMausi/tree/179a3b305f4df017db7847d28cbd189d40089980",
