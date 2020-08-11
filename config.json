@@ -3930,6 +3930,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "bd4664f9b758c115ac1bf38ca278088859ec428e",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/bd4664f9b758c115ac1bf38ca278088859ec428e",
+          "url": "https://github.com/acidanthera/Lilu/commit/bd4664f9b758c115ac1bf38ca278088859ec428e"
+        },
+        "dateadded": "2020-08-11T13:05:52.744948+00:00",
+        "datecommitted": "2020-08-11T12:57:41+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "cc18e84057e03fda37e533355ecc432339be646e513104fa14dd0d8ba3635014"
+          },
+          "release": {
+            "sha256": "60e1b5a6a670889fe749ee64cd25b36de53a8197fdd13233d3cfacae74995043"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-bd4664f/Lilu-1.4.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-bd4664f/Lilu-1.4.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/bd4664f9b758c115ac1bf38ca278088859ec428e) ([browse tree](https://github.com/acidanthera/Lilu/tree/bd4664f9b758c115ac1bf38ca278088859ec428e))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.7-DEBUG.zip: cc18e84057e03fda37e533355ecc432339be646e513104fa14dd0d8ba3635014\n**Release:**\nLilu-1.4.7-RELEASE.zip: 60e1b5a6a670889fe749ee64cd25b36de53a8197fdd13233d3cfacae74995043",
+          "id": 29558245,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-bd4664f"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
+        "commit": {
           "message": "Do not remove osfmk folder from SDK's libraries (will be used by SMCDellSensors and probably SMCProcessor)",
           "sha": "bcdee92320dcb6dd3e813973bd515a957c80adf9",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/bcdee92320dcb6dd3e813973bd515a957c80adf9",
