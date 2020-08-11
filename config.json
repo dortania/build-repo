@@ -3930,6 +3930,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Do not remove osfmk folder from SDK's libraries (will be used by SMCDellSensors and probably SMCProcessor)",
+          "sha": "bcdee92320dcb6dd3e813973bd515a957c80adf9",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/bcdee92320dcb6dd3e813973bd515a957c80adf9",
+          "url": "https://github.com/acidanthera/Lilu/commit/bcdee92320dcb6dd3e813973bd515a957c80adf9"
+        },
+        "dateadded": "2020-08-11T06:24:58.504176+00:00",
+        "datecommitted": "2020-08-11T06:20:31+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "bcda261ac077d051fa2c5deca37bb0f120050ab4e9ba17e6d8a37c21833ec2b6"
+          },
+          "release": {
+            "sha256": "79c50be331aaaad81db0bb9b16fbdf8c492ab3d084de24c55e8d6478e7c73c8c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-bcdee92/Lilu-1.4.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-bcdee92/Lilu-1.4.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nDo not remove osfmk folder from SDK's libraries (will be used by SMCDellSensors and probably SMCProcessor)\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/bcdee92320dcb6dd3e813973bd515a957c80adf9) ([browse tree](https://github.com/acidanthera/Lilu/tree/bcdee92320dcb6dd3e813973bd515a957c80adf9))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.7-DEBUG.zip: bcda261ac077d051fa2c5deca37bb0f120050ab4e9ba17e6d8a37c21833ec2b6\n**Release:**\nLilu-1.4.7-RELEASE.zip: 79c50be331aaaad81db0bb9b16fbdf8c492ab3d084de24c55e8d6478e7c73c8c",
+          "id": 29544639,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-bcdee92"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "acee81d49f09c0f656d305409bbcd4a557db9d6d",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/acee81d49f09c0f656d305409bbcd4a557db9d6d",
