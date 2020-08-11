@@ -31779,6 +31779,35 @@
       {
         "commit": {
           "message": "Update README.md",
+          "sha": "3531174374c54d49455030bb1f77dcece3ef8b90",
+          "tree_url": "https://github.com/acidanthera/gfxutil/tree/3531174374c54d49455030bb1f77dcece3ef8b90",
+          "url": "https://github.com/acidanthera/gfxutil/commit/3531174374c54d49455030bb1f77dcece3ef8b90"
+        },
+        "dateadded": "2020-08-11T20:29:15.209006+00:00",
+        "datecommitted": "2020-08-11T20:27:05+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "6ffe56fddf03a75dbeef7e8ab320d91cc1d20c590851cf686d0defc3c6365ee2"
+          },
+          "release": {
+            "sha256": "c43c64b2237560f6231cd01a73d1a2b5f661745ce9389abfb8f437a2edba0e97"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/gfxutil-3531174/gfxutil-1.80b-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/gfxutil-3531174/gfxutil-1.80b-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUpdate README.md\n[View on GitHub](https://github.com/acidanthera/gfxutil/commit/3531174374c54d49455030bb1f77dcece3ef8b90) ([browse tree](https://github.com/acidanthera/gfxutil/tree/3531174374c54d49455030bb1f77dcece3ef8b90))\n\n**Hashes**:\n**Debug:**\ngfxutil-1.80b-DEBUG.zip: 6ffe56fddf03a75dbeef7e8ab320d91cc1d20c590851cf686d0defc3c6365ee2\n**Release:**\ngfxutil-1.80b-RELEASE.zip: c43c64b2237560f6231cd01a73d1a2b5f661745ce9389abfb8f437a2edba0e97",
+          "id": 29577935,
+          "url": "https://github.com/dortania/build-repo/releases/tag/gfxutil-3531174"
+        },
+        "source": "built",
+        "version": "1.80b"
+      },
+      {
+        "commit": {
+          "message": "Update README.md",
           "sha": "260442c13df902feb40d6d26a93f34cc3b8cdf05",
           "tree_url": "https://github.com/acidanthera/gfxutil/tree/260442c13df902feb40d6d26a93f34cc3b8cdf05",
           "url": "https://github.com/acidanthera/gfxutil/commit/260442c13df902feb40d6d26a93f34cc3b8cdf05"
