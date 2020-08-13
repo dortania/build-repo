@@ -27364,6 +27364,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix and improve supplement info (#35)",
+          "sha": "460be0d664237f8a34ef0b33dfa0452d1bcf9396",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/460be0d664237f8a34ef0b33dfa0452d1bcf9396",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/460be0d664237f8a34ef0b33dfa0452d1bcf9396"
+        },
+        "dateadded": "2020-08-13T17:59:30.393721+00:00",
+        "datecommitted": "2020-08-13T17:49:54+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "e4198c74293506a1a3468eaa9472a4e54ed166157b5b97273ce85e5c94adea17"
+          },
+          "release": {
+            "sha256": "a21a0045f2c3c35ba21b5786c0919992e4c82a96c6dc9020654770cf26fe9d5f"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-460be0d/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-460be0d/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix and improve supplement info (#35)\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/460be0d664237f8a34ef0b33dfa0452d1bcf9396) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/460be0d664237f8a34ef0b33dfa0452d1bcf9396))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.6-DEBUG.zip: e4198c74293506a1a3468eaa9472a4e54ed166157b5b97273ce85e5c94adea17\n**Release:**\nVirtualSMC-1.1.6-RELEASE.zip: a21a0045f2c3c35ba21b5786c0919992e4c82a96c6dc9020654770cf26fe9d5f",
+          "id": 29666249,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-460be0d"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
+        "commit": {
           "message": "Fix audio lags in Safari caused by reading SMM in SMCDellSensors plugin (#36)",
           "sha": "da7d723ce3949b5f094a77777c40bd31beaa8f38",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/da7d723ce3949b5f094a77777c40bd31beaa8f38",
