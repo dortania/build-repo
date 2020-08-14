@@ -27364,6 +27364,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix typo in the previous commit",
+          "sha": "f11d885eff0058021eee8fdb0db4243ec7af5834",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/f11d885eff0058021eee8fdb0db4243ec7af5834",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/f11d885eff0058021eee8fdb0db4243ec7af5834"
+        },
+        "dateadded": "2020-08-14T17:40:17.930007+00:00",
+        "datecommitted": "2020-08-14T17:39:20+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "a776c2785956a48c63280b96fe2415051435dbdeb584649db29ee8a070377299"
+          },
+          "release": {
+            "sha256": "db58126fe9a0428869789e0511976a9b4c72a34b3133e668249f8555ea4d6b91"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-f11d885/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-f11d885/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix typo in the previous commit\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/f11d885eff0058021eee8fdb0db4243ec7af5834) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/f11d885eff0058021eee8fdb0db4243ec7af5834))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.6-DEBUG.zip: a776c2785956a48c63280b96fe2415051435dbdeb584649db29ee8a070377299\n**Release:**\nVirtualSMC-1.1.6-RELEASE.zip: db58126fe9a0428869789e0511976a9b4c72a34b3133e668249f8555ea4d6b91",
+          "id": 29710540,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-f11d885"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
+        "commit": {
           "message": "Optimise SMM access by avoiding CPU rendezvous (#38)",
           "sha": "357de11621917f474d0b3a4aa6f855e6b90fab50",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/357de11621917f474d0b3a4aa6f855e6b90fab50",
