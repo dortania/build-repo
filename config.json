@@ -28950,6 +28950,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Fixed `disable-external-gpu` (`-wegnoegpu`) on some systems",
+          "sha": "5b67774aa06695e561c5613801646be5f7c29b49",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/5b67774aa06695e561c5613801646be5f7c29b49",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/5b67774aa06695e561c5613801646be5f7c29b49"
+        },
+        "dateadded": "2020-08-14T10:36:36.084221+00:00",
+        "datecommitted": "2020-08-14T10:15:21+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-5b67774/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031"
+          },
+          "debug": {
+            "sha256": "beb69bda1ca4f014cc46aac60ce4a1f8a8fa68dd8b4943834936bf26231c06ea"
+          },
+          "release": {
+            "sha256": "255181a3fbaaf94e5c1429dbcfc889bc84f734cc74a1a5c335ac647f24e0bbbe"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-5b67774/WhateverGreen-1.4.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-5b67774/WhateverGreen-1.4.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFixed `disable-external-gpu` (`-wegnoegpu`) on some systems\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/5b67774aa06695e561c5613801646be5f7c29b49) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/5b67774aa06695e561c5613801646be5f7c29b49))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.2-DEBUG.zip: beb69bda1ca4f014cc46aac60ce4a1f8a8fa68dd8b4943834936bf26231c06ea\n**Release:**\nWhateverGreen-1.4.2-RELEASE.zip: 255181a3fbaaf94e5c1429dbcfc889bc84f734cc74a1a5c335ac647f24e0bbbe\n**Extras:**\nSSDT-PNLF.aml: 0bea517ec881bb6390f16dd58138625cf045ee7d274b16d3ef9e0e48134ed031",
+          "id": 29694021,
+          "url": "https://github.com/dortania/build-repo/releases/tag/WhateverGreen-5b67774"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "47d6fa92686367e4b7e49c248ddda6858d814c6d",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/47d6fa92686367e4b7e49c248ddda6858d814c6d",
