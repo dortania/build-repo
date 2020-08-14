@@ -27330,6 +27330,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Version 2.3.0 - Bumped version number for official release.",
+          "sha": "22e568eb95b3d44922504b0cdf6c2fa0baedfb40",
+          "tree_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/22e568eb95b3d44922504b0cdf6c2fa0baedfb40",
+          "url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/22e568eb95b3d44922504b0cdf6c2fa0baedfb40"
+        },
+        "dateadded": "2020-08-14T20:19:50.411756+00:00",
+        "datecommitted": "2020-08-14T20:06:53+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "57a1e0c2ff200551c4128208679ae3bfe65c6a9d077f76cb2eb7f3cbb4fbffc1"
+          },
+          "release": {
+            "sha256": "d5b1366479888dec9ff82e925cade4d2308f2b01bc660df4ff599a951f9db8bf"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/RealtekRTL8111-22e568e/debug.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/RealtekRTL8111-22e568e/release.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nVersion 2.3.0 - Bumped version number for official release.\n[View on GitHub](https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/22e568eb95b3d44922504b0cdf6c2fa0baedfb40) ([browse tree](https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/22e568eb95b3d44922504b0cdf6c2fa0baedfb40))\n\n**Hashes**:\n**Debug:**\ndebug.zip: 57a1e0c2ff200551c4128208679ae3bfe65c6a9d077f76cb2eb7f3cbb4fbffc1\n**Release:**\nrelease.zip: d5b1366479888dec9ff82e925cade4d2308f2b01bc660df4ff599a951f9db8bf",
+          "id": 29716480,
+          "url": "https://github.com/dortania/build-repo/releases/tag/RealtekRTL8111-22e568e"
+        },
+        "source": "built",
+        "version": "2.3.0"
+      },
+      {
+        "commit": {
           "message": "Version 2.3.0d10 - Reworked medium section and EEE support to resolve problems with connection establishment and stability.",
           "sha": "792187d5166b0c40557180b5176dd3cb18c1c8f3",
           "tree_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/792187d5166b0c40557180b5176dd3cb18c1c8f3",
