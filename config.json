@@ -3959,35 +3959,6 @@
     "versions": [
       {
         "commit": {
-          "message": "Fix chaining symbols regression\n\ncloses acidanthera/bugtracker#1101",
-          "sha": "cb52405757d601abab39c9c1301b4ba74b3f20fa",
-          "tree_url": "https://github.com/acidanthera/Lilu/tree/cb52405757d601abab39c9c1301b4ba74b3f20fa",
-          "url": "https://github.com/acidanthera/Lilu/commit/cb52405757d601abab39c9c1301b4ba74b3f20fa"
-        },
-        "dateadded": "2020-08-16T03:19:56.498187+00:00",
-        "datecommitted": "2020-08-16T03:02:21+00:00",
-        "hashes": {
-          "debug": {
-            "sha256": "a030f5420f265c3cd05b53c6e63cafd0dab8170d21c85c1908a0006bb52c40d5"
-          },
-          "release": {
-            "sha256": "ac2436710f1bacfb1055d33b388321fe6312d1c05231169312773b0336366660"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-cb52405/Lilu-1.4.7-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-cb52405/Lilu-1.4.7-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes:**\nFix chaining symbols regression\n\ncloses acidanthera/bugtracker#1101\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/cb52405757d601abab39c9c1301b4ba74b3f20fa) ([browse tree](https://github.com/acidanthera/Lilu/tree/cb52405757d601abab39c9c1301b4ba74b3f20fa))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.7-DEBUG.zip: a030f5420f265c3cd05b53c6e63cafd0dab8170d21c85c1908a0006bb52c40d5\n**Release:**\nLilu-1.4.7-RELEASE.zip: ac2436710f1bacfb1055d33b388321fe6312d1c05231169312773b0336366660",
-          "id": 29741060,
-          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-cb52405"
-        },
-        "source": "built",
-        "version": "1.4.7"
-      },
-      {
-        "commit": {
           "message": "Sync changelog",
           "sha": "94a467fc58cff8b0d0c81126b263eef5c184bd22",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/94a467fc58cff8b0d0c81126b263eef5c184bd22",
@@ -4011,6 +3982,35 @@
           "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/94a467fc58cff8b0d0c81126b263eef5c184bd22) ([browse tree](https://github.com/acidanthera/Lilu/tree/94a467fc58cff8b0d0c81126b263eef5c184bd22))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.7-DEBUG.zip: d3847a713460b24cc7730f7b0df93e90c166a2eafd401a54b3f166cb78b5669e\n**Release:**\nLilu-1.4.7-RELEASE.zip: e00232ed31bdf6b1f4eeaf0b6d98c067c93548c216056629b19451297d0d08e9",
           "id": 29741057,
           "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-94a467f"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
+        "commit": {
+          "message": "Fix chaining symbols regression\n\ncloses acidanthera/bugtracker#1101",
+          "sha": "cb52405757d601abab39c9c1301b4ba74b3f20fa",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/cb52405757d601abab39c9c1301b4ba74b3f20fa",
+          "url": "https://github.com/acidanthera/Lilu/commit/cb52405757d601abab39c9c1301b4ba74b3f20fa"
+        },
+        "dateadded": "2020-08-16T03:19:56.498187+00:00",
+        "datecommitted": "2020-08-16T03:02:21+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "a030f5420f265c3cd05b53c6e63cafd0dab8170d21c85c1908a0006bb52c40d5"
+          },
+          "release": {
+            "sha256": "ac2436710f1bacfb1055d33b388321fe6312d1c05231169312773b0336366660"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-cb52405/Lilu-1.4.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-cb52405/Lilu-1.4.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix chaining symbols regression\n\ncloses acidanthera/bugtracker#1101\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/cb52405757d601abab39c9c1301b4ba74b3f20fa) ([browse tree](https://github.com/acidanthera/Lilu/tree/cb52405757d601abab39c9c1301b4ba74b3f20fa))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.7-DEBUG.zip: a030f5420f265c3cd05b53c6e63cafd0dab8170d21c85c1908a0006bb52c40d5\n**Release:**\nLilu-1.4.7-RELEASE.zip: ac2436710f1bacfb1055d33b388321fe6312d1c05231169312773b0336366660",
+          "id": 29741060,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-cb52405"
         },
         "source": "built",
         "version": "1.4.7"
