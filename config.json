@@ -3960,6 +3960,35 @@
       {
         "commit": {
           "message": "Sync changelog",
+          "sha": "94a467fc58cff8b0d0c81126b263eef5c184bd22",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/94a467fc58cff8b0d0c81126b263eef5c184bd22",
+          "url": "https://github.com/acidanthera/Lilu/commit/94a467fc58cff8b0d0c81126b263eef5c184bd22"
+        },
+        "dateadded": "2020-08-16T03:19:31.263643+00:00",
+        "datecommitted": "2020-08-16T03:03:09+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "d3847a713460b24cc7730f7b0df93e90c166a2eafd401a54b3f166cb78b5669e"
+          },
+          "release": {
+            "sha256": "e00232ed31bdf6b1f4eeaf0b6d98c067c93548c216056629b19451297d0d08e9"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-94a467f/Lilu-1.4.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-94a467f/Lilu-1.4.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/94a467fc58cff8b0d0c81126b263eef5c184bd22) ([browse tree](https://github.com/acidanthera/Lilu/tree/94a467fc58cff8b0d0c81126b263eef5c184bd22))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.7-DEBUG.zip: d3847a713460b24cc7730f7b0df93e90c166a2eafd401a54b3f166cb78b5669e\n**Release:**\nLilu-1.4.7-RELEASE.zip: e00232ed31bdf6b1f4eeaf0b6d98c067c93548c216056629b19451297d0d08e9",
+          "id": 29741057,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-94a467f"
+        },
+        "source": "built",
+        "version": "1.4.7"
+      },
+      {
+        "commit": {
+          "message": "Sync changelog",
           "sha": "bd4664f9b758c115ac1bf38ca278088859ec428e",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/bd4664f9b758c115ac1bf38ca278088859ec428e",
           "url": "https://github.com/acidanthera/Lilu/commit/bd4664f9b758c115ac1bf38ca278088859ec428e"
