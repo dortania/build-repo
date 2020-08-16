@@ -3775,6 +3775,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Postpone RTC wake in AppleRTC::setupDateTimeAlarm according to current standby/autopoweroff delay (if auto-hibernate feature and standby/autopoweroff is on) in order to avoid an earlier wake.",
+          "sha": "fc433de3a5f7f1c821fd3d6932ce2284ef672d6d",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/fc433de3a5f7f1c821fd3d6932ce2284ef672d6d",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/fc433de3a5f7f1c821fd3d6932ce2284ef672d6d"
+        },
+        "dateadded": "2020-08-16T10:06:28.052480+00:00",
+        "datecommitted": "2020-08-16T10:05:13+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "2347b278db4152be0f446b4e4b70b04a4dbc9c550a3929b7a7c6518a957e5be8"
+          },
+          "release": {
+            "sha256": "79bec0f8054216d1fc8b26a581070842ce24576bd058f947388707f27429ccb8"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-fc433de/HibernationFixup-1.3.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-fc433de/HibernationFixup-1.3.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nPostpone RTC wake in AppleRTC::setupDateTimeAlarm according to current standby/autopoweroff delay (if auto-hibernate feature and standby/autopoweroff is on) in order to avoid an earlier wake.\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/fc433de3a5f7f1c821fd3d6932ce2284ef672d6d) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/fc433de3a5f7f1c821fd3d6932ce2284ef672d6d))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.5-DEBUG.zip: 2347b278db4152be0f446b4e4b70b04a4dbc9c550a3929b7a7c6518a957e5be8\n**Release:**\nHibernationFixup-1.3.5-RELEASE.zip: 79bec0f8054216d1fc8b26a581070842ce24576bd058f947388707f27429ccb8",
+          "id": 29744135,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-fc433de"
+        },
+        "source": "built",
+        "version": "1.3.5"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "5225149bed1660cd23caec5624be9ff37944115a",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/5225149bed1660cd23caec5624be9ff37944115a",
