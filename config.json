@@ -28299,6 +28299,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Update cpu counters in separate to avoid mp_rendezvous_no_intrs (#39)",
+          "sha": "2dc2af36a75b87990afd4cb2a48889e2af63589a",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/2dc2af36a75b87990afd4cb2a48889e2af63589a",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/2dc2af36a75b87990afd4cb2a48889e2af63589a"
+        },
+        "dateadded": "2020-08-18T04:56:57.055633+00:00",
+        "datecommitted": "2020-08-18T04:51:29+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "5dc769c1e29f107b3d99faf1cc2a52b60e71c2b5a6275a9bd2a92d6e4bcdba67"
+          },
+          "release": {
+            "sha256": "e11aad35bd9d3e11b4794f339f5419d84ccfde815804031aeb00fa7ff1a2b6fb"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-2dc2af3/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-2dc2af3/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUpdate cpu counters in separate to avoid mp_rendezvous_no_intrs (#39)\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/2dc2af36a75b87990afd4cb2a48889e2af63589a) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/2dc2af36a75b87990afd4cb2a48889e2af63589a))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.6-DEBUG.zip: 5dc769c1e29f107b3d99faf1cc2a52b60e71c2b5a6275a9bd2a92d6e4bcdba67\n**Release:**\nVirtualSMC-1.1.6-RELEASE.zip: e11aad35bd9d3e11b4794f339f5419d84ccfde815804031aeb00fa7ff1a2b6fb",
+          "id": 29797706,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-2dc2af3"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "a8da8287836b54dd8bb68551293ecef02cb70e06",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/a8da8287836b54dd8bb68551293ecef02cb70e06",
