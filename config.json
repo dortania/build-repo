@@ -28299,6 +28299,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "a8da8287836b54dd8bb68551293ecef02cb70e06",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/a8da8287836b54dd8bb68551293ecef02cb70e06",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/a8da8287836b54dd8bb68551293ecef02cb70e06"
+        },
+        "dateadded": "2020-08-18T04:56:15.835331+00:00",
+        "datecommitted": "2020-08-18T04:53:12+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9a8cf6f0b6077a18cdf4f6829b77193a195680fd9df6013dd89fa1cf59598a59"
+          },
+          "release": {
+            "sha256": "35b1fc1d632fe2df7de9454b8e46595622f646e3a7f51c54ac7e3b53a218375a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-a8da828/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-a8da828/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/a8da8287836b54dd8bb68551293ecef02cb70e06) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/a8da8287836b54dd8bb68551293ecef02cb70e06))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.6-DEBUG.zip: 9a8cf6f0b6077a18cdf4f6829b77193a195680fd9df6013dd89fa1cf59598a59\n**Release:**\nVirtualSMC-1.1.6-RELEASE.zip: 35b1fc1d632fe2df7de9454b8e46595622f646e3a7f51c54ac7e3b53a218375a",
+          "id": 29797700,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-a8da828"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
+        "commit": {
           "message": "Fix typo in the previous commit",
           "sha": "f11d885eff0058021eee8fdb0db4243ec7af5834",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/f11d885eff0058021eee8fdb0db4243ec7af5834",
