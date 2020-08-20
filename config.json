@@ -3775,6 +3775,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix leap year detection function (thanks to PMHeart)",
+          "sha": "e278709b28037ae7780475105b51fd440289c1ba",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/e278709b28037ae7780475105b51fd440289c1ba",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/e278709b28037ae7780475105b51fd440289c1ba"
+        },
+        "dateadded": "2020-08-20T06:46:13.010797+00:00",
+        "datecommitted": "2020-08-20T06:41:22+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "34bfb11b1f4742a373057417f84f4b5dc57435be12478951fc34ba658e0b2c45"
+          },
+          "release": {
+            "sha256": "149deb7ecb993393c6fbb3f53864ff5a52f0fdd3199628acb30f7e3323e14c13"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-e278709/HibernationFixup-1.3.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-e278709/HibernationFixup-1.3.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix leap year detection function (thanks to PMHeart)\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/e278709b28037ae7780475105b51fd440289c1ba) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/e278709b28037ae7780475105b51fd440289c1ba))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.5-DEBUG.zip: 34bfb11b1f4742a373057417f84f4b5dc57435be12478951fc34ba658e0b2c45\n**Release:**\nHibernationFixup-1.3.5-RELEASE.zip: 149deb7ecb993393c6fbb3f53864ff5a52f0fdd3199628acb30f7e3323e14c13",
+          "id": 29901982,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-e278709"
+        },
+        "source": "built",
+        "version": "1.3.5"
+      },
+      {
+        "commit": {
           "message": "Postpone RTC wake in AppleRTC::setupDateTimeAlarm according to current standby/autopoweroff delay (if auto-hibernate feature and standby/autopoweroff is on) in order to avoid an earlier wake.",
           "sha": "fc433de3a5f7f1c821fd3d6932ce2284ef672d6d",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/fc433de3a5f7f1c821fd3d6932ce2284ef672d6d",
