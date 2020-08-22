@@ -6323,6 +6323,85 @@
     "versions": [
       {
         "commit": {
+          "message": "32-bit kernel switching support (#104)\n\n* OcMacInfoLib: Add 64-bit model compatibility function\r\n\r\n* OcMacInfoLib: Fix previous commit\r\n\r\n* OpenCorePlatform: Store current SMBIOS platform\r\n\r\n* OpenCorePlatform: Fix variable\r\n\r\n* OpenCoreKernel: Implement 32-bit kernel switching\r\n\r\n* OpenCoreKernel: Force 32-bit on EFI32\r\n\r\n* OpenCoreKernel: Fix previous commit",
+          "sha": "818f9e3f571908f6e0e6a08e09e8d84cc7c4872e",
+          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/818f9e3f571908f6e0e6a08e09e8d84cc7c4872e",
+          "url": "https://github.com/acidanthera/OpenCorePkg/commit/818f9e3f571908f6e0e6a08e09e8d84cc7c4872e"
+        },
+        "dateadded": "2020-08-22T04:02:08.783034+00:00",
+        "datecommitted": "2020-08-22T03:31:19+00:00",
+        "extras": {
+          "SSDT-ALS0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-ALS0.aml",
+          "SSDT-AWAC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-AWAC.aml",
+          "SSDT-BRG0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-BRG0.aml",
+          "SSDT-EC-USBX.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-EC-USBX.aml",
+          "SSDT-EC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-EC.aml",
+          "SSDT-EHCx_OFF.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-EHCx_OFF.aml",
+          "SSDT-IMEI.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-IMEI.aml",
+          "SSDT-PLUG.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-PMC.aml",
+          "SSDT-RTC0-RANGE.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-RTC0-RANGE.aml",
+          "SSDT-RTC0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-RTC0.aml",
+          "SSDT-SBUS-MCHC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/SSDT-SBUS-MCHC.aml"
+        },
+        "hashes": {
+          "SSDT-ALS0.aml": {
+            "sha256": "5b8022211c01bccbe1cb6150e96a098b23834e718bc4423d8fe7c3715237dfbb"
+          },
+          "SSDT-AWAC.aml": {
+            "sha256": "889b97fbe3937e57ce69124c8c4c2a91df136595b1c632b99210b2a008ea80f6"
+          },
+          "SSDT-BRG0.aml": {
+            "sha256": "c4fffacaea89c752b4a840633c26a648f6317a04d3432e8b4a2004738988d660"
+          },
+          "SSDT-EC-USBX.aml": {
+            "sha256": "2572e90b7cc21cc7f2fdc194115278fd80f57bfb8c4cff8fb2bcb63d08628888"
+          },
+          "SSDT-EC.aml": {
+            "sha256": "3e7827481836492e112cd235d6e83eef96eae5a27e25b108e8335daae152fe2f"
+          },
+          "SSDT-EHCx_OFF.aml": {
+            "sha256": "f7a9a3a6765437f096b1d23d0c27cdffcc4e72d539f21b3ec0e6cba251828154"
+          },
+          "SSDT-IMEI.aml": {
+            "sha256": "0fcaa544249b0a208d04dded578fb59af8db99c7b33aad12135ee1d45712a8c2"
+          },
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "SSDT-RTC0-RANGE.aml": {
+            "sha256": "3935851a1b477998641f552461ca36e99ec12f98d14b6bd42b1b73e52e5d41ba"
+          },
+          "SSDT-RTC0.aml": {
+            "sha256": "325f3f365c46d04825efbab94db0ba4bf028d3913504a7fc1df517bd9d7fd3d4"
+          },
+          "SSDT-SBUS-MCHC.aml": {
+            "sha256": "49767af3036a3a15e49c7de9a1c619da092266bc0f3263e3130efa10e2063009"
+          },
+          "debug": {
+            "sha256": "38ea31d2b3e93adc4c5a743aa124266383af05db8670b23d9887d2b098c84885"
+          },
+          "release": {
+            "sha256": "0664cf8946388400636096f85833f5c373f6db20093eee43972c2f4a00229862"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-818f9e3/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\n32-bit kernel switching support (#104)\n\n* OcMacInfoLib: Add 64-bit model compatibility function\r\n\r\n* OcMacInfoLib: Fix previous commit\r\n\r\n* OpenCorePlatform: Store current SMBIOS platform\r\n\r\n* OpenCorePlatform: Fix variable\r\n\r\n* OpenCoreKernel: Implement 32-bit kernel switching\r\n\r\n* OpenCoreKernel: Force 32-bit on EFI32\r\n\r\n* OpenCoreKernel: Fix previous commit\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/818f9e3f571908f6e0e6a08e09e8d84cc7c4872e) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/818f9e3f571908f6e0e6a08e09e8d84cc7c4872e))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.1-DEBUG.zip: 38ea31d2b3e93adc4c5a743aa124266383af05db8670b23d9887d2b098c84885\n**Release:**\nOpenCore-0.6.1-RELEASE.zip: 0664cf8946388400636096f85833f5c373f6db20093eee43972c2f4a00229862\n**Extras:**\nSSDT-ALS0.aml: 5b8022211c01bccbe1cb6150e96a098b23834e718bc4423d8fe7c3715237dfbb\nSSDT-EC.aml: 3e7827481836492e112cd235d6e83eef96eae5a27e25b108e8335daae152fe2f\nSSDT-IMEI.aml: 0fcaa544249b0a208d04dded578fb59af8db99c7b33aad12135ee1d45712a8c2\nSSDT-RTC0.aml: 325f3f365c46d04825efbab94db0ba4bf028d3913504a7fc1df517bd9d7fd3d4\nSSDT-AWAC.aml: 889b97fbe3937e57ce69124c8c4c2a91df136595b1c632b99210b2a008ea80f6\nSSDT-RTC0-RANGE.aml: 3935851a1b477998641f552461ca36e99ec12f98d14b6bd42b1b73e52e5d41ba\nSSDT-EHCx_OFF.aml: f7a9a3a6765437f096b1d23d0c27cdffcc4e72d539f21b3ec0e6cba251828154\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-EC-USBX.aml: 2572e90b7cc21cc7f2fdc194115278fd80f57bfb8c4cff8fb2bcb63d08628888\nSSDT-SBUS-MCHC.aml: 49767af3036a3a15e49c7de9a1c619da092266bc0f3263e3130efa10e2063009\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\nSSDT-BRG0.aml: c4fffacaea89c752b4a840633c26a648f6317a04d3432e8b4a2004738988d660",
+          "id": 30008077,
+          "url": "https://github.com/dortania/build-repo/releases/tag/OpenCorePkg-818f9e3"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
+        "commit": {
           "message": "Build: Fix rebuilding tools after header updates (#105)",
           "sha": "7839632455df5e429bf57d614860ff9394279749",
           "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/7839632455df5e429bf57d614860ff9394279749",
