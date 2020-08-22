@@ -6323,6 +6323,85 @@
     "versions": [
       {
         "commit": {
+          "message": "DataBase: Add AppleBoardCode for iMac20,1 (#103)\n\n* AppleBoardCode for iMac20,1\r\n\r\nOne of the valid AppleBoardCode for iMac20,1 is PHCD, which is shown in an actual iMac20,1 with i5-10500. \r\nThe temporal value (0000) for the code (line 101) could be updated.\r\n\r\n* Update modelinfo_autogen.h",
+          "sha": "d8e58af165f74e673b39875d5d1d22fbc7a94f25",
+          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/d8e58af165f74e673b39875d5d1d22fbc7a94f25",
+          "url": "https://github.com/acidanthera/OpenCorePkg/commit/d8e58af165f74e673b39875d5d1d22fbc7a94f25"
+        },
+        "dateadded": "2020-08-22T14:31:01.234845+00:00",
+        "datecommitted": "2020-08-22T13:43:48+00:00",
+        "extras": {
+          "SSDT-ALS0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-ALS0.aml",
+          "SSDT-AWAC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-AWAC.aml",
+          "SSDT-BRG0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-BRG0.aml",
+          "SSDT-EC-USBX.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-EC-USBX.aml",
+          "SSDT-EC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-EC.aml",
+          "SSDT-EHCx_OFF.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-EHCx_OFF.aml",
+          "SSDT-IMEI.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-IMEI.aml",
+          "SSDT-PLUG.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-PMC.aml",
+          "SSDT-RTC0-RANGE.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-RTC0-RANGE.aml",
+          "SSDT-RTC0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-RTC0.aml",
+          "SSDT-SBUS-MCHC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/SSDT-SBUS-MCHC.aml"
+        },
+        "hashes": {
+          "SSDT-ALS0.aml": {
+            "sha256": "5b8022211c01bccbe1cb6150e96a098b23834e718bc4423d8fe7c3715237dfbb"
+          },
+          "SSDT-AWAC.aml": {
+            "sha256": "889b97fbe3937e57ce69124c8c4c2a91df136595b1c632b99210b2a008ea80f6"
+          },
+          "SSDT-BRG0.aml": {
+            "sha256": "c4fffacaea89c752b4a840633c26a648f6317a04d3432e8b4a2004738988d660"
+          },
+          "SSDT-EC-USBX.aml": {
+            "sha256": "2572e90b7cc21cc7f2fdc194115278fd80f57bfb8c4cff8fb2bcb63d08628888"
+          },
+          "SSDT-EC.aml": {
+            "sha256": "3e7827481836492e112cd235d6e83eef96eae5a27e25b108e8335daae152fe2f"
+          },
+          "SSDT-EHCx_OFF.aml": {
+            "sha256": "f7a9a3a6765437f096b1d23d0c27cdffcc4e72d539f21b3ec0e6cba251828154"
+          },
+          "SSDT-IMEI.aml": {
+            "sha256": "0fcaa544249b0a208d04dded578fb59af8db99c7b33aad12135ee1d45712a8c2"
+          },
+          "SSDT-PLUG.aml": {
+            "sha256": "a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa"
+          },
+          "SSDT-RTC0-RANGE.aml": {
+            "sha256": "3935851a1b477998641f552461ca36e99ec12f98d14b6bd42b1b73e52e5d41ba"
+          },
+          "SSDT-RTC0.aml": {
+            "sha256": "325f3f365c46d04825efbab94db0ba4bf028d3913504a7fc1df517bd9d7fd3d4"
+          },
+          "SSDT-SBUS-MCHC.aml": {
+            "sha256": "49767af3036a3a15e49c7de9a1c619da092266bc0f3263e3130efa10e2063009"
+          },
+          "debug": {
+            "sha256": "12c517b10f347d71943c2466188412e118c0e663f65d6355635bac837ae79660"
+          },
+          "release": {
+            "sha256": "5198c3f4c9f882763159a08088afbf34598b391886608c23505f99f0856c5d91"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/OpenCore-0.6.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d8e58af/OpenCore-0.6.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nDataBase: Add AppleBoardCode for iMac20,1 (#103)\n\n* AppleBoardCode for iMac20,1\r\n\r\nOne of the valid AppleBoardCode for iMac20,1 is PHCD, which is shown in an actual iMac20,1 with i5-10500. \r\nThe temporal value (0000) for the code (line 101) could be updated.\r\n\r\n* Update modelinfo_autogen.h\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/d8e58af165f74e673b39875d5d1d22fbc7a94f25) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/d8e58af165f74e673b39875d5d1d22fbc7a94f25))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.1-DEBUG.zip: 12c517b10f347d71943c2466188412e118c0e663f65d6355635bac837ae79660\n**Release:**\nOpenCore-0.6.1-RELEASE.zip: 5198c3f4c9f882763159a08088afbf34598b391886608c23505f99f0856c5d91\n**Extras:**\nSSDT-ALS0.aml: 5b8022211c01bccbe1cb6150e96a098b23834e718bc4423d8fe7c3715237dfbb\nSSDT-EC.aml: 3e7827481836492e112cd235d6e83eef96eae5a27e25b108e8335daae152fe2f\nSSDT-IMEI.aml: 0fcaa544249b0a208d04dded578fb59af8db99c7b33aad12135ee1d45712a8c2\nSSDT-RTC0.aml: 325f3f365c46d04825efbab94db0ba4bf028d3913504a7fc1df517bd9d7fd3d4\nSSDT-AWAC.aml: 889b97fbe3937e57ce69124c8c4c2a91df136595b1c632b99210b2a008ea80f6\nSSDT-RTC0-RANGE.aml: 3935851a1b477998641f552461ca36e99ec12f98d14b6bd42b1b73e52e5d41ba\nSSDT-EHCx_OFF.aml: f7a9a3a6765437f096b1d23d0c27cdffcc4e72d539f21b3ec0e6cba251828154\nSSDT-PLUG.aml: a94645067e9fedd61f61d1adf5536d8e67cbfb5f61965ede8659a644af208c2b\nSSDT-EC-USBX.aml: 2572e90b7cc21cc7f2fdc194115278fd80f57bfb8c4cff8fb2bcb63d08628888\nSSDT-SBUS-MCHC.aml: 49767af3036a3a15e49c7de9a1c619da092266bc0f3263e3130efa10e2063009\nSSDT-PMC.aml: 2ed73f1236290ca590474709a4cf6dbe0c4095a18a8134ee430a66668360fbfa\nSSDT-BRG0.aml: c4fffacaea89c752b4a840633c26a648f6317a04d3432e8b4a2004738988d660",
+          "id": 30013230,
+          "url": "https://github.com/dortania/build-repo/releases/tag/OpenCorePkg-d8e58af"
+        },
+        "source": "built",
+        "version": "0.6.1"
+      },
+      {
+        "commit": {
           "message": "OcAppleKernelLib: Partially fix kext blocking for 11.0",
           "sha": "dc923bc895ee0ca8d17f4355a3dadd76f601f2c3",
           "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/dc923bc895ee0ca8d17f4355a3dadd76f601f2c3",
