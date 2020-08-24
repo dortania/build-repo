@@ -4,6 +4,35 @@
     "versions": [
       {
         "commit": {
+          "message": "- Remove dependencies corecapture and IONetworkingFamily\n- Do not use OSMetaClass::allocClassWithName since it requires dependencies corecapture and IONetworkingFamily\n- removeDrivers does not cause new service matching since it is not safe to call it in processKext\n- Service matching is executed via single-shot timer (when it is safe)",
+          "sha": "3f1d608810578071720c73d5713868b0d13e36be",
+          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/3f1d608810578071720c73d5713868b0d13e36be",
+          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/3f1d608810578071720c73d5713868b0d13e36be"
+        },
+        "dateadded": "2020-08-24T15:27:09.571357+00:00",
+        "datecommitted": "2020-08-24T15:18:48+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "a1b61a19432245b0678671ed2a571270b879fbe96d775a6cc41afba0d9712a40"
+          },
+          "release": {
+            "sha256": "fa3502477a4d981de5ee50c5137b2eaa9c3c06cc913967e5e562a470e7cd7065"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-3f1d608/AirportBrcmFixup-2.0.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-3f1d608/AirportBrcmFixup-2.0.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\n- Remove dependencies corecapture and IONetworkingFamily\n- Do not use OSMetaClass::allocClassWithName since it requires dependencies corecapture and IONetworkingFamily\n- removeDrivers does not cause new service matching since it is not safe to call it in processKext\n- Service matching is executed via single-shot timer (when it is safe)\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/3f1d608810578071720c73d5713868b0d13e36be) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/3f1d608810578071720c73d5713868b0d13e36be))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.0.9-DEBUG.zip: a1b61a19432245b0678671ed2a571270b879fbe96d775a6cc41afba0d9712a40\n**Release:**\nAirportBrcmFixup-2.0.9-RELEASE.zip: fa3502477a4d981de5ee50c5137b2eaa9c3c06cc913967e5e562a470e7cd7065",
+          "id": 30059399,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-3f1d608"
+        },
+        "source": "built",
+        "version": "2.0.9"
+      },
+      {
+        "commit": {
           "message": "Update Changelog.md",
           "sha": "6c02ad955f3ee5832deb5047fbee40e0c2f5cd43",
           "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/6c02ad955f3ee5832deb5047fbee40e0c2f5cd43",
