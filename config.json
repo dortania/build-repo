@@ -32228,6 +32228,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add SMC dumps for MBP7,1 & IM16,1 (#41)",
+          "sha": "f17022f17f29222d7a9cde6edd51810a5c41c389",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/f17022f17f29222d7a9cde6edd51810a5c41c389",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/f17022f17f29222d7a9cde6edd51810a5c41c389"
+        },
+        "dateadded": "2020-08-25T18:30:31.688668+00:00",
+        "datecommitted": "2020-08-25T18:24:34+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "94dae519da240bffbcf396a04c156ff993840543ec180177408c24f747b750db"
+          },
+          "release": {
+            "sha256": "9172ea23f45f5a60e67ec92ecb70ea8ec415d4447877bef857f0f9c8682dafaa"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-f17022f/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-f17022f/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd SMC dumps for MBP7,1 & IM16,1 (#41)\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/f17022f17f29222d7a9cde6edd51810a5c41c389) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/f17022f17f29222d7a9cde6edd51810a5c41c389))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.6-DEBUG.zip: 94dae519da240bffbcf396a04c156ff993840543ec180177408c24f747b750db\n**Release:**\nVirtualSMC-1.1.6-RELEASE.zip: 9172ea23f45f5a60e67ec92ecb70ea8ec415d4447877bef857f0f9c8682dafaa",
+          "id": 30118279,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-f17022f"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
+        "commit": {
           "message": "Added MacBookPro16,3 SMC dump (#40)",
           "sha": "7496bec634f9f9316018f50f8e1a31fe4d513372",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/7496bec634f9f9316018f50f8e1a31fe4d513372",
