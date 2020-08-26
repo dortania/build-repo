@@ -34620,6 +34620,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Add some further NVCAP docs",
+          "sha": "f4940a382f23f43216d71fdb3322a93ad0012b42",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/f4940a382f23f43216d71fdb3322a93ad0012b42",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/f4940a382f23f43216d71fdb3322a93ad0012b42"
+        },
+        "dateadded": "2020-08-26T20:32:14.960435+00:00",
+        "datecommitted": "2020-08-26T20:30:50+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-f4940a3/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43"
+          },
+          "debug": {
+            "sha256": "e87298d41a27f8b83de43f8b8928d616853beb370126d7b3528232d514c16678"
+          },
+          "release": {
+            "sha256": "8ad0fdcbf9a452892a74f80e1a27fd6637d710af5d0f5030c6cd578efe7c58a9"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-f4940a3/WhateverGreen-1.4.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-f4940a3/WhateverGreen-1.4.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd some further NVCAP docs\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/f4940a382f23f43216d71fdb3322a93ad0012b42) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/f4940a382f23f43216d71fdb3322a93ad0012b42))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.2-DEBUG.zip: e87298d41a27f8b83de43f8b8928d616853beb370126d7b3528232d514c16678\n**Release:**\nWhateverGreen-1.4.2-RELEASE.zip: 8ad0fdcbf9a452892a74f80e1a27fd6637d710af5d0f5030c6cd578efe7c58a9\n**Extras:**\nSSDT-PNLF.aml: c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43",
+          "id": 30174846,
+          "url": "https://github.com/dortania/build-repo/releases/tag/WhateverGreen-f4940a3"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
+      {
+        "commit": {
           "message": "Add NVCAP template",
           "sha": "191311061fa08531d2ae9490b29dc46984cb2704",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/191311061fa08531d2ae9490b29dc46984cb2704",
