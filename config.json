@@ -4,6 +4,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Perform service matching a few times if there were no any successfully started services yet",
+          "sha": "e78e7212c319cab4e86413fea816812e6a2656ce",
+          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/e78e7212c319cab4e86413fea816812e6a2656ce",
+          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/e78e7212c319cab4e86413fea816812e6a2656ce"
+        },
+        "dateadded": "2020-08-29T12:44:00.610783+00:00",
+        "datecommitted": "2020-08-29T12:39:56+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9321a8d33531077e28cd8038653400ab95dc1caf93bfe780923ff2e0bbd595b9"
+          },
+          "release": {
+            "sha256": "cd176a295146404531278f1de406411c96d3a473a475a7837fc28815dc00e4b4"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-e78e721/AirportBrcmFixup-2.0.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-e78e721/AirportBrcmFixup-2.0.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nPerform service matching a few times if there were no any successfully started services yet\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/e78e7212c319cab4e86413fea816812e6a2656ce) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/e78e7212c319cab4e86413fea816812e6a2656ce))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.0.9-DEBUG.zip: 9321a8d33531077e28cd8038653400ab95dc1caf93bfe780923ff2e0bbd595b9\n**Release:**\nAirportBrcmFixup-2.0.9-RELEASE.zip: cd176a295146404531278f1de406411c96d3a473a475a7837fc28815dc00e4b4",
+          "id": 30366496,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-e78e721"
+        },
+        "source": "built",
+        "version": "2.0.9"
+      },
+      {
+        "commit": {
           "message": "- Remove dependencies corecapture and IONetworkingFamily\n- Do not use OSMetaClass::allocClassWithName since it requires dependencies corecapture and IONetworkingFamily\n- removeDrivers does not cause new service matching since it is not safe to call it in processKext\n- Service matching is executed via single-shot timer (when it is safe)",
           "sha": "3f1d608810578071720c73d5713868b0d13e36be",
           "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/3f1d608810578071720c73d5713868b0d13e36be",
