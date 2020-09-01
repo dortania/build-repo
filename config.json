@@ -35209,6 +35209,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix coreOffset detection on MBP model and Macmini8,1 (#42)",
+          "sha": "dcf11a762e25c2e0212fbebb8485a8031a690f11",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/dcf11a762e25c2e0212fbebb8485a8031a690f11",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/dcf11a762e25c2e0212fbebb8485a8031a690f11"
+        },
+        "dateadded": "2020-09-01T04:41:18.165315+00:00",
+        "datecommitted": "2020-09-01T04:38:09+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "822db3c0dab4943581e4cb5e4bc5608fe8cd592ae84c5fde6f1b5533bb94e1b7"
+          },
+          "release": {
+            "sha256": "be6797d7a1268a4b3d481a39fd78464036945fc3a0ff24216ba757e033eb913d"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-dcf11a7/VirtualSMC-1.1.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-dcf11a7/VirtualSMC-1.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix coreOffset detection on MBP model and Macmini8,1 (#42)\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/dcf11a762e25c2e0212fbebb8485a8031a690f11) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/dcf11a762e25c2e0212fbebb8485a8031a690f11))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.6-DEBUG.zip: 822db3c0dab4943581e4cb5e4bc5608fe8cd592ae84c5fde6f1b5533bb94e1b7\n**Release:**\nVirtualSMC-1.1.6-RELEASE.zip: be6797d7a1268a4b3d481a39fd78464036945fc3a0ff24216ba757e033eb913d",
+          "id": 30478710,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-dcf11a7"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
+        "commit": {
           "message": "Add SMC dumps for MBP7,1 & IM16,1 (#41)",
           "sha": "f17022f17f29222d7a9cde6edd51810a5c41c389",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/f17022f17f29222d7a9cde6edd51810a5c41c389",
