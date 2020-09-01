@@ -37106,6 +37106,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix the kernel panic caused by an incorrectly calculated amount of DVMT pre-allocated memory on Intel ICL platforms (#64)",
+          "sha": "49d245ac8bd1281757c7ce1761fd13c5c92d90d0",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/49d245ac8bd1281757c7ce1761fd13c5c92d90d0",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/49d245ac8bd1281757c7ce1761fd13c5c92d90d0"
+        },
+        "dateadded": "2020-09-01T19:38:53.203219+00:00",
+        "datecommitted": "2020-09-01T19:36:18+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-49d245a/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43"
+          },
+          "debug": {
+            "sha256": "8b5ebd66195beb0875b9284a79148b95cd9c7cf3ba7dc575a3602f3658b616c7"
+          },
+          "release": {
+            "sha256": "8959b558621f895dffe81f57cf924e160b17164b1bb36d3c2302676f2962a38e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-49d245a/WhateverGreen-1.4.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-49d245a/WhateverGreen-1.4.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix the kernel panic caused by an incorrectly calculated amount of DVMT pre-allocated memory on Intel ICL platforms (#64)\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/49d245ac8bd1281757c7ce1761fd13c5c92d90d0) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/49d245ac8bd1281757c7ce1761fd13c5c92d90d0))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.2-DEBUG.zip: 8b5ebd66195beb0875b9284a79148b95cd9c7cf3ba7dc575a3602f3658b616c7\n**Release:**\nWhateverGreen-1.4.2-RELEASE.zip: 8959b558621f895dffe81f57cf924e160b17164b1bb36d3c2302676f2962a38e\n**Extras:**\nSSDT-PNLF.aml: c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43",
+          "id": 30532793,
+          "url": "https://github.com/dortania/build-repo/releases/tag/WhateverGreen-49d245a"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
+      {
+        "commit": {
           "message": "Add some further NVCAP docs",
           "sha": "f4940a382f23f43216d71fdb3322a93ad0012b42",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/f4940a382f23f43216d71fdb3322a93ad0012b42",
