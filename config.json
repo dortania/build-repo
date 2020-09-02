@@ -734,6 +734,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Added ALC887 layout-id 12 for ASUS H81M-D by VanXNF",
+          "sha": "e7e19c097e13c28afd56f9e7d1f86720b94e0adf",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/e7e19c097e13c28afd56f9e7d1f86720b94e0adf",
+          "url": "https://github.com/acidanthera/AppleALC/commit/e7e19c097e13c28afd56f9e7d1f86720b94e0adf"
+        },
+        "dateadded": "2020-09-02T09:44:07.092752+00:00",
+        "datecommitted": "2020-09-02T09:28:20+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "421fc4d87bc7b82cbcb5cc6926e4f6f4edf4f72346fd6d9fd80150ffc8970721"
+          },
+          "release": {
+            "sha256": "442f683999a30e88185e4b38dea9b57beb31fe93e5246168df4f33a8d7eba48b"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-e7e19c0/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-e7e19c0/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdded ALC887 layout-id 12 for ASUS H81M-D by VanXNF\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/e7e19c097e13c28afd56f9e7d1f86720b94e0adf) ([browse tree](https://github.com/acidanthera/AppleALC/tree/e7e19c097e13c28afd56f9e7d1f86720b94e0adf))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 421fc4d87bc7b82cbcb5cc6926e4f6f4edf4f72346fd6d9fd80150ffc8970721\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 442f683999a30e88185e4b38dea9b57beb31fe93e5246168df4f33a8d7eba48b",
+          "id": 30571948,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-e7e19c0"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
           "message": "Added ALCS1200A layout-id 49 for Asrock Z490M-ITX by VanXNF",
           "sha": "8f9406ae6a93bc96400cda0096b78b7c1696dc9d",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/8f9406ae6a93bc96400cda0096b78b7c1696dc9d",
