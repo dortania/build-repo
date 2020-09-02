@@ -734,35 +734,6 @@
     "versions": [
       {
         "commit": {
-          "message": "Sync changelog",
-          "sha": "affe566e7fe8051f907af8568c0b75d0bb61a804",
-          "tree_url": "https://github.com/acidanthera/AppleALC/tree/affe566e7fe8051f907af8568c0b75d0bb61a804",
-          "url": "https://github.com/acidanthera/AppleALC/commit/affe566e7fe8051f907af8568c0b75d0bb61a804"
-        },
-        "dateadded": "2020-09-02T10:06:32.576110+00:00",
-        "datecommitted": "2020-09-02T09:50:41+00:00",
-        "hashes": {
-          "debug": {
-            "sha256": "1fa4321527320cae4671e600f1e413e2a9c1dec3ffb4d626c5c98b5d2ebffbdd"
-          },
-          "release": {
-            "sha256": "26cdbddea59490e60e44ade17b9c5619e3f9179212e9ef50fd39aa16028e2180"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-affe566/AppleALC-1.5.2-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-affe566/AppleALC-1.5.2-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/affe566e7fe8051f907af8568c0b75d0bb61a804) ([browse tree](https://github.com/acidanthera/AppleALC/tree/affe566e7fe8051f907af8568c0b75d0bb61a804))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 1fa4321527320cae4671e600f1e413e2a9c1dec3ffb4d626c5c98b5d2ebffbdd\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 26cdbddea59490e60e44ade17b9c5619e3f9179212e9ef50fd39aa16028e2180",
-          "id": 30573188,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-affe566"
-        },
-        "source": "built",
-        "version": "1.5.2"
-      },
-      {
-        "commit": {
           "message": "Added ALC245 and ALC287 by lunjielee",
           "sha": "a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c",
@@ -786,6 +757,35 @@
           "description": "**Changes:**\nAdded ALC245 and ALC287 by lunjielee\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c) ([browse tree](https://github.com/acidanthera/AppleALC/tree/a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 9299244e026b64898615b352cc2ab7ad82e66a2ff71421b8c10f11001d6c3932\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 5f0e939eb2a0340674081a0ab84a5e29102ab02593fea9a0fc159410bf267635",
           "id": 30573101,
           "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-a567a8b"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
+          "message": "Sync changelog",
+          "sha": "affe566e7fe8051f907af8568c0b75d0bb61a804",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/affe566e7fe8051f907af8568c0b75d0bb61a804",
+          "url": "https://github.com/acidanthera/AppleALC/commit/affe566e7fe8051f907af8568c0b75d0bb61a804"
+        },
+        "dateadded": "2020-09-02T10:06:32.576110+00:00",
+        "datecommitted": "2020-09-02T09:50:41+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "1fa4321527320cae4671e600f1e413e2a9c1dec3ffb4d626c5c98b5d2ebffbdd"
+          },
+          "release": {
+            "sha256": "26cdbddea59490e60e44ade17b9c5619e3f9179212e9ef50fd39aa16028e2180"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-affe566/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-affe566/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/affe566e7fe8051f907af8568c0b75d0bb61a804) ([browse tree](https://github.com/acidanthera/AppleALC/tree/affe566e7fe8051f907af8568c0b75d0bb61a804))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 1fa4321527320cae4671e600f1e413e2a9c1dec3ffb4d626c5c98b5d2ebffbdd\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 26cdbddea59490e60e44ade17b9c5619e3f9179212e9ef50fd39aa16028e2180",
+          "id": 30573188,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-affe566"
         },
         "source": "built",
         "version": "1.5.2"
