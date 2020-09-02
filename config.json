@@ -734,6 +734,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Added ALCS1200A layout-id 49 for Asrock Z490M-ITX by VanXNF",
+          "sha": "8f9406ae6a93bc96400cda0096b78b7c1696dc9d",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/8f9406ae6a93bc96400cda0096b78b7c1696dc9d",
+          "url": "https://github.com/acidanthera/AppleALC/commit/8f9406ae6a93bc96400cda0096b78b7c1696dc9d"
+        },
+        "dateadded": "2020-09-02T09:42:27.257823+00:00",
+        "datecommitted": "2020-09-02T09:35:32+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "7690363ec55fb87a57474d90b32bdd98f92de14ebdb43f80f1ccf2c2f2a8ad09"
+          },
+          "release": {
+            "sha256": "09c02571696bf1bb4039f8458655787a6b7064bd21837ff2376f29812b4eb833"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-8f9406a/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-8f9406a/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdded ALCS1200A layout-id 49 for Asrock Z490M-ITX by VanXNF\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/8f9406ae6a93bc96400cda0096b78b7c1696dc9d) ([browse tree](https://github.com/acidanthera/AppleALC/tree/8f9406ae6a93bc96400cda0096b78b7c1696dc9d))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 7690363ec55fb87a57474d90b32bdd98f92de14ebdb43f80f1ccf2c2f2a8ad09\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 09c02571696bf1bb4039f8458655787a6b7064bd21837ff2376f29812b4eb833",
+          "id": 30571796,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-8f9406a"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3",
