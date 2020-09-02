@@ -734,58 +734,29 @@
     "versions": [
       {
         "commit": {
-          "message": "Add new layout 17 for ALC280 (#591)\n\nThis layout is a mix of 13, 15 & 16 such that there will be 2 devices listed in the preferences `Internal Speaker/Line Out` depending on if theres something plugged in the rear green plug, and `Headphones`. You can manually select between these two devices in the preferences or on the sound icon on the top bar.\r\n\r\nThe main limitations lie with the hardware and with apples decision to have line-out override the headphones. The hardware limitation is that the internal speaker cannot not function if there is something in the line-out plug because they share the same AMP etc. So it only makes sense to have this part auto-switch. And because of the apple decision we really need to manually select that part.",
-          "sha": "872d9b67c4f36856e1984e7c3cc2f6c9506cf672",
-          "tree_url": "https://github.com/acidanthera/AppleALC/tree/872d9b67c4f36856e1984e7c3cc2f6c9506cf672",
-          "url": "https://github.com/acidanthera/AppleALC/commit/872d9b67c4f36856e1984e7c3cc2f6c9506cf672"
-        },
-        "dateadded": "2020-09-02T09:36:30.412208+00:00",
-        "datecommitted": "2020-09-02T09:18:38+00:00",
-        "hashes": {
-          "debug": {
-            "sha256": "9e11bc7d8b096f9fad4ad8dc221c071c3717d811e29e69186546899a113150aa"
-          },
-          "release": {
-            "sha256": "c5b1a919662cae19d7860be8b641bdb519e70f2daff6ba5d4e754ce05db6b08e"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-872d9b6/AppleALC-1.5.2-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-872d9b6/AppleALC-1.5.2-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes:**\nAdd new layout 17 for ALC280 (#591)\n\nThis layout is a mix of 13, 15 & 16 such that there will be 2 devices listed in the preferences `Internal Speaker/Line Out` depending on if theres something plugged in the rear green plug, and `Headphones`. You can manually select between these two devices in the preferences or on the sound icon on the top bar.\r\n\r\nThe main limitations lie with the hardware and with apples decision to have line-out override the headphones. The hardware limitation is that the internal speaker cannot not function if there is something in the line-out plug because they share the same AMP etc. So it only makes sense to have this part auto-switch. And because of the apple decision we really need to manually select that part.\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/872d9b67c4f36856e1984e7c3cc2f6c9506cf672) ([browse tree](https://github.com/acidanthera/AppleALC/tree/872d9b67c4f36856e1984e7c3cc2f6c9506cf672))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 9e11bc7d8b096f9fad4ad8dc221c071c3717d811e29e69186546899a113150aa\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: c5b1a919662cae19d7860be8b641bdb519e70f2daff6ba5d4e754ce05db6b08e",
-          "id": 30571492,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-872d9b6"
-        },
-        "source": "built",
-        "version": "1.5.2"
-      },
-      {
-        "commit": {
           "message": "Sync changelog",
-          "sha": "c5263e88d89b700fe53999bfe9e3e753a2e7a814",
-          "tree_url": "https://github.com/acidanthera/AppleALC/tree/c5263e88d89b700fe53999bfe9e3e753a2e7a814",
-          "url": "https://github.com/acidanthera/AppleALC/commit/c5263e88d89b700fe53999bfe9e3e753a2e7a814"
+          "sha": "a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3",
+          "url": "https://github.com/acidanthera/AppleALC/commit/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3"
         },
-        "dateadded": "2020-09-02T09:32:32.708257+00:00",
-        "datecommitted": "2020-09-02T09:20:19+00:00",
+        "dateadded": "2020-09-02T09:27:18.654574+00:00",
+        "datecommitted": "2020-09-02T09:22:08+00:00",
         "hashes": {
           "debug": {
-            "sha256": "0d24cb7366a50e198d42bc2bb8043f157423a37daa6bbead8cfe3d799fce3c22"
+            "sha256": "6899a97a4fbd599a8870fb6f61e32c6f3d9c40036f52dde2db99b9a6da42eeae"
           },
           "release": {
-            "sha256": "ee70456ceb6fdce3f2da8cf47a532c0a6a488c578d3329dcc1dbbc28af59291c"
+            "sha256": "b3e8983a5f89f94a70737291b9ee275dcb01fc77fbf47645586ed22073761b12"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-c5263e8/AppleALC-1.5.2-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-c5263e8/AppleALC-1.5.2-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-a96c982/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-a96c982/AppleALC-1.5.2-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/c5263e88d89b700fe53999bfe9e3e753a2e7a814) ([browse tree](https://github.com/acidanthera/AppleALC/tree/c5263e88d89b700fe53999bfe9e3e753a2e7a814))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 0d24cb7366a50e198d42bc2bb8043f157423a37daa6bbead8cfe3d799fce3c22\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: ee70456ceb6fdce3f2da8cf47a532c0a6a488c578d3329dcc1dbbc28af59291c",
-          "id": 30571280,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-c5263e8"
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3) ([browse tree](https://github.com/acidanthera/AppleALC/tree/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 6899a97a4fbd599a8870fb6f61e32c6f3d9c40036f52dde2db99b9a6da42eeae\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: b3e8983a5f89f94a70737291b9ee275dcb01fc77fbf47645586ed22073761b12",
+          "id": 30571019,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-a96c982"
         },
         "source": "built",
         "version": "1.5.2"
@@ -822,28 +793,57 @@
       {
         "commit": {
           "message": "Sync changelog",
-          "sha": "a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3",
-          "tree_url": "https://github.com/acidanthera/AppleALC/tree/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3",
-          "url": "https://github.com/acidanthera/AppleALC/commit/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3"
+          "sha": "c5263e88d89b700fe53999bfe9e3e753a2e7a814",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/c5263e88d89b700fe53999bfe9e3e753a2e7a814",
+          "url": "https://github.com/acidanthera/AppleALC/commit/c5263e88d89b700fe53999bfe9e3e753a2e7a814"
         },
-        "dateadded": "2020-09-02T09:27:18.654574+00:00",
-        "datecommitted": "2020-09-02T09:22:08+00:00",
+        "dateadded": "2020-09-02T09:32:32.708257+00:00",
+        "datecommitted": "2020-09-02T09:20:19+00:00",
         "hashes": {
           "debug": {
-            "sha256": "6899a97a4fbd599a8870fb6f61e32c6f3d9c40036f52dde2db99b9a6da42eeae"
+            "sha256": "0d24cb7366a50e198d42bc2bb8043f157423a37daa6bbead8cfe3d799fce3c22"
           },
           "release": {
-            "sha256": "b3e8983a5f89f94a70737291b9ee275dcb01fc77fbf47645586ed22073761b12"
+            "sha256": "ee70456ceb6fdce3f2da8cf47a532c0a6a488c578d3329dcc1dbbc28af59291c"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-a96c982/AppleALC-1.5.2-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-a96c982/AppleALC-1.5.2-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-c5263e8/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-c5263e8/AppleALC-1.5.2-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3) ([browse tree](https://github.com/acidanthera/AppleALC/tree/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 6899a97a4fbd599a8870fb6f61e32c6f3d9c40036f52dde2db99b9a6da42eeae\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: b3e8983a5f89f94a70737291b9ee275dcb01fc77fbf47645586ed22073761b12",
-          "id": 30571019,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-a96c982"
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/c5263e88d89b700fe53999bfe9e3e753a2e7a814) ([browse tree](https://github.com/acidanthera/AppleALC/tree/c5263e88d89b700fe53999bfe9e3e753a2e7a814))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 0d24cb7366a50e198d42bc2bb8043f157423a37daa6bbead8cfe3d799fce3c22\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: ee70456ceb6fdce3f2da8cf47a532c0a6a488c578d3329dcc1dbbc28af59291c",
+          "id": 30571280,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-c5263e8"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
+          "message": "Add new layout 17 for ALC280 (#591)\n\nThis layout is a mix of 13, 15 & 16 such that there will be 2 devices listed in the preferences `Internal Speaker/Line Out` depending on if theres something plugged in the rear green plug, and `Headphones`. You can manually select between these two devices in the preferences or on the sound icon on the top bar.\r\n\r\nThe main limitations lie with the hardware and with apples decision to have line-out override the headphones. The hardware limitation is that the internal speaker cannot not function if there is something in the line-out plug because they share the same AMP etc. So it only makes sense to have this part auto-switch. And because of the apple decision we really need to manually select that part.",
+          "sha": "872d9b67c4f36856e1984e7c3cc2f6c9506cf672",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/872d9b67c4f36856e1984e7c3cc2f6c9506cf672",
+          "url": "https://github.com/acidanthera/AppleALC/commit/872d9b67c4f36856e1984e7c3cc2f6c9506cf672"
+        },
+        "dateadded": "2020-09-02T09:36:30.412208+00:00",
+        "datecommitted": "2020-09-02T09:18:38+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9e11bc7d8b096f9fad4ad8dc221c071c3717d811e29e69186546899a113150aa"
+          },
+          "release": {
+            "sha256": "c5b1a919662cae19d7860be8b641bdb519e70f2daff6ba5d4e754ce05db6b08e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-872d9b6/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-872d9b6/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd new layout 17 for ALC280 (#591)\n\nThis layout is a mix of 13, 15 & 16 such that there will be 2 devices listed in the preferences `Internal Speaker/Line Out` depending on if theres something plugged in the rear green plug, and `Headphones`. You can manually select between these two devices in the preferences or on the sound icon on the top bar.\r\n\r\nThe main limitations lie with the hardware and with apples decision to have line-out override the headphones. The hardware limitation is that the internal speaker cannot not function if there is something in the line-out plug because they share the same AMP etc. So it only makes sense to have this part auto-switch. And because of the apple decision we really need to manually select that part.\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/872d9b67c4f36856e1984e7c3cc2f6c9506cf672) ([browse tree](https://github.com/acidanthera/AppleALC/tree/872d9b67c4f36856e1984e7c3cc2f6c9506cf672))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 9e11bc7d8b096f9fad4ad8dc221c071c3717d811e29e69186546899a113150aa\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: c5b1a919662cae19d7860be8b641bdb519e70f2daff6ba5d4e754ce05db6b08e",
+          "id": 30571492,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-872d9b6"
         },
         "source": "built",
         "version": "1.5.2"
