@@ -734,35 +734,6 @@
     "versions": [
       {
         "commit": {
-          "message": "Fix previous PR",
-          "sha": "04c5edc8aaf6e8dd8dc32041199812d2e2a74b89",
-          "tree_url": "https://github.com/acidanthera/AppleALC/tree/04c5edc8aaf6e8dd8dc32041199812d2e2a74b89",
-          "url": "https://github.com/acidanthera/AppleALC/commit/04c5edc8aaf6e8dd8dc32041199812d2e2a74b89"
-        },
-        "dateadded": "2020-09-02T09:56:41.976966+00:00",
-        "datecommitted": "2020-09-02T09:48:05+00:00",
-        "hashes": {
-          "debug": {
-            "sha256": "c0ccaefa7e2a77756e331427c25a9e1f55a09c64d5053f4de9831867440df006"
-          },
-          "release": {
-            "sha256": "bb3679617901e4d6c9345d842e83052073157a55fde0806d2af0ebcaa0feed5c"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-04c5edc/AppleALC-1.5.2-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-04c5edc/AppleALC-1.5.2-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes:**\nFix previous PR\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/04c5edc8aaf6e8dd8dc32041199812d2e2a74b89) ([browse tree](https://github.com/acidanthera/AppleALC/tree/04c5edc8aaf6e8dd8dc32041199812d2e2a74b89))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: c0ccaefa7e2a77756e331427c25a9e1f55a09c64d5053f4de9831867440df006\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: bb3679617901e4d6c9345d842e83052073157a55fde0806d2af0ebcaa0feed5c",
-          "id": 30572639,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-04c5edc"
-        },
-        "source": "built",
-        "version": "1.5.2"
-      },
-      {
-        "commit": {
           "message": "Add layout23 for Thinkpad T430 with fixed micophone inputlevel (#596)",
           "sha": "734fc2be06a7b9affc3223cca2bb8c24cfac28f1",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/734fc2be06a7b9affc3223cca2bb8c24cfac28f1",
@@ -786,6 +757,35 @@
           "description": "**Changes:**\nAdd layout23 for Thinkpad T430 with fixed micophone inputlevel (#596)\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/734fc2be06a7b9affc3223cca2bb8c24cfac28f1) ([browse tree](https://github.com/acidanthera/AppleALC/tree/734fc2be06a7b9affc3223cca2bb8c24cfac28f1))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 8089f755fa76364849e6c22cb794bd7d4ee78601ecad31e0af2db46e8b926293\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 1973df1af90daea157fb63f08f7ce58421f3521b7ef99d64b89a54dd4f44a0b9",
           "id": 30572512,
           "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-734fc2b"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
+          "message": "Fix previous PR",
+          "sha": "04c5edc8aaf6e8dd8dc32041199812d2e2a74b89",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/04c5edc8aaf6e8dd8dc32041199812d2e2a74b89",
+          "url": "https://github.com/acidanthera/AppleALC/commit/04c5edc8aaf6e8dd8dc32041199812d2e2a74b89"
+        },
+        "dateadded": "2020-09-02T09:56:41.976966+00:00",
+        "datecommitted": "2020-09-02T09:48:05+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "c0ccaefa7e2a77756e331427c25a9e1f55a09c64d5053f4de9831867440df006"
+          },
+          "release": {
+            "sha256": "bb3679617901e4d6c9345d842e83052073157a55fde0806d2af0ebcaa0feed5c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-04c5edc/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-04c5edc/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix previous PR\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/04c5edc8aaf6e8dd8dc32041199812d2e2a74b89) ([browse tree](https://github.com/acidanthera/AppleALC/tree/04c5edc8aaf6e8dd8dc32041199812d2e2a74b89))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: c0ccaefa7e2a77756e331427c25a9e1f55a09c64d5053f4de9831867440df006\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: bb3679617901e4d6c9345d842e83052073157a55fde0806d2af0ebcaa0feed5c",
+          "id": 30572639,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-04c5edc"
         },
         "source": "built",
         "version": "1.5.2"
