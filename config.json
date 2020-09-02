@@ -734,6 +734,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add new layout 17 for ALC280 (#591)\n\nThis layout is a mix of 13, 15 & 16 such that there will be 2 devices listed in the preferences `Internal Speaker/Line Out` depending on if theres something plugged in the rear green plug, and `Headphones`. You can manually select between these two devices in the preferences or on the sound icon on the top bar.\r\n\r\nThe main limitations lie with the hardware and with apples decision to have line-out override the headphones. The hardware limitation is that the internal speaker cannot not function if there is something in the line-out plug because they share the same AMP etc. So it only makes sense to have this part auto-switch. And because of the apple decision we really need to manually select that part.",
+          "sha": "872d9b67c4f36856e1984e7c3cc2f6c9506cf672",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/872d9b67c4f36856e1984e7c3cc2f6c9506cf672",
+          "url": "https://github.com/acidanthera/AppleALC/commit/872d9b67c4f36856e1984e7c3cc2f6c9506cf672"
+        },
+        "dateadded": "2020-09-02T09:36:30.412208+00:00",
+        "datecommitted": "2020-09-02T09:18:38+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9e11bc7d8b096f9fad4ad8dc221c071c3717d811e29e69186546899a113150aa"
+          },
+          "release": {
+            "sha256": "c5b1a919662cae19d7860be8b641bdb519e70f2daff6ba5d4e754ce05db6b08e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-872d9b6/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-872d9b6/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd new layout 17 for ALC280 (#591)\n\nThis layout is a mix of 13, 15 & 16 such that there will be 2 devices listed in the preferences `Internal Speaker/Line Out` depending on if theres something plugged in the rear green plug, and `Headphones`. You can manually select between these two devices in the preferences or on the sound icon on the top bar.\r\n\r\nThe main limitations lie with the hardware and with apples decision to have line-out override the headphones. The hardware limitation is that the internal speaker cannot not function if there is something in the line-out plug because they share the same AMP etc. So it only makes sense to have this part auto-switch. And because of the apple decision we really need to manually select that part.\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/872d9b67c4f36856e1984e7c3cc2f6c9506cf672) ([browse tree](https://github.com/acidanthera/AppleALC/tree/872d9b67c4f36856e1984e7c3cc2f6c9506cf672))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 9e11bc7d8b096f9fad4ad8dc221c071c3717d811e29e69186546899a113150aa\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: c5b1a919662cae19d7860be8b641bdb519e70f2daff6ba5d4e754ce05db6b08e",
+          "id": 30571492,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-872d9b6"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "c5263e88d89b700fe53999bfe9e3e753a2e7a814",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/c5263e88d89b700fe53999bfe9e3e753a2e7a814",
