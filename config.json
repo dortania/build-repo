@@ -734,6 +734,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Added ALC245 and ALC287 by lunjielee",
+          "sha": "a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c",
+          "url": "https://github.com/acidanthera/AppleALC/commit/a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c"
+        },
+        "dateadded": "2020-09-02T10:05:00.743668+00:00",
+        "datecommitted": "2020-09-02T10:02:51+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9299244e026b64898615b352cc2ab7ad82e66a2ff71421b8c10f11001d6c3932"
+          },
+          "release": {
+            "sha256": "5f0e939eb2a0340674081a0ab84a5e29102ab02593fea9a0fc159410bf267635"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-a567a8b/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-a567a8b/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdded ALC245 and ALC287 by lunjielee\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c) ([browse tree](https://github.com/acidanthera/AppleALC/tree/a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 9299244e026b64898615b352cc2ab7ad82e66a2ff71421b8c10f11001d6c3932\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 5f0e939eb2a0340674081a0ab84a5e29102ab02593fea9a0fc159410bf267635",
+          "id": 30573101,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-a567a8b"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
           "message": "Add layout23 for Thinkpad T430 with fixed micophone inputlevel (#596)",
           "sha": "734fc2be06a7b9affc3223cca2bb8c24cfac28f1",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/734fc2be06a7b9affc3223cca2bb8c24cfac28f1",
