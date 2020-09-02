@@ -734,6 +734,35 @@
     "versions": [
       {
         "commit": {
+          "message": "ALC236 layout 14 for Lenovo 330S (#593)\n\n* Add layout 14 for Lenovo 330S\r\n\r\n* FIx pin order\r\n\r\n* Fixed broken xml structure\r\n\r\nCo-authored-by: erinviegas <erin@novasemita.com>",
+          "sha": "240df475bc17aa767263b92e84e7f685036a5361",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/240df475bc17aa767263b92e84e7f685036a5361",
+          "url": "https://github.com/acidanthera/AppleALC/commit/240df475bc17aa767263b92e84e7f685036a5361"
+        },
+        "dateadded": "2020-09-02T09:29:45.587944+00:00",
+        "datecommitted": "2020-09-02T09:20:50+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "0f2ecab23c0ae58a181687d48b1306d69bdbd5533886cea3ae18226a05442c74"
+          },
+          "release": {
+            "sha256": "2537014f3d3791ec366bd072946c583eafd337f4633bf12d427e0dd431c0b024"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-240df47/AppleALC-1.5.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-240df47/AppleALC-1.5.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nALC236 layout 14 for Lenovo 330S (#593)\n\n* Add layout 14 for Lenovo 330S\r\n\r\n* FIx pin order\r\n\r\n* Fixed broken xml structure\r\n\r\nCo-authored-by: erinviegas <erin@novasemita.com>\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/240df475bc17aa767263b92e84e7f685036a5361) ([browse tree](https://github.com/acidanthera/AppleALC/tree/240df475bc17aa767263b92e84e7f685036a5361))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.2-DEBUG.zip: 0f2ecab23c0ae58a181687d48b1306d69bdbd5533886cea3ae18226a05442c74\n**Release:**\nAppleALC-1.5.2-RELEASE.zip: 2537014f3d3791ec366bd072946c583eafd337f4633bf12d427e0dd431c0b024",
+          "id": 30571138,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-240df47"
+        },
+        "source": "built",
+        "version": "1.5.2"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/a96c982d9fd23f2b4f5d47b1b904cb69fb1f5af3",
