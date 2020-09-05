@@ -60,7 +60,6 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "for arbitrary kext, library, and program patching",
       "Name": "Lilu",
-      "Force": true,
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/Lilu"
     },
