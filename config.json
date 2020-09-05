@@ -4399,14 +4399,14 @@
           "tree_url": "https://github.com/acidanthera/Lilu/tree/b8eb26fadc827d1df8f4e5ab8c9216c5098e8318",
           "url": "https://github.com/acidanthera/Lilu/commit/b8eb26fadc827d1df8f4e5ab8c9216c5098e8318"
         },
-        "dateadded": "2020-08-17T12:36:57.667037+00:00",
+        "dateadded": "2020-09-05T16:05:52.625563+00:00",
         "datecommitted": "2020-08-17T12:34:33+00:00",
         "hashes": {
           "debug": {
-            "sha256": "cd79d821374de80f753690af888dab659cb516da44d0a8f0cfa84e0af5661630"
+            "sha256": "0ccffe14f5b37565977c3f5287a601e70731b5e106f25b5d5cf93f7d77dcf654"
           },
           "release": {
-            "sha256": "76b9c1fbebd8d33ba21b2568f5d5c77bc6ba5d3730c663b68e8b32b13d6c8245"
+            "sha256": "9ed83e0fc4f83245a40c7726b37419ddd063aa5a59dc34ef193a0ae70f9606a3"
           }
         },
         "links": {
@@ -4414,8 +4414,8 @@
           "release": "https://github.com/dortania/build-repo/releases/download/Lilu-b8eb26f/Lilu-1.4.7-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nUpdate KnownPlugins.md (#58)\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/b8eb26fadc827d1df8f4e5ab8c9216c5098e8318) ([browse tree](https://github.com/acidanthera/Lilu/tree/b8eb26fadc827d1df8f4e5ab8c9216c5098e8318))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.7-DEBUG.zip: cd79d821374de80f753690af888dab659cb516da44d0a8f0cfa84e0af5661630\n**Release:**\nLilu-1.4.7-RELEASE.zip: 76b9c1fbebd8d33ba21b2568f5d5c77bc6ba5d3730c663b68e8b32b13d6c8245",
-          "id": 29769091,
+          "description": "**Changes:**\nUpdate KnownPlugins.md (#58)\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/b8eb26fadc827d1df8f4e5ab8c9216c5098e8318) ([browse tree](https://github.com/acidanthera/Lilu/tree/b8eb26fadc827d1df8f4e5ab8c9216c5098e8318))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.7-DEBUG.zip: 0ccffe14f5b37565977c3f5287a601e70731b5e106f25b5d5cf93f7d77dcf654\n**Release:**\nLilu-1.4.7-RELEASE.zip: 9ed83e0fc4f83245a40c7726b37419ddd063aa5a59dc34ef193a0ae70f9606a3",
+          "id": 30780339,
           "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-b8eb26f"
         },
         "source": "built",
