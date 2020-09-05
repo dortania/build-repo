@@ -171,7 +171,7 @@ class Builder():
             print("\tBuilding release version...")
             args = "xcodebuild -quiet -configuration Release".split()
             args.extend(build_opts)
-            args.append("BUILD_DIR=build/")
+            args.join(["BUILD_DIR=build/", "-jobs", "1"])
             result = subprocess.run(args, capture_output=True)
             if result.returncode != 0:
                 print("\tBuild failed!")
@@ -182,7 +182,7 @@ class Builder():
             print("\tBuilding debug version...")
             args = "xcodebuild -quiet -configuration Debug".split()
             args.extend(build_opts)
-            args.append("BUILD_DIR=build/")
+            args.join(["BUILD_DIR=build/", "-jobs", "1"])
             result = subprocess.run(args, capture_output=True)
             if result.returncode != 0:
                 print("\tBuild failed!")
