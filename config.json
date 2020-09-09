@@ -36900,6 +36900,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "1a791ebcbf151faedc406e6290002cfeb1b68991",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/1a791ebcbf151faedc406e6290002cfeb1b68991",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/1a791ebcbf151faedc406e6290002cfeb1b68991"
+        },
+        "dateadded": "2020-09-09T13:19:46.843865+00:00",
+        "datecommitted": "2020-09-09T13:16:23+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "2dd86a5282b2016a9ac89526d18cd328e7dd51c407bcd7918673043e8b2336aa"
+          },
+          "release": {
+            "sha256": "bc08ee21f12e3d76be19c6dd27d301e2c40a66f9a3331690fe3f75010f4801bf"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-1a791eb/VirtualSMC-1.1.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-1a791eb/VirtualSMC-1.1.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/1a791ebcbf151faedc406e6290002cfeb1b68991) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/1a791ebcbf151faedc406e6290002cfeb1b68991))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.7-DEBUG.zip: 2dd86a5282b2016a9ac89526d18cd328e7dd51c407bcd7918673043e8b2336aa\n**Release:**\nVirtualSMC-1.1.7-RELEASE.zip: bc08ee21f12e3d76be19c6dd27d301e2c40a66f9a3331690fe3f75010f4801bf",
+          "id": 30979163,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-1a791eb"
+        },
+        "source": "built",
+        "version": "1.1.7"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "eda655bc5c21519cc7734ce7e6d1ae10a8d9b27d",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/eda655bc5c21519cc7734ce7e6d1ae10a8d9b27d",
