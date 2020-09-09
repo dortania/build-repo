@@ -763,6 +763,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "88ed1ddc670f30c867ca7863a93785c03ec56981",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/88ed1ddc670f30c867ca7863a93785c03ec56981",
+          "url": "https://github.com/acidanthera/AppleALC/commit/88ed1ddc670f30c867ca7863a93785c03ec56981"
+        },
+        "dateadded": "2020-09-09T20:23:27.914874+00:00",
+        "datecommitted": "2020-09-09T20:03:38+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "a6dbbe3766864c3b836d3ba1499de0ee9fd37fc9cc36ea14993158677167d7f1"
+          },
+          "release": {
+            "sha256": "f2c34b790c78998e45b716c380d6afa582b42dc6a60cb6f5a084bc214c6b8e89"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-88ed1dd/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-88ed1dd/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/88ed1ddc670f30c867ca7863a93785c03ec56981) ([browse tree](https://github.com/acidanthera/AppleALC/tree/88ed1ddc670f30c867ca7863a93785c03ec56981))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: a6dbbe3766864c3b836d3ba1499de0ee9fd37fc9cc36ea14993158677167d7f1\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: f2c34b790c78998e45b716c380d6afa582b42dc6a60cb6f5a084bc214c6b8e89",
+          "id": 31006252,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-88ed1dd"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": {
           "message": "Fix ALCS1200A lost ID 11 (#599)",
           "sha": "5f7f90b05657dad53eaa8e1d3c253ebec4e1c642",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/5f7f90b05657dad53eaa8e1d3c253ebec4e1c642",
