@@ -4210,6 +4210,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "c7b0eff3eaba9a8a171c49097239debc37354838",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/c7b0eff3eaba9a8a171c49097239debc37354838",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/c7b0eff3eaba9a8a171c49097239debc37354838"
+        },
+        "dateadded": "2020-09-09T13:26:45.152134+00:00",
+        "datecommitted": "2020-09-09T13:20:35+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "521add41fa49c4a7e05be626ae90ec7c63e41c69ca3f70248e7b5ee30bb7a3fc"
+          },
+          "release": {
+            "sha256": "290228c9d4215d74569a78974145daeaa068d7c106180b24fadf6fc22f638fd7"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-c7b0eff/HibernationFixup-1.3.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-c7b0eff/HibernationFixup-1.3.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/c7b0eff3eaba9a8a171c49097239debc37354838) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/c7b0eff3eaba9a8a171c49097239debc37354838))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.6-DEBUG.zip: 521add41fa49c4a7e05be626ae90ec7c63e41c69ca3f70248e7b5ee30bb7a3fc\n**Release:**\nHibernationFixup-1.3.6-RELEASE.zip: 290228c9d4215d74569a78974145daeaa068d7c106180b24fadf6fc22f638fd7",
+          "id": 30979627,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-c7b0eff"
+        },
+        "source": "built",
+        "version": "1.3.6"
+      },
+      {
+        "commit": {
           "message": "Fix leap year detection function (thanks to PMHeart)",
           "sha": "e278709b28037ae7780475105b51fd440289c1ba",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/e278709b28037ae7780475105b51fd440289c1ba",
