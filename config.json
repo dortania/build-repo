@@ -38660,6 +38660,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix logging in DVMTCalcFix (#67)\n\nOnly check for platform availability if the patch is enabled",
+          "sha": "aade8dd931f7496ce6d6b06c8480625637b47c20",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/aade8dd931f7496ce6d6b06c8480625637b47c20",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/aade8dd931f7496ce6d6b06c8480625637b47c20"
+        },
+        "dateadded": "2020-09-09T10:56:05.891883+00:00",
+        "datecommitted": "2020-09-09T10:51:52+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-aade8dd/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43"
+          },
+          "debug": {
+            "sha256": "a4101f602da16a534a542182691bb9e4fa92ea9f039c6c046a5f50a4807e436e"
+          },
+          "release": {
+            "sha256": "d6669bbcd64d6e009048ac59e2939e22f04fc5279c6f6a5bc0b92a5419c77a1c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-aade8dd/WhateverGreen-1.4.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-aade8dd/WhateverGreen-1.4.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix logging in DVMTCalcFix (#67)\n\nOnly check for platform availability if the patch is enabled\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/aade8dd931f7496ce6d6b06c8480625637b47c20) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/aade8dd931f7496ce6d6b06c8480625637b47c20))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.2-DEBUG.zip: a4101f602da16a534a542182691bb9e4fa92ea9f039c6c046a5f50a4807e436e\n**Release:**\nWhateverGreen-1.4.2-RELEASE.zip: d6669bbcd64d6e009048ac59e2939e22f04fc5279c6f6a5bc0b92a5419c77a1c\n**Extras:**\nSSDT-PNLF.aml: c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43",
+          "id": 30970648,
+          "url": "https://github.com/dortania/build-repo/releases/tag/WhateverGreen-aade8dd"
+        },
+        "source": "built",
+        "version": "1.4.2"
+      },
+      {
+        "commit": {
           "message": "Docs: Fixed spoiled SNB Framebuffer List",
           "sha": "68b87f9ad3c8d45b48c543300603ba8022cb3ab9",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/68b87f9ad3c8d45b48c543300603ba8022cb3ab9",
