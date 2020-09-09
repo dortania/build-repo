@@ -763,6 +763,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix ALCS1200A lost ID 11 (#599)",
+          "sha": "5f7f90b05657dad53eaa8e1d3c253ebec4e1c642",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/5f7f90b05657dad53eaa8e1d3c253ebec4e1c642",
+          "url": "https://github.com/acidanthera/AppleALC/commit/5f7f90b05657dad53eaa8e1d3c253ebec4e1c642"
+        },
+        "dateadded": "2020-09-09T20:03:46.052447+00:00",
+        "datecommitted": "2020-09-09T20:01:19+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "0633823eba49517d28c4d0c37471727b6374af8f4afab655df0ef2e31b15124a"
+          },
+          "release": {
+            "sha256": "5d1a0e43cbbddd237678d81440821c5c7072aac2c82f5d7a8a4e9a8d94e3a184"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-5f7f90b/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-5f7f90b/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix ALCS1200A lost ID 11 (#599)\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/5f7f90b05657dad53eaa8e1d3c253ebec4e1c642) ([browse tree](https://github.com/acidanthera/AppleALC/tree/5f7f90b05657dad53eaa8e1d3c253ebec4e1c642))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: 0633823eba49517d28c4d0c37471727b6374af8f4afab655df0ef2e31b15124a\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 5d1a0e43cbbddd237678d81440821c5c7072aac2c82f5d7a8a4e9a8d94e3a184",
+          "id": 31005238,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-5f7f90b"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "193f4c8b7ea6040fb7c20ed620c7c4b689fc53b3",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/193f4c8b7ea6040fb7c20ed620c7c4b689fc53b3",
