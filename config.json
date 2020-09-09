@@ -4423,6 +4423,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "8f35264a36ddac055b265f42bcb39c0f83eb0fae",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/8f35264a36ddac055b265f42bcb39c0f83eb0fae",
+          "url": "https://github.com/acidanthera/Lilu/commit/8f35264a36ddac055b265f42bcb39c0f83eb0fae"
+        },
+        "dateadded": "2020-09-09T13:18:49.237474+00:00",
+        "datecommitted": "2020-09-09T13:14:37+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "8dfb10cde3137cf16bbd089036b1d4035b9b17c57034a750b02d3eb100a7cf5e"
+          },
+          "release": {
+            "sha256": "2f7e578298584677ee9534f55093d1e1cea32483274a0fcdcefb91b8ac8fbf3f"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-8f35264/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-8f35264/Lilu-1.4.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/8f35264a36ddac055b265f42bcb39c0f83eb0fae) ([browse tree](https://github.com/acidanthera/Lilu/tree/8f35264a36ddac055b265f42bcb39c0f83eb0fae))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: 8dfb10cde3137cf16bbd089036b1d4035b9b17c57034a750b02d3eb100a7cf5e\n**Release:**\nLilu-1.4.8-RELEASE.zip: 2f7e578298584677ee9534f55093d1e1cea32483274a0fcdcefb91b8ac8fbf3f",
+          "id": 30979101,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-8f35264"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": {
           "message": "Update KnownPlugins.md (#58)",
           "sha": "b8eb26fadc827d1df8f4e5ab8c9216c5098e8318",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/b8eb26fadc827d1df8f4e5ab8c9216c5098e8318",
