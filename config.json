@@ -734,6 +734,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "193f4c8b7ea6040fb7c20ed620c7c4b689fc53b3",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/193f4c8b7ea6040fb7c20ed620c7c4b689fc53b3",
+          "url": "https://github.com/acidanthera/AppleALC/commit/193f4c8b7ea6040fb7c20ed620c7c4b689fc53b3"
+        },
+        "dateadded": "2020-09-09T13:18:14.232181+00:00",
+        "datecommitted": "2020-09-09T13:13:30+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "b4dbe2fc889e93648bb653c5bed2742cf4a30077d9ab81099a2df653f652995c"
+          },
+          "release": {
+            "sha256": "495e9217e2ba791c32517e386cd2454b9ea526fa17c234ac117a14fdeae5cc34"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-193f4c8/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-193f4c8/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/193f4c8b7ea6040fb7c20ed620c7c4b689fc53b3) ([browse tree](https://github.com/acidanthera/AppleALC/tree/193f4c8b7ea6040fb7c20ed620c7c4b689fc53b3))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: b4dbe2fc889e93648bb653c5bed2742cf4a30077d9ab81099a2df653f652995c\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 495e9217e2ba791c32517e386cd2454b9ea526fa17c234ac117a14fdeae5cc34",
+          "id": 30979065,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-193f4c8"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": {
           "message": "Added ALC245 and ALC287 by lunjielee",
           "sha": "a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/a567a8bd4bf983b2e8d77c9d62d90ba9bf7efa4c",
