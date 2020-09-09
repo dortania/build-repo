@@ -38747,6 +38747,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "927483cb720fa71a3eca939c1188b578819fa307",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/927483cb720fa71a3eca939c1188b578819fa307",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/927483cb720fa71a3eca939c1188b578819fa307"
+        },
+        "dateadded": "2020-09-09T13:20:22.874844+00:00",
+        "datecommitted": "2020-09-09T13:15:32+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-927483c/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43"
+          },
+          "debug": {
+            "sha256": "b8ce2325a86424ec4077ef7ab4babcf89d01ffe58c7536c785bc9736412f08c8"
+          },
+          "release": {
+            "sha256": "c10317ed2536cea8c20bf9e32ce5a92f7f1b7e04e6b1e14ecba575cdc7346dc3"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-927483c/WhateverGreen-1.4.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-927483c/WhateverGreen-1.4.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/927483cb720fa71a3eca939c1188b578819fa307) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/927483cb720fa71a3eca939c1188b578819fa307))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.3-DEBUG.zip: b8ce2325a86424ec4077ef7ab4babcf89d01ffe58c7536c785bc9736412f08c8\n**Release:**\nWhateverGreen-1.4.3-RELEASE.zip: c10317ed2536cea8c20bf9e32ce5a92f7f1b7e04e6b1e14ecba575cdc7346dc3\n**Extras:**\nSSDT-PNLF.aml: c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43",
+          "id": 30979195,
+          "url": "https://github.com/dortania/build-repo/releases/tag/WhateverGreen-927483c"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
+      {
+        "commit": {
           "message": "Fix logging in DVMTCalcFix (#67)\n\nOnly check for platform availability if the patch is enabled",
           "sha": "aade8dd931f7496ce6d6b06c8480625637b47c20",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/aade8dd931f7496ce6d6b06c8480625637b47c20",
