@@ -6874,6 +6874,85 @@
     "versions": [
       {
         "commit": {
+          "message": "OcAppleKernelLib: Only apply KC address fixup during block if KC",
+          "sha": "d583e2031ac7e8f9d773104e657b72b0de41ccb1",
+          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/d583e2031ac7e8f9d773104e657b72b0de41ccb1",
+          "url": "https://github.com/acidanthera/OpenCorePkg/commit/d583e2031ac7e8f9d773104e657b72b0de41ccb1"
+        },
+        "dateadded": "2020-09-13T16:27:41.474373+00:00",
+        "datecommitted": "2020-09-13T15:57:53+00:00",
+        "extras": {
+          "SSDT-ALS0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-ALS0.aml",
+          "SSDT-AWAC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-AWAC.aml",
+          "SSDT-BRG0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-BRG0.aml",
+          "SSDT-EC-USBX.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-EC-USBX.aml",
+          "SSDT-EC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-EC.aml",
+          "SSDT-EHCx_OFF.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-EHCx_OFF.aml",
+          "SSDT-IMEI.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-IMEI.aml",
+          "SSDT-PLUG.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-PMC.aml",
+          "SSDT-RTC0-RANGE.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-RTC0-RANGE.aml",
+          "SSDT-RTC0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-RTC0.aml",
+          "SSDT-SBUS-MCHC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/SSDT-SBUS-MCHC.aml"
+        },
+        "hashes": {
+          "SSDT-ALS0.aml": {
+            "sha256": "894dd2fdd140da4076c757a1c0431f8caeea0478ac04851e28f870013524452b"
+          },
+          "SSDT-AWAC.aml": {
+            "sha256": "f6f901791eceb51bf56d690793baecf7d61a49d76607d8cf92c67816d0eb1202"
+          },
+          "SSDT-BRG0.aml": {
+            "sha256": "037c7ce067c8bf5f60ddc105a8b9e8557ed79cb6b1db5440541ecd04c2cd8b12"
+          },
+          "SSDT-EC-USBX.aml": {
+            "sha256": "77fe64851f63988d6fbda9c2fb5e9399162b65857a8b7e610a9255b6d877fb2a"
+          },
+          "SSDT-EC.aml": {
+            "sha256": "f92b4102575725ad6a902fbb93512c3bce2ad17892b4c711c9ac7c0177773a3f"
+          },
+          "SSDT-EHCx_OFF.aml": {
+            "sha256": "3af2b4123e0e8e2818fdbc5473a5631abc7fef95bac03aa2ddeb90bdff1e91b1"
+          },
+          "SSDT-IMEI.aml": {
+            "sha256": "7d0a8435fc3a80b6821eea563adfbd92b60342ba0c90165a16015c362c344628"
+          },
+          "SSDT-PLUG.aml": {
+            "sha256": "17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "SSDT-RTC0-RANGE.aml": {
+            "sha256": "50156456d0615d79623e10396a488499cbfffd3e6513bfeefc340a4d37deee93"
+          },
+          "SSDT-RTC0.aml": {
+            "sha256": "bb45c0b26bf808f2bcfd4eace20d9288004b6f8df8b4f26c022038c65c32f4b4"
+          },
+          "SSDT-SBUS-MCHC.aml": {
+            "sha256": "7681e8b0d6d0206dcd9149d1dfb4421855fc491be0e47f0a41cdefde79b94336"
+          },
+          "debug": {
+            "sha256": "04210789e385ac0f009363ed65d8d285136de91d980521d4bf3ee8f49ca7eb0c"
+          },
+          "release": {
+            "sha256": "23be39722a8b76ee4d2db319747eba0c0a42ae2446df61644a8249ba08ab9136"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/OpenCore-0.6.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d583e20/OpenCore-0.6.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nOcAppleKernelLib: Only apply KC address fixup during block if KC\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/d583e2031ac7e8f9d773104e657b72b0de41ccb1) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/d583e2031ac7e8f9d773104e657b72b0de41ccb1))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.2-DEBUG.zip: 04210789e385ac0f009363ed65d8d285136de91d980521d4bf3ee8f49ca7eb0c\n**Release:**\nOpenCore-0.6.2-RELEASE.zip: 23be39722a8b76ee4d2db319747eba0c0a42ae2446df61644a8249ba08ab9136\n**Extras:**\nSSDT-ALS0.aml: 894dd2fdd140da4076c757a1c0431f8caeea0478ac04851e28f870013524452b\nSSDT-EC.aml: f92b4102575725ad6a902fbb93512c3bce2ad17892b4c711c9ac7c0177773a3f\nSSDT-IMEI.aml: 7d0a8435fc3a80b6821eea563adfbd92b60342ba0c90165a16015c362c344628\nSSDT-RTC0.aml: bb45c0b26bf808f2bcfd4eace20d9288004b6f8df8b4f26c022038c65c32f4b4\nSSDT-AWAC.aml: f6f901791eceb51bf56d690793baecf7d61a49d76607d8cf92c67816d0eb1202\nSSDT-RTC0-RANGE.aml: 50156456d0615d79623e10396a488499cbfffd3e6513bfeefc340a4d37deee93\nSSDT-EHCx_OFF.aml: 3af2b4123e0e8e2818fdbc5473a5631abc7fef95bac03aa2ddeb90bdff1e91b1\nSSDT-PLUG.aml: 17cc94b9c673a1c767f7e35cd8af76ef84b5b5bfa9c611c60fd60502d04fc3f2\nSSDT-EC-USBX.aml: 77fe64851f63988d6fbda9c2fb5e9399162b65857a8b7e610a9255b6d877fb2a\nSSDT-SBUS-MCHC.aml: 7681e8b0d6d0206dcd9149d1dfb4421855fc491be0e47f0a41cdefde79b94336\nSSDT-PMC.aml: 5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5\nSSDT-BRG0.aml: 037c7ce067c8bf5f60ddc105a8b9e8557ed79cb6b1db5440541ecd04c2cd8b12",
+          "id": 31214358,
+          "url": "https://github.com/dortania/build-repo/releases/tag/OpenCorePkg-d583e20"
+        },
+        "source": "built",
+        "version": "0.6.2"
+      },
+      {
+        "commit": {
           "message": "Build: Fix booter suffix for IA32",
           "sha": "8c66f78a3d4f4620787d92f92df7c436602e0f3a",
           "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/8c66f78a3d4f4620787d92f92df7c436602e0f3a",
