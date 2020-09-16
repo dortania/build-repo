@@ -252,6 +252,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "PS2 controller kext",
       "Info": "VoodooPS2Controller.kext/Contents/Info.plist",
+      "Lilu": true,
       "Name": "VoodooPS2",
       "Pre-Build": [
         {
