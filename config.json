@@ -40130,6 +40130,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Get ACPI notification for brightness keys from GFX0.DD1F/DD02 (#22)",
+          "sha": "d5f05415ac087ed4411b51ce73ac19c021bbaf48",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/d5f05415ac087ed4411b51ce73ac19c021bbaf48",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/d5f05415ac087ed4411b51ce73ac19c021bbaf48"
+        },
+        "dateadded": "2020-09-16T01:14:14.552607+00:00",
+        "datecommitted": "2020-09-13T19:46:30+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "ffa0c6e3c0c0a087c4c3d77ebf4d36560c0e16499829125e5894d8facda894de"
+          },
+          "release": {
+            "sha256": "513cc09e297a41fe8666d272d3e59ff010905f8d08cad8ae535a8a82efa2ba41"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-d5f0541/VoodooPS2Controller-2.1.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-d5f0541/VoodooPS2Controller-2.1.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nGet ACPI notification for brightness keys from GFX0.DD1F/DD02 (#22)\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/d5f05415ac087ed4411b51ce73ac19c021bbaf48) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/d5f05415ac087ed4411b51ce73ac19c021bbaf48))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.7-DEBUG.zip: ffa0c6e3c0c0a087c4c3d77ebf4d36560c0e16499829125e5894d8facda894de\n**Release:**\nVoodooPS2Controller-2.1.7-RELEASE.zip: 513cc09e297a41fe8666d272d3e59ff010905f8d08cad8ae535a8a82efa2ba41",
+          "id": 31366088,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-d5f0541"
+        },
+        "source": "built",
+        "version": "2.1.7"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "179cd7258c32941c2664fe0d907e1c8698bb8e2c",
           "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/179cd7258c32941c2664fe0d907e1c8698bb8e2c",
