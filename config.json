@@ -879,6 +879,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "0fbd78e6e06330cb171d466ef0c9aefaad45f842",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/0fbd78e6e06330cb171d466ef0c9aefaad45f842",
+          "url": "https://github.com/acidanthera/AppleALC/commit/0fbd78e6e06330cb171d466ef0c9aefaad45f842"
+        },
+        "dateadded": "2020-09-20T20:45:50.682829+00:00",
+        "datecommitted": "2020-09-20T17:17:18+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "caef0c9028821527fac9f5cb61a2856129273c06d05b1e5dc05c09f273cf739f"
+          },
+          "release": {
+            "sha256": "7abe3e9dc51d3c91fd891b66a37ec7d20c16c10d4e53a37a80c585eebbebed4a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-0fbd78e/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-0fbd78e/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/0fbd78e6e06330cb171d466ef0c9aefaad45f842) ([browse tree](https://github.com/acidanthera/AppleALC/tree/0fbd78e6e06330cb171d466ef0c9aefaad45f842))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: caef0c9028821527fac9f5cb61a2856129273c06d05b1e5dc05c09f273cf739f\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 7abe3e9dc51d3c91fd891b66a37ec7d20c16c10d4e53a37a80c585eebbebed4a",
+          "id": 31580659,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-0fbd78e"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": {
           "message": "Fix obtaining kernel sdk",
           "sha": "4da26a61a8d07869608c69a37cf33d94fcbda3a4",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/4da26a61a8d07869608c69a37cf33d94fcbda3a4",
