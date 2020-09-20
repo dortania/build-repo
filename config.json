@@ -39505,6 +39505,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "3d5de3c855b1f735e16022cbe826c1b84268b6d7",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/3d5de3c855b1f735e16022cbe826c1b84268b6d7",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/3d5de3c855b1f735e16022cbe826c1b84268b6d7"
+        },
+        "dateadded": "2020-09-20T20:48:45.872468+00:00",
+        "datecommitted": "2020-09-20T17:33:50+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "2505ac141122a435a050a8a5b5be2f336be565d44730c4d1ff5cd97b36fad98e"
+          },
+          "release": {
+            "sha256": "2e6d54cdbfc118735222ffdf9c403f76fb15d0b2b1b10efe0974cc2f54536fb2"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-3d5de3c/VirtualSMC-1.1.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-3d5de3c/VirtualSMC-1.1.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/3d5de3c855b1f735e16022cbe826c1b84268b6d7) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/3d5de3c855b1f735e16022cbe826c1b84268b6d7))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.7-DEBUG.zip: 2505ac141122a435a050a8a5b5be2f336be565d44730c4d1ff5cd97b36fad98e\n**Release:**\nVirtualSMC-1.1.7-RELEASE.zip: 2e6d54cdbfc118735222ffdf9c403f76fb15d0b2b1b10efe0974cc2f54536fb2",
+          "id": 31580693,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-3d5de3c"
+        },
+        "source": "built",
+        "version": "1.1.7"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "1a791ebcbf151faedc406e6290002cfeb1b68991",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/1a791ebcbf151faedc406e6290002cfeb1b68991",
