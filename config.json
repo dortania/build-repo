@@ -39442,6 +39442,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Update README.md",
+          "sha": "c65fbbf8d2f476a2b528564bae32555553710a85",
+          "tree_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/c65fbbf8d2f476a2b528564bae32555553710a85",
+          "url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/c65fbbf8d2f476a2b528564bae32555553710a85"
+        },
+        "dateadded": "2020-09-20T21:22:44.305732+00:00",
+        "datecommitted": "2020-09-20T21:13:28+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "cd7042f843ef05d0836b530dcf7fac8cf3804cbdfd4ddb943dcf80431198723f"
+          },
+          "release": {
+            "sha256": "3cc7480ba990b73800904b0f92739e86de3cb1bbf44709d1f6ac48e2f0281f59"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/RealtekRTL8111-c65fbbf/debug.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/RealtekRTL8111-c65fbbf/release.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUpdate README.md\n[View on GitHub](https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/c65fbbf8d2f476a2b528564bae32555553710a85) ([browse tree](https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/c65fbbf8d2f476a2b528564bae32555553710a85))\n\n**Hashes**:\n**Debug:**\ndebug.zip: cd7042f843ef05d0836b530dcf7fac8cf3804cbdfd4ddb943dcf80431198723f\n**Release:**\nrelease.zip: 3cc7480ba990b73800904b0f92739e86de3cb1bbf44709d1f6ac48e2f0281f59",
+          "id": 31581046,
+          "url": "https://github.com/dortania/build-repo/releases/tag/RealtekRTL8111-c65fbbf"
+        },
+        "source": "built",
+        "version": "2.3.0"
+      },
+      {
+        "commit": {
           "message": "Version 2.3.0 - Bumped version number for official release.",
           "sha": "22e568eb95b3d44922504b0cdf6c2fa0baedfb40",
           "tree_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/22e568eb95b3d44922504b0cdf6c2fa0baedfb40",
