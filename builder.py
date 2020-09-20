@@ -138,6 +138,7 @@ class Builder():
         if needs_lilu:
             shutil.copytree(self._build_lilu(), self.working_dir / Path(name) / Path("Lilu.kext"))
 
+        chdir(self.working_dir / Path(name))
         if needs_mackernelsdk:
             print("\tCloning MacKernelSDK...")
             result = subprocess.run("git clone https://github.com/acidanthera/MacKernelSDK.git".split(), capture_output=True)
