@@ -6545,6 +6545,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "b0ad7707303e6ebd2666fcb7eca54c6e4a522c14",
+          "tree_url": "https://github.com/acidanthera/NVMeFix/tree/b0ad7707303e6ebd2666fcb7eca54c6e4a522c14",
+          "url": "https://github.com/acidanthera/NVMeFix/commit/b0ad7707303e6ebd2666fcb7eca54c6e4a522c14"
+        },
+        "dateadded": "2020-09-20T20:47:32.509795+00:00",
+        "datecommitted": "2020-09-20T19:23:48+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "28e287fccd6cabf4a18da76cbffad2ab5897d90f04dcdc67173937262e91f6ec"
+          },
+          "release": {
+            "sha256": "cab93c97decd3c49cd5939a407333da02ecf2f94d6985542abd436aeb10f2825"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/NVMeFix-b0ad770/NVMeFix-1.0.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/NVMeFix-b0ad770/NVMeFix-1.0.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/NVMeFix/commit/b0ad7707303e6ebd2666fcb7eca54c6e4a522c14) ([browse tree](https://github.com/acidanthera/NVMeFix/tree/b0ad7707303e6ebd2666fcb7eca54c6e4a522c14))\n\n**Hashes**:\n**Debug:**\nNVMeFix-1.0.4-DEBUG.zip: 28e287fccd6cabf4a18da76cbffad2ab5897d90f04dcdc67173937262e91f6ec\n**Release:**\nNVMeFix-1.0.4-RELEASE.zip: cab93c97decd3c49cd5939a407333da02ecf2f94d6985542abd436aeb10f2825",
+          "id": 31580679,
+          "url": "https://github.com/dortania/build-repo/releases/tag/NVMeFix-b0ad770"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "612e055a69ff335b043cedbeec0dc87b904b6775",
           "tree_url": "https://github.com/acidanthera/NVMeFix/tree/612e055a69ff335b043cedbeec0dc87b904b6775",
