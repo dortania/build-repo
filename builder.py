@@ -48,6 +48,12 @@ class Builder():
                 print(result.stderr.decode())
                 return False
             chdir(self.working_dir / Path("Lilu"))
+            result = subprocess.run("git clone https://github.com/acidanthera/MacKernelSDK.git".split(), capture_output=True)
+            if result.returncode != 0:
+                print("\tClone of MacKernelSDK failed!")
+                print(result.stdout.decode())
+                print(result.stderr.decode())
+                return False
             print("\tBuilding debug version...")
             result = subprocess.run("xcodebuild -quiet -configuration Debug".split(), capture_output=True)
             if result.returncode != 0:
