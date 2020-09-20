@@ -39321,6 +39321,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "b957698317e681c991345d06a64d352ff2d569c0",
+          "tree_url": "https://github.com/acidanthera/RTCMemoryFixup/tree/b957698317e681c991345d06a64d352ff2d569c0",
+          "url": "https://github.com/acidanthera/RTCMemoryFixup/commit/b957698317e681c991345d06a64d352ff2d569c0"
+        },
+        "dateadded": "2020-09-20T20:47:51.980736+00:00",
+        "datecommitted": "2020-09-20T19:02:00+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9a58ae0701d92398cbc0c29955ba5dec0573103a82eda1021c905ca45ee309e0"
+          },
+          "release": {
+            "sha256": "eaf9efa6e446b476276dcc88adc7dac392bff608b9d3c25200765a09942461e6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-b957698/RTCMemoryFixup-1.0.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-b957698/RTCMemoryFixup-1.0.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/RTCMemoryFixup/commit/b957698317e681c991345d06a64d352ff2d569c0) ([browse tree](https://github.com/acidanthera/RTCMemoryFixup/tree/b957698317e681c991345d06a64d352ff2d569c0))\n\n**Hashes**:\n**Debug:**\nRTCMemoryFixup-1.0.7-DEBUG.zip: 9a58ae0701d92398cbc0c29955ba5dec0573103a82eda1021c905ca45ee309e0\n**Release:**\nRTCMemoryFixup-1.0.7-RELEASE.zip: eaf9efa6e446b476276dcc88adc7dac392bff608b9d3c25200765a09942461e6",
+          "id": 31580683,
+          "url": "https://github.com/dortania/build-repo/releases/tag/RTCMemoryFixup-b957698"
+        },
+        "source": "built",
+        "version": "1.0.7"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "7f54dc0f931d53ae9f800fe72ccadff7ee52e89e",
           "tree_url": "https://github.com/acidanthera/RTCMemoryFixup/tree/7f54dc0f931d53ae9f800fe72ccadff7ee52e89e",
