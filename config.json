@@ -4568,6 +4568,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Drop kern_atomic.hpp and do further cleanup via MacKernelSDK",
+          "sha": "f0a95bcf8ec6fd5200ae2916fe12e9fb119d239f",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/f0a95bcf8ec6fd5200ae2916fe12e9fb119d239f",
+          "url": "https://github.com/acidanthera/Lilu/commit/f0a95bcf8ec6fd5200ae2916fe12e9fb119d239f"
+        },
+        "dateadded": "2020-09-20T19:55:12.375584+00:00",
+        "datecommitted": "2020-09-20T17:38:30+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "b7cc05476eb6577d9f1711b95f1e01f1c074c09cc2bed4db1a21fa61d5b6f3eb"
+          },
+          "release": {
+            "sha256": "6607ad161203b6a7c31bda0d0986a8eea35a426daacb7c9db930829c8247526f"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-f0a95bc/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-f0a95bc/Lilu-1.4.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nDrop kern_atomic.hpp and do further cleanup via MacKernelSDK\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/f0a95bcf8ec6fd5200ae2916fe12e9fb119d239f) ([browse tree](https://github.com/acidanthera/Lilu/tree/f0a95bcf8ec6fd5200ae2916fe12e9fb119d239f))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: b7cc05476eb6577d9f1711b95f1e01f1c074c09cc2bed4db1a21fa61d5b6f3eb\n**Release:**\nLilu-1.4.8-RELEASE.zip: 6607ad161203b6a7c31bda0d0986a8eea35a426daacb7c9db930829c8247526f",
+          "id": 31580118,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-f0a95bc"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": {
           "message": "Fix plugin dependency building",
           "sha": "cc2bccc26548eff1b4074c365b450a67b751adc4",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/cc2bccc26548eff1b4074c365b450a67b751adc4",
