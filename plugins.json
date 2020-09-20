@@ -4,6 +4,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "AirportBrcmFixup",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/AirportBrcmFixup"
@@ -12,6 +13,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "dynamic audio patching",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "AppleALC",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/AppleALC"
@@ -20,6 +22,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "An open source kernel extension providing patches for IOBluetoothFamily.",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "BT4LEContinuityFixup",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/BT4LEContinuityFixup"
@@ -28,6 +31,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "Dynamic macOS CPU power management data injection",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "CPUFriend",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/CPUFriend"
@@ -36,6 +40,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "A Lilu plugin intended to enable debug output in the macOS kernel",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "DebugEnhancer",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/DebugEnhancer"
@@ -44,6 +49,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "A Lilu plugin intended to fix hibernation compatibility issues",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "HibernationFixup",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/HibernationFixup"
@@ -52,6 +58,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "Intel Ethernet LAN driver for macOS",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "IntelMausi",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/IntelMausi"
@@ -59,6 +66,7 @@
     {
       "Debug File": "build/Debug/*.zip",
       "Desc": "for arbitrary kext, library, and program patching",
+      "MacKernelSDK": true,
       "Name": "Lilu",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/Lilu"
@@ -67,6 +75,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "patches for the Apple NVMe storage driver, IONVMeFamily",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "NVMeFix",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/NVMeFix"
@@ -97,6 +106,7 @@
       "Extras": [
         "Docs/AcpiSamples/*.aml"
       ],
+      "MacKernelSDK": true,
       "Name": "OpenCorePkg",
       "Pre-Build": [
         {
@@ -197,6 +207,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "open source kernel extension providing a way to emulate some offsets in your CMOS (RTC) memory",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "RTCMemoryFixup",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/RTCMemoryFixup"
@@ -236,6 +247,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "advanced Apple SMC emulator in the kernel",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "VirtualSMC",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/VirtualSMC"
@@ -244,6 +256,7 @@
       "Debug File": "build/Debug/*.zip",
       "Desc": "Generic Multitouch Handler kernel extension for macOS",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "VoodooInput",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/VoodooInput"
@@ -253,6 +266,7 @@
       "Desc": "PS2 controller kext",
       "Info": "VoodooPS2Controller.kext/Contents/Info.plist",
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "VoodooPS2",
       "Pre-Build": [
         {
@@ -317,6 +331,7 @@
         "Manual/SSDT-PNLF.aml"
       ],
       "Lilu": true,
+      "MacKernelSDK": true,
       "Name": "WhateverGreen",
       "Pre-Build": [
         {
@@ -338,6 +353,7 @@
       ],
       "Debug File": "build/Debug/*.zip",
       "Desc": "OpenCore front end",
+      "MacKernelSDK": true,
       "Name": "gfxutil",
       "Pre-Build": [
         {

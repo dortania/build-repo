@@ -71,6 +71,7 @@ class Builder():
         name = plugin["Name"]
         url = plugin["URL"]
         needs_lilu = plugin.get("Lilu", False)
+        needs_mackernelsdk = plugin.get("MacKernelSDK", False)
         command = plugin.get("Command")
         prebuild = plugin.get("Pre-Build", [])
         postbuild = plugin.get("Post-Build", [])
@@ -129,6 +130,15 @@ class Builder():
         chdir(self.working_dir / Path(name))
         if needs_lilu:
             shutil.copytree(self._build_lilu(), self.working_dir / Path(name) / Path("Lilu.kext"))
+
+        if needs_mackernelsdk:
+            result = subprocess.run("git clone https://github.com/acidanthera/MacKernelSDK.git".split(), capture_output=True)
+            if result.returncode != 0:
+                print("\tClone of MacKernelSDK failed!")
+                print(result.stdout.decode())
+                print(result.stderr.decode())
+                return False
+
         chdir(self.working_dir / Path(name))
         if prebuild:
             print("\tRunning prebuild tasks...")
