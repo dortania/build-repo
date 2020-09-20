@@ -4568,6 +4568,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "c776d451381a7253de4ab7793010820413d6b175",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/c776d451381a7253de4ab7793010820413d6b175",
+          "url": "https://github.com/acidanthera/Lilu/commit/c776d451381a7253de4ab7793010820413d6b175"
+        },
+        "dateadded": "2020-09-20T19:55:51.934387+00:00",
+        "datecommitted": "2020-09-20T15:51:25+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "d89036ae8b1963fe69bc6100cd526884c4b1b1d2f7310ff5ecaffb56028cfd81"
+          },
+          "release": {
+            "sha256": "00da2f54bccc5627a21769fabaaab73c9f5eac85eb74f120cb2598f1176606ad"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-c776d45/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-c776d45/Lilu-1.4.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/c776d451381a7253de4ab7793010820413d6b175) ([browse tree](https://github.com/acidanthera/Lilu/tree/c776d451381a7253de4ab7793010820413d6b175))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: d89036ae8b1963fe69bc6100cd526884c4b1b1d2f7310ff5ecaffb56028cfd81\n**Release:**\nLilu-1.4.8-RELEASE.zip: 00da2f54bccc5627a21769fabaaab73c9f5eac85eb74f120cb2598f1176606ad",
+          "id": 31580126,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-c776d45"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": {
           "message": "Drop kern_atomic.hpp and do further cleanup via MacKernelSDK",
           "sha": "f0a95bcf8ec6fd5200ae2916fe12e9fb119d239f",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/f0a95bcf8ec6fd5200ae2916fe12e9fb119d239f",
