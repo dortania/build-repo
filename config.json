@@ -4529,6 +4529,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "8503b62f56bab90cfe2b92eb7ab9dc9dc8845a05",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/8503b62f56bab90cfe2b92eb7ab9dc9dc8845a05",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/8503b62f56bab90cfe2b92eb7ab9dc9dc8845a05"
+        },
+        "dateadded": "2020-09-20T20:47:10.585196+00:00",
+        "datecommitted": "2020-09-20T18:21:41+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "c825db804fc4302b7663f7e8ccb8f9f6718bd1049521505e6b3f8e3885cfb9d5"
+          },
+          "release": {
+            "sha256": "4caa378ba90fa263258c7ff60b981e29343fda3251246a3a345ae862426a4090"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-8503b62/HibernationFixup-1.3.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-8503b62/HibernationFixup-1.3.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/8503b62f56bab90cfe2b92eb7ab9dc9dc8845a05) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/8503b62f56bab90cfe2b92eb7ab9dc9dc8845a05))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.6-DEBUG.zip: c825db804fc4302b7663f7e8ccb8f9f6718bd1049521505e6b3f8e3885cfb9d5\n**Release:**\nHibernationFixup-1.3.6-RELEASE.zip: 4caa378ba90fa263258c7ff60b981e29343fda3251246a3a345ae862426a4090",
+          "id": 31580675,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-8503b62"
+        },
+        "source": "built",
+        "version": "1.3.6"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "c7b0eff3eaba9a8a171c49097239debc37354838",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/c7b0eff3eaba9a8a171c49097239debc37354838",
