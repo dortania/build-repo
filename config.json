@@ -4,6 +4,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af",
+          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af",
+          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af"
+        },
+        "dateadded": "2020-09-20T20:42:46.795922+00:00",
+        "datecommitted": "2020-09-20T17:59:28+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "6cdcdd412136375054541a7a4ef46865689958b5f4edf2356933100188599592"
+          },
+          "release": {
+            "sha256": "dc46e28f40b9832d1675d75bfc946c017ba42be713d01b61d80973b0de3fb9d0"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-c1e35b4/AirportBrcmFixup-2.1.0-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-c1e35b4/AirportBrcmFixup-2.1.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.1.0-DEBUG.zip: 6cdcdd412136375054541a7a4ef46865689958b5f4edf2356933100188599592\n**Release:**\nAirportBrcmFixup-2.1.0-RELEASE.zip: dc46e28f40b9832d1675d75bfc946c017ba42be713d01b61d80973b0de3fb9d0",
+          "id": 31580623,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-c1e35b4"
+        },
+        "source": "built",
+        "version": "2.1.0"
+      },
+      {
+        "commit": {
           "message": "Fixed macOS 10.8 compatibility (without ASPM support)",
           "sha": "43b210a5cd6e291c8ca962fa3886f57a43eb8784",
           "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/43b210a5cd6e291c8ca962fa3886f57a43eb8784",
