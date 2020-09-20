@@ -879,6 +879,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix obtaining kernel sdk",
+          "sha": "4da26a61a8d07869608c69a37cf33d94fcbda3a4",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/4da26a61a8d07869608c69a37cf33d94fcbda3a4",
+          "url": "https://github.com/acidanthera/AppleALC/commit/4da26a61a8d07869608c69a37cf33d94fcbda3a4"
+        },
+        "dateadded": "2020-09-20T20:44:16.720874+00:00",
+        "datecommitted": "2020-09-20T18:41:52+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9cd66e0d7c7689a88f254daf9d59d86e0c81f1d69905a74972c6246c51fb7d79"
+          },
+          "release": {
+            "sha256": "faacbacb4eebb7c81ccbe1e270a371271d45191c468d4d487f4838c391b8ef73"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-4da26a6/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-4da26a6/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix obtaining kernel sdk\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/4da26a61a8d07869608c69a37cf33d94fcbda3a4) ([browse tree](https://github.com/acidanthera/AppleALC/tree/4da26a61a8d07869608c69a37cf33d94fcbda3a4))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: 9cd66e0d7c7689a88f254daf9d59d86e0c81f1d69905a74972c6246c51fb7d79\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: faacbacb4eebb7c81ccbe1e270a371271d45191c468d4d487f4838c391b8ef73",
+          "id": 31580643,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-4da26a6"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "88ed1ddc670f30c867ca7863a93785c03ec56981",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/88ed1ddc670f30c867ca7863a93785c03ec56981",
