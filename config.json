@@ -4258,6 +4258,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "05591654611dd91148179d9dae5dd646ada459e6",
+          "tree_url": "https://github.com/acidanthera/CPUFriend/tree/05591654611dd91148179d9dae5dd646ada459e6",
+          "url": "https://github.com/acidanthera/CPUFriend/commit/05591654611dd91148179d9dae5dd646ada459e6"
+        },
+        "dateadded": "2020-09-20T20:46:30.401508+00:00",
+        "datecommitted": "2020-09-20T18:57:58+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "bafd45f22276120f04f38fca5fd826a5a7d654f72bc83d561ed56c29ddb0535e"
+          },
+          "release": {
+            "sha256": "5ac2b5144f39407fb85d8a766f50a8cc1155b8c102e6ebe0afc63b7a681a2256"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/CPUFriend-0559165/CPUFriend-1.2.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/CPUFriend-0559165/CPUFriend-1.2.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/CPUFriend/commit/05591654611dd91148179d9dae5dd646ada459e6) ([browse tree](https://github.com/acidanthera/CPUFriend/tree/05591654611dd91148179d9dae5dd646ada459e6))\n\n**Hashes**:\n**Debug:**\nCPUFriend-1.2.2-DEBUG.zip: bafd45f22276120f04f38fca5fd826a5a7d654f72bc83d561ed56c29ddb0535e\n**Release:**\nCPUFriend-1.2.2-RELEASE.zip: 5ac2b5144f39407fb85d8a766f50a8cc1155b8c102e6ebe0afc63b7a681a2256",
+          "id": 31580666,
+          "url": "https://github.com/dortania/build-repo/releases/tag/CPUFriend-0559165"
+        },
+        "source": "built",
+        "version": "1.2.2"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "4aebe0b24c478cb78ba2bca46ccc8c2f294b3528",
           "tree_url": "https://github.com/acidanthera/CPUFriend/tree/4aebe0b24c478cb78ba2bca46ccc8c2f294b3528",
