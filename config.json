@@ -4,29 +4,29 @@
     "versions": [
       {
         "commit": {
-          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
-          "sha": "c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af",
-          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af",
-          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af"
+          "message": "Fixed MacKernelSDK dependency cloning",
+          "sha": "aeb4b986d1c5a30929051c1fe2f036524e3fe2d3",
+          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/aeb4b986d1c5a30929051c1fe2f036524e3fe2d3",
+          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/aeb4b986d1c5a30929051c1fe2f036524e3fe2d3"
         },
-        "dateadded": "2020-09-20T20:42:46.795922+00:00",
-        "datecommitted": "2020-09-20T17:59:28+00:00",
+        "dateadded": "2020-09-20T20:42:06.058743+00:00",
+        "datecommitted": "2020-09-20T18:22:25+00:00",
         "hashes": {
           "debug": {
-            "sha256": "6cdcdd412136375054541a7a4ef46865689958b5f4edf2356933100188599592"
+            "sha256": "a213b8758cc9bfe75bfa996f80c3c510278374b4686c32aa96ee5a3dc9dbe64e"
           },
           "release": {
-            "sha256": "dc46e28f40b9832d1675d75bfc946c017ba42be713d01b61d80973b0de3fb9d0"
+            "sha256": "f45063c7fdd78d0154b60cc99723244ddd29e1f64ad36e4486cf13e4ce4a5fca"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-c1e35b4/AirportBrcmFixup-2.1.0-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-c1e35b4/AirportBrcmFixup-2.1.0-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-aeb4b98/AirportBrcmFixup-2.1.0-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-aeb4b98/AirportBrcmFixup-2.1.0-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.1.0-DEBUG.zip: 6cdcdd412136375054541a7a4ef46865689958b5f4edf2356933100188599592\n**Release:**\nAirportBrcmFixup-2.1.0-RELEASE.zip: dc46e28f40b9832d1675d75bfc946c017ba42be713d01b61d80973b0de3fb9d0",
-          "id": 31580623,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-c1e35b4"
+          "description": "**Changes:**\nFixed MacKernelSDK dependency cloning\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/aeb4b986d1c5a30929051c1fe2f036524e3fe2d3) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/aeb4b986d1c5a30929051c1fe2f036524e3fe2d3))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.1.0-DEBUG.zip: a213b8758cc9bfe75bfa996f80c3c510278374b4686c32aa96ee5a3dc9dbe64e\n**Release:**\nAirportBrcmFixup-2.1.0-RELEASE.zip: f45063c7fdd78d0154b60cc99723244ddd29e1f64ad36e4486cf13e4ce4a5fca",
+          "id": 31580617,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-aeb4b98"
         },
         "source": "built",
         "version": "2.1.0"
@@ -62,29 +62,29 @@
       },
       {
         "commit": {
-          "message": "Fixed MacKernelSDK dependency cloning",
-          "sha": "aeb4b986d1c5a30929051c1fe2f036524e3fe2d3",
-          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/aeb4b986d1c5a30929051c1fe2f036524e3fe2d3",
-          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/aeb4b986d1c5a30929051c1fe2f036524e3fe2d3"
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af",
+          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af",
+          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af"
         },
-        "dateadded": "2020-09-20T20:42:06.058743+00:00",
-        "datecommitted": "2020-09-20T18:22:25+00:00",
+        "dateadded": "2020-09-20T20:42:46.795922+00:00",
+        "datecommitted": "2020-09-20T17:59:28+00:00",
         "hashes": {
           "debug": {
-            "sha256": "a213b8758cc9bfe75bfa996f80c3c510278374b4686c32aa96ee5a3dc9dbe64e"
+            "sha256": "6cdcdd412136375054541a7a4ef46865689958b5f4edf2356933100188599592"
           },
           "release": {
-            "sha256": "f45063c7fdd78d0154b60cc99723244ddd29e1f64ad36e4486cf13e4ce4a5fca"
+            "sha256": "dc46e28f40b9832d1675d75bfc946c017ba42be713d01b61d80973b0de3fb9d0"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-aeb4b98/AirportBrcmFixup-2.1.0-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-aeb4b98/AirportBrcmFixup-2.1.0-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-c1e35b4/AirportBrcmFixup-2.1.0-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-c1e35b4/AirportBrcmFixup-2.1.0-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nFixed MacKernelSDK dependency cloning\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/aeb4b986d1c5a30929051c1fe2f036524e3fe2d3) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/aeb4b986d1c5a30929051c1fe2f036524e3fe2d3))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.1.0-DEBUG.zip: a213b8758cc9bfe75bfa996f80c3c510278374b4686c32aa96ee5a3dc9dbe64e\n**Release:**\nAirportBrcmFixup-2.1.0-RELEASE.zip: f45063c7fdd78d0154b60cc99723244ddd29e1f64ad36e4486cf13e4ce4a5fca",
-          "id": 31580617,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-aeb4b98"
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/c1e35b4fb63d0fa2d1e2ddcccd6714c2de3fd3af))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.1.0-DEBUG.zip: 6cdcdd412136375054541a7a4ef46865689958b5f4edf2356933100188599592\n**Release:**\nAirportBrcmFixup-2.1.0-RELEASE.zip: dc46e28f40b9832d1675d75bfc946c017ba42be713d01b61d80973b0de3fb9d0",
+          "id": 31580623,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-c1e35b4"
         },
         "source": "built",
         "version": "2.1.0"
@@ -879,35 +879,6 @@
     "versions": [
       {
         "commit": {
-          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
-          "sha": "0fbd78e6e06330cb171d466ef0c9aefaad45f842",
-          "tree_url": "https://github.com/acidanthera/AppleALC/tree/0fbd78e6e06330cb171d466ef0c9aefaad45f842",
-          "url": "https://github.com/acidanthera/AppleALC/commit/0fbd78e6e06330cb171d466ef0c9aefaad45f842"
-        },
-        "dateadded": "2020-09-20T20:45:50.682829+00:00",
-        "datecommitted": "2020-09-20T17:17:18+00:00",
-        "hashes": {
-          "debug": {
-            "sha256": "caef0c9028821527fac9f5cb61a2856129273c06d05b1e5dc05c09f273cf739f"
-          },
-          "release": {
-            "sha256": "7abe3e9dc51d3c91fd891b66a37ec7d20c16c10d4e53a37a80c585eebbebed4a"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-0fbd78e/AppleALC-1.5.3-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-0fbd78e/AppleALC-1.5.3-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/0fbd78e6e06330cb171d466ef0c9aefaad45f842) ([browse tree](https://github.com/acidanthera/AppleALC/tree/0fbd78e6e06330cb171d466ef0c9aefaad45f842))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: caef0c9028821527fac9f5cb61a2856129273c06d05b1e5dc05c09f273cf739f\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 7abe3e9dc51d3c91fd891b66a37ec7d20c16c10d4e53a37a80c585eebbebed4a",
-          "id": 31580659,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-0fbd78e"
-        },
-        "source": "built",
-        "version": "1.5.3"
-      },
-      {
-        "commit": {
           "message": "Fix obtaining kernel sdk",
           "sha": "4da26a61a8d07869608c69a37cf33d94fcbda3a4",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/4da26a61a8d07869608c69a37cf33d94fcbda3a4",
@@ -931,6 +902,35 @@
           "description": "**Changes:**\nFix obtaining kernel sdk\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/4da26a61a8d07869608c69a37cf33d94fcbda3a4) ([browse tree](https://github.com/acidanthera/AppleALC/tree/4da26a61a8d07869608c69a37cf33d94fcbda3a4))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: 9cd66e0d7c7689a88f254daf9d59d86e0c81f1d69905a74972c6246c51fb7d79\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: faacbacb4eebb7c81ccbe1e270a371271d45191c468d4d487f4838c391b8ef73",
           "id": 31580643,
           "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-4da26a6"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "0fbd78e6e06330cb171d466ef0c9aefaad45f842",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/0fbd78e6e06330cb171d466ef0c9aefaad45f842",
+          "url": "https://github.com/acidanthera/AppleALC/commit/0fbd78e6e06330cb171d466ef0c9aefaad45f842"
+        },
+        "dateadded": "2020-09-20T20:45:50.682829+00:00",
+        "datecommitted": "2020-09-20T17:17:18+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "caef0c9028821527fac9f5cb61a2856129273c06d05b1e5dc05c09f273cf739f"
+          },
+          "release": {
+            "sha256": "7abe3e9dc51d3c91fd891b66a37ec7d20c16c10d4e53a37a80c585eebbebed4a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-0fbd78e/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-0fbd78e/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/0fbd78e6e06330cb171d466ef0c9aefaad45f842) ([browse tree](https://github.com/acidanthera/AppleALC/tree/0fbd78e6e06330cb171d466ef0c9aefaad45f842))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: caef0c9028821527fac9f5cb61a2856129273c06d05b1e5dc05c09f273cf739f\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 7abe3e9dc51d3c91fd891b66a37ec7d20c16c10d4e53a37a80c585eebbebed4a",
+          "id": 31580659,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-0fbd78e"
         },
         "source": "built",
         "version": "1.5.3"
@@ -4829,29 +4829,29 @@
     "versions": [
       {
         "commit": {
-          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
-          "sha": "c776d451381a7253de4ab7793010820413d6b175",
-          "tree_url": "https://github.com/acidanthera/Lilu/tree/c776d451381a7253de4ab7793010820413d6b175",
-          "url": "https://github.com/acidanthera/Lilu/commit/c776d451381a7253de4ab7793010820413d6b175"
+          "message": "Fix plugin dependency building",
+          "sha": "cc2bccc26548eff1b4074c365b450a67b751adc4",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/cc2bccc26548eff1b4074c365b450a67b751adc4",
+          "url": "https://github.com/acidanthera/Lilu/commit/cc2bccc26548eff1b4074c365b450a67b751adc4"
         },
-        "dateadded": "2020-09-20T19:55:51.934387+00:00",
-        "datecommitted": "2020-09-20T15:51:25+00:00",
+        "dateadded": "2020-09-20T19:54:36.401960+00:00",
+        "datecommitted": "2020-09-20T18:19:47+00:00",
         "hashes": {
           "debug": {
-            "sha256": "d89036ae8b1963fe69bc6100cd526884c4b1b1d2f7310ff5ecaffb56028cfd81"
+            "sha256": "62af595f347f03323e0cedb9dff972aaaaad54aeb4f3301f249d8b4014949918"
           },
           "release": {
-            "sha256": "00da2f54bccc5627a21769fabaaab73c9f5eac85eb74f120cb2598f1176606ad"
+            "sha256": "128e3c1113889c4689b217830fb3d8fa676c433691f3b1f36fe9a64d84334015"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-c776d45/Lilu-1.4.8-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-c776d45/Lilu-1.4.8-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-cc2bccc/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-cc2bccc/Lilu-1.4.8-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/c776d451381a7253de4ab7793010820413d6b175) ([browse tree](https://github.com/acidanthera/Lilu/tree/c776d451381a7253de4ab7793010820413d6b175))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: d89036ae8b1963fe69bc6100cd526884c4b1b1d2f7310ff5ecaffb56028cfd81\n**Release:**\nLilu-1.4.8-RELEASE.zip: 00da2f54bccc5627a21769fabaaab73c9f5eac85eb74f120cb2598f1176606ad",
-          "id": 31580126,
-          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-c776d45"
+          "description": "**Changes:**\nFix plugin dependency building\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/cc2bccc26548eff1b4074c365b450a67b751adc4) ([browse tree](https://github.com/acidanthera/Lilu/tree/cc2bccc26548eff1b4074c365b450a67b751adc4))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: 62af595f347f03323e0cedb9dff972aaaaad54aeb4f3301f249d8b4014949918\n**Release:**\nLilu-1.4.8-RELEASE.zip: 128e3c1113889c4689b217830fb3d8fa676c433691f3b1f36fe9a64d84334015",
+          "id": 31580109,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-cc2bccc"
         },
         "source": "built",
         "version": "1.4.8"
@@ -4887,29 +4887,29 @@
       },
       {
         "commit": {
-          "message": "Fix plugin dependency building",
-          "sha": "cc2bccc26548eff1b4074c365b450a67b751adc4",
-          "tree_url": "https://github.com/acidanthera/Lilu/tree/cc2bccc26548eff1b4074c365b450a67b751adc4",
-          "url": "https://github.com/acidanthera/Lilu/commit/cc2bccc26548eff1b4074c365b450a67b751adc4"
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "c776d451381a7253de4ab7793010820413d6b175",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/c776d451381a7253de4ab7793010820413d6b175",
+          "url": "https://github.com/acidanthera/Lilu/commit/c776d451381a7253de4ab7793010820413d6b175"
         },
-        "dateadded": "2020-09-20T19:54:36.401960+00:00",
-        "datecommitted": "2020-09-20T18:19:47+00:00",
+        "dateadded": "2020-09-20T19:55:51.934387+00:00",
+        "datecommitted": "2020-09-20T15:51:25+00:00",
         "hashes": {
           "debug": {
-            "sha256": "62af595f347f03323e0cedb9dff972aaaaad54aeb4f3301f249d8b4014949918"
+            "sha256": "d89036ae8b1963fe69bc6100cd526884c4b1b1d2f7310ff5ecaffb56028cfd81"
           },
           "release": {
-            "sha256": "128e3c1113889c4689b217830fb3d8fa676c433691f3b1f36fe9a64d84334015"
+            "sha256": "00da2f54bccc5627a21769fabaaab73c9f5eac85eb74f120cb2598f1176606ad"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-cc2bccc/Lilu-1.4.8-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-cc2bccc/Lilu-1.4.8-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-c776d45/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-c776d45/Lilu-1.4.8-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nFix plugin dependency building\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/cc2bccc26548eff1b4074c365b450a67b751adc4) ([browse tree](https://github.com/acidanthera/Lilu/tree/cc2bccc26548eff1b4074c365b450a67b751adc4))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: 62af595f347f03323e0cedb9dff972aaaaad54aeb4f3301f249d8b4014949918\n**Release:**\nLilu-1.4.8-RELEASE.zip: 128e3c1113889c4689b217830fb3d8fa676c433691f3b1f36fe9a64d84334015",
-          "id": 31580109,
-          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-cc2bccc"
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/c776d451381a7253de4ab7793010820413d6b175) ([browse tree](https://github.com/acidanthera/Lilu/tree/c776d451381a7253de4ab7793010820413d6b175))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: d89036ae8b1963fe69bc6100cd526884c4b1b1d2f7310ff5ecaffb56028cfd81\n**Release:**\nLilu-1.4.8-RELEASE.zip: 00da2f54bccc5627a21769fabaaab73c9f5eac85eb74f120cb2598f1176606ad",
+          "id": 31580126,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-c776d45"
         },
         "source": "built",
         "version": "1.4.8"
