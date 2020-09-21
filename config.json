@@ -4795,6 +4795,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Drop unused headers",
+          "sha": "96192893182c6eb143eb8f9112d99a3bc19b6aa9",
+          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/96192893182c6eb143eb8f9112d99a3bc19b6aa9",
+          "url": "https://github.com/acidanthera/IntelMausi/commit/96192893182c6eb143eb8f9112d99a3bc19b6aa9"
+        },
+        "dateadded": "2020-09-21T01:11:43.815276+00:00",
+        "datecommitted": "2020-09-21T01:07:56+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "4d53df01e46f3c2c658b020849ca959e112dfb49b0174c618bf5720ee0b19dbb"
+          },
+          "release": {
+            "sha256": "104faa4e6a5bc25fa09cde8d9082fba3d9f4f3aa2c17d019d0960dc7e86ca75c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-9619289/IntelMausi-1.0.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-9619289/IntelMausi-1.0.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nDrop unused headers\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/96192893182c6eb143eb8f9112d99a3bc19b6aa9) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/96192893182c6eb143eb8f9112d99a3bc19b6aa9))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.4-DEBUG.zip: 4d53df01e46f3c2c658b020849ca959e112dfb49b0174c618bf5720ee0b19dbb\n**Release:**\nIntelMausi-1.0.4-RELEASE.zip: 104faa4e6a5bc25fa09cde8d9082fba3d9f4f3aa2c17d019d0960dc7e86ca75c",
+          "id": 31583301,
+          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-9619289"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
+        "commit": {
           "message": "Initial MacKernelSDK and Xcode 12 compatibility",
           "sha": "95adc0475252bd05604bd4765229147b7bfd8c0d",
           "tree_url": "https://github.com/acidanthera/IntelMausi/tree/95adc0475252bd05604bd4765229147b7bfd8c0d",
