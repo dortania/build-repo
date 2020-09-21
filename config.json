@@ -4795,6 +4795,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "95adc0475252bd05604bd4765229147b7bfd8c0d",
+          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/95adc0475252bd05604bd4765229147b7bfd8c0d",
+          "url": "https://github.com/acidanthera/IntelMausi/commit/95adc0475252bd05604bd4765229147b7bfd8c0d"
+        },
+        "dateadded": "2020-09-21T00:54:21.703277+00:00",
+        "datecommitted": "2020-09-21T00:19:56+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "601f18c91b695f4571afa7b2acee222695626bd7e6b0ff99bb4617101ce04b7f"
+          },
+          "release": {
+            "sha256": "d2122008cebc4fb32a5154784ae911696a4a6e76e400d8aa97ad1024549efb51"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-95adc04/IntelMausi-1.0.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-95adc04/IntelMausi-1.0.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/95adc0475252bd05604bd4765229147b7bfd8c0d) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/95adc0475252bd05604bd4765229147b7bfd8c0d))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.4-DEBUG.zip: 601f18c91b695f4571afa7b2acee222695626bd7e6b0ff99bb4617101ce04b7f\n**Release:**\nIntelMausi-1.0.4-RELEASE.zip: d2122008cebc4fb32a5154784ae911696a4a6e76e400d8aa97ad1024549efb51",
+          "id": 31583088,
+          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-95adc04"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "c6e7eb00da433e324ce062bdf832275f5cf48ec0",
           "tree_url": "https://github.com/acidanthera/IntelMausi/tree/c6e7eb00da433e324ce062bdf832275f5cf48ec0",
