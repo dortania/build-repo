@@ -41221,6 +41221,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "c3f635221ffbeda788b28568dce733d91d0a8a10",
+          "tree_url": "https://github.com/acidanthera/VoodooInput/tree/c3f635221ffbeda788b28568dce733d91d0a8a10",
+          "url": "https://github.com/acidanthera/VoodooInput/commit/c3f635221ffbeda788b28568dce733d91d0a8a10"
+        },
+        "dateadded": "2020-09-21T01:32:30.804161+00:00",
+        "datecommitted": "2020-09-21T01:28:07+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "463b0805755bf2c9cf9668c89c942c11d7d0cb0134de789de66695aeda2e5133"
+          },
+          "release": {
+            "sha256": "1b122f173ce8a4298b0d4b85e3ae05965fbb306b0e380d0db313b027c133a11a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooInput-c3f6352/VoodooInput-1.0.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooInput-c3f6352/VoodooInput-1.0.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/VoodooInput/commit/c3f635221ffbeda788b28568dce733d91d0a8a10) ([browse tree](https://github.com/acidanthera/VoodooInput/tree/c3f635221ffbeda788b28568dce733d91d0a8a10))\n\n**Hashes**:\n**Debug:**\nVoodooInput-1.0.8-DEBUG.zip: 463b0805755bf2c9cf9668c89c942c11d7d0cb0134de789de66695aeda2e5133\n**Release:**\nVoodooInput-1.0.8-RELEASE.zip: 1b122f173ce8a4298b0d4b85e3ae05965fbb306b0e380d0db313b027c133a11a",
+          "id": 31583548,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooInput-c3f6352"
+        },
+        "source": "built",
+        "version": "1.0.8"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "4bb776c9f417c6c5c54221b9539f21eeeab1625a",
           "tree_url": "https://github.com/acidanthera/VoodooInput/tree/4bb776c9f417c6c5c54221b9539f21eeeab1625a",
