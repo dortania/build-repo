@@ -4916,6 +4916,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Require Acidanthera MacKernelSDK",
+          "sha": "602b7b04243d482835ab6ff7fd50ab1d3f3c3157",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/602b7b04243d482835ab6ff7fd50ab1d3f3c3157",
+          "url": "https://github.com/acidanthera/Lilu/commit/602b7b04243d482835ab6ff7fd50ab1d3f3c3157"
+        },
+        "dateadded": "2020-09-21T01:48:36.448040+00:00",
+        "datecommitted": "2020-09-21T01:45:40+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "0d4e677e389d8c0b61a6bbecae5e2bf15138aa1cf703d61f0e636b1ea02130c7"
+          },
+          "release": {
+            "sha256": "9a7d53a7366a6b93e52b20554c118e0fec78e315c71188a7bbc79f4eea9f9131"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-602b7b0/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-602b7b0/Lilu-1.4.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nRequire Acidanthera MacKernelSDK\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/602b7b04243d482835ab6ff7fd50ab1d3f3c3157) ([browse tree](https://github.com/acidanthera/Lilu/tree/602b7b04243d482835ab6ff7fd50ab1d3f3c3157))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: 0d4e677e389d8c0b61a6bbecae5e2bf15138aa1cf703d61f0e636b1ea02130c7\n**Release:**\nLilu-1.4.8-RELEASE.zip: 9a7d53a7366a6b93e52b20554c118e0fec78e315c71188a7bbc79f4eea9f9131",
+          "id": 31583768,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-602b7b0"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": {
           "message": "Fix plugin dependency building",
           "sha": "cc2bccc26548eff1b4074c365b450a67b751adc4",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/cc2bccc26548eff1b4074c365b450a67b751adc4",
