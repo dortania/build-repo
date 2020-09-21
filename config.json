@@ -4,6 +4,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Revert failed attempt to fix 10.8/10.9 compat, require 10.10+",
+          "sha": "3ce2314bc53e0915d71e8f53957c1a2369fe1c45",
+          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/3ce2314bc53e0915d71e8f53957c1a2369fe1c45",
+          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/3ce2314bc53e0915d71e8f53957c1a2369fe1c45"
+        },
+        "dateadded": "2020-09-21T00:53:39.556770+00:00",
+        "datecommitted": "2020-09-21T00:22:44+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "db8d8c27941711fd6e265ce078f7890c16ddf1fd3cac66a51fc62d59f72501b5"
+          },
+          "release": {
+            "sha256": "9f1904ba12cffa27d3022f75acf1ee8a7793cc03d9de94a8276eb0a2c1f6f9c1"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-3ce2314/AirportBrcmFixup-2.1.0-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-3ce2314/AirportBrcmFixup-2.1.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nRevert failed attempt to fix 10.8/10.9 compat, require 10.10+\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/3ce2314bc53e0915d71e8f53957c1a2369fe1c45) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/3ce2314bc53e0915d71e8f53957c1a2369fe1c45))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.1.0-DEBUG.zip: db8d8c27941711fd6e265ce078f7890c16ddf1fd3cac66a51fc62d59f72501b5\n**Release:**\nAirportBrcmFixup-2.1.0-RELEASE.zip: 9f1904ba12cffa27d3022f75acf1ee8a7793cc03d9de94a8276eb0a2c1f6f9c1",
+          "id": 31583082,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-3ce2314"
+        },
+        "source": "built",
+        "version": "2.1.0"
+      },
+      {
+        "commit": {
           "message": "Fixed MacKernelSDK dependency cloning",
           "sha": "aeb4b986d1c5a30929051c1fe2f036524e3fe2d3",
           "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/aeb4b986d1c5a30929051c1fe2f036524e3fe2d3",
