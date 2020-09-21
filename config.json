@@ -4824,6 +4824,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Force x86_64",
+          "sha": "65157698dd6f9fc0e2b0afc87d6710db5d7af83d",
+          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/65157698dd6f9fc0e2b0afc87d6710db5d7af83d",
+          "url": "https://github.com/acidanthera/IntelMausi/commit/65157698dd6f9fc0e2b0afc87d6710db5d7af83d"
+        },
+        "dateadded": "2020-09-21T18:32:43.164822+00:00",
+        "datecommitted": "2020-09-21T18:27:34+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "d6130320b2d095eb9eb6db2bab12d3ae6c28873ed254163242d00ec7e07ece04"
+          },
+          "release": {
+            "sha256": "56ccca4265648de050e0d2d8eada8dba11ce82af80f740245b7d76064e0db52c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-6515769/IntelMausi-1.0.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-6515769/IntelMausi-1.0.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nForce x86_64\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/65157698dd6f9fc0e2b0afc87d6710db5d7af83d) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/65157698dd6f9fc0e2b0afc87d6710db5d7af83d))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.4-DEBUG.zip: d6130320b2d095eb9eb6db2bab12d3ae6c28873ed254163242d00ec7e07ece04\n**Release:**\nIntelMausi-1.0.4-RELEASE.zip: 56ccca4265648de050e0d2d8eada8dba11ce82af80f740245b7d76064e0db52c",
+          "id": 31619727,
+          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-6515769"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
+        "commit": {
           "message": "Drop unused headers",
           "sha": "96192893182c6eb143eb8f9112d99a3bc19b6aa9",
           "tree_url": "https://github.com/acidanthera/IntelMausi/tree/96192893182c6eb143eb8f9112d99a3bc19b6aa9",
