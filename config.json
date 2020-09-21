@@ -41250,6 +41250,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix bootstrap script",
+          "sha": "1123b24db1a41eab57b58c4e526086c21d9f8bcd",
+          "tree_url": "https://github.com/acidanthera/VoodooInput/tree/1123b24db1a41eab57b58c4e526086c21d9f8bcd",
+          "url": "https://github.com/acidanthera/VoodooInput/commit/1123b24db1a41eab57b58c4e526086c21d9f8bcd"
+        },
+        "dateadded": "2020-09-21T01:51:15.018233+00:00",
+        "datecommitted": "2020-09-21T01:49:04+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "c31000dd608fdc59cacf151867ed8fd283e3b1415d4b41a132997d0d5093f292"
+          },
+          "release": {
+            "sha256": "931425cfde23d84a93fe8f6904aefc7b9da2bc22b4027c119dc9bc1761355f5a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooInput-1123b24/VoodooInput-1.0.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooInput-1123b24/VoodooInput-1.0.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix bootstrap script\n[View on GitHub](https://github.com/acidanthera/VoodooInput/commit/1123b24db1a41eab57b58c4e526086c21d9f8bcd) ([browse tree](https://github.com/acidanthera/VoodooInput/tree/1123b24db1a41eab57b58c4e526086c21d9f8bcd))\n\n**Hashes**:\n**Debug:**\nVoodooInput-1.0.8-DEBUG.zip: c31000dd608fdc59cacf151867ed8fd283e3b1415d4b41a132997d0d5093f292\n**Release:**\nVoodooInput-1.0.8-RELEASE.zip: 931425cfde23d84a93fe8f6904aefc7b9da2bc22b4027c119dc9bc1761355f5a",
+          "id": 31583805,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooInput-1123b24"
+        },
+        "source": "built",
+        "version": "1.0.8"
+      },
+      {
+        "commit": {
           "message": "Initial MacKernelSDK and Xcode 12 compatibility",
           "sha": "c3f635221ffbeda788b28568dce733d91d0a8a10",
           "tree_url": "https://github.com/acidanthera/VoodooInput/tree/c3f635221ffbeda788b28568dce733d91d0a8a10",
