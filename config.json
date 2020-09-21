@@ -41429,6 +41429,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Initial MacKernelSDK and Xcode 12 compatibility",
+          "sha": "9a8cd08f01de55071be4f4389102a8714809e6df",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/9a8cd08f01de55071be4f4389102a8714809e6df",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/9a8cd08f01de55071be4f4389102a8714809e6df"
+        },
+        "dateadded": "2020-09-21T01:59:30.409118+00:00",
+        "datecommitted": "2020-09-21T01:40:11+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "451506ad1048a68254c5076911290e58ea81e594a7272718ffef73e46c3610d8"
+          },
+          "release": {
+            "sha256": "8299fe87e1c021e9a02bf02e6e0b3bc61d3fea7a93ff79e48c93a1beb464bab4"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-9a8cd08/VoodooPS2Controller-2.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-9a8cd08/VoodooPS2Controller-2.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nInitial MacKernelSDK and Xcode 12 compatibility\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/9a8cd08f01de55071be4f4389102a8714809e6df) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/9a8cd08f01de55071be4f4389102a8714809e6df))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.8-DEBUG.zip: 451506ad1048a68254c5076911290e58ea81e594a7272718ffef73e46c3610d8\n**Release:**\nVoodooPS2Controller-2.1.8-RELEASE.zip: 8299fe87e1c021e9a02bf02e6e0b3bc61d3fea7a93ff79e48c93a1beb464bab4",
+          "id": 31583908,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-9a8cd08"
+        },
+        "source": "built",
+        "version": "2.1.8"
+      },
+      {
+        "commit": {
           "message": "Get ACPI notification for brightness keys from GFX0.DD1F/DD02 (#22)",
           "sha": "d5f05415ac087ed4411b51ce73ac19c021bbaf48",
           "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/d5f05415ac087ed4411b51ce73ac19c021bbaf48",
