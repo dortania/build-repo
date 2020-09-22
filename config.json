@@ -5061,6 +5061,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Avoid CPU topology kernel panic",
+          "sha": "2b88157fe2d552482ba361e176fa924f8210a4af",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/2b88157fe2d552482ba361e176fa924f8210a4af",
+          "url": "https://github.com/acidanthera/Lilu/commit/2b88157fe2d552482ba361e176fa924f8210a4af"
+        },
+        "dateadded": "2020-09-22T04:41:51.026716+00:00",
+        "datecommitted": "2020-09-22T04:39:48+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "5222c060ba69e3e6898f69d6654a2bfef616e3943c307f47babaee2c5edfcc85"
+          },
+          "release": {
+            "sha256": "7ac5d257795e20be6bb9390d7db3f3df71d1d05aa78ad7696af26f64956c9ecf"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-2b88157/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-2b88157/Lilu-1.4.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAvoid CPU topology kernel panic\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/2b88157fe2d552482ba361e176fa924f8210a4af) ([browse tree](https://github.com/acidanthera/Lilu/tree/2b88157fe2d552482ba361e176fa924f8210a4af))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: 5222c060ba69e3e6898f69d6654a2bfef616e3943c307f47babaee2c5edfcc85\n**Release:**\nLilu-1.4.8-RELEASE.zip: 7ac5d257795e20be6bb9390d7db3f3df71d1d05aa78ad7696af26f64956c9ecf",
+          "id": 31635229,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-2b88157"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": {
           "message": "Enable compiling for 10.6",
           "sha": "244a51a957ee49f1a60dec9cd680ea0e2fdafcd3",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/244a51a957ee49f1a60dec9cd680ea0e2fdafcd3",
