@@ -4853,6 +4853,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix CI scheme",
+          "sha": "09b08b71361f62dfd5fd7cae1fb42326e64fa91a",
+          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/09b08b71361f62dfd5fd7cae1fb42326e64fa91a",
+          "url": "https://github.com/acidanthera/IntelMausi/commit/09b08b71361f62dfd5fd7cae1fb42326e64fa91a"
+        },
+        "dateadded": "2020-09-22T04:59:42.894844+00:00",
+        "datecommitted": "2020-09-22T04:52:57+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "8df1dd77dcf16aa367fda4c9845e68c53d81b2f3407c925f88d5a77340a1d396"
+          },
+          "release": {
+            "sha256": "dcfa4957315df394bf81da7a463ebae119fa3ad56ced46467ab0a957e2215c6e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-09b08b7/IntelMausi-1.0.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-09b08b7/IntelMausi-1.0.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix CI scheme\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/09b08b71361f62dfd5fd7cae1fb42326e64fa91a) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/09b08b71361f62dfd5fd7cae1fb42326e64fa91a))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.4-DEBUG.zip: 8df1dd77dcf16aa367fda4c9845e68c53d81b2f3407c925f88d5a77340a1d396\n**Release:**\nIntelMausi-1.0.4-RELEASE.zip: dcfa4957315df394bf81da7a463ebae119fa3ad56ced46467ab0a957e2215c6e",
+          "id": 31635480,
+          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-09b08b7"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
+        "commit": {
           "message": "Fix clang analyzer warnings",
           "sha": "5653cd2a6a06e312d29b5a372fda8d52fb7942e2",
           "tree_url": "https://github.com/acidanthera/IntelMausi/tree/5653cd2a6a06e312d29b5a372fda8d52fb7942e2",
