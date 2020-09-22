@@ -39911,6 +39911,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Update README.md",
+          "sha": "e0c66839e04aa6ad7d4de6286b40d550763d8c31",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/e0c66839e04aa6ad7d4de6286b40d550763d8c31",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/e0c66839e04aa6ad7d4de6286b40d550763d8c31"
+        },
+        "dateadded": "2020-09-22T12:28:04.673738+00:00",
+        "datecommitted": "2020-09-22T12:07:15+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "28d7d1092484b47cca3b49d1dc42e2181b975ec322ba1ccba2d1df4d111a519c"
+          },
+          "release": {
+            "sha256": "d2fad4eea791117dfe3cdadbed2d9168b7a92fadba2cbc57e5c5070feede6298"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-e0c6683/VirtualSMC-1.1.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-e0c6683/VirtualSMC-1.1.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUpdate README.md\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/e0c66839e04aa6ad7d4de6286b40d550763d8c31) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/e0c66839e04aa6ad7d4de6286b40d550763d8c31))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.7-DEBUG.zip: 28d7d1092484b47cca3b49d1dc42e2181b975ec322ba1ccba2d1df4d111a519c\n**Release:**\nVirtualSMC-1.1.7-RELEASE.zip: d2fad4eea791117dfe3cdadbed2d9168b7a92fadba2cbc57e5c5070feede6298",
+          "id": 31652169,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-e0c6683"
+        },
+        "source": "built",
+        "version": "1.1.7"
+      },
+      {
+        "commit": {
           "message": "Fix multiple SMC device startup on 10.6",
           "sha": "cbd4ac30a19d098f073bfb5bb79cf6153fa49c85",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/cbd4ac30a19d098f073bfb5bb79cf6153fa49c85",
