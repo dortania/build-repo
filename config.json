@@ -39853,6 +39853,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Added VirtualSMC support for 10.6 (most plugins require newer versions)",
+          "sha": "4e5495349f3c2fac3a849ece033672acc8503ddf",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/4e5495349f3c2fac3a849ece033672acc8503ddf",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/4e5495349f3c2fac3a849ece033672acc8503ddf"
+        },
+        "dateadded": "2020-09-22T04:52:27.127393+00:00",
+        "datecommitted": "2020-09-22T04:46:36+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "b998cd231604ad7b50db723dc90874f3d8356264c2baf8e5c5fe1456b79698b2"
+          },
+          "release": {
+            "sha256": "22096e6d9c3f32f3c4e66c72b5eb279d21cccde2c2b54de03d051b7797d5ac38"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-4e54953/VirtualSMC-1.1.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-4e54953/VirtualSMC-1.1.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdded VirtualSMC support for 10.6 (most plugins require newer versions)\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/4e5495349f3c2fac3a849ece033672acc8503ddf) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/4e5495349f3c2fac3a849ece033672acc8503ddf))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.7-DEBUG.zip: b998cd231604ad7b50db723dc90874f3d8356264c2baf8e5c5fe1456b79698b2\n**Release:**\nVirtualSMC-1.1.7-RELEASE.zip: 22096e6d9c3f32f3c4e66c72b5eb279d21cccde2c2b54de03d051b7797d5ac38",
+          "id": 31635376,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-4e54953"
+        },
+        "source": "built",
+        "version": "1.1.7"
+      },
+      {
+        "commit": {
           "message": "Initial MacKernelSDK and Xcode 12 compatibility",
           "sha": "3d5de3c855b1f735e16022cbe826c1b84268b6d7",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/3d5de3c855b1f735e16022cbe826c1b84268b6d7",
