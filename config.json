@@ -4940,6 +4940,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Build: Added -jobs 1",
+          "sha": "92d44bd2bd9e42db2fe3947fe5c635b7aa44df3b",
+          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/92d44bd2bd9e42db2fe3947fe5c635b7aa44df3b",
+          "url": "https://github.com/acidanthera/IntelMausi/commit/92d44bd2bd9e42db2fe3947fe5c635b7aa44df3b"
+        },
+        "dateadded": "2020-09-22T23:24:21.067031+00:00",
+        "datecommitted": "2020-09-22T23:18:47+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f8ad91e09b22cab8616e3d9f69b1b077df964d8c8e0d79ae6c45ee76ec89af12"
+          },
+          "release": {
+            "sha256": "7d0c23d399e1241f359b966b36575028f4fd54495f3693b4ac20f4b204a379de"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-92d44bd/IntelMausi-1.0.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-92d44bd/IntelMausi-1.0.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBuild: Added -jobs 1\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/92d44bd2bd9e42db2fe3947fe5c635b7aa44df3b) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/92d44bd2bd9e42db2fe3947fe5c635b7aa44df3b))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.4-DEBUG.zip: f8ad91e09b22cab8616e3d9f69b1b077df964d8c8e0d79ae6c45ee76ec89af12\n**Release:**\nIntelMausi-1.0.4-RELEASE.zip: 7d0c23d399e1241f359b966b36575028f4fd54495f3693b4ac20f4b204a379de",
+          "id": 31679227,
+          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-92d44bd"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
+        "commit": {
           "message": "Fix CI scheme",
           "sha": "09b08b71361f62dfd5fd7cae1fb42326e64fa91a",
           "tree_url": "https://github.com/acidanthera/IntelMausi/tree/09b08b71361f62dfd5fd7cae1fb42326e64fa91a",
