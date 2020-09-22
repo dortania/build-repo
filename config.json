@@ -4853,6 +4853,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Added IntelSnowMausi variant for 10.6 and newer without private APIs",
+          "sha": "37ad7ba8ca0ce260fc5c0236b746aa682c62e7c7",
+          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/37ad7ba8ca0ce260fc5c0236b746aa682c62e7c7",
+          "url": "https://github.com/acidanthera/IntelMausi/commit/37ad7ba8ca0ce260fc5c0236b746aa682c62e7c7"
+        },
+        "dateadded": "2020-09-22T04:23:00.384550+00:00",
+        "datecommitted": "2020-09-22T04:06:06+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "2a438d3536df435327b7a09e31d5734d128d925bd4e14be020353212e4ff1365"
+          },
+          "release": {
+            "sha256": "047ed489d6bd6ee8eb20eac2d44bdc2db13339aa4667cdbb06750d6313b4b479"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-37ad7ba/IntelMausi-1.0.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-37ad7ba/IntelMausi-1.0.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdded IntelSnowMausi variant for 10.6 and newer without private APIs\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/37ad7ba8ca0ce260fc5c0236b746aa682c62e7c7) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/37ad7ba8ca0ce260fc5c0236b746aa682c62e7c7))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.4-DEBUG.zip: 2a438d3536df435327b7a09e31d5734d128d925bd4e14be020353212e4ff1365\n**Release:**\nIntelMausi-1.0.4-RELEASE.zip: 047ed489d6bd6ee8eb20eac2d44bdc2db13339aa4667cdbb06750d6313b4b479",
+          "id": 31634932,
+          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-37ad7ba"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
+        "commit": {
           "message": "Fix clang analyzer warnings",
           "sha": "5653cd2a6a06e312d29b5a372fda8d52fb7942e2",
           "tree_url": "https://github.com/acidanthera/IntelMausi/tree/5653cd2a6a06e312d29b5a372fda8d52fb7942e2",
