@@ -42512,6 +42512,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Build: Added -jobs 1",
+          "sha": "e5b3aff3a6b6d9de937085589a9383a3fd7ac777",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/e5b3aff3a6b6d9de937085589a9383a3fd7ac777",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/e5b3aff3a6b6d9de937085589a9383a3fd7ac777"
+        },
+        "dateadded": "2020-09-22T23:39:18.754133+00:00",
+        "datecommitted": "2020-09-22T23:30:49+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-e5b3aff/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43"
+          },
+          "debug": {
+            "sha256": "96f66953a42c760891e4d2320289db3a6d1e694223f773a159611e2e9d262a3e"
+          },
+          "release": {
+            "sha256": "f8291bfca24f07fbc66be820d132718d15d62cb66c2c8754836b60e88b03bd0e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-e5b3aff/WhateverGreen-1.4.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-e5b3aff/WhateverGreen-1.4.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBuild: Added -jobs 1\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/e5b3aff3a6b6d9de937085589a9383a3fd7ac777) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/e5b3aff3a6b6d9de937085589a9383a3fd7ac777))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.3-DEBUG.zip: 96f66953a42c760891e4d2320289db3a6d1e694223f773a159611e2e9d262a3e\n**Release:**\nWhateverGreen-1.4.3-RELEASE.zip: f8291bfca24f07fbc66be820d132718d15d62cb66c2c8754836b60e88b03bd0e\n**Extras:**\nSSDT-PNLF.aml: c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43",
+          "id": 31679570,
+          "url": "https://github.com/dortania/build-repo/releases/tag/WhateverGreen-e5b3aff"
+        },
+        "source": "built",
+        "version": "1.4.3"
+      },
+      {
+        "commit": {
           "message": "Initial MacKernelSDK and Xcode 12 compatibility",
           "sha": "f31896efc9eb28e0eaad694e9268c7ae5e6f9134",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/f31896efc9eb28e0eaad694e9268c7ae5e6f9134",
