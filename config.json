@@ -42004,6 +42004,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Build: Added -jobs 1",
+          "sha": "f91b79de9207bfa1273a2acf0981fe88f4ddd069",
+          "tree_url": "https://github.com/acidanthera/VoodooInput/tree/f91b79de9207bfa1273a2acf0981fe88f4ddd069",
+          "url": "https://github.com/acidanthera/VoodooInput/commit/f91b79de9207bfa1273a2acf0981fe88f4ddd069"
+        },
+        "dateadded": "2020-09-22T23:35:11.846624+00:00",
+        "datecommitted": "2020-09-22T23:21:16+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "1c7975bc9df06d6d3c7aabe3aff4b169be70faec53938a7b7a62601d96e9620b"
+          },
+          "release": {
+            "sha256": "761d6f2213f17c37ab3c563a0395b1ebc67a6b06d82481d1da1c5e03a87653d7"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooInput-f91b79d/VoodooInput-1.0.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooInput-f91b79d/VoodooInput-1.0.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBuild: Added -jobs 1\n[View on GitHub](https://github.com/acidanthera/VoodooInput/commit/f91b79de9207bfa1273a2acf0981fe88f4ddd069) ([browse tree](https://github.com/acidanthera/VoodooInput/tree/f91b79de9207bfa1273a2acf0981fe88f4ddd069))\n\n**Hashes**:\n**Debug:**\nVoodooInput-1.0.8-DEBUG.zip: 1c7975bc9df06d6d3c7aabe3aff4b169be70faec53938a7b7a62601d96e9620b\n**Release:**\nVoodooInput-1.0.8-RELEASE.zip: 761d6f2213f17c37ab3c563a0395b1ebc67a6b06d82481d1da1c5e03a87653d7",
+          "id": 31679465,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooInput-f91b79d"
+        },
+        "source": "built",
+        "version": "1.0.8"
+      },
+      {
+        "commit": {
           "message": "Fix bootstrap script",
           "sha": "1123b24db1a41eab57b58c4e526086c21d9f8bcd",
           "tree_url": "https://github.com/acidanthera/VoodooInput/tree/1123b24db1a41eab57b58c4e526086c21d9f8bcd",
