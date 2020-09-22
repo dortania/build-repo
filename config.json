@@ -39911,6 +39911,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix multiple SMC device startup on 10.6",
+          "sha": "cbd4ac30a19d098f073bfb5bb79cf6153fa49c85",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/cbd4ac30a19d098f073bfb5bb79cf6153fa49c85",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/cbd4ac30a19d098f073bfb5bb79cf6153fa49c85"
+        },
+        "dateadded": "2020-09-22T08:26:47.866707+00:00",
+        "datecommitted": "2020-09-22T08:02:19+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f91b986bfe7fc6b9ba13e813af4b697d0516b141ae7cb3ed97f99f9b8fd5adab"
+          },
+          "release": {
+            "sha256": "c1b2046c1f46169999df7fe7858edae3b16dd567f33b1b04c860e7300f67a2ff"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-cbd4ac3/VirtualSMC-1.1.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-cbd4ac3/VirtualSMC-1.1.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix multiple SMC device startup on 10.6\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/cbd4ac30a19d098f073bfb5bb79cf6153fa49c85) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/cbd4ac30a19d098f073bfb5bb79cf6153fa49c85))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.7-DEBUG.zip: f91b986bfe7fc6b9ba13e813af4b697d0516b141ae7cb3ed97f99f9b8fd5adab\n**Release:**\nVirtualSMC-1.1.7-RELEASE.zip: c1b2046c1f46169999df7fe7858edae3b16dd567f33b1b04c860e7300f67a2ff",
+          "id": 31641011,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-cbd4ac3"
+        },
+        "source": "built",
+        "version": "1.1.7"
+      },
+      {
+        "commit": {
           "message": "Revert previous commit",
           "sha": "2e40fad1d79d0fbc8a3f36c2608c90c957191d34",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/2e40fad1d79d0fbc8a3f36c2608c90c957191d34",
