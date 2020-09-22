@@ -5206,6 +5206,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Build: Added -jobs 1",
+          "sha": "e2b4ac80ec99e430a39682e3662303d89c0c07f5",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/e2b4ac80ec99e430a39682e3662303d89c0c07f5",
+          "url": "https://github.com/acidanthera/Lilu/commit/e2b4ac80ec99e430a39682e3662303d89c0c07f5"
+        },
+        "dateadded": "2020-09-22T23:24:56.455141+00:00",
+        "datecommitted": "2020-09-22T23:17:38+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "70599198af2eb39ce89ecc3cad4c29a17e6ac991bd01185e44c0a534124c8135"
+          },
+          "release": {
+            "sha256": "f99d8445833780fb1d43750e88b1f334554e3abdb20ee05b9cf47a099b3ca9ab"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-e2b4ac8/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-e2b4ac8/Lilu-1.4.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBuild: Added -jobs 1\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/e2b4ac80ec99e430a39682e3662303d89c0c07f5) ([browse tree](https://github.com/acidanthera/Lilu/tree/e2b4ac80ec99e430a39682e3662303d89c0c07f5))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: 70599198af2eb39ce89ecc3cad4c29a17e6ac991bd01185e44c0a534124c8135\n**Release:**\nLilu-1.4.8-RELEASE.zip: f99d8445833780fb1d43750e88b1f334554e3abdb20ee05b9cf47a099b3ca9ab",
+          "id": 31679240,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-e2b4ac8"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": {
           "message": "Fixed plugin debug log not working with Lilu disabled",
           "sha": "527347bd7b03a991673b17bb45e09ffc27a67379",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/527347bd7b03a991673b17bb45e09ffc27a67379",
