@@ -7183,6 +7183,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Build: Added -jobs 1",
+          "sha": "0b083c13b808d5e6455902f351b0b5cef164995c",
+          "tree_url": "https://github.com/acidanthera/NVMeFix/tree/0b083c13b808d5e6455902f351b0b5cef164995c",
+          "url": "https://github.com/acidanthera/NVMeFix/commit/0b083c13b808d5e6455902f351b0b5cef164995c"
+        },
+        "dateadded": "2020-09-22T23:32:16.055183+00:00",
+        "datecommitted": "2020-09-22T23:24:12+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "75e2093e3924e250b7603d1e89ceaf19a237b0c7b2ca38449a0e55217d82d2bd"
+          },
+          "release": {
+            "sha256": "1483f90b9200b66bba3e0c24424defc61019591950e7009f4932ada221c03f5a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/NVMeFix-0b083c1/NVMeFix-1.0.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/NVMeFix-0b083c1/NVMeFix-1.0.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBuild: Added -jobs 1\n[View on GitHub](https://github.com/acidanthera/NVMeFix/commit/0b083c13b808d5e6455902f351b0b5cef164995c) ([browse tree](https://github.com/acidanthera/NVMeFix/tree/0b083c13b808d5e6455902f351b0b5cef164995c))\n\n**Hashes**:\n**Debug:**\nNVMeFix-1.0.4-DEBUG.zip: 75e2093e3924e250b7603d1e89ceaf19a237b0c7b2ca38449a0e55217d82d2bd\n**Release:**\nNVMeFix-1.0.4-RELEASE.zip: 1483f90b9200b66bba3e0c24424defc61019591950e7009f4932ada221c03f5a",
+          "id": 31679389,
+          "url": "https://github.com/dortania/build-repo/releases/tag/NVMeFix-0b083c1"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
+        "commit": {
           "message": "Initial MacKernelSDK and Xcode 12 compatibility",
           "sha": "b0ad7707303e6ebd2666fcb7eca54c6e4a522c14",
           "tree_url": "https://github.com/acidanthera/NVMeFix/tree/b0ad7707303e6ebd2666fcb7eca54c6e4a522c14",
