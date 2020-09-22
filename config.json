@@ -5090,6 +5090,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fixed plugin debug log not working with Lilu disabled",
+          "sha": "527347bd7b03a991673b17bb45e09ffc27a67379",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/527347bd7b03a991673b17bb45e09ffc27a67379",
+          "url": "https://github.com/acidanthera/Lilu/commit/527347bd7b03a991673b17bb45e09ffc27a67379"
+        },
+        "dateadded": "2020-09-22T08:25:15.601576+00:00",
+        "datecommitted": "2020-09-22T08:03:16+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "192a05eae9c63484420705a64909ad7375a84579f1f01c2ff34dc63044738bc7"
+          },
+          "release": {
+            "sha256": "8d685ee03c7abd6dbde437544f7eb631bc2432d0b03fb62ea7bbfa35c0a7cfcb"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-527347b/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-527347b/Lilu-1.4.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFixed plugin debug log not working with Lilu disabled\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/527347bd7b03a991673b17bb45e09ffc27a67379) ([browse tree](https://github.com/acidanthera/Lilu/tree/527347bd7b03a991673b17bb45e09ffc27a67379))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: 192a05eae9c63484420705a64909ad7375a84579f1f01c2ff34dc63044738bc7\n**Release:**\nLilu-1.4.8-RELEASE.zip: 8d685ee03c7abd6dbde437544f7eb631bc2432d0b03fb62ea7bbfa35c0a7cfcb",
+          "id": 31640948,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-527347b"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": {
           "message": "Avoid CPU topology kernel panic",
           "sha": "2b88157fe2d552482ba361e176fa924f8210a4af",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/2b88157fe2d552482ba361e176fa924f8210a4af",
