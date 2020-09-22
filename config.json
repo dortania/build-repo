@@ -4461,6 +4461,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Build: Added -jobs 1",
+          "sha": "aaac1d4e70236360d357d94faa7f0809c83642b1",
+          "tree_url": "https://github.com/acidanthera/CPUFriend/tree/aaac1d4e70236360d357d94faa7f0809c83642b1",
+          "url": "https://github.com/acidanthera/CPUFriend/commit/aaac1d4e70236360d357d94faa7f0809c83642b1"
+        },
+        "dateadded": "2020-09-22T23:31:12.447688+00:00",
+        "datecommitted": "2020-09-22T23:28:04+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9b0fb837b8258bbeedd3fe169eacdaa62e2755af5c6e2d65601d46d9db6f6c7a"
+          },
+          "release": {
+            "sha256": "9bfde17ecbfd31eeaf9d8ec54b0a3cebad649b702667a88b03a028a7833f659f"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/CPUFriend-aaac1d4/CPUFriend-1.2.2-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/CPUFriend-aaac1d4/CPUFriend-1.2.2-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBuild: Added -jobs 1\n[View on GitHub](https://github.com/acidanthera/CPUFriend/commit/aaac1d4e70236360d357d94faa7f0809c83642b1) ([browse tree](https://github.com/acidanthera/CPUFriend/tree/aaac1d4e70236360d357d94faa7f0809c83642b1))\n\n**Hashes**:\n**Debug:**\nCPUFriend-1.2.2-DEBUG.zip: 9b0fb837b8258bbeedd3fe169eacdaa62e2755af5c6e2d65601d46d9db6f6c7a\n**Release:**\nCPUFriend-1.2.2-RELEASE.zip: 9bfde17ecbfd31eeaf9d8ec54b0a3cebad649b702667a88b03a028a7833f659f",
+          "id": 31679360,
+          "url": "https://github.com/dortania/build-repo/releases/tag/CPUFriend-aaac1d4"
+        },
+        "source": "built",
+        "version": "1.2.2"
+      },
+      {
+        "commit": {
           "message": "Initial MacKernelSDK and Xcode 12 compatibility",
           "sha": "05591654611dd91148179d9dae5dd646ada459e6",
           "tree_url": "https://github.com/acidanthera/CPUFriend/tree/05591654611dd91148179d9dae5dd646ada459e6",
