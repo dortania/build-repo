@@ -4853,6 +4853,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix clang analyzer warnings",
+          "sha": "5653cd2a6a06e312d29b5a372fda8d52fb7942e2",
+          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/5653cd2a6a06e312d29b5a372fda8d52fb7942e2",
+          "url": "https://github.com/acidanthera/IntelMausi/commit/5653cd2a6a06e312d29b5a372fda8d52fb7942e2"
+        },
+        "dateadded": "2020-09-22T04:22:29.970557+00:00",
+        "datecommitted": "2020-09-22T04:09:10+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "cb7322a71e870f83e127e31a09e0fd8fe6a44bef3697368b9e1570e416cee343"
+          },
+          "release": {
+            "sha256": "4b3e89cacff7a746eafbad93ca14a95dde661bd483c9c2ad2ee7a11282f77bf6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-5653cd2/IntelMausi-1.0.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-5653cd2/IntelMausi-1.0.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix clang analyzer warnings\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/5653cd2a6a06e312d29b5a372fda8d52fb7942e2) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/5653cd2a6a06e312d29b5a372fda8d52fb7942e2))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.4-DEBUG.zip: cb7322a71e870f83e127e31a09e0fd8fe6a44bef3697368b9e1570e416cee343\n**Release:**\nIntelMausi-1.0.4-RELEASE.zip: 4b3e89cacff7a746eafbad93ca14a95dde661bd483c9c2ad2ee7a11282f77bf6",
+          "id": 31634925,
+          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-5653cd2"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
+        "commit": {
           "message": "Force x86_64",
           "sha": "65157698dd6f9fc0e2b0afc87d6710db5d7af83d",
           "tree_url": "https://github.com/acidanthera/IntelMausi/tree/65157698dd6f9fc0e2b0afc87d6710db5d7af83d",
