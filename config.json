@@ -46046,6 +46046,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Build: Added -jobs 1",
+          "sha": "d14392076114e2b2b1d47c842b6d23e9bf10e234",
+          "tree_url": "https://github.com/acidanthera/gfxutil/tree/d14392076114e2b2b1d47c842b6d23e9bf10e234",
+          "url": "https://github.com/acidanthera/gfxutil/commit/d14392076114e2b2b1d47c842b6d23e9bf10e234"
+        },
+        "dateadded": "2020-09-22T23:50:38.749161+00:00",
+        "datecommitted": "2020-09-22T23:43:26+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "320fd59c89f219b3914df001a2111a641d45f78712811389fd6c274e141c06c1"
+          },
+          "release": {
+            "sha256": "8409e441f07fa09a231dec512b1ecbcf10e57c5a0208cb5ab03e589574a450cf"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/gfxutil-d143920/gfxutil-1.80b-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/gfxutil-d143920/gfxutil-1.80b-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBuild: Added -jobs 1\n[View on GitHub](https://github.com/acidanthera/gfxutil/commit/d14392076114e2b2b1d47c842b6d23e9bf10e234) ([browse tree](https://github.com/acidanthera/gfxutil/tree/d14392076114e2b2b1d47c842b6d23e9bf10e234))\n\n**Hashes**:\n**Debug:**\ngfxutil-1.80b-DEBUG.zip: 320fd59c89f219b3914df001a2111a641d45f78712811389fd6c274e141c06c1\n**Release:**\ngfxutil-1.80b-RELEASE.zip: 8409e441f07fa09a231dec512b1ecbcf10e57c5a0208cb5ab03e589574a450cf",
+          "id": 31679829,
+          "url": "https://github.com/dortania/build-repo/releases/tag/gfxutil-d143920"
+        },
+        "source": "built",
+        "version": "1.80b"
+      },
+      {
+        "commit": {
           "message": "Update README.md",
           "sha": "3531174374c54d49455030bb1f77dcece3ef8b90",
           "tree_url": "https://github.com/acidanthera/gfxutil/tree/3531174374c54d49455030bb1f77dcece3ef8b90",
