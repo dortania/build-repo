@@ -1024,6 +1024,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Build: Added -jobs 1",
+          "sha": "ffd77eaeeb361dc62a0a88f3d2bf16a2e7439d27",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/ffd77eaeeb361dc62a0a88f3d2bf16a2e7439d27",
+          "url": "https://github.com/acidanthera/AppleALC/commit/ffd77eaeeb361dc62a0a88f3d2bf16a2e7439d27"
+        },
+        "dateadded": "2020-09-22T23:23:49.420039+00:00",
+        "datecommitted": "2020-09-22T23:20:07+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "1f4347c9dc942ba42832fbfa46aa399600d489ac759c261cc15d9b78c7f30058"
+          },
+          "release": {
+            "sha256": "dba09d8bf8f4b1929cf1e7975e1577a38387ab26c73dafe1f4a75c06fb279cff"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-ffd77ea/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-ffd77ea/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBuild: Added -jobs 1\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/ffd77eaeeb361dc62a0a88f3d2bf16a2e7439d27) ([browse tree](https://github.com/acidanthera/AppleALC/tree/ffd77eaeeb361dc62a0a88f3d2bf16a2e7439d27))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: 1f4347c9dc942ba42832fbfa46aa399600d489ac759c261cc15d9b78c7f30058\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: dba09d8bf8f4b1929cf1e7975e1577a38387ab26c73dafe1f4a75c06fb279cff",
+          "id": 31679217,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-ffd77ea"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": {
           "message": "Fix obtaining kernel sdk",
           "sha": "4da26a61a8d07869608c69a37cf33d94fcbda3a4",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/4da26a61a8d07869608c69a37cf33d94fcbda3a4",
