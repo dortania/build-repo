@@ -40056,6 +40056,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Build: Added -jobs 1",
+          "sha": "80ed1f70d44bbc102e77b42b250371fcbdb221d4",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/80ed1f70d44bbc102e77b42b250371fcbdb221d4",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/80ed1f70d44bbc102e77b42b250371fcbdb221d4"
+        },
+        "dateadded": "2020-09-22T23:26:43.261239+00:00",
+        "datecommitted": "2020-09-22T23:15:25+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "604993d62f2772b8196495a667d7176bdcd2df5e3a7d236de03145bb52b4a544"
+          },
+          "release": {
+            "sha256": "ba330693f618e9f04036459660ed66e54c0cca72cd27257011a961967a695d27"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-80ed1f7/VirtualSMC-1.1.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-80ed1f7/VirtualSMC-1.1.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBuild: Added -jobs 1\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/80ed1f70d44bbc102e77b42b250371fcbdb221d4) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/80ed1f70d44bbc102e77b42b250371fcbdb221d4))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.7-DEBUG.zip: 604993d62f2772b8196495a667d7176bdcd2df5e3a7d236de03145bb52b4a544\n**Release:**\nVirtualSMC-1.1.7-RELEASE.zip: ba330693f618e9f04036459660ed66e54c0cca72cd27257011a961967a695d27",
+          "id": 31679272,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-80ed1f7"
+        },
+        "source": "built",
+        "version": "1.1.7"
+      },
+      {
+        "commit": {
           "message": "Update README.md",
           "sha": "e0c66839e04aa6ad7d4de6286b40d550763d8c31",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/e0c66839e04aa6ad7d4de6286b40d550763d8c31",
