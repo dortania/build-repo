@@ -4,6 +4,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add pci14e4,4353 and pci14e4,4357 into AirPortBrcmNIC_Injector.kext",
+          "sha": "ed65d6cdfc222d4319e745241832f618a1b994d3",
+          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/ed65d6cdfc222d4319e745241832f618a1b994d3",
+          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/ed65d6cdfc222d4319e745241832f618a1b994d3"
+        },
+        "dateadded": "2020-09-22T14:26:21.391387+00:00",
+        "datecommitted": "2020-09-22T14:20:40+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f38a43b86e9bef4de6f8f5d679050c5cf0a162d9ad41cf3029d97154f12d4b68"
+          },
+          "release": {
+            "sha256": "ee2e5126ecde252664a1a25300c0a3f3b5e083f5be99b81ec242a2ba15f5eb8d"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-ed65d6c/AirportBrcmFixup-2.1.0-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-ed65d6c/AirportBrcmFixup-2.1.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd pci14e4,4353 and pci14e4,4357 into AirPortBrcmNIC_Injector.kext\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/ed65d6cdfc222d4319e745241832f618a1b994d3) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/ed65d6cdfc222d4319e745241832f618a1b994d3))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.1.0-DEBUG.zip: f38a43b86e9bef4de6f8f5d679050c5cf0a162d9ad41cf3029d97154f12d4b68\n**Release:**\nAirportBrcmFixup-2.1.0-RELEASE.zip: ee2e5126ecde252664a1a25300c0a3f3b5e083f5be99b81ec242a2ba15f5eb8d",
+          "id": 31658427,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-ed65d6c"
+        },
+        "source": "built",
+        "version": "2.1.0"
+      },
+      {
+        "commit": {
           "message": "Skip matching for IOPCIFamily (fix for previous commit)",
           "sha": "fad5e2c24170136e33fd552ae4fd682a4a9773ec",
           "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/fad5e2c24170136e33fd552ae4fd682a4a9773ec",
