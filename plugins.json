@@ -38,6 +38,15 @@
     },
     {
       "Debug File": "build/Debug/*.zip",
+      "Desc": "Combines functionality of VoodooTSCSync and disabling xcpm_urgency if TSC is not in sync",
+      "Lilu": true,
+      "MacKernelSDK": true,
+      "Name": "CpuTscSync",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/CpuTscSync"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
       "Desc": "A Lilu plugin intended to enable debug output in the macOS kernel",
       "Lilu": true,
       "MacKernelSDK": true,
