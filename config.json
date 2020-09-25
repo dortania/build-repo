@@ -4640,6 +4640,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Build: Added -jobs 1",
+          "sha": "f3664e9746dd2f9cf4f2277e8e67c4ef1c663542",
+          "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/f3664e9746dd2f9cf4f2277e8e67c4ef1c663542",
+          "url": "https://github.com/acidanthera/CpuTscSync/commit/f3664e9746dd2f9cf4f2277e8e67c4ef1c663542"
+        },
+        "dateadded": "2020-09-25T00:26:59.234383+00:00",
+        "datecommitted": "2020-09-22T22:47:08+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "2df4cd71e461f4aeed80409f5af35826b8cc98ddf551bbb67a3ebfa329bfe8a9"
+          },
+          "release": {
+            "sha256": "2200ede229d3702875cd8437d21950a026b3e48ab96de1ea494480d6341b8023"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-f3664e9/CpuTscSync-1.0.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-f3664e9/CpuTscSync-1.0.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBuild: Added -jobs 1\n[View on GitHub](https://github.com/acidanthera/CpuTscSync/commit/f3664e9746dd2f9cf4f2277e8e67c4ef1c663542) ([browse tree](https://github.com/acidanthera/CpuTscSync/tree/f3664e9746dd2f9cf4f2277e8e67c4ef1c663542))\n\n**Hashes**:\n**Debug:**\nCpuTscSync-1.0.3-DEBUG.zip: 2df4cd71e461f4aeed80409f5af35826b8cc98ddf551bbb67a3ebfa329bfe8a9\n**Release:**\nCpuTscSync-1.0.3-RELEASE.zip: 2200ede229d3702875cd8437d21950a026b3e48ab96de1ea494480d6341b8023",
+          "id": 31790329,
+          "url": "https://github.com/dortania/build-repo/releases/tag/CpuTscSync-f3664e9"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      },
+      {
+        "commit": {
           "message": "Update README.md",
           "sha": "66d1d41950e937010db1d0814b1533bbd73a9b70",
           "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/66d1d41950e937010db1d0814b1533bbd73a9b70",
