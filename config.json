@@ -4640,58 +4640,29 @@
     "versions": [
       {
         "commit": {
-          "message": "Add CI compatibility",
-          "sha": "6971a8e7ad5deb8d51032a11b79162d7df2c3ab4",
-          "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4",
-          "url": "https://github.com/acidanthera/CpuTscSync/commit/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4"
-        },
-        "dateadded": "2020-09-25T00:27:42.027660+00:00",
-        "datecommitted": "2020-09-22T14:39:03+00:00",
-        "hashes": {
-          "debug": {
-            "sha256": "4f082c6a3f340050b9d328ff0b796be709cc8b89a69ab3312e660b8c663720b0"
-          },
-          "release": {
-            "sha256": "741b991c7969b30787a88175576b66968bfd4a1d3c3483691a57aaffc49205df"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-6971a8e/CpuTscSync-1.0.3-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-6971a8e/CpuTscSync-1.0.3-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes:**\nAdd CI compatibility\n[View on GitHub](https://github.com/acidanthera/CpuTscSync/commit/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4) ([browse tree](https://github.com/acidanthera/CpuTscSync/tree/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4))\n\n**Hashes**:\n**Debug:**\nCpuTscSync-1.0.3-DEBUG.zip: 4f082c6a3f340050b9d328ff0b796be709cc8b89a69ab3312e660b8c663720b0\n**Release:**\nCpuTscSync-1.0.3-RELEASE.zip: 741b991c7969b30787a88175576b66968bfd4a1d3c3483691a57aaffc49205df",
-          "id": 31790347,
-          "url": "https://github.com/dortania/build-repo/releases/tag/CpuTscSync-6971a8e"
-        },
-        "source": "built",
-        "version": "1.0.3"
-      },
-      {
-        "commit": {
           "message": "Update README.md",
-          "sha": "6c7b940d594b5e8114cdc7666679ded5b6dc7fce",
-          "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/6c7b940d594b5e8114cdc7666679ded5b6dc7fce",
-          "url": "https://github.com/acidanthera/CpuTscSync/commit/6c7b940d594b5e8114cdc7666679ded5b6dc7fce"
+          "sha": "66d1d41950e937010db1d0814b1533bbd73a9b70",
+          "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/66d1d41950e937010db1d0814b1533bbd73a9b70",
+          "url": "https://github.com/acidanthera/CpuTscSync/commit/66d1d41950e937010db1d0814b1533bbd73a9b70"
         },
-        "dateadded": "2020-09-25T00:27:21.252325+00:00",
-        "datecommitted": "2020-09-22T21:38:36+00:00",
+        "dateadded": "2020-09-25T00:26:38.019820+00:00",
+        "datecommitted": "2020-09-23T00:20:09+00:00",
         "hashes": {
           "debug": {
-            "sha256": "d4c616901301ad1aec03fab4973a9ed0fc635fa7f8209bae43abd3351bf01e74"
+            "sha256": "8e43563de9bbed8d194d863b9b46f11c04276459b0e2c1d512e04d85539ce37c"
           },
           "release": {
-            "sha256": "86900826ab562d14d88503c1b1169833ef87e89c50f76fa1f589a930bde58c6f"
+            "sha256": "9d1865a9f794e85397e25a176802008d2b425e38e84f350f2c0d09c4f1e41b62"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-6c7b940/CpuTscSync-1.0.3-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-6c7b940/CpuTscSync-1.0.3-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-66d1d41/CpuTscSync-1.0.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-66d1d41/CpuTscSync-1.0.3-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nUpdate README.md\n[View on GitHub](https://github.com/acidanthera/CpuTscSync/commit/6c7b940d594b5e8114cdc7666679ded5b6dc7fce) ([browse tree](https://github.com/acidanthera/CpuTscSync/tree/6c7b940d594b5e8114cdc7666679ded5b6dc7fce))\n\n**Hashes**:\n**Debug:**\nCpuTscSync-1.0.3-DEBUG.zip: d4c616901301ad1aec03fab4973a9ed0fc635fa7f8209bae43abd3351bf01e74\n**Release:**\nCpuTscSync-1.0.3-RELEASE.zip: 86900826ab562d14d88503c1b1169833ef87e89c50f76fa1f589a930bde58c6f",
-          "id": 31790341,
-          "url": "https://github.com/dortania/build-repo/releases/tag/CpuTscSync-6c7b940"
+          "description": "**Changes:**\nUpdate README.md\n[View on GitHub](https://github.com/acidanthera/CpuTscSync/commit/66d1d41950e937010db1d0814b1533bbd73a9b70) ([browse tree](https://github.com/acidanthera/CpuTscSync/tree/66d1d41950e937010db1d0814b1533bbd73a9b70))\n\n**Hashes**:\n**Debug:**\nCpuTscSync-1.0.3-DEBUG.zip: 8e43563de9bbed8d194d863b9b46f11c04276459b0e2c1d512e04d85539ce37c\n**Release:**\nCpuTscSync-1.0.3-RELEASE.zip: 9d1865a9f794e85397e25a176802008d2b425e38e84f350f2c0d09c4f1e41b62",
+          "id": 31790326,
+          "url": "https://github.com/dortania/build-repo/releases/tag/CpuTscSync-66d1d41"
         },
         "source": "built",
         "version": "1.0.3"
@@ -4728,28 +4699,57 @@
       {
         "commit": {
           "message": "Update README.md",
-          "sha": "66d1d41950e937010db1d0814b1533bbd73a9b70",
-          "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/66d1d41950e937010db1d0814b1533bbd73a9b70",
-          "url": "https://github.com/acidanthera/CpuTscSync/commit/66d1d41950e937010db1d0814b1533bbd73a9b70"
+          "sha": "6c7b940d594b5e8114cdc7666679ded5b6dc7fce",
+          "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/6c7b940d594b5e8114cdc7666679ded5b6dc7fce",
+          "url": "https://github.com/acidanthera/CpuTscSync/commit/6c7b940d594b5e8114cdc7666679ded5b6dc7fce"
         },
-        "dateadded": "2020-09-25T00:26:38.019820+00:00",
-        "datecommitted": "2020-09-23T00:20:09+00:00",
+        "dateadded": "2020-09-25T00:27:21.252325+00:00",
+        "datecommitted": "2020-09-22T21:38:36+00:00",
         "hashes": {
           "debug": {
-            "sha256": "8e43563de9bbed8d194d863b9b46f11c04276459b0e2c1d512e04d85539ce37c"
+            "sha256": "d4c616901301ad1aec03fab4973a9ed0fc635fa7f8209bae43abd3351bf01e74"
           },
           "release": {
-            "sha256": "9d1865a9f794e85397e25a176802008d2b425e38e84f350f2c0d09c4f1e41b62"
+            "sha256": "86900826ab562d14d88503c1b1169833ef87e89c50f76fa1f589a930bde58c6f"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-66d1d41/CpuTscSync-1.0.3-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-66d1d41/CpuTscSync-1.0.3-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-6c7b940/CpuTscSync-1.0.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-6c7b940/CpuTscSync-1.0.3-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nUpdate README.md\n[View on GitHub](https://github.com/acidanthera/CpuTscSync/commit/66d1d41950e937010db1d0814b1533bbd73a9b70) ([browse tree](https://github.com/acidanthera/CpuTscSync/tree/66d1d41950e937010db1d0814b1533bbd73a9b70))\n\n**Hashes**:\n**Debug:**\nCpuTscSync-1.0.3-DEBUG.zip: 8e43563de9bbed8d194d863b9b46f11c04276459b0e2c1d512e04d85539ce37c\n**Release:**\nCpuTscSync-1.0.3-RELEASE.zip: 9d1865a9f794e85397e25a176802008d2b425e38e84f350f2c0d09c4f1e41b62",
-          "id": 31790326,
-          "url": "https://github.com/dortania/build-repo/releases/tag/CpuTscSync-66d1d41"
+          "description": "**Changes:**\nUpdate README.md\n[View on GitHub](https://github.com/acidanthera/CpuTscSync/commit/6c7b940d594b5e8114cdc7666679ded5b6dc7fce) ([browse tree](https://github.com/acidanthera/CpuTscSync/tree/6c7b940d594b5e8114cdc7666679ded5b6dc7fce))\n\n**Hashes**:\n**Debug:**\nCpuTscSync-1.0.3-DEBUG.zip: d4c616901301ad1aec03fab4973a9ed0fc635fa7f8209bae43abd3351bf01e74\n**Release:**\nCpuTscSync-1.0.3-RELEASE.zip: 86900826ab562d14d88503c1b1169833ef87e89c50f76fa1f589a930bde58c6f",
+          "id": 31790341,
+          "url": "https://github.com/dortania/build-repo/releases/tag/CpuTscSync-6c7b940"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      },
+      {
+        "commit": {
+          "message": "Add CI compatibility",
+          "sha": "6971a8e7ad5deb8d51032a11b79162d7df2c3ab4",
+          "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4",
+          "url": "https://github.com/acidanthera/CpuTscSync/commit/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4"
+        },
+        "dateadded": "2020-09-25T00:27:42.027660+00:00",
+        "datecommitted": "2020-09-22T14:39:03+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "4f082c6a3f340050b9d328ff0b796be709cc8b89a69ab3312e660b8c663720b0"
+          },
+          "release": {
+            "sha256": "741b991c7969b30787a88175576b66968bfd4a1d3c3483691a57aaffc49205df"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-6971a8e/CpuTscSync-1.0.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-6971a8e/CpuTscSync-1.0.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd CI compatibility\n[View on GitHub](https://github.com/acidanthera/CpuTscSync/commit/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4) ([browse tree](https://github.com/acidanthera/CpuTscSync/tree/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4))\n\n**Hashes**:\n**Debug:**\nCpuTscSync-1.0.3-DEBUG.zip: 4f082c6a3f340050b9d328ff0b796be709cc8b89a69ab3312e660b8c663720b0\n**Release:**\nCpuTscSync-1.0.3-RELEASE.zip: 741b991c7969b30787a88175576b66968bfd4a1d3c3483691a57aaffc49205df",
+          "id": 31790347,
+          "url": "https://github.com/dortania/build-repo/releases/tag/CpuTscSync-6971a8e"
         },
         "source": "built",
         "version": "1.0.3"
