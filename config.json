@@ -42649,6 +42649,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix typo in Changelog (#25)",
+          "sha": "383e67203c5fded1484498b501413b3132434596",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/383e67203c5fded1484498b501413b3132434596",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/383e67203c5fded1484498b501413b3132434596"
+        },
+        "dateadded": "2020-09-25T19:26:59.167237+00:00",
+        "datecommitted": "2020-09-25T19:16:46+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "838d2689253516a4a88d4ad9bd740d8e1c5a580ee8a89d4d1566de6351d226ae"
+          },
+          "release": {
+            "sha256": "fc762faad83d645cd55e500666b63b0b15cf80c846c5f2863736ea311d7da614"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-383e672/VoodooPS2Controller-2.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-383e672/VoodooPS2Controller-2.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix typo in Changelog (#25)\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/383e67203c5fded1484498b501413b3132434596) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/383e67203c5fded1484498b501413b3132434596))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.8-DEBUG.zip: 838d2689253516a4a88d4ad9bd740d8e1c5a580ee8a89d4d1566de6351d226ae\n**Release:**\nVoodooPS2Controller-2.1.8-RELEASE.zip: fc762faad83d645cd55e500666b63b0b15cf80c846c5f2863736ea311d7da614",
+          "id": 31828456,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-383e672"
+        },
+        "source": "built",
+        "version": "2.1.8"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "bd827d3ec7069098cfda846b44635fbe65b79f9b",
           "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/bd827d3ec7069098cfda846b44635fbe65b79f9b",
