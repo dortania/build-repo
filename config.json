@@ -4640,6 +4640,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add CI compatibility",
+          "sha": "6971a8e7ad5deb8d51032a11b79162d7df2c3ab4",
+          "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4",
+          "url": "https://github.com/acidanthera/CpuTscSync/commit/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4"
+        },
+        "dateadded": "2020-09-25T00:27:42.027660+00:00",
+        "datecommitted": "2020-09-22T14:39:03+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "4f082c6a3f340050b9d328ff0b796be709cc8b89a69ab3312e660b8c663720b0"
+          },
+          "release": {
+            "sha256": "741b991c7969b30787a88175576b66968bfd4a1d3c3483691a57aaffc49205df"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-6971a8e/CpuTscSync-1.0.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-6971a8e/CpuTscSync-1.0.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd CI compatibility\n[View on GitHub](https://github.com/acidanthera/CpuTscSync/commit/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4) ([browse tree](https://github.com/acidanthera/CpuTscSync/tree/6971a8e7ad5deb8d51032a11b79162d7df2c3ab4))\n\n**Hashes**:\n**Debug:**\nCpuTscSync-1.0.3-DEBUG.zip: 4f082c6a3f340050b9d328ff0b796be709cc8b89a69ab3312e660b8c663720b0\n**Release:**\nCpuTscSync-1.0.3-RELEASE.zip: 741b991c7969b30787a88175576b66968bfd4a1d3c3483691a57aaffc49205df",
+          "id": 31790347,
+          "url": "https://github.com/dortania/build-repo/releases/tag/CpuTscSync-6971a8e"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      },
+      {
+        "commit": {
           "message": "Update README.md",
           "sha": "6c7b940d594b5e8114cdc7666679ded5b6dc7fce",
           "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/6c7b940d594b5e8114cdc7666679ded5b6dc7fce",
