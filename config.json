@@ -42965,6 +42965,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Revert \"Workaround for buggy vendor backlight implements (#26)\"\n\nThis reverts commit 86d8fb2a47dbed569145341ac40a4c5681bc66ce.\n\nRevert \"Fix typo in Changelog (#25)\"\n\nThis reverts commit 383e67203c5fded1484498b501413b3132434596.\n\nRevert \"Workaround for ICL/CML brightness keys (#23)\"\n\nThis reverts commit 1e2925d3c1f90b454b0d12a5e0ea1a0e57d62287.\n\nRevert \"Get ACPI notification for brightness keys from GFX0.DD1F/DD02 (#22)\"\n\nThis reverts commit d5f05415ac087ed4411b51ce73ac19c021bbaf48.",
+          "sha": "4f4ad8e0796e888b3dc8e8e25acc94c46edd4bef",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/4f4ad8e0796e888b3dc8e8e25acc94c46edd4bef",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/4f4ad8e0796e888b3dc8e8e25acc94c46edd4bef"
+        },
+        "dateadded": "2020-09-28T17:03:12.766585+00:00",
+        "datecommitted": "2020-09-28T16:57:25+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "15d62f7d911d9804059bc8c633ae847b002c0eaa8554c8d472380a3be927dffa"
+          },
+          "release": {
+            "sha256": "1ab4e190ca5ed6d4d08061652a3dc6f20c2aedfac8be9f6cee2fcfe3583dfc36"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-4f4ad8e/VoodooPS2Controller-2.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-4f4ad8e/VoodooPS2Controller-2.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nRevert \"Workaround for buggy vendor backlight implements (#26)\"\n\nThis reverts commit 86d8fb2a47dbed569145341ac40a4c5681bc66ce.\n\nRevert \"Fix typo in Changelog (#25)\"\n\nThis reverts commit 383e67203c5fded1484498b501413b3132434596.\n\nRevert \"Workaround for ICL/CML brightness keys (#23)\"\n\nThis reverts commit 1e2925d3c1f90b454b0d12a5e0ea1a0e57d62287.\n\nRevert \"Get ACPI notification for brightness keys from GFX0.DD1F/DD02 (#22)\"\n\nThis reverts commit d5f05415ac087ed4411b51ce73ac19c021bbaf48.\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/4f4ad8e0796e888b3dc8e8e25acc94c46edd4bef) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/4f4ad8e0796e888b3dc8e8e25acc94c46edd4bef))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.8-DEBUG.zip: 15d62f7d911d9804059bc8c633ae847b002c0eaa8554c8d472380a3be927dffa\n**Release:**\nVoodooPS2Controller-2.1.8-RELEASE.zip: 1ab4e190ca5ed6d4d08061652a3dc6f20c2aedfac8be9f6cee2fcfe3583dfc36",
+          "id": 31896849,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-4f4ad8e"
+        },
+        "source": "built",
+        "version": "2.1.8"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "bd1a11c897cf08ac8009e944b2b234fd7d028ab4",
           "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/bd1a11c897cf08ac8009e944b2b234fd7d028ab4",
