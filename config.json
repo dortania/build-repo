@@ -42965,35 +42965,6 @@
     "versions": [
       {
         "commit": {
-          "message": "Implement Elan PS/2 touchpad support (#24)",
-          "sha": "ac8c2bb4eb3efb0db19e4738586aeda082b15abd",
-          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/ac8c2bb4eb3efb0db19e4738586aeda082b15abd",
-          "url": "https://github.com/acidanthera/VoodooPS2/commit/ac8c2bb4eb3efb0db19e4738586aeda082b15abd"
-        },
-        "dateadded": "2020-09-28T09:57:03.846182+00:00",
-        "datecommitted": "2020-09-28T09:25:52+00:00",
-        "hashes": {
-          "debug": {
-            "sha256": "73ca655bf11afc6d17943a516ae3403ef29e51c67702e302ca2bac37b3149981"
-          },
-          "release": {
-            "sha256": "778e0c3aced99adcad0342715f29787851deff3f25822acd42805c36dc217c4b"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-ac8c2bb/VoodooPS2Controller-2.1.8-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-ac8c2bb/VoodooPS2Controller-2.1.8-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes:**\nImplement Elan PS/2 touchpad support (#24)\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/ac8c2bb4eb3efb0db19e4738586aeda082b15abd) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/ac8c2bb4eb3efb0db19e4738586aeda082b15abd))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.8-DEBUG.zip: 73ca655bf11afc6d17943a516ae3403ef29e51c67702e302ca2bac37b3149981\n**Release:**\nVoodooPS2Controller-2.1.8-RELEASE.zip: 778e0c3aced99adcad0342715f29787851deff3f25822acd42805c36dc217c4b",
-          "id": 31877894,
-          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-ac8c2bb"
-        },
-        "source": "built",
-        "version": "2.1.8"
-      },
-      {
-        "commit": {
           "message": "Workaround for buggy vendor backlight implements (#26)",
           "sha": "86d8fb2a47dbed569145341ac40a4c5681bc66ce",
           "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/86d8fb2a47dbed569145341ac40a4c5681bc66ce",
@@ -43017,6 +42988,35 @@
           "description": "**Changes:**\nWorkaround for buggy vendor backlight implements (#26)\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/86d8fb2a47dbed569145341ac40a4c5681bc66ce) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/86d8fb2a47dbed569145341ac40a4c5681bc66ce))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.8-DEBUG.zip: c6658137a6a7f51db02446ca7e3b2a71f21b338c5d455142180ad9a439e608cf\n**Release:**\nVoodooPS2Controller-2.1.8-RELEASE.zip: ff2881b1bd1eece58d3fdaf840c6256ca82c35e9c9c75f6982ce8bc0168aabaa",
           "id": 31877873,
           "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-86d8fb2"
+        },
+        "source": "built",
+        "version": "2.1.8"
+      },
+      {
+        "commit": {
+          "message": "Implement Elan PS/2 touchpad support (#24)",
+          "sha": "ac8c2bb4eb3efb0db19e4738586aeda082b15abd",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/ac8c2bb4eb3efb0db19e4738586aeda082b15abd",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/ac8c2bb4eb3efb0db19e4738586aeda082b15abd"
+        },
+        "dateadded": "2020-09-28T09:57:03.846182+00:00",
+        "datecommitted": "2020-09-28T09:25:52+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "73ca655bf11afc6d17943a516ae3403ef29e51c67702e302ca2bac37b3149981"
+          },
+          "release": {
+            "sha256": "778e0c3aced99adcad0342715f29787851deff3f25822acd42805c36dc217c4b"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-ac8c2bb/VoodooPS2Controller-2.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-ac8c2bb/VoodooPS2Controller-2.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nImplement Elan PS/2 touchpad support (#24)\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/ac8c2bb4eb3efb0db19e4738586aeda082b15abd) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/ac8c2bb4eb3efb0db19e4738586aeda082b15abd))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.8-DEBUG.zip: 73ca655bf11afc6d17943a516ae3403ef29e51c67702e302ca2bac37b3149981\n**Release:**\nVoodooPS2Controller-2.1.8-RELEASE.zip: 778e0c3aced99adcad0342715f29787851deff3f25822acd42805c36dc217c4b",
+          "id": 31877894,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-ac8c2bb"
         },
         "source": "built",
         "version": "2.1.8"
