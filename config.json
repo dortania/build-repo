@@ -4640,6 +4640,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add missing entry point",
+          "sha": "356b950809416dbd2972cc3597966d268ff22eaa",
+          "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/356b950809416dbd2972cc3597966d268ff22eaa",
+          "url": "https://github.com/acidanthera/CpuTscSync/commit/356b950809416dbd2972cc3597966d268ff22eaa"
+        },
+        "dateadded": "2020-09-28T18:21:12.150800+00:00",
+        "datecommitted": "2020-09-28T18:10:11+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9dd9235071d3329db626d5fa67932bcd83b53e6475371a9069bc754483bd99cd"
+          },
+          "release": {
+            "sha256": "1f43a01bedc615d5ae3083c50110415509a7865eef4270cc6dc9556c63095fcd"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-356b950/CpuTscSync-1.0.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-356b950/CpuTscSync-1.0.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd missing entry point\n[View on GitHub](https://github.com/acidanthera/CpuTscSync/commit/356b950809416dbd2972cc3597966d268ff22eaa) ([browse tree](https://github.com/acidanthera/CpuTscSync/tree/356b950809416dbd2972cc3597966d268ff22eaa))\n\n**Hashes**:\n**Debug:**\nCpuTscSync-1.0.3-DEBUG.zip: 9dd9235071d3329db626d5fa67932bcd83b53e6475371a9069bc754483bd99cd\n**Release:**\nCpuTscSync-1.0.3-RELEASE.zip: 1f43a01bedc615d5ae3083c50110415509a7865eef4270cc6dc9556c63095fcd",
+          "id": 31900000,
+          "url": "https://github.com/dortania/build-repo/releases/tag/CpuTscSync-356b950"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      },
+      {
+        "commit": {
           "message": "Update README.md",
           "sha": "66d1d41950e937010db1d0814b1533bbd73a9b70",
           "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/66d1d41950e937010db1d0814b1533bbd73a9b70",
