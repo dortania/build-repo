@@ -41249,6 +41249,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "2db1cd9481679eaaaf861e26241987431ee49af5",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/2db1cd9481679eaaaf861e26241987431ee49af5",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/2db1cd9481679eaaaf861e26241987431ee49af5"
+        },
+        "dateadded": "2020-09-30T22:23:33.063588+00:00",
+        "datecommitted": "2020-09-30T22:17:29+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "8791cdc24fdcc2b0594d73bcb1e48106ef8ffe95af9c21a1772fc521a1c39344"
+          },
+          "release": {
+            "sha256": "9fd21f3ad3de653a45b094f41b367206126acaa27f9905ff37bc8a0dc78f9740"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-2db1cd9/VirtualSMC-1.1.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-2db1cd9/VirtualSMC-1.1.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/2db1cd9481679eaaaf861e26241987431ee49af5) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/2db1cd9481679eaaaf861e26241987431ee49af5))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.7-DEBUG.zip: 8791cdc24fdcc2b0594d73bcb1e48106ef8ffe95af9c21a1772fc521a1c39344\n**Release:**\nVirtualSMC-1.1.7-RELEASE.zip: 9fd21f3ad3de653a45b094f41b367206126acaa27f9905ff37bc8a0dc78f9740",
+          "id": 32016442,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-2db1cd9"
+        },
+        "source": "built",
+        "version": "1.1.7"
+      },
+      {
+        "commit": {
           "message": "Remove spin as it sometimes fails to panic",
           "sha": "752fcc27007fe253c42cfef558c092085ff627b3",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/752fcc27007fe253c42cfef558c092085ff627b3",
