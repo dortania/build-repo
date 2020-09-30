@@ -41249,6 +41249,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Remove spin as it sometimes fails to panic",
+          "sha": "752fcc27007fe253c42cfef558c092085ff627b3",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/752fcc27007fe253c42cfef558c092085ff627b3",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/752fcc27007fe253c42cfef558c092085ff627b3"
+        },
+        "dateadded": "2020-09-30T21:47:13.275096+00:00",
+        "datecommitted": "2020-09-30T21:41:25+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "3d67cabe787e7922b4b8d0fc0645f75badeefd32df4a783e3c549d16483a2655"
+          },
+          "release": {
+            "sha256": "6d0b39268509b88faa9559df07bdef9591a3179e0dbc25c7c723a3f237d96ec9"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-752fcc2/VirtualSMC-1.1.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-752fcc2/VirtualSMC-1.1.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nRemove spin as it sometimes fails to panic\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/752fcc27007fe253c42cfef558c092085ff627b3) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/752fcc27007fe253c42cfef558c092085ff627b3))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.7-DEBUG.zip: 3d67cabe787e7922b4b8d0fc0645f75badeefd32df4a783e3c549d16483a2655\n**Release:**\nVirtualSMC-1.1.7-RELEASE.zip: 6d0b39268509b88faa9559df07bdef9591a3179e0dbc25c7c723a3f237d96ec9",
+          "id": 32015399,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-752fcc2"
+        },
+        "source": "built",
+        "version": "1.1.7"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "80ed1f70d44bbc102e77b42b250371fcbdb221d4",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/80ed1f70d44bbc102e77b42b250371fcbdb221d4",
