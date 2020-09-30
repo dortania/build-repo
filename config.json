@@ -41249,6 +41249,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Try to fix scheduling sync",
+          "sha": "813eff4f3907dd1a39c5f3dfd75bc596d9fe7e33",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/813eff4f3907dd1a39c5f3dfd75bc596d9fe7e33",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/813eff4f3907dd1a39c5f3dfd75bc596d9fe7e33"
+        },
+        "dateadded": "2020-09-30T22:25:47.068218+00:00",
+        "datecommitted": "2020-09-30T22:06:53+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "810a079640c821b41b04901ac832ccc84d7afb50ee1380490970c0aad49ffeaa"
+          },
+          "release": {
+            "sha256": "15b2ffda5003d1842c4744194424093e35ca41aafef4df8593515ecf8e65a8d6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-813eff4/VirtualSMC-1.1.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-813eff4/VirtualSMC-1.1.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nTry to fix scheduling sync\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/813eff4f3907dd1a39c5f3dfd75bc596d9fe7e33) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/813eff4f3907dd1a39c5f3dfd75bc596d9fe7e33))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.7-DEBUG.zip: 810a079640c821b41b04901ac832ccc84d7afb50ee1380490970c0aad49ffeaa\n**Release:**\nVirtualSMC-1.1.7-RELEASE.zip: 15b2ffda5003d1842c4744194424093e35ca41aafef4df8593515ecf8e65a8d6",
+          "id": 32016494,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-813eff4"
+        },
+        "source": "built",
+        "version": "1.1.7"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "2db1cd9481679eaaaf861e26241987431ee49af5",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/2db1cd9481679eaaaf861e26241987431ee49af5",
