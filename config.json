@@ -4282,6 +4282,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add temporary notes for testing purposes",
+          "sha": "81d26432f67299d58071a48308c678cdb567863a",
+          "tree_url": "https://github.com/acidanthera/BT4LEContinuityFixup/tree/81d26432f67299d58071a48308c678cdb567863a",
+          "url": "https://github.com/acidanthera/BT4LEContinuityFixup/commit/81d26432f67299d58071a48308c678cdb567863a"
+        },
+        "dateadded": "2020-10-01T11:48:46.561211+00:00",
+        "datecommitted": "2020-10-01T11:43:47+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "af85a005b44e62e62cb4057f8ab27d22caeccaf3306f0bc25f1ba8928963d36d"
+          },
+          "release": {
+            "sha256": "545b554509e28959e1f11d690040f94aa968074f8c587777785400ffaf31b909"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/BT4LEContinuityFixup-81d2643/BT4LEContinuityFixup-1.1.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/BT4LEContinuityFixup-81d2643/BT4LEContinuityFixup-1.1.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd temporary notes for testing purposes\n[View on GitHub](https://github.com/acidanthera/BT4LEContinuityFixup/commit/81d26432f67299d58071a48308c678cdb567863a) ([browse tree](https://github.com/acidanthera/BT4LEContinuityFixup/tree/81d26432f67299d58071a48308c678cdb567863a))\n\n**Hashes**:\n**Debug:**\nBT4LEContinuityFixup-1.1.6-DEBUG.zip: af85a005b44e62e62cb4057f8ab27d22caeccaf3306f0bc25f1ba8928963d36d\n**Release:**\nBT4LEContinuityFixup-1.1.6-RELEASE.zip: 545b554509e28959e1f11d690040f94aa968074f8c587777785400ffaf31b909",
+          "id": 32040399,
+          "url": "https://github.com/dortania/build-repo/releases/tag/BT4LEContinuityFixup-81d2643"
+        },
+        "source": "built",
+        "version": "1.1.6"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "bcacf0fcdb1d3e39e672d2f7abcea79d6ad27d0d",
           "tree_url": "https://github.com/acidanthera/BT4LEContinuityFixup/tree/bcacf0fcdb1d3e39e672d2f7abcea79d6ad27d0d",
