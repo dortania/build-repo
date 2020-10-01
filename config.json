@@ -5501,6 +5501,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Move kextVersion to Headers/kern_version.hpp for kexts only utilize Lilu API (#60)",
+          "sha": "4113df2afca4f414b1ae40bcc552b9f5ca965059",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/4113df2afca4f414b1ae40bcc552b9f5ca965059",
+          "url": "https://github.com/acidanthera/Lilu/commit/4113df2afca4f414b1ae40bcc552b9f5ca965059"
+        },
+        "dateadded": "2020-10-01T18:28:10.672829+00:00",
+        "datecommitted": "2020-10-01T18:25:33+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "220733b57a3e0c15475d7aaec3f8ea79fcd10ff7bff690e40c51f12ac8793947"
+          },
+          "release": {
+            "sha256": "4af1be8271d106e526d3f44b711a911325f5237e3e0c2628d33b45ae319dc29a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-4113df2/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-4113df2/Lilu-1.4.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nMove kextVersion to Headers/kern_version.hpp for kexts only utilize Lilu API (#60)\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/4113df2afca4f414b1ae40bcc552b9f5ca965059) ([browse tree](https://github.com/acidanthera/Lilu/tree/4113df2afca4f414b1ae40bcc552b9f5ca965059))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: 220733b57a3e0c15475d7aaec3f8ea79fcd10ff7bff690e40c51f12ac8793947\n**Release:**\nLilu-1.4.8-RELEASE.zip: 4af1be8271d106e526d3f44b711a911325f5237e3e0c2628d33b45ae319dc29a",
+          "id": 32061484,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-4113df2"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "e2b4ac80ec99e430a39682e3662303d89c0c07f5",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/e2b4ac80ec99e430a39682e3662303d89c0c07f5",
