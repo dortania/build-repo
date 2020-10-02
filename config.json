@@ -5501,6 +5501,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Drop BT4LEContinuityFixup",
+          "sha": "89af9d3df5c1bcd91ffb8905d56be61003cc8c84",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/89af9d3df5c1bcd91ffb8905d56be61003cc8c84",
+          "url": "https://github.com/acidanthera/Lilu/commit/89af9d3df5c1bcd91ffb8905d56be61003cc8c84"
+        },
+        "dateadded": "2020-10-02T06:25:30.542078+00:00",
+        "datecommitted": "2020-10-02T06:21:10+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "b36ed9e5e64a67fa4ef75b22e6b034a67ab36018f590be41c146efa79ede01d4"
+          },
+          "release": {
+            "sha256": "b7f0cc202189aec71ad3f21b454117e73af69d80111020e4469c3b5890417332"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-89af9d3/Lilu-1.4.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-89af9d3/Lilu-1.4.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nDrop BT4LEContinuityFixup\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/89af9d3df5c1bcd91ffb8905d56be61003cc8c84) ([browse tree](https://github.com/acidanthera/Lilu/tree/89af9d3df5c1bcd91ffb8905d56be61003cc8c84))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.8-DEBUG.zip: b36ed9e5e64a67fa4ef75b22e6b034a67ab36018f590be41c146efa79ede01d4\n**Release:**\nLilu-1.4.8-RELEASE.zip: b7f0cc202189aec71ad3f21b454117e73af69d80111020e4469c3b5890417332",
+          "id": 32078741,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-89af9d3"
+        },
+        "source": "built",
+        "version": "1.4.8"
+      },
+      {
+        "commit": {
           "message": "Move kextVersion to Headers/kern_version.hpp for kexts only utilize Lilu API (#60)",
           "sha": "4113df2afca4f414b1ae40bcc552b9f5ca965059",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/4113df2afca4f414b1ae40bcc552b9f5ca965059",
