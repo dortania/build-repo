@@ -18,6 +18,15 @@
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/AppleALC"
     },
+	{
+	       "Debug File": "build/Debug/*.zip",
+	       "Desc": "Automatic handling of brightness keys without DSDT patches",
+	       "Lilu": true,
+	       "MacKernelSDK": true,
+	       "Name": "BrightnessKeys",
+	       "Release File": "build/Release/*.zip",
+	       "URL": "https://github.com/acidanthera/BrightnessKeys"
+	},
     {
       "Debug File": "build/Debug/*.zip",
       "Desc": "An open source kernel extension providing patches for IOBluetoothFamily.",
