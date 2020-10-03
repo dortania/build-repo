@@ -4485,6 +4485,40 @@
       }
     ]
   },
+  "BrcmPatchRAM": {
+    "type": "Kext",
+    "versions": [
+      {
+        "commit": {
+          "message": "Build using package.tool (#5)",
+          "sha": "3fbb0623a3ac4aff1b982c0fa6fe06e88b1827e5",
+          "tree_url": "https://github.com/acidanthera/BrcmPatchRAM/tree/3fbb0623a3ac4aff1b982c0fa6fe06e88b1827e5",
+          "url": "https://github.com/acidanthera/BrcmPatchRAM/commit/3fbb0623a3ac4aff1b982c0fa6fe06e88b1827e5"
+        },
+        "dateadded": "2020-10-03T16:09:25.662528+00:00",
+        "datecommitted": "2020-10-02T12:30:07+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "685cf9247c168125e08033f272882283303f067d25c57fbb3bc80921a65e5f1c"
+          },
+          "release": {
+            "sha256": "f8609cea4dd91c6f9c82959b6b6eb85db186961d7ea42c804ed891b8e76f4341"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/BrcmPatchRAM-3fbb062/BrcmPatchRAM-2.5.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/BrcmPatchRAM-3fbb062/BrcmPatchRAM-2.5.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBuild using package.tool (#5)\n[View on GitHub](https://github.com/acidanthera/BrcmPatchRAM/commit/3fbb0623a3ac4aff1b982c0fa6fe06e88b1827e5) ([browse tree](https://github.com/acidanthera/BrcmPatchRAM/tree/3fbb0623a3ac4aff1b982c0fa6fe06e88b1827e5))\n\n**Hashes**:\n**Debug:**\nBrcmPatchRAM-2.5.5-DEBUG.zip: 685cf9247c168125e08033f272882283303f067d25c57fbb3bc80921a65e5f1c\n**Release:**\nBrcmPatchRAM-2.5.5-RELEASE.zip: f8609cea4dd91c6f9c82959b6b6eb85db186961d7ea42c804ed891b8e76f4341",
+          "id": 32125812,
+          "url": "https://github.com/dortania/build-repo/releases/tag/BrcmPatchRAM-3fbb062"
+        },
+        "source": "built",
+        "version": "2.5.5"
+      }
+    ]
+  },
   "CPUFriend": {
     "type": "Kext",
     "versions": [
