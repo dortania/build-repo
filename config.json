@@ -4814,6 +4814,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "164070c756e74f7fa88dc574713c1b034fd66d30",
+          "tree_url": "https://github.com/acidanthera/CPUFriend/tree/164070c756e74f7fa88dc574713c1b034fd66d30",
+          "url": "https://github.com/acidanthera/CPUFriend/commit/164070c756e74f7fa88dc574713c1b034fd66d30"
+        },
+        "dateadded": "2020-10-05T17:32:41.829767+00:00",
+        "datecommitted": "2020-10-05T17:12:26+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "a8152af9de16f6d7c34b46f21e506d05a4a49f7be2545a6d56ae2dc35b5a5285"
+          },
+          "release": {
+            "sha256": "9065bd742dc6674feea59435c9197be152f7516fef1ae1c887c6c5f9825785dd"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/CPUFriend-164070c/CPUFriend-1.2.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/CPUFriend-164070c/CPUFriend-1.2.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/CPUFriend/commit/164070c756e74f7fa88dc574713c1b034fd66d30) ([browse tree](https://github.com/acidanthera/CPUFriend/tree/164070c756e74f7fa88dc574713c1b034fd66d30))\n\n**Hashes**:\n**Debug:**\nCPUFriend-1.2.3-DEBUG.zip: a8152af9de16f6d7c34b46f21e506d05a4a49f7be2545a6d56ae2dc35b5a5285\n**Release:**\nCPUFriend-1.2.3-RELEASE.zip: 9065bd742dc6674feea59435c9197be152f7516fef1ae1c887c6c5f9825785dd",
+          "id": 32179004,
+          "url": "https://github.com/dortania/build-repo/releases/tag/CPUFriend-164070c"
+        },
+        "source": "built",
+        "version": "1.2.3"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "aaac1d4e70236360d357d94faa7f0809c83642b1",
           "tree_url": "https://github.com/acidanthera/CPUFriend/tree/aaac1d4e70236360d357d94faa7f0809c83642b1",
