@@ -46721,6 +46721,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "562b59121a56d8b02465ed0728d4b5509b80cdbb",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/562b59121a56d8b02465ed0728d4b5509b80cdbb",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/562b59121a56d8b02465ed0728d4b5509b80cdbb"
+        },
+        "dateadded": "2020-10-05T18:36:05.875689+00:00",
+        "datecommitted": "2020-10-05T17:16:59+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-562b591/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43"
+          },
+          "debug": {
+            "sha256": "4425ddf7fd383c94b6808e3e01a93bccf1aff24c216b40f7a896dd65311362d7"
+          },
+          "release": {
+            "sha256": "9911bf9dafb6f3009a141667e1876d2d368fcdbd40b3abdca86b953e604a1dd9"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-562b591/WhateverGreen-1.4.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-562b591/WhateverGreen-1.4.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/562b59121a56d8b02465ed0728d4b5509b80cdbb) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/562b59121a56d8b02465ed0728d4b5509b80cdbb))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.4-DEBUG.zip: 4425ddf7fd383c94b6808e3e01a93bccf1aff24c216b40f7a896dd65311362d7\n**Release:**\nWhateverGreen-1.4.4-RELEASE.zip: 9911bf9dafb6f3009a141667e1876d2d368fcdbd40b3abdca86b953e604a1dd9\n**Extras:**\nSSDT-PNLF.aml: c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43",
+          "id": 32181530,
+          "url": "https://github.com/dortania/build-repo/releases/tag/WhateverGreen-562b591"
+        },
+        "source": "built",
+        "version": "1.4.4"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "e5b3aff3a6b6d9de937085589a9383a3fd7ac777",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/e5b3aff3a6b6d9de937085589a9383a3fd7ac777",
