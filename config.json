@@ -5201,6 +5201,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "0e17c79e6d08fab01bf32be8c66a2f518be63c94",
+          "tree_url": "https://github.com/acidanthera/DebugEnhancer/tree/0e17c79e6d08fab01bf32be8c66a2f518be63c94",
+          "url": "https://github.com/acidanthera/DebugEnhancer/commit/0e17c79e6d08fab01bf32be8c66a2f518be63c94"
+        },
+        "dateadded": "2020-10-05T17:38:41.780562+00:00",
+        "datecommitted": "2020-10-05T17:10:51+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "0dcecf306148f4c8dfad0300f195e288b79e14bdc8789fd1fa462b5157ecba25"
+          },
+          "release": {
+            "sha256": "33c3c1cdd6774daeb6463c4e9c7a2c2be9ab3d9df710dde53fcd8d734b585a17"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-0e17c79/DebugEnhancer-1.0.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/DebugEnhancer-0e17c79/DebugEnhancer-1.0.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/DebugEnhancer/commit/0e17c79e6d08fab01bf32be8c66a2f518be63c94) ([browse tree](https://github.com/acidanthera/DebugEnhancer/tree/0e17c79e6d08fab01bf32be8c66a2f518be63c94))\n\n**Hashes**:\n**Debug:**\nDebugEnhancer-1.0.3-DEBUG.zip: 0dcecf306148f4c8dfad0300f195e288b79e14bdc8789fd1fa462b5157ecba25\n**Release:**\nDebugEnhancer-1.0.3-RELEASE.zip: 33c3c1cdd6774daeb6463c4e9c7a2c2be9ab3d9df710dde53fcd8d734b585a17",
+          "id": 32179240,
+          "url": "https://github.com/dortania/build-repo/releases/tag/DebugEnhancer-0e17c79"
+        },
+        "source": "built",
+        "version": "1.0.3"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "b3751d233f05760b9700bb0b4b912485e9d6b11b",
           "tree_url": "https://github.com/acidanthera/DebugEnhancer/tree/b3751d233f05760b9700bb0b4b912485e9d6b11b",
