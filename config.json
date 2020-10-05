@@ -1024,6 +1024,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add ALC269VC LayoutID24 for Hasee U45S1 by zero816 (#604)\n\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Update Info.plist\r\n\r\n* Update Info.plist",
+          "sha": "1a6b12b88361c0a48f671ada2bc5950bc3a68769",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/1a6b12b88361c0a48f671ada2bc5950bc3a68769",
+          "url": "https://github.com/acidanthera/AppleALC/commit/1a6b12b88361c0a48f671ada2bc5950bc3a68769"
+        },
+        "dateadded": "2020-10-05T14:48:02.929499+00:00",
+        "datecommitted": "2020-10-05T14:42:53+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "e3054636dd7dacc2a011e3b0fc55ca5948cae3bcf7db874ead79a0e9c17b0d09"
+          },
+          "release": {
+            "sha256": "5a06dc163f95d86f1870bd9c4d61f94e216e59c1719c9f9e654ab8e4675d2927"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-1a6b12b/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-1a6b12b/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd ALC269VC LayoutID24 for Hasee U45S1 by zero816 (#604)\n\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Update Info.plist\r\n\r\n* Update Info.plist\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/1a6b12b88361c0a48f671ada2bc5950bc3a68769) ([browse tree](https://github.com/acidanthera/AppleALC/tree/1a6b12b88361c0a48f671ada2bc5950bc3a68769))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: e3054636dd7dacc2a011e3b0fc55ca5948cae3bcf7db874ead79a0e9c17b0d09\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 5a06dc163f95d86f1870bd9c4d61f94e216e59c1719c9f9e654ab8e4675d2927",
+          "id": 32171332,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-1a6b12b"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "ffd77eaeeb361dc62a0a88f3d2bf16a2e7439d27",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/ffd77eaeeb361dc62a0a88f3d2bf16a2e7439d27",
