@@ -5705,6 +5705,35 @@
       {
         "commit": {
           "message": "Bump version",
+          "sha": "337b1217e7f5df887765ab068e1f808808d5aea9",
+          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/337b1217e7f5df887765ab068e1f808808d5aea9",
+          "url": "https://github.com/acidanthera/IntelMausi/commit/337b1217e7f5df887765ab068e1f808808d5aea9"
+        },
+        "dateadded": "2020-10-05T17:40:29.950200+00:00",
+        "datecommitted": "2020-10-05T17:07:05+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "906562b91c27bf8059d4faa430b499fddc4b263c05dd10e2a933a11535ff6f20"
+          },
+          "release": {
+            "sha256": "d5dc5d204b6003d0d6ba343ef21b568438702bd94527a223a339bf2abd1a3d1e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-337b121/IntelMausi-1.0.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-337b121/IntelMausi-1.0.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/337b1217e7f5df887765ab068e1f808808d5aea9) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/337b1217e7f5df887765ab068e1f808808d5aea9))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.5-DEBUG.zip: 906562b91c27bf8059d4faa430b499fddc4b263c05dd10e2a933a11535ff6f20\n**Release:**\nIntelMausi-1.0.5-RELEASE.zip: d5dc5d204b6003d0d6ba343ef21b568438702bd94527a223a339bf2abd1a3d1e",
+          "id": 32179312,
+          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-337b121"
+        },
+        "source": "built",
+        "version": "1.0.5"
+      },
+      {
+        "commit": {
+          "message": "Bump version",
           "sha": "5ffedea3f94afd80e6417ea1948e384e9a1e0f62",
           "tree_url": "https://github.com/acidanthera/IntelMausi/tree/5ffedea3f94afd80e6417ea1948e384e9a1e0f62",
           "url": "https://github.com/acidanthera/IntelMausi/commit/5ffedea3f94afd80e6417ea1948e384e9a1e0f62"
