@@ -1024,6 +1024,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Correct layout 13 for IDT92HD87B2/4 (#607)\n\nCo-authored-by: Nguyenhung9x Developer <35420114+nguyenhung9x2018@users.noreply.github.com>",
+          "sha": "0c711044a78597565533df5e8ec8cdda12dda6f8",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/0c711044a78597565533df5e8ec8cdda12dda6f8",
+          "url": "https://github.com/acidanthera/AppleALC/commit/0c711044a78597565533df5e8ec8cdda12dda6f8"
+        },
+        "dateadded": "2020-10-05T15:00:56.577601+00:00",
+        "datecommitted": "2020-10-05T14:50:31+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f6b52c54f33bc33323af50d6075418cfaae0793b77fbbe21b00b333cc3e215dc"
+          },
+          "release": {
+            "sha256": "942f36c536bf9914b57da514dbc80ebd32210aebde7f645d009bb8dbe8017966"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-0c71104/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-0c71104/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nCorrect layout 13 for IDT92HD87B2/4 (#607)\n\nCo-authored-by: Nguyenhung9x Developer <35420114+nguyenhung9x2018@users.noreply.github.com>\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/0c711044a78597565533df5e8ec8cdda12dda6f8) ([browse tree](https://github.com/acidanthera/AppleALC/tree/0c711044a78597565533df5e8ec8cdda12dda6f8))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: f6b52c54f33bc33323af50d6075418cfaae0793b77fbbe21b00b333cc3e215dc\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 942f36c536bf9914b57da514dbc80ebd32210aebde7f645d009bb8dbe8017966",
+          "id": 32172044,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-0c71104"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "4dfd960f4add5b85c5aeb41c2727d7ad27227c3d",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/4dfd960f4add5b85c5aeb41c2727d7ad27227c3d",
