@@ -5380,35 +5380,6 @@
     "versions": [
       {
         "commit": {
-          "message": "Bump version",
-          "sha": "852ad445509537ad30a2c321ef84cbbf5849e49b",
-          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/852ad445509537ad30a2c321ef84cbbf5849e49b",
-          "url": "https://github.com/acidanthera/HibernationFixup/commit/852ad445509537ad30a2c321ef84cbbf5849e49b"
-        },
-        "dateadded": "2020-10-05T17:39:26.226233+00:00",
-        "datecommitted": "2020-10-05T17:14:30+00:00",
-        "hashes": {
-          "debug": {
-            "sha256": "ee1f08f46cca43a3e592272c0ce794c00b7e8ffa9e9015ffbca0e853a718a2b6"
-          },
-          "release": {
-            "sha256": "fe5baef81957ff32127db86b556f0e4c6088121fc3241a69765772eae59dda6f"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-852ad44/HibernationFixup-1.3.7-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-852ad44/HibernationFixup-1.3.7-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/852ad445509537ad30a2c321ef84cbbf5849e49b) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/852ad445509537ad30a2c321ef84cbbf5849e49b))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.7-DEBUG.zip: ee1f08f46cca43a3e592272c0ce794c00b7e8ffa9e9015ffbca0e853a718a2b6\n**Release:**\nHibernationFixup-1.3.7-RELEASE.zip: fe5baef81957ff32127db86b556f0e4c6088121fc3241a69765772eae59dda6f",
-          "id": 32179275,
-          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-852ad44"
-        },
-        "source": "built",
-        "version": "1.3.7"
-      },
-      {
-        "commit": {
           "message": "Sync changelog",
           "sha": "6673583e98a0ea077586f002cddf5edf63d378ac",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/6673583e98a0ea077586f002cddf5edf63d378ac",
@@ -5432,6 +5403,35 @@
           "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/6673583e98a0ea077586f002cddf5edf63d378ac) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/6673583e98a0ea077586f002cddf5edf63d378ac))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.7-DEBUG.zip: 4c38bf10a68bba479dc11bb1a53b1edee136a85933518a72ef3a41ffad39b49a\n**Release:**\nHibernationFixup-1.3.7-RELEASE.zip: 2a0de2aff48674bb7c2fe67f0b8b51c09b24569a8f67fe8d511d65d3cd50ebf6",
           "id": 32179258,
           "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-6673583"
+        },
+        "source": "built",
+        "version": "1.3.7"
+      },
+      {
+        "commit": {
+          "message": "Bump version",
+          "sha": "852ad445509537ad30a2c321ef84cbbf5849e49b",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/852ad445509537ad30a2c321ef84cbbf5849e49b",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/852ad445509537ad30a2c321ef84cbbf5849e49b"
+        },
+        "dateadded": "2020-10-05T17:39:26.226233+00:00",
+        "datecommitted": "2020-10-05T17:14:30+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "ee1f08f46cca43a3e592272c0ce794c00b7e8ffa9e9015ffbca0e853a718a2b6"
+          },
+          "release": {
+            "sha256": "fe5baef81957ff32127db86b556f0e4c6088121fc3241a69765772eae59dda6f"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-852ad44/HibernationFixup-1.3.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-852ad44/HibernationFixup-1.3.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/852ad445509537ad30a2c321ef84cbbf5849e49b) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/852ad445509537ad30a2c321ef84cbbf5849e49b))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.7-DEBUG.zip: ee1f08f46cca43a3e592272c0ce794c00b7e8ffa9e9015ffbca0e853a718a2b6\n**Release:**\nHibernationFixup-1.3.7-RELEASE.zip: fe5baef81957ff32127db86b556f0e4c6088121fc3241a69765772eae59dda6f",
+          "id": 32179275,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-852ad44"
         },
         "source": "built",
         "version": "1.3.7"
@@ -5705,35 +5705,6 @@
       {
         "commit": {
           "message": "Bump version",
-          "sha": "337b1217e7f5df887765ab068e1f808808d5aea9",
-          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/337b1217e7f5df887765ab068e1f808808d5aea9",
-          "url": "https://github.com/acidanthera/IntelMausi/commit/337b1217e7f5df887765ab068e1f808808d5aea9"
-        },
-        "dateadded": "2020-10-05T17:40:29.950200+00:00",
-        "datecommitted": "2020-10-05T17:07:05+00:00",
-        "hashes": {
-          "debug": {
-            "sha256": "906562b91c27bf8059d4faa430b499fddc4b263c05dd10e2a933a11535ff6f20"
-          },
-          "release": {
-            "sha256": "d5dc5d204b6003d0d6ba343ef21b568438702bd94527a223a339bf2abd1a3d1e"
-          }
-        },
-        "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-337b121/IntelMausi-1.0.5-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-337b121/IntelMausi-1.0.5-RELEASE.zip"
-        },
-        "release": {
-          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/337b1217e7f5df887765ab068e1f808808d5aea9) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/337b1217e7f5df887765ab068e1f808808d5aea9))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.5-DEBUG.zip: 906562b91c27bf8059d4faa430b499fddc4b263c05dd10e2a933a11535ff6f20\n**Release:**\nIntelMausi-1.0.5-RELEASE.zip: d5dc5d204b6003d0d6ba343ef21b568438702bd94527a223a339bf2abd1a3d1e",
-          "id": 32179312,
-          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-337b121"
-        },
-        "source": "built",
-        "version": "1.0.5"
-      },
-      {
-        "commit": {
-          "message": "Bump version",
           "sha": "5ffedea3f94afd80e6417ea1948e384e9a1e0f62",
           "tree_url": "https://github.com/acidanthera/IntelMausi/tree/5ffedea3f94afd80e6417ea1948e384e9a1e0f62",
           "url": "https://github.com/acidanthera/IntelMausi/commit/5ffedea3f94afd80e6417ea1948e384e9a1e0f62"
@@ -5756,6 +5727,35 @@
           "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/5ffedea3f94afd80e6417ea1948e384e9a1e0f62) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/5ffedea3f94afd80e6417ea1948e384e9a1e0f62))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.5-DEBUG.zip: e34d9f0c2f388dce57f3e4b2744bd15edf521c06bb096dcab7b0a108e9a44086\n**Release:**\nIntelMausi-1.0.5-RELEASE.zip: 02a5802c11e49452c167cdc230e5bc410b76f567b8da7133bde1e2a638075bcc",
           "id": 32179295,
           "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-5ffedea"
+        },
+        "source": "built",
+        "version": "1.0.5"
+      },
+      {
+        "commit": {
+          "message": "Bump version",
+          "sha": "337b1217e7f5df887765ab068e1f808808d5aea9",
+          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/337b1217e7f5df887765ab068e1f808808d5aea9",
+          "url": "https://github.com/acidanthera/IntelMausi/commit/337b1217e7f5df887765ab068e1f808808d5aea9"
+        },
+        "dateadded": "2020-10-05T17:40:29.950200+00:00",
+        "datecommitted": "2020-10-05T17:07:05+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "906562b91c27bf8059d4faa430b499fddc4b263c05dd10e2a933a11535ff6f20"
+          },
+          "release": {
+            "sha256": "d5dc5d204b6003d0d6ba343ef21b568438702bd94527a223a339bf2abd1a3d1e"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-337b121/IntelMausi-1.0.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-337b121/IntelMausi-1.0.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/337b1217e7f5df887765ab068e1f808808d5aea9) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/337b1217e7f5df887765ab068e1f808808d5aea9))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.5-DEBUG.zip: 906562b91c27bf8059d4faa430b499fddc4b263c05dd10e2a933a11535ff6f20\n**Release:**\nIntelMausi-1.0.5-RELEASE.zip: d5dc5d204b6003d0d6ba343ef21b568438702bd94527a223a339bf2abd1a3d1e",
+          "id": 32179312,
+          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-337b121"
         },
         "source": "built",
         "version": "1.0.5"
