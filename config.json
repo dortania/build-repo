@@ -46131,6 +46131,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "a5d2997e2be9449ad3322ff1ae4bd0391fab537a",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/a5d2997e2be9449ad3322ff1ae4bd0391fab537a",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/a5d2997e2be9449ad3322ff1ae4bd0391fab537a"
+        },
+        "dateadded": "2020-10-05T18:35:24.461623+00:00",
+        "datecommitted": "2020-10-05T17:01:58+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f92a664baea53ba527dd6082583dbc997edb1ac8896e90abd3e6b7b142fdca29"
+          },
+          "release": {
+            "sha256": "04f67f5449dbdf623cf74f7bd006426ac716f9af81b2346740d2737586c0557a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-a5d2997/VoodooPS2Controller-2.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-a5d2997/VoodooPS2Controller-2.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/a5d2997e2be9449ad3322ff1ae4bd0391fab537a) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/a5d2997e2be9449ad3322ff1ae4bd0391fab537a))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.8-DEBUG.zip: f92a664baea53ba527dd6082583dbc997edb1ac8896e90abd3e6b7b142fdca29\n**Release:**\nVoodooPS2Controller-2.1.8-RELEASE.zip: 04f67f5449dbdf623cf74f7bd006426ac716f9af81b2346740d2737586c0557a",
+          "id": 32181508,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-a5d2997"
+        },
+        "source": "built",
+        "version": "2.1.8"
+      },
+      {
+        "commit": {
           "message": "Improve key time dispatch (#30)",
           "sha": "bcc187d4017e04605884c5ec86c1bbbfbe81b5ff",
           "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/bcc187d4017e04605884c5ec86c1bbbfbe81b5ff",
