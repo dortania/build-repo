@@ -6028,6 +6028,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "3b302dc0d972b8cf89c19569dfbea75a16b3c51a",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/3b302dc0d972b8cf89c19569dfbea75a16b3c51a",
+          "url": "https://github.com/acidanthera/Lilu/commit/3b302dc0d972b8cf89c19569dfbea75a16b3c51a"
+        },
+        "dateadded": "2020-10-05T17:41:05.298431+00:00",
+        "datecommitted": "2020-10-05T17:19:00+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "b5949242702941a367cec4cfcfba86980ba5ac2723f131c99ab88f3502dda887"
+          },
+          "release": {
+            "sha256": "5f9cb76865fcbddd9e0ec2d1fda11e72075c8315674cd6b5ead386bab47f69a4"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-3b302dc/Lilu-1.4.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-3b302dc/Lilu-1.4.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/3b302dc0d972b8cf89c19569dfbea75a16b3c51a) ([browse tree](https://github.com/acidanthera/Lilu/tree/3b302dc0d972b8cf89c19569dfbea75a16b3c51a))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.9-DEBUG.zip: b5949242702941a367cec4cfcfba86980ba5ac2723f131c99ab88f3502dda887\n**Release:**\nLilu-1.4.9-RELEASE.zip: 5f9cb76865fcbddd9e0ec2d1fda11e72075c8315674cd6b5ead386bab47f69a4",
+          "id": 32179338,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-3b302dc"
+        },
+        "source": "built",
+        "version": "1.4.9"
+      },
+      {
+        "commit": {
           "message": "Drop BT4LEContinuityFixup",
           "sha": "89af9d3df5c1bcd91ffb8905d56be61003cc8c84",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/89af9d3df5c1bcd91ffb8905d56be61003cc8c84",
