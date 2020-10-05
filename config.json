@@ -5704,6 +5704,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "5ffedea3f94afd80e6417ea1948e384e9a1e0f62",
+          "tree_url": "https://github.com/acidanthera/IntelMausi/tree/5ffedea3f94afd80e6417ea1948e384e9a1e0f62",
+          "url": "https://github.com/acidanthera/IntelMausi/commit/5ffedea3f94afd80e6417ea1948e384e9a1e0f62"
+        },
+        "dateadded": "2020-10-05T17:39:57.455771+00:00",
+        "datecommitted": "2020-10-05T17:08:50+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "e34d9f0c2f388dce57f3e4b2744bd15edf521c06bb096dcab7b0a108e9a44086"
+          },
+          "release": {
+            "sha256": "02a5802c11e49452c167cdc230e5bc410b76f567b8da7133bde1e2a638075bcc"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/IntelMausi-5ffedea/IntelMausi-1.0.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/IntelMausi-5ffedea/IntelMausi-1.0.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/IntelMausi/commit/5ffedea3f94afd80e6417ea1948e384e9a1e0f62) ([browse tree](https://github.com/acidanthera/IntelMausi/tree/5ffedea3f94afd80e6417ea1948e384e9a1e0f62))\n\n**Hashes**:\n**Debug:**\nIntelMausi-1.0.5-DEBUG.zip: e34d9f0c2f388dce57f3e4b2744bd15edf521c06bb096dcab7b0a108e9a44086\n**Release:**\nIntelMausi-1.0.5-RELEASE.zip: 02a5802c11e49452c167cdc230e5bc410b76f567b8da7133bde1e2a638075bcc",
+          "id": 32179295,
+          "url": "https://github.com/dortania/build-repo/releases/tag/IntelMausi-5ffedea"
+        },
+        "source": "built",
+        "version": "1.0.5"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "92d44bd2bd9e42db2fe3947fe5c635b7aa44df3b",
           "tree_url": "https://github.com/acidanthera/IntelMausi/tree/92d44bd2bd9e42db2fe3947fe5c635b7aa44df3b",
