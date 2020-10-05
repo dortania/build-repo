@@ -45894,6 +45894,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "8a5ab689a3cb953ab2c43f5d83b85bdca6d49ec9",
+          "tree_url": "https://github.com/acidanthera/VoodooInput/tree/8a5ab689a3cb953ab2c43f5d83b85bdca6d49ec9",
+          "url": "https://github.com/acidanthera/VoodooInput/commit/8a5ab689a3cb953ab2c43f5d83b85bdca6d49ec9"
+        },
+        "dateadded": "2020-10-05T17:43:16.305521+00:00",
+        "datecommitted": "2020-10-05T17:04:37+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "8a69e7d12a5304fd581481a0bbd72ad3f49d12de6fc3c482e4d286e35780ee7f"
+          },
+          "release": {
+            "sha256": "f627e3b445e3509338de8e47a4859a54f7ff429a28e9f8858572397c507b25d8"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooInput-8a5ab68/VoodooInput-1.0.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooInput-8a5ab68/VoodooInput-1.0.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/VoodooInput/commit/8a5ab689a3cb953ab2c43f5d83b85bdca6d49ec9) ([browse tree](https://github.com/acidanthera/VoodooInput/tree/8a5ab689a3cb953ab2c43f5d83b85bdca6d49ec9))\n\n**Hashes**:\n**Debug:**\nVoodooInput-1.0.9-DEBUG.zip: 8a69e7d12a5304fd581481a0bbd72ad3f49d12de6fc3c482e4d286e35780ee7f\n**Release:**\nVoodooInput-1.0.9-RELEASE.zip: f627e3b445e3509338de8e47a4859a54f7ff429a28e9f8858572397c507b25d8",
+          "id": 32179426,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooInput-8a5ab68"
+        },
+        "source": "built",
+        "version": "1.0.9"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "f91b79de9207bfa1273a2acf0981fe88f4ddd069",
           "tree_url": "https://github.com/acidanthera/VoodooInput/tree/f91b79de9207bfa1273a2acf0981fe88f4ddd069",
