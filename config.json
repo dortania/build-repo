@@ -43733,6 +43733,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "240d95f5ebd586b3af612fd6a53f4a0ac605e541",
+          "tree_url": "https://github.com/acidanthera/RTCMemoryFixup/tree/240d95f5ebd586b3af612fd6a53f4a0ac605e541",
+          "url": "https://github.com/acidanthera/RTCMemoryFixup/commit/240d95f5ebd586b3af612fd6a53f4a0ac605e541"
+        },
+        "dateadded": "2020-10-05T17:41:52.173139+00:00",
+        "datecommitted": "2020-10-05T17:13:42+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9771a35e140077de279e94baca8ec0244084cd3bbeaf10a55b3e0824c64d946a"
+          },
+          "release": {
+            "sha256": "81bc890523782f7fd7a146ddd6bf020fd0bcb3f89f8170145f5f753a609ba12f"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-240d95f/RTCMemoryFixup-1.0.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/RTCMemoryFixup-240d95f/RTCMemoryFixup-1.0.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/RTCMemoryFixup/commit/240d95f5ebd586b3af612fd6a53f4a0ac605e541) ([browse tree](https://github.com/acidanthera/RTCMemoryFixup/tree/240d95f5ebd586b3af612fd6a53f4a0ac605e541))\n\n**Hashes**:\n**Debug:**\nRTCMemoryFixup-1.0.8-DEBUG.zip: 9771a35e140077de279e94baca8ec0244084cd3bbeaf10a55b3e0824c64d946a\n**Release:**\nRTCMemoryFixup-1.0.8-RELEASE.zip: 81bc890523782f7fd7a146ddd6bf020fd0bcb3f89f8170145f5f753a609ba12f",
+          "id": 32179370,
+          "url": "https://github.com/dortania/build-repo/releases/tag/RTCMemoryFixup-240d95f"
+        },
+        "source": "built",
+        "version": "1.0.8"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "828bb1342e01419247f3f1ac28a35abee78207c8",
           "tree_url": "https://github.com/acidanthera/RTCMemoryFixup/tree/828bb1342e01419247f3f1ac28a35abee78207c8",
