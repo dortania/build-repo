@@ -44004,6 +44004,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "90fda6cf756ec17446a4cfb5c92d1e9a23296771",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/90fda6cf756ec17446a4cfb5c92d1e9a23296771",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/90fda6cf756ec17446a4cfb5c92d1e9a23296771"
+        },
+        "dateadded": "2020-10-05T17:42:52.362875+00:00",
+        "datecommitted": "2020-10-05T17:16:09+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9d336392a484a42b951f9a861109b115e83ab80e7a72811dab023adc9bfddde0"
+          },
+          "release": {
+            "sha256": "742bef1f66ab948f445ccde4589aa7432f6f57065d3d28e435b8fa78f350913a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-90fda6c/VirtualSMC-1.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-90fda6c/VirtualSMC-1.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/90fda6cf756ec17446a4cfb5c92d1e9a23296771) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/90fda6cf756ec17446a4cfb5c92d1e9a23296771))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.8-DEBUG.zip: 9d336392a484a42b951f9a861109b115e83ab80e7a72811dab023adc9bfddde0\n**Release:**\nVirtualSMC-1.1.8-RELEASE.zip: 742bef1f66ab948f445ccde4589aa7432f6f57065d3d28e435b8fa78f350913a",
+          "id": 32179406,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-90fda6c"
+        },
+        "source": "built",
+        "version": "1.1.8"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "2db1cd9481679eaaaf861e26241987431ee49af5",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/2db1cd9481679eaaaf861e26241987431ee49af5",
