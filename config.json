@@ -7976,6 +7976,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "f66a1f4265bffe3c0db58cd07c1f047dac3bdc84",
+          "tree_url": "https://github.com/acidanthera/NVMeFix/tree/f66a1f4265bffe3c0db58cd07c1f047dac3bdc84",
+          "url": "https://github.com/acidanthera/NVMeFix/commit/f66a1f4265bffe3c0db58cd07c1f047dac3bdc84"
+        },
+        "dateadded": "2020-10-05T17:41:30.290687+00:00",
+        "datecommitted": "2020-10-05T17:09:50+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f05f2f04128f4515e71afc0dec625399a2d56fd67d1f71a2accf340fc0e5c2cc"
+          },
+          "release": {
+            "sha256": "6089cb29256f462f04e0009fbaa94b4049ba5ce390c641976ff42d8906f1fba6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/NVMeFix-f66a1f4/NVMeFix-1.0.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/NVMeFix-f66a1f4/NVMeFix-1.0.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/NVMeFix/commit/f66a1f4265bffe3c0db58cd07c1f047dac3bdc84) ([browse tree](https://github.com/acidanthera/NVMeFix/tree/f66a1f4265bffe3c0db58cd07c1f047dac3bdc84))\n\n**Hashes**:\n**Debug:**\nNVMeFix-1.0.5-DEBUG.zip: f05f2f04128f4515e71afc0dec625399a2d56fd67d1f71a2accf340fc0e5c2cc\n**Release:**\nNVMeFix-1.0.5-RELEASE.zip: 6089cb29256f462f04e0009fbaa94b4049ba5ce390c641976ff42d8906f1fba6",
+          "id": 32179354,
+          "url": "https://github.com/dortania/build-repo/releases/tag/NVMeFix-f66a1f4"
+        },
+        "source": "built",
+        "version": "1.0.5"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "0b083c13b808d5e6455902f351b0b5cef164995c",
           "tree_url": "https://github.com/acidanthera/NVMeFix/tree/0b083c13b808d5e6455902f351b0b5cef164995c",
