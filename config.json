@@ -4751,6 +4751,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "e48903e5f1da10b26e467a3c30b05183205395dc",
+          "tree_url": "https://github.com/acidanthera/BrcmPatchRAM/tree/e48903e5f1da10b26e467a3c30b05183205395dc",
+          "url": "https://github.com/acidanthera/BrcmPatchRAM/commit/e48903e5f1da10b26e467a3c30b05183205395dc"
+        },
+        "dateadded": "2020-10-05T17:28:43.903044+00:00",
+        "datecommitted": "2020-10-05T17:05:44+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "6a62dc784061beebe3564bed13844ad412358535699b453e43c5dad2c7cb9b86"
+          },
+          "release": {
+            "sha256": "503dbc4b2123118d1c0a43236495d91229f94ce8ce9cba2d98b9a2c73c476dec"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/BrcmPatchRAM-e48903e/BrcmPatchRAM-2.5.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/BrcmPatchRAM-e48903e/BrcmPatchRAM-2.5.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/BrcmPatchRAM/commit/e48903e5f1da10b26e467a3c30b05183205395dc) ([browse tree](https://github.com/acidanthera/BrcmPatchRAM/tree/e48903e5f1da10b26e467a3c30b05183205395dc))\n\n**Hashes**:\n**Debug:**\nBrcmPatchRAM-2.5.6-DEBUG.zip: 6a62dc784061beebe3564bed13844ad412358535699b453e43c5dad2c7cb9b86\n**Release:**\nBrcmPatchRAM-2.5.6-RELEASE.zip: 503dbc4b2123118d1c0a43236495d91229f94ce8ce9cba2d98b9a2c73c476dec",
+          "id": 32178853,
+          "url": "https://github.com/dortania/build-repo/releases/tag/BrcmPatchRAM-e48903e"
+        },
+        "source": "built",
+        "version": "2.5.6"
+      },
+      {
+        "commit": {
           "message": "Build using package.tool (#5)",
           "sha": "3fbb0623a3ac4aff1b982c0fa6fe06e88b1827e5",
           "tree_url": "https://github.com/acidanthera/BrcmPatchRAM/tree/3fbb0623a3ac4aff1b982c0fa6fe06e88b1827e5",
