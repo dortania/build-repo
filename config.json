@@ -1024,29 +1024,29 @@
     "versions": [
       {
         "commit": {
-          "message": "Add layout HP 800 G5 mini (#602)\n\nFix 2 headphone port + mic as Line In",
-          "sha": "153f0142314453eb37e01eded1ebd1115d7b6798",
-          "tree_url": "https://github.com/acidanthera/AppleALC/tree/153f0142314453eb37e01eded1ebd1115d7b6798",
-          "url": "https://github.com/acidanthera/AppleALC/commit/153f0142314453eb37e01eded1ebd1115d7b6798"
+          "message": "Add ALC269VC LayoutID24 for Hasee U45S1 by zero816 (#604)\n\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Update Info.plist\r\n\r\n* Update Info.plist",
+          "sha": "1a6b12b88361c0a48f671ada2bc5950bc3a68769",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/1a6b12b88361c0a48f671ada2bc5950bc3a68769",
+          "url": "https://github.com/acidanthera/AppleALC/commit/1a6b12b88361c0a48f671ada2bc5950bc3a68769"
         },
-        "dateadded": "2020-10-05T14:51:19.391591+00:00",
-        "datecommitted": "2020-10-05T14:39:39+00:00",
+        "dateadded": "2020-10-05T14:48:02.929499+00:00",
+        "datecommitted": "2020-10-05T14:42:53+00:00",
         "hashes": {
           "debug": {
-            "sha256": "c4cdc3caa7243cfba6e04c6a06f0b7b1776c081e71764e532f126da250abc1f9"
+            "sha256": "e3054636dd7dacc2a011e3b0fc55ca5948cae3bcf7db874ead79a0e9c17b0d09"
           },
           "release": {
-            "sha256": "40411ea43a627a496fc6245e28be573eeee922b50e45e362dcc71375344e6d4d"
+            "sha256": "5a06dc163f95d86f1870bd9c4d61f94e216e59c1719c9f9e654ab8e4675d2927"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-153f014/AppleALC-1.5.3-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-153f014/AppleALC-1.5.3-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-1a6b12b/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-1a6b12b/AppleALC-1.5.3-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nAdd layout HP 800 G5 mini (#602)\n\nFix 2 headphone port + mic as Line In\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/153f0142314453eb37e01eded1ebd1115d7b6798) ([browse tree](https://github.com/acidanthera/AppleALC/tree/153f0142314453eb37e01eded1ebd1115d7b6798))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: c4cdc3caa7243cfba6e04c6a06f0b7b1776c081e71764e532f126da250abc1f9\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 40411ea43a627a496fc6245e28be573eeee922b50e45e362dcc71375344e6d4d",
-          "id": 32171506,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-153f014"
+          "description": "**Changes:**\nAdd ALC269VC LayoutID24 for Hasee U45S1 by zero816 (#604)\n\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Update Info.plist\r\n\r\n* Update Info.plist\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/1a6b12b88361c0a48f671ada2bc5950bc3a68769) ([browse tree](https://github.com/acidanthera/AppleALC/tree/1a6b12b88361c0a48f671ada2bc5950bc3a68769))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: e3054636dd7dacc2a011e3b0fc55ca5948cae3bcf7db874ead79a0e9c17b0d09\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 5a06dc163f95d86f1870bd9c4d61f94e216e59c1719c9f9e654ab8e4675d2927",
+          "id": 32171332,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-1a6b12b"
         },
         "source": "built",
         "version": "1.5.3"
@@ -1082,29 +1082,29 @@
       },
       {
         "commit": {
-          "message": "Add ALC269VC LayoutID24 for Hasee U45S1 by zero816 (#604)\n\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Update Info.plist\r\n\r\n* Update Info.plist",
-          "sha": "1a6b12b88361c0a48f671ada2bc5950bc3a68769",
-          "tree_url": "https://github.com/acidanthera/AppleALC/tree/1a6b12b88361c0a48f671ada2bc5950bc3a68769",
-          "url": "https://github.com/acidanthera/AppleALC/commit/1a6b12b88361c0a48f671ada2bc5950bc3a68769"
+          "message": "Add layout HP 800 G5 mini (#602)\n\nFix 2 headphone port + mic as Line In",
+          "sha": "153f0142314453eb37e01eded1ebd1115d7b6798",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/153f0142314453eb37e01eded1ebd1115d7b6798",
+          "url": "https://github.com/acidanthera/AppleALC/commit/153f0142314453eb37e01eded1ebd1115d7b6798"
         },
-        "dateadded": "2020-10-05T14:48:02.929499+00:00",
-        "datecommitted": "2020-10-05T14:42:53+00:00",
+        "dateadded": "2020-10-05T14:51:19.391591+00:00",
+        "datecommitted": "2020-10-05T14:39:39+00:00",
         "hashes": {
           "debug": {
-            "sha256": "e3054636dd7dacc2a011e3b0fc55ca5948cae3bcf7db874ead79a0e9c17b0d09"
+            "sha256": "c4cdc3caa7243cfba6e04c6a06f0b7b1776c081e71764e532f126da250abc1f9"
           },
           "release": {
-            "sha256": "5a06dc163f95d86f1870bd9c4d61f94e216e59c1719c9f9e654ab8e4675d2927"
+            "sha256": "40411ea43a627a496fc6245e28be573eeee922b50e45e362dcc71375344e6d4d"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-1a6b12b/AppleALC-1.5.3-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-1a6b12b/AppleALC-1.5.3-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-153f014/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-153f014/AppleALC-1.5.3-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nAdd ALC269VC LayoutID24 for Hasee U45S1 by zero816 (#604)\n\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Update Info.plist\r\n\r\n* Update Info.plist\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/1a6b12b88361c0a48f671ada2bc5950bc3a68769) ([browse tree](https://github.com/acidanthera/AppleALC/tree/1a6b12b88361c0a48f671ada2bc5950bc3a68769))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: e3054636dd7dacc2a011e3b0fc55ca5948cae3bcf7db874ead79a0e9c17b0d09\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 5a06dc163f95d86f1870bd9c4d61f94e216e59c1719c9f9e654ab8e4675d2927",
-          "id": 32171332,
-          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-1a6b12b"
+          "description": "**Changes:**\nAdd layout HP 800 G5 mini (#602)\n\nFix 2 headphone port + mic as Line In\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/153f0142314453eb37e01eded1ebd1115d7b6798) ([browse tree](https://github.com/acidanthera/AppleALC/tree/153f0142314453eb37e01eded1ebd1115d7b6798))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: c4cdc3caa7243cfba6e04c6a06f0b7b1776c081e71764e532f126da250abc1f9\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 40411ea43a627a496fc6245e28be573eeee922b50e45e362dcc71375344e6d4d",
+          "id": 32171506,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-153f014"
         },
         "source": "built",
         "version": "1.5.3"
