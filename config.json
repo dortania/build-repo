@@ -1024,6 +1024,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add ALC235 for Lenovo TianYi 510s Mini and ALC1150 for Gigabyte GA-Z97X-UD5H by DalianSky (#606)\n\nCo-authored-by: sky <sky@Tianyi-510s-mini.local>",
+          "sha": "4f7f19a0a484e38934ff5e6c7682f289c47c1644",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/4f7f19a0a484e38934ff5e6c7682f289c47c1644",
+          "url": "https://github.com/acidanthera/AppleALC/commit/4f7f19a0a484e38934ff5e6c7682f289c47c1644"
+        },
+        "dateadded": "2020-10-05T15:04:27.419455+00:00",
+        "datecommitted": "2020-10-05T14:47:06+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "d99c7bbc88c1b2bfb7a1060210bbf07e541b6fa29e5c89152a70592ea655afba"
+          },
+          "release": {
+            "sha256": "0eb4c854233503d537ad838e4f587b44827be179f0be4e8010ace03f5166bb2b"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-4f7f19a/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-4f7f19a/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd ALC235 for Lenovo TianYi 510s Mini and ALC1150 for Gigabyte GA-Z97X-UD5H by DalianSky (#606)\n\nCo-authored-by: sky <sky@Tianyi-510s-mini.local>\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/4f7f19a0a484e38934ff5e6c7682f289c47c1644) ([browse tree](https://github.com/acidanthera/AppleALC/tree/4f7f19a0a484e38934ff5e6c7682f289c47c1644))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: d99c7bbc88c1b2bfb7a1060210bbf07e541b6fa29e5c89152a70592ea655afba\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 0eb4c854233503d537ad838e4f587b44827be179f0be4e8010ace03f5166bb2b",
+          "id": 32172235,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-4f7f19a"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "601f618313fba38d05cf54bba91d2ec1d5913fb8",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/601f618313fba38d05cf54bba91d2ec1d5913fb8",
