@@ -4,6 +4,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "27adce5b28957840c3aa8c68384c2d7b2b2ff693",
+          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/27adce5b28957840c3aa8c68384c2d7b2b2ff693",
+          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/27adce5b28957840c3aa8c68384c2d7b2b2ff693"
+        },
+        "dateadded": "2020-10-05T17:26:03.233772+00:00",
+        "datecommitted": "2020-10-05T17:15:18+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "2db2550a63c4b478663ed348d51a01058029157d9f2996322b99292fa692f878"
+          },
+          "release": {
+            "sha256": "bf5e4a7ddd61fb778368fb0202dbc65400040d6ac4da27dabacc4c8d8efc0a68"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-27adce5/AirportBrcmFixup-2.1.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-27adce5/AirportBrcmFixup-2.1.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/27adce5b28957840c3aa8c68384c2d7b2b2ff693) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/27adce5b28957840c3aa8c68384c2d7b2b2ff693))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.1.1-DEBUG.zip: 2db2550a63c4b478663ed348d51a01058029157d9f2996322b99292fa692f878\n**Release:**\nAirportBrcmFixup-2.1.1-RELEASE.zip: bf5e4a7ddd61fb778368fb0202dbc65400040d6ac4da27dabacc4c8d8efc0a68",
+          "id": 32178752,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-27adce5"
+        },
+        "source": "built",
+        "version": "2.1.1"
+      },
+      {
+        "commit": {
           "message": "Build: Added -jobs 1",
           "sha": "031e62570caef1264e2cd37a9a38d7663ffba780",
           "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/031e62570caef1264e2cd37a9a38d7663ffba780",
