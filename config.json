@@ -1024,6 +1024,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "4dfd960f4add5b85c5aeb41c2727d7ad27227c3d",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/4dfd960f4add5b85c5aeb41c2727d7ad27227c3d",
+          "url": "https://github.com/acidanthera/AppleALC/commit/4dfd960f4add5b85c5aeb41c2727d7ad27227c3d"
+        },
+        "dateadded": "2020-10-05T14:59:11.306341+00:00",
+        "datecommitted": "2020-10-05T14:51:35+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "80f397b7cf41aafc5096e553ac594174678041dbe7b37305edce5d410dca9a11"
+          },
+          "release": {
+            "sha256": "8704c955dba12dc967f60d2b8a0aff1b4a6487ce275f8ff1f805cbabff3c876b"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-4dfd960/AppleALC-1.5.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-4dfd960/AppleALC-1.5.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/4dfd960f4add5b85c5aeb41c2727d7ad27227c3d) ([browse tree](https://github.com/acidanthera/AppleALC/tree/4dfd960f4add5b85c5aeb41c2727d7ad27227c3d))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.3-DEBUG.zip: 80f397b7cf41aafc5096e553ac594174678041dbe7b37305edce5d410dca9a11\n**Release:**\nAppleALC-1.5.3-RELEASE.zip: 8704c955dba12dc967f60d2b8a0aff1b4a6487ce275f8ff1f805cbabff3c876b",
+          "id": 32171951,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-4dfd960"
+        },
+        "source": "built",
+        "version": "1.5.3"
+      },
+      {
+        "commit": {
           "message": "Add ALC269VC LayoutID24 for Hasee U45S1 by zero816 (#604)\n\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Add ALC269VC LayoutID24 for Hasee U45S1 by zero816\r\n\r\n* Update Info.plist\r\n\r\n* Update Info.plist",
           "sha": "1a6b12b88361c0a48f671ada2bc5950bc3a68769",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/1a6b12b88361c0a48f671ada2bc5950bc3a68769",
