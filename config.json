@@ -5022,6 +5022,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "0f0d4fdad305c60c960bdd5f9908f14f7f8fcf2a",
+          "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/0f0d4fdad305c60c960bdd5f9908f14f7f8fcf2a",
+          "url": "https://github.com/acidanthera/CpuTscSync/commit/0f0d4fdad305c60c960bdd5f9908f14f7f8fcf2a"
+        },
+        "dateadded": "2020-10-05T17:38:11.126369+00:00",
+        "datecommitted": "2020-10-05T17:03:19+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "7bb592a838736a55e0b772d724fa75972e831435029ae3118943176546f5ea87"
+          },
+          "release": {
+            "sha256": "a0e0ea0db0872d3a0dd9e56d9c8ffabae91c784ea57180c53f38715127855973"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-0f0d4fd/CpuTscSync-1.0.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/CpuTscSync-0f0d4fd/CpuTscSync-1.0.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/CpuTscSync/commit/0f0d4fdad305c60c960bdd5f9908f14f7f8fcf2a) ([browse tree](https://github.com/acidanthera/CpuTscSync/tree/0f0d4fdad305c60c960bdd5f9908f14f7f8fcf2a))\n\n**Hashes**:\n**Debug:**\nCpuTscSync-1.0.4-DEBUG.zip: 7bb592a838736a55e0b772d724fa75972e831435029ae3118943176546f5ea87\n**Release:**\nCpuTscSync-1.0.4-RELEASE.zip: a0e0ea0db0872d3a0dd9e56d9c8ffabae91c784ea57180c53f38715127855973",
+          "id": 32179222,
+          "url": "https://github.com/dortania/build-repo/releases/tag/CpuTscSync-0f0d4fd"
+        },
+        "source": "built",
+        "version": "1.0.4"
+      },
+      {
+        "commit": {
           "message": "Add missing entry point",
           "sha": "356b950809416dbd2972cc3597966d268ff22eaa",
           "tree_url": "https://github.com/acidanthera/CpuTscSync/tree/356b950809416dbd2972cc3597966d268ff22eaa",
