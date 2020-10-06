@@ -8769,6 +8769,85 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version to 0.6.3",
+          "sha": "37c16f2577a6bfbbfadbdf6439e3b7d1a10f5905",
+          "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/37c16f2577a6bfbbfadbdf6439e3b7d1a10f5905",
+          "url": "https://github.com/acidanthera/OpenCorePkg/commit/37c16f2577a6bfbbfadbdf6439e3b7d1a10f5905"
+        },
+        "dateadded": "2020-10-06T18:47:44.572796+00:00",
+        "datecommitted": "2020-10-06T18:30:22+00:00",
+        "extras": {
+          "SSDT-ALS0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-ALS0.aml",
+          "SSDT-AWAC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-AWAC.aml",
+          "SSDT-BRG0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-BRG0.aml",
+          "SSDT-EC-USBX.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-EC-USBX.aml",
+          "SSDT-EC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-EC.aml",
+          "SSDT-EHCx_OFF.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-EHCx_OFF.aml",
+          "SSDT-IMEI.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-IMEI.aml",
+          "SSDT-PLUG.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-PLUG.aml",
+          "SSDT-PMC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-PMC.aml",
+          "SSDT-RTC0-RANGE.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-RTC0-RANGE.aml",
+          "SSDT-RTC0.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-RTC0.aml",
+          "SSDT-SBUS-MCHC.aml": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/SSDT-SBUS-MCHC.aml"
+        },
+        "hashes": {
+          "SSDT-ALS0.aml": {
+            "sha256": "894dd2fdd140da4076c757a1c0431f8caeea0478ac04851e28f870013524452b"
+          },
+          "SSDT-AWAC.aml": {
+            "sha256": "f6f901791eceb51bf56d690793baecf7d61a49d76607d8cf92c67816d0eb1202"
+          },
+          "SSDT-BRG0.aml": {
+            "sha256": "037c7ce067c8bf5f60ddc105a8b9e8557ed79cb6b1db5440541ecd04c2cd8b12"
+          },
+          "SSDT-EC-USBX.aml": {
+            "sha256": "c5529aa3717c6563b611504e7d4fb521a016484cf9805c4654dbd00c4054622a"
+          },
+          "SSDT-EC.aml": {
+            "sha256": "f92b4102575725ad6a902fbb93512c3bce2ad17892b4c711c9ac7c0177773a3f"
+          },
+          "SSDT-EHCx_OFF.aml": {
+            "sha256": "3af2b4123e0e8e2818fdbc5473a5631abc7fef95bac03aa2ddeb90bdff1e91b1"
+          },
+          "SSDT-IMEI.aml": {
+            "sha256": "cb8ccc19f222c557b7dc860a6b8a1a931613e8ba5e1be2d5fda65af8a7205db4"
+          },
+          "SSDT-PLUG.aml": {
+            "sha256": "640a130bb31ba50de01be6c63a95629061565e9cfe914dcc8a0b1a5ecfa50ac9"
+          },
+          "SSDT-PMC.aml": {
+            "sha256": "5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5"
+          },
+          "SSDT-RTC0-RANGE.aml": {
+            "sha256": "50156456d0615d79623e10396a488499cbfffd3e6513bfeefc340a4d37deee93"
+          },
+          "SSDT-RTC0.aml": {
+            "sha256": "bb45c0b26bf808f2bcfd4eace20d9288004b6f8df8b4f26c022038c65c32f4b4"
+          },
+          "SSDT-SBUS-MCHC.aml": {
+            "sha256": "59663cdc52e24f6c0e71769e71e65ed196c7568bb2038baba75aa8b200309bd2"
+          },
+          "debug": {
+            "sha256": "c80f04d94c75ff14f19e27e1eb6da1084a8a09462996402a3e0eed6948379b5c"
+          },
+          "release": {
+            "sha256": "327da6e0670e52b8a765b754d89f1c86e783f5e27f4e38692971de4f11793923"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/OpenCore-0.6.3-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-37c16f2/OpenCore-0.6.3-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version to 0.6.3\n[View on GitHub](https://github.com/acidanthera/OpenCorePkg/commit/37c16f2577a6bfbbfadbdf6439e3b7d1a10f5905) ([browse tree](https://github.com/acidanthera/OpenCorePkg/tree/37c16f2577a6bfbbfadbdf6439e3b7d1a10f5905))\n\n**Hashes**:\n**Debug:**\nOpenCore-0.6.3-DEBUG.zip: c80f04d94c75ff14f19e27e1eb6da1084a8a09462996402a3e0eed6948379b5c\n**Release:**\nOpenCore-0.6.3-RELEASE.zip: 327da6e0670e52b8a765b754d89f1c86e783f5e27f4e38692971de4f11793923\n**Extras:**\nSSDT-ALS0.aml: 894dd2fdd140da4076c757a1c0431f8caeea0478ac04851e28f870013524452b\nSSDT-EC.aml: f92b4102575725ad6a902fbb93512c3bce2ad17892b4c711c9ac7c0177773a3f\nSSDT-IMEI.aml: cb8ccc19f222c557b7dc860a6b8a1a931613e8ba5e1be2d5fda65af8a7205db4\nSSDT-RTC0.aml: bb45c0b26bf808f2bcfd4eace20d9288004b6f8df8b4f26c022038c65c32f4b4\nSSDT-AWAC.aml: f6f901791eceb51bf56d690793baecf7d61a49d76607d8cf92c67816d0eb1202\nSSDT-RTC0-RANGE.aml: 50156456d0615d79623e10396a488499cbfffd3e6513bfeefc340a4d37deee93\nSSDT-EHCx_OFF.aml: 3af2b4123e0e8e2818fdbc5473a5631abc7fef95bac03aa2ddeb90bdff1e91b1\nSSDT-PLUG.aml: 640a130bb31ba50de01be6c63a95629061565e9cfe914dcc8a0b1a5ecfa50ac9\nSSDT-EC-USBX.aml: c5529aa3717c6563b611504e7d4fb521a016484cf9805c4654dbd00c4054622a\nSSDT-SBUS-MCHC.aml: 59663cdc52e24f6c0e71769e71e65ed196c7568bb2038baba75aa8b200309bd2\nSSDT-PMC.aml: 5d11f74d66064d0c81b7f700a976b48dabaa2812306632b6d5df097c51897ae5\nSSDT-BRG0.aml: 037c7ce067c8bf5f60ddc105a8b9e8557ed79cb6b1db5440541ecd04c2cd8b12",
+          "id": 32233873,
+          "url": "https://github.com/dortania/build-repo/releases/tag/OpenCorePkg-37c16f2"
+        },
+        "source": "built",
+        "version": "0.6.3"
+      },
+      {
+        "commit": {
           "message": "Docs: Fix typos and TOC formatting",
           "sha": "cad9e24d8698b323fba1498ac9efacfcb27c378f",
           "tree_url": "https://github.com/acidanthera/OpenCorePkg/tree/cad9e24d8698b323fba1498ac9efacfcb27c378f",
