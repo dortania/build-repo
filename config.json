@@ -46958,6 +46958,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Add note about RC6 Rendering Standby issues\n\ncloses acidanthera/bugtracker#1193",
+          "sha": "baa1dc0f008877a64d109f5a6d0be6ca8f2a0619",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/baa1dc0f008877a64d109f5a6d0be6ca8f2a0619",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/baa1dc0f008877a64d109f5a6d0be6ca8f2a0619"
+        },
+        "dateadded": "2020-10-07T16:25:32.700096+00:00",
+        "datecommitted": "2020-10-07T16:04:27+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-baa1dc0/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43"
+          },
+          "debug": {
+            "sha256": "758d1a0a21ec55b46cf78dfc717466f7d2bd01c92d992533e77c461c6573b3b2"
+          },
+          "release": {
+            "sha256": "d85b304650dd3979e5c506f93c59b011e8dc4dd4a403b3606593499e2021c0f7"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-baa1dc0/WhateverGreen-1.4.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-baa1dc0/WhateverGreen-1.4.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd note about RC6 Rendering Standby issues\n\ncloses acidanthera/bugtracker#1193\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/baa1dc0f008877a64d109f5a6d0be6ca8f2a0619) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/baa1dc0f008877a64d109f5a6d0be6ca8f2a0619))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.4-DEBUG.zip: 758d1a0a21ec55b46cf78dfc717466f7d2bd01c92d992533e77c461c6573b3b2\n**Release:**\nWhateverGreen-1.4.4-RELEASE.zip: d85b304650dd3979e5c506f93c59b011e8dc4dd4a403b3606593499e2021c0f7\n**Extras:**\nSSDT-PNLF.aml: c23ee84037f1aaf5b54aa2606d5af7dee4e7bf3a31b0b4dfb57fd8a620d50a43",
+          "id": 32278335,
+          "url": "https://github.com/dortania/build-repo/releases/tag/WhateverGreen-baa1dc0"
+        },
+        "source": "built",
+        "version": "1.4.4"
+      },
+      {
+        "commit": {
           "message": "Fix another typo in the previous commit, thx @black-dragon74",
           "sha": "d8801e5d4e1ce1db05a9d449079cba0bf742cf96",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/d8801e5d4e1ce1db05a9d449079cba0bf742cf96",
