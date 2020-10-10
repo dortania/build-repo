@@ -44494,6 +44494,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Version 2.4.0d4 - Experimental jumbo frame support for RTL8111E-VL (chipset 16) and above",
+          "sha": "7ab0b30bdccf1107f1ff626a58a0e091f272ffee",
+          "tree_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/7ab0b30bdccf1107f1ff626a58a0e091f272ffee",
+          "url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/7ab0b30bdccf1107f1ff626a58a0e091f272ffee"
+        },
+        "dateadded": "2020-10-10T12:48:15.406728+00:00",
+        "datecommitted": "2020-10-10T12:43:29+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "48c95ae45ce5bf49e68f20404e88198b183a126b0a5b83bb84508011f523e999"
+          },
+          "release": {
+            "sha256": "489fd349d142a11584e02ebcaee9ced0238c52a73a9903f44f235f77d1f982b6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/RealtekRTL8111-7ab0b30/debug.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/RealtekRTL8111-7ab0b30/release.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nVersion 2.4.0d4 - Experimental jumbo frame support for RTL8111E-VL (chipset 16) and above\n[View on GitHub](https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/7ab0b30bdccf1107f1ff626a58a0e091f272ffee) ([browse tree](https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/7ab0b30bdccf1107f1ff626a58a0e091f272ffee))\n\n**Hashes**:\n**Debug:**\ndebug.zip: 48c95ae45ce5bf49e68f20404e88198b183a126b0a5b83bb84508011f523e999\n**Release:**\nrelease.zip: 489fd349d142a11584e02ebcaee9ced0238c52a73a9903f44f235f77d1f982b6",
+          "id": 32403187,
+          "url": "https://github.com/dortania/build-repo/releases/tag/RealtekRTL8111-7ab0b30"
+        },
+        "source": "built",
+        "version": "2.4.0d4"
+      },
+      {
+        "commit": {
           "message": "Merge branch 'master' of https://github.com/Mieze/RTL8111_driver_for_OS_X",
           "sha": "ca46f5977ea955609bffd47a460e9aa7f7721ba4",
           "tree_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/ca46f5977ea955609bffd47a460e9aa7f7721ba4",
