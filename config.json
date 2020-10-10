@@ -44494,6 +44494,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Merge branch 'master' of https://github.com/Mieze/RTL8111_driver_for_OS_X",
+          "sha": "ca46f5977ea955609bffd47a460e9aa7f7721ba4",
+          "tree_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/ca46f5977ea955609bffd47a460e9aa7f7721ba4",
+          "url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/ca46f5977ea955609bffd47a460e9aa7f7721ba4"
+        },
+        "dateadded": "2020-10-10T12:47:26.332951+00:00",
+        "datecommitted": "2020-10-10T12:43:38+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "7f514e0e39fd1a4243e2dde53c001507415790ed3fe0faa1e98aa254f3a070b1"
+          },
+          "release": {
+            "sha256": "53e9f0b57528184b32902bb80325825e634ec2b1ec28d7e292d885ad0f60e760"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/RealtekRTL8111-ca46f59/debug.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/RealtekRTL8111-ca46f59/release.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nMerge branch 'master' of https://github.com/Mieze/RTL8111_driver_for_OS_X\n[View on GitHub](https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/ca46f5977ea955609bffd47a460e9aa7f7721ba4) ([browse tree](https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/ca46f5977ea955609bffd47a460e9aa7f7721ba4))\n\n**Hashes**:\n**Debug:**\ndebug.zip: 7f514e0e39fd1a4243e2dde53c001507415790ed3fe0faa1e98aa254f3a070b1\n**Release:**\nrelease.zip: 53e9f0b57528184b32902bb80325825e634ec2b1ec28d7e292d885ad0f60e760",
+          "id": 32403175,
+          "url": "https://github.com/dortania/build-repo/releases/tag/RealtekRTL8111-ca46f59"
+        },
+        "source": "built",
+        "version": "2.4.0d4"
+      },
+      {
+        "commit": {
           "message": "Update README.md",
           "sha": "c65fbbf8d2f476a2b528564bae32555553710a85",
           "tree_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/c65fbbf8d2f476a2b528564bae32555553710a85",
