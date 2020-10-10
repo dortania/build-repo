@@ -4,6 +4,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix an issue with posponed matching (method IOTimerEventSource::timerEventSource could fail).",
+          "sha": "703b98213ffcfc06ea638a3e25f9a52be162bb2d",
+          "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/703b98213ffcfc06ea638a3e25f9a52be162bb2d",
+          "url": "https://github.com/acidanthera/AirportBrcmFixup/commit/703b98213ffcfc06ea638a3e25f9a52be162bb2d"
+        },
+        "dateadded": "2020-10-10T07:57:27.906330+00:00",
+        "datecommitted": "2020-10-10T07:45:56+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "b6d554f6d627a0171f846035340251e267b767eb9bacf9aae3ea81d2bce8ff98"
+          },
+          "release": {
+            "sha256": "503bda3ac8c67347fa903ca995dc0b9c383da690c80281284132e52632bc937f"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-703b982/AirportBrcmFixup-2.1.1-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AirportBrcmFixup-703b982/AirportBrcmFixup-2.1.1-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix an issue with posponed matching (method IOTimerEventSource::timerEventSource could fail).\n[View on GitHub](https://github.com/acidanthera/AirportBrcmFixup/commit/703b98213ffcfc06ea638a3e25f9a52be162bb2d) ([browse tree](https://github.com/acidanthera/AirportBrcmFixup/tree/703b98213ffcfc06ea638a3e25f9a52be162bb2d))\n\n**Hashes**:\n**Debug:**\nAirportBrcmFixup-2.1.1-DEBUG.zip: b6d554f6d627a0171f846035340251e267b767eb9bacf9aae3ea81d2bce8ff98\n**Release:**\nAirportBrcmFixup-2.1.1-RELEASE.zip: 503bda3ac8c67347fa903ca995dc0b9c383da690c80281284132e52632bc937f",
+          "id": 32399476,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AirportBrcmFixup-703b982"
+        },
+        "source": "built",
+        "version": "2.1.1"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "27adce5b28957840c3aa8c68384c2d7b2b2ff693",
           "tree_url": "https://github.com/acidanthera/AirportBrcmFixup/tree/27adce5b28957840c3aa8c68384c2d7b2b2ff693",
