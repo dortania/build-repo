@@ -44723,6 +44723,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add SMC dump for IM11,2 (#44)",
+          "sha": "c8f311ed2f16a88e598aa9b0b6d5370bcb593f0d",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/c8f311ed2f16a88e598aa9b0b6d5370bcb593f0d",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/c8f311ed2f16a88e598aa9b0b6d5370bcb593f0d"
+        },
+        "dateadded": "2020-10-11T08:32:10.302179+00:00",
+        "datecommitted": "2020-10-11T08:17:36+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "9cc6903a1d01d1b974e9104290c61f3f951a05cb54963ece76696d591bd235c1"
+          },
+          "release": {
+            "sha256": "6724e68a0d3f9ca909ba5175d0f2c3bceae26c5f30a16480475ab3bb7319c8c9"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-c8f311e/VirtualSMC-1.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-c8f311e/VirtualSMC-1.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd SMC dump for IM11,2 (#44)\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/c8f311ed2f16a88e598aa9b0b6d5370bcb593f0d) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/c8f311ed2f16a88e598aa9b0b6d5370bcb593f0d))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.8-DEBUG.zip: 9cc6903a1d01d1b974e9104290c61f3f951a05cb54963ece76696d591bd235c1\n**Release:**\nVirtualSMC-1.1.8-RELEASE.zip: 6724e68a0d3f9ca909ba5175d0f2c3bceae26c5f30a16480475ab3bb7319c8c9",
+          "id": 32416835,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-c8f311e"
+        },
+        "source": "built",
+        "version": "1.1.8"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "90fda6cf756ec17446a4cfb5c92d1e9a23296771",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/90fda6cf756ec17446a4cfb5c92d1e9a23296771",
