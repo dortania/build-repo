@@ -47037,6 +47037,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix timestamp type for PS2KeyInfo; receiving PS2KeyInfo from other kext (#31)",
+          "sha": "f579efa977508611ce53ff972a3f74b7750c9444",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/f579efa977508611ce53ff972a3f74b7750c9444",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/f579efa977508611ce53ff972a3f74b7750c9444"
+        },
+        "dateadded": "2020-10-12T18:00:09.728294+00:00",
+        "datecommitted": "2020-10-12T17:55:09+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f1aec3ed371a40fdbc2b93ad7c13deb118bd843d593f3ba3cdc50bd9dd9e96c4"
+          },
+          "release": {
+            "sha256": "453217f008b5b30c58eae29b7ebc3d8c5a28f12a31d88378ed36352968ee039b"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-f579efa/VoodooPS2Controller-2.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-f579efa/VoodooPS2Controller-2.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix timestamp type for PS2KeyInfo; receiving PS2KeyInfo from other kext (#31)\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/f579efa977508611ce53ff972a3f74b7750c9444) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/f579efa977508611ce53ff972a3f74b7750c9444))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.8-DEBUG.zip: f1aec3ed371a40fdbc2b93ad7c13deb118bd843d593f3ba3cdc50bd9dd9e96c4\n**Release:**\nVoodooPS2Controller-2.1.8-RELEASE.zip: 453217f008b5b30c58eae29b7ebc3d8c5a28f12a31d88378ed36352968ee039b",
+          "id": 32465678,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-f579efa"
+        },
+        "source": "built",
+        "version": "2.1.8"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "d367cade30119dbf7d115a653d5f64e02b40ad89",
           "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/d367cade30119dbf7d115a653d5f64e02b40ad89",
