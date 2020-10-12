@@ -47037,6 +47037,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "d367cade30119dbf7d115a653d5f64e02b40ad89",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/d367cade30119dbf7d115a653d5f64e02b40ad89",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/d367cade30119dbf7d115a653d5f64e02b40ad89"
+        },
+        "dateadded": "2020-10-12T17:59:28.142265+00:00",
+        "datecommitted": "2020-10-12T17:55:52+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "e4c8761f4dca36274b01ca1cdee4631b4659e9fb18719cdcd22836e3b21f7be1"
+          },
+          "release": {
+            "sha256": "e26f51cc581fd440c84c50518d9d253bdc9de0cdb4a2d49fe5d6e494c6962999"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-d367cad/VoodooPS2Controller-2.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-d367cad/VoodooPS2Controller-2.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/d367cade30119dbf7d115a653d5f64e02b40ad89) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/d367cade30119dbf7d115a653d5f64e02b40ad89))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.8-DEBUG.zip: e4c8761f4dca36274b01ca1cdee4631b4659e9fb18719cdcd22836e3b21f7be1\n**Release:**\nVoodooPS2Controller-2.1.8-RELEASE.zip: e26f51cc581fd440c84c50518d9d253bdc9de0cdb4a2d49fe5d6e494c6962999",
+          "id": 32465650,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-d367cad"
+        },
+        "source": "built",
+        "version": "2.1.8"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "a5d2997e2be9449ad3322ff1ae4bd0391fab537a",
           "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/a5d2997e2be9449ad3322ff1ae4bd0391fab537a",
