@@ -5409,6 +5409,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Merge remote-tracking branch 'refs/remotes/origin/master'\nResolve conflict\n\nConflicts:\n\tChangelog.md",
+          "sha": "b47744bb7ca0ada2d5165f0b9ed635051bace6f7",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/b47744bb7ca0ada2d5165f0b9ed635051bace6f7",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/b47744bb7ca0ada2d5165f0b9ed635051bace6f7"
+        },
+        "dateadded": "2020-10-13T09:22:20.681511+00:00",
+        "datecommitted": "2020-10-13T09:12:45+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "2ccd08f6bbe7a6a289ffccc25bc52ffaf2247589d1897c100954cc34201d5362"
+          },
+          "release": {
+            "sha256": "7331e4675c9d14156de89d75bf4c64317786ccfadf6347e529fb91cb330e1c38"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-b47744b/HibernationFixup-1.3.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-b47744b/HibernationFixup-1.3.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nMerge remote-tracking branch 'refs/remotes/origin/master'\nResolve conflict\n\nConflicts:\n\tChangelog.md\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/b47744bb7ca0ada2d5165f0b9ed635051bace6f7) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/b47744bb7ca0ada2d5165f0b9ed635051bace6f7))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.7-DEBUG.zip: 2ccd08f6bbe7a6a289ffccc25bc52ffaf2247589d1897c100954cc34201d5362\n**Release:**\nHibernationFixup-1.3.7-RELEASE.zip: 7331e4675c9d14156de89d75bf4c64317786ccfadf6347e529fb91cb330e1c38",
+          "id": 32493624,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-b47744b"
+        },
+        "source": "built",
+        "version": "1.3.7"
+      },
+      {
+        "commit": {
           "message": "Fix ChangeLog",
           "sha": "12ed96511dbe77b62bbc232dabedd2df03788e0a",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/12ed96511dbe77b62bbc232dabedd2df03788e0a",
