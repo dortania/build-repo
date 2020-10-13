@@ -5409,6 +5409,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Refactoring, setup next RTC wake manually if IOPMrootDomain::setMaintenanceWakeCalendar was not called before sleep",
+          "sha": "3e80c16b4af88d37d1df5a106ba30880ab71aec8",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/3e80c16b4af88d37d1df5a106ba30880ab71aec8",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/3e80c16b4af88d37d1df5a106ba30880ab71aec8"
+        },
+        "dateadded": "2020-10-13T09:36:26.271284+00:00",
+        "datecommitted": "2020-10-13T09:03:39+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "6a9d379dfb28ad508dd24c941531fce7b39bb05d5094f696060e21ebda2320fd"
+          },
+          "release": {
+            "sha256": "70af2a0fe5708f79a8fc066008d37f06a3a797d2d015990e4eb8efe37f380af9"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-3e80c16/HibernationFixup-1.3.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-3e80c16/HibernationFixup-1.3.6-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nRefactoring, setup next RTC wake manually if IOPMrootDomain::setMaintenanceWakeCalendar was not called before sleep\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/3e80c16b4af88d37d1df5a106ba30880ab71aec8) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/3e80c16b4af88d37d1df5a106ba30880ab71aec8))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.6-DEBUG.zip: 6a9d379dfb28ad508dd24c941531fce7b39bb05d5094f696060e21ebda2320fd\n**Release:**\nHibernationFixup-1.3.6-RELEASE.zip: 70af2a0fe5708f79a8fc066008d37f06a3a797d2d015990e4eb8efe37f380af9",
+          "id": 32494315,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-3e80c16"
+        },
+        "source": "built",
+        "version": "1.3.6"
+      },
+      {
+        "commit": {
           "message": "Merge remote-tracking branch 'refs/remotes/origin/master'\nResolve conflict\n\nConflicts:\n\tChangelog.md",
           "sha": "b47744bb7ca0ada2d5165f0b9ed635051bace6f7",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/b47744bb7ca0ada2d5165f0b9ed635051bace6f7",
