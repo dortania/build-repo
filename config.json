@@ -5409,32 +5409,32 @@
     "versions": [
       {
         "commit": {
-          "message": "Refactoring, setup next RTC wake manually if IOPMrootDomain::setMaintenanceWakeCalendar was not called before sleep",
-          "sha": "3e80c16b4af88d37d1df5a106ba30880ab71aec8",
-          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/3e80c16b4af88d37d1df5a106ba30880ab71aec8",
-          "url": "https://github.com/acidanthera/HibernationFixup/commit/3e80c16b4af88d37d1df5a106ba30880ab71aec8"
+          "message": "Fix ChangeLog",
+          "sha": "12ed96511dbe77b62bbc232dabedd2df03788e0a",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/12ed96511dbe77b62bbc232dabedd2df03788e0a",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/12ed96511dbe77b62bbc232dabedd2df03788e0a"
         },
-        "dateadded": "2020-10-13T09:36:26.271284+00:00",
-        "datecommitted": "2020-10-13T09:03:39+00:00",
+        "dateadded": "2020-10-13T09:21:56.037889+00:00",
+        "datecommitted": "2020-10-13T09:17:22+00:00",
         "hashes": {
           "debug": {
-            "sha256": "6a9d379dfb28ad508dd24c941531fce7b39bb05d5094f696060e21ebda2320fd"
+            "sha256": "0e30044ac4e7b52256123036708efbbc69895fb0795e029152d4da336d6f631a"
           },
           "release": {
-            "sha256": "70af2a0fe5708f79a8fc066008d37f06a3a797d2d015990e4eb8efe37f380af9"
+            "sha256": "213919d0425836e4d141155c876bea71e26c67be9d21b317165ea866bf5715c0"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-3e80c16/HibernationFixup-1.3.6-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-3e80c16/HibernationFixup-1.3.6-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-12ed965/HibernationFixup-1.3.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-12ed965/HibernationFixup-1.3.7-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nRefactoring, setup next RTC wake manually if IOPMrootDomain::setMaintenanceWakeCalendar was not called before sleep\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/3e80c16b4af88d37d1df5a106ba30880ab71aec8) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/3e80c16b4af88d37d1df5a106ba30880ab71aec8))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.6-DEBUG.zip: 6a9d379dfb28ad508dd24c941531fce7b39bb05d5094f696060e21ebda2320fd\n**Release:**\nHibernationFixup-1.3.6-RELEASE.zip: 70af2a0fe5708f79a8fc066008d37f06a3a797d2d015990e4eb8efe37f380af9",
-          "id": 32494315,
-          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-3e80c16"
+          "description": "**Changes:**\nFix ChangeLog\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/12ed96511dbe77b62bbc232dabedd2df03788e0a) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/12ed96511dbe77b62bbc232dabedd2df03788e0a))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.7-DEBUG.zip: 0e30044ac4e7b52256123036708efbbc69895fb0795e029152d4da336d6f631a\n**Release:**\nHibernationFixup-1.3.7-RELEASE.zip: 213919d0425836e4d141155c876bea71e26c67be9d21b317165ea866bf5715c0",
+          "id": 32493600,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-12ed965"
         },
         "source": "built",
-        "version": "1.3.6"
+        "version": "1.3.7"
       },
       {
         "commit": {
@@ -5467,32 +5467,32 @@
       },
       {
         "commit": {
-          "message": "Fix ChangeLog",
-          "sha": "12ed96511dbe77b62bbc232dabedd2df03788e0a",
-          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/12ed96511dbe77b62bbc232dabedd2df03788e0a",
-          "url": "https://github.com/acidanthera/HibernationFixup/commit/12ed96511dbe77b62bbc232dabedd2df03788e0a"
+          "message": "Refactoring, setup next RTC wake manually if IOPMrootDomain::setMaintenanceWakeCalendar was not called before sleep",
+          "sha": "3e80c16b4af88d37d1df5a106ba30880ab71aec8",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/3e80c16b4af88d37d1df5a106ba30880ab71aec8",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/3e80c16b4af88d37d1df5a106ba30880ab71aec8"
         },
-        "dateadded": "2020-10-13T09:21:56.037889+00:00",
-        "datecommitted": "2020-10-13T09:17:22+00:00",
+        "dateadded": "2020-10-13T09:36:26.271284+00:00",
+        "datecommitted": "2020-10-13T09:03:39+00:00",
         "hashes": {
           "debug": {
-            "sha256": "0e30044ac4e7b52256123036708efbbc69895fb0795e029152d4da336d6f631a"
+            "sha256": "6a9d379dfb28ad508dd24c941531fce7b39bb05d5094f696060e21ebda2320fd"
           },
           "release": {
-            "sha256": "213919d0425836e4d141155c876bea71e26c67be9d21b317165ea866bf5715c0"
+            "sha256": "70af2a0fe5708f79a8fc066008d37f06a3a797d2d015990e4eb8efe37f380af9"
           }
         },
         "links": {
-          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-12ed965/HibernationFixup-1.3.7-DEBUG.zip",
-          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-12ed965/HibernationFixup-1.3.7-RELEASE.zip"
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-3e80c16/HibernationFixup-1.3.6-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-3e80c16/HibernationFixup-1.3.6-RELEASE.zip"
         },
         "release": {
-          "description": "**Changes:**\nFix ChangeLog\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/12ed96511dbe77b62bbc232dabedd2df03788e0a) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/12ed96511dbe77b62bbc232dabedd2df03788e0a))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.7-DEBUG.zip: 0e30044ac4e7b52256123036708efbbc69895fb0795e029152d4da336d6f631a\n**Release:**\nHibernationFixup-1.3.7-RELEASE.zip: 213919d0425836e4d141155c876bea71e26c67be9d21b317165ea866bf5715c0",
-          "id": 32493600,
-          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-12ed965"
+          "description": "**Changes:**\nRefactoring, setup next RTC wake manually if IOPMrootDomain::setMaintenanceWakeCalendar was not called before sleep\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/3e80c16b4af88d37d1df5a106ba30880ab71aec8) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/3e80c16b4af88d37d1df5a106ba30880ab71aec8))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.6-DEBUG.zip: 6a9d379dfb28ad508dd24c941531fce7b39bb05d5094f696060e21ebda2320fd\n**Release:**\nHibernationFixup-1.3.6-RELEASE.zip: 70af2a0fe5708f79a8fc066008d37f06a3a797d2d015990e4eb8efe37f380af9",
+          "id": 32494315,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-3e80c16"
         },
         "source": "built",
-        "version": "1.3.7"
+        "version": "1.3.6"
       },
       {
         "commit": {
