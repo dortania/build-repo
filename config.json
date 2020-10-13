@@ -51774,6 +51774,35 @@
     "versions": [
       {
         "commit": {
+          "message": "edk2 files required for compilation",
+          "sha": "909ca6fe3d21f425458e6ce17c9186c79515b3e9",
+          "tree_url": "https://github.com/acidanthera/gfxutil/tree/909ca6fe3d21f425458e6ce17c9186c79515b3e9",
+          "url": "https://github.com/acidanthera/gfxutil/commit/909ca6fe3d21f425458e6ce17c9186c79515b3e9"
+        },
+        "dateadded": "2020-10-13T07:54:27.845411+00:00",
+        "datecommitted": "2020-10-13T07:34:31+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "284dbb9135455fff33dde1ff7616af1c6a593913527c1f7e8f5ffc2d24d05ccf"
+          },
+          "release": {
+            "sha256": "61bec578024668e9ed8de8fd5ea670e07ca62f835ce01fc0d97f0c16bb5909a0"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/gfxutil-909ca6f/gfxutil-1.80b-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/gfxutil-909ca6f/gfxutil-1.80b-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nedk2 files required for compilation\n[View on GitHub](https://github.com/acidanthera/gfxutil/commit/909ca6fe3d21f425458e6ce17c9186c79515b3e9) ([browse tree](https://github.com/acidanthera/gfxutil/tree/909ca6fe3d21f425458e6ce17c9186c79515b3e9))\n\n**Hashes**:\n**Debug:**\ngfxutil-1.80b-DEBUG.zip: 284dbb9135455fff33dde1ff7616af1c6a593913527c1f7e8f5ffc2d24d05ccf\n**Release:**\ngfxutil-1.80b-RELEASE.zip: 61bec578024668e9ed8de8fd5ea670e07ca62f835ce01fc0d97f0c16bb5909a0",
+          "id": 32488993,
+          "url": "https://github.com/dortania/build-repo/releases/tag/gfxutil-909ca6f"
+        },
+        "source": "built",
+        "version": "1.80b"
+      },
+      {
+        "commit": {
           "message": "Fixed previous",
           "sha": "0e9c7b3d3ef72414fdfd887a069cdc13ccd68606",
           "tree_url": "https://github.com/acidanthera/gfxutil/tree/0e9c7b3d3ef72414fdfd887a069cdc13ccd68606",
