@@ -46161,6 +46161,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Update README.md",
+          "sha": "3727acb6e207bb3a79d1635034d470d9e69c375d",
+          "tree_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/3727acb6e207bb3a79d1635034d470d9e69c375d",
+          "url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/3727acb6e207bb3a79d1635034d470d9e69c375d"
+        },
+        "dateadded": "2020-10-16T21:41:22.454967+00:00",
+        "datecommitted": "2020-10-16T21:40:32+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "c3aeefbaa13bc10e6ada2b42db0978fc915a9d6a8e5c17117c9a3c3bcf58ce6d"
+          },
+          "release": {
+            "sha256": "605d2002a268efba3dea9e1c0b5f0c24d10f0e95a39105dc1fd6eb71c1f3abcb"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/RealtekRTL8111-3727acb/debug.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/RealtekRTL8111-3727acb/release.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUpdate README.md\n[View on GitHub](https://github.com/Mieze/RTL8111_driver_for_OS_X/commit/3727acb6e207bb3a79d1635034d470d9e69c375d) ([browse tree](https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/3727acb6e207bb3a79d1635034d470d9e69c375d))\n\n**Hashes**:\n**Debug:**\ndebug.zip: c3aeefbaa13bc10e6ada2b42db0978fc915a9d6a8e5c17117c9a3c3bcf58ce6d\n**Release:**\nrelease.zip: 605d2002a268efba3dea9e1c0b5f0c24d10f0e95a39105dc1fd6eb71c1f3abcb",
+          "id": 32693106,
+          "url": "https://github.com/dortania/build-repo/releases/tag/RealtekRTL8111-3727acb"
+        },
+        "source": "built",
+        "version": "2.4.0d5"
+      },
+      {
+        "commit": {
           "message": "Version 2.4.0d5 - Fixed an issue with EEE support.",
           "sha": "c780c2cb48f1fd64771a7d18ff78af78f0df708a",
           "tree_url": "https://github.com/Mieze/RTL8111_driver_for_OS_X/tree/c780c2cb48f1fd64771a7d18ff78af78f0df708a",
