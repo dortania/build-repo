@@ -6144,6 +6144,35 @@
     "versions": [
       {
         "commit": {
+          "message": "KernelPatcher: `solveMultiple()` now supports keeping resolving on error.",
+          "sha": "a8c88b2a3523e0c879907d100b016812332d9b44",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/a8c88b2a3523e0c879907d100b016812332d9b44",
+          "url": "https://github.com/acidanthera/Lilu/commit/a8c88b2a3523e0c879907d100b016812332d9b44"
+        },
+        "dateadded": "2020-10-19T01:20:31.968558+00:00",
+        "datecommitted": "2020-10-18T23:58:24+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "6dbfcf75262fa73ea6a2e29e77d7f524a4f7c4b97f3ae1bd0a92084bce0d7649"
+          },
+          "release": {
+            "sha256": "def325c5e249e37ae91f88e877fa2d21fea1ad93a6c34b3b6f2606dab9ccdf6d"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-a8c88b2/Lilu-1.4.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-a8c88b2/Lilu-1.4.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nKernelPatcher: `solveMultiple()` now supports keeping resolving on error.\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/a8c88b2a3523e0c879907d100b016812332d9b44) ([browse tree](https://github.com/acidanthera/Lilu/tree/a8c88b2a3523e0c879907d100b016812332d9b44))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.9-DEBUG.zip: 6dbfcf75262fa73ea6a2e29e77d7f524a4f7c4b97f3ae1bd0a92084bce0d7649\n**Release:**\nLilu-1.4.9-RELEASE.zip: def325c5e249e37ae91f88e877fa2d21fea1ad93a6c34b3b6f2606dab9ccdf6d",
+          "id": 32732444,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-a8c88b2"
+        },
+        "source": "built",
+        "version": "1.4.9"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "3b302dc0d972b8cf89c19569dfbea75a16b3c51a",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/3b302dc0d972b8cf89c19569dfbea75a16b3c51a",
