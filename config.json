@@ -49900,6 +49900,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Enhanced maximum link rate fix, Fixed the page fault in the LSPCON driver, Submodules refactoring. (#72)",
+          "sha": "80f4727765d79e7ce0c0d2dac4e2517981e50138",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/80f4727765d79e7ce0c0d2dac4e2517981e50138",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/80f4727765d79e7ce0c0d2dac4e2517981e50138"
+        },
+        "dateadded": "2020-10-19T08:03:18.580854+00:00",
+        "datecommitted": "2020-10-19T07:55:47+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-80f4727/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "ca6bc0ec4cd69d5a09c0a1022b144eaafa653c51107d94ed56681d0574382d91"
+          },
+          "debug": {
+            "sha256": "980b601e5d723dbedcd2300d3262c1b7f4a84978d10fd6bb2737345d4ad85f9b"
+          },
+          "release": {
+            "sha256": "cd1daa7a1b0a443609d8aaca17bb2d9fd058bddb7ddfb2480ab113a747d59ab7"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-80f4727/WhateverGreen-1.4.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-80f4727/WhateverGreen-1.4.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nEnhanced maximum link rate fix, Fixed the page fault in the LSPCON driver, Submodules refactoring. (#72)\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/80f4727765d79e7ce0c0d2dac4e2517981e50138) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/80f4727765d79e7ce0c0d2dac4e2517981e50138))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.4-DEBUG.zip: 980b601e5d723dbedcd2300d3262c1b7f4a84978d10fd6bb2737345d4ad85f9b\n**Release:**\nWhateverGreen-1.4.4-RELEASE.zip: cd1daa7a1b0a443609d8aaca17bb2d9fd058bddb7ddfb2480ab113a747d59ab7\n**Extras:**\nSSDT-PNLF.aml: ca6bc0ec4cd69d5a09c0a1022b144eaafa653c51107d94ed56681d0574382d91",
+          "id": 32740361,
+          "url": "https://github.com/dortania/build-repo/releases/tag/WhateverGreen-80f4727"
+        },
+        "source": "built",
+        "version": "1.4.4"
+      },
+      {
+        "commit": {
           "message": "Sync https://github.com/acidanthera/WhateverGreen/commit/baa1dc0f008877a64d109f5a6d0be6ca8f2a0619",
           "sha": "e6b7f6160cf708f69a40becf5bab6fba8cb18c9f",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/e6b7f6160cf708f69a40becf5bab6fba8cb18c9f",
