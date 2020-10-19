@@ -6144,6 +6144,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Update KnownPlugins.md",
+          "sha": "7310c23f1f97b35e70e864a0b8f0c282f6617dfd",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/7310c23f1f97b35e70e864a0b8f0c282f6617dfd",
+          "url": "https://github.com/acidanthera/Lilu/commit/7310c23f1f97b35e70e864a0b8f0c282f6617dfd"
+        },
+        "dateadded": "2020-10-19T16:07:47.799750+00:00",
+        "datecommitted": "2020-10-19T16:04:57+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "6e4894d39aa814ce8f987cbf99e28a692bf4d61e2e90d3b0a5802e43a2d5eece"
+          },
+          "release": {
+            "sha256": "ae31c48f2ce42ad5b044cfde651db2f4b293f551d50a4a2cc9692a8d5363beb8"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-7310c23/Lilu-1.4.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-7310c23/Lilu-1.4.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUpdate KnownPlugins.md\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/7310c23f1f97b35e70e864a0b8f0c282f6617dfd) ([browse tree](https://github.com/acidanthera/Lilu/tree/7310c23f1f97b35e70e864a0b8f0c282f6617dfd))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.9-DEBUG.zip: 6e4894d39aa814ce8f987cbf99e28a692bf4d61e2e90d3b0a5802e43a2d5eece\n**Release:**\nLilu-1.4.9-RELEASE.zip: ae31c48f2ce42ad5b044cfde651db2f4b293f551d50a4a2cc9692a8d5363beb8",
+          "id": 32765060,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-7310c23"
+        },
+        "source": "built",
+        "version": "1.4.9"
+      },
+      {
+        "commit": {
           "message": "KernelPatcher: Add APIs to solve multiple symbols at one shot.",
           "sha": "79b9124515af5b3f5afe815b9ff264114ae6d6e3",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/79b9124515af5b3f5afe815b9ff264114ae6d6e3",
