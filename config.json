@@ -6144,6 +6144,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Update the changelog.",
+          "sha": "d96c4ad5b2ddea9d16ca409eec66c0e4b0710bd4",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/d96c4ad5b2ddea9d16ca409eec66c0e4b0710bd4",
+          "url": "https://github.com/acidanthera/Lilu/commit/d96c4ad5b2ddea9d16ca409eec66c0e4b0710bd4"
+        },
+        "dateadded": "2020-10-19T01:22:03.357078+00:00",
+        "datecommitted": "2020-10-18T23:58:24+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "dce2b8762c34e1bd3ced98912d468e08745c8e2e617217d58131098abf4455fa"
+          },
+          "release": {
+            "sha256": "8c95564708fdd34c4d371f3f0cb0ece0093046cfa63a442e797cb7d03b972dd6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-d96c4ad/Lilu-1.4.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-d96c4ad/Lilu-1.4.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUpdate the changelog.\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/d96c4ad5b2ddea9d16ca409eec66c0e4b0710bd4) ([browse tree](https://github.com/acidanthera/Lilu/tree/d96c4ad5b2ddea9d16ca409eec66c0e4b0710bd4))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.9-DEBUG.zip: dce2b8762c34e1bd3ced98912d468e08745c8e2e617217d58131098abf4455fa\n**Release:**\nLilu-1.4.9-RELEASE.zip: 8c95564708fdd34c4d371f3f0cb0ece0093046cfa63a442e797cb7d03b972dd6",
+          "id": 32732455,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-d96c4ad"
+        },
+        "source": "built",
+        "version": "1.4.9"
+      },
+      {
+        "commit": {
           "message": "KernelPatcher: `solveMultiple()` now supports keeping resolving on error.",
           "sha": "a8c88b2a3523e0c879907d100b016812332d9b44",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/a8c88b2a3523e0c879907d100b016812332d9b44",
