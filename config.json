@@ -6144,6 +6144,35 @@
     "versions": [
       {
         "commit": {
+          "message": "KernelPatcher: Add a convenient constructor to RouteRequest to work with function pointer type without additional castings.",
+          "sha": "283cfd8204e57dbf35bc22b46b03267ecb9ef26e",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/283cfd8204e57dbf35bc22b46b03267ecb9ef26e",
+          "url": "https://github.com/acidanthera/Lilu/commit/283cfd8204e57dbf35bc22b46b03267ecb9ef26e"
+        },
+        "dateadded": "2020-10-19T01:22:38.428729+00:00",
+        "datecommitted": "2020-10-18T23:58:24+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "0ae8d80b00cdf3155fab8be618fd3348cab36fc9e433489fe433e83591cc58c5"
+          },
+          "release": {
+            "sha256": "f5a86e04901f81c800b136ea2ccb5d9d21dee0be488735132e1eeb147efc00a8"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-283cfd8/Lilu-1.4.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-283cfd8/Lilu-1.4.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nKernelPatcher: Add a convenient constructor to RouteRequest to work with function pointer type without additional castings.\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/283cfd8204e57dbf35bc22b46b03267ecb9ef26e) ([browse tree](https://github.com/acidanthera/Lilu/tree/283cfd8204e57dbf35bc22b46b03267ecb9ef26e))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.9-DEBUG.zip: 0ae8d80b00cdf3155fab8be618fd3348cab36fc9e433489fe433e83591cc58c5\n**Release:**\nLilu-1.4.9-RELEASE.zip: f5a86e04901f81c800b136ea2ccb5d9d21dee0be488735132e1eeb147efc00a8",
+          "id": 32732463,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-283cfd8"
+        },
+        "source": "built",
+        "version": "1.4.9"
+      },
+      {
+        "commit": {
           "message": "Update the changelog.",
           "sha": "d96c4ad5b2ddea9d16ca409eec66c0e4b0710bd4",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/d96c4ad5b2ddea9d16ca409eec66c0e4b0710bd4",
