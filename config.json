@@ -6144,6 +6144,35 @@
     "versions": [
       {
         "commit": {
+          "message": "KernelPatcher: Add APIs to solve multiple symbols at one shot.",
+          "sha": "79b9124515af5b3f5afe815b9ff264114ae6d6e3",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/79b9124515af5b3f5afe815b9ff264114ae6d6e3",
+          "url": "https://github.com/acidanthera/Lilu/commit/79b9124515af5b3f5afe815b9ff264114ae6d6e3"
+        },
+        "dateadded": "2020-10-19T01:23:12.176031+00:00",
+        "datecommitted": "2020-10-18T23:58:24+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f9c8fc5500c1f010d6336cb1e53a7cced2f79fbcaa32c82e6904da6f70263ac1"
+          },
+          "release": {
+            "sha256": "ac82509951adaa567a554224ac97b09346fe1c7bc46136edee1f64fcfb6f514f"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-79b9124/Lilu-1.4.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-79b9124/Lilu-1.4.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nKernelPatcher: Add APIs to solve multiple symbols at one shot.\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/79b9124515af5b3f5afe815b9ff264114ae6d6e3) ([browse tree](https://github.com/acidanthera/Lilu/tree/79b9124515af5b3f5afe815b9ff264114ae6d6e3))\n\n**Hashes**:\n**Debug:**\nLilu-1.4.9-DEBUG.zip: f9c8fc5500c1f010d6336cb1e53a7cced2f79fbcaa32c82e6904da6f70263ac1\n**Release:**\nLilu-1.4.9-RELEASE.zip: ac82509951adaa567a554224ac97b09346fe1c7bc46136edee1f64fcfb6f514f",
+          "id": 32732470,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-79b9124"
+        },
+        "source": "built",
+        "version": "1.4.9"
+      },
+      {
+        "commit": {
           "message": "KernelPatcher: Add a convenient constructor to RouteRequest to work with function pointer type without additional castings.",
           "sha": "283cfd8204e57dbf35bc22b46b03267ecb9ef26e",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/283cfd8204e57dbf35bc22b46b03267ecb9ef26e",
