@@ -205,6 +205,13 @@
           ],
           "name": "Compile SSDT-SBUS-MCHC.dsl",
           "path": "iasl"
+        },
+        {
+          "args": [
+            "Docs/AcpiSamples/SSDT-UNC.dsl"
+          ],
+          "name": "Compile SSDT-UNC.dsl",
+          "path": "iasl"
         }
       ],
       "Release File": "Binaries/*RELEASE*.zip",
