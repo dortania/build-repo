@@ -401,6 +401,16 @@
         "/^#define VERSION/ { print substr($3,2,5) }",
         "main.h"
       ]
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "ACPI editing IDE for macOS",
+      "Lilu": false,
+      "MacKernelSDK": false,
+      "Name": "MaciASL",
+      "Release File": "build/Release/*.zip",
+      "Type": "Utility",
+      "URL": "https://github.com/acidanthera/MaciASL"
     }
   ]
 }
