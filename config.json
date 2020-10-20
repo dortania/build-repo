@@ -47146,6 +47146,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Reduce audio lags while accessing smm (#43)",
+          "sha": "daed9363f3f84221c1c1651e2c61d0c74e8c5659",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/daed9363f3f84221c1c1651e2c61d0c74e8c5659",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/daed9363f3f84221c1c1651e2c61d0c74e8c5659"
+        },
+        "dateadded": "2020-10-20T17:54:40.452215+00:00",
+        "datecommitted": "2020-10-20T17:45:25+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "2c907ea922181deb6271ad67c967b7fe7a8fa46e3455dabe75f9407da0d0a5c7"
+          },
+          "release": {
+            "sha256": "fc7dfe234fdb572d142089151e7b903fa16ebc474fd15ba6740bc4e42f33471a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-daed936/VirtualSMC-1.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-daed936/VirtualSMC-1.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nReduce audio lags while accessing smm (#43)\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/daed9363f3f84221c1c1651e2c61d0c74e8c5659) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/daed9363f3f84221c1c1651e2c61d0c74e8c5659))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.8-DEBUG.zip: 2c907ea922181deb6271ad67c967b7fe7a8fa46e3455dabe75f9407da0d0a5c7\n**Release:**\nVirtualSMC-1.1.8-RELEASE.zip: fc7dfe234fdb572d142089151e7b903fa16ebc474fd15ba6740bc4e42f33471a",
+          "id": 32825756,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-daed936"
+        },
+        "source": "built",
+        "version": "1.1.8"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "2739b743970b36f3af27a86c219bfb7697c0319d",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/2739b743970b36f3af27a86c219bfb7697c0319d",
