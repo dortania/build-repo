@@ -37,12 +37,10 @@ jobs:
       - name: Install Build Dependencies
         run: |
           HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica libmagic mingw-w64 openssl
-      - name: Set Up Working Tree
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@users.noreply.github.com"
-          git clone https://github.com/dortania/build-repo.git Config --depth 1 --single-branch --branch builds --sparse --filter=blob:none
       - uses: fregante/setup-git-user@v1
+      - name: Set Up Working Tree
+        run: git clone https://github.com/dortania/build-repo.git Config --depth 1 --single-branch --branch builds --sparse --filter=blob:none
+
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py
       #- name: Setup tmate session
