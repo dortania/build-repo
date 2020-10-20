@@ -47146,6 +47146,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "2739b743970b36f3af27a86c219bfb7697c0319d",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/2739b743970b36f3af27a86c219bfb7697c0319d",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/2739b743970b36f3af27a86c219bfb7697c0319d"
+        },
+        "dateadded": "2020-10-20T17:53:40.707415+00:00",
+        "datecommitted": "2020-10-20T17:47:30+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "2f4aff7d011d6aa874cc4491b7ebde35b887d801d11cd26cd61389a48aac1348"
+          },
+          "release": {
+            "sha256": "c38a2aea9bbd40abfa0c824667fc164a5872747128e1aa08c8c1a32923540345"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-2739b74/VirtualSMC-1.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-2739b74/VirtualSMC-1.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/2739b743970b36f3af27a86c219bfb7697c0319d) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/2739b743970b36f3af27a86c219bfb7697c0319d))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.8-DEBUG.zip: 2f4aff7d011d6aa874cc4491b7ebde35b887d801d11cd26cd61389a48aac1348\n**Release:**\nVirtualSMC-1.1.8-RELEASE.zip: c38a2aea9bbd40abfa0c824667fc164a5872747128e1aa08c8c1a32923540345",
+          "id": 32825703,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-2739b74"
+        },
+        "source": "built",
+        "version": "1.1.8"
+      },
+      {
+        "commit": {
           "message": "Update KnownPlugins.md (#45)",
           "sha": "e97de945797e392fa9da968b55b0eba90dd8ce8a",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/e97de945797e392fa9da968b55b0eba90dd8ce8a",
