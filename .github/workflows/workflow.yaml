@@ -42,9 +42,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@users.noreply.github.com"
           git clone https://github.com/dortania/build-repo.git Config --depth 1 --single-branch --branch builds --sparse --filter=blob:none
-      - uses: fregante/setup-git-token@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: fregante/setup-git-user@v1
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py
       #- name: Setup tmate session
