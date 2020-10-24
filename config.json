@@ -1082,6 +1082,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "09a0177b01a6d29d8c45ea9523259f763a91589e",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/09a0177b01a6d29d8c45ea9523259f763a91589e",
+          "url": "https://github.com/acidanthera/AppleALC/commit/09a0177b01a6d29d8c45ea9523259f763a91589e"
+        },
+        "dateadded": "2020-10-24T21:50:05.736057+00:00",
+        "datecommitted": "2020-10-24T21:41:18+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "89e8b1f95ab8bebc0fd5391393ec7879280bae658ed8ac5c2c91c6da029414ff"
+          },
+          "release": {
+            "sha256": "84518adb01c7dec27bcca5d431cfc976b6b041c9eff736d47908c567fbd06216"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-09a0177/AppleALC-1.5.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-09a0177/AppleALC-1.5.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/09a0177b01a6d29d8c45ea9523259f763a91589e) ([browse tree](https://github.com/acidanthera/AppleALC/tree/09a0177b01a6d29d8c45ea9523259f763a91589e))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.4-DEBUG.zip: 89e8b1f95ab8bebc0fd5391393ec7879280bae658ed8ac5c2c91c6da029414ff\n**Release:**\nAppleALC-1.5.4-RELEASE.zip: 84518adb01c7dec27bcca5d431cfc976b6b041c9eff736d47908c567fbd06216",
+          "id": 33019100,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-09a0177"
+        },
+        "source": "built",
+        "version": "1.5.4"
+      },
+      {
+        "commit": {
           "message": "Added support for sending hda-verbs from user-space (#614)",
           "sha": "61e2bbfe74bf1c12ebf770ed4a9776a04a7758f2",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/61e2bbfe74bf1c12ebf770ed4a9776a04a7758f2",
