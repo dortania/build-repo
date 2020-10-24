@@ -1082,6 +1082,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix Coverity issues and lower alc-verb deployment target",
+          "sha": "73239445f2754a8714598a9313a58d6255585fa3",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/73239445f2754a8714598a9313a58d6255585fa3",
+          "url": "https://github.com/acidanthera/AppleALC/commit/73239445f2754a8714598a9313a58d6255585fa3"
+        },
+        "dateadded": "2020-10-24T22:30:16.127439+00:00",
+        "datecommitted": "2020-10-24T22:12:07+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "f00b2ca211465c6183ed1e60ea89b934ca1f3ed22d5014590aa20a32123c2d44"
+          },
+          "release": {
+            "sha256": "2139ec6af7abde09f0989612d762f841ea60292322eea064cd4e88c8f79aee21"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-7323944/AppleALC-1.5.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-7323944/AppleALC-1.5.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix Coverity issues and lower alc-verb deployment target\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/73239445f2754a8714598a9313a58d6255585fa3) ([browse tree](https://github.com/acidanthera/AppleALC/tree/73239445f2754a8714598a9313a58d6255585fa3))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.4-DEBUG.zip: f00b2ca211465c6183ed1e60ea89b934ca1f3ed22d5014590aa20a32123c2d44\n**Release:**\nAppleALC-1.5.4-RELEASE.zip: 2139ec6af7abde09f0989612d762f841ea60292322eea064cd4e88c8f79aee21",
+          "id": 33019525,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-7323944"
+        },
+        "source": "built",
+        "version": "1.5.4"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "666d9a16ff5b2aecdb0e28fe95e1d0886dabc521",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/666d9a16ff5b2aecdb0e28fe95e1d0886dabc521",
