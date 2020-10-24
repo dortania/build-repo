@@ -1082,6 +1082,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Improve controller patch for Ice Lake (#615)\n\nApply the same patch we used for Comet Lake to Ice Lake resolve audio issues on many platforms",
+          "sha": "cd7b6f56a7a3041f6035b6611ce7e9e882934719",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/cd7b6f56a7a3041f6035b6611ce7e9e882934719",
+          "url": "https://github.com/acidanthera/AppleALC/commit/cd7b6f56a7a3041f6035b6611ce7e9e882934719"
+        },
+        "dateadded": "2020-10-24T21:51:45.703791+00:00",
+        "datecommitted": "2020-10-24T21:39:30+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "8c8a4d50c0ca70b0fe5c0e1026bb65f60d865003b50cf44c790c57283333697c"
+          },
+          "release": {
+            "sha256": "df168900bcf142c420da1a0c205c978201bca7775b1218e8dd3f60d4e39f7670"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-cd7b6f5/AppleALC-1.5.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-cd7b6f5/AppleALC-1.5.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nImprove controller patch for Ice Lake (#615)\n\nApply the same patch we used for Comet Lake to Ice Lake resolve audio issues on many platforms\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/cd7b6f56a7a3041f6035b6611ce7e9e882934719) ([browse tree](https://github.com/acidanthera/AppleALC/tree/cd7b6f56a7a3041f6035b6611ce7e9e882934719))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.4-DEBUG.zip: 8c8a4d50c0ca70b0fe5c0e1026bb65f60d865003b50cf44c790c57283333697c\n**Release:**\nAppleALC-1.5.4-RELEASE.zip: df168900bcf142c420da1a0c205c978201bca7775b1218e8dd3f60d4e39f7670",
+          "id": 33019118,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-cd7b6f5"
+        },
+        "source": "built",
+        "version": "1.5.4"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "09a0177b01a6d29d8c45ea9523259f763a91589e",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/09a0177b01a6d29d8c45ea9523259f763a91589e",
