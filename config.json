@@ -51319,6 +51319,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Docs: Update FAQ.Shiki",
+          "sha": "e9af77de02f32da981921fd723afc544265e9277",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/e9af77de02f32da981921fd723afc544265e9277",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/e9af77de02f32da981921fd723afc544265e9277"
+        },
+        "dateadded": "2020-10-25T20:27:15.657029+00:00",
+        "datecommitted": "2020-10-25T20:21:38+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-e9af77d/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "ca6bc0ec4cd69d5a09c0a1022b144eaafa653c51107d94ed56681d0574382d91"
+          },
+          "debug": {
+            "sha256": "ce2762ecd25ff83641a2a062539d131312d3fb652d03f2cb6ce90bc02533bfb2"
+          },
+          "release": {
+            "sha256": "a80ee0db0297d489a3302058fcc4dc3096ec9d998caad9a31651c887a6b11e13"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-e9af77d/WhateverGreen-1.4.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-e9af77d/WhateverGreen-1.4.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nDocs: Update FAQ.Shiki\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/e9af77de02f32da981921fd723afc544265e9277) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/e9af77de02f32da981921fd723afc544265e9277))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.4-DEBUG.zip: ce2762ecd25ff83641a2a062539d131312d3fb652d03f2cb6ce90bc02533bfb2\n**Release:**\nWhateverGreen-1.4.4-RELEASE.zip: a80ee0db0297d489a3302058fcc4dc3096ec9d998caad9a31651c887a6b11e13\n**Extras:**\nSSDT-PNLF.aml: ca6bc0ec4cd69d5a09c0a1022b144eaafa653c51107d94ed56681d0574382d91",
+          "id": 33033718,
+          "url": "https://github.com/dortania/build-repo/releases/tag/WhateverGreen-e9af77d"
+        },
+        "source": "built",
+        "version": "1.4.4"
+      },
+      {
+        "commit": {
           "message": "Enhanced maximum link rate fix, Fixed the page fault in the LSPCON driver, Submodules refactoring. (#72)",
           "sha": "80f4727765d79e7ce0c0d2dac4e2517981e50138",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/80f4727765d79e7ce0c0d2dac4e2517981e50138",
