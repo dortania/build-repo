@@ -5554,6 +5554,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix CLANG ANALYZER' warning about unused variable",
+          "sha": "4fe66d719eb2b3741e5ebc98f00a8bdd529cc6df",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/4fe66d719eb2b3741e5ebc98f00a8bdd529cc6df",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/4fe66d719eb2b3741e5ebc98f00a8bdd529cc6df"
+        },
+        "dateadded": "2020-10-29T08:46:42.273081+00:00",
+        "datecommitted": "2020-10-29T08:00:40+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "6d709dac89bf091a0131b753041a123d5cfffdf819bd18cb732f1347ed564032"
+          },
+          "release": {
+            "sha256": "af307cba7b45d388f9cc5b2996035bcc6235cfab2dc6cc47c15936ff196f0b67"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-4fe66d7/HibernationFixup-1.3.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-4fe66d7/HibernationFixup-1.3.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix CLANG ANALYZER' warning about unused variable\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/4fe66d719eb2b3741e5ebc98f00a8bdd529cc6df) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/4fe66d719eb2b3741e5ebc98f00a8bdd529cc6df))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.7-DEBUG.zip: 6d709dac89bf091a0131b753041a123d5cfffdf819bd18cb732f1347ed564032\n**Release:**\nHibernationFixup-1.3.7-RELEASE.zip: af307cba7b45d388f9cc5b2996035bcc6235cfab2dc6cc47c15936ff196f0b67",
+          "id": 33204589,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-4fe66d7"
+        },
+        "source": "built",
+        "version": "1.3.7"
+      },
+      {
+        "commit": {
           "message": "One more attempt to fix CLANG ANALYZER warning",
           "sha": "e73796c86d4b876e459e920055aedea6051c0fb7",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/e73796c86d4b876e459e920055aedea6051c0fb7",
