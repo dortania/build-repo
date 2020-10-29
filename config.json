@@ -5554,6 +5554,35 @@
     "versions": [
       {
         "commit": {
+          "message": "One more attempt to fix CLANG ANALYZER warning",
+          "sha": "e73796c86d4b876e459e920055aedea6051c0fb7",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/e73796c86d4b876e459e920055aedea6051c0fb7",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/e73796c86d4b876e459e920055aedea6051c0fb7"
+        },
+        "dateadded": "2020-10-29T08:46:10.546853+00:00",
+        "datecommitted": "2020-10-29T08:11:25+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "5340a5ef39d525c50ab2241543847951d0f164621b60790c4d64481f34a94ade"
+          },
+          "release": {
+            "sha256": "dd7a8a38a066d925039b031dd1d87fdc185c3cd1c7298199ece0d11ab1a47af3"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-e73796c/HibernationFixup-1.3.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-e73796c/HibernationFixup-1.3.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nOne more attempt to fix CLANG ANALYZER warning\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/e73796c86d4b876e459e920055aedea6051c0fb7) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/e73796c86d4b876e459e920055aedea6051c0fb7))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.7-DEBUG.zip: 5340a5ef39d525c50ab2241543847951d0f164621b60790c4d64481f34a94ade\n**Release:**\nHibernationFixup-1.3.7-RELEASE.zip: dd7a8a38a066d925039b031dd1d87fdc185c3cd1c7298199ece0d11ab1a47af3",
+          "id": 33204566,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-e73796c"
+        },
+        "source": "built",
+        "version": "1.3.7"
+      },
+      {
+        "commit": {
           "message": "Improve auto hibernation: if we are in maintenance wake: call privateSleepSystem immediately in IOHibernateSystemWake, do no set maintenance wake timer again",
           "sha": "9544a69b9fa076fc345c9a4c85ae6b34f4a43883",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/9544a69b9fa076fc345c9a4c85ae6b34f4a43883",
