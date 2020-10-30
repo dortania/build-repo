@@ -5554,6 +5554,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fix forcing to sleep in maintenance mode (use timer) and receivePowerNotification(kIOPMSleepNow) to ignore sleep assertions",
+          "sha": "6ac93fef6a2456a90c17a5bd606662faada4b463",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/6ac93fef6a2456a90c17a5bd606662faada4b463",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/6ac93fef6a2456a90c17a5bd606662faada4b463"
+        },
+        "dateadded": "2020-10-30T14:43:41.946519+00:00",
+        "datecommitted": "2020-10-30T14:41:26+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "301bd034bc4b2d09abd2e1ebd931efed7a743e79e962937e9efb31aea73687c7"
+          },
+          "release": {
+            "sha256": "3f2babafe9d02b4f462ab49f59795d5f935f428204668d1ed672a171af0ac4b0"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-6ac93fe/HibernationFixup-1.3.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-6ac93fe/HibernationFixup-1.3.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFix forcing to sleep in maintenance mode (use timer) and receivePowerNotification(kIOPMSleepNow) to ignore sleep assertions\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/6ac93fef6a2456a90c17a5bd606662faada4b463) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/6ac93fef6a2456a90c17a5bd606662faada4b463))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.7-DEBUG.zip: 301bd034bc4b2d09abd2e1ebd931efed7a743e79e962937e9efb31aea73687c7\n**Release:**\nHibernationFixup-1.3.7-RELEASE.zip: 3f2babafe9d02b4f462ab49f59795d5f935f428204668d1ed672a171af0ac4b0",
+          "id": 33274884,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-6ac93fe"
+        },
+        "source": "built",
+        "version": "1.3.7"
+      },
+      {
+        "commit": {
           "message": "One more attempt to fix CLANG ANALYZER warning",
           "sha": "e73796c86d4b876e459e920055aedea6051c0fb7",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/e73796c86d4b876e459e920055aedea6051c0fb7",
