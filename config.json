@@ -5554,6 +5554,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "21fdaa49d6ae414d16da1a304b6111d96f19a0a2",
+          "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/21fdaa49d6ae414d16da1a304b6111d96f19a0a2",
+          "url": "https://github.com/acidanthera/HibernationFixup/commit/21fdaa49d6ae414d16da1a304b6111d96f19a0a2"
+        },
+        "dateadded": "2020-10-30T18:44:39.314499+00:00",
+        "datecommitted": "2020-10-30T18:43:07+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "10196f9507bc718a41a7fea6f0972e4e0fd31f590eb985519c0cb81418b78e7b"
+          },
+          "release": {
+            "sha256": "ad2e775d5a00e52bd8b8ad587a480f6c022ca20410f3df16cabb32b91bee8a8c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-21fdaa4/HibernationFixup-1.3.7-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/HibernationFixup-21fdaa4/HibernationFixup-1.3.7-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/HibernationFixup/commit/21fdaa49d6ae414d16da1a304b6111d96f19a0a2) ([browse tree](https://github.com/acidanthera/HibernationFixup/tree/21fdaa49d6ae414d16da1a304b6111d96f19a0a2))\n\n**Hashes**:\n**Debug:**\nHibernationFixup-1.3.7-DEBUG.zip: 10196f9507bc718a41a7fea6f0972e4e0fd31f590eb985519c0cb81418b78e7b\n**Release:**\nHibernationFixup-1.3.7-RELEASE.zip: ad2e775d5a00e52bd8b8ad587a480f6c022ca20410f3df16cabb32b91bee8a8c",
+          "id": 33286425,
+          "url": "https://github.com/dortania/build-repo/releases/tag/HibernationFixup-21fdaa4"
+        },
+        "source": "built",
+        "version": "1.3.7"
+      },
+      {
+        "commit": {
           "message": "Fix forcing to sleep in maintenance mode (use timer) and receivePowerNotification(kIOPMSleepNow) to ignore sleep assertions",
           "sha": "6ac93fef6a2456a90c17a5bd606662faada4b463",
           "tree_url": "https://github.com/acidanthera/HibernationFixup/tree/6ac93fef6a2456a90c17a5bd606662faada4b463",
