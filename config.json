@@ -50515,6 +50515,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Use IOSleep(0) while waiting for no SMM access",
+          "sha": "74bcdc8d71488010ad7d7ab6adabc619f190231c",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/74bcdc8d71488010ad7d7ab6adabc619f190231c",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/74bcdc8d71488010ad7d7ab6adabc619f190231c"
+        },
+        "dateadded": "2020-11-02T12:50:29.218841+00:00",
+        "datecommitted": "2020-11-02T12:42:56+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "ecc159e79b2cb3ea9dfeb12c2296d370a304c63e001082dbf8ba7d2a228d3e40"
+          },
+          "release": {
+            "sha256": "7772d616b047739d55c3a25ccad57679f36d3ecb69569bb2ebedb893bd7de5fc"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-74bcdc8/VirtualSMC-1.1.8-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-74bcdc8/VirtualSMC-1.1.8-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nUse IOSleep(0) while waiting for no SMM access\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/74bcdc8d71488010ad7d7ab6adabc619f190231c) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/74bcdc8d71488010ad7d7ab6adabc619f190231c))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.8-DEBUG.zip: ecc159e79b2cb3ea9dfeb12c2296d370a304c63e001082dbf8ba7d2a228d3e40\n**Release:**\nVirtualSMC-1.1.8-RELEASE.zip: 7772d616b047739d55c3a25ccad57679f36d3ecb69569bb2ebedb893bd7de5fc",
+          "id": 33351060,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-74bcdc8"
+        },
+        "source": "built",
+        "version": "1.1.8"
+      },
+      {
+        "commit": {
           "message": "SMCDellSensors: do not limit waiting for no audio events",
           "sha": "707f641049976e35fda91110b9c8b57a06498034",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/707f641049976e35fda91110b9c8b57a06498034",
