@@ -1082,6 +1082,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add layout for HP Envy 15t-k200 w/ Beats Audio 2.1 (#619)",
+          "sha": "29f88daf9b24da403ab8e6745679eb9b1b39d039",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/29f88daf9b24da403ab8e6745679eb9b1b39d039",
+          "url": "https://github.com/acidanthera/AppleALC/commit/29f88daf9b24da403ab8e6745679eb9b1b39d039"
+        },
+        "dateadded": "2020-11-02T10:32:21.936831+00:00",
+        "datecommitted": "2020-11-02T10:19:32+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "e3cc0b49a367c172ef3f72a812e21797a5d6f04ffcb4befc3cc43372d6291d63"
+          },
+          "release": {
+            "sha256": "a45703a9890dfbbee8823cd279ff14171e8698f0b317c473afbe44e31502180a"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-29f88da/AppleALC-1.5.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-29f88da/AppleALC-1.5.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd layout for HP Envy 15t-k200 w/ Beats Audio 2.1 (#619)\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/29f88daf9b24da403ab8e6745679eb9b1b39d039) ([browse tree](https://github.com/acidanthera/AppleALC/tree/29f88daf9b24da403ab8e6745679eb9b1b39d039))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.4-DEBUG.zip: e3cc0b49a367c172ef3f72a812e21797a5d6f04ffcb4befc3cc43372d6291d63\n**Release:**\nAppleALC-1.5.4-RELEASE.zip: a45703a9890dfbbee8823cd279ff14171e8698f0b317c473afbe44e31502180a",
+          "id": 33345594,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-29f88da"
+        },
+        "source": "built",
+        "version": "1.5.4"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "06e12eee4147af365c0b2bf81e015b76e5d10f66",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/06e12eee4147af365c0b2bf81e015b76e5d10f66",
