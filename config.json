@@ -1082,6 +1082,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "297a9545da670378261e3769d521a7e05c92b738",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/297a9545da670378261e3769d521a7e05c92b738",
+          "url": "https://github.com/acidanthera/AppleALC/commit/297a9545da670378261e3769d521a7e05c92b738"
+        },
+        "dateadded": "2020-11-02T10:43:35.664621+00:00",
+        "datecommitted": "2020-11-02T10:18:55+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "777baa18b904e01845647a03f891db5c2f399097b63747474204a97b79bf6abe"
+          },
+          "release": {
+            "sha256": "877f1cdb70194e83853622b3b9de7947b589ed6b6fe5fdc7ee41c90c8afce0a6"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-297a954/AppleALC-1.5.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-297a954/AppleALC-1.5.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/297a9545da670378261e3769d521a7e05c92b738) ([browse tree](https://github.com/acidanthera/AppleALC/tree/297a9545da670378261e3769d521a7e05c92b738))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.4-DEBUG.zip: 777baa18b904e01845647a03f891db5c2f399097b63747474204a97b79bf6abe\n**Release:**\nAppleALC-1.5.4-RELEASE.zip: 877f1cdb70194e83853622b3b9de7947b589ed6b6fe5fdc7ee41c90c8afce0a6",
+          "id": 33346029,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-297a954"
+        },
+        "source": "built",
+        "version": "1.5.4"
+      },
+      {
+        "commit": {
           "message": "Add layout for HP Envy 15t-k200 w/ Beats Audio 2.1 (#619)",
           "sha": "29f88daf9b24da403ab8e6745679eb9b1b39d039",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/29f88daf9b24da403ab8e6745679eb9b1b39d039",
