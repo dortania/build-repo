@@ -53696,6 +53696,41 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "ece2fd3879e3222b1e42979fb404bece74eb6018",
+          "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/ece2fd3879e3222b1e42979fb404bece74eb6018",
+          "url": "https://github.com/acidanthera/WhateverGreen/commit/ece2fd3879e3222b1e42979fb404bece74eb6018"
+        },
+        "dateadded": "2020-11-02T19:40:39.366130+00:00",
+        "datecommitted": "2020-11-02T19:26:34+00:00",
+        "extras": {
+          "SSDT-PNLF.aml": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-ece2fd3/SSDT-PNLF.aml"
+        },
+        "hashes": {
+          "SSDT-PNLF.aml": {
+            "sha256": "ca6bc0ec4cd69d5a09c0a1022b144eaafa653c51107d94ed56681d0574382d91"
+          },
+          "debug": {
+            "sha256": "51c0d182a6df4461af2b2e7cee0ce499dc8d0691b558ca84429a2af42f167d48"
+          },
+          "release": {
+            "sha256": "64496c368183d3b265e5b0bddfb8ba5de62d31d3cb50b62c5248b1b19f626450"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-ece2fd3/WhateverGreen-1.4.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/WhateverGreen-ece2fd3/WhateverGreen-1.4.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/WhateverGreen/commit/ece2fd3879e3222b1e42979fb404bece74eb6018) ([browse tree](https://github.com/acidanthera/WhateverGreen/tree/ece2fd3879e3222b1e42979fb404bece74eb6018))\n\n**Hashes**:\n**Debug:**\nWhateverGreen-1.4.5-DEBUG.zip: 51c0d182a6df4461af2b2e7cee0ce499dc8d0691b558ca84429a2af42f167d48\n**Release:**\nWhateverGreen-1.4.5-RELEASE.zip: 64496c368183d3b265e5b0bddfb8ba5de62d31d3cb50b62c5248b1b19f626450\n**Extras:**\nSSDT-PNLF.aml: ca6bc0ec4cd69d5a09c0a1022b144eaafa653c51107d94ed56681d0574382d91",
+          "id": 33370776,
+          "url": "https://github.com/dortania/build-repo/releases/tag/WhateverGreen-ece2fd3"
+        },
+        "source": "built",
+        "version": "1.4.5"
+      },
+      {
+        "commit": {
           "message": "Docs: Update FAQ.Shiki",
           "sha": "e9af77de02f32da981921fd723afc544265e9277",
           "tree_url": "https://github.com/acidanthera/WhateverGreen/tree/e9af77de02f32da981921fd723afc544265e9277",
