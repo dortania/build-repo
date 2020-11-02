@@ -1082,6 +1082,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add Jack Sense and EAPD support to ALC230 layout 13 & 20 and add WakeConfigData to layout 13 (#618)\n\n* Add Jack Sense and EAPD support to layout 13 & 20 and add WakeConfigData to layout 13\r\n\r\n* Enable EAPD on 0x21",
+          "sha": "9938380eb5087afa1a9df2f8008237eaed1b90d6",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/9938380eb5087afa1a9df2f8008237eaed1b90d6",
+          "url": "https://github.com/acidanthera/AppleALC/commit/9938380eb5087afa1a9df2f8008237eaed1b90d6"
+        },
+        "dateadded": "2020-11-02T10:45:24.938787+00:00",
+        "datecommitted": "2020-11-02T10:17:16+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "188d6b1b6123b5c79f4538d71eadde9a53399cf3c5462e6bce83ecb9cb6588da"
+          },
+          "release": {
+            "sha256": "e6e9725614cfe2e75b2a339f083c43cb4f79de7231af71bd6a9e5ecc943d7ae3"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-9938380/AppleALC-1.5.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-9938380/AppleALC-1.5.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd Jack Sense and EAPD support to ALC230 layout 13 & 20 and add WakeConfigData to layout 13 (#618)\n\n* Add Jack Sense and EAPD support to layout 13 & 20 and add WakeConfigData to layout 13\r\n\r\n* Enable EAPD on 0x21\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/9938380eb5087afa1a9df2f8008237eaed1b90d6) ([browse tree](https://github.com/acidanthera/AppleALC/tree/9938380eb5087afa1a9df2f8008237eaed1b90d6))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.4-DEBUG.zip: 188d6b1b6123b5c79f4538d71eadde9a53399cf3c5462e6bce83ecb9cb6588da\n**Release:**\nAppleALC-1.5.4-RELEASE.zip: e6e9725614cfe2e75b2a339f083c43cb4f79de7231af71bd6a9e5ecc943d7ae3",
+          "id": 33346109,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-9938380"
+        },
+        "source": "built",
+        "version": "1.5.4"
+      },
+      {
+        "commit": {
           "message": "Sync changelog",
           "sha": "297a9545da670378261e3769d521a7e05c92b738",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/297a9545da670378261e3769d521a7e05c92b738",
