@@ -1082,6 +1082,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Sync changelog",
+          "sha": "8180c38456bfcb9d362b89d20f59ab649320357d",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/8180c38456bfcb9d362b89d20f59ab649320357d",
+          "url": "https://github.com/acidanthera/AppleALC/commit/8180c38456bfcb9d362b89d20f59ab649320357d"
+        },
+        "dateadded": "2020-11-02T10:12:45.684321+00:00",
+        "datecommitted": "2020-11-02T10:07:45+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "067e81670cfaa8b804d1708de0e86ad19f841961b2bbdf944f19bc7121979436"
+          },
+          "release": {
+            "sha256": "9c4699ea4a16bf0f8ca979e25ca857f6df947987b18fe4a57353f6dd04ba0f84"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-8180c38/AppleALC-1.5.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-8180c38/AppleALC-1.5.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/8180c38456bfcb9d362b89d20f59ab649320357d) ([browse tree](https://github.com/acidanthera/AppleALC/tree/8180c38456bfcb9d362b89d20f59ab649320357d))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.4-DEBUG.zip: 067e81670cfaa8b804d1708de0e86ad19f841961b2bbdf944f19bc7121979436\n**Release:**\nAppleALC-1.5.4-RELEASE.zip: 9c4699ea4a16bf0f8ca979e25ca857f6df947987b18fe4a57353f6dd04ba0f84",
+          "id": 33344772,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-8180c38"
+        },
+        "source": "built",
+        "version": "1.5.4"
+      },
+      {
+        "commit": {
           "message": "Fix Coverity issues and lower alc-verb deployment target",
           "sha": "73239445f2754a8714598a9313a58d6255585fa3",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/73239445f2754a8714598a9313a58d6255585fa3",
