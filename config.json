@@ -52990,6 +52990,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "650b5698688aed2155b72901240dd0225304fd66",
+          "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/650b5698688aed2155b72901240dd0225304fd66",
+          "url": "https://github.com/acidanthera/VoodooPS2/commit/650b5698688aed2155b72901240dd0225304fd66"
+        },
+        "dateadded": "2020-11-02T19:39:55.583194+00:00",
+        "datecommitted": "2020-11-02T19:29:05+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "0960b82542cee24332c932b2268f8b46ac0a829b4714bd3fb791b172a1914e47"
+          },
+          "release": {
+            "sha256": "469c4b7276a3652cb05f8850565cd43186222eafe9aecc31c75bab1b578ce50c"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-650b569/VoodooPS2Controller-2.1.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VoodooPS2-650b569/VoodooPS2Controller-2.1.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/VoodooPS2/commit/650b5698688aed2155b72901240dd0225304fd66) ([browse tree](https://github.com/acidanthera/VoodooPS2/tree/650b5698688aed2155b72901240dd0225304fd66))\n\n**Hashes**:\n**Debug:**\nVoodooPS2Controller-2.1.9-DEBUG.zip: 0960b82542cee24332c932b2268f8b46ac0a829b4714bd3fb791b172a1914e47\n**Release:**\nVoodooPS2Controller-2.1.9-RELEASE.zip: 469c4b7276a3652cb05f8850565cd43186222eafe9aecc31c75bab1b578ce50c",
+          "id": 33370744,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VoodooPS2-650b569"
+        },
+        "source": "built",
+        "version": "2.1.9"
+      },
+      {
+        "commit": {
           "message": "Fixed dynamic coordinate refresh for ELAN v3 touchpads",
           "sha": "7512e01c6cc5a144b779aed248a810d8796fceda",
           "tree_url": "https://github.com/acidanthera/VoodooPS2/tree/7512e01c6cc5a144b779aed248a810d8796fceda",
