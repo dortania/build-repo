@@ -50631,6 +50631,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Bump version",
+          "sha": "f37161fe3685b51deeb2fcfab3ce19d26629c088",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/f37161fe3685b51deeb2fcfab3ce19d26629c088",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/f37161fe3685b51deeb2fcfab3ce19d26629c088"
+        },
+        "dateadded": "2020-11-02T19:39:07.222914+00:00",
+        "datecommitted": "2020-11-02T19:27:07+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "8493837c95f920c9c0e647e3c840e283a068f2baf3464a1b8d7e4e59af67b510"
+          },
+          "release": {
+            "sha256": "ad0e2b1a666f7703ddcc1ce96c2ea9f3fba4bf268841c3500e51b69a63d110f0"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-f37161f/VirtualSMC-1.1.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-f37161f/VirtualSMC-1.1.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nBump version\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/f37161fe3685b51deeb2fcfab3ce19d26629c088) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/f37161fe3685b51deeb2fcfab3ce19d26629c088))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.9-DEBUG.zip: 8493837c95f920c9c0e647e3c840e283a068f2baf3464a1b8d7e4e59af67b510\n**Release:**\nVirtualSMC-1.1.9-RELEASE.zip: ad0e2b1a666f7703ddcc1ce96c2ea9f3fba4bf268841c3500e51b69a63d110f0",
+          "id": 33370714,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-f37161f"
+        },
+        "source": "built",
+        "version": "1.1.9"
+      },
+      {
+        "commit": {
           "message": "Use IOSleep(0) while waiting for no SMM access",
           "sha": "74bcdc8d71488010ad7d7ab6adabc619f190231c",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/74bcdc8d71488010ad7d7ab6adabc619f190231c",
