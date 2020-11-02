@@ -1083,6 +1083,35 @@
       {
         "commit": {
           "message": "Sync changelog",
+          "sha": "06e12eee4147af365c0b2bf81e015b76e5d10f66",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/06e12eee4147af365c0b2bf81e015b76e5d10f66",
+          "url": "https://github.com/acidanthera/AppleALC/commit/06e12eee4147af365c0b2bf81e015b76e5d10f66"
+        },
+        "dateadded": "2020-11-02T10:24:40.192426+00:00",
+        "datecommitted": "2020-11-02T10:21:17+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "749ae00173a039f58501cf87efa4074bea9240b0d7aaa626962c103e27c19034"
+          },
+          "release": {
+            "sha256": "7d267f8bd204c07ab2452fd2d532b86a875f4a166dfd539e775a8d52f98d3a20"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-06e12ee/AppleALC-1.5.4-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-06e12ee/AppleALC-1.5.4-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nSync changelog\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/06e12eee4147af365c0b2bf81e015b76e5d10f66) ([browse tree](https://github.com/acidanthera/AppleALC/tree/06e12eee4147af365c0b2bf81e015b76e5d10f66))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.4-DEBUG.zip: 749ae00173a039f58501cf87efa4074bea9240b0d7aaa626962c103e27c19034\n**Release:**\nAppleALC-1.5.4-RELEASE.zip: 7d267f8bd204c07ab2452fd2d532b86a875f4a166dfd539e775a8d52f98d3a20",
+          "id": 33345224,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-06e12ee"
+        },
+        "source": "built",
+        "version": "1.5.4"
+      },
+      {
+        "commit": {
+          "message": "Sync changelog",
           "sha": "8180c38456bfcb9d362b89d20f59ab649320357d",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/8180c38456bfcb9d362b89d20f59ab649320357d",
           "url": "https://github.com/acidanthera/AppleALC/commit/8180c38456bfcb9d362b89d20f59ab649320357d"
