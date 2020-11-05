@@ -1111,6 +1111,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Improve build caching",
+          "sha": "2cfa1320510d946fb8c7e7b883a90ade5ee590a9",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/2cfa1320510d946fb8c7e7b883a90ade5ee590a9",
+          "url": "https://github.com/acidanthera/AppleALC/commit/2cfa1320510d946fb8c7e7b883a90ade5ee590a9"
+        },
+        "dateadded": "2020-11-05T19:04:37.570951+00:00",
+        "datecommitted": "2020-11-05T18:55:17+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "436c958a59eb9120b98a97513e4f5e0636e70500b5ae1dbf23bea75539e8f9dc"
+          },
+          "release": {
+            "sha256": "e983da44b636b370b004965bd26251273a6ae15e692dd2405199979f8e16b9a0"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-2cfa132/AppleALC-1.5.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-2cfa132/AppleALC-1.5.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nImprove build caching\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/2cfa1320510d946fb8c7e7b883a90ade5ee590a9) ([browse tree](https://github.com/acidanthera/AppleALC/tree/2cfa1320510d946fb8c7e7b883a90ade5ee590a9))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.5-DEBUG.zip: 436c958a59eb9120b98a97513e4f5e0636e70500b5ae1dbf23bea75539e8f9dc\n**Release:**\nAppleALC-1.5.5-RELEASE.zip: e983da44b636b370b004965bd26251273a6ae15e692dd2405199979f8e16b9a0",
+          "id": 33521554,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-2cfa132"
+        },
+        "source": "built",
+        "version": "1.5.5"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "c99fd38e129fce4ae06c81d6de66c03fa251709e",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/c99fd38e129fce4ae06c81d6de66c03fa251709e",
