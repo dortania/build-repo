@@ -51212,6 +51212,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Docs: Fix formatting",
+          "sha": "1a2d8427fe21336de21dd5be941f4cf764b862ea",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/1a2d8427fe21336de21dd5be941f4cf764b862ea",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/1a2d8427fe21336de21dd5be941f4cf764b862ea"
+        },
+        "dateadded": "2020-11-05T18:03:35.857422+00:00",
+        "datecommitted": "2020-11-05T17:58:57+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "607746ff9ea23b76ee1ed82f7213f8a75a2c0914782051fe1fb23f08e9fd2a0f"
+          },
+          "release": {
+            "sha256": "531a172430a1fa819fceaddfedb89cc0ef481033536edbb31da93b7d17e4f5ac"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-1a2d842/VirtualSMC-1.1.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-1a2d842/VirtualSMC-1.1.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nDocs: Fix formatting\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/1a2d8427fe21336de21dd5be941f4cf764b862ea) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/1a2d8427fe21336de21dd5be941f4cf764b862ea))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.9-DEBUG.zip: 607746ff9ea23b76ee1ed82f7213f8a75a2c0914782051fe1fb23f08e9fd2a0f\n**Release:**\nVirtualSMC-1.1.9-RELEASE.zip: 531a172430a1fa819fceaddfedb89cc0ef481033536edbb31da93b7d17e4f5ac",
+          "id": 33518943,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-1a2d842"
+        },
+        "source": "built",
+        "version": "1.1.9"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "f37161fe3685b51deeb2fcfab3ce19d26629c088",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/f37161fe3685b51deeb2fcfab3ce19d26629c088",
