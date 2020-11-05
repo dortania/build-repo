@@ -1111,6 +1111,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Ignore verbs without `alc-verbs` HDEF property or `alcverbs=1` boot-arg",
+          "sha": "5d49bac43eef8f855adfefb26ed364ea1e11c008",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/5d49bac43eef8f855adfefb26ed364ea1e11c008",
+          "url": "https://github.com/acidanthera/AppleALC/commit/5d49bac43eef8f855adfefb26ed364ea1e11c008"
+        },
+        "dateadded": "2020-11-05T19:41:01.532423+00:00",
+        "datecommitted": "2020-11-05T19:36:16+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "5dbef5e7839bb8b5c480455f394e0c89c829387d0e4d05a16f144633e6ed1879"
+          },
+          "release": {
+            "sha256": "ebd300b78d9a59547d56a8c1840483ae71de0765c92361fff5b481cb602c921d"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-5d49bac/AppleALC-1.5.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-5d49bac/AppleALC-1.5.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nIgnore verbs without `alc-verbs` HDEF property or `alcverbs=1` boot-arg\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/5d49bac43eef8f855adfefb26ed364ea1e11c008) ([browse tree](https://github.com/acidanthera/AppleALC/tree/5d49bac43eef8f855adfefb26ed364ea1e11c008))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.5-DEBUG.zip: 5dbef5e7839bb8b5c480455f394e0c89c829387d0e4d05a16f144633e6ed1879\n**Release:**\nAppleALC-1.5.5-RELEASE.zip: ebd300b78d9a59547d56a8c1840483ae71de0765c92361fff5b481cb602c921d",
+          "id": 33523223,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-5d49bac"
+        },
+        "source": "built",
+        "version": "1.5.5"
+      },
+      {
+        "commit": {
           "message": "Improve build caching",
           "sha": "2cfa1320510d946fb8c7e7b883a90ade5ee590a9",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/2cfa1320510d946fb8c7e7b883a90ade5ee590a9",
