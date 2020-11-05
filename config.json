@@ -1111,6 +1111,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fixed kext loading issues on 10.8 and similar operating system\n\ncloses acidanthera/bugtracker#1257",
+          "sha": "188f7edf47b632257541de5400ec017e9d68cbff",
+          "tree_url": "https://github.com/acidanthera/AppleALC/tree/188f7edf47b632257541de5400ec017e9d68cbff",
+          "url": "https://github.com/acidanthera/AppleALC/commit/188f7edf47b632257541de5400ec017e9d68cbff"
+        },
+        "dateadded": "2020-11-05T19:42:29.279245+00:00",
+        "datecommitted": "2020-11-05T19:35:10+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "4124736a631ddd47999221e47f636b86fdbe085f0392c141de9cff05855f9e68"
+          },
+          "release": {
+            "sha256": "395343fc84ab54d3de82c310ce55940fdddcad64c9e06b9bb6922dd5a948dff9"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/AppleALC-188f7ed/AppleALC-1.5.5-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/AppleALC-188f7ed/AppleALC-1.5.5-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFixed kext loading issues on 10.8 and similar operating system\n\ncloses acidanthera/bugtracker#1257\n[View on GitHub](https://github.com/acidanthera/AppleALC/commit/188f7edf47b632257541de5400ec017e9d68cbff) ([browse tree](https://github.com/acidanthera/AppleALC/tree/188f7edf47b632257541de5400ec017e9d68cbff))\n\n**Hashes**:\n**Debug:**\nAppleALC-1.5.5-DEBUG.zip: 4124736a631ddd47999221e47f636b86fdbe085f0392c141de9cff05855f9e68\n**Release:**\nAppleALC-1.5.5-RELEASE.zip: 395343fc84ab54d3de82c310ce55940fdddcad64c9e06b9bb6922dd5a948dff9",
+          "id": 33523286,
+          "url": "https://github.com/dortania/build-repo/releases/tag/AppleALC-188f7ed"
+        },
+        "source": "built",
+        "version": "1.5.5"
+      },
+      {
+        "commit": {
           "message": "Ignore verbs without `alc-verbs` HDEF property or `alcverbs=1` boot-arg",
           "sha": "5d49bac43eef8f855adfefb26ed364ea1e11c008",
           "tree_url": "https://github.com/acidanthera/AppleALC/tree/5d49bac43eef8f855adfefb26ed364ea1e11c008",
