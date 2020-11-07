@@ -6782,6 +6782,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Fixed Apple HDEF detection made by NVIDIA",
+          "sha": "575bd85c759fcec66c02a0ab960b5d8dad095c69",
+          "tree_url": "https://github.com/acidanthera/Lilu/tree/575bd85c759fcec66c02a0ab960b5d8dad095c69",
+          "url": "https://github.com/acidanthera/Lilu/commit/575bd85c759fcec66c02a0ab960b5d8dad095c69"
+        },
+        "dateadded": "2020-11-07T00:56:03.084239+00:00",
+        "datecommitted": "2020-11-07T00:17:25+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "8bdd31d9ee3d20409bdc6317ca5ae6ecd1bc9fd7847356b217ae50b79647ddde"
+          },
+          "release": {
+            "sha256": "3a6f9451a8580e6ba78d460446ef9c2758bd5cc2663879589d55c5e9aea7327d"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/Lilu-575bd85/Lilu-1.5.0-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/Lilu-575bd85/Lilu-1.5.0-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nFixed Apple HDEF detection made by NVIDIA\n[View on GitHub](https://github.com/acidanthera/Lilu/commit/575bd85c759fcec66c02a0ab960b5d8dad095c69) ([browse tree](https://github.com/acidanthera/Lilu/tree/575bd85c759fcec66c02a0ab960b5d8dad095c69))\n\n**Hashes**:\n**Debug:**\nLilu-1.5.0-DEBUG.zip: 8bdd31d9ee3d20409bdc6317ca5ae6ecd1bc9fd7847356b217ae50b79647ddde\n**Release:**\nLilu-1.5.0-RELEASE.zip: 3a6f9451a8580e6ba78d460446ef9c2758bd5cc2663879589d55c5e9aea7327d",
+          "id": 33590854,
+          "url": "https://github.com/dortania/build-repo/releases/tag/Lilu-575bd85"
+        },
+        "source": "built",
+        "version": "1.5.0"
+      },
+      {
+        "commit": {
           "message": "Bump version",
           "sha": "0686835a9317b6f51a208f0ad06b0fbf3a43530b",
           "tree_url": "https://github.com/acidanthera/Lilu/tree/0686835a9317b6f51a208f0ad06b0fbf3a43530b",
