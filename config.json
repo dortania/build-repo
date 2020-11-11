@@ -53320,6 +53320,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Add comments for i8k_set_fan_control_manual and i8k_set_fan_control_auto",
+          "sha": "3a8366d9a4da5fa827d0eca0e7a9e83e1a97ddd8",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/3a8366d9a4da5fa827d0eca0e7a9e83e1a97ddd8",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/3a8366d9a4da5fa827d0eca0e7a9e83e1a97ddd8"
+        },
+        "dateadded": "2020-11-11T11:50:39.496190+00:00",
+        "datecommitted": "2020-11-11T11:46:57+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "6e0211801dc2fefa0516749bdd0ec9927d0d8edde3ea196cc094bdc6113cc499"
+          },
+          "release": {
+            "sha256": "f263699cb07a60048225b01e3879cf2d56d0b1e70496b857f6561210fbcb1046"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-3a8366d/VirtualSMC-1.1.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-3a8366d/VirtualSMC-1.1.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nAdd comments for i8k_set_fan_control_manual and i8k_set_fan_control_auto\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/3a8366d9a4da5fa827d0eca0e7a9e83e1a97ddd8) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/3a8366d9a4da5fa827d0eca0e7a9e83e1a97ddd8))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.9-DEBUG.zip: 6e0211801dc2fefa0516749bdd0ec9927d0d8edde3ea196cc094bdc6113cc499\n**Release:**\nVirtualSMC-1.1.9-RELEASE.zip: f263699cb07a60048225b01e3879cf2d56d0b1e70496b857f6561210fbcb1046",
+          "id": 33798533,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-3a8366d"
+        },
+        "source": "built",
+        "version": "1.1.9"
+      },
+      {
+        "commit": {
           "message": "Improve manual fan control in SMCDellSensors (use control registers 0x35a3 and 0x34a3 to cover more Dell models)",
           "sha": "02e91318dad8d86f461b20a468c30ca32a686451",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/02e91318dad8d86f461b20a468c30ca32a686451",
