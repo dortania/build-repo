@@ -53320,6 +53320,35 @@
     "versions": [
       {
         "commit": {
+          "message": "Improve manual fan control in SMCDellSensors (use control registers 0x35a3 and 0x34a3 to cover more Dell models)",
+          "sha": "02e91318dad8d86f461b20a468c30ca32a686451",
+          "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/02e91318dad8d86f461b20a468c30ca32a686451",
+          "url": "https://github.com/acidanthera/VirtualSMC/commit/02e91318dad8d86f461b20a468c30ca32a686451"
+        },
+        "dateadded": "2020-11-11T11:00:43.418139+00:00",
+        "datecommitted": "2020-11-11T10:54:02+00:00",
+        "hashes": {
+          "debug": {
+            "sha256": "a8cb32f4322cf24f409397415e3a3577d8442b02c6cb3fc494064fe4f4399709"
+          },
+          "release": {
+            "sha256": "e4db68ba872dc2f54559fed60c27184a9a87228900ab9060b7a03db6242f4b44"
+          }
+        },
+        "links": {
+          "debug": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-02e9131/VirtualSMC-1.1.9-DEBUG.zip",
+          "release": "https://github.com/dortania/build-repo/releases/download/VirtualSMC-02e9131/VirtualSMC-1.1.9-RELEASE.zip"
+        },
+        "release": {
+          "description": "**Changes:**\nImprove manual fan control in SMCDellSensors (use control registers 0x35a3 and 0x34a3 to cover more Dell models)\n[View on GitHub](https://github.com/acidanthera/VirtualSMC/commit/02e91318dad8d86f461b20a468c30ca32a686451) ([browse tree](https://github.com/acidanthera/VirtualSMC/tree/02e91318dad8d86f461b20a468c30ca32a686451))\n\n**Hashes**:\n**Debug:**\nVirtualSMC-1.1.9-DEBUG.zip: a8cb32f4322cf24f409397415e3a3577d8442b02c6cb3fc494064fe4f4399709\n**Release:**\nVirtualSMC-1.1.9-RELEASE.zip: e4db68ba872dc2f54559fed60c27184a9a87228900ab9060b7a03db6242f4b44",
+          "id": 33796592,
+          "url": "https://github.com/dortania/build-repo/releases/tag/VirtualSMC-02e9131"
+        },
+        "source": "built",
+        "version": "1.1.9"
+      },
+      {
+        "commit": {
           "message": "Docs: Fix formatting",
           "sha": "1a2d8427fe21336de21dd5be941f4cf764b862ea",
           "tree_url": "https://github.com/acidanthera/VirtualSMC/tree/1a2d8427fe21336de21dd5be941f4cf764b862ea",
