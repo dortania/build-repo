@@ -21,11 +21,6 @@ class Builder():
         self.build_dir.mkdir()
 
     @staticmethod
-    def _debug(string: str):
-        return string.replace("Release 10.6", "Debug").replace("Release", "Debug") \
-            .replace("release", "debug").replace("RELEASE", "DEBUG")
-
-    @staticmethod
     def _expand_globs(path: str):
         if "*" in path:
             path = Path(path)
@@ -83,23 +78,13 @@ class Builder():
         prebuild = plugin.get("Pre-Build", [])
         postbuild = plugin.get("Post-Build", [])
         build_opts = plugin.get("Build Opts", [])
-        build_dir = plugin.get("Build Dir", "./build/Release")
-        p_info = plugin.get("Info", name + ".kext/Contents/Info.plist")
-        debug = plugin.get("Debug", False)
+        build_dir = plugin.get("Build Dir", "build/")
+        p_info = plugin.get("Info", f"{build_dir}Release/{name}.kext/Contents/Info.plist")
         b_type = plugin.get("Type", "Kext")
-        d_file = plugin.get("Debug File", "build/Debug/*.kext")
-        r_file = plugin.get("Release File", "build/Release/*.kext")
+        d_file = plugin.get("Debug File", f"{build_dir}Debug/*.kext")
+        r_file = plugin.get("Release File", f"{build_dir}Release/*.kext")
         extra_files = plugin.get("Extras", None)
         v_cmd = plugin.get("Version", None)
-
-        if debug:
-            # we need to prep some stuff for debug builds
-            for task in prebuild:
-                task["args"] = [self._debug(x) for x in task["args"]]
-            for task in postbuild:
-                task["args"] = [self._debug(x) for x in task["args"]]
-            build_opts = [self._debug(x) for x in build_opts]
-            build_dir = self._debug(build_dir)
 
         chdir(self.working_dir)
 
@@ -237,7 +222,7 @@ class Builder():
             else:
                 version = result.stdout.decode().strip()
         elif b_type == "Kext":
-            plistpath = Path(build_dir).joinpath(p_info)
+            plistpath = Path(p_info)
             version = plistlib.load(plistpath.open(mode="rb"))["CFBundleVersion"]
         else:
             print("\tNo version command!")
