@@ -108,104 +108,8 @@
       ],
       "Debug File": "Binaries/*DEBUG*.zip",
       "Desc": "OpenCore front end",
-      "Extras": [
-        "Docs/AcpiSamples/*.aml"
-      ],
       "MacKernelSDK": true,
       "Name": "OpenCorePkg",
-      "Pre-Build": [
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-ALS0.dsl"
-          ],
-          "name": "Compile SSDT-ALS0.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-AWAC.dsl"
-          ],
-          "name": "Compile SSDT-AWAC.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-BRG0.dsl"
-          ],
-          "name": "Compile SSDT-BRG0.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-EC-USBX.dsl"
-          ],
-          "name": "Compile SSDT-EC-USBX.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-EC.dsl"
-          ],
-          "name": "Compile SSDT-EC.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-EHCx_OFF.dsl"
-          ],
-          "name": "Compile SSDT-EHCx_OFF.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-IMEI.dsl"
-          ],
-          "name": "Compile SSDT-IMEI.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-PLUG.dsl"
-          ],
-          "name": "Compile SSDT-PLUG.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-PMC.dsl"
-          ],
-          "name": "Compile SSDT-PMC.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-RTC0-RANGE.dsl"
-          ],
-          "name": "Compile SSDT-RTC0-RANGE.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-RTC0.dsl"
-          ],
-          "name": "Compile SSDT-RTC0.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-SBUS-MCHC.dsl"
-          ],
-          "name": "Compile SSDT-SBUS-MCHC.dsl",
-          "path": "iasl"
-        },
-        {
-          "args": [
-            "Docs/AcpiSamples/SSDT-UNC.dsl"
-          ],
-          "name": "Compile SSDT-UNC.dsl",
-          "path": "iasl"
-        }
-      ],
       "Release File": "Binaries/*RELEASE*.zip",
       "Type": "Bootloader",
       "URL": "https://github.com/acidanthera/OpenCorePkg",
@@ -341,23 +245,40 @@
       "URL": "https://github.com/1Revenger1/VoodooPS2-Alps"
     },
     {
-      "Debug File": "build/Debug/*.zip",
-      "Desc": "provides patches for AMD/Nvidia/Intel GPUs",
-      "Extras": [
-        "Manual/SSDT-PNLF.aml"
+      "Build Dir": "build/Build/Products",
+      "Build Opts": [
+        "-derivedDataPath",
+        "build",
+        "-scheme",
+        "VoodooRMI"
       ],
-      "Lilu": true,
+      "Debug File": "build/Build/Products/Debug/*.zip",
+      "Desc": "Synaptic Trackpad driver over SMBus/I2C for macOS",
+      "Lilu": false,
       "MacKernelSDK": true,
-      "Name": "WhateverGreen",
+      "Name": "VoodooRMI",
       "Pre-Build": [
         {
           "args": [
-            "Manual/SSDT-PNLF.dsl"
+            "submodule",
+            "update",
+            "--init",
+            "--recursive"
           ],
-          "name": "Compile SSDT-PNLF.dsl",
-          "path": "iasl"
+          "name": "Init submodules",
+          "path": "git"
         }
       ],
+      "Release File": "build/Build/Products/Release/*.zip",
+      "Type": "Kext",
+      "URL": "https://github.com/VoodooSMBus/VoodooRMI"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "provides patches for AMD/Nvidia/Intel GPUs",
+      "Lilu": true,
+      "MacKernelSDK": true,
+      "Name": "WhateverGreen",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/WhateverGreen"
     },
