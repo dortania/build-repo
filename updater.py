@@ -145,9 +145,9 @@ if len(failed) > 0:
     termcolor.cprint("\nFailed:", "red")
     for i in failed:
         print(i["plugin"]["Name"])
-if len(failed) > 0:
+if len(errored) > 0:
     termcolor.cprint("\nErrored:", "red")
-    for i in failed:
+    for i in errored:
         print(i["plugin"]["Name"])
 
 if len(failed) > 0 or len(errored) > 0:
