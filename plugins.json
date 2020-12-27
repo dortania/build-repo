@@ -33,6 +33,15 @@
     },
     {
       "Debug File": "build/Debug/*.zip",
+      "Desc": "Handler for brightness keys without DSDT patches",
+      "Lilu": true,
+      "MacKernelSDK": true,
+      "Name": "BrightnessKeys",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/BrightnessKeys"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
       "Desc": "Dynamic macOS CPU power management data injection",
       "Lilu": true,
       "MacKernelSDK": true,
