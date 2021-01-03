@@ -1,11 +1,11 @@
 import datetime
 import hashlib
 import json
-import subprocess
 import time
 from pathlib import Path
 
 import dateutil.parser
+import git
 import magic
 import purl
 from hammock import Hammock as hammock
@@ -150,13 +150,8 @@ def add_built(plugin, token):
     config[name]["versions"].insert(0, release)
     json.dump(config, config_path.open(mode="w"), indent=2, sort_keys=True)
 
-    result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=(script_dir / Path("Config")))
-    if result.returncode != 0:
-        print("Commit failed!")
-        print(result.stdout.decode())
-        return
-    result = subprocess.run("git push".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=(script_dir / Path("Config")))
-    if result.returncode != 0:
-        print("Push failed!")
-        print(result.stdout.decode())
-        return
+    repo = git.Repo("Config")
+    repo.git.add(all=True)
+    repo.git.commit(message="Deploying to builds")
+    repo.git.push()
+

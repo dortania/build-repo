@@ -1,11 +1,11 @@
 import datetime
 import json
-import subprocess
 import sys
 import traceback
 from pathlib import Path
 
 import dateutil.parser
+import git
 import humanize
 from hammock import Hammock as hammock
 from termcolor2 import c as color
@@ -156,13 +156,8 @@ if len(errored) > 0:
 if len(failed) > 0 or len(errored) > 0:
     sys.exit(10)
 
-result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=config_dir)
-if result.returncode != 0:
-    print("Failed to commit")
-    print(result.stdout.decode())
-    sys.exit()
-result = subprocess.run("git push".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=config_dir)
-if result.returncode != 0:
-    print("Failed to push!")
-    print(result.stdout.decode())
-    sys.exit(10)
+repo = git.Repo("Config")
+if repo.is_dirty(untracked_files=True):
+    repo.git.add(all=True)
+    repo.git.commit(message="Deploying to builds")
+    repo.git.push()
