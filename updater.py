@@ -6,8 +6,9 @@ import traceback
 from pathlib import Path
 
 import dateutil.parser
-import termcolor
+import humanize
 from hammock import Hammock as hammock
+from termcolor2 import c as color
 
 import builder
 from add import add_built
@@ -101,52 +102,54 @@ failed = []
 succeeded = []
 errored = []
 
-termcolor.cprint("\nBuilding " + str(len(to_build)) + " things", attrs=["bold"])
-
+print(color(f"\nBuilding {len(to_build)} things").bold)
 for plugin in to_build:
-    print("\nBuilding " + termcolor.colored(plugin["plugin"]["Name"], attrs=["bold"]))
+    print(f"\nBuilding {color(plugin['plugin']['Name']).bold}")
     try:
         started = datetime.datetime.now()
-        result = None
-        result = builder.build(plugin["plugin"], commithash=plugin["commit"]["sha"])
+        files = None
+        files = builder.build(plugin["plugin"], commithash=plugin["commit"]["sha"])
     except Exception as error:
         duration = datetime.datetime.now() - started
         print("An error occurred!")
         print(error)
         traceback.print_tb(error.__traceback__)
-        if result:
-            print("Result was: " + str(result))
-        termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "red", attrs=["bold"]) + termcolor.colored(" errored", "red"), "red")
+        if files:
+            print(f"Files: {files}")
+        print(f"{color('Building of').red} {color(plugin['plugin']['Name']).red.bold} {color('errored').red}")
         errored.append(plugin)
-        print("Took " + str(duration))
+        print(f"Took {humanize.naturaldelta(duration)}")
         continue
-    if result:
-        duration = datetime.datetime.now() - started
-        termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "green", attrs=["bold"]) + termcolor.colored(" succeeded", "green"), "green")
-        eee = plugin
-        eee["result"] = result
-        print("Took " + str(duration))
+
+    duration = datetime.datetime.now() - started
+
+    if files:
+        print(f"{color('Building of').green} {color(plugin['plugin']['Name']).green.bold} {color('succeeded').green}")
+        print(f"Took {humanize.naturaldelta(duration)}")
+
+        results = plugin
+        results["files"] = files
+
         print("Adding to config...")
-        add_built(eee, token)
-        succeeded.append(eee)
+        results["config_item"] = add_built(results, token)
+
+        succeeded.append(results)
     else:
-        duration = datetime.datetime.now() - started
-        if result:
-            print("Result was: " + str(result))
-        termcolor.cprint("Building of " + termcolor.colored(plugin["plugin"]["Name"], "red", attrs=["bold"]) + termcolor.colored(" failed", "red"), "red")
+        print(f"{color('Building of').red} {color(plugin['plugin']['Name']).red.bold} {color('failed').red}")
         failed.append(plugin)
-        print("Took " + str(duration))
-termcolor.cprint("\n" + str(len(succeeded)) + " of " + str(len(to_build)) + " built successfully\n", attrs=["bold"])
+        print(f"Took {humanize.naturaldelta(duration)}")
+
+print(color(f"\n {len(succeeded)} of {len(to_build)} built successfully\n").bold)
 if len(succeeded) > 0:
-    termcolor.cprint("Succeeded:", "green")
+    print(color("Succeeded:").green)
     for i in succeeded:
         print(i["plugin"]["Name"])
 if len(failed) > 0:
-    termcolor.cprint("\nFailed:", "red")
+    print(color("\nFailed:").red)
     for i in failed:
         print(i["plugin"]["Name"])
 if len(errored) > 0:
-    termcolor.cprint("\nErrored:", "red")
+    print(color("\nErrored:").red)
     for i in errored:
         print(i["plugin"]["Name"])
 

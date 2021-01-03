@@ -53,7 +53,7 @@ def paginate(url, token):
 def add_built(plugin, token):
     plugin_info = plugin["plugin"]
     commit_info = plugin["commit"]
-    files = plugin["result"]
+    files = plugin["files"]
 
     script_dir = Path(__file__).parent.absolute()
     config_path = script_dir / Path("Config/config.json")
