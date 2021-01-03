@@ -184,7 +184,7 @@
     {
       "Debug File": "build/Debug/*.zip",
       "Desc": "PS2 controller kext",
-      "Info": "VoodooPS2Controller.kext/Contents/Info.plist",
+      "Info": "build/Release/VoodooPS2Controller.kext/Contents/Info.plist",
       "Lilu": true,
       "MacKernelSDK": true,
       "Name": "VoodooPS2",
