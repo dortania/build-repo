@@ -19,7 +19,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
-          fetch-depth: '0'
           persist-credentials: true
           ref: github-actions
       - name: Set up Python 3
@@ -37,14 +36,13 @@ jobs:
       - name: Install Build Dependencies
         run: |
           HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica libmagic mingw-w64 openssl
+      - uses: fregante/setup-git-user@3a4c7216882eacd989bf2bc80fabbf9bca971967
       - name: Set Up Working Tree
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@users.noreply.github.com"
-          git clone https://github.com/dortania/build-repo.git Config --depth 1 --single-branch --branch builds --sparse --filter=blob:none
-      - uses: fregante/setup-git-token@v1
+        uses: actions/checkout@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+          ref: builds
+          path: Config
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py
       #- name: Setup tmate session
