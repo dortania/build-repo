@@ -148,6 +148,7 @@ def add_built(plugin, token):
     })
 
     config[name]["versions"].insert(0, release)
+    config[name]["versions"].sort(key=lambda x: x["datecommitted"], reverse=True)
     json.dump(config, config_path.open(mode="w"), indent=2, sort_keys=True)
 
     repo = git.Repo("Config")
