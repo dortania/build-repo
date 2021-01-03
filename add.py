@@ -150,15 +150,13 @@ def add_built(plugin, token):
     config[name]["versions"].insert(0, release)
     json.dump(config, config_path.open(mode="w"), indent=2, sort_keys=True)
 
-    result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=(script_dir / Path("Config")))
+    result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=(script_dir / Path("Config")))
     if result.returncode != 0:
         print("Commit failed!")
         print(result.stdout.decode())
-        print(result.stderr.decode())
         return
-    result = subprocess.run("git push".split(), capture_output=True, cwd=(script_dir / Path("Config")))
+    result = subprocess.run("git push".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=(script_dir / Path("Config")))
     if result.returncode != 0:
         print("Push failed!")
         print(result.stdout.decode())
-        print(result.stderr.decode())
         return

@@ -134,15 +134,13 @@ for product in config:
 
         json.dump(config, Path("Config/config.json").open(mode="w"), indent=2, sort_keys=True)
 
-result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=(Path(__file__).parent.absolute() / Path("Config")))
+result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=(Path(__file__).parent.absolute() / Path("Config")))
 if result.returncode != 0:
     print("Commit failed!")
     print(result.stdout.decode())
-    print(result.stderr.decode())
     sys.exit(10)
-result = subprocess.run("git push".split(), capture_output=True, cwd=(Path(__file__).parent.absolute() / Path("Config")))
+result = subprocess.run("git push".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=(Path(__file__).parent.absolute() / Path("Config")))
 if result.returncode != 0:
     print("Push failed!")
     print(result.stdout.decode())
-    print(result.stderr.decode())
     sys.exit(10)

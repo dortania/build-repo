@@ -36,32 +36,28 @@ class Builder():
             if Path("Lilu").exists():
                 shutil.rmtree(Path("Lilu"))
             print("\tCloning the repo...")
-            result = subprocess.run("git clone https://github.com/acidanthera/Lilu.git".split(), capture_output=True)
+            result = subprocess.run("git clone https://github.com/acidanthera/Lilu.git".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tClone failed!")
                 print(result.stdout.decode())
-                print(result.stderr.decode())
                 return False
             chdir(self.working_dir / Path("Lilu"))
             print("\tCloning MacKernelSDK...")
-            result = subprocess.run("git clone https://github.com/acidanthera/MacKernelSDK.git".split(), capture_output=True)
+            result = subprocess.run("git clone https://github.com/acidanthera/MacKernelSDK.git".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tClone of MacKernelSDK failed!")
                 print(result.stdout.decode())
-                print(result.stderr.decode())
                 return False
             print("\tBuilding debug version...")
-            result = subprocess.run("xcodebuild -quiet -configuration Debug".split(), capture_output=True)
+            result = subprocess.run("xcodebuild -quiet -configuration Debug".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tBuild failed!")
                 print(result.stdout.decode())
-                print(result.stderr.decode())
                 return False
-            result = subprocess.run("git rev-parse HEAD".split(), capture_output=True)
+            result = subprocess.run("git rev-parse HEAD".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tObtaining commit hash failed!")
                 print(result.stdout.decode())
-                print(result.stderr.decode())
                 return False
             else:
                 commithash = result.stdout.decode().strip()
@@ -96,28 +92,25 @@ class Builder():
         if Path(name).exists():
             shutil.rmtree(Path(name))
         print("\tCloning the repo...")
-        result = subprocess.run(["git", "clone", url + ".git", name], capture_output=True)
+        result = subprocess.run(["git", "clone", url + ".git", name], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
         if result.returncode != 0:
             print("\tClone failed!")
             print(result.stdout.decode())
-            print(result.stderr.decode())
             return False
         chdir(self.working_dir / Path(name))
 
         if commithash:
             print("\tChecking out to " + commithash + "...")
-            result = subprocess.run(["git", "checkout", commithash], capture_output=True)
+            result = subprocess.run(["git", "checkout", commithash], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tCheckout failed!")
                 print(result.stdout.decode())
-                print(result.stderr.decode())
                 return False
         else:
-            result = subprocess.run("git rev-parse HEAD".split(), capture_output=True)
+            result = subprocess.run("git rev-parse HEAD".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tObtaining commit hash failed!")
                 print(result.stdout.decode())
-                print(result.stderr.decode())
                 return False
         chdir(self.working_dir / Path(name))
         if needs_lilu:
@@ -126,11 +119,10 @@ class Builder():
         chdir(self.working_dir / Path(name))
         if needs_mackernelsdk:
             print("\tCloning MacKernelSDK...")
-            result = subprocess.run("git clone https://github.com/acidanthera/MacKernelSDK.git".split(), capture_output=True)
+            result = subprocess.run("git clone https://github.com/acidanthera/MacKernelSDK.git".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tClone of MacKernelSDK failed!")
                 print(result.stdout.decode())
-                print(result.stderr.decode())
                 return False
 
         chdir(self.working_dir / Path(name))
@@ -140,11 +132,10 @@ class Builder():
                 print("\t\tRunning task '" + task["name"] + "'")
                 args = [task["path"]]
                 args.extend(task["args"])
-                result = subprocess.run(args, capture_output=True)
+                result = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
                 if result.returncode != 0:
                     print("\t\tTask failed!")
                     print(result.stdout.decode())
-                    print(result.stderr.decode())
                     return False
                 else:
                     print("\t\tTask completed.")
@@ -153,22 +144,20 @@ class Builder():
             print("\tBuilding...")
             if isinstance(command, str):
                 command = command.split()
-            result = subprocess.run(command, capture_output=True)
+            result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tBuild failed!")
                 print(result.stdout.decode())
-                print(result.stderr.decode())
                 print("\tReturn code: " + str(result.returncode))
                 return False
         elif isinstance(command, list) and all(isinstance(n, dict) for n in command):
             # Multiple commands
             for i in command:
                 print("\t" + i["name"] + "...")
-                result = subprocess.run([i["path"]] + i["args"], capture_output=True)
+                result = subprocess.run([i["path"]] + i["args"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
                 if result.returncode != 0:
                     print("\tCommand failed!")
                     print(result.stdout.decode())
-                    print(result.stderr.decode())
                     print("\tReturn code: " + str(result.returncode))
                     return False
         else:
@@ -176,22 +165,20 @@ class Builder():
             args = "xcodebuild -quiet -configuration Release".split()
             args += build_opts
             args += ["BUILD_DIR=build/", "-jobs", "1"]
-            result = subprocess.run(args, capture_output=True)
+            result = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tBuild failed!")
                 print(result.stdout.decode())
-                print(result.stderr.decode())
                 print("\tReturn code: " + str(result.returncode))
                 return False
             print("\tBuilding debug version...")
             args = "xcodebuild -quiet -configuration Debug".split()
             args += build_opts
             args += ["BUILD_DIR=build/", "-jobs", "1"]
-            result = subprocess.run(args, capture_output=True)
+            result = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tBuild failed!")
                 print(result.stdout.decode())
-                print(result.stderr.decode())
                 print("\tReturn code: " + str(result.returncode))
                 return False
         chdir(self.working_dir / Path(name))
@@ -201,11 +188,10 @@ class Builder():
                 print("\t\tRunning task '" + task["name"] + "'")
                 args = [task["path"]]
                 args.extend(task["args"])
-                result = subprocess.run(args, capture_output=True, cwd=task.get("cwd", None))
+                result = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=task.get("cwd", None))
                 if result.returncode != 0:
                     print("\t\tTask failed!")
                     print(result.stdout.decode())
-                    print(result.stderr.decode())
                     return False
                 else:
                     print("\t\tTask completed.")
@@ -213,11 +199,10 @@ class Builder():
         if v_cmd:
             if isinstance(v_cmd, str):
                 v_cmd = v_cmd.split()
-            result = subprocess.run(v_cmd, capture_output=True)
+            result = subprocess.run(v_cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tRunning version command failed!")
                 print(result.stdout.decode())
-                print(result.stderr.decode())
                 return False
             else:
                 version = result.stdout.decode().strip()

@@ -111,5 +111,5 @@ config["_version"] = 2
 
 json.dump(config, Path("Config/config.json").open("w"), indent=2, sort_keys=True)
 
-result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], capture_output=True, cwd=Path("Config"))
-result = subprocess.run("git push".split(), capture_output=True, cwd=Path("Config"))
+result = subprocess.run(["git", "commit", "-am", "Deploying to builds"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=Path("Config"))
+result = subprocess.run("git push".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, cwd=Path("Config"))
