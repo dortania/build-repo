@@ -1,5 +1,6 @@
 import copy
 import json
+import sys
 import urllib.parse
 from pathlib import Path
 
@@ -7,8 +8,7 @@ import dateutil.parser
 import git
 from hammock import Hammock as hammock
 
-with open("gh token.txt") as f:
-    token = f.read().strip()
+token = sys.argv[1].strip()
 
 
 config: dict = json.load(Path("Config/config.json").open())

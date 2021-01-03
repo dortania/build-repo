@@ -4,8 +4,7 @@ import sys
 import time
 from hammock import Hammock as hammock
 
-with open("gh token.txt") as f:
-    token = f.read().strip()
+token = sys.argv[1].strip()
 
 
 this_run = hammock(f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}", auth=("github-actions", token))

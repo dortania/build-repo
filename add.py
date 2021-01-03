@@ -156,3 +156,4 @@ def add_built(plugin, token):
     repo.git.commit(message="Deploying to builds")
     repo.git.push()
 
+    return release

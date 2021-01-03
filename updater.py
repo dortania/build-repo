@@ -12,6 +12,7 @@ from termcolor2 import c as color
 
 import builder
 from add import add_built
+from notify import notify_error, notify_failure, notify_success
 
 
 def matched_key_in_dict_array(array, key, value):
@@ -46,8 +47,7 @@ else:
 
 print("Last update date is " + date_to_compare.isoformat())
 
-with open("gh token.txt") as f:
-    token = f.read().strip()
+token = sys.argv[1].strip()
 
 for plugin in plugins:
     organization, repo = plugin["URL"].strip().replace("https://github.com/", "").split("/")
@@ -139,19 +139,22 @@ for plugin in to_build:
         failed.append(plugin)
         print(f"Took {humanize.naturaldelta(duration)}")
 
-print(color(f"\n {len(succeeded)} of {len(to_build)} built successfully\n").bold)
+print(color(f"\n{len(succeeded)} of {len(to_build)} built successfully\n").bold)
 if len(succeeded) > 0:
     print(color("Succeeded:").green)
     for i in succeeded:
         print(i["plugin"]["Name"])
+        notify_success(token, i)
 if len(failed) > 0:
     print(color("\nFailed:").red)
     for i in failed:
         print(i["plugin"]["Name"])
+        notify_failure(token, i)
 if len(errored) > 0:
     print(color("\nErrored:").red)
     for i in errored:
         print(i["plugin"]["Name"])
+        notify_error(token, i)
 
 if len(failed) > 0 or len(errored) > 0:
     sys.exit(10)
