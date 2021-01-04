@@ -151,7 +151,7 @@ def add_built(plugin, token):
     config[name]["versions"].sort(key=lambda x: x["datecommitted"], reverse=True)
     json.dump(config, config_path.open(mode="w"), indent=2, sort_keys=True)
 
-    repo = git.Repo("Config")
+    repo = git.Repo(script_dir / Path("Config"))
     repo.git.add(all=True)
     repo.git.commit(message="Deploying to builds")
     repo.git.push()

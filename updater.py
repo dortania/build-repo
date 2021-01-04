@@ -159,7 +159,7 @@ if len(errored) > 0:
 if len(failed) > 0 or len(errored) > 0:
     sys.exit(10)
 
-repo = git.Repo("Config")
+repo = git.Repo(config_dir)
 if repo.is_dirty(untracked_files=True):
     repo.git.add(all=True)
     repo.git.commit(message="Deploying to builds")
