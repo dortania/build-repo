@@ -12,7 +12,6 @@ env:
   HAS_OPENSSL_W32BUILD: 0
 jobs:
   build:
-    name: Build
     runs-on: macos-latest
     steps:
       - uses: actions/setup-ruby@v1
