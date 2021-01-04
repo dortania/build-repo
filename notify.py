@@ -17,7 +17,12 @@ def get_current_run_link(token):
     if JOB_LINK:
         return JOB_LINK
     this_run = hammock(f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}/jobs", auth=("github-actions", token)).GET()
-    this_job = [i for i in this_run["jobs"] if i["name"] == os.environ['JOB_NAME']][0]
+    try:
+        this_run.raise_for_status()
+    except requests.HTTPError as err:
+        print(err)
+        return
+    this_job = [i for i in this_run.json()["jobs"] if i["name"] == os.environ['JOB_NAME']][0]
     JOB_LINK = this_job["html_url"]
     return JOB_LINK
 
