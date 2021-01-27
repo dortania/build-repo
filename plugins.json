@@ -125,7 +125,7 @@
       "Version": [
         "awk",
         "/^#define OPEN_CORE_VERSION/ { print substr($3,2,5) }",
-        "Include/Acidanthera/OpenCore.h"
+        "Include/Acidanthera/Library/OcMainLib.h"
       ]
     },
     {
