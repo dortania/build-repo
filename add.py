@@ -82,8 +82,9 @@ def add_built(plugin, token):
 
     release["commit"] = {"sha": commit_info["sha"], "message": commit_info["commit"]["message"], "url": commit_info["html_url"], "tree_url": commit_info["html_url"].replace("/commit/", "/tree/")}
     release["version"] = files["version"]
-    release["dateadded"] = datetime.datetime.now(tz=datetime.timezone.utc).isoformat()
-    release["datecommitted"] = dateutil.parser.parse(commit_info["commit"]["committer"]["date"]).isoformat()
+    release["date_built"] = datetime.datetime.now(tz=datetime.timezone.utc).isoformat()
+    release["date_committed"] = dateutil.parser.parse(commit_info["commit"]["committer"]["date"]).isoformat()
+    release["date_authored"] = dateutil.parser.parse(commit_info["commit"]["author"]["date"]).isoformat()
     release["source"] = "built"
 
     releases_url = hammock("https://api.github.com/repos/dortania/build-repo/releases", auth=("github-actions", token))
@@ -152,7 +153,7 @@ def add_built(plugin, token):
     })
 
     config[name]["versions"].insert(0, release)
-    config[name]["versions"].sort(key=lambda x: x["datecommitted"], reverse=True)
+    config[name]["versions"].sort(key=lambda x: (x["date_committed"], x["date_authored"]), reverse=True)
     json.dump(config, config_path.open(mode="w"), indent=2, sort_keys=True)
 
     repo = git.Repo(script_dir / Path("Config"))

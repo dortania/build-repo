@@ -39,7 +39,7 @@ while True:
         else:
             to_dl = config[target]["versions"][0]
         dl_link = to_dl["links"][dbg]
-        print(f"Downloading {target} version {to_dl['version']} sha {to_dl['commit']['sha']} and date added {to_dl['dateadded']}")
+        print(f"Downloading {target} version {to_dl['version']} sha {to_dl['commit']['sha']} and date built {to_dl['date_built']}")
     except KeyError as error:
         if error.args[0] == target:
             print("Product " + error.args[0] + " not available\n")
