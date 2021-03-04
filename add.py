@@ -25,11 +25,15 @@ def expand_globs(path: str):
 
 def upload_release_asset(release_id, token, file_path: Path):
     upload_url = hammock("https://api.github.com/repos/dortania/build-repo/releases/" + str(release_id), auth=("github-actions", token)).GET().json()
-    upload_url = upload_url["upload_url"]
+    try:
+        upload_url = upload_url["upload_url"]
+    except Exception:
+        print(upload_url)
+        raise
     mime_type = mime.from_file(str(file_path.resolve()))
     if not mime_type[0]:
         print("Failed to guess mime type!")
-        return False
+        raise RuntimeError
 
     asset_upload = hammock(str(purl.Template(upload_url).expand({"name": file_path.name, "label": file_path.name})), auth=("github-actions", token)).POST(
         data=file_path.read_bytes(),
