@@ -63,6 +63,8 @@ for plugin in plugins:
     if releases_url.headers.get("Link"):
         print(releases_url.headers["Link"])
 
+    count = 0
+
     for commit in commits:
         commit_date = dateutil.parser.parse(commit["commit"]["committer"]["date"])
         newer = commit_date >= date_to_compare - datetime.timedelta(days=DATE_DELTA)
@@ -74,13 +76,14 @@ for plugin in plugins:
         for i in config.get(plugin["Name"], {}).get("versions", []):
             if i["commit"]["sha"] == commit["sha"]:
                 not_in_repo = False
-        within_max_outstanding = commits.index(commit) <= MAX_OUTSTANDING_COMMITS
+        within_max_outstanding = count <= MAX_OUTSTANDING_COMMITS
         if (newer and not_in_repo or force_build or (not_in_repo and commits.index(commit) == 0)) and within_max_outstanding:
             if commits.index(commit) == 0:
                 print(plugin["Name"] + " by " + organization + " latest commit (" + commit_date.isoformat() + ") not built")
             else:
                 print(plugin["Name"] + " by " + organization + " commit " + commit["sha"] + " (" + commit_date.isoformat() + ") not built")
             to_build.append({"plugin": plugin, "commit": commit})
+            count += 1
 
     for release in releases:
         release_date = dateutil.parser.parse(release["created_at"])
