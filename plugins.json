@@ -118,7 +118,7 @@
       "Debug File": "Binaries/*DEBUG*.zip",
       "Desc": "OpenCore front end",
       "MacKernelSDK": true,
-      "Max Per Run": 1,
+      "Max Per Run": 2,
       "Name": "OpenCorePkg",
       "Release File": "Binaries/*RELEASE*.zip",
       "Type": "Bootloader",
