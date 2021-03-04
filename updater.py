@@ -120,8 +120,9 @@ for plugin in to_build:
         if files:
             print(f"Files: {files}")
         print(f"{color('Building of').red} {color(plugin['plugin']['Name']).red.bold} {color('errored').red}")
-        errored.append(plugin)
         print(f"Took {humanize.naturaldelta(duration)}")
+        notify_error(token, plugin)
+        errored.append(plugin)
         continue
 
     duration = datetime.datetime.now() - started
@@ -135,29 +136,28 @@ for plugin in to_build:
 
         print("Adding to config...")
         results["config_item"] = add_built(results, token)
-
+        notify_success(token, results)
         succeeded.append(results)
     else:
         print(f"{color('Building of').red} {color(plugin['plugin']['Name']).red.bold} {color('failed').red}")
-        failed.append(plugin)
         print(f"Took {humanize.naturaldelta(duration)}")
+
+        notify_failure(token, plugin)
+        failed.append(plugin)
 
 print(color(f"\n{len(succeeded)} of {len(to_build)} built successfully\n").bold)
 if len(succeeded) > 0:
     print(color("Succeeded:").green)
     for i in succeeded:
         print(i["plugin"]["Name"])
-        notify_success(token, i)
 if len(failed) > 0:
     print(color("\nFailed:").red)
     for i in failed:
         print(i["plugin"]["Name"])
-        notify_failure(token, i)
 if len(errored) > 0:
     print(color("\nErrored:").red)
     for i in errored:
         print(i["plugin"]["Name"])
-        notify_error(token, i)
 
 if len(failed) > 0 or len(errored) > 0:
     sys.exit(10)
