@@ -26,24 +26,39 @@ def matched_key_in_dict_array(array, key, value):
 
 MAX_OUTSTANDING_COMMITS = 3
 DATE_DELTA = 7
+RETRIES_BEFORE_FAILURE = 0
 
 theJSON = json.load(Path("plugins.json").open())
 plugins = theJSON.get("Plugins", [])
-config = json.load(Path("Config/config.json").open())
+
 config_dir = Path("Config").resolve()
+
+config = json.load((config_dir / Path("config.json")).open())
+failures = json.load((config_dir / Path("failures.json")).open())
+
+
+def add_to_failures(plugin):
+    if not failures.get(plugin["plugin"]["Name"]):
+        failures[plugin["plugin"]["Name"]] = {plugin["commit"]["sha"]: 1}
+    elif not failures[plugin["plugin"]["Name"]].get(plugin["commit"]["sha"]):
+        failures[plugin["plugin"]["Name"]][plugin["commit"]["sha"]] = 1
+    else:
+        failures[plugin["plugin"]["Name"]][plugin["commit"]["sha"]] += 1
+
+
+last_updated_path = config_dir / Path("last_updated.txt")
 
 info = []
 to_build = []
 to_add = []
 
-if Path("Config/last_updated.txt").is_file() and Path("Config/last_updated.txt").stat().st_size != 0:
-    date_to_compare = dateutil.parser.parse(Path("Config/last_updated.txt").read_text())
-    Path("Config/last_updated.txt").write_text(datetime.datetime.now(tz=datetime.timezone.utc).isoformat())
+if last_updated_path.is_file() and last_updated_path.stat().st_size != 0:
+    date_to_compare = dateutil.parser.parse(last_updated_path.read_text())
+    last_updated_path.write_text(datetime.datetime.now(tz=datetime.timezone.utc).isoformat())
 else:
-    Path("Config/last_updated.txt").touch()
-    # date_to_compare = datetime.datetime(1970, 1, 1, tzinfo=datetime.timezone.utc)
-    date_to_compare = datetime.datetime(2020, 1, 16, tzinfo=datetime.timezone.utc)
-    Path("last_updated.txt").write_text(date_to_compare.isoformat())
+    last_updated_path.touch()
+    date_to_compare = datetime.datetime(2021, 3, 1, tzinfo=datetime.timezone.utc)
+    last_updated_path.write_text(date_to_compare.isoformat())
 
 print("Last update date is " + date_to_compare.isoformat())
 
@@ -63,27 +78,43 @@ for plugin in plugins:
     if releases_url.headers.get("Link"):
         print(releases_url.headers["Link"])
 
-    count = 0
+    count = 1
 
     for commit in commits:
         commit_date = dateutil.parser.parse(commit["commit"]["committer"]["date"])
         newer = commit_date >= date_to_compare - datetime.timedelta(days=DATE_DELTA)
+
         if isinstance(plugin.get("Force", None), str):
             force_build = commit["sha"] == plugin.get("Force")
         else:
             force_build = plugin.get("Force") and commits.index(commit) == 0
+
         not_in_repo = True
         for i in config.get(plugin["Name"], {}).get("versions", []):
             if i["commit"]["sha"] == commit["sha"]:
                 not_in_repo = False
+
+        hit_failure_threshold = failures.get(plugin["Name"], {}).get(commit["sha"], 0) > RETRIES_BEFORE_FAILURE
         within_max_outstanding = count <= plugin.get("Max Per Run", MAX_OUTSTANDING_COMMITS)
-        if (newer and not_in_repo or force_build or (not_in_repo and commits.index(commit) == 0)) and within_max_outstanding:
+
+        # Do not build if we hit the limit for builds per run for this plugin.
+        if not within_max_outstanding:
+            continue
+
+        # Build if:
+        # Newer than last checked and not in repo, OR not in repo and latest commit
+        # AND must not have hit failure threshold (retries >= RETRIES_BEFORE_FAILURE)
+        # OR Force is set to true (ignores blacklist as this is manual intervention)
+
+        if ((newer and not_in_repo) or (not_in_repo and commits.index(commit) == 0) and not hit_failure_threshold) or force_build:
             if commits.index(commit) == 0:
                 print(plugin["Name"] + " by " + organization + " latest commit (" + commit_date.isoformat() + ") not built")
             else:
                 print(plugin["Name"] + " by " + organization + " commit " + commit["sha"] + " (" + commit_date.isoformat() + ") not built")
             to_build.append({"plugin": plugin, "commit": commit})
             count += 1
+        elif hit_failure_threshold:
+            print(plugin["Name"] + " by " + organization + " commit " + commit["sha"] + " (" + commit_date.isoformat() + ") is hit_failure_threshold!")
 
     for release in releases:
         release_date = dateutil.parser.parse(release["created_at"])
@@ -114,15 +145,18 @@ for plugin in to_build:
         files = builder.build(plugin["plugin"], commithash=plugin["commit"]["sha"])
     except Exception as error:
         duration = datetime.datetime.now() - started
+
         print("An error occurred!")
         print(error)
         traceback.print_tb(error.__traceback__)
         if files:
             print(f"Files: {files}")
+
         print(f"{color('Building of').red} {color(plugin['plugin']['Name']).red.bold} {color('errored').red}")
         print(f"Took {humanize.naturaldelta(duration)}")
         notify_error(token, plugin)
         errored.append(plugin)
+        add_to_failures(plugin)
         continue
 
     duration = datetime.datetime.now() - started
@@ -144,6 +178,7 @@ for plugin in to_build:
 
         notify_failure(token, plugin)
         failed.append(plugin)
+        add_to_failures(plugin)
 
 print(color(f"\n{len(succeeded)} of {len(to_build)} built successfully\n").bold)
 if len(succeeded) > 0:
@@ -159,11 +194,15 @@ if len(errored) > 0:
     for i in errored:
         print(i["plugin"]["Name"])
 
-if len(failed) > 0 or len(errored) > 0:
-    sys.exit(10)
+json.dump(failures, (config_dir / Path("failures.json")).open("w"), indent=2, sort_keys=True)
+
 
 repo = git.Repo(config_dir)
 if repo.is_dirty(untracked_files=True):
     repo.git.add(all=True)
     repo.git.commit(message="Deploying to builds")
     repo.git.push()
+
+
+if len(failed) > 0 or len(errored) > 0:
+    sys.exit(10)
