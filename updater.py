@@ -106,7 +106,7 @@ for plugin in plugins:
         # AND must not have hit failure threshold (retries >= RETRIES_BEFORE_FAILURE)
         # OR Force is set to true (ignores blacklist as this is manual intervention)
 
-        if ((newer and not_in_repo) or (not_in_repo and commits.index(commit) == 0) and not hit_failure_threshold) or force_build:
+        if (((newer and not_in_repo) or (not_in_repo and commits.index(commit) == 0)) and not hit_failure_threshold) or force_build:
             if commits.index(commit) == 0:
                 print(plugin["Name"] + " by " + organization + " latest commit (" + commit_date.isoformat() + ") not built")
             else:
