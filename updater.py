@@ -114,7 +114,7 @@ for plugin in plugins:
             to_build.append({"plugin": plugin, "commit": commit})
             count += 1
         elif hit_failure_threshold:
-            print(plugin["Name"] + " by " + organization + " commit " + commit["sha"] + " (" + commit_date.isoformat() + ") is hit_failure_threshold!")
+            print(plugin["Name"] + " by " + organization + " commit " + commit["sha"] + " (" + commit_date.isoformat() + ") has hit failure threshold!")
 
     for release in releases:
         release_date = dateutil.parser.parse(release["created_at"])
