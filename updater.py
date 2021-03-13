@@ -26,7 +26,7 @@ def matched_key_in_dict_array(array, key, value):
 
 MAX_OUTSTANDING_COMMITS = 3
 DATE_DELTA = 7
-RETRIES_BEFORE_FAILURE = 0
+RETRIES_BEFORE_FAILURE = 2
 
 theJSON = json.load(Path("plugins.json").open())
 plugins = theJSON.get("Plugins", [])
