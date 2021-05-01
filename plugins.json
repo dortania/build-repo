@@ -170,6 +170,15 @@
       "URL": "https://github.com/Mieze/RTL8111_driver_for_OS_X"
     },
     {
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "Lilu kernel extension for blocking unwanted processes and unlocking support for certain features restricted to other hardware",
+      "Lilu": true,
+      "MacKernelSDK": true,
+      "Name": "RestrictEvents",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/RestrictEvents"
+    },
+    {
       "Build Opts": [
         "-target",
         "Package"
