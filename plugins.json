@@ -25,7 +25,7 @@
       ],
       "Debug File": "build/Debug/*.zip",
       "Desc": "An open source kernel extension which applies PatchRAM updates for Broadcom RAMUSB based devices",
-      "Lilu": false,
+      "Lilu": true,
       "MacKernelSDK": true,
       "Name": "BrcmPatchRAM",
       "Release File": "build/Release/*.zip",
