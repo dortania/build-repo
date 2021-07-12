@@ -307,8 +307,7 @@
         "ONLY_ACTIVE_ARCH=NO"
       ],
       "Debug File": "build/Debug/*.zip",
-      "Desc": "OpenCore front end",
-      "MacKernelSDK": true,
+      "Desc": "Device Properties conversion tool",
       "Name": "gfxutil",
       "Pre-Build": [
         {

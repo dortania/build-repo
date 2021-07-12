@@ -1,3 +1,4 @@
+import argparse
 import datetime
 import json
 import sys
@@ -11,8 +12,20 @@ from hammock import Hammock as hammock
 from termcolor2 import c as color
 
 import builder
+import notifier
 from add import add_built
-from notify import notify_error, notify_failure, notify_success
+
+theJSON = json.load(Path("plugins.json").open())
+plugins = theJSON.get("Plugins", [])
+
+parser = argparse.ArgumentParser(description="Builder for hackintosh tools.")
+parser.add_argument("token", required=True, help="GitHub API token")
+parser.add_argument("webhook", required=True, help="Webhook for notifications")
+parser.add_argument("key", required=True, help="Key to encrypt notifications with")
+parser.add_argument("product", default=None, required=False, choices=[i["Name"] for i in plugins], help="Product to test build")
+parser.add_argument("-d", "--disable-push", action="store_true", required=False, help="Disable pushes (for testing)", dest="push")
+
+args = parser.parse_args()
 
 
 def matched_key_in_dict_array(array, key, value):
@@ -28,8 +41,6 @@ MAX_OUTSTANDING_COMMITS = 3
 DATE_DELTA = 7
 RETRIES_BEFORE_FAILURE = 2
 
-theJSON = json.load(Path("plugins.json").open())
-plugins = theJSON.get("Plugins", [])
 
 config_dir = Path("Config").resolve()
 
@@ -66,14 +77,14 @@ token = sys.argv[1].strip()
 
 for plugin in plugins:
     organization, repo = plugin["URL"].strip().replace("https://github.com/", "").split("/")
-    base_url = hammock("https://api.github.com")
+    base_url = hammock("https://api.github.com", auth=("github-actions", token), params={"per_page": 100}).repos(organization, repo)
 
-    releases_url = base_url.repos(organization, repo).releases.GET(auth=("github-actions", token), params={"per_page": 100})
+    releases_url = base_url.releases.GET()
     releases = json.loads(releases_url.text or releases_url.content)
     if releases_url.headers.get("Link"):
         print(releases_url.headers["Link"])
 
-    commits_url = base_url.repos(organization, repo).commits.GET(auth=("github-actions", token), params={"per_page": 100})
+    commits_url = base_url.commits.GET()
     commits = json.loads(commits_url.text or commits_url.content)
     if releases_url.headers.get("Link"):
         print(releases_url.headers["Link"])
@@ -131,6 +142,7 @@ for plugin in plugins:
 
 # Start setting up builder here.
 builder = builder.Builder()
+notifier = notifier.Notifier(args.webhook, args.token, args.key)
 
 failed = []
 succeeded = []
@@ -139,9 +151,9 @@ errored = []
 print(color(f"\nBuilding {len(to_build)} things").bold)
 for plugin in to_build:
     print(f"\nBuilding {color(plugin['plugin']['Name']).bold}")
+    started = datetime.datetime.now()
+    files = None
     try:
-        started = datetime.datetime.now()
-        files = None
         files = builder.build(plugin["plugin"], commithash=plugin["commit"]["sha"])
     except Exception as error:
         duration = datetime.datetime.now() - started
@@ -154,7 +166,7 @@ for plugin in to_build:
 
         print(f"{color('Building of').red} {color(plugin['plugin']['Name']).red.bold} {color('errored').red}")
         print(f"Took {humanize.naturaldelta(duration)}")
-        notify_error(token, plugin)
+        notifier.notify_error(plugin)
         errored.append(plugin)
         add_to_failures(plugin)
         continue
@@ -170,13 +182,13 @@ for plugin in to_build:
 
         print("Adding to config...")
         results["config_item"] = add_built(results, token)
-        notify_success(token, results)
+        notifier.notify_success(results)
         succeeded.append(results)
     else:
         print(f"{color('Building of').red} {color(plugin['plugin']['Name']).red.bold} {color('failed').red}")
         print(f"Took {humanize.naturaldelta(duration)}")
 
-        notify_failure(token, plugin)
+        notifier.notify_failure(plugin)
         failed.append(plugin)
         add_to_failures(plugin)
 
