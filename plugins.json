@@ -95,6 +95,15 @@
     },
     {
       "Debug File": "build/Debug/*.zip",
+      "Desc": "Hyper-V integration support for macOS",
+      "Lilu": true,
+      "MacKernelSDK": true,
+      "Name": "MacHyperVSupport",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/MacHyperVSupport"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
       "Desc": "patches for the Apple NVMe storage driver, IONVMeFamily",
       "Lilu": true,
       "MacKernelSDK": true,
