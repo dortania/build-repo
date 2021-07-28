@@ -90,6 +90,28 @@
       "Desc": "for arbitrary kext, library, and program patching",
       "MacKernelSDK": true,
       "Name": "Lilu",
+      "Pre-Build": [
+        {
+          "args": [
+            "https://raw.githubusercontent.com/acidanthera/ocbuild/master/clang32-bootstrap.sh"
+          ],
+          "name": "Download clang32 Bootstrap Script",
+          "path": "wget"
+        },
+        {
+          "args": [
+            "+x",
+            "clang32-bootstrap.sh"
+          ],
+          "name": "Make Bootstrap Executable",
+          "path": "chmod"
+        },
+        {
+          "args": [],
+          "name": "Run clang32 Bootstrap",
+          "path": "./clang32-bootstrap.sh"
+        }
+      ],
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/acidanthera/Lilu"
     },
