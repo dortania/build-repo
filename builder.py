@@ -170,6 +170,7 @@ class Builder():
         chdir(self.working_dir / Path(name))
         if fat:
             self._bootstrap_clang32(self.working_dir / Path(name))
+            build_opts += ["-arch", "x86_64", "-arch", "ACID32"]
 
         chdir(self.working_dir / Path(name))
         if edk2:
