@@ -1,13 +1,19 @@
+import io
 import plistlib
 import shutil
 import subprocess
 from os import chdir
 from pathlib import Path
+import zipfile
+import stat
+from hammock import Hammock as hammock
 
 
 class Builder():
     def __init__(self):
         self.lilu = {}
+        self.clang32 = None
+        self.edk2 = None
         self.script_dir = Path(__file__).parent.absolute()
 
         self.working_dir = self.script_dir / Path("Temp")
@@ -29,6 +35,38 @@ class Builder():
         else:
             return [Path(path)]
 
+    def _bootstrap_clang32(self, target_dir: Path):
+        chdir(self.working_dir)
+        if not self.clang32:
+            print("Bootstrapping prerequisite: clang32...")
+            if Path("clang32").exists():
+                shutil.rmtree(Path("clang32"))
+            (self.working_dir / Path("clang32")).mkdir()
+            chdir(self.working_dir / Path("clang32"))
+            print("\tDownloading clang32 binary...")
+            zipfile.ZipFile(io.BytesIO(hammock("https://github.com/acidanthera/ocbuild/releases/download/llvm-kext32-latest/clang-12.zip").GET().content)).extractall()
+            print("\tDownloading clang32 scripts...")
+            for tool in ["fix-macho32", "libtool32"]:
+                tool_path = Path(tool)
+                tool_path.write_bytes(hammock(f"https://raw.githubusercontent.com/acidanthera/ocbuild/master/scripts/{tool}").GET().content)
+                tool_path.chmod(tool_path.stat().st_mode | stat.S_IEXEC)
+            self.clang32 = (self.working_dir / Path("clang32")).resolve()
+        (target_dir / Path("clang32")).symlink_to(self.clang32)
+
+    def _bootstrap_edk2(self):
+        chdir(self.working_dir)
+        if not self.edk2:
+            print("Bootstrapping prerequisite: EDK II...")
+            if Path("edk2").exists():
+                shutil.rmtree(Path("edk2"))
+            print("\tCloning the repo...")
+            result = subprocess.run("git clone https://github.com/acidanthera/audk --branch master --depth 1".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+            if result.returncode != 0:
+                print("\tClone failed!")
+                print(result.stdout.decode())
+                return False
+            self.edk2 = True
+
     def _build_lilu(self):
         chdir(self.working_dir)
         if not self.lilu:
@@ -48,6 +86,8 @@ class Builder():
                 print("\tClone of MacKernelSDK failed!")
                 print(result.stdout.decode())
                 return False
+            self._bootstrap_clang32(self.working_dir / Path("Lilu"))
+            chdir(self.working_dir / Path("Lilu"))
             print("\tBuilding debug version...")
             result = subprocess.run("xcodebuild -quiet -configuration Debug".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
@@ -70,6 +110,8 @@ class Builder():
         url = plugin["URL"]
         needs_lilu = plugin.get("Lilu", False)
         needs_mackernelsdk = plugin.get("MacKernelSDK", False)
+        fat = plugin.get("32-bit", False)
+        edk2 = plugin.get("EDK II", False)
         command = plugin.get("Command")
         prebuild = plugin.get("Pre-Build", [])
         postbuild = plugin.get("Post-Build", [])
@@ -124,6 +166,14 @@ class Builder():
                 print("\tClone of MacKernelSDK failed!")
                 print(result.stdout.decode())
                 return False
+
+        chdir(self.working_dir / Path(name))
+        if fat:
+            self._bootstrap_clang32(self.working_dir / Path(name))
+
+        chdir(self.working_dir / Path(name))
+        if edk2:
+            self._bootstrap_edk2()
 
         chdir(self.working_dir / Path(name))
         if prebuild:

@@ -13,9 +13,9 @@ print("Global Settings: ")
 ensure_latest = bool(distutils.util.strtobool(input("Ensure latest? (\"true\" or \"false\") ").lower()))
 unzip = bool(distutils.util.strtobool(input("Unzip automatically and delete zip? (\"true\" or \"false\") ").lower()))
 extract_dir = input("Put files in directory (leave blank for current dir): ") if unzip else None
+dbg = input("Debug or release? (\"debug\" or \"release\") ").lower()
 while True:
     target = input("Enter product to download (case sensitive): ")
-    dbg = input("Debug or release? (\"debug\" or \"release\") ").lower()
     try:
         if ensure_latest:
             organization = repo = None

@@ -28,7 +28,7 @@ jobs:
       - name: Install Python Dependencies
         run: |
           python3 -m pip install -U pip
-          pip3 install hammock python-dateutil datetime termcolor2 purl python-magic humanize gitpython cryptography
+          pip3 install hammock python-dateutil datetime termcolor2 purl python-magic humanize gitpython cryptography macho
       - name: Check Parallel
         run: python3 -u parallel_check.py ${{ secrets.GITHUB_TOKEN }}
       - name: Install Build Dependencies
