@@ -2,7 +2,7 @@ import io
 import plistlib
 import shutil
 import subprocess
-from os import chdir
+from os import chdir, mkdir
 from pathlib import Path
 import zipfile
 import stat
@@ -37,20 +37,24 @@ class Builder():
 
     def _bootstrap_clang32(self, target_dir: Path):
         chdir(self.working_dir)
+        clang_dir = self.working_dir / Path("clang32")
+
         if not self.clang32:
             print("Bootstrapping prerequisite: clang32...")
-            if Path("clang32").exists():
-                shutil.rmtree(Path("clang32"))
-            (self.working_dir / Path("clang32")).mkdir()
-            chdir(self.working_dir / Path("clang32"))
+            if clang_dir.exists():
+                shutil.rmtree(clang_dir)
+            clang_dir.mkdir()
+            chdir(clang_dir)
             print("\tDownloading clang32 binary...")
             zipfile.ZipFile(io.BytesIO(hammock("https://github.com/acidanthera/ocbuild/releases/download/llvm-kext32-latest/clang-12.zip").GET().content)).extractall()
+            (clang_dir / Path("clang-12")).chmod((clang_dir / Path("clang-12")).stat().st_mode | stat.S_IEXEC)
+
             print("\tDownloading clang32 scripts...")
             for tool in ["fix-macho32", "libtool32"]:
                 tool_path = Path(tool)
                 tool_path.write_bytes(hammock(f"https://raw.githubusercontent.com/acidanthera/ocbuild/master/scripts/{tool}").GET().content)
                 tool_path.chmod(tool_path.stat().st_mode | stat.S_IEXEC)
-            self.clang32 = (self.working_dir / Path("clang32")).resolve()
+            self.clang32 = clang_dir.resolve()
         (target_dir / Path("clang32")).symlink_to(self.clang32)
 
     def _bootstrap_edk2(self):
