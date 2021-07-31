@@ -38,6 +38,11 @@
   "RestrictEvents": {
     "1f7c64b714b62dbee0a2c23c125e8ad6bee74781": 3
   },
+  "VirtualSMC": {
+    "5498f3a1ae25468f6f34eda2c1d6e06ddce5ead8": 1,
+    "665fdb88b57270ef0cb1d312fa71c2b1879df5ea": 1,
+    "c6dbc5873a35dc60025190bbf541147aa44d822f": 1
+  },
   "WhateverGreen": {
     "9472d772f885bf83f93a2486a0b74bb5fe0f7996": 3
   },
