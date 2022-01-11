@@ -64,7 +64,7 @@ class Builder():
             if Path("edk2").exists():
                 shutil.rmtree(Path("edk2"))
             print("\tCloning the repo...")
-            result = subprocess.run("git clone https://github.com/acidanthera/audk --branch master --depth 1".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+            result = subprocess.run("git clone https://github.com/acidanthera/audk edk2 --branch master --depth 1".split(), stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tClone failed!")
                 print(result.stdout.decode())
