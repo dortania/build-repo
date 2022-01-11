@@ -348,6 +348,7 @@
       ],
       "Debug File": "build/Debug/*.zip",
       "Desc": "OpenCore front end",
+      "EDK II": true,
       "MacKernelSDK": true,
       "Name": "gfxutil",
       "Release File": "build/Release/*.zip",
