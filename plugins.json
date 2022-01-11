@@ -342,6 +342,8 @@
       "Build Opts": [
         "-arch",
         "x86_64",
+        "-project",
+        "gfxutil.xcodeproj",
         "ONLY_ACTIVE_ARCH=NO"
       ],
       "Debug File": "build/Debug/*.zip",
