@@ -11,6 +11,8 @@ env:
   HAS_OPENSSL_BUILD: 1
   HAS_OPENSSL_W32BUILD: 0
   ACID32: 1
+  HOMEBREW_NO_INSTALL_CLEANUP: 1
+  HOMEBREW_NO_AUTO_UPDATE: 1
 jobs:
   build:
     runs-on: arm64_monterey
@@ -24,9 +26,7 @@ jobs:
           persist-credentials: true
           ref: github-actions
       - name: Set up Python 3
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
+        run: brew install python3 python3-tk
       - name: Install Python Dependencies
         run: |
           python3 -m pip install -U pip
@@ -36,7 +36,7 @@ jobs:
         run: python3 -u parallel_check.py ${{ secrets.GITHUB_TOKEN }}
       - name: Install Build Dependencies
         run: |
-          HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_AUTO_UPDATE=1 brew install acpica libmagic mingw-w64 openssl
+          brew install acpica libmagic mingw-w64 openssl
       - uses: fregante/setup-git-user@3a4c7216882eacd989bf2bc80fabbf9bca971967
       - name: Set Up Working Tree
         uses: actions/checkout@v2
