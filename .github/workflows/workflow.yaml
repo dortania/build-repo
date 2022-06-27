@@ -2,7 +2,7 @@ name: Build
 on:
   push:
     branches:
-      - github-actions
+      - m1
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
@@ -13,11 +13,11 @@ env:
   ACID32: 1
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: m1_monterey
     steps:
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.1.2
+      # - uses: ruby/setup-ruby@v1
+      #   with:
+      #     ruby-version: 3.1.2
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
