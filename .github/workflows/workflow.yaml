@@ -26,7 +26,10 @@ jobs:
           persist-credentials: true
           ref: m1
       - name: Set up Python 3
-        run: brew install python3 python-tk
+        run: |
+          echo "$PATH"
+          echo "$HOMEBREW_PREFIX"
+          brew install python3 python-tk
       - name: Install Python Dependencies
         run: |
           python3 -m pip install -U pip
