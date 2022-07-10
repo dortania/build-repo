@@ -29,6 +29,7 @@ jobs:
         run: |
           echo "$PATH"
           echo "$HOMEBREW_PREFIX"
+          echo "$LDFLAGS"
           brew install python3 python-tk
       - name: Install Python Dependencies
         run: |
