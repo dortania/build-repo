@@ -27,9 +27,7 @@ jobs:
           ref: m1
       - name: Set up Python 3
         run: |
-          echo "$PATH"
-          echo "$HOMEBREW_PREFIX"
-          echo "$LDFLAGS"
+          printenv
           brew install python3 python-tk
       - name: Install Python Dependencies
         run: |
