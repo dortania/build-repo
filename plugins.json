@@ -78,6 +78,15 @@
     },
     {
       "Debug File": "build/Debug/*.zip",
+      "Desc": "Allows reading Embedded Controller fields over 1 byte long",
+      "Lilu": true,
+      "MacKernelSDK": true,
+      "Name": "ECEnabler",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/1Revenger1/ECEnabler"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
       "Desc": "Lilu Kernel extension for enabling Sidecar, NightShift, AirPlay to Mac and Universal Control support",
       "Lilu": true,
       "MacKernelSDK": true,
@@ -145,7 +154,6 @@
       ],
       "Debug File": "Binaries/*DEBUG*.zip",
       "Desc": "OpenCore front end",
-      "Force": true,
       "Max Per Run": 2,
       "Name": "OpenCorePkg",
       "Release File": "Binaries/*RELEASE*.zip",
