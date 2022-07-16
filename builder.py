@@ -138,7 +138,7 @@ class Builder():
         if Path(name).exists():
             shutil.rmtree(Path(name))
         print("\tCloning the repo...")
-        result = subprocess.run(["git", "clone", url + ".git", name], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        result = subprocess.run(["git", "clone", "--recurse-submodules", url + ".git", name], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
         if result.returncode != 0:
             print("\tClone failed!")
             print(result.stdout.decode())
