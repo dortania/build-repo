@@ -2,14 +2,14 @@ import io
 import plistlib
 import shutil
 import subprocess
-from os import chdir, mkdir
+from os import chdir
 from pathlib import Path
 import zipfile
 import stat
 from hammock import Hammock as hammock
 
 
-class Builder():
+class Builder:
     def __init__(self):
         self.lilu = {}
         self.clang32 = None
@@ -27,13 +27,13 @@ class Builder():
         self.build_dir.mkdir()
 
     @staticmethod
-    def _expand_globs(path: str):
-        if "*" in path:
-            path = Path(path)
+    def _expand_globs(p: str):
+        if "*" in p:
+            path = Path(p)
             parts = path.parts[1:] if path.is_absolute() else path.parts
             return list(Path(path.root).glob(str(Path("").joinpath(*parts))))
         else:
-            return [Path(path)]
+            return [Path(p)]
 
     def _bootstrap_clang32(self, target_dir: Path):
         chdir(self.working_dir)
@@ -131,7 +131,9 @@ class Builder():
         chdir(self.working_dir)
 
         if needs_lilu:
-            self._build_lilu()
+            if not self._build_lilu():
+                print("Building of prerequiste: Lilu failed!")
+                return False
 
         chdir(self.working_dir)
         print("Building " + name + "...")
@@ -159,6 +161,7 @@ class Builder():
                 print(result.stdout.decode())
                 return False
         chdir(self.working_dir / Path(name))
+
         if needs_lilu:
             shutil.copytree(self._build_lilu(), self.working_dir / Path(name) / Path("Lilu.kext"))
 
@@ -295,15 +298,17 @@ class Builder():
                 else:
                     print(i + " is not a dir or a file!")
                     continue
+
         if debug_file.is_dir():
-            print(debug_file + " is a dir; please fix!")
+            print(f"{debug_file} is a dir; please fix!")
             shutil.copytree(debug_file, debug_dir / debug_file.name)
         elif debug_file.is_file():
             shutil.copy(debug_file, debug_dir)
 
         if release_file.is_dir():
-            print(release_file + " is a dir; please fix!")
+            print(f"{release_file} is a dir; please fix!")
             shutil.copytree(release_file, release_dir / release_file.name)
         elif release_file.is_file():
             shutil.copy(release_file, release_dir)
+
         return {"debug": debug_dir / Path(debug_file.name), "release": release_dir / Path(release_file.name), "extras": [debug_dir / Path(i.name) for i in extras], "version": version}
