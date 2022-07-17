@@ -296,14 +296,17 @@ class Builder:
         if extras:
             for i in extras:
                 if i.is_dir():
-                    print(i + " is a dir; please fix!")
+                    print(f"\t{i} is a dir; please fix!")
                     shutil.copytree(i, debug_dir / i.name)
                     shutil.copytree(i, release_dir / i.name)
                 elif i.is_file():
                     shutil.copy(i, debug_dir)
                     shutil.copy(i, release_dir)
+                elif not i.exists():
+                    print(f"\t{i} does not exist!")
+                    return False
                 else:
-                    print(i + " is not a dir or a file!")
+                    print(f"\t{i} is not a dir or a file!")
                     continue
 
         if debug_file.is_dir():
