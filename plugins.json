@@ -297,10 +297,11 @@
       "Pre-Build": [
         {
           "args": [
+            "-LfsO",
             "https://raw.githubusercontent.com/acidanthera/VoodooInput/master/VoodooInput/Scripts/bootstrap.sh"
           ],
           "name": "Download VoodooInput Bootstrap Script",
-          "path": "wget"
+          "path": "curl"
         },
         {
           "args": [
@@ -340,10 +341,11 @@
       "Pre-Build": [
         {
           "args": [
+            "-LfsO",
             "https://raw.githubusercontent.com/acidanthera/VoodooInput/master/VoodooInput/Scripts/bootstrap.sh"
           ],
           "name": "Download VoodooInput Bootstrap Script",
-          "path": "wget"
+          "path": "curl"
         },
         {
           "args": [
