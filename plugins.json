@@ -291,19 +291,6 @@
           "cwd": "build/Build/Products/Debug",
           "name": "Zip Debug Directory",
           "path": "zip"
-        },
-        {
-          "args": [
-            "-r",
-            "-X",
-            "debug-dSYM.zip",
-            ".",
-            "-i",
-            "*.dSYM"
-          ],
-          "cwd": "build/Build/Products/Debug",
-          "name": "Zip Debug dSYM",
-          "path": "zip"
         }
       ],
       "Pre-Build": [
