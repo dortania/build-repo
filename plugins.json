@@ -258,6 +258,8 @@
             "-r",
             "-X",
             "release.zip",
+            ".",
+            "-i",
             "*.kext"
           ],
           "cwd": "build/Build/Products/Release",
@@ -269,6 +271,8 @@
             "-r",
             "-X",
             "release-dSYM.zip",
+            ".",
+            "-i",
             "*.dSYM"
           ],
           "cwd": "build/Build/Products/Release",
@@ -280,6 +284,8 @@
             "-r",
             "-X",
             "debug.zip",
+            ".",
+            "-i",
             "*.kext"
           ],
           "cwd": "build/Build/Products/Debug",
@@ -291,6 +297,8 @@
             "-r",
             "-X",
             "debug-dSYM.zip",
+            ".",
+            "-i",
             "*.dSYM"
           ],
           "cwd": "build/Build/Products/Debug",
