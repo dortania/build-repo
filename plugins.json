@@ -248,7 +248,6 @@
       "Debug File": "build/Build/Products/Debug/debug.zip",
       "Desc": "Intel I2C controller and slave device drivers for macOS",
       "Extras": [
-        "build/Build/Products/Release/debug-dSYM.zip",
         "build/Build/Products/Release/release-dSYM.zip"
       ],
       "MacKernelSDK": true,
