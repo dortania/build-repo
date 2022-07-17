@@ -250,6 +250,7 @@
       "Extras": [
         "build/Build/Products/Release/release-dSYM.zip"
       ],
+      "Force": true,
       "MacKernelSDK": true,
       "Name": "VoodooI2C",
       "Post-Build": [
@@ -260,7 +261,7 @@
             "release.zip",
             ".",
             "-i",
-            "*.kext"
+            "./*.kext/*"
           ],
           "cwd": "build/Build/Products/Release",
           "name": "Zip Release Directory",
@@ -273,7 +274,7 @@
             "release-dSYM.zip",
             ".",
             "-i",
-            "*.dSYM"
+            "./*.dSYM/*"
           ],
           "cwd": "build/Build/Products/Release",
           "name": "Zip Release dSYM",
@@ -286,7 +287,7 @@
             "debug.zip",
             ".",
             "-i",
-            "*.kext"
+            "./*.kext/*"
           ],
           "cwd": "build/Build/Products/Debug",
           "name": "Zip Debug Directory",
