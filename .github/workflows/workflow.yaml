@@ -20,6 +20,8 @@ jobs:
       # - uses: ruby/setup-ruby@v1
       #   with:
       #     ruby-version: 3.1.2
+      - name: Check PATH
+        run: echo "$PATH"
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
@@ -39,6 +41,7 @@ jobs:
           brew install acpica libmagic mingw-w64 openssl
           printf "#!/bin/bash\nexit 0" > /usr/local/bin/cldoc
           printf "#!/bin/bash\nexit 0" > /usr/local/bin/cpplint
+          chmod +x /usr/local/bin/cldoc /usr/local/bin/cpplint
       - uses: fregante/setup-git-user@3a4c7216882eacd989bf2bc80fabbf9bca971967
       - name: Set Up Working Tree
         uses: actions/checkout@v2
