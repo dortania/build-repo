@@ -238,6 +238,20 @@
       "URL": "https://github.com/acidanthera/VirtualSMC"
     },
     {
+      "Build Opts": [
+        "-workspace",
+        "VoodooI2C.xcworkspace",
+        "-scheme",
+        "VoodooI2C"
+      ],
+      "Debug File": "build/Build/Products/Debug/debug.zip",
+      "Desc": "Intel I2C controller and slave device drivers for macOS",
+      "Extras": [
+        "build/Build/Products/Release/debug-dSYM.zip",
+        "build/Build/Products/Release/release-dSYM.zip"
+      ],
+      "MacKernelSDK": true,
+      "Name": "VoodooI2C",
       "Post-Build": [
         {
           "args": [
@@ -284,16 +298,6 @@
           "path": "zip"
         }
       ],
-      "Build Opts": [
-        "-workspace",
-        "VoodooI2C.xcworkspace",
-        "-scheme",
-        "VoodooI2C"
-      ],
-      "Debug File": "build/Build/Products/Debug/debug.zip",
-      "Desc": "Intel I2C controller and slave device drivers for macOS",
-      "MacKernelSDK": true,
-      "Name": "VoodooI2C",
       "Pre-Build": [
         {
           "args": [
@@ -318,7 +322,6 @@
         }
       ],
       "Release File": "build/Build/Products/Release/release.zip",
-      "Extras": ["build/Build/Products/Release/debug-dSYM.zip","build/Build/Products/Release/release-dSYM.zip"],
       "Type": "Kext",
       "URL": "https://github.com/VoodooI2C/VoodooI2C"
     },
@@ -359,6 +362,14 @@
           "args": [],
           "name": "Run VoodooInput Bootstrap",
           "path": "./bootstrap.sh"
+        },
+        {
+          "args": [
+            "VoodooInput",
+            "Dependencies/"
+          ],
+          "name": "Move VoodooInput to Dependencies",
+          "path": "mv"
         }
       ],
       "Release File": "build/Release/*.zip",
