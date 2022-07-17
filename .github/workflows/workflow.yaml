@@ -26,19 +26,16 @@ jobs:
           persist-credentials: true
           ref: m1
       - name: Set up Python 3
-        run: |
-          printenv
-          brew install python3 python-tk
+        run: brew install python3 python-tk
       - name: Install Python Dependencies
         run: |
           python3 -m pip install -U pip
-          pip3 install hammock python-dateutil datetime termcolor2 purl python-magic humanize gitpython cryptography macholib
+          pip3 install hammock python-dateutil datetime termcolor2 purl python-magic humanize gitpython cryptography macholib cpplint git+https://github.com/VoodooI2C/cldoc.git
           echo "OVERRIDE_PYTHON3=$(which python3)" >> "$GITHUB_ENV"
       - name: Check Parallel
         run: python3 -u parallel_check.py ${{ secrets.GITHUB_TOKEN }}
       - name: Install Build Dependencies
-        run: |
-          brew install acpica libmagic mingw-w64 openssl
+        run: brew install acpica libmagic mingw-w64 openssl
       - uses: fregante/setup-git-user@3a4c7216882eacd989bf2bc80fabbf9bca971967
       - name: Set Up Working Tree
         uses: actions/checkout@v2
@@ -48,14 +45,9 @@ jobs:
           path: Config
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py ${{ secrets.GITHUB_TOKEN }}
-      #- name: Setup tmate session
-      #  uses: mxschmitt/action-tmate@v2
       - name: Run Builder
         run: python3 -u updater.py ${{ secrets.GITHUB_TOKEN }} ${{ secrets.WEBHOOK_URL }} ${{ secrets.PAYLOAD_KEY }}
         env:
           JOB_NAME: ${{ github.job }}
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py ${{ secrets.GITHUB_TOKEN }}
-      # No longer needed
-      # - name: Sort Config
-      #   run: python3 -u update_config.py
