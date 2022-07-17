@@ -232,10 +232,14 @@ class Builder:
                 print(result.stdout.decode())
                 print("\tReturn code: " + str(result.returncode))
                 return False
+
             print("\tBuilding debug version...")
             args = "xcodebuild -quiet -configuration Debug".split()
             args += build_opts
-            args += ["BUILD_DIR=build/", "-jobs", "1"]
+            args += ["-jobs", "1"]
+            # BUILD_DIR should only be added if we don't have scheme. Otherwise, use -derivedDataPath
+            args += ["-derivedDataPath", "build"] if "-scheme" in build_opts else ["BUILD_DIR=build/"]
+
             result = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tBuild failed!")
