@@ -319,6 +319,14 @@
           "args": [],
           "name": "Run VoodooInput Bootstrap",
           "path": "./bootstrap.sh"
+        },
+        {
+          "args": [
+            "VoodooInput",
+            "Dependencies/"
+          ],
+          "name": "Move VoodooInput to Dependencies",
+          "path": "mv"
         }
       ],
       "Release File": "build/Build/Products/Release/release.zip",
@@ -362,14 +370,6 @@
           "args": [],
           "name": "Run VoodooInput Bootstrap",
           "path": "./bootstrap.sh"
-        },
-        {
-          "args": [
-            "VoodooInput",
-            "Dependencies/"
-          ],
-          "name": "Move VoodooInput to Dependencies",
-          "path": "mv"
         }
       ],
       "Release File": "build/Release/*.zip",
