@@ -87,7 +87,7 @@ for plugin in plugins:
         if isinstance(plugin.get("Force", None), str):
             force_build = commit["sha"] == plugin.get("Force")
         else:
-            force_build = plugin.get("Force", True) and commits.index(commit) == 0
+            force_build = plugin.get("Force") and commits.index(commit) == 0
 
         not_in_repo = True
         for i in config.get(plugin["Name"], {}).get("versions", []):
@@ -169,8 +169,8 @@ for plugin in to_build:
         results["files"] = files
 
         print("Adding to config...")
-        # results["config_item"] = add_built(results, token)
-        # notify_success(token, results)
+        results["config_item"] = add_built(results, token)
+        notify_success(token, results)
         succeeded.append(results)
     else:
         print(f"{color('Building of').red} {color(plugin['plugin']['Name']).red.bold} {color('failed').red}")
@@ -194,14 +194,14 @@ if len(errored) > 0:
     for i in errored:
         print(i["plugin"]["Name"])
 
-# json.dump(failures, (config_dir / Path("failures.json")).open("w"), indent=2, sort_keys=True)
+json.dump(failures, (config_dir / Path("failures.json")).open("w"), indent=2, sort_keys=True)
 
 
-# repo = git.Repo(config_dir)
-# if repo.is_dirty(untracked_files=True):
-#     repo.git.add(all=True)
-#     repo.git.commit(message="Deploying to builds")
-#     repo.git.push()
+repo = git.Repo(config_dir)
+if repo.is_dirty(untracked_files=True):
+    repo.git.add(all=True)
+    repo.git.commit(message="Deploying to builds")
+    repo.git.push()
 
 
 if len(failed) > 0 or len(errored) > 0:
