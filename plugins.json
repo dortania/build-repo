@@ -105,6 +105,15 @@
     },
     {
       "Debug File": "build/Debug/*.zip",
+      "Desc": "Intel Bluetooth Drivers for macOS",
+      "Lilu": true,
+      "MacKernelSDK": true,
+      "Name": "IntelBluetoothFirmware",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/OpenIntelWireless/IntelBluetoothFirmware"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
       "Desc": "Intel Ethernet LAN driver for macOS",
       "Lilu": true,
       "MacKernelSDK": true,
@@ -250,7 +259,6 @@
       "Extras": [
         "build/Build/Products/Release/release-dSYM.zip"
       ],
-      "Force": true,
       "MacKernelSDK": true,
       "Name": "VoodooI2C",
       "Post-Build": [
