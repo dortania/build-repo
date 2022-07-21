@@ -105,6 +105,9 @@
     },
     {
       "Debug File": "build/Debug/*.zip",
+      "Build Opts": [
+        "-alltargets"
+      ],
       "Desc": "Intel Bluetooth Drivers for macOS",
       "Lilu": true,
       "MacKernelSDK": true,
