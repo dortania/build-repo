@@ -2,14 +2,14 @@ import io
 import plistlib
 import shutil
 import subprocess
-from os import chdir, mkdir
+from os import chdir
 from pathlib import Path
 import zipfile
 import stat
 from hammock import Hammock as hammock
 
 
-class Builder():
+class Builder:
     def __init__(self):
         self.lilu = {}
         self.clang32 = None
@@ -27,13 +27,13 @@ class Builder():
         self.build_dir.mkdir()
 
     @staticmethod
-    def _expand_globs(path: str):
-        if "*" in path:
-            path = Path(path)
+    def _expand_globs(p: str):
+        if "*" in p:
+            path = Path(p)
             parts = path.parts[1:] if path.is_absolute() else path.parts
             return list(Path(path.root).glob(str(Path("").joinpath(*parts))))
         else:
-            return [Path(path)]
+            return [Path(p)]
 
     def _bootstrap_clang32(self, target_dir: Path):
         chdir(self.working_dir)
@@ -131,14 +131,16 @@ class Builder():
         chdir(self.working_dir)
 
         if needs_lilu:
-            self._build_lilu()
+            if not self._build_lilu():
+                print("Building of prerequiste: Lilu failed!")
+                return False
 
         chdir(self.working_dir)
         print("Building " + name + "...")
         if Path(name).exists():
             shutil.rmtree(Path(name))
         print("\tCloning the repo...")
-        result = subprocess.run(["git", "clone", url + ".git", name], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        result = subprocess.run(["git", "clone", "--recurse-submodules", url + ".git", name], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
         if result.returncode != 0:
             print("\tClone failed!")
             print(result.stdout.decode())
@@ -159,6 +161,7 @@ class Builder():
                 print(result.stdout.decode())
                 return False
         chdir(self.working_dir / Path(name))
+
         if needs_lilu:
             shutil.copytree(self._build_lilu(), self.working_dir / Path(name) / Path("Lilu.kext"))
 
@@ -219,17 +222,24 @@ class Builder():
             print("\tBuilding release version...")
             args = "xcodebuild -quiet -configuration Release".split()
             args += build_opts
-            args += ["BUILD_DIR=build/", "-jobs", "1"]
+            args += ["-jobs", "1"]
+            # BUILD_DIR should only be added if we don't have scheme. Otherwise, use -derivedDataPath
+            args += ["-derivedDataPath", "build"] if "-scheme" in build_opts else ["BUILD_DIR=build/"]
+
             result = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tBuild failed!")
                 print(result.stdout.decode())
                 print("\tReturn code: " + str(result.returncode))
                 return False
+
             print("\tBuilding debug version...")
             args = "xcodebuild -quiet -configuration Debug".split()
             args += build_opts
-            args += ["BUILD_DIR=build/", "-jobs", "1"]
+            args += ["-jobs", "1"]
+            # BUILD_DIR should only be added if we don't have scheme. Otherwise, use -derivedDataPath
+            args += ["-derivedDataPath", "build"] if "-scheme" in build_opts else ["BUILD_DIR=build/"]
+
             result = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             if result.returncode != 0:
                 print("\tBuild failed!")
@@ -286,24 +296,29 @@ class Builder():
         if extras:
             for i in extras:
                 if i.is_dir():
-                    print(i + " is a dir; please fix!")
+                    print(f"\t{i} is a dir; please fix!")
                     shutil.copytree(i, debug_dir / i.name)
                     shutil.copytree(i, release_dir / i.name)
                 elif i.is_file():
                     shutil.copy(i, debug_dir)
                     shutil.copy(i, release_dir)
+                elif not i.exists():
+                    print(f"\t{i} does not exist!")
+                    return False
                 else:
-                    print(i + " is not a dir or a file!")
+                    print(f"\t{i} is not a dir or a file!")
                     continue
+
         if debug_file.is_dir():
-            print(debug_file + " is a dir; please fix!")
+            print(f"{debug_file} is a dir; please fix!")
             shutil.copytree(debug_file, debug_dir / debug_file.name)
         elif debug_file.is_file():
             shutil.copy(debug_file, debug_dir)
 
         if release_file.is_dir():
-            print(release_file + " is a dir; please fix!")
+            print(f"{release_file} is a dir; please fix!")
             shutil.copytree(release_file, release_dir / release_file.name)
         elif release_file.is_file():
             shutil.copy(release_file, release_dir)
+
         return {"debug": debug_dir / Path(debug_file.name), "release": release_dir / Path(release_file.name), "extras": [debug_dir / Path(i.name) for i in extras], "version": version}
