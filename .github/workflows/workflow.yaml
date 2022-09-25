@@ -17,10 +17,6 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
-      - name: Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.10.0
-        with:
-          access_token: ${{ secrets.GITHUB_TOKEN }}
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1.2
