@@ -15,11 +15,11 @@ env:
   HOMEBREW_NO_AUTO_UPDATE: 1
 jobs:
   build:
-    runs-on: arm64_monterey
+    runs-on: macos-latest
     steps:
-      # - uses: ruby/setup-ruby@v1
-      #   with:
-      #     ruby-version: 3.1.2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1.2
       - name: Check PATH
         run: echo "$PATH"
       - name: Checkout Repository
