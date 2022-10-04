@@ -69,6 +69,15 @@
     },
     {
       "Debug File": "build/Debug/*.zip",
+      "Desc": "Various patches to install Rosetta cryptex",
+      "Lilu": true,
+      "MacKernelSDK": true,
+      "Name": "CryptexFixup",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/CryptexFixup"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
       "Desc": "A Lilu plugin intended to enable debug output in the macOS kernel",
       "Lilu": true,
       "MacKernelSDK": true,
