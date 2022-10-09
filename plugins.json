@@ -143,6 +143,10 @@
       "URL": "https://github.com/acidanthera/Lilu"
     },
     {
+      "Build Opts": [
+        "-target",
+        "Package"
+      ],
       "Debug File": "build/Debug/*.zip",
       "Desc": "Hyper-V integration support for macOS",
       "Lilu": true,
