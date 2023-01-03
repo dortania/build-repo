@@ -8,6 +8,8 @@ import dateutil.parser
 import git
 from hammock import Hammock as hammock
 
+from config_mgmt import save_config
+
 token = sys.argv[1].strip()
 
 
@@ -37,7 +39,9 @@ if config["_version"] == 2:
             if not repo:
                 print("Product " + name + " not found")
                 raise Exception
-            commit_date = dateutil.parser.parse(json.loads(hammock("https://api.github.com").repos(organization, repo).commits(version["commit"]["sha"]).GET(auth=("github-actions", token)).text)["commit"]["author"]["date"])
+            commit_date = dateutil.parser.parse(
+                json.loads(hammock("https://api.github.com").repos(organization, repo).commits(version["commit"]["sha"]).GET(auth=("github-actions", token)).text)["commit"]["author"]["date"]
+            )
             version["date_authored"] = commit_date.isoformat()
             return version
 
@@ -48,8 +52,6 @@ if config["_version"] == 2:
             config[i]["versions"][j] = add_author_date(i, item)
             print(f"Added {config[i]['versions'][j]['date_authored']} for {i} {config[i]['versions'][j]['commit']['sha']}")
 
-        json.dump(config, Path("Config/config.json").open("w"), sort_keys=True)
-
     for i in config:
         for j, item in enumerate(config[i]["versions"]):
             if not config[i]["versions"][j].get("date_committed"):
@@ -58,12 +60,11 @@ if config["_version"] == 2:
                 config[i]["versions"][j]["date_built"] = config[i]["versions"][j].pop("dateadded")
 
         config[i]["versions"].sort(key=lambda x: (x["date_committed"], x["date_authored"]), reverse=True)
-        json.dump(config, Path("Config/config.json").open("w"), sort_keys=True)
 
     config["_version"] = 3
 
 
-json.dump(config, Path("Config/config.json").open("w"), sort_keys=True)
+save_config(config)
 
 repo = git.Repo("Config")
 if repo.is_dirty(untracked_files=True):

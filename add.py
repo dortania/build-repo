@@ -10,6 +10,8 @@ import magic
 import purl
 from hammock import Hammock as hammock
 
+from config_mgmt import save_config
+
 mime = magic.Magic(mime=True)
 
 
@@ -154,7 +156,7 @@ def add_built(plugin, token):
 
     config[name]["versions"].insert(0, release)
     config[name]["versions"].sort(key=lambda x: (x["date_committed"], x["date_authored"]), reverse=True)
-    json.dump(config, config_path.open(mode="w"), sort_keys=True)
+    save_config(config)
 
     repo = git.Repo(script_dir / Path("Config"))
     repo.git.add(all=True)
