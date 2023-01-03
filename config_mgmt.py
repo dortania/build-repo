@@ -1,3 +1,4 @@
+import copy
 import json
 from pathlib import Path
 
@@ -15,12 +16,13 @@ def save_config(data: dict):
         data[plugin]["versions"].sort(key=lambda x: (x["date_committed"], x["date_authored"]), reverse=True)
         json.dump(data[plugin] | {"_version": version}, (plugin_dir / Path(f"{plugin}.json")).open("w"), sort_keys=True)
 
-    latest = data.copy()
+    json.dump(data, (config_dir / Path("config.json")).open("w"), sort_keys=True)
+
+    latest = copy.deepcopy(data)
     for plugin in latest:
         if plugin == "_version":
             continue
         latest[plugin]["versions"] = [latest[plugin]["versions"][0]]
 
-    json.dump(data, (config_dir / Path("config.json")).open("w"), sort_keys=True)
     json.dump(latest, (config_dir / Path("latest.json")).open("w"), sort_keys=True)
     json.dump({"plugins": list(data.keys()), "_version": version}, (config_dir / Path("plugins.json")).open("w"), sort_keys=True)
