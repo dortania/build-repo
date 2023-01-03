@@ -449,7 +449,6 @@
       ],
       "Debug File": "build/Debug/*.zip",
       "Desc": "Synaptic Trackpad driver over SMBus/I2C for macOS",
-      "MacKernelSDK": true,
       "Name": "VoodooSMBus",
       "Release File": "build/Release/*.zip",
       "Type": "Kext",
