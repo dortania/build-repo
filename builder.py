@@ -1,11 +1,12 @@
 import io
 import plistlib
 import shutil
+import stat
 import subprocess
+import zipfile
 from os import chdir
 from pathlib import Path
-import zipfile
-import stat
+
 from hammock import Hammock as hammock
 
 
@@ -160,10 +161,16 @@ class Builder:
                 print("\tObtaining commit hash failed!")
                 print(result.stdout.decode())
                 return False
+            else:
+                commithash = result.stdout.decode().strip()
         chdir(self.working_dir / Path(name))
 
         if needs_lilu:
-            shutil.copytree(self._build_lilu(), self.working_dir / Path(name) / Path("Lilu.kext"))
+            lilu_path = self._build_lilu()
+            if not lilu_path:
+                print("Building of prerequiste: Lilu failed!")
+                return False
+            shutil.copytree(lilu_path, self.working_dir / Path(name) / Path("Lilu.kext"))
 
         chdir(self.working_dir / Path(name))
         if needs_mackernelsdk:
@@ -278,7 +285,7 @@ class Builder:
             print("\tNo version command!")
             return False
         print("\tVersion: " + version)
-        category_type = {"Kext": "Kexts", "Bootloader": "Bootloaders", "Utility": "Utilities", "Other": "Others"}.get(b_type)
+        category_type = {"Kext": "Kexts", "Bootloader": "Bootloaders", "Utility": "Utilities", "Other": "Others"}[b_type]
         print("\tCopying to build directory...")
         extras = []
         # (extras.extend(self._expand_globs(i)) for i in extra_files) if extra_files is not None else None  # pylint: disable=expression-not-assigned

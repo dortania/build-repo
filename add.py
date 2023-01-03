@@ -17,8 +17,8 @@ def hash_file(file_path: Path):
     return hashlib.sha256(file_path.read_bytes()).hexdigest()
 
 
-def expand_globs(path: str):
-    path = Path(path)
+def expand_globs(str_path: str):
+    path = Path(str_path)
     parts = path.parts[1:] if path.is_absolute() else path.parts
     return list(Path(path.root).glob(str(Path("").joinpath(*parts))))
 
