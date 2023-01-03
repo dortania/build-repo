@@ -1,5 +1,6 @@
 import copy
 import json
+import os
 import sys
 import urllib.parse
 from pathlib import Path
@@ -66,8 +67,9 @@ if config["_version"] == 2:
 
 save_config(config)
 
-repo = git.Repo("Config")
-if repo.is_dirty(untracked_files=True):
-    repo.git.add(all=True)
-    repo.git.commit(message="Deploying to builds")
-    repo.git.push()
+if os.environ.get("PROD"):
+    repo = git.Repo("Config")
+    if repo.is_dirty(untracked_files=True):
+        repo.git.add(all=True)
+        repo.git.commit(message="Deploying to builds")
+        repo.git.push()

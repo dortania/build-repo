@@ -1,5 +1,6 @@
 import datetime
 import json
+import os
 import sys
 import traceback
 from pathlib import Path
@@ -197,11 +198,12 @@ if len(errored) > 0:
 json.dump(failures, (config_dir / Path("failures.json")).open("w"), indent=2, sort_keys=True)
 
 
-repo = git.Repo(config_dir)
-if repo.is_dirty(untracked_files=True):
-    repo.git.add(all=True)
-    repo.git.commit(message="Deploying to builds")
-    repo.git.push()
+if os.environ.get("PROD"):
+    repo = git.Repo("Config")
+    if repo.is_dirty(untracked_files=True):
+        repo.git.add(all=True)
+        repo.git.commit(message="Deploying to builds")
+        repo.git.push()
 
 
 if len(failed) > 0 or len(errored) > 0:

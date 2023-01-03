@@ -1,8 +1,6 @@
 name: Build
 on:
   push:
-    branches:
-      - github-actions
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
@@ -13,6 +11,7 @@ env:
   ACID32: 1
   HOMEBREW_NO_INSTALL_CLEANUP: 1
   HOMEBREW_NO_AUTO_UPDATE: 1
+  PROD: ${{ github.ref == 'refs/heads/github-actions' }}
 concurrency:
   group: ${{ github.workflow }}
 jobs:

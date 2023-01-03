@@ -1,6 +1,7 @@
 import datetime
 import hashlib
 import json
+import os
 import time
 from pathlib import Path
 
@@ -158,9 +159,10 @@ def add_built(plugin, token):
     config[name]["versions"].sort(key=lambda x: (x["date_committed"], x["date_authored"]), reverse=True)
     save_config(config)
 
-    repo = git.Repo(script_dir / Path("Config"))
-    repo.git.add(all=True)
-    repo.git.commit(message="Deploying to builds")
-    repo.git.push()
+    if os.environ.get("PROD"):
+        repo = git.Repo(script_dir / Path("Config"))
+        repo.git.add(all=True)
+        repo.git.commit(message="Deploying to builds")
+        repo.git.push()
 
     return release
