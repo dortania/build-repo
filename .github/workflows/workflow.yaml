@@ -17,15 +17,9 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.1.2
-      - name: Check PATH
-        run: echo "$PATH"
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
-          persist-credentials: true
           ref: github-actions
       - name: Set up Python 3
         run: brew install python3 python-tk
@@ -38,15 +32,15 @@ jobs:
         run: python3 -u parallel_check.py ${{ secrets.GITHUB_TOKEN }}
       - name: Install Build Dependencies
         run: | # Needing for VoodooI2C to build without actually having cldoc & cpplint
-          brew install acpica libmagic mingw-w64 openssl
+          brew tap FiloSottile/homebrew-musl-cross
+          brew install libmagic mingw-w64 openssl musl-cross
           printf "#!/bin/bash\nexit 0" > /usr/local/bin/cldoc
           printf "#!/bin/bash\nexit 0" > /usr/local/bin/cpplint
           chmod +x /usr/local/bin/cldoc /usr/local/bin/cpplint
-      - uses: fregante/setup-git-user@3a4c7216882eacd989bf2bc80fabbf9bca971967
+      - uses: fregante/setup-git-user@2e28d51939d2a84005a917d2f844090637f435f8
       - name: Set Up Working Tree
         uses: actions/checkout@v2
         with:
-          persist-credentials: true
           ref: builds
           path: Config
       - name: Check Ratelimit
