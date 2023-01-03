@@ -199,7 +199,7 @@ json.dump(failures, (config_dir / Path("failures.json")).open("w"), indent=2, so
 
 
 if os.environ.get("PROD", "false") == "true":
-    repo = git.Repo("Config")
+    repo = git.Repo(config_dir)
     if repo.is_dirty(untracked_files=True):
         repo.git.add(all=True)
         repo.git.commit(message="Deploying to builds")
