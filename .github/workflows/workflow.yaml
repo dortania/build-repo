@@ -26,8 +26,8 @@ jobs:
         run: brew install python3 python-tk
       - name: Install Python Dependencies
         run: |
-          python3 -m pip install -U pip
-          pip3 install hammock python-dateutil datetime termcolor2 purl python-magic humanize gitpython cryptography macholib
+          python3 -m pip install -U pip wheel
+          python3 -m pip install hammock python-dateutil datetime termcolor2 purl python-magic humanize gitpython cryptography macholib
           echo "OVERRIDE_PYTHON3=$(which python3)" >> "$GITHUB_ENV"
       # - name: Check Parallel
       #   run: python3 -u parallel_check.py ${{ secrets.GITHUB_TOKEN }}
@@ -52,3 +52,9 @@ jobs:
           JOB_NAME: ${{ github.job }}
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        if: ${{ ! env.PROD }}
+        with:
+          name: Build
+          path: Config
