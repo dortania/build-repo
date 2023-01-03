@@ -64,6 +64,11 @@ if config["_version"] == 2:
 
     config["_version"] = 3
 
+# version 3 to 4
+# nothing changed, but the other json files were added
+
+if config["_version"] == 3:
+    config["_version"] = 4
 
 save_config(config)
 

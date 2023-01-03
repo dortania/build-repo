@@ -7,11 +7,13 @@ def save_config(data: dict):
     plugin_dir = config_dir / Path("plugins")
     plugin_dir.mkdir(exist_ok=True)
 
+    version = data["_version"]
+
     for plugin in data:
         if plugin == "_version":
             continue
         data[plugin]["versions"].sort(key=lambda x: (x["date_committed"], x["date_authored"]), reverse=True)
-        json.dump(data[plugin] | {"_version": data["_version"]}, (plugin_dir / Path(f"{plugin}.json")).open("w"), sort_keys=True)
+        json.dump(data[plugin] | {"_version": version}, (plugin_dir / Path(f"{plugin}.json")).open("w"), sort_keys=True)
 
     latest = data.copy()
     for plugin in latest:
@@ -21,4 +23,4 @@ def save_config(data: dict):
 
     json.dump(data, (config_dir / Path("config.json")).open("w"), sort_keys=True)
     json.dump(latest, (config_dir / Path("latest.json")).open("w"), sort_keys=True)
-    json.dump(list(data.keys()), (config_dir / Path("plugins.json")).open("w"), sort_keys=True)
+    json.dump({"plugins": list(data.keys()), "_version": version}, (config_dir / Path("plugins.json")).open("w"), sort_keys=True)
