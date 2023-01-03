@@ -113,10 +113,10 @@
       "URL": "https://github.com/acidanthera/HibernationFixup"
     },
     {
-      "Debug File": "build/Debug/*.zip",
       "Build Opts": [
         "-alltargets"
       ],
+      "Debug File": "build/Debug/*.zip",
       "Desc": "Intel Bluetooth Drivers for macOS",
       "Lilu": true,
       "MacKernelSDK": true,
@@ -441,6 +441,19 @@
       "Release File": "build/Build/Products/Release/*.zip",
       "Type": "Kext",
       "URL": "https://github.com/VoodooSMBus/VoodooRMI"
+    },
+    {
+      "Build Opts": [
+        "-scheme",
+        "VoodooSMBus"
+      ],
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "Synaptic Trackpad driver over SMBus/I2C for macOS",
+      "MacKernelSDK": true,
+      "Name": "VoodooSMBus",
+      "Release File": "build/Release/*.zip",
+      "Type": "Kext",
+      "URL": "https://github.com/VoodooSMBus/VoodooSMBus"
     },
     {
       "Debug File": "build/Debug/*.zip",
