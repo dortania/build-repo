@@ -48,7 +48,7 @@ if config["_version"] == 2:
             config[i]["versions"][j] = add_author_date(i, item)
             print(f"Added {config[i]['versions'][j]['date_authored']} for {i} {config[i]['versions'][j]['commit']['sha']}")
 
-        json.dump(config, Path("Config/config.json").open("w"), indent=2, sort_keys=True)
+        json.dump(config, Path("Config/config.json").open("w"), sort_keys=True)
 
     for i in config:
         for j, item in enumerate(config[i]["versions"]):
@@ -58,12 +58,12 @@ if config["_version"] == 2:
                 config[i]["versions"][j]["date_built"] = config[i]["versions"][j].pop("dateadded")
 
         config[i]["versions"].sort(key=lambda x: (x["date_committed"], x["date_authored"]), reverse=True)
-        json.dump(config, Path("Config/config.json").open("w"), indent=2, sort_keys=True)
+        json.dump(config, Path("Config/config.json").open("w"), sort_keys=True)
 
     config["_version"] = 3
 
 
-json.dump(config, Path("Config/config.json").open("w"), indent=2, sort_keys=True)
+json.dump(config, Path("Config/config.json").open("w"), sort_keys=True)
 
 repo = git.Repo("Config")
 if repo.is_dirty(untracked_files=True):
