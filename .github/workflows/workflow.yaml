@@ -13,6 +13,8 @@ env:
   ACID32: 1
   HOMEBREW_NO_INSTALL_CLEANUP: 1
   HOMEBREW_NO_AUTO_UPDATE: 1
+concurrency:
+  group: ${{ github.workflow }}
 jobs:
   build:
     runs-on: macos-latest
@@ -28,8 +30,8 @@ jobs:
           python3 -m pip install -U pip
           pip3 install hammock python-dateutil datetime termcolor2 purl python-magic humanize gitpython cryptography macholib
           echo "OVERRIDE_PYTHON3=$(which python3)" >> "$GITHUB_ENV"
-      - name: Check Parallel
-        run: python3 -u parallel_check.py ${{ secrets.GITHUB_TOKEN }}
+      # - name: Check Parallel
+      #   run: python3 -u parallel_check.py ${{ secrets.GITHUB_TOKEN }}
       - name: Install Build Dependencies
         run: | # Needing for VoodooI2C to build without actually having cldoc & cpplint
           brew tap FiloSottile/homebrew-musl-cross
