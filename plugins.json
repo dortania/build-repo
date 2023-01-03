@@ -113,10 +113,10 @@
       "URL": "https://github.com/acidanthera/HibernationFixup"
     },
     {
-      "Debug File": "build/Debug/*.zip",
       "Build Opts": [
         "-alltargets"
       ],
+      "Debug File": "build/Debug/*.zip",
       "Desc": "Intel Bluetooth Drivers for macOS",
       "Lilu": true,
       "MacKernelSDK": true,
@@ -441,6 +441,47 @@
       "Release File": "build/Build/Products/Release/*.zip",
       "Type": "Kext",
       "URL": "https://github.com/VoodooSMBus/VoodooRMI"
+    },
+    {
+      "Build Dir": "build/Build/Products/",
+      "Build Opts": [
+        "-scheme",
+        "VoodooSMBus"
+      ],
+      "Debug File": "build/Build/Products/Debug/debug.zip",
+      "Desc": "i2c-i801 driver port for macOS X + ELAN SMBus macOS X driver for Thinkpad T480s, L380, P52",
+      "Name": "VoodooSMBus",
+      "Post-Build": [
+        {
+          "args": [
+            "-r",
+            "-X",
+            "release.zip",
+            ".",
+            "-i",
+            "./*.kext/*"
+          ],
+          "cwd": "build/Build/Products/Release",
+          "name": "Zip Release Directory",
+          "path": "zip"
+        },
+        {
+          "args": [
+            "-r",
+            "-X",
+            "debug.zip",
+            ".",
+            "-i",
+            "./*.kext/*"
+          ],
+          "cwd": "build/Build/Products/Debug",
+          "name": "Zip Debug Directory",
+          "path": "zip"
+        }
+      ],
+      "Release File": "build/Build/Products/Release/release.zip",
+      "Type": "Kext",
+      "URL": "https://github.com/VoodooSMBus/VoodooSMBus"
     },
     {
       "Debug File": "build/Debug/*.zip",

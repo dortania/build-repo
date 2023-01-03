@@ -13,15 +13,15 @@ env:
   HOMEBREW_NO_AUTO_UPDATE: 1
   PROD: ${{ github.ref == 'refs/heads/github-actions' }}
 concurrency:
-  group: ${{ github.workflow }}
+  group: ${{ github.workflow }}-${{ github.ref }}
 jobs:
   build:
     runs-on: macos-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-        with:
-          ref: github-actions
+        # with:
+        #   ref: github-actions
       # - name: Set up Python 3
       #   run: brew install python3 python-tk
       - uses: actions/setup-python@v4
@@ -58,7 +58,7 @@ jobs:
         run: python3 -u check_ratelimit.py ${{ secrets.GITHUB_TOKEN }}
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
-        if: ${{ ! env.PROD }}
+        if: ${{ env.PROD == 'false' }}
         with:
           name: Build
           path: Config
