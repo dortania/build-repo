@@ -67,7 +67,7 @@ if config["_version"] == 2:
 
 save_config(config)
 
-if os.environ.get("PROD"):
+if os.environ.get("PROD", "false") == "true":
     repo = git.Repo("Config")
     if repo.is_dirty(untracked_files=True):
         repo.git.add(all=True)

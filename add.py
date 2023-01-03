@@ -159,7 +159,7 @@ def add_built(plugin, token):
     config[name]["versions"].sort(key=lambda x: (x["date_committed"], x["date_authored"]), reverse=True)
     save_config(config)
 
-    if os.environ.get("PROD"):
+    if os.environ.get("PROD", "false") == "true":
         repo = git.Repo(script_dir / Path("Config"))
         repo.git.add(all=True)
         repo.git.commit(message="Deploying to builds")
