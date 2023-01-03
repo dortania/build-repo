@@ -21,3 +21,4 @@ def save_config(data: dict):
 
     json.dump(data, (config_dir / Path("config.json")).open("w"), sort_keys=True)
     json.dump(latest, (config_dir / Path("latest.json")).open("w"), sort_keys=True)
+    json.dump(list(data.keys()), (config_dir / Path("plugins.json")).open("w"), sort_keys=True)
