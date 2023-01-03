@@ -198,7 +198,7 @@ if len(errored) > 0:
 json.dump(failures, (config_dir / Path("failures.json")).open("w"), indent=2, sort_keys=True)
 
 
-if os.environ.get("PROD"):
+if os.environ.get("PROD", "false") == "true":
     repo = git.Repo("Config")
     if repo.is_dirty(untracked_files=True):
         repo.git.add(all=True)
