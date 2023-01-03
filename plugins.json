@@ -449,7 +449,7 @@
         "VoodooSMBus"
       ],
       "Debug File": "build/Build/Products/Debug/debug.zip",
-      "Desc": "Synaptic Trackpad driver over SMBus/I2C for macOS",
+      "Desc": "i2c-i801 driver port for macOS X + ELAN SMBus macOS X driver for Thinkpad T480s, L380, P52",
       "Name": "VoodooSMBus",
       "Post-Build": [
         {
