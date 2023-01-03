@@ -1,0 +1,13 @@
+# Builder dependencies
+hammock
+python-dateutil
+datetime
+termcolor2
+purl
+python-magic
+humanize
+gitpython
+cryptography
+
+# For ACID32
+macholib
