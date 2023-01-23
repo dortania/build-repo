@@ -182,6 +182,14 @@
       "Debug File": "Binaries/*DEBUG*.zip",
       "Desc": "OpenCore front end",
       "Max Per Run": 2,
+      "Fingerprint": [
+        "IA32/EFI/OC/Drivers",
+        "IA32/EFI/OC/Tools",
+        "IA32/EFI/OC/OpenCore.efi",
+        "X64/EFI/OC/Drivers",
+        "X64/EFI/OC/Tools",
+        "X64/EFI/OC/OpenCore.efi"
+      ],
       "Name": "OpenCorePkg",
       "Release File": "Binaries/*RELEASE*.zip",
       "Type": "Bootloader",

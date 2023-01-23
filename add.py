@@ -130,16 +130,21 @@ def add_built(plugin, token):
     release.setdefault("links", {})
     release.setdefault("fingerprints", {"debug": {}, "release": {}})
 
-    files_to_fingerprint = plugin_info.get("Fingerprints", [f"{name}.kext/Contents/MacOS/{name}"])
+    files_to_fingerprint = plugin_info.get("Fingerprint", [f"{name}.kext/Contents/MacOS/{name}"])
     if files_to_fingerprint is False:
         files_to_fingerprint = []
 
     for i in ["debug", "release"]:
         release["links"][i] = upload_release_asset(release["release"]["id"], token, files[i])
         with zipfile.ZipFile(files[i]) as zip_file:
-            for fingerprint_file in plugin_info.get("Fingerprints", files_to_fingerprint):
-                with zip_file.open(fingerprint_file) as f:
-                    release["fingerprints"][i][fingerprint_file] = hash_bytes(f.read())
+            for fingerprint_path in plugin_info.get("Fingerprints", files_to_fingerprint):
+                zip_info = zip_file.getinfo(fingerprint_path)
+                if zip_info.is_dir():
+                    for file in zip_file.namelist():
+                        if file.startswith(fingerprint_path) and not zip_file.getinfo(file).is_dir():
+                            release["fingerprints"][i][file] = hash_bytes(zip_file.read(file))
+                else:
+                    release["fingerprints"][i][fingerprint_path] = hash_bytes(zip_file.read(fingerprint_path))
 
     if files["extras"]:
         if not release.get("extras", None):
