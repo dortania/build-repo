@@ -88,6 +88,7 @@
     {
       "Debug File": "build/Debug/*.zip",
       "Desc": "Allows reading Embedded Controller fields over 1 byte long",
+      "Force": true,
       "Lilu": true,
       "MacKernelSDK": true,
       "Name": "ECEnabler",
@@ -137,6 +138,7 @@
       "32-bit": true,
       "Debug File": "build/Debug/*.zip",
       "Desc": "for arbitrary kext, library, and program patching",
+      "Force": true,
       "MacKernelSDK": true,
       "Name": "Lilu",
       "Release File": "build/Release/*.zip",
@@ -202,6 +204,7 @@
     {
       "Debug File": "debug.zip",
       "Desc": "OS X open source driver for the Realtek RTL8111/8168 family",
+      "Force": true,
       "Name": "RealtekRTL8111",
       "Post-Build": [
         {
