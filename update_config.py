@@ -1,20 +1,17 @@
-import copy
 import json
-import os
 import sys
-import urllib.parse
 from pathlib import Path
 
 import dateutil.parser
-import git
 from hammock import Hammock as hammock
 
 from config_mgmt import save_config
+from util import config_dir, push_config
 
 token = sys.argv[1].strip()
 
 
-config: dict = json.load(Path("Config/config.json").open())
+config: dict = json.load((config_dir / Path("config.json")).open())
 plugins = json.load(Path("plugins.json").open())
 
 # version 2 to 3
@@ -72,9 +69,4 @@ if config["_version"] == 3:
 
 save_config(config)
 
-if os.environ.get("PROD", "false") == "true":
-    repo = git.Repo("Config")
-    if repo.is_dirty(untracked_files=True):
-        repo.git.add(all=True)
-        repo.git.commit(message="Deploying to builds")
-        repo.git.push()
+push_config()

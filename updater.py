@@ -1,12 +1,10 @@
 import datetime
 import json
-import os
 import sys
 import traceback
 from pathlib import Path
 
 import dateutil.parser
-import git
 import humanize
 from hammock import Hammock as hammock
 from termcolor2 import c as color
@@ -14,6 +12,7 @@ from termcolor2 import c as color
 import builder
 from add import add_built
 from notify import notify_error, notify_failure, notify_success
+from util import config_dir, push_config
 
 
 def matched_key_in_dict_array(array, key, value):
@@ -31,8 +30,6 @@ RETRIES_BEFORE_FAILURE = 2
 
 theJSON = json.load(Path("plugins.json").open())
 plugins = theJSON.get("Plugins", [])
-
-config_dir = Path("Config").resolve()
 
 config = json.load((config_dir / Path("config.json")).open())
 failures = json.load((config_dir / Path("failures.json")).open())
@@ -197,13 +194,7 @@ if len(errored) > 0:
 
 json.dump(failures, (config_dir / Path("failures.json")).open("w"), indent=2, sort_keys=True)
 
-
-if os.environ.get("PROD", "false") == "true":
-    repo = git.Repo(config_dir)
-    if repo.is_dirty(untracked_files=True):
-        repo.git.add(all=True)
-        repo.git.commit(message="Deploying to builds")
-        repo.git.push()
+push_config()
 
 
 if len(failed) > 0 or len(errored) > 0:

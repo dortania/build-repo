@@ -2,9 +2,10 @@ import copy
 import json
 from pathlib import Path
 
+from util import config_dir
+
 
 def save_config(data: dict):
-    config_dir = Path(__file__).parent.absolute() / Path("Config")
     plugin_dir = config_dir / Path("plugins")
     plugin_dir.mkdir(exist_ok=True)
 
