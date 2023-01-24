@@ -100,6 +100,9 @@
   "VoodooI2C": {
     "a065e58c649d7930a090619c1afa6b5e4547c2e6": -995
   },
+  "VoodooRMI": {
+    "f2a78857b6cc7313610414956497cdfa6261fd09": 1
+  },
   "WhateverGreen": {
     "9472d772f885bf83f93a2486a0b74bb5fe0f7996": 3
   },
