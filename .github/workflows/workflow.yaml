@@ -22,12 +22,12 @@ jobs:
         uses: actions/checkout@v2
         # with:
         #   ref: github-actions
-      # - name: Set up Python 3
-      #   run: brew install python3 python-tk
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-          cache: pip
+      - name: Set up Python 3
+        run: brew install python3 python-tk
+#       - uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.10'
+#           cache: pip
       - name: Install Python Dependencies
         run: |
           python3 -m pip install -U pip wheel
@@ -39,9 +39,11 @@ jobs:
         run: | # Needing for VoodooI2C to build without actually having cldoc & cpplint
           brew tap FiloSottile/homebrew-musl-cross
           brew install libmagic mingw-w64 openssl musl-cross
-          printf "#!/bin/bash\nexit 0" > /usr/local/bin/cldoc
-          printf "#!/bin/bash\nexit 0" > /usr/local/bin/cpplint
-          chmod +x /usr/local/bin/cldoc /usr/local/bin/cpplint
+          mkdir wrappers
+          printf "#!/bin/bash\nexit 0" > wrappers/cldoc
+          printf "#!/bin/bash\nexit 0" > wrappers/cpplint
+          chmod +x wrappers/cldoc wrappers/cpplint
+          echo "$(readlink -f wrappers)" >> "$GITHUB_ENV"
       - uses: fregante/setup-git-user@2e28d51939d2a84005a917d2f844090637f435f8
       - name: Set Up Working Tree
         uses: actions/checkout@v2
