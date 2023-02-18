@@ -16,7 +16,7 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: m1_monterey
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
