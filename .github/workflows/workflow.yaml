@@ -43,7 +43,7 @@ jobs:
           printf "#!/bin/bash\nexit 0" > wrappers/cldoc
           printf "#!/bin/bash\nexit 0" > wrappers/cpplint
           chmod +x wrappers/cldoc wrappers/cpplint
-          echo "$(readlink -f wrappers)" >> "$GITHUB_ENV"
+          echo "$(readlink -f wrappers)" >> "$GITHUB_PATH"
       - uses: fregante/setup-git-user@2e28d51939d2a84005a917d2f844090637f435f8
       - name: Set Up Working Tree
         uses: actions/checkout@v2
