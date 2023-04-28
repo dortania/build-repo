@@ -90,30 +90,31 @@ def add_built(plugin, token):
     release["date_authored"] = dateutil.parser.parse(commit_info["commit"]["author"]["date"]).isoformat()
     release["source"] = "built"
 
-    releases_url = hammock("https://api.github.com/repos/dortania/build-repo/releases", auth=("github-actions", token))
+    if os.environ.get("PROD", "false") == "true":
+        releases_url = hammock("https://api.github.com/repos/dortania/build-repo/releases", auth=("github-actions", token))
 
-    # Delete previous releases
-    for i in paginate("https://api.github.com/repos/dortania/build-repo/releases", token):
-        if i["name"] == (name + " " + release["commit"]["sha"][:7]):
-            print("\tDeleting previous release...")
-            releases_url(i["id"]).DELETE()
+        # Delete previous releases
+        for i in paginate("https://api.github.com/repos/dortania/build-repo/releases", token):
+            if i["name"] == (name + " " + release["commit"]["sha"][:7]):
+                print("\tDeleting previous release...")
+                releases_url(i["id"]).DELETE()
+                time.sleep(3)  # Prevent race conditions
+
+        # Delete tags
+        check_tag = hammock("https://api.github.com/repos/dortania/build-repo/git/refs/tags/" + name + "-" + release["commit"]["sha"][:7], auth=("github-actions", token))
+        if check_tag.GET().status_code != 404:
+            print("\tDeleting previous tag...")
+            check_tag.DELETE()
             time.sleep(3)  # Prevent race conditions
 
-    # Delete tags
-    check_tag = hammock("https://api.github.com/repos/dortania/build-repo/git/refs/tags/" + name + "-" + release["commit"]["sha"][:7], auth=("github-actions", token))
-    if check_tag.GET().status_code != 404:
-        print("\tDeleting previous tag...")
-        check_tag.DELETE()
-        time.sleep(3)  # Prevent race conditions
-
-    # Create release
-    create_release = releases_url.POST(json={
-        "tag_name": name + "-" + release["commit"]["sha"][:7],
-        "target_commitish": "builds",
-        "name": name + " " + release["commit"]["sha"][:7]
-    })
-    # print(create_release.json()["id"])
-    release["release"] = {"id": create_release.json()["id"], "url": create_release.json()["html_url"]}
+        # Create release
+        create_release = releases_url.POST(json={
+            "tag_name": name + "-" + release["commit"]["sha"][:7],
+            "target_commitish": "builds",
+            "name": name + " " + release["commit"]["sha"][:7]
+        })
+        # print(create_release.json()["id"])
+        release["release"] = {"id": create_release.json()["id"], "url": create_release.json()["html_url"]}
 
     if not release.get("hashes", None):
         release["hashes"] = {"debug": {"sha256": ""}, "release": {"sha256": ""}}
@@ -125,35 +126,36 @@ def add_built(plugin, token):
         for file in files["extras"]:
             release["hashes"][file.name] = {"sha256": hash_file(file)}
 
-    if not release.get("links", None):
-        release["links"] = {}
+    if os.environ.get("PROD", "false") == "true":
+        if not release.get("links", None):
+            release["links"] = {}
 
-    for i in ["debug", "release"]:
-        release["links"][i] = upload_release_asset(release["release"]["id"], token, files[i])
+        for i in ["debug", "release"]:
+            release["links"][i] = upload_release_asset(release["release"]["id"], token, files[i])
 
-    if files["extras"]:
-        if not release.get("extras", None):
-            release["extras"] = {}
-        for file in files["extras"]:
-            release["extras"][file.name] = upload_release_asset(release["release"]["id"], token, file)
-    new_line = "\n"  # No escapes in f-strings
+        if files["extras"]:
+            if not release.get("extras", None):
+                release["extras"] = {}
+            for file in files["extras"]:
+                release["extras"][file.name] = upload_release_asset(release["release"]["id"], token, file)
+        new_line = "\n"  # No escapes in f-strings
 
-    release["release"]["description"] = f"""**Changes:**
-{release['commit']['message'].strip()}
-[View on GitHub]({release['commit']['url']}) ([browse tree]({release['commit']['tree_url']}))
+        release["release"]["description"] = f"""**Changes:**
+    {release['commit']['message'].strip()}
+    [View on GitHub]({release['commit']['url']}) ([browse tree]({release['commit']['tree_url']}))
 
-**Hashes**:
-**Debug:**
-{files["debug"].name + ': ' + release['hashes']['debug']["sha256"]}
-**Release:**
-{files["release"].name + ': ' + release['hashes']['release']["sha256"]}
-{'**Extras:**' if files["extras"] else ''}
-{new_line.join([(file.name + ': ' + release['hashes'][file.name]['sha256']) for file in files["extras"]]) if files["extras"] else ''}
-""".strip()
+    **Hashes**:
+    **Debug:**
+    {files["debug"].name + ': ' + release['hashes']['debug']["sha256"]}
+    **Release:**
+    {files["release"].name + ': ' + release['hashes']['release']["sha256"]}
+    {'**Extras:**' if files["extras"] else ''}
+    {new_line.join([(file.name + ': ' + release['hashes'][file.name]['sha256']) for file in files["extras"]]) if files["extras"] else ''}
+    """.strip()
 
-    hammock("https://api.github.com/repos/dortania/build-repo/releases/" + str(release["release"]["id"]), auth=("github-actions", token)).POST(json={
-        "body": release["release"]["description"]
-    })
+        hammock("https://api.github.com/repos/dortania/build-repo/releases/" + str(release["release"]["id"]), auth=("github-actions", token)).POST(json={
+            "body": release["release"]["description"]
+        })
 
     config[name]["versions"].insert(0, release)
     config[name]["versions"].sort(key=lambda x: (x["date_committed"], x["date_authored"]), reverse=True)

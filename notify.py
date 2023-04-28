@@ -28,13 +28,14 @@ def get_current_run_link(token):
 
 
 def notify(token, results, status):
-    results = dict(results)
-    results["status"] = status
-    results["job_url"] = get_current_run_link(token)
-    if results.get("files"):
-        results["files"] = {k: str(v) for k, v in results["files"].items()}
+    if os.environ.get("PROD", "false") == "true":
+        results = dict(results)
+        results["status"] = status
+        results["job_url"] = get_current_run_link(token)
+        if results.get("files"):
+            results["files"] = {k: str(v) for k, v in results["files"].items()}
 
-    requests.post(webhook, data=fern.encrypt(json.dumps(results).encode()))
+        requests.post(webhook, data=fern.encrypt(json.dumps(results).encode()))
 
 
 def notify_success(token, results):
