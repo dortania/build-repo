@@ -51,15 +51,6 @@
     },
     {
       "Debug File": "build/Debug/*.zip",
-      "Desc": "Activate efficiency cores in Alder Lake CPUs on macOS",
-      "Lilu": true,
-      "MacKernelSDK": true,
-      "Name": "CpuTopologySync",
-      "Release File": "build/Release/*.zip",
-      "URL": "https://github.com/acidanthera/CpuTopologySync"
-    },
-    {
-      "Debug File": "build/Debug/*.zip",
       "Desc": "Combines functionality of VoodooTSCSync and disabling xcpm_urgency if TSC is not in sync",
       "Lilu": true,
       "MacKernelSDK": true,
@@ -93,6 +84,15 @@
       "Name": "ECEnabler",
       "Release File": "build/Release/*.zip",
       "URL": "https://github.com/1Revenger1/ECEnabler"
+    },
+    {
+      "Debug File": "build/Debug/*.zip",
+      "Desc": "SD host controller support for macOS",
+      "Lilu": true,
+      "MacKernelSDK": true,
+      "Name": "EmeraldSDHC",
+      "Release File": "build/Release/*.zip",
+      "URL": "https://github.com/acidanthera/EmeraldSDHC"
     },
     {
       "Debug File": "build/Debug/*.zip",
