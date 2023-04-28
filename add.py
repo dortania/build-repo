@@ -141,17 +141,17 @@ def add_built(plugin, token):
         new_line = "\n"  # No escapes in f-strings
 
         release["release"]["description"] = f"""**Changes:**
-    {release['commit']['message'].strip()}
-    [View on GitHub]({release['commit']['url']}) ([browse tree]({release['commit']['tree_url']}))
+{release['commit']['message'].strip()}
+[View on GitHub]({release['commit']['url']}) ([browse tree]({release['commit']['tree_url']}))
 
-    **Hashes**:
-    **Debug:**
-    {files["debug"].name + ': ' + release['hashes']['debug']["sha256"]}
-    **Release:**
-    {files["release"].name + ': ' + release['hashes']['release']["sha256"]}
-    {'**Extras:**' if files["extras"] else ''}
-    {new_line.join([(file.name + ': ' + release['hashes'][file.name]['sha256']) for file in files["extras"]]) if files["extras"] else ''}
-    """.strip()
+**Hashes**:
+**Debug:**
+{files["debug"].name + ': ' + release['hashes']['debug']["sha256"]}
+**Release:**
+{files["release"].name + ': ' + release['hashes']['release']["sha256"]}
+{'**Extras:**' if files["extras"] else ''}
+{new_line.join([(file.name + ': ' + release['hashes'][file.name]['sha256']) for file in files["extras"]]) if files["extras"] else ''}
+""".strip()
 
         hammock("https://api.github.com/repos/dortania/build-repo/releases/" + str(release["release"]["id"]), auth=("github-actions", token)).POST(json={
             "body": release["release"]["description"]
