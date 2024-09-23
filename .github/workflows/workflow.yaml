@@ -19,7 +19,7 @@ jobs:
     runs-on: m1_monterey
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         # with:
         #   ref: github-actions
       - name: Set up Python 3
@@ -46,7 +46,7 @@ jobs:
           echo "$(readlink -f wrappers)" >> "$GITHUB_PATH"
       - uses: fregante/setup-git-user@2e28d51939d2a84005a917d2f844090637f435f8
       - name: Set Up Working Tree
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: builds
           path: Config
@@ -59,7 +59,7 @@ jobs:
       - name: Check Ratelimit
         run: python3 -u check_ratelimit.py ${{ secrets.GITHUB_TOKEN }}
       - name: Upload Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         if: ${{ env.PROD == 'false' }}
         with:
           name: Build
